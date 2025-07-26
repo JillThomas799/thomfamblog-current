@@ -6,7 +6,7 @@
 
 generator client {
   provider = "prisma-client-js"
-  output   = "../src/generated/prisma"
+  // output          = "../src/generated/prisma"
 }
 
 datasource db {
@@ -18,7 +18,7 @@ model User {
   id        String   @id @default(cuid())
   email     String   @unique
   username  String   @unique
-  ClerkId   String   @unique /*Which user is in Clerk which is matching with our database*/
+  clerkId   String   @unique
   name      String?
   bio       String?
   image     String?
@@ -40,7 +40,7 @@ model User {
 }
 
 model Post {
-  id        String   @id @default(cuid()) //collision resistant uid
+  id        String   @id @default(cuid())
   authorId  String
   content   String?
   image     String?
@@ -55,7 +55,7 @@ model Post {
 }
 
 model Comment {
-  id        String   @id @default(cuid()) //collision resistant uid
+  id        String   @id @default(cuid())
   content   String
   authorId  String
   postId    String
