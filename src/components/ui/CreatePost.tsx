@@ -51,7 +51,7 @@ function CreatePost() {
             </Avatar>
             <Textarea
               placeholder="Post a comment"
-              className="min-h-[100px] resize-none border-none focus-visible:ring-0 p-0 text-base"
+              className="min-h-[40px] resize-none border-none focus-visible:ring-0 p-0 text-base"
               value={content}
               onChange={(e) => setContent(e.target.value)}
               disabled={isPosting}
