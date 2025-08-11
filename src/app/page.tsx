@@ -18,13 +18,12 @@ export default async function Home() {
   if (!userId) return;
   else {
   return (
-    <div className="grid grid-cols-1 bg-slate-400 p-4">
+    <div className="flex flex-col bg-[#90AEAD] p-4">
     <div>
     <August2025 />
     </div>
     <div className=" lg:grid-cols-10 gap-6"> 
-      
-      <div className="lg:col-span-6">
+       <div className="lg:col-span-6">
         {user ? <CreatePost /> : null}
 
          <div className="space-y-6"> 
