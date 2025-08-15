@@ -1,10 +1,10 @@
 "use client"
 import * as React from "react"
 import Image from 'next/image'
-import blog2025 from './imagesresized/blog2025.png'
-
+import blog2025 from '/public/imagesresized/blog2025.png'
 
 export default function August2025() {
+
   return (
    
 <div>
@@ -34,9 +34,8 @@ export default function August2025() {
          </ul>
          <div className="font-normal">So do feel welcome to add comments, post a suitable photo of your own and be reassured that you have privacy and additional security throughout!</div>
       </div>
-      {/* <Image src={blog2025} width={500} height={500} alt="Picture of the new website" />  */}
-      {/* <img src="./imagesresized/blog2025.png" height={500} width={200} alt="" /> */}
-      </div>
+      <Image src={blog2025} width={500} height={300} alt="Picture of the new website" />     
+    </div>
     </div>
 </div>
 <div className="flex items-start gap-2.5">

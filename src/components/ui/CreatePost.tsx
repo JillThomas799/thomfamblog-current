@@ -8,7 +8,6 @@ import { ImageIcon, Loader2Icon, SendIcon } from "lucide-react";
 import { Button } from "./button";
 import { createPost } from "@/actions/post.action";
 import toast from "react-hot-toast";
-// import ImageUpload from "./ImageUpload";
 import { Avatar, AvatarImage } from "./avatar";
 import ImageUpload from "./ImageUpload";
 
@@ -59,8 +58,10 @@ function CreatePost() {
           </div>
 
           {(showImageUpload || imageUrl) && (
-            <div className="border rounded-lg p-4">
-              <ImageUpload
+            <div className="border rounded-lg p-4 ">
+              <div className = "w-2..."
+             >
+                <ImageUpload              
                 endpoint="postImage"
                 value={imageUrl}
                 onChange={(url) => {
@@ -68,6 +69,7 @@ function CreatePost() {
                   if (!url) setShowImageUpload(false);
                 }}
               />
+              </div>
             </div>
           )} 
 

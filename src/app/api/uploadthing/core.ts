@@ -7,8 +7,8 @@ export const ourFileRouter = {
   // define routes for different upload types
   postImage: f({
     image: {
-      maxFileSize: "4MB",
-      maxFileCount: 6,
+      maxFileSize: "2MB",
+      maxFileCount: 3,
     },
   })
     .middleware(async () => {
