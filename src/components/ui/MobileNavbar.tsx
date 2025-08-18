@@ -39,6 +39,7 @@ function MobileNavbar() {
           <Button variant="ghost" size="icon">
             <MenuIcon className="h-5 w-5" />
           </Button>
+          {/* <Button variant="ghost" className="font-bold text-lg">Menu</Button> */}
         </SheetTrigger>
         <SheetContent side="right" className="w-[300px]">
           <SheetHeader>
