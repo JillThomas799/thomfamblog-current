@@ -14,14 +14,14 @@ export default function August2025() {
         </div>
 
    <div className="flex items-start gap-2.5">
-   <div className="flex flex-col font-normal max-w-full lg:w-1/2 leading-5 p-4 m-8 border-solid border-gray-700 bg-[#FBE9D0] text-[#244845] rounded-e-xl rounded-es-xl dark:bg-[#FBE9D0">
+   <div className="flex flex-col font-normal max-w-full leading-5 p-4 m-8 border-solid border-gray-700 bg-[#FBE9D0] text-[#244845] rounded-e-xl rounded-es-xl dark:bg-[#FBE9D0">
       <div className="flex items-center space-x-2 rtl:space-x-reverse">
          <span className="font-semibold text-lg text-[#244845] dark:text-[#244845]">What is the Thomas Family up to this month?</span>
       </div>
     </div>
 </div>
  <div className="flex flex-row justify-end">
-   <div className="flex flex-col max-w-sm leading-1.5 p-4 m-8 border-gray-800 bg-[#FBE9D0] rounded-tl-3xl rounded-bl-3xl rounded-br-3xl text-xs">
+   <div className="flex flex-col max-w-full leading-1.5 p-4 m-8 border-gray-800 bg-[#FBE9D0] rounded-tl-3xl rounded-bl-3xl rounded-br-3xl text-xs">
       <div className="flex flex-col justify-center">
          <div className="text-lg font-semibold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-normal w-full"> There is plenty in the diary:
@@ -39,7 +39,7 @@ export default function August2025() {
 </div>
     
     <div className="flex items-start gap-2.5">
-   <div className="flex flex-col max-w-full lg:w-1/2 leading-5 p-4 m-8 border-solid border-gray-700 bg-[#FBE9D0] text-[#3C4142]] rounded-e-xl rounded-es-xl dark:bg-[#FBE9D0">
+   <div className="flex flex-col max-w-full leading-5 p-4 m-8 border-solid border-gray-700 bg-[#FBE9D0] text-[#3C4142]] rounded-e-xl rounded-es-xl dark:bg-[#FBE9D0">
       <div className="flex items-center space-x-2 rtl:space-x-reverse">
          <div className="font-semibold text-lg text-[#3C4142] dark:text-[#3C4142]">What's new otherwise this month?</div>
       </div>
@@ -48,7 +48,7 @@ export default function August2025() {
  <div className="flex flex-row justify-end">
    <div className="flex flex-col text-sm md:text-md lg:text-lg xl:text-xl max-w-full leading-1.5 p-4 m-8 border-gray-800 bg-[#FBE9D0] rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">
       <div className="flex flex-col justify-center">
-         <div className="text-lg font-semibold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+         <div className="text-lg max-w-full font-semibold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
          A NEW SECURE INTERACTIVE WEBSITE 
         <div className="font-normal"> which has the following new features
          </div>
@@ -69,16 +69,16 @@ export default function August2025() {
     </div>
 </div>
 <div className="flex items-start gap-2.5">
-   <div className="flex flex-col max-w-full lg:w-1/2 leading-1.5 p-4 m-8 border-gray-500 bg-[#FBE9D0] text-[#244845] rounded-e-xl rounded-es-xl dark:bg-[#FBE9D0">
+   <div className="flex flex-col max-w-full leading-1.5 p-4 m-8 border-gray-500 bg-[#FBE9D0] text-[#244845] rounded-e-xl rounded-es-xl dark:bg-[#FBE9D0">
       <div className="flex items-center space-x-2 rtl:space-x-reverse">
          <span className="font-semibold text-lg text-[#244845] dark:text-[#244845]">What has changed in the software?</span>
       </div>
     </div>
 </div>
  <div className="flex flex-row justify-end">
-   <div className="flex flex-col max-w-full lg:w-1/2  leading-1.5 p-4 m-8 border-gray-800 bg-[#FBE9D0] rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">
+   <div className="flex flex-col max-w-full  leading-1.5 p-4 m-8 border-gray-800 bg-[#FBE9D0] rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">
       <div className="flex flex-col justify-center">
-         <div className="text-lg font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+         <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-normal"> The new app consists of a stack of
          a stack of the following new features
          </div>
