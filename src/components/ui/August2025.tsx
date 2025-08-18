@@ -64,7 +64,7 @@ export default function August2025() {
          <br />
          </div>
       </div>
-      <Image src={blog2025} className="scale-100 hover:scale-150 md:w-full md:scale-100 md:hover:scale-110" alt="Picture of the new website" />    
+      <Image src={blog2025} className="scale-100 hover:scale-150 md:w-full md:scale-100 md:hover:scale-110"  alt="Picture of the new website" />    
     </div>
     </div>
 </div>
