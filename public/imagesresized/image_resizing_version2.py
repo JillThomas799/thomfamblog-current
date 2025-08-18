@@ -4,8 +4,8 @@ import os
 from PIL import Image
 
 
-rootdir = r"C:\Users\JillT\thomfamblog-current\src\app\images"
-destdir = r"C:\Users\JillT\thomfamblog-current\src\app\imagesresized"
+rootdir = r"C:\Users\JillT\thomfamblog-current\public\images"
+destdir = r"C:\Users\JillT\thomfamblog-current\public\imagesresized"
 files = os.listdir(rootdir)
 print(files)
 

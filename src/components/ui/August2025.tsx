@@ -46,9 +46,9 @@ export default function August2025() {
     </div>
 </div>
  <div className="flex flex-row justify-end">
-   <div className="flex flex-col sm:text-sm md:text-md lg:text-lg max-w-full leading-1.5 p-4 m-8 border-gray-800 bg-[#FBE9D0] rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">
+   <div className="flex flex-col text-sm md:text-md lg:text-lg xl:text-xl max-w-full leading-1.5 p-4 m-8 border-gray-800 bg-[#FBE9D0] rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">
       <div className="flex flex-col justify-center">
-         <div className="text-md font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+         <div className="text-lg font-semibold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
          A NEW SECURE INTERACTIVE WEBSITE 
         <div className="font-normal"> which has the following new features
          </div>
@@ -64,7 +64,7 @@ export default function August2025() {
          <br />
          </div>
       </div>
-      <Image src={blog2025} className="scale-100 hover:scale-150" alt="Picture of the new website" />    
+      <Image src={blog2025} className="scale-100 hover:scale-150 md:w-full md:scale-100 md:hover:scale-110" alt="Picture of the new website" />    
     </div>
     </div>
 </div>
