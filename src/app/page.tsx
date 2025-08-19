@@ -3,7 +3,6 @@ import { currentUser } from "@clerk/nextjs/server";
 import { getPosts } from '@/actions/post.action';
 import prisma from "@/lib/prisma";
 import CreatePost from "@/components/ui/CreatePost";
-import WhoToFollow from "@/components/ui/WhoToFollow";
 import PostCard from "@/components/ui/PostCard";
 import August2025 from "@/components/ui/August2025";
 
