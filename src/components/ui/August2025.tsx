@@ -83,8 +83,7 @@ export default function August2025() {
    <div className="flex flex-col max-w-full  leading-1.5 p-4 m-8 border-gray-800 border-solid border-[2px] bg-[#FBE9D0] rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">
       <div className="flex flex-col justify-center">
          <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
-        <div className="font-normal"> The new app consists of a stack of
-         a stack of the following new features
+        <div className="font-normal"> The new app consists of a stack of the following new features
          </div>
          <br />
          <ul className="list-disc list-inside pl-4 space-y-4 font-semibold text-align-left text-[#874F41]">
@@ -100,34 +99,42 @@ export default function August2025() {
       </div>
       </div>
        <div className="flex justify-center">
-   <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-[2px] bg-[#AE9091]">
+   <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2 bg-[#AE9091]">
       <div className="flex flex-col justify-center">
          <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
-        <div className="font-bold py-2 px-12"> 16.8.2025
-        <div className="font-bold"> Day trip to London to visit Westminster Abbey and Buckingham Palace.
-          <div className="flex flex-col border-solid border-[2px] border-[#22311d] bg-[#99b19d] pb-[2%] pt-[2%] mr-auto ml-auto mt-3 justify-center text-center">
-            <div className="mt-[1%] mb-[1%] text-[1.1rem] font-normal block text-[#22311d] bg-[#99b19d]">
+        <div className="font-bold py-2 px-12"> 16.8.2025</div>
+        <div className="font-bold"> Day trip to London to visit Westminster Abbey and Buckingham Palace. </div>
+        <br />
+        <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal">It was a very early 6am departure to head down to London by train today to visit 2 places we had not yet visited: Westminster Abbey and Buckingham Palace. 
+          <br />
+          <br />
+          Jill had spent the previous week trying to cram the whole of the history of Westminster Abbey in terms of its relationship with the surrounding community, the nation and the wider world throughout time with the help of an extremely readable and well-researched book <Link href="https://www.amazon.co.uk/Westminster-Abbey-History-David-Cannadine/dp/1913107477?crid=32WQ8FZCSYRVX&dib=eyJ2IjoiMSJ9.VWfixm0jckHCq2KLAA7_OeQT7wHjFG0EhPoeHr3H7YpFPgiaOxiyd4lXHGSF5kxo54aVXKc7UHF33sc69m9k1gXC1p6BRrBo_yVPRA2q03fyL2sq5_oPqkI2SXLnHIody5YXQ11FMfe68hbBfCTr0lTrEUVxF0_2A8zCrytRxM_L5FAee8GkYELZfn8Qw6UhrNHC_XeEaIFrT2KwdTnd_iXI9sEFqlRWZOy7xGKrs-8.HL2MQKqJBXroVCQ3tXYK28wjNgazkWzA0IXrAYDgW9s&dib_tag=se&keywords=westminster+abbey&qid=1755707556&sprefix=westminster+abbey%2Caps%2C126&sr=8-1" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold" >"Westminster: A Church in History"</Link>  by David Canadine. This is a far more readable book than might be imagined and made a real difference to our getting the most out of our visit to the abbey on this occasion.
+          <br />
+          <br />
+          After lunch we headed over to Buckingham Palace for the summer opening tours for the public. We saw the State Rooms on this occasion. We were not allowed to take photos at all during our visit, so sorry no photos available. The staff at the Palace were fantastic and made everything run (more or less) smoothly. It is well worth a visit whatever your views are on the monarchy.
+           </div>
+          <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
               {" "}
-                Click on the image below to open the album <br /> of our trip to
-                London.
+                <div className="p-2">Click on the image below <br /> to open the album <br /> of our trip to
+                London.</div>
                 <br />
               <br />
               <Link
                 href="https://photos.app.goo.gl/idXTPMWce6LkBwDFA"
                 target="_blank"
-                className="underline text-[#d00067] font-bold"
               >
                 <Image
                   src={ London16082025Titled }
-                  className="block ml-auto mr-auto pointer-events-none h-auto w-[40%] border-solid border-[#22311d] border-[2px] mt-[1%] mb-[1%] rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] sm:w-[70%] md:w-[50%] lg:w-[30%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of Jill in front of Buckingham Palace"
                 />
               </Link>
             </div>{" "}
             
-          </div>
+         
         
-      </div>
+      
       </div>
 </div>
 
