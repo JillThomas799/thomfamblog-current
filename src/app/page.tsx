@@ -17,20 +17,23 @@ export default async function Home() {
   if (!userId) return;
   else {
   return (
-    <div className="flex flex-col bg-[#90AEAD] p-4">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-1 p-2 "> {/*Sets the overall grid layout for the display*/}
+    <div className="col-span-1 md:col-span-2 p-2 gap-3 bg-[#90AEAD]">
     <div>
     <August2025 />
     </div>
-    <div className=" lg:grid-cols-10 gap-6"> 
-       <div className="lg:col-span-6">
+    </div>
+    <div className="md:col-start-3 gap-2"> 
+       <div className="col-span-1">
         {user ? <CreatePost /> : null}
 
-         <div className="space-y-6"> 
+         <div className="space-y-2"> 
           {posts.map((post) => (
             <PostCard key={post.id} post={post} dbUserId={dbUserId} />
           ))} 
         </div>
         </div>
+        
     
        {/* <div className="hidden lg:block lg:col-span-4 sticky top-20">
         <WhoToFollow />

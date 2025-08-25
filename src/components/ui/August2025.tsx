@@ -124,7 +124,7 @@ export default function August2025() {
               >
                 <Image
                   src={ London16082025Titled }
-                  className="block ml-auto mr-auto h-auto w-[70%] sm:w-[70%] md:w-[30%] lg:w-[20%] border-solid border-[#22311d] border-4 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[70%] sm:w-[70%] md:w-[50%] lg:w-[30%] border-solid border-[#22311d] border-4 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of Jill in front of Buckingham Palace"
                 />
               </Link>

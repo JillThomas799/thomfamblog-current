@@ -48,9 +48,10 @@ export default function RootLayout({
                 {/*Container to centre the content*/}
                 <div className="max-w-7xl mx-auto px-4 ">
                   <div className="flex flex-col lg:grid-cols-12 gap-6">
-                    {/* <div className="hidden lg:block lg:col-span-3">
-                      <Sidebar /> Removed sidebar which holds Sidebar.tsx settings. can be restored if needed or desired.
-                    </div> */}
+                    <div className="hidden lg:block lg:col-span-3">
+                      {/* <Sidebar />  */}
+                      {/* Removed sidebar which holds Sidebar.tsx settings. can be restored if needed or desired. */}
+                    </div>
                     <div className="lg:col-span-9">{children}</div>
                   </div>
                 </div>
