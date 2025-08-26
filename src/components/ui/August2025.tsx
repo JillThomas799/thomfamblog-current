@@ -4,6 +4,7 @@ import * as React from "react"
 import Image from 'next/image'
 import blog2025 from '/public/imagesresized/blog2025.png';
 import London16082025Titled from '/public/imagesresized/London16082025Titled.jpg';
+import dinosaurrEvolutionTitled from '/public/imagesresized/dinosaurrEvolutionTitled.jpg';
 // import { Link } from "lucide-react";
 import Link from 'next/link'
 
@@ -124,16 +125,65 @@ export default function August2025() {
               >
                 <Image
                   src={ London16082025Titled }
-                  className="block ml-auto mr-auto h-auto w-[70%] sm:w-[70%] md:w-[50%] lg:w-[30%] border-solid border-[#22311d] border-4 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[50%] lg:w-[40%] border-solid border-[#22311d] border-4 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of Jill in front of Buckingham Palace"
                 />
               </Link>
             </div>{" "}
       </div>
-</div>
+      </div>
+      </div>
 
-    
-     
+      <div className="flex justify-center">
+   <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2 bg-[#FBE9D0]">
+      <div className="flex flex-col justify-center">
+         <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+        <div className="font-bold py-2 px-12"> 22.8.2025</div>
+        <div className="font-bold"> Visit to the Dinosaur rEvolution exhibition at the Tullie Museum, Carlisle</div>
+        <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left">This exhibition by Godwana studios arrived at the Tullie at the end of June and is due to run until mid-September. We had heard good reports of it and so today we braved the school holidays to go and take a closer look ourselves before we lost out chance!
+          <br />
+          <br />
+          Until recently our knowledge of dinosaurs was based almost completely on the assumptions which were made from their internal body structure, their bones and tendon attachments. Bones, scales and armour sometimes fossilize well but soft tissues are more difficult to preserve.
+          <br />
+          <br />
+          However more recently, exceptionally well-preserved fossils from China have shown dinosaur soft tissue for the first time, including quills and feathers. These fossils were found in the Yixian Province of China where "Yixian" refers to several locations and formations in China, the most notable being Yi County in Liaoning Province, which is known for the Yixian Formation and its rich dinosaur fossils. 
+          <br />
+          <br />
+          The artist Luis Vrey has written in a <Link href="https://luisvrey.blog/2024/02/16/the-deed-is-done-dinosaur-revolution-is-a-resounding-success-at-the-horniman-museum/" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold" > blog </Link> relating to the exhibition's showing at the Horniman Museum in London (one of the other sites in the UK where it was showing), and which shows some of the fossil reprints, all about how the exhibition almost did not make it over on time to Europe from Australia and New Zealand. In case you are wondering who Luis Vrey is, Luis Vrey is described by his Wikipedia entry as being best known for his innovative work in the field of dinosaur paleoart. In conjunction with Robert T. Bakker, he promoted awareness of the developing evidence for feathered dinosaurs. Rey is apparently an active member of the Society of Vertebrate Paleontology and of the Dinosaur Society (UK).
+          <br />
+          <br />
+          Additionally, in this <Link href="https://gondwanastudios.com/dinosaur-revolution/" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold" > article </Link>, Godwana studios talks all about the dinosaur revolution exhibition itself.
+          <br />
+          <br />
+          So, is it worth a visit?  Yes, definitely! The Yixian Province fossil reproductions showing feathers and quills are amazing as are the animated feathery dinosaurs. Even Jill, who cannot be described as the greatest dinosaur enthusiast, really enjoyed it and learnt a lot. We were also very fortunate, since we got talking to one of the voluntary assistants at the museum who turned out to be a retired paleontologist who had spent his working life identifying fossil layers for oil companies so they knew where to avoid when drilling, and advising similarly when the Channel Tunnel was being built.
+          <br />
+          <br />
+          The Dinosaur rEvolution exhibition is showing at the Tullie Museum, Carlisle until the 14th September 2025.
+
+           </div>
+           </div>
+           </div>
+           <div className="flex flex-col border-solid border-4 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
+              {" "}
+                <div className="p-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below <br /> to open the album <br /> of our visit to Dinosaur rEvolution.</div>
+                <br />
+              <br />
+              <Link
+                href="https://photos.app.goo.gl/V4FwmKFinH8QFXgFA"
+                target="_blank"
+              >
+                <Image
+                  src={ dinosaurrEvolutionTitled }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[50%] lg:w-[50%] border-solid border-[#22311d] border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of a dinosaur"
+                />
+              </Link>
+            </div>{" "}
+      </div>
+           </div>
+           
+
      </div>
      </div>
      </div>
