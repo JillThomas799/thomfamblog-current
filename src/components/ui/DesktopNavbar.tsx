@@ -16,7 +16,7 @@ async function DesktopNavbar() {
         <Button variant="ghost" className="flex items-center gap-2" asChild>
             <Link href="/">
             <HomeIcon className="w-4 h-4" />
-            <span className="hidden lg:inline font-bold text-lg">Home</span>
+            <span className="hidden lg:inline text-md">Home</span>
             </Link>
         </Button>
 
@@ -39,7 +39,7 @@ async function DesktopNavbar() {
                  </>
         ) : (
             <SignInButton mode="modal">
-                <Button variant="default" className="font-bold text-lg">Sign In/Register</Button> 
+                <Button variant="default" className="text-md">Sign In/Register</Button> 
             </SignInButton> )}
          </div>
   );
