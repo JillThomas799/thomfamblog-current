@@ -5,6 +5,7 @@ import Image from 'next/image'
 import blog2025 from '/public/imagesresized/blog2025.png';
 import London16082025Titled from '/public/imagesresized/London16082025Titled.jpg';
 import dinosaurrEvolutionTitled from '/public/imagesresized/dinosaurrEvolutionTitled.jpg';
+import Muncaster23082025Titled from '/public/imagesresized/Muncaster23082025Titled.jpg';
 // import { Link } from "lucide-react";
 import Link from 'next/link'
 
@@ -182,8 +183,57 @@ export default function August2025() {
             </div>{" "}
       </div>
            </div>
+           </div>
            
+<div className="flex justify-center">
+   <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2 bg-[#FBE9D0]">
+      <div className="flex flex-col justify-center">
+         <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+        <div className="font-bold py-2 px-12"> 23.8.2025</div>
+        <div className="font-bold"> Visit to Muncaster Castle, Cumbria</div>
+        <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left">
+          Today we went to visit Muncaster Castle, which is situated just inland from the west coast of Cumbria. This castle is a must-see site if you are over this way as it has been in the hands of the same family, the Penningtons, for at least the last 800 years , with documented evidence of their presence at Muncaster since 1208, when lands were granted to Alan de Penitone. 
+          <br />
+          <br />
+          There is lots of history associated with the Castle, as amongst other things, tales tell of a Sir John Pennington offering sanctuary to Henry VI in the 1460s as he fled from defeat at the hands of his Yorkist enemies. Henry VI is said to have been so grateful for the refuge offered that he gifted his Venetian glass drinking vessel to Sir John along with a prophecy: ‘as long as this bowl remains unriven, Penningtons from Muncaster never shall be driven.’ Known since as ‘The Luck of Muncaster’. This is kept hidden from view, but a replica can be seen in one of the upstairs bedrooms. The castle also played an important role in defending the borders against the Scots over the centuries. 
+           <br />
+          <br />
+          The 1st Lord Muncaster, on inheriting the castle in the 1780s, transformed the castle under the direction of the architect Anthony Salvin, from a crumbling fortress into a home in which the owners could entertain in the style of that time, complete with an amazing octagonal library, an orangery, sash windows and a folly. Further improvements were made in the nineteenth century.
+           <br />
+          <br />
+          This <Link href="https://open.spotify.com/episode/0WTlyTnvPmgvL4wMaMoTdk?si=4BTz0VdeTAGUzX14b_1s1w" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold" >podcast on Muncaster Castle</Link>, where an American Countess speaks to the owners of the castle, is fascinating and very entertaining but also very enlightening about what life in a castle is really like, <em>(Quick spoiler - it is not like in Downton Abbey)</em>. It also tells of the castle's evolution during the 20th and 21st centuries, including the bears and bear pit in the 1960s and the installation of a ground source heating system for the castle more recently which means the castle is no longer freezing cold. 
+          <br />
+          <br />
+          After a visit around the interior of the castle, in the afternoon we went to the falcon, owl and vulture display, <em>(Ps you have to be ready to duck if necessary)</em>. This was really good fun. We were fortunate in that we did not see any ghosts as apparently the castle is haunted, but if you come back at Halloween, there are lots of spooky events on at the castle including the Muncaster Express, the spooky ghost train, so it might be possible to see one then. 
+          <br />
+          <br />
+          In fact, talking of events, Muncaster Castle is a popular place for events including the Krankenhaus microfestival which was running whilst we were there. Krankenhaus is a small music and arts festival founded by the band Sea Power (formerly called British Sea Power). It is popular for its unique atmosphere, blending music, art, and literature with the natural beauty of its rural location at the castle. It features idiosyncratic modern rock and alternative music, showcasing both established and emerging artists, including Sea Power themselves. We had not hear of Sea Power until now, but apparently they are an Indie band and Elena (who was not with us that day) often listens to them and likes their music. Other festivals throughout the year include a Medieval Muncaster Festival and a sausage festival, amongst others.
+           </div>
+           </div>
+           </div>
+           <div className="flex flex-col border-solid border-4 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
+              {" "}
+                <div className="p-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below to open the album of our visit to Muncaster Castle.</div>
+                <br />
+              <br />
+              <Link
+                href="https://photos.app.goo.gl/FR3yamUJ5JP7wwyC7"
+                target="_blank"
+              >
+                <Image
+                  src={ Muncaster23082025Titled }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[50%] lg:w-[50%] border-solid border-[#22311d] border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of a dinosaur"
+                />
+              </Link>
+            </div>{" "}
+      </div>
+           </div>
 
+
+
+     
      </div>
      </div>
      </div>
