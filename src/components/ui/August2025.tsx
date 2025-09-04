@@ -17,13 +17,13 @@ export default function August2025() {
 <div>
     <div className="mb-20">
         <div className="text-[#244845] text-center font-semibold text-2xl p-3 bg-[#AE9091] border-solid border-2 border-[#22311d]">August 2025
-        </div>
+        </div> {/*End of August month block*/}
 
    <div className="flex items-start gap-2.5">
    <div className="flex flex-col font-normal max-w-full leading-5 p-4 m-8 border-solid  border-gray-800 border-[2px] bg-[#FBE9D0] text-[#244845] rounded-e-xl rounded-es-xl dark:bg-[#FBE9D0">
       <div className="flex items-center space-x-2 rtl:space-x-reverse">
          <span className="font-semibold text-lg text-[#244845] dark:text-[#244845]">What is the Thomas Family up to this month?</span>
-      </div>
+      </div> 
     </div>
 </div>
  <div className="flex flex-row justify-end">
@@ -96,14 +96,15 @@ export default function August2025() {
          <div className="font-normal text-md">So there has been lots to learn and still much more studying to be done... </div>
       </div>
       </div>
-      </div>
-       <div className="flex justify-center">
-   <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2 bg-[#FBE9D0]">
-      <div className="flex flex-col justify-center">
+      </div> {/*End of what has changed in the software*/}
+
+
+      <div className="mb-20">
+      <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2 bg-[#FBE9D0]">
          <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
-        <div className="font-bold py-2 px-12"> 16.8.2025</div>
-        <div className="font-bold"> Day trip to London to visit Westminster Abbey and Buckingham Palace. </div>
-        <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left">It was a very early 6am departure to head down to London by train today to visit 2 places we had not yet visited: Westminster Abbey and Buckingham Palace, or at least, we thought we had not visited them. However, it turns out Bernard and Jill had previously visited Buckingham Palace in 1998 but neither could remember ever going there ......! Must have been work fatigue at the time. 
+        <div className="font-bold py-2 px-12"> 16th August 2025</div>
+        <div className="font-bold mb-4 "> Day trip to London to visit Westminster Abbey and Buckingham Palace. </div>
+        <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left">It was a very early 6am departure to head down to London by train today to visit 2 places we had not yet visited: Westminster Abbey and Buckingham Palace, or at least, we thought we had not visited them. However, it turns out Bernard and Jill had previously visited Buckingham Palace in 1998 but neither could remember ever going there ......! Must have been work fatigue at the time......
           <br />
           <br />
           Jill had spent the previous week trying to cram the whole of the history of Westminster Abbey in terms of its relationship with the surrounding community, the nation and the wider world throughout time with the help of an extremely readable and well-researched book <Link href="https://www.amazon.co.uk/Westminster-Abbey-History-David-Cannadine/dp/1913107477?crid=32WQ8FZCSYRVX&dib=eyJ2IjoiMSJ9.VWfixm0jckHCq2KLAA7_OeQT7wHjFG0EhPoeHr3H7YpFPgiaOxiyd4lXHGSF5kxo54aVXKc7UHF33sc69m9k1gXC1p6BRrBo_yVPRA2q03fyL2sq5_oPqkI2SXLnHIody5YXQ11FMfe68hbBfCTr0lTrEUVxF0_2A8zCrytRxM_L5FAee8GkYELZfn8Qw6UhrNHC_XeEaIFrT2KwdTnd_iXI9sEFqlRWZOy7xGKrs-8.HL2MQKqJBXroVCQ3tXYK28wjNgazkWzA0IXrAYDgW9s&dib_tag=se&keywords=westminster+abbey&qid=1755707556&sprefix=westminster+abbey%2Caps%2C126&sr=8-1" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold" >"Westminster: A Church in History"</Link>  by David Canadine. This is a far more readable book than might be imagined and made a real difference to our getting the most out of our visit to the abbey on this occasion.
@@ -112,7 +113,7 @@ export default function August2025() {
           After lunch we headed over to Buckingham Palace for the summer opening tours for the public. We saw the State Rooms on this occasion. We were not allowed to take photos at all during our visit, so sorry no photos available. The staff at the Palace were fantastic and made everything run (more or less) smoothly. It is well worth a visit whatever your views are on the monarchy.
            </div>
            </div>
-           </div>
+           
           <div className="flex flex-col border-solid border-4 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
               {" "}
@@ -135,12 +136,11 @@ export default function August2025() {
       </div>
       </div>
 
-      <div className="flex justify-center">
-   <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2 bg-[#FBE9D0]">
-      <div className="flex flex-col justify-center">
+  
+   <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2  bg-[#FBE9D0]">
          <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
-        <div className="font-bold py-2 px-12"> 22.8.2025</div>
-        <div className="font-bold"> Visit to the Dinosaur rEvolution exhibition at the Tullie Museum, Carlisle</div>
+        <div className="font-bold py-2 px-12"> 22nd August 2025</div>
+        <div className="font-bold mb-4"> Visit to the Dinosaur rEvolution exhibition at the Tullie Museum, Carlisle</div>
         <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left">This exhibition by Godwana studios arrived at the Tullie at the end of June and is due to run until mid-September. We had heard good reports of it and so today we braved the school holidays to go and take a closer look ourselves before we lost out chance!
           <br />
           <br />
@@ -160,10 +160,8 @@ export default function August2025() {
           <br />
           <br />
           The Dinosaur rEvolution exhibition is showing at the Tullie Museum, Carlisle until the 14th September 2025.
-
            </div>
-           </div>
-           </div>
+           
            <div className="flex flex-col border-solid border-4 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
               {" "}
@@ -185,12 +183,11 @@ export default function August2025() {
            </div>
            </div>
            
-<div className="flex justify-center">
-   <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2 bg-[#FBE9D0]">
-      <div className="flex flex-col justify-center">
+
+   <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2  bg-[#FBE9D0]">     
          <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
-        <div className="font-bold py-2 px-12"> 23.8.2025</div>
-        <div className="font-bold"> Visit to Muncaster Castle, Cumbria</div>
+        <div className="font-bold py-2 px-12"> 23rd August 2025</div>
+        <div className="font-bold mb-4"> Visit to Muncaster Castle, Cumbria</div>
         <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left">
           Today we went to visit Muncaster Castle, which is situated just inland from the west coast of Cumbria. This castle is a must-see site if you are over this way as it has been in the hands of the same family, the Penningtons, for at least the last 800 years , with documented evidence of their presence at Muncaster since 1208, when lands were granted to Alan de Penitone. 
           <br />
@@ -209,8 +206,8 @@ export default function August2025() {
           <br />
           In fact, talking of events, Muncaster Castle is a popular place for events including the Krankenhaus microfestival which was running whilst we were there. Krankenhaus is a small music and arts festival founded by the band Sea Power (formerly called British Sea Power). It is popular for its unique atmosphere, blending music, art, and literature with the natural beauty of its rural location at the castle. It features idiosyncratic modern rock and alternative music, showcasing both established and emerging artists, including Sea Power themselves. We had not hear of Sea Power until now, but apparently they are an Indie band and Elena (who was not with us that day) often listens to them and likes their music. Other festivals throughout the year include a Medieval Muncaster Festival and a sausage festival, amongst others.
            </div>
-           </div>
-           </div>
+         
+         
            <div className="flex flex-col border-solid border-4 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
               {" "}
@@ -229,14 +226,39 @@ export default function August2025() {
               </Link>
             </div>{" "}
       </div>
-           </div>
-
-
-
+           </div> {/*End of individual dated entry photo album block*/}
      
-     </div>
-     </div>
-     </div>
+     </div>  {/*End of individual dated entry design and color template block*/}
+     </div>  {/*End of individual dated entry block*/}
+
+     <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2  bg-[#FBE9D0]">
+         <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+        <div className="font-bold py-2 px-12"> 30th August 2025</div>
+        <div className="font-bold mb-4"> Portsmouth Historic Dockyard day 1: Guided Tour of the Mary Rose and all aboard HMS Victory  with Lord Horatio Nelson to head out to the Battle of Trafalgar against the French and Spanish.</div>
+        <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left"> Well today, we were well-settled into our accommodation for the duration of our stay and it was time to head off to Portsmouth Historic Dockyard for the first of our 3 visits over the coming days. 
+           </div> {/*End of news content block*/} 
+
+           
+           </div> {/*End of individual dated entry design and color template block*/}
+           </div>  {/*End of individual dated entry block*/}
+     </div> {/*End of August block*/}
+
+{/*Start of September block*/}
+<div className="mb-20">
+        <div className="text-[#FBE9D0] text-center font-semibold text-2xl p-3 bg-[#836A58] border-solid border-2 border-[#22311d]">September 2025
+        </div> {/*End of September month block*/}
+
+         <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2 bg-[#9e5e0d]">
+         <div className="flex flex-col justify-center text-lg max-w-full font-bold text-[#FBE9D0] text-center dark:text-[#FBE9D0]  items-center">
+        <div className="font-bold py-2 px-12"> 1st September 2025</div>{/*End of news date block*/} 
+        <div className="font-bold mb-4"> Visit to Winchester to see Winchester Cathedral, Wolvesey Palace and other Winchester sites </div>{/*End of news header block*/} 
+        <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left">
+          </div> {/*End of news content block*/}
+          </div> {/*End of individual dated entry design and color template block*/}
+          </div> {/*End of individual dated entry block*/}
+        </div> {/*End of September block*/}
+
+
      </div>
 );
 }
