@@ -6,6 +6,7 @@ import blog2025 from '/public/imagesresized/blog2025.png';
 import London16082025Titled from '/public/imagesresized/London16082025Titled.jpg';
 import dinosaurrEvolutionTitled from '/public/imagesresized/dinosaurrEvolutionTitled.jpg';
 import Muncaster23082025Titled from '/public/imagesresized/Muncaster23082025Titled.jpg';
+import HMSVictoryTitled from '/public/imagesresized/HMSVictoryTitled.jpg';
 import Link from 'next/link'
 
 
@@ -103,10 +104,58 @@ export default function August2025() {
         <div className="font-bold py-2 px-12"> 30th August 2025</div>
         <div className="font-bold mb-4"> Portsmouth Historic Dockyard day 1: Guided Tour of the Mary Rose and all aboard HMS Victory  with Lord Horatio Nelson to head out to the Battle of Trafalgar against the French and Spanish.</div>
         <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left"> Well today, we were well-settled into our accommodation for the duration of our stay and it was time to head off to Portsmouth Historic Dockyard for the first of our 3 visits over the coming days. 
+          <br />
+          <br />
+          Firstly, we were off to see the Mary Rose, the ship which Bernard had long wished to visit and which had been recommended to us by others as well-worth seeing. So here we were, booked on to a guided tour and clasping our guide book in hand.
+          <br />
+          <br />
+          For a little background history, the Mary Rose was one of King Henry VIII's flagships in Tudor times, the other being the Peter Pomegranate. Mary Rose was built for him in 1510 - 1511 and serving for 34 years before sinking in battle against the French (armed with 225 ships and 30,000 men to Henry's 80 ships) in the Battle of the Solent on the 19th July,1545. It remains unclear as to exactly why it capsized, although there are a number of credible theories and a primary source report from one of the subsequent survivors. There were 500 men on board when it sank of whom only 35 survived. 
+          <br />
+          <br />
+          The boat was unable to be raised by King Henry VIII despite his best efforts, and over the years silted over and its location became indiscernible until in 1971, 4 timbers were discovered in a line and these were subsequently discovered to be those of the port side of the Mary Rose. On the 11th October 1982 she was finally successfully raised from the sea bed.
+          <br />
+          <br />
+          The anaerobic environment created by the silt meant that the ship contained thousands of preserved items from an active fighting warship in tudor times and careful preservation and study with up to date techniques has enable the teams involved to extract a wealth of knowledge about life at that time. The Mary Rose exhibition displays some of the key items.
+          <br />
+          <br />
+          This <Link href="https://open.spotify.com/episode/0duZBdwzqWbzvh9me0Y4EA?si=luOZrDYQRzWH-U101WhWug" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Not Just the Tudors</Link> podcast talks about the sinking of the Mary Rose. There is far too much that can be related about the Mary Rose, its discovery and subsequent salvage and restoration to discuss here but it is well worth the visit and finding out more.
+
+                     <div className="flex flex-col border-solid border-4 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
+              {" "}
+                <div className="p-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below to open the album of our Day 1 visit to Portsmouth Historic: - Mary Rose Exhibition and HMS Victory.</div>
+                <br />
+              <br />
+              <Link
+                href="https://photos.app.goo.gl/S2AUNic8V9jDNx3w8"
+                target="_blank"
+              >
+                <Image
+                  src={ HMSVictoryTitled }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[50%] lg:w-[50%] border-solid border-[#22311d] border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of HMS Victory"
+                />
+              </Link>
+            </div>{" "}           
+      </div>
+          <br />
+       In the afternoon it was on to HMS Victory, the flagship of the Battle of Trafalgar in 1805 under Admiral Nelson. HMS Victory is the world's oldest naval vessel still in commission. By the time of the Battle of Trafalgar however, it already had been in many conflicts including the: Anglo-French War (1778 - 1783),  American Revolutionary War / American War of Independence (1775-1783) and the French Revolutionary Wars 1792 - 1797.
+       <br />
+       <br />
+        HMS Victory was commissioned in the middle of the Seven Years War/French and Indian War (1756-1763). This war was fought principally at sea and HMS Victory was commissioned to be a 'First-Rate ship' ie. one that had at least 100 guns. By the time she was launched for the first time in 1765, the Seven Years War had ended and there was no immediate use for her for the next 12 years.She then went on to serve in numerous conflicts and had after 1797 been considered 'Battle Weary' and unfit for service. At which point she was fitted out as a hospital ship. However in 1799, HMS Impregnable wass lost and the fleet needed a replacement first-rate ship. A 3 year year refit of HMS Victory known as 'The Great Repair' was undertaken. 
+       <br />
+       <br />
+       On the 21st October 1805, she sailed into battle to face the French and Spanish ships which were under the command of Vice_admiral Pierre-Charles-Jean-Baptiste-Silvestre de Villeneuve in the Battle of Trafalgar. Admiral Horatio Nelson died during this battle but the French and Spanish fleet was defeated by the British Royal Navy. 
+       <br />
+       <br />
+       The tour of HMS Victory is accompanied by an audio-tour explaining about the various areas of the ship and taking you through the events of the 21st October 2025. The ship today has been refitted to largely look like it did at the time of the Battle of Trafalgar. HMS Victory has throughout her active service often had her timbers and fittings replaced and this is no different today where, due to death-watch beetle, weather, rot, and wear and tear from the hundreds of visitors each year, she is in the process of having her outer hull planking replaced and repairs made to her internal structure.
+       <br />
+       <br />
+       Finally, to see us out of this blog entry, HMS Victory will take us out with <Link href="https://youtu.be/f_FpYLnNhVw?si=Pua9zvxv9O4d_HZC" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">HMS Victory in action, firing rolling broadside</Link>.
+
            </div> {/*End of news content block*/}            
            </div> {/*End of individual dated entry design and color template block*/}
            </div>  {/*End of individual dated entry block*/}
-
 
        <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2  bg-[#FBE9D0]">     
          <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
