@@ -5,7 +5,8 @@ import prisma from "@/lib/prisma";
 import CreatePost from "@/components/ui/CreatePost";
 import PostCard from "@/components/ui/PostCard";
 import August2025 from "@/components/ui/August2025";
-import September2025 from "@/components/ui/September2025";
+// import September2025 from "@/components/ui/September2025";
+// import SearchBlogs from "@/components/ui/searchBlogs";
 
 export default async function Home() {
   const user = await currentUser();
@@ -19,10 +20,16 @@ export default async function Home() {
   else {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-1 p-2 "> {/*Sets the overall grid layout for the display*/}
+    <div className="col-span-1 md:col-span-2">
+      <div className="mt-2 md:mt-1 flex items-center justify-between gap-2 mb-12">
+   {/* <SearchBlogs /> */}
+    </div>
+    </div> 
+    
     <div className="col-span-1 md:col-span-2 p-2 gap-3 bg-[#90AEAD]">
     <div>
-    <September2025 />
-    <August2025 />    
+    {/* <September2025 /> */}
+    <August2025 />
     </div>
     </div>
     <div className="md:col-start-3 gap-2"> 
@@ -36,10 +43,6 @@ export default async function Home() {
         </div>
         </div>
         
-    
-       {/* <div className="hidden lg:block lg:col-span-4 sticky top-20">
-        <WhoToFollow />
-      </div> */}
     </div>
     </div>
   );

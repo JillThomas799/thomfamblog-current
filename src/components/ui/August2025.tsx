@@ -18,92 +18,12 @@ export default function August2025() {
     <div className="mb-20">
         <div className="text-[#244845] text-center font-semibold text-2xl p-3 bg-[#AE9091] border-solid border-2 border-[#22311d]">August 2025
         </div> {/*End of August month block*/}
-
-   <div className="flex items-start gap-2.5">
-   <div className="flex flex-col font-normal max-w-full leading-5 p-4 m-8 border-solid  border-gray-800 border-[2px] bg-[#FBE9D0] text-[#244845] rounded-e-xl rounded-es-xl dark:bg-[#FBE9D0">
-      <div className="flex items-center space-x-2 rtl:space-x-reverse">
-         <span className="font-semibold text-lg text-[#244845] dark:text-[#244845]">What is the Thomas Family up to this month?</span>
-      </div> 
-    </div>
-</div>
- <div className="flex flex-row justify-end">
-   <div className="flex flex-col max-w-full leading-1.5 p-4 m-8 border-solid  border-gray-800 border-[2px] bg-[#FBE9D0] rounded-tl-3xl rounded-bl-3xl rounded-br-3xl text-xs">
-      <div className="flex flex-col justify-center">
-         <div className="text-lg font-semibold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
-        <div className="font-bold w-full"> There is plenty in the diary:
-          <br />
-         </div>
-         <ul className="list-disc list-inside space-y-2 pl-4 text-align-left text-md text-[#874F41]">
-          <li>Trip to London for the day to visit Westminster Abbey and Buckingham Palace.</li>          
-          <li>Short break in Southsea near Portsmouth, hopefully to see Portsmouth Historic Dockyards including the Marie Rose and HMS Victory, Stonehenge and Winchester.</li>          
-          <li>Harry prepares for his new job-start in September to become a Digital and Technology professional.</li>        
-          <li>Elena's partner comes to tea.</li>          
-         </ul>
-      </div>
-      </div>
-    </div>
-</div>
-    
-    <div className="flex items-start gap-2.5">
-   <div className="flex flex-col max-w-full leading-5 p-4 m-8 border-solid  border-gray-800 border-[2px] bg-[#FBE9D0] text-[#3C4142]] rounded-e-xl rounded-es-xl dark:bg-[#FBE9D0">
-      <div className="flex items-center space-x-2 rtl:space-x-reverse">
-         <div className="font-semibold text-lg text-[#3C4142] dark:text-[#3C4142]">What's new otherwise this month?</div>
-      </div>
-    </div>
-</div>
- <div className="flex flex-row justify-end">
-   <div className="flex flex-col text-sm md:text-md lg:text-lg xl:text-xl max-w-full leading-1.5 p-4 m-8  border-gray-800 border-solid border-[2px] bg-[#FBE9D0] rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">
-      <div className="flex flex-col justify-center">
-         <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
-         A NEW SECURE INTERACTIVE WEBSITE 
-        <div className="font-normal"> which has the following new features
-         </div>
-         <ul className="list-disc list-inside pl-4 space-y-2 text-align-left font-semibold text-[#874F41]">
-          <li>Secure log-in.</li>
-          <li>Post comments</li>
-          <li>Add photos</li>
-         </ul>
-         <br />
-         <div className="font-normal">So do feel welcome to add comments, post a suitable photo of your own and be reassured that you have privacy and additional security throughout!
-         <br />
-         <br />
-         </div>
-      </div>
-      <Image src={blog2025} className="scale-100 hover:scale-150 md:mx-auto md:hover:scale-130"  alt="Picture of the new website" />    
-    </div>
-    </div>
-</div>
-<div className="flex items-start gap-2.5">
-   <div className="flex flex-col max-w-full leading-1.5 p-4 m-8  border-gray-800 border-solid border-[2px] bg-[#FBE9D0] text-[#244845] rounded-e-xl rounded-es-xl dark:bg-[#FBE9D0">
-      <div className="flex items-center space-x-2 rtl:space-x-reverse">
-         <span className="font-semibold text-lg text-[#244845] dark:text-[#244845]">What has changed in the software?</span>
-      </div>
-    </div>
-</div>
- <div className="flex flex-col justify-end">
-   <div className="flex flex-col max-w-full  leading-1.5 p-4 m-8 border-gray-800 border-solid border-[2px] bg-[#FBE9D0] rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">
-      <div className="flex flex-col justify-center">
-         <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
-        <div className="font-bold"> The new app consists of a stack of the following new features:
-         </div>
-         <ul className="list-disc list-inside pl-4 space-y-2 font-semibold text-align-left text-[#874F41]">
-          <li>Typescript</li>
-          <li>Clerk.js  for authorization and user management</li>
-          <li>Neon postgres for database security </li>
-          <li>Tailwind css</li>
-          <li>Vercel to deploy and host the blog.</li>
-         </ul>
-         <div className="font-normal text-md">So there has been lots to learn and still much more studying to be done... </div>
-      </div>
-      </div>
-      </div> {/*End of what has changed in the software*/}
-
       
      <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2  bg-[#FBE9D0]">
          <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12"> 30th August 2025</div>
-        <div className="font-bold mb-4"> Portsmouth Historic Dockyard day 1: Guided Tour of the Mary Rose and all aboard HMS Victory  with Lord Horatio Nelson to head out to the Battle of Trafalgar against the French and Spanish.</div>
-        <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left"> Well today, we were well-settled into our accommodation for the duration of our stay and it was time to head off to Portsmouth Historic Dockyard for the first of our 3 visits over the coming days. 
+        <div className="font-bold border-solid border-black border-2 mb-4 py-4 bg-[#99b19d]"> Portsmouth Historic Dockyard day 1: Guided Tour of the <br />Mary Rose and all aboard HMS Victory  with Lord Horatio Nelson <br />to head out to the Battle of Trafalgar against the <br />French and Spanish.</div>
+        <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left"> Well today, we were well-settled into our cottage accommodation in Southsea for the duration of our stay and it was time to head off to Portsmouth Historic Dockyard for the first of our 3 visits over the coming days. 
           <br />
           <br />
           Firstly, we were off to see the Mary Rose, the ship which Bernard had long wished to visit and which had been recommended to us by others as well-worth seeing. So here we were, booked on to a guided tour and clasping our guide book in hand.
@@ -157,10 +77,11 @@ export default function August2025() {
            </div> {/*End of individual dated entry design and color template block*/}
            </div>  {/*End of individual dated entry block*/}
 
-       <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2  bg-[#FBE9D0]">     
+
+       <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2  bg-[#FBE9D0]">    
          <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12"> 23rd August 2025</div>
-        <div className="font-bold mb-4"> Visit to Muncaster Castle, Cumbria</div>
+        <div className="font-bold border-solid border-black border-2 mb-4 py-4 bg-[#99b19d]"> Visit to Muncaster Castle, Cumbria</div>
         <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left">
           Today we went to visit Muncaster Castle, which is situated just inland from the west coast of Cumbria. This castle is a must-see site if you are over this way as it has been in the hands of the same family, the Penningtons, for at least the last 800 years , with documented evidence of their presence at Muncaster since 1208, when lands were granted to Alan de Penitone. 
           <br />
@@ -207,7 +128,7 @@ export default function August2025() {
      <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2  bg-[#FBE9D0]">
          <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12"> 22nd August 2025</div>
-        <div className="font-bold mb-4"> Visit to the Dinosaur rEvolution exhibition at the Tullie Museum, Carlisle</div>
+        <div className="font-bold border-solid border-black border-2 mb-4 py-4 bg-[#99b19d]"> Visit to the Dinosaur rEvolution exhibition at the Tullie Museum, Carlisle</div>
         <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left">This exhibition by Godwana studios arrived at the Tullie at the end of June and is due to run until mid-September. We had heard good reports of it and so today we braved the school holidays to go and take a closer look ourselves before we lost out chance!
           <br />
           <br />
@@ -254,7 +175,7 @@ export default function August2025() {
       <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2 bg-[#FBE9D0]">
          <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12"> 16th August 2025</div>
-        <div className="font-bold mb-4 "> Day trip to London to visit Westminster Abbey and Buckingham Palace. </div>
+        <div className="font-bold border-solid border-black border-2 mb-4 py-4 bg-[#99b19d]"> Day trip to London to visit Westminster Abbey and Buckingham Palace. </div>
         <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left">It was a very early 6am departure to head down to London by train today to visit 2 places we had not yet visited: Westminster Abbey and Buckingham Palace, or at least, we thought we had not visited them. However, it turns out Bernard and Jill had previously visited Buckingham Palace in 1998 but neither could remember ever going there ......! Must have been work fatigue at the time......
           <br />
           <br />
@@ -286,6 +207,85 @@ export default function August2025() {
       </div>{/*End of individual dated entry photo album block*/} 
       </div>{/*End of individual dated entry design and color template block*/}
       </div>{/*End of individual dated entry block*/}
+
+      <div className="flex items-start gap-2.5">
+   <div className="flex flex-col font-normal max-w-full leading-5 p-4 m-8 border-solid  border-gray-800 border-[2px] bg-[#FBE9D0] text-[#244845] rounded-e-xl rounded-es-xl dark:bg-[#FBE9D0">
+      <div className="flex items-center space-x-2 rtl:space-x-reverse">
+         <span className="font-semibold text-lg text-[#244845] dark:text-[#244845]">What is the Thomas Family up to this month?</span>
+      </div> 
+    </div>
+</div>
+ <div className="flex flex-row justify-end">
+   <div className="flex flex-col max-w-full leading-1.5 p-4 m-8 border-solid  border-gray-800 border-[2px] bg-[#FBE9D0] rounded-tl-3xl rounded-bl-3xl rounded-br-3xl text-xs">
+      <div className="flex flex-col justify-center">
+         <div className="text-lg font-semibold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+        <div className="font-bold w-full"> There is plenty in the diary:
+          <br />
+         </div>
+         <ul className="list-disc list-inside space-y-2 pl-4 text-align-left text-md text-[#874F41]">
+          <li>Trip to London for the day to visit Westminster Abbey and Buckingham Palace.</li>          
+          <li>Short break in Southsea near Portsmouth, hopefully to see Portsmouth Historic Dockyards including the Marie Rose and HMS Victory, Stonehenge and Winchester.</li>          
+          <li>Harry prepares for his new job-start in September to become a Digital and Technology professional.</li>        
+          <li>Elena's partner comes to tea.</li>          
+         </ul>
+      </div>
+      </div>
+    </div>
+</div>
+
+<div className="flex items-start gap-2.5">
+   <div className="flex flex-col max-w-full leading-5 p-4 m-8 border-solid  border-gray-800 border-[2px] bg-[#FBE9D0] text-[#3C4142]] rounded-e-xl rounded-es-xl dark:bg-[#FBE9D0">
+      <div className="flex items-center space-x-2 rtl:space-x-reverse">
+         <div className="font-semibold text-lg text-[#3C4142] dark:text-[#3C4142]">What's new otherwise this month?</div>
+      </div>
+    </div>
+</div>
+ <div className="flex flex-row justify-end">
+   <div className="flex flex-col text-sm md:text-md lg:text-lg xl:text-xl max-w-full leading-1.5 p-4 m-8  border-gray-800 border-solid border-[2px] bg-[#FBE9D0] rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">
+      <div className="flex flex-col justify-center">
+         <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+         A NEW SECURE INTERACTIVE WEBSITE 
+        <div className="font-normal"> which has the following new features
+         </div>
+         <ul className="list-disc list-inside pl-4 space-y-2 text-align-left font-semibold text-[#874F41]">
+          <li>Secure log-in.</li>
+          <li>Post comments</li>
+          <li>Add photos</li>
+         </ul>
+         <br />
+         <div className="font-normal">So do feel welcome to add comments, post a suitable photo of your own and be reassured that you have privacy and additional security throughout!
+         <br />
+         <br />
+         </div>
+      </div>
+      <Image src={blog2025} className="scale-100 hover:scale-150 md:mx-auto md:hover:scale-130"  alt="Picture of the new website" />    
+    </div>
+    </div>
+</div>
+<div className="flex items-start gap-2.5">
+   <div className="flex flex-col max-w-full leading-1.5 p-4 m-8  border-gray-800 border-solid border-[2px] bg-[#FBE9D0] text-[#244845] rounded-e-xl rounded-es-xl dark:bg-[#FBE9D0">
+      <div className="flex items-center space-x-2 rtl:space-x-reverse">
+         <span className="font-semibold text-lg text-[#244845] dark:text-[#244845]">What has changed in the software?</span>
+      </div>
+    </div>
+</div>
+ <div className="flex flex-col justify-end">
+   <div className="flex flex-col max-w-full  leading-1.5 p-4 m-8 border-gray-800 border-solid border-[2px] bg-[#FBE9D0] rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">
+      <div className="flex flex-col justify-center">
+         <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+        <div className="font-bold"> The new app consists of a stack of the following new features:
+         </div>
+         <ul className="list-disc list-inside pl-4 space-y-2 font-semibold text-align-left text-[#874F41]">
+          <li>Typescript</li>
+          <li>Clerk.js  for authorization and user management</li>
+          <li>Neon postgres for database security </li>
+          <li>Tailwind css</li>
+          <li>Vercel to deploy and host the blog.</li>
+         </ul>
+         <div className="font-normal text-md">So there has been lots to learn and still much more studying to be done... </div>
+      </div>
+      </div>
+      </div> {/*End of what has changed in the software*/}
   
      </div> {/*End of August block*/}
      </div>
