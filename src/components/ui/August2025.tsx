@@ -7,6 +7,7 @@ import London16082025Titled from '/public/imagesresized/London16082025Titled.jpg
 import dinosaurrEvolutionTitled from '/public/imagesresized/dinosaurrEvolutionTitled.jpg';
 import Muncaster23082025Titled from '/public/imagesresized/Muncaster23082025Titled.jpg';
 import HMSVictoryTitled from '/public/imagesresized/HMSVictoryTitled.jpg';
+import StonehengeTitled from '/public/imagesresized/StonehengeTitled.jpg'
 import Link from 'next/link'
 
 
@@ -18,7 +19,62 @@ export default function August2025() {
     <div className="mb-20">
         <div className="text-[#244845] text-center font-semibold text-2xl p-3 bg-[#AE9091] border-solid border-2 border-[#22311d]">August 2025
         </div> {/*End of August month block*/}
-      
+
+        <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2  bg-[#FBE9D0]">
+         <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+        <div className="font-bold py-2 px-12"> 31st August 2025</div>
+        <div className="font-bold border-solid border-black border-2 mb-4 py-4 bg-[#99b19d]"> Visit to Stonehenge, Wiltshire</div>
+         <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left">
+          Today, it was time for a change from naval history and a trip back to prehistoric times with a visit to Stonehenge in Wiltshire, 
+          <br />
+          <br />
+          Many people's immediate reaction when Stonehenge is mentioned is how busy it is and how, without paying <em>a lot </em> of money, you cannot walk between the stones. However, we would advise anyone interested not to be discouraged from visiting. It is an exceptional site which is well worth visiting even if previously visited. In addition, the fact that all the visitors are permitted to follow a path around but close to the stones, without entering the stone circle itself, makes for a far better experience and protects the integrity of the underlying site making it sustainable for future generations.
+          <br />
+          <br />
+          In 1986 the prehistoric landscapes of Avebury and Stonehenge were inscribed by UNESCO as a World Heritage Site (WHS) in recognition of their international importance. The site is managed by a combination of English Heritage, the National Trust and private landowners .  English Heritage has created a large, easily accessible car park  and impressive visitor's centre. There are plentiful information boards and a <Link href="https://play.google.com/store/apps/details?id=com.stonehenge&hl=en_GB" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">downloadable Stonehenge app</Link> which provides an audio tour which you can listen to either as you go around or in the comfort of your own home. Many improvements in management by both the National Trust and private landowners have been made, with areas returned to grassland, and access and interpretation improved. The Stonehenge World Heritage Site currently covers an area of 2,600 hectares (6,500 acres). 
+          <br />
+          <br />
+          Stonehenge dates back to prehistoric times (the time before written records before AD 43, the Roman invasion of Britain), commencing in the neolithic (new stone age) period and extending through to the bronze age. In terms of why Stonehenge was built, archaeological studies have uncovered evidence that it was a place of ceremony,
+          a place of burial and a place of celebration. The work took place in stages over more than a thousand years.
+          <br />
+          <br />
+          Around 3500BCE the Stonehenge cursus was constructed (sometime between 3600 and 3300 BCE) which demonstrates that this landscape was already a place of ritual well before Stonehenge was built. The function of the cursus remains unknown but may have been a sacred ground for processions or a barrier which people had to cross. It might also have been a monument or route traveled by the ancestors.
+          <br />
+          <br />
+          In around 3000 BCE the Stonehenge earthworks were created consisting of a circular ditch and bank. Inside the ditch was a ring of 56 pits, which probably held timber posts or standing stones.Many of these holes contained cremated human remains, which were also found in the ditch and on the bank. An estimated 150 people were buried here between 3000 and 2800 BCE. Therefore in its earliest phase, one of the functions of Stonehenge was as a cemetery. 
+          <br />
+          <br />
+          In around 2500 BCE the Stonehenge stone settings were erected with more and much larger stones added including huge sarsen stones from north Wiltshire and smaller bluestones thought to originate from West Wales. What makes Stonehenge unique is the arrangements of these stones with the lintels lying horizontally across the top and the fact that they were transported over long distances. They were brought overland using sledges and ropes and probably along rivers and along the coast by boat. As such, it was a huge feat of organisation and required much labour. 
+          <br />
+          <br />  
+          In about 2300BCE what has been called 'The Avenue' was built which is nearly 3km/2 miles long, linking Stonehenge to the banks of the river Avon. It was built after the stones were raised and may have been some form of processional route way. The people who constructed Stonehenge aligned the earthwork entrance and also the Avenue with the movements of the sun.   
+          <br />
+          <br />
+           We had a really enjoyable day out at Stonehenge and would recommend it as worth visiting for anyone in the area. We met people from all over the world there, so it has a global appeal and importance.       
+          
+         </div> {/*End of news content block*/} 
+
+         <div className="flex flex-col border-solid border-4 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
+              {" "}
+                <div className="p-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below to join us on our visit to Stonehenge and Japanese dinner at Sakura.</div>
+                <br />
+              <br />
+              <Link
+                href="https://photos.app.goo.gl/XktDf5smR5ZYgy6M7"
+                target="_blank"
+              >
+                <Image
+                  src={ StonehengeTitled }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[50%] lg:w-[50%] border-solid border-[#22311d] border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of a dinosaur"
+                />
+              </Link>
+            </div>{" "}
+         </div>  {/*End of news content block*/}  
+         </div> {/*End of individual dated entry design and color template block*/}
+         </div> {/*End of individual dated entry block*/}
+
      <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2  bg-[#FBE9D0]">
          <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12"> 30th August 2025</div>
