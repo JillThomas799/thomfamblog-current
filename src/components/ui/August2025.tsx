@@ -20,10 +20,10 @@ export default function August2025() {
         <div className="text-[#244845] text-center font-semibold text-2xl p-3 bg-[#AE9091] border-solid border-2 border-[#22311d]">August 2025
         </div> {/*End of August month block*/}
 
-        <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2  bg-[#FBE9D0]">
-         <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+        <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2  bg-[#FBE9D0]">
+         <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12"> 31st August 2025</div>
-        <div className="font-bold border-solid border-black border-2 mb-4 py-4 bg-[#99b19d]"> Visit to Stonehenge, Wiltshire</div>
+        <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 py-4 bg-[#99b19d]"> Visit to Stonehenge, Wiltshire</div>
          <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left">
           Today, it was time for a change from naval history and a trip back to prehistoric times with a visit to Stonehenge in Wiltshire, 
           <br />
@@ -54,10 +54,10 @@ export default function August2025() {
           
          </div> {/*End of news content block*/} 
 
-         <div className="flex flex-col border-solid border-4 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 justify-center text-center">
-            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
+         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4 justify-center text-center">
+            <div className="mt-4 mb-4 md:mt-1 md:mb-1 text-md font-normal block text-[#22311d] bg-[#99b19d]">
               {" "}
-                <div className="p-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below to join us on our visit to Stonehenge and Japanese dinner at Sakura.</div>
+                <div className="p-1 m-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below to join us on our visit to Stonehenge and Japanese dinner at Sakura.</div>
                 <br />
               <br />
               <Link
@@ -66,7 +66,7 @@ export default function August2025() {
               >
                 <Image
                   src={ StonehengeTitled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[50%] lg:w-[50%] border-solid border-[#22311d] border-4 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of a dinosaur"
                 />
               </Link>
@@ -75,10 +75,10 @@ export default function August2025() {
          </div> {/*End of individual dated entry design and color template block*/}
          </div> {/*End of individual dated entry block*/}
 
-     <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2  bg-[#FBE9D0]">
-         <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+     <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2  bg-[#FBE9D0]">
+         <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12"> 30th August 2025</div>
-        <div className="font-bold border-solid border-black border-2 mb-4 py-4 bg-[#99b19d]"> Portsmouth Historic Dockyard day 1: Guided Tour of the <br />Mary Rose and all aboard HMS Victory  with Lord Horatio Nelson <br />to head out to the Battle of Trafalgar against the <br />French and Spanish.</div>
+        <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 py-4 bg-[#99b19d]"> Portsmouth Historic Dockyard day 1: Guided Tour of the <br />Mary Rose and all aboard HMS Victory  with Lord Horatio Nelson <br />to head out to the Battle of Trafalgar against the <br />French and Spanish.</div>
         <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left"> Well today, we were well-settled into our cottage accommodation in Southsea for the duration of our stay and it was time to head off to Portsmouth Historic Dockyard for the first of our 3 visits over the coming days. 
           <br />
           <br />
@@ -96,10 +96,10 @@ export default function August2025() {
           <br />
           This <Link href="https://open.spotify.com/episode/0duZBdwzqWbzvh9me0Y4EA?si=luOZrDYQRzWH-U101WhWug" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Not Just the Tudors</Link> podcast talks about the sinking of the Mary Rose. There is far too much that can be related about the Mary Rose, its discovery and subsequent salvage and restoration to discuss here but it is well worth the visit and finding out more.
 
-                     <div className="flex flex-col border-solid border-4 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 justify-center text-center">
+                     <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4 justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
               {" "}
-                <div className="p-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below to open the album of our Day 1 visit to Portsmouth Historic: - Mary Rose Exhibition and HMS Victory.</div>
+                <div className="p-1 m-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below to open the album of our Day 1 visit to Portsmouth Historic: - Mary Rose Exhibition and HMS Victory.</div>
                 <br />
               <br />
               <Link
@@ -108,7 +108,7 @@ export default function August2025() {
               >
                 <Image
                   src={ HMSVictoryTitled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[50%] lg:w-[50%] border-solid border-[#22311d] border-4 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of HMS Victory"
                 />
               </Link>
@@ -118,7 +118,8 @@ export default function August2025() {
        In the afternoon it was on to HMS Victory, the flagship of the Battle of Trafalgar in 1805 under Admiral Nelson. HMS Victory is the world's oldest naval vessel still in commission. By the time of the Battle of Trafalgar however, it already had been in many conflicts including the: Anglo-French War (1778 - 1783),  American Revolutionary War / American War of Independence (1775-1783) and the French Revolutionary Wars 1792 - 1797.
        <br />
        <br />
-        HMS Victory was commissioned in the middle of the Seven Years War/French and Indian War (1756-1763). This war was fought principally at sea and HMS Victory was commissioned to be a 'First-Rate ship' ie. one that had at least 100 guns. By the time she was launched for the first time in 1765, the Seven Years War had ended and there was no immediate use for her for the next 12 years.She then went on to serve in numerous conflicts and had after 1797 been considered 'Battle Weary' and unfit for service. At which point she was fitted out as a hospital ship. However in 1799, HMS Impregnable wass lost and the fleet needed a replacement first-rate ship. A 3 year year refit of HMS Victory known as 'The Great Repair' was undertaken. 
+        HMS Victory was commissioned in the middle of the Seven Years War/French and Indian War (1756-1763). This war was fought principally at sea and HMS Victory was commissioned to be a 'First-Rate ship' ie. one that had at least 100 guns. By the time she was launched for the first time in 1765, the S
+        even Years War had ended and there was no immediate use for her for the next 12 years.She then went on to serve in numerous conflicts and had after 1797 been considered 'Battle Weary' and unfit for service. At which point she was fitted out as a hospital ship. However in 1799, HMS Impregnable wass lost and the fleet needed a replacement first-rate ship. A 3 year year refit of HMS Victory known as 'The Great Repair' was undertaken. 
        <br />
        <br />
        On the 21st October 1805, she sailed into battle to face the French and Spanish ships which were under the command of Vice_admiral Pierre-Charles-Jean-Baptiste-Silvestre de Villeneuve in the Battle of Trafalgar. Admiral Horatio Nelson died during this battle but the French and Spanish fleet was defeated by the British Royal Navy. 
@@ -128,16 +129,25 @@ export default function August2025() {
        <br />
        <br />
        Finally, to see us out of this blog entry, HMS Victory will take us out with <Link href="https://youtu.be/f_FpYLnNhVw?si=Pua9zvxv9O4d_HZC" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">HMS Victory in action, firing rolling broadside</Link>.
+      <br />
+      <br />
 
            </div> {/*End of news content block*/}            
            </div> {/*End of individual dated entry design and color template block*/}
            </div>  {/*End of individual dated entry block*/}
 
+            <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2  bg-[#FBE9D0]">
+         <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+        <div className="font-bold py-2 px-12"> 29th August - 3rd September 2025</div>
+        <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 py-4 bg-[#99b19d]"> Holiday in Portsmouth: 5 nights in Southsea to visit Portsmouth Historic Dockyard, Stonehenge and Winchester.</div>
+        </div> {/*End of individual dated entry design and color template block*/}
+        </div> {/*End of individual dated entry block*/}
 
-       <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2  bg-[#FBE9D0]">    
-         <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+
+       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2  bg-[#FBE9D0]">    
+         <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12"> 23rd August 2025</div>
-        <div className="font-bold border-solid border-black border-2 mb-4 py-4 bg-[#99b19d]"> Visit to Muncaster Castle, Cumbria</div>
+        <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 py-4 bg-[#99b19d]"> Visit to Muncaster Castle, Cumbria</div>
         <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left">
           Today we went to visit Muncaster Castle, which is situated just inland from the west coast of Cumbria. This castle is a must-see site if you are over this way as it has been in the hands of the same family, the Penningtons, for at least the last 800 years , with documented evidence of their presence at Muncaster since 1208, when lands were granted to Alan de Penitone. 
           <br />
@@ -158,10 +168,10 @@ export default function August2025() {
            </div>
          
          
-           <div className="flex flex-col border-solid border-4 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 justify-center text-center">
+           <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4 justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
               {" "}
-                <div className="p-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below to open the album of our visit to Muncaster Castle.</div>
+                <div className="p-1 m-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below to open the album of our visit to Muncaster Castle.</div>
                 <br />
               <br />
               <Link
@@ -170,7 +180,7 @@ export default function August2025() {
               >
                 <Image
                   src={ Muncaster23082025Titled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[50%] lg:w-[50%] border-solid border-[#22311d] border-4 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of a dinosaur"
                 />
               </Link>
@@ -179,12 +189,11 @@ export default function August2025() {
            </div> {/*End of individual dated entry photo album block*/}     
      </div>  {/*End of individual dated entry design and color template block*/}
      </div>  {/*End of individual dated entry block*/}
-
     
-     <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2  bg-[#FBE9D0]">
-         <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+     <div className="flex flex-col max-w-full leading-1.5  sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2  bg-[#FBE9D0]">
+         <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12"> 22nd August 2025</div>
-        <div className="font-bold border-solid border-black border-2 mb-4 py-4 bg-[#99b19d]"> Visit to the Dinosaur rEvolution exhibition at the Tullie Museum, Carlisle</div>
+        <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 py-4 bg-[#99b19d]"> Visit to the Dinosaur rEvolution exhibition at the Tullie Museum, Carlisle</div>
         <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left">This exhibition by Godwana studios arrived at the Tullie at the end of June and is due to run until mid-September. We had heard good reports of it and so today we braved the school holidays to go and take a closer look ourselves before we lost out chance!
           <br />
           <br />
@@ -206,10 +215,10 @@ export default function August2025() {
           The Dinosaur rEvolution exhibition is showing at the Tullie Museum, Carlisle until the 14th September 2025.
            </div>
            
-           <div className="flex flex-col border-solid border-4 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 justify-center text-center">
+           <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
               {" "}
-                <div className="p-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below <br /> to open the album <br /> of our visit to Dinosaur rEvolution.</div>
+                <div className="p-1 m-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below <br /> to open the album <br /> of our visit to Dinosaur rEvolution.</div>
                 <br />
               <br />
               <Link
@@ -218,7 +227,7 @@ export default function August2025() {
               >
                 <Image
                   src={ dinosaurrEvolutionTitled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[50%] lg:w-[50%] border-solid border-[#22311d] border-4 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of a dinosaur"
                 />
               </Link>
@@ -228,10 +237,10 @@ export default function August2025() {
            </div>{/*End of individual dated entry block*/}
            
       <div className="mb-20">
-      <div className="flex flex-col max-w-full leading-1.5 p-8 m-4 border-gray-800 border-solid border-2 bg-[#FBE9D0]">
-         <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+      <div className="flex flex-col max-w-full leading-1.5  sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#FBE9D0]">
+         <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12"> 16th August 2025</div>
-        <div className="font-bold border-solid border-black border-2 mb-4 py-4 bg-[#99b19d]"> Day trip to London to visit Westminster Abbey and Buckingham Palace. </div>
+        <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 py-4 bg-[#99b19d]"> Day trip to London to visit Westminster Abbey and Buckingham Palace. </div>
         <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-normal text-left">It was a very early 6am departure to head down to London by train today to visit 2 places we had not yet visited: Westminster Abbey and Buckingham Palace, or at least, we thought we had not visited them. However, it turns out Bernard and Jill had previously visited Buckingham Palace in 1998 but neither could remember ever going there ......! Must have been work fatigue at the time......
           <br />
           <br />
@@ -242,10 +251,10 @@ export default function August2025() {
            </div>
            </div>
            
-          <div className="flex flex-col border-solid border-4 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 justify-center text-center">
+          <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
               {" "}
-                <div className="p-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below <br /> to open the album <br /> of our trip to
+                <div className="m-1 p-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below <br /> to open the album <br /> of our trip to
                 London.</div>
                 <br />
               <br />
@@ -255,7 +264,7 @@ export default function August2025() {
               >
                 <Image
                   src={ London16082025Titled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[50%] lg:w-[40%] border-solid border-[#22311d] border-4 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[50%] lg:w-[40%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of Jill in front of Buckingham Palace"
                 />
               </Link>
@@ -272,9 +281,9 @@ export default function August2025() {
     </div>
 </div>
  <div className="flex flex-row justify-end">
-   <div className="flex flex-col max-w-full leading-1.5 p-4 m-8 border-solid  border-gray-800 border-[2px] bg-[#FBE9D0] rounded-tl-3xl rounded-bl-3xl rounded-br-3xl text-xs">
+   <div className="flex flex-col max-w-full leading-1.5 p-4 m-8 border-solid  border-gray-800 border-2 bg-[#FBE9D0] rounded-tl-3xl rounded-bl-3xl rounded-br-3xl text-xs">
       <div className="flex flex-col justify-center">
-         <div className="text-lg font-semibold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+         <div className="text-lg font-normal text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold w-full"> There is plenty in the diary:
           <br />
          </div>
@@ -303,7 +312,7 @@ export default function August2025() {
          A NEW SECURE INTERACTIVE WEBSITE 
         <div className="font-normal"> which has the following new features
          </div>
-         <ul className="list-disc list-inside pl-4 space-y-2 text-align-left font-semibold text-[#874F41]">
+         <ul className="list-disc list-inside pl-4 space-y-2 text-align-left font-normal text-[#874F41]">
           <li>Secure log-in.</li>
           <li>Post comments</li>
           <li>Add photos</li>
@@ -331,7 +340,7 @@ export default function August2025() {
          <div className="text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold"> The new app consists of a stack of the following new features:
          </div>
-         <ul className="list-disc list-inside pl-4 space-y-2 font-semibold text-align-left text-[#874F41]">
+         <ul className="list-disc list-inside pl-4 space-y-2 font-normal text-align-left text-[#874F41]">
           <li>Typescript</li>
           <li>Clerk.js  for authorization and user management</li>
           <li>Neon postgres for database security </li>
