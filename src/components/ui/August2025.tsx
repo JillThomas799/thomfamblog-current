@@ -67,7 +67,7 @@ export default function August2025() {
                 <Image
                   src={ StonehengeTitled }
                   className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of a dinosaur"
+                  alt="Photo of Stonehenge"
                 />
               </Link>
             </div>{" "}
@@ -181,7 +181,7 @@ export default function August2025() {
                 <Image
                   src={ Muncaster23082025Titled }
                   className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of a dinosaur"
+                  alt="Photo of Muncaster Castle"
                 />
               </Link>
             </div>{" "}

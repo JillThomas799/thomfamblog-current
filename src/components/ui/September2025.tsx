@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import WinchesterCathedralTitled from '/public/imagesresized/WinchesterCathedralTitled.jpg';
 import HMSWarriorTitled from '/public/imagesresized/HMSWarriorTitled.jpg';
+import HMSAllianceTitled from '/public/imagesresized/HMSAllianceTitled.jpg';
 
 
 
@@ -13,9 +14,52 @@ export default function September2025() {
 
   return (   
  <div> 
-    <div  className="mb-20">
-        <div className="text-[#244845] text-center font-semibold text-2xl p-3 bg-[#AE9091] border-solid border-2 border-[#22311d]">September 2025
+       <div className="text-[#244845] text-center font-semibold text-2xl p-3 bg-[#AE9091] border-solid border-2 border-[#22311d]">September 2025
         </div> {/*End of September month block*/}
+
+        <div className="mb-20">
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#836A58]">
+         <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+        <div className="font-bold py-2 px-12 text-[#FBE9D0] text-center dark:text-[#FBE9D0]"> 3rd September 2025</div> {/*End of news date block*/} 
+        <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#99b19d]">Portsmouth Historic Dockyard Day 3: HMS Submarine Museum, return home and reflection and take-aways from the holiday. </div> {/*End of news header block*/}
+        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left text-[#FBE9D0] dark:text-[#FBE9D0]">
+          Today it was time to say farewell to Portsmouth and return home. We had however not yet managed to see all the attractions at the Naval Dockyard, most specifically the Submarine Museum and the Museum of Naval Firepower, as during term times they are not open to the public on Mondays and Tuesdays. It was decided that, before we return home on the Wednesday morning, we would drive to the Dockyard at Portsmouth (where there is also a free car park) to see the Submarine museum and drive home from there.
+          <br />
+          <br />
+          The main submarine at the museum is HMS Alliance, Britain's only remaining Second World War submarine. HMS Alliance was launched in 1945, at the end of the 2nd World War and was one of only 14 A-classlong-range submarines built for service in the Far East.  It was part of the 1943 Emergency Building Programme which aimed at rapidly expanding and modernising the Royal Navy’s submarine fleet in response to the shifting strategic demands of the Second World War, particularly the need for long-range, more capable submarines to operate in the Pacific as the focus of the conflict broadened beyond the Atlantic, Mediterranean and North Sea. The last time HMS Alliance was sailed was during the Falkland's war.
+          <br />
+          <br />
+          The interior space in the Alliance is small, especially when you think there were over 60 men in here. For this reason, all tours are guided and small-group. They do however run frequently. We were shown around by Philip, a retired ex submariner who sailed on this submarine when it was last on active service. He told us all about life and terminology on board. Also in our group, it turned out there was another retired Royal Navy submariner who sailed on one of the other submarines so it was quite entertaining as they compared notes of their life below the waves. Rather like our visit to the Solway Aviation Museum last year, these museums seem to be a place where retired servicemen can reminisce over past times and meet up with their buddies and colleagues, which is nice.
+          Life below sea must have been very difficult. It was dangerous and the boats were away for 6 weeks at a time so they were away from their families in a confined environment for prolonged periods.
+          <br />
+          <br />
+         So, what would our summary be of our holiday and advice for anyone else considering such a trip? We had a really enjoyable time. All the trips we undertook were very interesting and all quite varied. We would encourage anyone who can to visit. The parking in Portsmouth is extremely challenging with a rather complex and bizarre system of resident permit requirements for several hour periods of the day , which did not seem to follow any logic. Fortunately, we were provided with some rather interesting scratch-card visitors parking passes for each day, whence we then had to try and ensure we could find a suitable parking place. This is apparently a recent addition by the council in the suburbs of Portsmouth. If visiting again we would aim to probably stay in Old Portsmouth, closer to the centre, where there was alternative parking and where there was less distance to walk to the dockyard.            <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left text-[#FBE9D0] dark:text-[#FBE9D0]">
+           
+            <br />
+            <br />
+            </div>
+           <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
+              {" "}
+                <div className="m-1 p-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below to open the album <br /> of our say 3 trip  to Portsmouth Historic Dockyard so see the HMS Submarine Museum.</div>
+                <br />
+              <br />
+              <Link
+                href="https://photos.app.goo.gl/d1DbuV9fEvKF8JoA6"
+                target="_blank"
+              >
+                <Image
+                  src={ HMSAllianceTitled }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of HMS Alliance"
+                />
+              </Link>
+            </div>{" "}
+      </div>{/*End of individual dated entry photo album block*/} 
+           </div> {/*End of news content block*/}
+           </div> {/*End of individual dated entry design and color template block*/}
+           </div> {/*End of individual dated entry block*/}
+
 
         <div className="mb-20">
       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#836A58]">
@@ -54,7 +98,7 @@ export default function September2025() {
                 <Image
                   src={ HMSWarriorTitled }
                   className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of Jill in front of Buckingham Palace"
+                  alt="Photo of HMS Warrior"
                 />
               </Link>
             </div>{" "}
@@ -96,7 +140,7 @@ export default function September2025() {
                 <Image
                   src={ WinchesterCathedralTitled }
                   className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of Jill in front of Buckingham Palace"
+                  alt="Photo of Winchester Cathedral"
                 />
               </Link>
             </div>{" "}
