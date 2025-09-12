@@ -4,18 +4,66 @@ import * as React from "react"
 import Image from 'next/image'
 import Link from 'next/link'
 import WinchesterCathedralTitled from '/public/imagesresized/WinchesterCathedralTitled.jpg';
+import HMSWarriorTitled from '/public/imagesresized/HMSWarriorTitled.jpg';
+
+
 
 
 export default function September2025() {
 
-  return (
-   
-<div>
+  return (   
+ <div> 
     <div  className="mb-20">
         <div className="text-[#244845] text-center font-semibold text-2xl p-3 bg-[#AE9091] border-solid border-2 border-[#22311d]">September 2025
         </div> {/*End of September month block*/}
 
-      <div className="mb-20">
+        <div className="mb-20">
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#836A58]">
+         <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+        <div className="font-bold py-2 px-12 text-[#FBE9D0] text-center dark:text-[#FBE9D0]"> 2nd September 2025</div> {/*End of news date block*/} 
+        <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#99b19d]">Portsmouth Historic Dockyard Day 2: HMS Warrior, Victory Live and another look at the Mary Rose Exhibition (but this time unaccompanied), and an exploration of Old Portsmouth and the Millennium Promenade and Southsea Castle. </div> {/*End of news header block*/}
+        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left">
+           <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left text-[#FBE9D0] dark:text-[#FBE9D0]">
+            Today it was Day 2 of our visit to Portsmouth Historic Dockyard, a visit to Old Portsmouth and a walk along the Millennium Promenade. At the Dockyard our plan was to see HMS Warrior, the Victory Live exhibition and to have another visit to the Mary Rose exhibition (this time unaccompanied). So it was going to be a busy day (we actually ended up walking 9.5 miles)!
+            <br />
+            <br />
+            HMS Warrior is the first ship which is clearly visible on entering Portsmouth Historic Dockyard. She was built by the Thames Ironworks and Shipbuilding Company in Victorian times and was launched on the 29th December 1860, being at the time the largest, fastest and most powerful warship in the world. Her design was revolutionary, combining an iron hull, steam propulsion and armour plating.  HMS Warrior was built as a deterrent against a growing threat from France as France had launched the first ocean-going iron-clad warship '<em>La Gloire</em>' in November 1859. In contrast to <em>La Gloire</em>', which was built around a wooden hull, HMS Warrior was designed from the beginning as an iron ship. 
+            <br />
+            <br />
+            The ironclad warship was developed as a result of the vulnerability of wooden warships to explosive or incendiary shells. Ironclads were first used in warfare in 1862 during the American Civil War, when they operated against wooden ships, and against each other at the Battle of Hampton Roads in Virginia. Ironclad gunboats became very successful in the American Civil War. 
+            <br />
+            <br />
+            HMS Victory was made to look impressive, but in the end she was thankfully never involved in active combat.
+            It is interesting that, as a result of the speed of technological advance at that time, HMS Victory quickly became obsolete and by 1871 she was transferred to coastguard and reserve services, and in 1904 was converted to a floating school and renamed Vernon III. 
+            <br />
+            <br />
+            Latterly, she served as a refuelling depot for oil tankers in Milford Haven before, in 1979, she was finally taken to Hartlepool to undergo  a major restoration effort to return her to her former glory. Underwritten by Sir John Smith, the goal was to return her to how she appeared between 1861 and 1864 on her first commission. It took £7 million and eight years of renovation in Hartlepool, including removal of the concrete layer which had been added to the upper deck and refitting, before she was finally taken to her permanent home in Portsmouth Harbour.  
+            <br />
+            <br />
+            </div>
+           <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
+              {" "}
+                <div className="m-1 p-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below to open the album <br /> of our say 2 trip  to Portsmouth Historic Dockyard and Old Portsmouth</div>
+                <br />
+              <br />
+              <Link
+                href="https://photos.app.goo.gl/4tm27WwNFiS6JLXF9"
+                target="_blank"
+              >
+                <Image
+                  src={ HMSWarriorTitled }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Jill in front of Buckingham Palace"
+                />
+              </Link>
+            </div>{" "}
+      </div>{/*End of individual dated entry photo album block*/} 
+           </div> {/*End of news content block*/}
+           </div> {/*End of individual dated entry design and color template block*/}
+           </div> {/*End of individual dated entry block*/}
+{/* 
+      <div className="mb-20"> */}
       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#836A58]">
          <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12 text-[#FBE9D0] text-center dark:text-[#FBE9D0]"> 1st September 2025</div> {/*End of news date block*/} 
@@ -56,8 +104,6 @@ export default function September2025() {
            </div> {/*End of news content block*/}
            </div> {/*End of individual dated entry design and color template block*/}
            </div> {/*End of individual dated entry block*/}
-
-          
           
       </div> {/*End of September block*/}
 
