@@ -6,6 +6,7 @@ import Link from 'next/link'
 import WinchesterCathedralTitled from '/public/imagesresized/WinchesterCathedralTitled.jpg';
 import HMSWarriorTitled from '/public/imagesresized/HMSWarriorTitled.jpg';
 import HMSAllianceTitled from '/public/imagesresized/HMSAllianceTitled.jpg';
+import AlnwickCastleTitled from '/public/imagesresized/AlnwickCastleTitled.jpg';
 
 
 
@@ -16,6 +17,53 @@ export default function September2025() {
  <div> 
        <div className="text-[#244845] text-center font-semibold text-2xl p-3 bg-[#AE9091] border-solid border-2 border-[#22311d]">September 2025
         </div> {/*End of September month block*/}
+
+      <div className="mb-20">
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#836A58]">
+         <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+        <div className="font-bold py-2 px-12 text-[#FBE9D0] text-center dark:text-[#FBE9D0]"> 13th September 2025</div> {/*End of news date block*/} 
+        <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#99b19d]">Day out at Alnwick Castle and Alnwick, including a visit to Barter Books. </div> {/*End of news header block*/}
+        
+        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left text-[#FBE9D0] dark:text-[#FBE9D0]"> Today we drove over to Alnwick to visit Alnwick Castle and whilst there, to visit a well-known second hand book shop <Link href="https://www.barterbooks.co.uk/" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Barter Books</Link>. We had long intended to visit Alnwick Castle as it is a very large, fortified castle whose history extends back to Norman times and which continues  to be the seat of the Duke and Duchess of Northumberland today.
+            <br />
+            <br />
+            Alnwick Castle goes back a <em>long</em> way, right the way back to Norman times. 
+            Ivo de Vesci, Baron of Alnwick, a nobleman from Vassy, Calvados in Normandy, is thought to have erected the first parts of the castle in about 1096. He obtained lands and the lordship of Alnwick in Northumberland from King William II William Rufus, William the Conqueror's son) of England. He was also given lands in Malton, Yorkshire. It is not known whether he is the son or kinsman of the Robert de Veci who participated in the Norman conquest of England and was rewarded with great estates in the counties of Northampton, Warwick and Lincoln. 
+             The earliest known written description of Alnwick Castle is in 1138 in a chronicle provided by Richard, Prior of Hexham. In this chronicle, the prior describes a 'munitissimum castellum' ('heavily fortified castle') at Alnwick. This suggests that a strongly defended fortress, made from stone, must have been made complete or nearly complete, by this year. 
+            <br />
+            <br />               
+              The castle at Alnwick has since 1309 been owned by the Percy family, and remains in their hands today. The family still live in the castle for part of the year. The Percy family, led by William de Percy, moved to England from Normandy in 1067, so they also were from Normandy. According to a 15th century document called 'The Little Pedigree Roll'. 'William was so beloved by William the Conqueror that he is granted the greatest part of the province of Yorkshire'. It is possible that de Percy, or one of his family, was at the Battle of Hastings the previous year, but this is the first evidence of the family coming to England to stay.
+            <br />
+            <br />  
+            That is not to say that there have not been <em>many</em> battles, deaths, reinforcements and restorations since. Alnwick Castle sits just over 30 miles south of the Scottish border and was a fortress castle involved in much of the conflict between Scotland and England up until the end of the 16th century. Alnwick Castle was also involved in the conflicts between the Houses of Lancaster and York in the Wars of the Roses, when it had a particularly turbulent time being alternately occupied by the Lancastrians and the Yorkists.
+            <br />
+            <br />  
+            Lots more can be found out about the castle's history during a visit to the castle, which is open to the public late March to late October, closing for the winter months. You can find the most current opening dates, which are subject to change, by visiting the official <Link href="https://www.alnwickcastle.com/plan-your-visit/visitor-information/opening-times-ticket-prices" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Alnwick Castle website</Link>. Historic House members can enter for free. There is a very pleasant courtyard café which serves an option of pizzas or paninis, soup and sandwiches, and jacket potatoes. 
+             <br />
+            <br />  
+            For anyone who loves books like we do, <Link href="https://www.barterbooks.co.uk/" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Barter Books</Link>, situated in the old Alnwick railway station, is also most definitely worth a visit whilst you are in Alnwick. We had a lovely day in Alnwick and will no doubt be back before long for a revisit.
+            </div>
+           <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
+              {" "}
+                <div className="m-1 p-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below to open the album <br /> of our day out at Alnwick Castle and Alnwick.</div>
+                <br />
+              <br />
+              <Link
+                href="https://photos.app.goo.gl/Gedeibfjk1xrRZ8B9"
+                target="_blank"
+              >
+                <Image
+                  src={ AlnwickCastleTitled }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Harry standing in front of Alnwick Castle"
+                />
+              </Link>
+            </div>{" "}
+      </div>{/*End of individual dated entry photo album block*/} 
+           </div> {/*End of news content block*/}
+           </div> {/*End of individual dated entry design and color template block*/}
+           </div> {/*End of individual dated entry block*/}        
 
         <div className="mb-20">
       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#836A58]">
@@ -41,7 +89,7 @@ export default function September2025() {
            <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
               {" "}
-                <div className="m-1 p-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below to open the album <br /> of our say 3 trip  to Portsmouth Historic Dockyard so see the HMS Submarine Museum.</div>
+                <div className="m-1 p-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below to open the album <br /> of our day 3 trip  to Portsmouth Historic Dockyard so see the HMS Submarine Museum.</div>
                 <br />
               <br />
               <Link
