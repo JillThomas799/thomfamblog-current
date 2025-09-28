@@ -7,6 +7,7 @@ import WinchesterCathedralTitled from '/public/imagesresized/WinchesterCathedral
 import HMSWarriorTitled from '/public/imagesresized/HMSWarriorTitled.jpg';
 import HMSAllianceTitled from '/public/imagesresized/HMSAllianceTitled.jpg';
 import AlnwickCastleTitled from '/public/imagesresized/AlnwickCastleTitled.jpg';
+import Newcastle24092025Titled from '/public/imagesresized/Newcastle24092025Titled.jpg';
 
 
 
@@ -17,6 +18,45 @@ export default function September2025() {
  <div> 
        <div className="text-[#244845] text-center font-semibold text-2xl p-3 bg-[#AE9091] border-solid border-2 border-[#22311d]">September 2025
         </div> {/*End of September month block*/}
+
+        <div className="mb-20">
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#836A58]">
+         <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+        <div className="font-bold py-2 px-12 text-[#FBE9D0] text-center dark:text-[#FBE9D0]"> 24th September 2025</div> {/*End of news date block*/} 
+        <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#99b19d]">Day trip to Newcastle upon Tyne by bus - a fun day out. </div> {/*End of news header block*/}
+        
+        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left text-[#FBE9D0] dark:text-[#FBE9D0]"> After Jill and Harry's successful journey by public transport to Penrith the previous Saturday, it was decided that Jill and Bernard would trial a day out by bus to Newcastle upon Tyne, a round journey of just under a hundred miles and a two hour bus journey each way. 
+          <br />
+          <br />
+        The bus which runs along this route is the hourly <Link href="https://www.stagecoachbus.com/" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Stage Coach service</Link> number 685 between Carlisle bus station and Eldon Square bus station Newcastle. It essentially follows the line of the A69 from the West to the East of England, running very close to Hadrian's Wall along its journey and taking in places such as Haltwhistle, Hebden Bridge, Hexham and Heddon-on-the-Wall. So for the main part,it is a very atmospheric, picturesque route. It currently <em>(although this may be subject to change)</em> costs £3.00 per person per single journey. From end to end, it takes 2 hours 28 minutes. The bus is also very social. Many of its users are locals who clearly use the service regularly and know the other passengers and drivers. 
+        <br />
+        <br />
+       It is easy to feel a little overwhelmed with the buses if you are not used to them, not least because the apps and online sites are not overly user friendly. Our advice would be for purchase of tickets, do not worry about any online systems, just take your credit/debit card and /or some cash and mount the bus and ask the driver for a single to wherever you want to go. At the moment it will most likely be £3.00 wherever the journey. They will then print you a ticket which you take. This method also ensures you are on the correct bus right from the start! 
+       <br />
+        <br />
+        We had a great day and were glad we could help contribute to environmental protection by reducing our carbon footprint. We would encourage anyone else looking for a fun day out who is not in a rush, to give it a go....
+            </div>
+           <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
+              {" "}
+                <div className="m-1 p-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">Click on the image below to open the album <br /> of our day out in Newcastle upon Tyne by bus.</div>
+                <br />
+              <br />
+              <Link
+                href="https://photos.app.goo.gl/ZTaxJpsSZG7SHpxw7"
+                target="_blank"
+              >
+                <Image
+                  src={ Newcastle24092025Titled }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Seagull by River Tyne, Newcastle"
+                />
+              </Link>
+            </div>{" "}
+      </div>{/*End of individual dated entry photo album block*/} 
+           </div> {/*End of news content block*/}
+           </div> {/*End of individual dated entry design and color template block*/}
+           </div> {/*End of individual dated entry block*/}      
 
       <div className="mb-20">
       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#836A58]">
