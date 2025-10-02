@@ -8,6 +8,7 @@ import HMSWarriorTitled from '/public/imagesresized/HMSWarriorTitled.jpg';
 import HMSAllianceTitled from '/public/imagesresized/HMSAllianceTitled.jpg';
 import AlnwickCastleTitled from '/public/imagesresized/AlnwickCastleTitled.jpg';
 import Newcastle24092025Titled from '/public/imagesresized/Newcastle24092025Titled.jpg';
+import DurhamCathedralTitled from '/public/imagesresized/DurhamCathedralTitled.jpg';
 
 
 
@@ -19,18 +20,23 @@ export default function September2025() {
        <div className="text-[#244845] text-center font-semibold text-2xl p-3 bg-[#AE9091] border-solid border-2 border-[#22311d]">September 2025
         </div> {/*End of September month block*/}
 
-        <div className="mb-20">
+        <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#836A58]">
          <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12 text-[#FBE9D0] text-center dark:text-[#FBE9D0]"> 29th September 2025</div> {/*End of news date block*/} 
         <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#99b19d]">Day out to Durham to see the Magna Carta and Durham Cathedral </div> {/*End of news header block*/}
         
-        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left text-[#FBE9D0] dark:text-[#FBE9D0]"> Initially we had to navigate our way around the rear of the cathedral and enter the cathedral museum via the college entrance. Once inside, we commenced with the huge Lego model of Durham cathedral and a video in 4 parts in Lego of the history of Durham cathedral. The video can be seen below:
-          <div>
-            <Link href="https://www.youtube.com/watch?v=VOU5fYYkyzA" target="_blank">Part 1 - History of Durham Cathedral in Lego</Link>
-            <div></div>
-            <div></div>
-            <div></div>
+        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left text-[#FBE9D0] dark:text-[#FBE9D0]"> Today we were excited to be going to see the only surviving 1216 Magna Carta, along with issues from 1225 and 1300, and three Forest Charters in the 'Magna Carta and the North' Exhibition being shown at Durham Cathedral Museum from 11th July 2025 - 2nd November 2025. The exhibition also was to include  temporary artworks and installations telling the story of these 800-year-old documents. For anyone who wants a quick revise of the history of the Magna Carta, the Rest is History's Spotify episode number 62 <Link href="https://open.spotify.com/episode/6GWB7Ug0lkEu2Ka2msNAQ9?si=adefcd6f90044f4f" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Magna Carta</Link> with Tom Holland and Dominic Sandbrook.
+        <br />
+        <br />
+          We started with a cute Lego video 'History of Durham cathedral' in 4 parts which can be seen below to fill you in:
+          <div className="m-6 p-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">
+          <ol className="text-center">
+           <li><Link href="https://www.youtube.com/watch?v=VOU5fYYkyzA" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Part 1 </Link></li> 
+           <li><Link href="https://www.youtube.com/watch?v=ZccilgbfSQc" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Part 2</Link></li> 
+            <li><Link href="https://www.youtube.com/watch?v=lgiqwPUJHrk" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Part 3 </Link></li>             
+            <li><Link href="https://www.youtube.com/watch?v=CclMzFC-dnc" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Part 4</Link></li>
+          </ol>
           </div>
             </div>
            <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
@@ -40,13 +46,13 @@ export default function September2025() {
                 <br />
               <br />
               <Link
-                href="https://photos.app.goo.gl/ZTaxJpsSZG7SHpxw7"
+                href="https://photos.app.goo.gl/WqTL6BRy8zWVsciTA"
                 target="_blank"
               >
                 <Image
-                  src={ Newcastle24092025Titled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of Seagull by River Tyne, Newcastle"
+                  src={ DurhamCathedralTitled }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Durham Cathedral"
                 />
               </Link>
             </div>{" "}
