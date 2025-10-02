@@ -25,7 +25,13 @@ export default function September2025() {
         <div className="font-bold py-2 px-12 text-[#FBE9D0] text-center dark:text-[#FBE9D0]"> 29th September 2025</div> {/*End of news date block*/} 
         <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#99b19d]">Day out to Durham to see the Magna Carta and Durham Cathedral </div> {/*End of news header block*/}
         
-        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left text-[#FBE9D0] dark:text-[#FBE9D0]"> 
+        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left text-[#FBE9D0] dark:text-[#FBE9D0]"> Initially we had to navigate our way around the rear of the cathedral and enter the cathedral museum via the college entrance. Once inside, we commenced with the huge Lego model of Durham cathedral and a video in 4 parts in Lego of the history of Durham cathedral. The video can be seen below:
+          <div>
+            <Link href="https://www.youtube.com/watch?v=VOU5fYYkyzA" target="_blank">Part 1 - History of Durham Cathedral in Lego</Link>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
             </div>
            <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
