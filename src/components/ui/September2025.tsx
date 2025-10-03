@@ -24,21 +24,28 @@ export default function September2025() {
       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#836A58]">
          <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12 text-[#FBE9D0] text-center dark:text-[#FBE9D0]"> 29th September 2025</div> {/*End of news date block*/} 
-        <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#99b19d]">Day out to Durham to see the Magna Carta and Durham Cathedral </div> {/*End of news header block*/}
+        <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#99b19d]">Day out to Durham to see the 'Magna Carta and the North' exhibition at Durham Cathedral </div> {/*End of news header block*/}
         
-        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left text-[#FBE9D0] dark:text-[#FBE9D0]"> Today we were excited to be going to see the only surviving 1216 Magna Carta, along with issues from 1225 and 1300, and three Forest Charters in the 'Magna Carta and the North' Exhibition being shown at Durham Cathedral Museum from 11th July 2025 - 2nd November 2025. The exhibition also was to include  temporary artworks and installations telling the story of these 800-year-old documents. For anyone who wants a quick revise of the history of the Magna Carta, the Rest is History's Spotify episode number 62 <Link href="https://open.spotify.com/episode/6GWB7Ug0lkEu2Ka2msNAQ9?si=adefcd6f90044f4f" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Magna Carta</Link> with Tom Holland and Dominic Sandbrook.
+        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left text-[#FBE9D0] dark:text-[#FBE9D0]"> Today we were excited to be going to see the only surviving 1216 Magna Carta, along with issues from 1225 and 1300, and three Forest Charters in the 'Magna Carta and the North' Exhibition being shown at Durham Cathedral Museum from 11th July 2025 - 2nd November 2025. The exhibition also was to include  temporary artworks and installations telling the story of these 800-year-old documents. For anyone who wants a quick revision of the history of the Magna Carta and King John, the Rest is History's Spotify episode number 62 <Link href="https://open.spotify.com/episode/6GWB7Ug0lkEu2Ka2msNAQ9?si=adefcd6f90044f4f" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Magna Carta</Link> with Tom Holland and Dominic Sandbrook is quite interesting and entertaining.
         <br />
         <br />
-          We started with a cute Lego video 'History of Durham cathedral' in 4 parts which can be seen below to fill you in:
+          We started with a cute Lego video 'History of Durham cathedral' in 4 parts which can be seen below:
           <div className="m-6 p-1 font-bold  border-gray-800 border-solid border-2 bg-[#FBE9D0]">
+            <div className="text-center font-bold  text-[#244845]" >The History of Durham Cathedral in 4 (Lego) Chapters:</div>
           <ol className="text-center">
-           <li><Link href="https://www.youtube.com/watch?v=VOU5fYYkyzA" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Part 1 </Link></li> 
-           <li><Link href="https://www.youtube.com/watch?v=ZccilgbfSQc" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Part 2</Link></li> 
-            <li><Link href="https://www.youtube.com/watch?v=lgiqwPUJHrk" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Part 3 </Link></li>             
-            <li><Link href="https://www.youtube.com/watch?v=CclMzFC-dnc" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Part 4</Link></li>
+           <li><Link href="https://www.youtube.com/watch?v=VOU5fYYkyzA" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Chapter 1 </Link></li> 
+           <li><Link href="https://www.youtube.com/watch?v=ZccilgbfSQc" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Chapter 2</Link></li> 
+            <li><Link href="https://www.youtube.com/watch?v=lgiqwPUJHrk" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Chapter 3 </Link></li>             
+            <li><Link href="https://www.youtube.com/watch?v=CclMzFC-dnc" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Chapter 4</Link></li>
           </ol>
           </div>
+          We then proceeded to be taken through a range of exhibits relating to the spread of Christianity from CE 325 when the Roman Emperor Constantine made Christianity the official religion of the Roman Empire, through to Anglo Saxon times, Viking times and beyond. Then it was through to a separate section to see the Magna Carta exhibition and finally down to the great medieval kitchen where St Cuthbert's cross and the remains of his casket are stored. The cathedral museum is well worth a visit and there is a great shop and café downstairs, although this café was <em>extremely</em> busy when we went past. 
+          <br />
+          <br />
+          Durham is a great city. Apparently 1 in 3 of the population are students so, as can be imagined, it is a city where there is a significant student influence and presence. This has some positive benefits in that there is a great range of places to eat and some fantastic bookshops. We have obtained annual membership for the Durham Cathedral museum, so I have no doubt we will be back before long.
             </div>
+
+             
            <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#99b19d] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#99b19d]">
               {" "}
