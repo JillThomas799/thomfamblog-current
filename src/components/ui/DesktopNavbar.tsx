@@ -5,6 +5,8 @@ import React from 'react';
 import Link from "next/link";
 import { ModeToggle } from "./ModeToggle"; 
 import { Button } from "./button";
+// import Image from 'next/image'
+// import LennieBioImage from "/public/imagesresized/LennieBioImage.jpg";
 
 async function DesktopNavbar() {
     const user = await currentUser()
@@ -12,6 +14,14 @@ async function DesktopNavbar() {
   return (
     <div className="hidden md:flex items-center space-x-4">
         <ModeToggle />
+{/* <div>
+ <Image
+                  src={ LennieBioImage}
+                  className="block ml-auto mr-auto h-auto w-[40%]  border-solid border-[white] border-2 mt-1 mb-11 "
+                  alt="Photo of Lennie"
+                />
+
+</div> */}
 
         <Button variant="ghost" className="flex items-center gap-2" asChild>
             <Link href="/">
