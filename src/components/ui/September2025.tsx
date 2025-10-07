@@ -17,7 +17,8 @@ export default function September2025() {
 
   return (   
  <div> 
-       <div className="text-[#244845] text-center font-semibold text-2xl p-3 bg-[#AE9091] border-solid border-2 border-[#22311d]">September 2025
+       <div className=" bg-[#b65c00] border-solid border-2 border-[#22311d] mb-28"> {/*September block background*/}
+        <div className="text-[#f9d8a6] text-center font-semibold text-2xl p-3 bg-[#743500] border-solid border-2 border-[#22311d] m-2">September 2025
         </div> {/*End of September month block*/}
 
         <div className="mb-20"> 
@@ -287,6 +288,7 @@ export default function September2025() {
            </div> {/*End of individual dated entry block*/}
           
       </div> {/*End of September block*/}
+       </div> {/*End of September block background*/}
 
      </div>
      </div>
