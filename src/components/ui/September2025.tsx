@@ -18,7 +18,7 @@ export default function September2025() {
   return (   
  <div> 
        <div className=" bg-[#b65c00] border-solid border-2 border-[#22311d] mb-28"> {/*September block background*/}
-        <div className="text-[#f9d8a6] text-center font-semibold text-2xl p-3 bg-[#743500] border-solid border-2 border-[#22311d] m-2">September 2025
+        <div className="text-[#FBE9D0] text-center font-semibold text-2xl p-3 bg-[#743500] border-solid border-2 border-[#22311d] m-2">September 2025
         </div> {/*End of September month block*/}
 
         <div className="mb-20"> 
@@ -27,7 +27,7 @@ export default function September2025() {
         <div className="font-bold py-2 px-12 text-[#FBE9D0] text-center dark:text-[#FBE9D0]"> 29th September 2025</div> {/*End of news date block*/} 
         <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#99b19d]">Day out to Durham to see the 'Magna Carta and the North' exhibition at Durham Cathedral </div> {/*End of news header block*/}
         
-        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left text-[#FBE9D0] dark:text-[#FBE9D0]"> Today we were excited to be going to see the only surviving 1216 Magna Carta, along with issues from 1225 and 1300, and three Forest Charters in the 'Magna Carta and the North' Exhibition being shown at Durham Cathedral Museum from 11th July 2025 - 2nd November 2025. The exhibition also was to include  temporary artworks and installations telling the story of these 800-year-old documents. For anyone who wants a quick revision of the history of the Magna Carta and King John, the Rest is History's Spotify episode number 62 <Link href="https://open.spotify.com/episode/6GWB7Ug0lkEu2Ka2msNAQ9?si=adefcd6f90044f4f" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Magna Carta</Link> with Tom Holland and Dominic Sandbrook is quite interesting and entertaining.
+        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-bold text-left text-[#FBE9D0] dark:text-[#FBE9D0]"> Today we were excited to be going to see the only surviving 1216 Magna Carta, along with issues from 1225 and 1300, and three Forest Charters in the 'Magna Carta and the North' Exhibition being shown at Durham Cathedral Museum from 11th July 2025 - 2nd November 2025. The exhibition also was to include  temporary artworks and installations telling the story of these 800-year-old documents. For anyone who wants a quick revision of the history of the Magna Carta and King John, the Rest is History's Spotify episode number 62 <Link href="https://open.spotify.com/episode/6GWB7Ug0lkEu2Ka2msNAQ9?si=adefcd6f90044f4f" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Magna Carta</Link> with Tom Holland and Dominic Sandbrook is quite interesting and entertaining.
         <br />
         <br />
           We started with a cute Lego video 'History of Durham cathedral' in 4 parts which can be seen below:
@@ -75,7 +75,7 @@ export default function September2025() {
         <div className="font-bold py-2 px-12 text-[#FBE9D0] text-center dark:text-[#FBE9D0]"> 24th September 2025</div> {/*End of news date block*/} 
         <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#99b19d]">Day trip to Newcastle upon Tyne by bus - a fun day out. </div> {/*End of news header block*/}
         
-        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left text-[#FBE9D0] dark:text-[#FBE9D0]"> After Jill and Harry's successful journey by public transport to Penrith the previous Saturday, it was decided that Jill and Bernard would trial a day out by bus to Newcastle upon Tyne, a round journey of just under a hundred miles and a two hour bus journey each way. 
+        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-bold text-left text-[#FBE9D0] dark:text-[#FBE9D0]"> After Jill and Harry's successful journey by public transport to Penrith the previous Saturday, it was decided that Jill and Bernard would trial a day out by bus to Newcastle upon Tyne, a round journey of just under a hundred miles and a two hour bus journey each way. 
           <br />
           <br />
         The bus which runs along this route is the hourly <Link href="https://www.stagecoachbus.com/" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Stage Coach service</Link> number 685 between Carlisle bus station and Eldon Square bus station Newcastle. It essentially follows the line of the A69 from the West to the East of England, running very close to Hadrian's Wall along its journey and taking in places such as Haltwhistle, Hebden Bridge, Hexham and Heddon-on-the-Wall. So for the main part,it is a very atmospheric, picturesque route. It currently <em>(although this may be subject to change)</em> costs £3.00 per person per single journey. From end to end, it takes 2 hours 28 minutes. The bus is also very social. Many of its users are locals who clearly use the service regularly and know the other passengers and drivers. 
@@ -114,7 +114,7 @@ export default function September2025() {
         <div className="font-bold py-2 px-12 text-[#FBE9D0] text-center dark:text-[#FBE9D0]"> 13th September 2025</div> {/*End of news date block*/} 
         <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#99b19d]">Day out at Alnwick Castle and Alnwick, including a visit to Barter Books. </div> {/*End of news header block*/}
         
-        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left text-[#FBE9D0] dark:text-[#FBE9D0]"> Today we drove over to Alnwick to visit Alnwick Castle and whilst there, to visit a well-known second hand book shop <Link href="https://www.barterbooks.co.uk/" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Barter Books</Link>. We had long intended to visit Alnwick Castle as it is a very large, fortified castle whose history extends back to Norman times and which continues  to be the seat of the Duke and Duchess of Northumberland today.
+        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-bold text-left text-[#FBE9D0] dark:text-[#FBE9D0]"> Today we drove over to Alnwick to visit Alnwick Castle and whilst there, to visit a well-known second hand book shop <Link href="https://www.barterbooks.co.uk/" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Barter Books</Link>. We had long intended to visit Alnwick Castle as it is a very large, fortified castle whose history extends back to Norman times and which continues  to be the seat of the Duke and Duchess of Northumberland today.
             <br />
             <br />
             Alnwick Castle goes back a <em>long</em> way, right the way back to Norman times. 
@@ -160,7 +160,7 @@ export default function September2025() {
          <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12 text-[#FBE9D0] text-center dark:text-[#FBE9D0]"> 3rd September 2025</div> {/*End of news date block*/} 
         <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#99b19d]">Portsmouth Historic Dockyard Day 3: HMS Submarine Museum, return home and reflection and take-aways from the holiday. </div> {/*End of news header block*/}
-        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left text-[#FBE9D0] dark:text-[#FBE9D0]">
+        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-bold text-left text-[#FBE9D0] dark:text-[#FBE9D0]">
           Today it was time to say farewell to Portsmouth and return home. We had however not yet managed to see all the attractions at the Naval Dockyard, most specifically the Submarine Museum and the Museum of Naval Firepower as during term times they are not open to the public on Mondays and Tuesdays. It was decided that before we returned home on the Wednesday morning, we would drive to the Dockyard at Gosport (where there is also a free car park) to see the Submarine museum.
           <br />
           <br />
@@ -205,7 +205,7 @@ export default function September2025() {
         <div className="font-bold py-2 px-12 text-[#FBE9D0] text-center dark:text-[#FBE9D0]"> 2nd September 2025</div> {/*End of news date block*/} 
         <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#99b19d]">Portsmouth Historic Dockyard Day 2: HMS Warrior, Victory Live and another look at the Mary Rose Exhibition (but this time unaccompanied), and an exploration of Old Portsmouth and the Millennium Promenade and Southsea Castle. </div> {/*End of news header block*/}
         <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left">
-           <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left text-[#FBE9D0] dark:text-[#FBE9D0]">
+           <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-bold text-left text-[#FBE9D0] dark:text-[#FBE9D0]">
             Today it was Day 2 of our visit to Portsmouth Historic Dockyard, a visit to Old Portsmouth and a walk along the Millennium Promenade. At the Dockyard our plan was to see HMS Warrior, the Victory Live exhibition and to have another visit to the Mary Rose exhibition (this time unaccompanied). So it was going to be a busy day (we actually ended up walking 9.5 miles)!
             <br />
             <br />
@@ -251,7 +251,7 @@ export default function September2025() {
         <div className="font-bold py-2 px-12 text-[#FBE9D0] text-center dark:text-[#FBE9D0]"> 1st September 2025</div> {/*End of news date block*/} 
         <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#99b19d]">Visit to Winchester to see Winchester Cathedral, <br/> Wolvesey Palace and other Winchester sites</div> {/*End of news header block*/}
         <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left">
-           <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left text-[#FBE9D0] dark:text-[#FBE9D0]">On reading about the history of Westminster Abbey, London prior to our recent visit, the importance of the city of Winchester and its cathedrals had been mentioned on a number of occasions. Winchester is a city which we knew little about and had never visited, so it was time for us to find out more....
+           <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-bold text-left text-[#FBE9D0] dark:text-[#FBE9D0]">On reading about the history of Westminster Abbey, London prior to our recent visit, the importance of the city of Winchester and its cathedrals had been mentioned on a number of occasions. Winchester is a city which we knew little about and had never visited, so it was time for us to find out more....
             <br />
             <br /> 
             Winchester is a fascinating city. For those disbelievers who are looking at me quizzically with raised eyebrows at this point, just bear with me and let me explain. London has not always been the capital of England. Before a unified England came into being in the year CE 927 under the reign of the Anglo-Saxon King Aethelstan, King of Wessex, England was divided into 4 main kingdoms: Wessex, Mercia, Northumbria (<em>Yeah!</em>) and East Anglia. The city of Winchester was the capital of Wessex which comprises the modern day counties of Hampshire, Dorset, Wiltshire, and Somerset, with historical extensions into Devon, Cornwall, and Berkshire and was, in the Anglo-Saxon period, one of the most important cities in England. 
