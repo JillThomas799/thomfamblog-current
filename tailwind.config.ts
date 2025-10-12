@@ -74,6 +74,6 @@ const config: Config = withUt({
     }
   	}
   },
-  plugins: [require("tailwindcss-animate"),require('tailwindcss-motion')]
+  plugins: [require("tailwindcss-animate")]
 });
 export default config;
