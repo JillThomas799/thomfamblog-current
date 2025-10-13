@@ -10,9 +10,6 @@ import AlnwickCastleTitled from '/public/imagesresized/AlnwickCastleTitled.jpg';
 import Newcastle24092025Titled from '/public/imagesresized/Newcastle24092025Titled.jpg';
 import DurhamCathedralTitled from '/public/imagesresized/DurhamCathedralTitled.jpg';
 
-
-
-import september2025 from "@/components/ui/October2025";
 import September2025 from "@/components/ui/September2025";
 
 export default function Page() {

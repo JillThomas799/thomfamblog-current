@@ -1,11 +1,11 @@
 
 
 
-// import Pagination from '@/app/ui/months/pagination';
+import Pagination from '@/app/dashboard/months/pagination';
 import Search from '@/app/search';
-// import Table from '@/app/ui/months/table';
-// import { CreateInvoice } from '@/app/ui/months/buttons';
-// import { InvoicesTableSkeleton } from '@/app/ui/skeletons';
+import  Table from '@/app/dashboard/months/table';
+import CreateBlog  from '@/app/dashboard/months/buttons';
+import { MonthsTableSkeleton } from '@/app/dashboard/months/skeletons';
 import { Suspense } from 'react';
  
 export default async function Page(props: {
@@ -27,7 +27,7 @@ export default async function Page(props: {
         <Search placeholder="Search monthly blogs..." />
         <CreateBlog />
       </div>
-      <Suspense key={query + currentPage} fallback={<BlogsTableSkeleton />}>
+      <Suspense key={query + currentPage} fallback={<MonthsTableSkeleton />}>
         <Table query={query} currentPage={currentPage} />
       </Suspense>
       <div className="mt-5 flex w-full justify-center">
