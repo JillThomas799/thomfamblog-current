@@ -1,9 +1,6 @@
 {
   "name": "thomfamblog-current",
   "version": "0.1.0",
-  "prisma": {
-    "seed": "ts-node prisma/seed.ts"
-  },
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -40,6 +37,7 @@
     "uploadthing": "^7.7.3",
     "ws": "^8.18.3"
   },
+
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
