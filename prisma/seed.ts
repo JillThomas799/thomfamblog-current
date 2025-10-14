@@ -6,11 +6,13 @@ const prisma =  new PrismaClient()          //Creates an instance of this class.
 async function seed() {
     await prisma.month.createMany( {
         data: [ {
-            id: "August2025", year: 2025, month: "August", component: "<August 2025 />", url: "/dashboard/months/august2025" },
+            id: "August2025", year: 2025, month: "August", component: "<August2025 />"},
             {
-            id: "September2025", year: 2025, month: "September", component: "<September 2025 />", url: "/dashboard/months/september2025"}
+            id: "September2025", year: 2025, month: "September", component: "<September2025 />"},
             {
-            id: "October2025", year: 2025, month: "October", component: "<October 2025 />", url: "/dashboard/months/october2025"}
+            id: "October2025", year: 2025, month: "October", component: "<October2025 />"},
+             {
+            id: "November2025", year: 2025, month: "November", component: "<November2025 />"}
          ]
     })
 }
