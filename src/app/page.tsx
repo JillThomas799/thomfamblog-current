@@ -8,7 +8,8 @@ import August2025 from "@/components/ui/August2025";
 import September2025 from "@/components/ui/September2025";
 import October2025 from "@/components/ui/October2025";
 import Search from "@/app/search";
-import MonthsTableSkeleton from "@/app/dashboard/months/skeletons";
+import SearchInput from "./dashboard/search/searchinput";
+
 
 
 export default async function Home() {
@@ -25,7 +26,9 @@ export default async function Home() {
     <div className="grid grid-cols-1 md:grid-cols-3 gap-1 p-2 "> {/*Sets the overall grid layout for the display*/}
     <div className="col-span-1 md:col-span-2">
       <div className="mt-2 md:mt-1 flex items-center justify-between gap-2 mb-12">
-   <Search placeholder={""}/>
+   {/* <Search placeholder={""}/> */}
+   <SearchInput />
+
     </div>
     </div> 
     
