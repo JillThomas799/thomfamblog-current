@@ -30,7 +30,7 @@ export default function Search({ placeholder }: { placeholder: string }) {
         }}
          defaultValue={searchParams.get('query')?.toString()}
       />
-      <MagnifyingGlassIcon className="absolute left-3 top-1/2 h-[24px] w-[18px] -translate-y-1/2 text-white peer-focus:text-gray-900" />
+      *<MagnifyingGlassIcon className="absolute left-3 top-1/2 h-[24px] w-[18px] -translate-y-1/2 text-white peer-focus:text-gray-900" />
     </div>
   );
 }
