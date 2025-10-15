@@ -1,4 +1,5 @@
-import { PrismaClient } from "@prisma/client";  //allows the seed function below to access prisma and import the PrismaClient class.
+// import { PrismaClient } from "@prisma/client";  //allows the seed function below to access prisma and import the PrismaClient class.
+ import { PrismaClient } from "@prisma/client"
 import { Month } from "@prisma/client";
 
 const prisma =  new PrismaClient()          //Creates an instance of this class. With the prisma variable, you have access to altering and executing commands to your table.  It has full details of how our schema is because we ran the 'generate' function. 
