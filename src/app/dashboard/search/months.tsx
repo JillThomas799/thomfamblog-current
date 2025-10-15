@@ -11,7 +11,7 @@ const Months = ({ months }: MonthsProps) => {
       {months.map((month: any) => (
         <div className="flex p-3 gap-4 my-3 rounded-xl border-[1px] border-zinc-600 w-3/4">
           <div className="flex flex-col gap-2">
-            <span className="text-xl font-semibold">{month.component}</span>
+            <span className="text-xl font-semibold">{month.url}</span>
             {/* <span className="sm:text-lg font-light">{month.component}</span> */}
           </div>
         </div>

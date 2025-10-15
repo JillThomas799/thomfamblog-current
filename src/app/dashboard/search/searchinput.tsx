@@ -25,8 +25,7 @@ const SearchInput = () => {
 
  return (
     <form onSubmit={onSearch} className="flex w-full">     
-      <input className="px-5 py-1 w-2/3 sm:px-5 sm:py-3 flex-1 text-zinc-200 bg-zinc-800 focus:bg-black rounded-30% focus:outline-none focus:ring-[1px] focus:ring-green-700 placeholder:text-zinc-400"
-     
+      <input className="px-5 py-1 w-2/3 sm:px-5 sm:py-3 flex-1 text-zinc-200 bg-zinc-800 focus:bg-black rounded-30% focus:outline-none focus:ring-[1px] focus:ring-green-700 placeholder:text-zinc-400"     
         placeholder="&#128270; Search for blog you wish to view using format: MonthYear"//Addition of unicode for left-hand magnifying glass "&#128270" ensures the icon is lying within the placeholder.
         value={searchQuery || ""}
        onChange={(event) => setSearchQuery(event.target.value)}

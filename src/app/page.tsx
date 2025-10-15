@@ -9,7 +9,7 @@ import September2025 from "@/components/ui/September2025";
 import October2025 from "@/components/ui/October2025";
 import Search from "@/app/search";
 import SearchInput from "./dashboard/search/searchinput";
-import retrieveBlogs from "./dashboard/search/page";
+// import retrieveBlogs from "./dashboard/search/page";
 
 
 
@@ -32,10 +32,7 @@ export default async function Home() {
    <SearchInput />
     </div> 
     </div> 
-      
-    
-    
-    
+  
     <div className="col-span-1 md:col-span-2 p-2 gap-3 bg-[#90AEAD]">
     <div>
     <October2025 />
