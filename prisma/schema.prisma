@@ -6,7 +6,7 @@
 
 generator client {
   provider = "prisma-client-js"
-  // output          = "../src/generated/prisma"
+  output   = "../src/generated/prisma"
 }
 
 datasource db {
@@ -128,4 +128,9 @@ model Month {
   month     String?
   component String?
   url       String?
+}
+
+model Blogs {
+  id    String  @id @unique @default(cuid())
+  month String?
 }
