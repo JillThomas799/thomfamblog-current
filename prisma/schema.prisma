@@ -120,3 +120,12 @@ enum NotificationType {
   COMMENT
   FOLLOW
 }
+
+//model Month attempts to link to blog index in Neon database to retrieve monthly blog index .
+model Month {
+  id        String  @id @unique @default(cuid())
+  year      Int?
+  month     String?
+  component String?
+  url       String?
+}
