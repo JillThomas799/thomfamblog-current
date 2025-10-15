@@ -9,6 +9,7 @@ import September2025 from "@/components/ui/September2025";
 import October2025 from "@/components/ui/October2025";
 import Search from "@/app/search";
 import SearchInput from "./dashboard/search/searchinput";
+import retrieveBlogs from "./dashboard/search/page";
 
 
 
@@ -23,14 +24,17 @@ export default async function Home() {
   if (!userId) return;
   else {
   return (
+  
     <div className="grid grid-cols-1 md:grid-cols-3 gap-1 p-2 "> {/*Sets the overall grid layout for the display*/}
     <div className="col-span-1 md:col-span-2">
       <div className="mt-2 md:mt-1 flex items-center justify-between gap-2 mb-12">
    {/* <Search placeholder={""}/> */}
    <SearchInput />
-
-    </div>
     </div> 
+    </div> 
+      
+    
+    
     
     <div className="col-span-1 md:col-span-2 p-2 gap-3 bg-[#90AEAD]">
     <div>
@@ -48,15 +52,11 @@ export default async function Home() {
             <PostCard key={post.id} post={post} dbUserId={dbUserId} />
           ))} 
         </div>
-        </div>
-        
+        </div>    
     </div>
+  
+   
     </div>
+    
   );
-}
-}
-
-
-
-
-
+}}
