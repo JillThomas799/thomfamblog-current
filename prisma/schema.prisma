@@ -129,8 +129,3 @@ model Month {
   component String?
   url       String?
 }
-
-model Blogs {
-  id    String  @id @unique @default(cuid())
-  month String?
-}
