@@ -7,7 +7,7 @@ import PostCard from "@/components/ui/PostCard";
 import August2025 from "@/components/ui/August2025";
 import September2025 from "@/components/ui/September2025";
 import October2025 from "@/components/ui/October2025";
-import SearchInput from "./dashboard/search/searchinput";
+import SearchInput from "./dashboard/search/Searchinput";
 
 
 
