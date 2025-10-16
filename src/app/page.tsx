@@ -6,6 +6,7 @@ import CreatePost from "@/components/ui/CreatePost";
 import PostCard from "@/components/ui/PostCard";
 import August2025 from "@/components/ui/August2025";
 import September2025 from "@/components/ui/September2025";
+import October2025 from "@/components/ui/October2025";
 import SearchInput from "./dashboard/search/searchinput";
 
 
@@ -33,6 +34,7 @@ export default async function Home() {
     </div> 
     <div className="col-span-1 md:col-span-2 p-2 gap-3 bg-[#90AEAD]">
     <div>
+      <October2025 />
      <September2025 />
     <August2025 /> 
     </div>
