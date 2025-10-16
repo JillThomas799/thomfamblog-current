@@ -11,6 +11,7 @@ import SearchInput from "./dashboard/search/searchinput";
 
 
 
+
 export default async function Home() {
   const user = await currentUser();
   const userId = await getDbUserId();
