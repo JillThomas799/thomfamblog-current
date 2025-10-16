@@ -9,9 +9,6 @@ import September2025 from "@/components/ui/September2025";
 import October2025 from "@/components/ui/October2025";
 import SearchInput from "./dashboard/search/Searchinput";
 
-
-
-
 export default async function Home() {
   const user = await currentUser();
   const userId = await getDbUserId();

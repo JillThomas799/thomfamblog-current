@@ -4,7 +4,6 @@ import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/ui/Navbar";
-import Sidebar from "@/components/ui/Sidebar";
 import { Toaster } from "react-hot-toast";
 
 
