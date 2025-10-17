@@ -1,7 +1,6 @@
-// import { PrismaClient, Prisma } from "@prisma/client";
-import { Month } from "@prisma/client";
+import { Month } from "@prisma/client"; 
 
-interface MonthsProps {
+interface MonthsProps {                     
   months: Array<Month>;
 }
 
