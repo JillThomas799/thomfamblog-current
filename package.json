@@ -17,7 +17,7 @@
     "@heroicons/react": "^2.2.0",
     "@neondatabase/serverless": "^1.0.1",
     "@prisma/adapter-neon": "^6.11.1",
-    "@prisma/client": "^6.17.1",
+    "@prisma/client": "^6.16.2",
     "@radix-ui/react-alert-dialog": "^1.1.14",
     "@radix-ui/react-avatar": "^1.1.10",
     "@radix-ui/react-dialog": "^1.1.14",
@@ -31,24 +31,26 @@
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
     "lucide-react": "^0.525.0",
-    "next": "^15.5.4",
+    "next": "^15.3.5",
     "next-themes": "^0.4.6",
     "react": "^18",
     "react-dom": "^18",
     "react-hot-toast": "^2.5.2",
+    "swr": "^2.3.6",
     "tailwind-merge": "^3.3.1",
     "tailwindcss-animate": "^1.0.7",
     "uploadthing": "^7.7.3",
     "ws": "^8.18.3"
   },
   "devDependencies": {
-    "@types/node": "^20",
+    "@types/node": "^20.19.17",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "postcss": "^8",
-    "prisma": "^6.17.1",
+    "prisma": "^6.16.2",
     "tailwindcss": "^3.4.1",
-    "tailwindcss-motion": "^1.1.1",
-    "typescript": "^5"
+    "ts-node": "^10.9.2",
+    "type": "module" ,
+    "typescript": "^5.9.2"
   }
 }
