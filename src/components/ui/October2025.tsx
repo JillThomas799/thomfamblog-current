@@ -3,6 +3,16 @@
 import * as React from "react"
 import Image from 'next/image'
 import Link from 'next/link'
+import Gaia from "/public/imagesresized/Gaia.jpg";
+import MD1Gaia from "/public/imagesresized/MD1Gaia.jpg";
+import MD2Gaia from "/public/imagesresized/MD2Gaia.jpg";
+import MD3Gaia from "/public/imagesresized/MD3Gaia.jpg";
+import MD4Gaia from "/public/imagesresized/MD4Gaia.jpg";
+import MD5Gaia from "/public/imagesresized/MD5Gaia.jpg";
+import MD6Gaia from "/public/imagesresized/MD6Gaia.jpg";
+import MD7Gaia from "/public/imagesresized/MD7Gaia.jpg";
+import MD8Gaia from "/public/imagesresized/MD8Gaia.jpg";
+import MD9Gaia from "/public/imagesresized/MD8Gaia.jpg";
 
 
 export default function October2025() {
@@ -22,6 +32,114 @@ export default function October2025() {
       </div>{/*End of individual dated entry photo album block*/} 
            </div> {/*End of news content block*/}
            </div> {/*End of individual dated entry design and color template block*/}  
+
+                <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
+         <div className="text-md md:text-lg max-w-full font-bold text-[#D99E49] text-center dark:text-[#D99E49] justify-center items-center">
+        <div className="font-bold py-2 px-12 text-[#22311d] text-center dark:text-[#22311d]"> 17th October 2025</div> {/*End of news date block*/} 
+        <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#61603c]">Hexham Abbey and the Gaia Exhibition - well worth a visit!</div> {/*End of news header block*/}
+        
+        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-bold text-left text-[#22311d] dark:text-[#22311d]">GAIA is an impressive, large-scale sculpture by the renowned artist Luke Jerram with the intention to remind us of the beauty, fragility and interconnectedness of the earth.
+         <br />
+         <br />  
+         <Image
+                  src={ Gaia }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150 "
+                  alt="Photo of the Gaia Sculpture, Hexham Abbey"
+                />  
+                
+         Elena's friend Mike Domingo, who is also currently one of the Green councillors for Hexham, had together with ..... created a really helpful and clear exhibition demonstrating the importance and risks of climate change, where we are up to and what we need to do!
+          <br />
+         <br /> 
+<div className="flex flex-col gap-4">
+  <div className="flex flex-col flex-wrap">
+         <Image
+                  src={ MD1Gaia }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150 "
+                  alt="Photo of the Display number 1 - Climate Change exhibition, Hexham Abbey"
+                /> 
+                <figcaption className="text-wrap pl-32 pr-32">!. Climate change is a threat to human wellbeing and planetary health. We have a rapidly closing window of opportunity to secure a safe, liveable future for all.</figcaption> 
+                </div> 
+                
+                <div className="flex flex-col flex-wrap">
+                <Image
+                  src={ MD2Gaia }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150"
+                  alt="Photo of the Display number 2 - Climate Change exhibition, Hexham Abbey"
+                /> 
+                <figcaption className="text-wrap pl-32 pr-32">2. Fossil fuel pollution caused 8 million deaths globally in 2018.
+                                  </figcaption>
+                </div>
+                
+                 <div className="flex flex-col flex-wrap">
+                <Image
+                  src={ MD3Gaia }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 "
+                  alt="Photo of the Display number 3 - Climate Change exhibition, Hexham Abbey"
+                /> 
+                </div>
+                                
+                                 </div>
+
+                <div className="flex flex-row gap-4">         <Image
+                  src={ MD4Gaia }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 "
+                  alt="Photo of the Display number 4 - Climate Change exhibition, Hexham Abbey"
+                />  
+                <Image
+                  src={ MD5Gaia }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 "
+                  alt="Photo of the Display number 5 - Climate Change exhibition, Hexham Abbey"
+                /> 
+                <Image
+                  src={ MD6Gaia }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 "
+                  alt="Photo of the Display number 6 - Climate Change exhibition, Hexham Abbey"
+                /> 
+                </div> 
+
+                <div className="flex flex-row gap-4">
+         <Image
+                  src={ MD7Gaia }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 "
+                  alt="Photo of the Display number 7 - Climate Change exhibition, Hexham Abbey"
+                />  
+                <Image
+                  src={ MD8Gaia }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 "
+                  alt="Photo of the Display number 8 - Climate Change exhibition, Hexham Abbey"
+                /> 
+                <Image
+                  src={ MD9Gaia }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 "
+                  alt="Photo of the Display number 9 - Climate Change exhibition, Hexham Abbey"
+                /> 
+                </div> 
+                
+           </div>
+
+             
+           <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#61603c] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#61603c]">
+              {" "}
+                <div className="m-1 p-1 font-bold  border-gray-800 border-solid border-2 bg-[#D99E49]">Click on the image below to open the album <br /> of our visit to Hexham Abbey and the Gaia Exhibition.</div>
+                <br />
+              <br />
+              <Link
+                href="https://photos.app.goo.gl/WqTL6BRy8zWVsciTA"
+                target="_blank"
+              >
+                {/* <Image
+                  src={ DurhamCathedralTitled }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Durham Cathedral"
+                /> */}
+              </Link>
+            </div>{" "}
+      </div>{/*End of individual dated entry photo album block*/} 
+           </div> {/*End of news content block*/}
+           </div> {/*End of individual dated entry design and color template block*/}
+           </div> {/*End of individual dated entry block*/}     
           
       </div> {/*End of October block*/}
       </div> /*End of October block background*/
