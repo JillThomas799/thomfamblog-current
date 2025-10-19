@@ -12,7 +12,8 @@ import MD5Gaia from "/public/imagesresized/MD5Gaia.jpg";
 import MD6Gaia from "/public/imagesresized/MD6Gaia.jpg";
 import MD7Gaia from "/public/imagesresized/MD7Gaia.jpg";
 import MD8Gaia from "/public/imagesresized/MD8Gaia.jpg";
-import MD9Gaia from "/public/imagesresized/MD8Gaia.jpg";
+import MD9Gaia from "/public/imagesresized/MD9Gaia.jpg";
+import GaiaTitled from "/public/imagesresized/GaiaTitled.jpg";
 
 
 export default function October2025() {
@@ -51,89 +52,107 @@ export default function October2025() {
          Elena's friend Mike Domingo, who is also currently one of the Green councillors for Hexham, had together with ..... created a really helpful and clear exhibition demonstrating the importance and risks of climate change, where we are up to and what we need to do!
           <br />
          <br /> 
-<div className="flex flex-col gap-4">
-  <div className="flex flex-col flex-wrap">
+<div className="flex flex-col gap-4 ">
+  <div className="flex flex-col flex-wrap bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6">
          <Image
                   src={ MD1Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150 "
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-5 hover:scale-150 "
                   alt="Photo of the Display number 1 - Climate Change exhibition, Hexham Abbey"
                 /> 
-                <figcaption className="text-wrap pl-32 pr-32">!. Climate change is a threat to human wellbeing and planetary health. We have a rapidly closing window of opportunity to secure a safe, liveable future for all.</figcaption> 
+                <figcaption className="text-wrap pl-32 pr-32">Climate change is a threat to human wellbeing and planetary health. We have a rapidly closing window of opportunity to secure a safe, liveable future for all.</figcaption> 
                 </div> 
-                
-                <div className="flex flex-col flex-wrap">
+                <br />
+                <br />
+                <div className="flex flex-col flex-wrap bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6">
                 <Image
                   src={ MD2Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150"
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-8 mb-11 hover:scale-150"
                   alt="Photo of the Display number 2 - Climate Change exhibition, Hexham Abbey"
                 /> 
-                <figcaption className="text-wrap pl-32 pr-32">2. Fossil fuel pollution caused 8 million deaths globally in 2018.
+                <figcaption className="text-wrap pl-32 pr-32">Fossil fuel pollution caused 8 million deaths globally in 2018. This earth above shows the 6,160 p[aces where people are right now drilling for oil and gas buried deep underground as well as 205 places where they are due to start soon....
                                   </figcaption>
                 </div>
                 
-                 <div className="flex flex-col flex-wrap">
+                 <div className="flex flex-col flex-wrap bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6">
                 <Image
                   src={ MD3Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 "
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-5  hover:scale-150"
                   alt="Photo of the Display number 3 - Climate Change exhibition, Hexham Abbey"
                 /> 
+                <figcaption className="text-wrap pl-32 pr-32">We need to fly less, or stop completely for now and take public transport instead. The UK contributes the highest share of international air travellers at 8.6% of the world's total. Flying creates about 7% of UK emissions.For most countries it is one third of this figure. 
+                                  </figcaption>
                 </div>
                                 
-                                 </div>
+                                 
 
-                <div className="flex flex-row gap-4">         <Image
+                <div className="flex flex-row gap-4 bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6">         
+                  <Image
                   src={ MD4Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 "
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150"
                   alt="Photo of the Display number 4 - Climate Change exhibition, Hexham Abbey"
-                />  
+                /> 
+                <figcaption className="text-wrap pl-32 pr-32">Atlantic Current collapse is closer than we thought
+                                  </figcaption>
+                </div>
+                
+                <div className="flex flex-row gap-4 bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6">  
                 <Image
                   src={ MD5Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 "
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150"
                   alt="Photo of the Display number 5 - Climate Change exhibition, Hexham Abbey"
                 /> 
+                 </div> 
+
+                <div className="flex flex-row gap-4 bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6"> 
                 <Image
                   src={ MD6Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 "
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150"
                   alt="Photo of the Display number 6 - Climate Change exhibition, Hexham Abbey"
                 /> 
-                </div> 
+                </div>
+               
 
-                <div className="flex flex-row gap-4">
+               <div className="flex flex-row gap-4 bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6"> 
          <Image
                   src={ MD7Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 "
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150"
                   alt="Photo of the Display number 7 - Climate Change exhibition, Hexham Abbey"
                 />  
+                </div>
+                <div className="flex flex-row gap-4 bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6"> 
                 <Image
                   src={ MD8Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 "
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150"
                   alt="Photo of the Display number 8 - Climate Change exhibition, Hexham Abbey"
                 /> 
+                </div>
+
+                <div className="flex flex-row gap-4 bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6"> 
                 <Image
                   src={ MD9Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 "
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150"
                   alt="Photo of the Display number 9 - Climate Change exhibition, Hexham Abbey"
                 /> 
                 </div> 
                 
-           </div>
+        
 
              
            <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#61603c] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#61603c]">
               {" "}
-                <div className="m-1 p-1 font-bold  border-gray-800 border-solid border-2 bg-[#D99E49]">Click on the image below to open the album <br /> of our visit to Hexham Abbey and the Gaia Exhibition.</div>
+                <div className="m-1 p-1 font-bold  border-gray-800 border-solid border-2 bg-[#b55b4b]">Click on the image below to open the album <br /> of our visit to Hexham Abbey and the Gaia Exhibition.</div>
                 <br />
               <br />
               <Link
-                href="https://photos.app.goo.gl/WqTL6BRy8zWVsciTA"
+                href="https://photos.app.goo.gl/9Y9ydZbHXfyR27Ty8"
                 target="_blank"
               >
-                {/* <Image
-                  src={ DurhamCathedralTitled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                <Image
+                  src={ GaiaTitled }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[60%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of Durham Cathedral"
-                /> */}
+                />
               </Link>
             </div>{" "}
       </div>{/*End of individual dated entry photo album block*/} 
@@ -142,7 +161,10 @@ export default function October2025() {
            </div> {/*End of individual dated entry block*/}     
           
       </div> {/*End of October block*/}
-      </div> /*End of October block background*/
+      </div> {/*End of October block background*/}
+
+      </div>
+      </div>
    
 );
 }
