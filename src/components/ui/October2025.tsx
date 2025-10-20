@@ -85,22 +85,24 @@ export default function October2025() {
                                 
                                  
 
-                <div className="flex flex-row gap-4 bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6">         
+                <div className="flex flex-col gap-4 bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6">         
                   <Image
                   src={ MD4Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150"
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-5 hover:scale-150"
                   alt="Photo of the Display number 4 - Climate Change exhibition, Hexham Abbey"
                 /> 
-                <figcaption className="text-wrap pl-32 pr-32">Atlantic Current collapse is closer than we thought
+                <figcaption className="text-wrap pl-2 pr-2">Atlantic Current collapse is closer than we thought. The Atlantic Meridonal Overturning Circulation (AMOC) is a system of ocean currents that circulates warm water from the tropics to the North Atlantic. It has weakened by 15% since the 1950s and could collapse in the next few decades, with catastrophic consequences for global climate. In the UK the sea level would rise rapidly, the country would be 3 degrees colder on average and rainfall would drop sharply.
                                   </figcaption>
                 </div>
                 
-                <div className="flex flex-row gap-4 bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6">  
+                <div className="flex flex-col gap-4 bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6">  
                 <Image
                   src={ MD5Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150"
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-5 hover:scale-150"
                   alt="Photo of the Display number 5 - Climate Change exhibition, Hexham Abbey"
                 /> 
+                <figcaption className="text-wrap pl-2 pr-2">After crossing a tipping point, there is no return! We are currently approaching 9 tipping points including the Amazon rainforest, ice sheets in Greenland, the Arctic, East and West Antarctic, permaforest, Boreal forest, Tropical Coral Reefs and Atlantic Circulation.
+                                  </figcaption>
                  </div> 
 
                 <div className="flex flex-row gap-4 bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6"> 
