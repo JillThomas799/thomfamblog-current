@@ -81,7 +81,7 @@ export default function October2025() {
 
           
       </div> {/*End of October block*/}
-      </div> /*End of October block background*/
+      </div> 
       </div>
    
 );
