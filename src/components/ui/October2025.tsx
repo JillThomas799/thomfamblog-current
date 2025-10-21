@@ -3,7 +3,7 @@
 import * as React from "react"
 import Image from 'next/image'
 import Link from 'next/link'
-import Gaia from '/public/imagesresized/HMSAllianceTitled.jpg';
+import Gaia from '/public/imagesresized/Gaia.jpg';
 import GaiaTitled from '/public/imagesresized/GaiaTitled.jpg';
 
 export default function October2025() {
