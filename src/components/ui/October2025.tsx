@@ -40,7 +40,14 @@ export default function October2025() {
         <div className="font-bold py-2 px-12 text-[#22311d] text-center dark:text-[#22311d]"> 17th October 2025</div> {/*End of news date block*/} 
         <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#61603c]">Hexham Abbey and the Gaia Exhibition - well worth a visit!</div> {/*End of news header block*/}
         
-        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-bold text-left text-[#22311d] dark:text-[#22311d]">GAIA is an impressive, large-scale sculpture by the renowned artist Luke Jerram with the intention to remind us of the beauty, fragility and interconnectedness of the earth.
+        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-bold text-left text-[#22311d] dark:text-[#22311d]">
+          On the 17th October 2025 we headed over to Hexham Abbey, which is always worth a visit as it is very interesting historically, to see the Gaia exhibition and an exhibition on climate change created by Elena's friend Mike Domingue, a Green Party Councillor for Hexham and Paul Digby, a Leeds-based artist with support from Joe Coroneo-Seaman, an environmental journalist and writer at Edinburgh Castle Change Institute, John Seaman, a retired science teacher and education adviser; and David Dixon, a retired head teacher, the Tynedale bicycle mayor and a sustainability consultant for schools in the North East.  
+          <br />
+          <br />
+          GAIA is an impressive, large-scale sculpture by the renowned artist Luke Jerram with the intention to remind us of the beauty, fragility and interconnectedness of the earth.
+          <br />
+          <br />
+          really helpful and clear exhibition demonstrating the importance and risks of climate change, where we are up to and what we need to do! 
          <br />
          <br />  
          <Image
@@ -49,93 +56,10 @@ export default function October2025() {
                   alt="Photo of the Gaia Sculpture, Hexham Abbey"
                 />  
                 
-         Elena's friend Mike Domingo, who is also currently one of the Green councillors for Hexham, had together with ..... created a really helpful and clear exhibition demonstrating the importance and risks of climate change, where we are up to and what we need to do!
+        
           <br />
          <br /> 
-<div className="flex flex-col gap-4 ">
-  <div className="flex flex-col flex-wrap bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6">
-         <Image
-                  src={ MD1Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-5 hover:scale-150 "
-                  alt="Photo of the Display number 1 - Climate Change exhibition, Hexham Abbey"
-                /> 
-                <figcaption className="text-wrap pl-32 pr-32">Climate change is a threat to human wellbeing and planetary health. We have a rapidly closing window of opportunity to secure a safe, liveable future for all.</figcaption> 
-                </div> 
-                <br />
-                <br />
-                <div className="flex flex-col flex-wrap bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6">
-                <Image
-                  src={ MD2Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-8 mb-11 hover:scale-150"
-                  alt="Photo of the Display number 2 - Climate Change exhibition, Hexham Abbey"
-                /> 
-                <figcaption className="text-wrap pl-32 pr-32">Fossil fuel pollution caused 8 million deaths globally in 2018. This earth above shows the 6,160 p[aces where people are right now drilling for oil and gas buried deep underground as well as 205 places where they are due to start soon....
-                                  </figcaption>
-                </div>
-                
-                 <div className="flex flex-col flex-wrap bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6">
-                <Image
-                  src={ MD3Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-5  hover:scale-150"
-                  alt="Photo of the Display number 3 - Climate Change exhibition, Hexham Abbey"
-                /> 
-                <figcaption className="text-wrap pl-32 pr-32">We need to fly less, or stop completely for now and take public transport instead. The UK contributes the highest share of international air travellers at 8.6% of the world's total. Flying creates about 7% of UK emissions.For most countries it is one third of this figure. 
-                                  </figcaption>
-                </div>
-                                
-                                 
 
-                <div className="flex flex-col gap-4 bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6">         
-                  <Image
-                  src={ MD4Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-5 hover:scale-150"
-                  alt="Photo of the Display number 4 - Climate Change exhibition, Hexham Abbey"
-                /> 
-                <figcaption className="text-wrap pl-2 pr-2">Atlantic Current collapse is closer than we thought. The Atlantic Meridonal Overturning Circulation (AMOC) is a system of ocean currents that circulates warm water from the tropics to the North Atlantic. It has weakened by 15% since the 1950s and could collapse in the next few decades, with catastrophic consequences for global climate. In the UK the sea level would rise rapidly, the country would be 3 degrees colder on average and rainfall would drop sharply.
-                                  </figcaption>
-                </div>
-                
-                <div className="flex flex-col gap-4 bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6">  
-                <Image
-                  src={ MD5Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-5 hover:scale-150"
-                  alt="Photo of the Display number 5 - Climate Change exhibition, Hexham Abbey"
-                /> 
-                <figcaption className="text-wrap pl-2 pr-2">After crossing a tipping point, there is no return! We are currently approaching 9 tipping points including the Amazon rainforest, ice sheets in Greenland, the Arctic, East and West Antarctic, permaforest, Boreal forest, Tropical Coral Reefs and Atlantic Circulation.
-                                  </figcaption>
-                 </div> 
-
-                <div className="flex flex-row gap-4 bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6"> 
-                <Image
-                  src={ MD6Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150"
-                  alt="Photo of the Display number 6 - Climate Change exhibition, Hexham Abbey"
-                /> 
-                </div>
-               
-
-               <div className="flex flex-row gap-4 bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6"> 
-         <Image
-                  src={ MD7Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150"
-                  alt="Photo of the Display number 7 - Climate Change exhibition, Hexham Abbey"
-                />  
-                </div>
-                <div className="flex flex-row gap-4 bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6"> 
-                <Image
-                  src={ MD8Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150"
-                  alt="Photo of the Display number 8 - Climate Change exhibition, Hexham Abbey"
-                /> 
-                </div>
-
-                <div className="flex flex-row gap-4 bg-[#61603c] border-solid border-2 border-[#22311d] p-4 mr-24 ml-24 mt-6 mb-6"> 
-                <Image
-                  src={ MD9Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150"
-                  alt="Photo of the Display number 9 - Climate Change exhibition, Hexham Abbey"
-                /> 
-                </div> 
                 
         
 
@@ -166,7 +90,7 @@ export default function October2025() {
       </div> {/*End of October block background*/}
 
       </div>
-      </div>
+     
    
 );
 }
