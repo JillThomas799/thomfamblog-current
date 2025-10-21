@@ -4,15 +4,6 @@ import * as React from "react"
 import Image from 'next/image'
 import Link from 'next/link'
 import Gaia from "/public/imagesresized/Gaia.jpg";
-import MD1Gaia from "/public/imagesresized/MD1Gaia.jpg";
-import MD2Gaia from "/public/imagesresized/MD2Gaia.jpg";
-import MD3Gaia from "/public/imagesresized/MD3Gaia.jpg";
-import MD4Gaia from "/public/imagesresized/MD4Gaia.jpg";
-import MD5Gaia from "/public/imagesresized/MD5Gaia.jpg";
-import MD6Gaia from "/public/imagesresized/MD6Gaia.jpg";
-import MD7Gaia from "/public/imagesresized/MD7Gaia.jpg";
-import MD8Gaia from "/public/imagesresized/MD8Gaia.jpg";
-import MD9Gaia from "/public/imagesresized/MD9Gaia.jpg";
 import GaiaTitled from "/public/imagesresized/GaiaTitled.jpg";
 
 
