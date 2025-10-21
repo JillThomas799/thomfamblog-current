@@ -44,6 +44,9 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
+
+             <SpeedInsights />
+                      <Analytics />
             <div className="min-h-screen bg-slate-500">
               <Navbar />
               <main className="py-8">
@@ -51,8 +54,7 @@ export default function RootLayout({
                 <div className="max-w-7xl mx-auto px-4 ">
                   <div className="flex flex-col lg:grid-cols-12 gap-6">
                     <div className="hidden lg:block lg:col-span-3">
-                      <SpeedInsights />
-                      <Analytics />
+                     
                       {/* <Sidebar />  */}
                       {/* Removed sidebar which holds Sidebar.tsx settings. can be restored if needed or desired. */}
                     </div>
