@@ -7,6 +7,7 @@ import August2025 from "@/components/ui/August2025";
 import September2025 from "@/components/ui/September2025";
 import October2025 from "@/components/ui/October2025";
 import SearchInput from "./dashboard/search/searchinput";
+import BlogMenuBar from "@/components/ui/blogmenubar";
 
 export default async function Home() {
   const user = await currentUser();
@@ -17,26 +18,18 @@ export default async function Home() {
   if (!userId) return;
   else {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-1 p-2 "> {/*Sets the overall grid layout for the display*/}
-    <div className="col-span-1 md:col-span-2">
-      <div className="mt-2 md:mt-1 flex items-center justify-between gap-2 mb-12">
-
-  {/*Addition of the searchbar*/} 
-             <div className="flex flex-col items-center p-2 w-full">
-              <SearchInput />
-              {/* <div className="flex flex-col items-center w-full">{children}</div> */}
-             </div>
-
-    </div>
-    </div> 
-    <div className="col-span-1 md:col-span-2 p-2 gap-3 bg-[#90AEAD]">
     <div>
-      <October2025 />
-     <September2025 />
-    <August2025 /> 
+      <BlogMenuBar />
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-0 p-0 "> {/*Sets the overall grid layout for the display*/}
+    <div className="col-span-1 col-start-1 md:col-span-1 p-2 gap-3">
+        
+    <div>  
+  <div >
+    <div className="col-span-2 col-start-2 md:col-span-1 p-2 gap-3 bg-[#90AEAD]"> <October2025 /></div>
+ 
     </div>
     </div>
-    <div className="md:col-start-3 gap-2"> 
+    <div className="md:col-start-4 gap-0"> 
        <div className="col-span-1">
         {user ? <CreatePost /> : null}
 
@@ -49,6 +42,8 @@ export default async function Home() {
         
     </div>
     </div>
+      </div>
+      </div>
   );
 }
 }
