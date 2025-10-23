@@ -6,7 +6,7 @@ import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/ui/Navbar";
 import Sidebar from "@/components/ui/Sidebar";
 import { Toaster } from "react-hot-toast";
-// import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 
 const geistSans = localFont({
@@ -50,7 +50,6 @@ export default function RootLayout({
                 <div className="max-w-7xl mx-auto px-4 ">
                   <div className="flex flex-col lg:grid-cols-12 gap-6">
                     <div className="hidden lg:block lg:col-span-3">
-                      <SpeedInsights />
                       {/* <Sidebar />  */}
                       {/* Removed sidebar which holds Sidebar.tsx settings. can be restored if needed or desired. */}
                     </div>
