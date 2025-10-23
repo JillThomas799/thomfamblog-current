@@ -20,16 +20,21 @@ export default async function Home() {
   return (
     <div>
       <BlogMenuBar />
-    <div className="grid grid-cols-1 md:grid-cols-4 gap-0 p-0 "> {/*Sets the overall grid layout for the display*/}
-    <div className="col-span-1 col-start-1 md:col-span-1 p-2 gap-3">
-        
-    <div>  
-  <div >
-    <div className="col-span-2 col-start-2 md:col-span-1 p-2 gap-3 bg-[#90AEAD]"> <October2025 /></div>
- 
+   <div className="grid grid-cols-1 md:grid-cols-3 gap-1 p-2 "> {/*Sets the overall grid layout for the display*/}
+    <div className="col-span-1 md:col-span-2">
+      <div className="mt-2 md:mt-1 flex items-center justify-between gap-2 mb-12">
+   {/* <SearchBlogs /> */}
+    </div>
+    </div> 
+    
+    <div className="col-span-1 md:col-span-2 p-2 gap-3 bg-[#90AEAD]">
+    <div>
+    <October2025 />
+    {/* <September2025 />
+    <August2025 /> */}
     </div>
     </div>
-    <div className="md:col-start-4 gap-0"> 
+    <div className="md:col-start-3 gap-2"> 
        <div className="col-span-1">
         {user ? <CreatePost /> : null}
 
@@ -42,7 +47,6 @@ export default async function Home() {
         
     </div>
     </div>
-      </div>
       </div>
   );
 }

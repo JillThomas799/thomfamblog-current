@@ -1,24 +1,42 @@
- "use client"
-
-import * as React from "react"
-import Image from 'next/image'
-import blog2025 from '/public/imagesresized/blog2025.png';
-import London16082025Titled from '/public/imagesresized/London16082025Titled.jpg';
-import dinosaurrEvolutionTitled from '/public/imagesresized/dinosaurrEvolutionTitled.jpg';
-import Muncaster23082025Titled from '/public/imagesresized/Muncaster23082025Titled.jpg';
-import HMSVictoryTitled from '/public/imagesresized/HMSVictoryTitled.jpg';
-import StonehengeTitled from '/public/imagesresized/StonehengeTitled.jpg'
-import Link from 'next/link'
-
+import { getDbUserId } from "@/actions/user.action";
+import { currentUser } from "@clerk/nextjs/server";
+import { getPosts } from '@/actions/post.action';
+import CreatePost from "@/components/ui/CreatePost";
+import PostCard from "@/components/ui/PostCard";
 import August2025 from "@/components/ui/August2025";
 
-export default function Page() {
-    return (  
-<div className="col-span-1 md:col-span-2 p-2 gap-3 bg-[#90AEAD]">
+import BlogMenuBar from "@/components/ui/blogmenubar";
+
+export default async function Home() {
+  const user = await currentUser();
+  const userId = await getDbUserId();
+  const posts = await getPosts();
+  const dbUserId= await getDbUserId();
+
+ 
+  if (!userId) return;
+  else {
+  return (
     <div>
-    <August2025 />
-    
+      <BlogMenuBar />
+   <div className="flex flex-col md:grid md:grid-cols-3 gap-4 p-2 bg-[#90AEAD]"> {/*Sets the overall grid layout for the display*/}
+    <div className="sm:flex sm:flex-col md:col-span-2 p-2 gap-3 ">
+       <August2025 />
+       </div>
+    <div className="sm:flex sm:flex-col md: col-span-1 md:col-span-1 col-start-3 gap-2"> 
+      
+        {user ? <CreatePost /> : null}
+
+         <div className="space-y-2"> 
+          {posts.map((post) => (
+            <PostCard key={post.id} post={post} dbUserId={dbUserId} />
+          ))} 
+        </div>
+   
+        
     </div>
     </div>
-    );
+      </div>
+  );
+}
 }
