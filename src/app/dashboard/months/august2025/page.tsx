@@ -20,10 +20,10 @@ export default async function Home() {
     <div>
       <BlogMenuBar />
    <div className="flex flex-col md:grid md:grid-cols-3 gap-4 p-2 bg-[#90AEAD]"> {/*Sets the overall grid layout for the display*/}
-    <div className="sm:flex sm:flex-col md:col-span-2 p-2 gap-3 ">
+    <div className=" sm:flex-col md:col-span-2 p-2 gap-3 ">
        <August2025 />
        </div>
-    <div className="sm:flex sm:flex-col md: col-span-1 md:col-span-1 col-start-3 gap-2"> 
+    <div className=" sm: flex flex-col md: col-span-1 md:col-span-1 col-start-3 gap-2"> 
       
         {user ? <CreatePost /> : null}
 

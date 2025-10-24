@@ -1,21 +1,3 @@
-// "use client"
-
-// import * as React from "react"
-// import Image from 'next/image'
-// import Link from 'next/link'
-// import October2025 from "@/components/ui/October2025"
-
-//  export default function Page() {
-//      return (  
-//  <div className="col-span-1 md:col-span-2 p-2 gap-3 bg-[#90AEAD]">
-//      <div>
-//      <October2025 />
-     
-//      </div>
-//      </div>
-//      );
-//  }
-
 import { getDbUserId } from "@/actions/user.action";
 import { currentUser } from "@clerk/nextjs/server";
 import { getPosts } from '@/actions/post.action';
@@ -31,18 +13,20 @@ export default async function Home() {
   const posts = await getPosts();
   const dbUserId= await getDbUserId();
 
-  
   if (!userId) return;
   else {
   return (
     <div>
       <BlogMenuBar />
-   <div className="flex flex-col md:grid md:grid-cols-3 gap-4 p-2 "> {/*Sets the overall grid layout for the display*/}
-    <div className="sm:flex sm:flex-col md:col-span-2 p-2 gap-3 bg-[#90AEAD]">
+   <div className="grid grid-cols-1 md:grid-cols-3 gap-1 p-2 bg-[#90AEAD]"> {/*Sets the overall grid layout for the display*/}
+        
+    <div className="col-span-1 md:col-span-2 p-2 gap-3 ">
+    <div>
        <October2025 />
        </div>
-    <div className="sm:flex sm:flex-col md: col-span-1 md:col-span-1 col-start-3 gap-2"> 
-      
+    </div>
+    <div className="md:col-start-3 gap-2"> 
+       <div className="col-span-1">
         {user ? <CreatePost /> : null}
 
          <div className="space-y-2"> 
@@ -50,11 +34,11 @@ export default async function Home() {
             <PostCard key={post.id} post={post} dbUserId={dbUserId} />
           ))} 
         </div>
-   
+        </div>
         
     </div>
     </div>
-      </div>
+    </div>  
   );
 }
 }
