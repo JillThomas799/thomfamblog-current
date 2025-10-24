@@ -43,7 +43,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <div className="min-h-screen bg-slate-500">
+            <div className="max-h-full bg-slate-500">
               <Navbar />
               <main className="py-8">
                 {/*Container to centre the content*/}
