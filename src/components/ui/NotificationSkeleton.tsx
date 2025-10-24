@@ -1,69 +1,42 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
-import { ClerkProvider } from "@clerk/nextjs";
-import { ThemeProvider } from "next-themes";
-import Navbar from "@/components/ui/Navbar";
-import Sidebar from "@/components/ui/Sidebar";
-import { Toaster } from "react-hot-toast";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { Skeleton } from "@/components/ui/skeleton";
 
+function NotificationsSkeleton() {
+  // array of 5 items
+  const skeletonItems = Array.from({ length: 5 }, (_, i) => i);
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
-
-export const metadata: Metadata = {
-  title: "Thomas Family Blog",
-  description: "A modern interactive application powered by Next.js.",
-};
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
   return (
-    <ClerkProvider>
-    <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-      
-        <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-            <div className="min-h-screen bg-slate-500">
-              <Navbar />
-              <main className="py-8">
-                {/*Container to centre the content*/}
-                <div className="max-w-7xl mx-auto px-4 ">
-                  <div className="flex flex-col lg:grid-cols-12 gap-6">
-                    <div className="hidden lg:block lg:col-span-3">
-                      <SpeedInsights />
-                      {/* <Sidebar />  */}
-                      {/* Removed sidebar which holds Sidebar.tsx settings. can be restored if needed or desired. */}
-                    </div>
-                    <div className="lg:col-span-9">{children}</div>
+    <div className="space-y-4">
+      <Card>
+        <CardHeader className="border-b">
+          <div className="flex items-center justify-between">
+            <CardTitle>Notifications</CardTitle>
+            <Skeleton className="h-4 w-20" />
+          </div>
+        </CardHeader>
+        <CardContent className="p-0">
+          <ScrollArea className="h-[calc(100vh-12rem)]">
+            {skeletonItems.map((index) => (
+              <div key={index} className="flex items-start gap-4 p-4 border-b">
+                <Skeleton className="h-10 w-10 rounded-full" />
+                <div className="flex-1 space-y-2">
+                  <div className="flex items-center gap-2">
+                    <Skeleton className="h-4 w-4" />
+                    <Skeleton className="h-4 w-40" />
+                  </div>
+                  <div className="pl-6 space-y-2">
+                    <Skeleton className="h-20 w-full" />
+                    <Skeleton className="h-4 w-24" />
                   </div>
                 </div>
-
-                </main>
               </div>
-       <Toaster />
-        </ThemeProvider>
-      </body>
-    </html>
-    </ClerkProvider>
+            ))}
+          </ScrollArea>
+        </CardContent>
+      </Card>
+    </div>
   );
 }
+
+export { NotificationsSkeleton }
