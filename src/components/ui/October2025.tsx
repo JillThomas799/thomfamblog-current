@@ -45,7 +45,7 @@ export default function October2025() {
          <br />  
          <Image
                   src={ Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150 "
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150 "
                   alt="Photo of the Gaia Sculpture, Hexham Abbey"
                 />  
                 
@@ -69,7 +69,7 @@ export default function October2025() {
               >
                 <Image
                   src={ GaiaTitled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[60%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of Durham Cathedral"
                 />
               </Link>

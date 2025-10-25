@@ -20,7 +20,7 @@ const BlogMenuBar=()    => {
   <div className={` h-10 bg-gray-800 text-gray-100 mb-4 flex flex-col ${isCollapsed ? 'h-10':'h-full w-full'} transition-all duration-300`}>
         <Button 
         variant="outline"
-        onClick={()=> setIsCollapsed(!isCollapsed)} className="w-auto h-auto text-gray-200 font-semibold text-md items-center gap-x-10 focus:outline-none">BLOG MENU<MenuIcon /> 
+        onClick={()=> setIsCollapsed(!isCollapsed)} className="w-auto h-auto bg-slate-300 md:bg-gray-800 text-gray-800 md:text-gray-200 font-bold text-md items-center gap-x-10 focus:outline-none">BLOG MENU<MenuIcon /> 
     </Button>
 
 

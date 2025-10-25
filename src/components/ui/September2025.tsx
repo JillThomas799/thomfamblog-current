@@ -59,7 +59,7 @@ export default function September2025() {
               >
                 <Image
                   src={ DurhamCathedralTitled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[55%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of Durham Cathedral"
                 />
               </Link>
@@ -98,7 +98,7 @@ export default function September2025() {
               >
                 <Image
                   src={ Newcastle24092025Titled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of Seagull by River Tyne, Newcastle"
                 />
               </Link>
@@ -145,7 +145,7 @@ export default function September2025() {
               >
                 <Image
                   src={ AlnwickCastleTitled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of Harry standing in front of Alnwick Castle"
                 />
               </Link>
@@ -188,7 +188,7 @@ export default function September2025() {
               >
                 <Image
                   src={ HMSAllianceTitled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of HMS Alliance"
                 />
               </Link>
@@ -235,7 +235,7 @@ export default function September2025() {
               >
                 <Image
                   src={ HMSWarriorTitled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of HMS Warrior"
                 />
               </Link>
@@ -277,7 +277,7 @@ export default function September2025() {
               >
                 <Image
                   src={ WinchesterCathedralTitled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of Winchester Cathedral"
                 />
               </Link>
