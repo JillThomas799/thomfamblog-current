@@ -7,8 +7,6 @@ import Navbar from "@/components/ui/Navbar";
 import Sidebar from "@/components/ui/Sidebar";
 import { Toaster } from "react-hot-toast";
 
-
-
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -43,7 +41,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <div className="md:bg-slate-500">
+            <div className="min-h-screen bg-slate-500">
               <Navbar />
               <main className="py-8">
                 {/*Container to centre the content*/}
