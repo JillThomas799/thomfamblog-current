@@ -23,7 +23,7 @@ export default async function Home() {
       <BlogMenuBar />
    <div className="grid grid-cols-1 md:grid-cols-3 gap-1 p-2 bg-[#90AEAD]"> {/*Sets the overall grid layout for the display*/}
     <div className="col-span-1 md:col-span-2 p-2 gap-3 ">
-    <div> <Suspense fallback={<LoadingSpinner color="#dde1e3" size="small" />}><September2025 /></Suspense> </div>
+    <div> <Suspense fallback={<LoadingSpinner color="#b65c00" size="large" />}><September2025 /></Suspense> </div>
     </div>
     <div className="md:col-start-3 gap-2"> 
        <div className="col-span-1">

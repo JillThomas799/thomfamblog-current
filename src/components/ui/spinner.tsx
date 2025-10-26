@@ -20,8 +20,8 @@ interface LoadingSpinnerProps {
   color?: string;
   size?: "small"|"medium"|"large";}
 
-export default function LoadingSpinner({color = "#dde1e3", size = "small"}: LoadingSpinnerProps) {
-  return (<div className="loading-spinner" style={{ borderTopColor: color,}}/>);
-  
-
+export default function LoadingSpinner({color="#397ce5", size="medium" }: LoadingSpinnerProps) {
+  return (
+  <div className={`loading-spinner loading-spinner--${size}`} style={{ borderTopColor: color }}/>);
+  //The color and size stated here are the default color and size, should a color and size not be specified. 
 }

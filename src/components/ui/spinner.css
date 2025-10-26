@@ -1,10 +1,10 @@
 .loading-spinner {
-  width: 50px;
-  height: 50px;
+  --loading-spinner-size: 50px; /*this is the default loading spinner size*/
+  width: var(--loading-spinner-size);
+  height: var(--loading-spinner-size);
+  border: calc(var(--loading-spinner-size) / 5) solid #dddddd;
+  box-sizing: border-box;
   border-radius: 50%;
-  border: calc(50px / 5) solid #dde1e3;
-  /*box-sizing: border-box;
-  */
   border-top: 6px solid;
   border-top-color: black;
   margin: auto;
@@ -12,18 +12,16 @@
   animation: loading 0.75s infinite;
 }
 
-.loading-spinner.small {
-  width: 25px;
-  height: 25px;
-  border: calc(25px / 5) solid #dde1e3;
-  border-top: 3px solid;
+.loading-spinner--small {
+  --loading-spinner-size: 25px;
+}
+
+.loading-spinner--medium {
+  --loading-spinner-size: 50px;
 }
 
 .loading-spinner--large {
-  width: 75px;
-  height: 75px;
-  border: calc(75px / 5) solid #dde1e3;
-  border-top: 9px solid;
+  --loading-spinner-size: 75px;
 }
 
 @keyframes loading {

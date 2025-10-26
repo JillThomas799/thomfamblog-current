@@ -25,7 +25,7 @@ export default async function Home() {
         
     <div className="col-span-1 md:col-span-2 p-2 gap-3 ">
     <div>
-      <Suspense fallback={<LoadingSpinner color="#dde1e3" size="small" />}><October2025 /></Suspense> 
+      <Suspense fallback={<LoadingSpinner color="#61603c" size="medium" />}><October2025 /></Suspense> 
        </div>
     </div>
     <div className="md:col-start-3 gap-2"> 
