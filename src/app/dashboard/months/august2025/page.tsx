@@ -6,6 +6,7 @@ import PostCard from "@/components/ui/PostCard";
 import August2025 from "@/components/ui/August2025";
 import BlogMenuBar from "@/components/ui/blogmenubar";
 
+
 export default async function Home() {
   const user = await currentUser();
   const userId = await getDbUserId();
@@ -15,8 +16,8 @@ export default async function Home() {
   if (!userId) return;
   else {
     return (
-    <div>
-      <BlogMenuBar />
+    <div>    
+      {/* <BlogMenuBar /> */}
    <div className="flex flex-col md:grid md:grid-cols-3 gap-4 p-2 bg-[#90AEAD]"> {/*Sets the overall grid layout for the display*/}
     <div className=" sm:flex-col md:col-span-2 p-2 gap-3 ">
      <August2025 />
