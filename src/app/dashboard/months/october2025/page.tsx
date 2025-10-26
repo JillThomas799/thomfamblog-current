@@ -4,7 +4,9 @@ import { getPosts } from '@/actions/post.action';
 import CreatePost from "@/components/ui/CreatePost";
 import PostCard from "@/components/ui/PostCard";
 import October2025 from "@/components/ui/October2025";
-
+import React from "react";
+import { Suspense } from "react";
+import LoadingSpinner from "@/components/ui/spinner";
 import BlogMenuBar from "@/components/ui/blogmenubar";
 
 export default async function Home() {
@@ -14,7 +16,8 @@ export default async function Home() {
   const dbUserId= await getDbUserId();
 
   if (!userId) return;
-  else {
+  else { 
+    await new Promise((resolve) => setTimeout(resolve, 2000)); // Simulate a delay for demonstration
   return (
     <div>
       <BlogMenuBar />
@@ -22,7 +25,7 @@ export default async function Home() {
         
     <div className="col-span-1 md:col-span-2 p-2 gap-3 ">
     <div>
-       <October2025 />
+      <Suspense fallback={<LoadingSpinner color="#dde1e3" size="small" />}><October2025 /></Suspense> 
        </div>
     </div>
     <div className="md:col-start-3 gap-2"> 
