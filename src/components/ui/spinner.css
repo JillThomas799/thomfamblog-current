@@ -1,8 +1,9 @@
 .loading-spinner {
-  --loading-spinner-size: 50px; /*this is the default loading spinner size*/
+  --loading-spinner-size: 50px;
+  /*thisisthedefaultloadingspinnersize*/
   width: var(--loading-spinner-size);
   height: var(--loading-spinner-size);
-  border: calc(var(--loading-spinner-size) / 5) solid #dddddd;
+  border: calc(var(--loading-spinner-size) / 7) solid #dddddd;
   box-sizing: border-box;
   border-radius: 50%;
   border-top: 6px solid;
