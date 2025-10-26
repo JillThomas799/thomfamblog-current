@@ -5,6 +5,8 @@ import CreatePost from "@/components/ui/CreatePost";
 import PostCard from "@/components/ui/PostCard";
 import October2025 from "@/components/ui/October2025";
 import BlogMenuBar from "@/components/ui/blogmenubar";
+import LoadingSpinner from "@/components/ui/spinner";
+
 
 export default async function Home() {
   const user = await currentUser();
@@ -17,6 +19,8 @@ export default async function Home() {
   return (
     <div>
       <BlogMenuBar />
+   <div><LoadingSpinner color="white" size="large" />
+      </div>   
    <div className="grid grid-cols-1 md:grid-cols-3 gap-1 p-2 bg-[#90AEAD]"> {/*Sets the overall grid layout for the display*/}
     <div className="col-span-1 md:col-span-2 p-2 gap-3 ">
     <div>

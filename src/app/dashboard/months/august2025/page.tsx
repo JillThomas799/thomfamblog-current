@@ -4,7 +4,8 @@ import { getPosts } from '@/actions/post.action';
 import CreatePost from "@/components/ui/CreatePost";
 import PostCard from "@/components/ui/PostCard";
 import August2025 from "@/components/ui/August2025";
-import { Spinner } from "@/components/ui/spinner";
+import { Suspense } from "react";
+import  LoadingSpinner from "@/components/ui/spinner";
 
 import BlogMenuBar from "@/components/ui/blogmenubar";
 
@@ -20,9 +21,10 @@ export default async function Home() {
   return (
     <div>
       <BlogMenuBar />
+      {/* <LoadingSpinner color="blue" size="medium" /> */}
    <div className="flex flex-col md:grid md:grid-cols-3 gap-4 p-2 bg-[#90AEAD]"> {/*Sets the overall grid layout for the display*/}
     <div className=" sm:flex-col md:col-span-2 p-2 gap-3 ">
-      
+      <Suspense fallback={<LoadingSpinner color="blue" size="medium" />} /> 
        <August2025 />
        </div>
     <div className=" sm: flex flex-col md: col-span-1 md:col-span-1 col-start-3 gap-2"> 

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Spinner } from "@/components/ui/spinner"
+import  LoadingSpinner  from "@/components/ui/spinner"
 import {
   BellIcon,
   HomeIcon,
@@ -29,7 +29,9 @@ const BlogMenuBar=()    => {
 
 
 {! isCollapsed && (
-    <div className="flex flex-col md:flex-row md:flex-wrap md:place-content-evenly">  
+    <div className="flex flex-col md:flex-row md:flex-wrap md:place-content-evenly"> 
+    <div className="text-center h-15 bg-gray-800 border-b border-gray-700 font-semibold p-4 hover:text-blue-300">
+      <Link href="/" >Home</Link></div> 
     <div className="text-center h-15 bg-gray-800 border-b border-gray-700 font-semibold p-4 hover:text-blue-300">
       <Link href="/dashboard/months/august2025" >August 2025</Link></div>
        <div className="text-center h-15 bg-gray-800 border-b border-gray-700 font-semibold  p-4 hover:text-blue-300">

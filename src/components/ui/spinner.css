@@ -1,0 +1,39 @@
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: calc(50px / 5) solid #8b8680;
+  box-sizing: border-box;
+  border-top: 6px solid;
+  border-top-color: black;
+  margin: 10px;
+  -webkit-animation: loading 0.75s ease linear infinite;
+  animation: loading 0.75s ease infinite;
+}
+
+.loading-spinner.small {
+  width: 25px;
+  height: 25px;
+  border: calc(25px / 5) solid #8b8680;
+  border-top: 3px solid;
+}
+
+.loading-spinner--large {
+  width: 75px;
+  height: 75px;
+  border: calc(75px / 5) solid #8b8680;
+  border-top: 9px solid;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+    -ms-transform: rotate(1turn);
+    -o-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
