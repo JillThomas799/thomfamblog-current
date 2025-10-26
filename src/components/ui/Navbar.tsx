@@ -19,7 +19,6 @@ async function Navbar() {
                 <div className="flex-items-center">
                     <div className=" text-5xl font-bold text-primary font-mono tracking-wider text-slate-500 dark:text-slate-300">Thomas Family Blog</div>
                 </div>
-
           <DesktopNavbar />
           <MobileNavbar />
         </div>

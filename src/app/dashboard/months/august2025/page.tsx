@@ -3,9 +3,8 @@ import { currentUser } from "@clerk/nextjs/server";
 import { getPosts } from '@/actions/post.action';
 import CreatePost from "@/components/ui/CreatePost";
 import PostCard from "@/components/ui/PostCard";
-import October2025 from "@/components/ui/October2025";
+import August2025 from "@/components/ui/August2025";
 import BlogMenuBar from "@/components/ui/blogmenubar";
-import React from "react";
 
 
 export default async function Home() {
@@ -16,37 +15,24 @@ export default async function Home() {
 
   if (!userId) return;
   else {
-   
-  return (
-    <div>
-      
-      <BlogMenuBar /> 
-   <div className="grid grid-cols-1 md:grid-cols-3 gap-1 p-2 bg-[#90AEAD]"> {/*Sets the overall grid layout for the display*/}
-    <div className="col-span-1 md:col-span-2 p-2 gap-3 ">
-    <div>
-    <October2025 />
-    </div>
-    </div>
-    <div className="md:col-start-3 gap-2"> 
-       <div className="col-span-1">
+    return (
+    <div>    
+      {/* <BlogMenuBar /> */}
+   <div className="flex flex-col md:grid md:grid-cols-3 gap-4 p-2 bg-[#90AEAD]"> {/*Sets the overall grid layout for the display*/}
+    <div className=" sm:flex-col md:col-span-2 p-2 gap-3 ">
+     <August2025 />
+       </div>
+    <div className=" sm: flex flex-col md: col-span-1 md:col-span-1 col-start-3 gap-2">
         {user ? <CreatePost /> : null}
 
-         <div className="space-y-2"> 
+         <div className="space-y-2">
           {posts.map((post) => (
             <PostCard key={post.id} post={post} dbUserId={dbUserId} />
-          ))} 
+          ))}
         </div>
-        </div>
-        
     </div>
     </div>
-   
       </div>
   );
 }
 }
-
-
-
-
-

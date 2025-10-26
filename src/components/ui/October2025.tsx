@@ -49,15 +49,9 @@ export default function October2025() {
                   className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150 "
                   alt="Photo of the Gaia Sculpture, Hexham Abbey"
                 />  
-                
-        
           <br />
          <br /> 
 
-                
-        
-
-             
            <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#61603c] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#61603c]">
               {" "}

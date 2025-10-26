@@ -9,7 +9,6 @@ import { Toaster } from "react-hot-toast";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/next"
 
-
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -45,8 +44,8 @@ export default function RootLayout({
             disableTransitionOnChange
           >
 
-             <SpeedInsights />
-                      <Analytics />
+           
+                  
             <div className="min-h-screen bg-slate-500">
               <Navbar />
               <main className="py-8">

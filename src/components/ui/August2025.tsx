@@ -66,7 +66,7 @@ export default function August2025() {
               >
                 <Image
                   src={ StonehengeTitled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of Stonehenge"
                 />
               </Link>
@@ -108,7 +108,7 @@ export default function August2025() {
               >
                 <Image
                   src={ HMSVictoryTitled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[90%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of HMS Victory"
                 />
               </Link>
@@ -179,7 +179,7 @@ export default function August2025() {
               >
                 <Image
                   src={ Muncaster23082025Titled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of Muncaster Castle"
                 />
               </Link>
@@ -226,7 +226,7 @@ export default function August2025() {
               >
                 <Image
                   src={ dinosaurrEvolutionTitled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of a dinosaur"
                 />
               </Link>
@@ -262,7 +262,7 @@ export default function August2025() {
               >
                 <Image
                   src={ London16082025Titled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[50%] lg:w-[40%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[50%] lg:w-[40%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of Jill in front of Buckingham Palace"
                 />
               </Link>

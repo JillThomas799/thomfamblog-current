@@ -23,10 +23,10 @@ async function DesktopNavbar() {
 
 </div> */}
 
-        <Button variant="ghost" className="flex items-center gap-2" asChild>
+        <Button variant="ghost" className="flex items-center gap-2 font-bold b-solid bg-black p-4" asChild>
             <Link href="/">
             <HomeIcon className="w-4 h-4" />
-            <span className="hidden lg:inline text-md">Home</span>
+            <span className="hidden lg:inline text-lg ">Home</span>
             </Link>
         </Button>
 

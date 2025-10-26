@@ -1,0 +1,39 @@
+.loading-spinner {
+  --loading-spinner-size: 50px;
+  /*thisisthedefaultloadingspinnersize*/
+  width: var(--loading-spinner-size);
+  height: var(--loading-spinner-size);
+  border: calc(var(--loading-spinner-size) / 7) solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-top: 6px solid;
+  border-top-color: black;
+  margin: auto;
+  -webkit-animation: loading 0.75s infinite;
+  animation: loading 0.75s infinite;
+}
+
+.loading-spinner--small {
+  --loading-spinner-size: 25px;
+}
+
+.loading-spinner--medium {
+  --loading-spinner-size: 50px;
+}
+
+.loading-spinner--large {
+  --loading-spinner-size: 75px;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+    -ms-transform: rotate(1turn);
+    -o-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
