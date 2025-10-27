@@ -8,6 +8,7 @@ import BlogMenuBar from "@/components/ui/blogmenubar";
 import React from "react";
 
 
+
 export default async function Home() {
   const user = await currentUser();
   const userId = await getDbUserId();
@@ -26,6 +27,7 @@ export default async function Home() {
     <div>
     <October2025 />
     </div>
+    
     </div>
     <div className="md:col-start-3 gap-2"> 
        <div className="col-span-1">

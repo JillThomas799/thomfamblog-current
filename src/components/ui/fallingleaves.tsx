@@ -1,7 +1,7 @@
 import React from "react";
 import "./fallingleaves.css";
 
-export default function FallingLeaves({ title }) {
+export default function FallingLeaves() {
   return (
     <div>
       <div className="autumnal">
@@ -23,8 +23,7 @@ export default function FallingLeaves({ title }) {
           <i></i>
         </div>
 
-        <div className="MonthTitle">{title}</div>
-
+       
         <svg
           className="Treesheddingleaves"
           version="1.1"
@@ -35,11 +34,10 @@ export default function FallingLeaves({ title }) {
           height="100vh"
           viewBox="0 0 -60 0"
           /*min-x min-y width height*/ preserveAspectRatio="xMidYMid"
-          style={{ overflow: "visible" }}
         >
           <g
             id="tree"
-            transform="translate(0.000000,378.000000) scale(0.100000,-0.100000)"
+            transform="translate(-500.000000,378.000000) scale(0.100000,-0.100000)"
             fill="#53350A"
             stroke="none"
           >
@@ -288,13 +286,12 @@ c-8 19 -14 48 -14 64 0 16 -6 32 -12 34 -8 3 -6 6 5 6 19 1 57 56 57 84 0 9
           </g>
 
           <g id="tree2">
-            <use xlinkHref="#tree" style={{ transform: "scale(70%)" }}></use>
+            <use xlinkHref="#tree"></use>
           </g>
 
           <g id="tree3">
             <use
               xlinkHref="#tree"
-              style={{ transform: "translate(800px, 0px" }}
             ></use>
           </g>
         </svg>
