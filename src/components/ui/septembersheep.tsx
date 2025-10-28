@@ -1,22 +1,22 @@
 
+import React from "react";
 import "./septembersheep.css";
+import { Link } from "react-router-dom";
 
 export default function September2024() {
   return (
-    <div style={{ backgroundColor: "#504F22" }}>
+    <div className="septemberBackground">
       <div
         className="SeptemberheaderDisplay"
-        style={{ backgroundColor: "#98964D" }}
       >
         <div>
-          <button id="backbuttonSeptember" style={{ Color: "#000000" }}>
+          <button id="backbuttonSeptember">
             <Link to="/" className="backbuttonLink">
               Back
             </Link>
           </button>
         </div>
 
-        <div className="SeptemberHeader2024">September 2024</div>
         <svg
           className="CowsAndSheep"
           version="1.1"
@@ -25,7 +25,6 @@ export default function September2024() {
           width="100%"
           height="50vh"
           viewBox="0 0 -60 0"
-          style={{ overflow: "visible" }}
         >
           <defs>
             <radialGradient
@@ -36,15 +35,15 @@ export default function September2024() {
               y2="100%"
             >
               <stop
+                className ="stop1"
                 offset="0%"
-                style={{ stopColor: "#f4eee0", stopOpacity: "1" }}
               >
                 {" "}
               </stop>
               <stop
+                className="stop2"
                 offset="100%"
-                style={{ stopColor: "#e9e0d4", stopOpacity: "1" }}
-              ></stop>
+                ></stop>
             </radialGradient>
 
             <radialGradient
@@ -55,14 +54,14 @@ export default function September2024() {
               y2="100%"
             >
               <stop
+              className="stop3"
                 offset="0%"
-                style={{ stopColor: "#3A3B3c", stopOpacity: "1.0" }}
               >
                 {" "}
               </stop>
               <stop
                 offset="100%"
-                style={{ stopColor: "#efefe3", stopOpacity: "1.0" }}
+                className="stop4"
               ></stop>
             </radialGradient>
 
@@ -74,31 +73,31 @@ export default function September2024() {
               y2="100%"
             >
               <stop
+              className="stop5"
                 offset="0%"
-                style={{ stopColor: "#FEC0CB", stopOpacity: "1" }}
               >
                 {" "}
               </stop>
               <stop
+              className="stop6"
                 offset="100%"
-                style={{ stopColor: "#efefe3", stopOpacity: "0.7" }}
               ></stop>
             </radialGradient>
 
             <linearGradient id="GradLambBody" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" style={{ stopColor: " #d3d3d3" }} />
-              <stop offset="100%" style={{ stopColor: "#f6f6da" }} />
+              <stop className="stop7" offset="0%" />
+              <stop className="stop8" offset="100%" />
             </linearGradient>
 
             <linearGradient id="GradLambLeg" x1="0%" y1="0%" x2="0%" y2="100%">
-              <stop offset="0%" style={{ stopColor: " #d3d3d3" }} />
-              <stop offset="100%" style={{ stopColor: "#f6f6da" }} />
+              <stop className="stop7" offset="0%" />
+              <stop className="stop8" offset="100%" />
             </linearGradient>
 
             <linearGradient id="GradLambTail" x1="0%" y1="0%" x2="0%" y2="100%">
-              <stop offset="0%" style={{ stopColor: " #3A3B3C" }} />
-              <stop offset="10%" style={{ stopColor: " #d3d3d3" }} />
-              <stop offset="100%" style={{ stopColor: " #d3d3d3" }} />
+              <stop className ="stop9" offset="0%" />
+              <stop className="stop7" offset="10%" />
+              <stop className="stop7" offset="100%" />
             </linearGradient>
           </defs>
           <svg id="swaledaleSheepS1" width="100vw" height="83vh">
@@ -243,7 +242,6 @@ export default function September2024() {
                 ry="3"
                 fill="url(#Gradsheepfur)"
                 opacity="0.9"
-                style={{ transform: "rotate(20deg,603,425)" }}
               ></ellipse>
             </g>
             <g id="swaledaleSheep1Seyeleftouter">
@@ -254,7 +252,6 @@ export default function September2024() {
                 ry="3"
                 fill="url(#Gradsheepfur)"
                 opacity="0.9"
-                style={{ transform: "rotate(-20deg,616,425)" }}
               ></ellipse>
             </g>
             <g id="swaledaleSheep1Seyerightinner">
@@ -265,7 +262,6 @@ export default function September2024() {
                 ry="1.5"
                 fill="#36454F"
                 opacity="0.9"
-                style={{ transform: "rotate(20deg,603,425)" }}
               ></ellipse>
             </g>
             <g id="swaledaleSheep1Seyeleftinner">
@@ -276,7 +272,6 @@ export default function September2024() {
                 ry="1.5"
                 fill="#36454F"
                 opacity="0.9"
-                style={{ transform: "rotate(-20deg,616,425)" }}
               ></ellipse>
             </g>
 
@@ -291,7 +286,6 @@ export default function September2024() {
             id="swaledaleSheepS2"
             width="100vw"
             height="83vh"
-            style={{ transform: "translate(-300px, -120px)" }}
           >
             <g id="swaledaleSheepS2frontlegright">
               <rect
@@ -364,7 +358,6 @@ export default function September2024() {
 
             <g
               id="relocatesheephornsswaledaleSheepS2"
-              style={{ transform: "translate(-152px, 37px)" }}
             >
               <g id="swaledaleSheepS2upperhornleft">
                 <path
@@ -429,7 +422,6 @@ export default function September2024() {
 
             <g
               id="relocatefacialfeaturesswaledaleSheepS2"
-              style={{ transform: "translate(-152px, 37px)" }}
             >
               <g id="swaledaleSheepS2muzzle">
                 <ellipse
@@ -449,7 +441,6 @@ export default function September2024() {
                   ry="3"
                   fill="url(#Gradsheepfur)"
                   opacity="0.9"
-                  style={{ transform: "rotate(20deg,603,425)" }}
                 ></ellipse>
               </g>
               <g id="swaledaleSheepS2eyeleftouter">
@@ -460,7 +451,6 @@ export default function September2024() {
                   ry="3"
                   fill="url(#Gradsheepfur)"
                   opacity="0.9"
-                  style={{ transform: "rotate(-20deg,616,425)" }}
                 ></ellipse>
               </g>
               <g id="swaledaleSheepS2eyerightinner">
@@ -471,7 +461,6 @@ export default function September2024() {
                   ry="1.5"
                   fill="#36454F"
                   opacity="0.9"
-                  style={{ transform: "rotate(20deg,603,425)" }}
                 ></ellipse>
               </g>
               <g id="swaledaleSheepS2eyeleftinner">
@@ -482,7 +471,6 @@ export default function September2024() {
                   ry="1.5"
                   fill="#36454F"
                   opacity="0.9"
-                  style={{ transform: "rotate(-20deg,616,425)" }}
                 ></ellipse>
               </g>
               <g id="swaledaleSheepS2mouth">
@@ -507,20 +495,19 @@ export default function September2024() {
             </g>
           </svg>
           ;
-          <svg id="sheepAdultLambS1" style={{ transform: "scale(50%)" }}>
+          <svg id="sheepAdultLambS1">
             <use
               xlinkHref="#swaledaleSheepS1"
               x={300}
               y={150}
-              style={{ transform: "scale(2.2)" }}
             />
           </svg>
-          <svg id="sheepAdultLambS2" style={{ transform: "scale(55%)" }}>
+          <svg id="sheepAdultLambS2">
             <use
               xlinkHref="#swaledaleSheepS2"
+              id="useLambS2"
               x={600}
               y={150}
-              style={{ transform: "scale(2.2)" }}
             />
           </svg>
         </svg>
