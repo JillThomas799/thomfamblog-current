@@ -3,6 +3,7 @@
 import * as React from "react"
 import Image from 'next/image'
 import Link from 'next/link'
+import SeptemberSheep from "@/components//ui/septembersheep"
 import WinchesterCathedralTitled from '/public/imagesresized/WinchesterCathedralTitled.jpg';
 import HMSWarriorTitled from '/public/imagesresized/HMSWarriorTitled.jpg';
 import HMSAllianceTitled from '/public/imagesresized/HMSAllianceTitled.jpg';
@@ -20,7 +21,7 @@ export default function September2025() {
        <div className=" bg-[#b65c00] border-solid border-2 border-[#22311d] mb-28"> {/*September block background*/}
         <div className="text-[#FBE9D0] text-center font-semibold text-2xl p-3 bg-[#743500] border-solid border-2 border-[#22311d] m-2">September 2025
         </div> {/*End of September month block*/}
-
+        <SeptemberSheep />
         <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#836A58]">
          <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">

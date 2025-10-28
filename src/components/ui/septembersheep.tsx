@@ -1,22 +1,13 @@
 
 import React from "react";
 import "./septembersheep.css";
-import { Link } from "react-router-dom";
 
-export default function September2024() {
+export default function SeptemberSheep() {
   return (
     <div className="septemberBackground">
       <div
         className="SeptemberheaderDisplay"
       >
-        <div>
-          <button id="backbuttonSeptember">
-            <Link to="/" className="backbuttonLink">
-              Back
-            </Link>
-          </button>
-        </div>
-
         <svg
           className="CowsAndSheep"
           version="1.1"
