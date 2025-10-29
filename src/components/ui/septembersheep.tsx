@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 
 export default function SeptemberSheep() {
   return (
-    <div className="m-8 border-solid border-4 border-[#743500]">
+    <div className="m-4 ">
       <div
-        className="bg-[#98964D] h-screen"
+        className="bg-[#98964D] h-70 border-solid border-4 border-[#743500]"
       >
                
         <svg
@@ -30,13 +30,15 @@ export default function SeptemberSheep() {
             >
               <stop
                 offset="0%"
-                style={{ stopColor: "#f4eee0", stopOpacity: "1" }}
+                stopColor ="#f4eee0"
+               stopOpacity = "1"
               >
                 {" "}
               </stop>
               <stop
                 offset="100%"
-                style={{ stopColor: "#e9e0d4", stopOpacity: "1" }}
+                stopColor = '#e9e0d4'
+                stopOpacity = "1"
               ></stop>
             </radialGradient>
 
@@ -49,13 +51,15 @@ export default function SeptemberSheep() {
             >
               <stop
                 offset="0%"
-                style={{ stopColor: "#3A3B3c", stopOpacity: "1.0" }}
+                stopColor="#3A3B3c"
+               stopOpacity= "1.0"
               >
                 {" "}
               </stop>
               <stop
                 offset="100%"
-                style={{ stopColor: "#efefe3", stopOpacity: "1.0" }}
+                stopColor="#efefe3"
+                stopOpacity= "1.0" 
               ></stop>
             </radialGradient>
 
@@ -68,30 +72,37 @@ export default function SeptemberSheep() {
             >
               <stop
                 offset="0%"
-                style={{ stopColor: "#FEC0CB", stopOpacity: "1" }}
+              stopColor="#FEC0CB"
+              stopOpacity="1" 
               >
                 {" "}
               </stop>
               <stop
                 offset="100%"
-                style={{ stopColor: "#efefe3", stopOpacity: "0.7" }}
+             stopColor="#efefe3"
+             stopOpacity="0.7"
               ></stop>
             </radialGradient>
 
             <linearGradient id="GradLambBody" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" style={{ stopColor: " #d3d3d3" }} />
-              <stop offset="100%" style={{ stopColor: "#f6f6da" }} />
+              <stop 
+              offset="0%" 
+              stopColor=" #d3d3d3" />
+              <stop offset="100%"
+              stopColor="#f6f6da"/>
             </linearGradient>
 
             <linearGradient id="GradLambLeg" x1="0%" y1="0%" x2="0%" y2="100%">
-              <stop offset="0%" style={{ stopColor: " #d3d3d3" }} />
-              <stop offset="100%" style={{ stopColor: "#f6f6da" }} />
+              <stop offset="0%" 
+              stopColor=" #d3d3d3"/>
+              <stop offset="100%" 
+              stopColor="#f6f6da" />
             </linearGradient>
 
             <linearGradient id="GradLambTail" x1="0%" y1="0%" x2="0%" y2="100%">
-              <stop offset="0%" style={{ stopColor: " #3A3B3C" }} />
-              <stop offset="10%" style={{ stopColor: " #d3d3d3" }} />
-              <stop offset="100%" style={{ stopColor: " #d3d3d3" }} />
+              <stop offset="0%" stopColor=" #3A3B3C"/>
+              <stop offset="10%" stopColor=" #d3d3d3" />
+              <stop offset="100%" stopColor=" #d3d3d3"/>
             </linearGradient>
           </defs>
           <svg id="swaledaleSheepS1" width="100vw" height="83vh">
