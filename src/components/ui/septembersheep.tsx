@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 
 export default function SeptemberSheep() {
   return (
-    <div className="bg-[#504F22]">
+    <div className="m-8 border-solid border-4 border-[#743500]">
       <div
-        className="bg-[#98964D] h-screen border-solid border-[#504F22]"
+        className="bg-[#98964D] h-screen"
       >
                
         <svg
@@ -513,16 +513,13 @@ export default function SeptemberSheep() {
               xlinkHref="#swaledaleSheepS2"
               x={600}
               y={150}
-             className = "scale[2.2]" 
+             className = "scale[2.2] translate-x-8 translate-y-40" 
             />
           </svg>
         </svg>
       </div>{" "}
       {/* Closing tag SeptemberheaderDisplay*/}
-      
-           
 
-          
     </div>
   );
 }
