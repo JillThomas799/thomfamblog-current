@@ -1,35 +1,3 @@
-.septemberBackground {
-  background-color: "#504F22";
-}
-
-/* #swaledaleSheepS1 {
-  -webkit-transform: translate(-200px, -100px);
-  -moz-transform: translate(-200px, -100px);
-  -ms-transform: translate(-200px, -100px);
-  -o-transform: translate(-200px, -100px);
-  transform: translate(-200px, -100px);
-  overflow: visible;
-} */
-
-/* #swaledaleSheepS2 {
-  -webkit-transform: translate(-300px, -120px);
-  -moz-transform: translate(-300px, -120px);
-  -ms-transform: translate(-300px, -120px);
-  -o-transform: translate(-300px, -120px);
-  transform: translate(-300px, -120px);
-  overflow: visible;
-} */
-
-/* #sheepAdultLambS1 {
-  overflow-x: visible;
-  overflow-y: visible;
-}
-
-#sheepAdultLambS2 {
-  overflow-x: visible;
-  overflow-y: visible;
-} */
-
 #CowsAndSheep {
   margin-bottom: 15%;
   overflow: "visible";
@@ -89,38 +57,6 @@
   -ms-transform: "translate(-152px, 37px)";
   -o-transform: "translate(-152px, 37px)";
   transform: "translate(-152px, 37px)";
-}
-
-#swaledaleSheepS2eyerightouter {
-  -webkit-transform: "rotate(20deg,603,425)";
-  -moz-transform: "rotate(20deg,603,425)";
-  -ms-transform: "rotate(20deg,603,425)";
-  -o-transform: "rotate(20deg,603,425)";
-  transform: "rotate(20deg,603,425)";
-}
-
-#swaledaleSheepS2eyeleftouter {
-  -webkit-transform: "rotate(-20deg,616,425)";
-  -moz-transform: "rotate(-20deg,616,425)";
-  -ms-transform: "rotate(-20deg,616,425)";
-  -o-transform: "rotate(-20deg,616,425)";
-  transform: "rotate(-20deg,616,425)";
-}
-
-#swaledaleSheepS2eyerightinner {
-  -webkit-transform: "rotate(20deg,603,425)";
-  -moz-transform: "rotate(20deg,603,425)";
-  -ms-transform: "rotate(20deg,603,425)";
-  -o-transform: "rotate(20deg,603,425)";
-  transform: "rotate(20deg,603,425)";
-}
-
-#swaledaleSheepS2eyeleftinner {
-  -webkit-transform: "rotate(-20deg,616,425)";
-  -moz-transform: "rotate(-20deg,616,425)";
-  -ms-transform: "rotate(-20deg,616,425)";
-  -o-transform: "rotate(-20deg,616,425)";
-  transform: "rotate(-20deg,616,425)";
 }
 
 #sheepAdultLambS1 {
@@ -185,28 +121,6 @@
   }
 }
 
-/*@media queries for the sheep and cows*/
-@media screen and (min-width: 480px) and (max-width: 900px) {
-  /*To ensure on ipad screens and larger mobiles (min-width 480px, max-width 900px) that the sheep and lambs are correctly positioned*/
-  /* #swaledaleSheepS1 {
-    -webkit-transform: translate(-200px, 0px);
-    -moz-transform: translate(-200px, 0px);
-    -ms-transform: translate(-200px, 0px);
-    -o-transform: translate(-200px, 0px);
-    transform: translate(-200px, 0px);
-    overflow: visible;
-  }
-
-  #swaledaleSheepS2 {
-    -webkit-transform: translate(-300px, 0px);
-    -moz-transform: translate(-300px, 0px);
-    -ms-transform: translate(-300px, 0px);
-    -o-transform: translate(-300px, 0px);
-    transform: translate(-300px, 0px);
-    overflow: visible;
-  } */
-}
-
 /*To ensure on ipad screens and larger mobiles that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
 @media screen and (min-width: 481px) and (max-width: 900px) {
   .SeptemberheaderDisplay {
@@ -215,24 +129,6 @@
     border: solid #eec170 8px;
     padding-bottom: 20%;
   }
-
-  /* #swaledaleSheepS1 {
-    -webkit-transform: scale(120%) translate(-350px, -300px);
-    -moz-transform: scale(120%) translate(-350px, -300px);
-    -ms-transform: scale(120%) translate(-350px, -300px);
-    -o-transform: scale(120%) translate(-350px, -300px);
-    transform: scale(120%) translate(-350px, -300px);
-    overflow: visible;
-  }
-
-  #swaledaleSheepS2 {
-    -webkit-transform: scale(100%) translate(-600px, -100px);
-    -moz-transform: scale(100%) translate(-600px, -100px);
-    -ms-transform: scale(100%) translate(-600px, -100px);
-    -o-transform: scale(100%) translate(-600px, -100px);
-    transform: scale(100%) translate(-600px, -100px);
-    overflow: visible;
-  } */
 }
 
 /*To ensure on screens less than 480px, display of all items is optimised and scaled for the smaller display.*/
@@ -255,24 +151,6 @@
     border: solid #eec170 8px;
     padding-bottom: 25%;
   }
-
-  /* #swaledaleSheepS1 {
-    -webkit-transform: scale(120%) translate(-580px, -200px);
-    -moz-transform: scale(120%) translate(-580px, -200px);
-    -ms-transform: scale(120%) translate(-580px, -200px);
-    -o-transform: scale(120%) translate(-580px, -200px);
-    transform: scale(120%) translate(-580px, -200px);
-    overflow: visible;
-  }
-
-  #swaledaleSheepS2 {
-    -webkit-transform: scale(100%) translate(-600px, -100px);
-    -moz-transform: scale(100%) translate(-600px, -100px);
-    -ms-transform: scale(100%) translate(-600px, -100px);
-    -o-transform: scale(100%) translate(-600px, -100px);
-    transform: scale(100%) translate(-600px, -100px);
-    overflow: visible;
-  } */
 }
 
 /*To ensure on screens less than 362px, display of all items is optimised and scaled for the smaller display.*/
@@ -295,30 +173,4 @@
     border: solid #eec170 8px;
     padding-bottom: 20%;
   }
-
-  /* #swaledaleSheepS1 {
-    -webkit-transform: scale(90%) translate(-450px, -300px);
-    -moz-transform: scale(90%) translate(-450px, -300px);
-    -ms-transform: scale(90%) translate(-450px, -300px);
-    -o-transform: scale(90%) translate(-450px, -300px);
-    transform: scale(90%) translate(-450px, -300px);
-    overflow: visible;
-  } */
-
-  /* #swaledaleSheepS2 {
-    -webkit-transform: scale(70%) translate(-400px, -100px);
-    -moz-transform: scale(70%) translate(-400px, -100px);
-    -ms-transform: scale(70%) translate(-400px, -100px);
-    -o-transform: scale(70%) translate(-400px, -100px);
-    transform: scale(70%) translate(-400px, -100px);
-    overflow: visible;
-  } */
-
-  /* #sheepAdultLambS1 {
-    -webkit-transform: scale(2.2) translate(300px, 0px);
-    -moz-transform: scale(2.2) translate(300px, 0px);
-    -ms-transform: scale(2.2) translate(300px, 0px);
-    -o-transform: scale(2.2) translate(300px, 0px);
-    transform: scale(2.2) translate(300px, 0px);
-  } */
 }

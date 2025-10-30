@@ -7,7 +7,7 @@ export default function SeptemberSheep() {
   return (
     <div className="m-4 ">
       <div
-        className="bg-[#98964D] h-70 border-solid border-4 border-[#743500]"
+        className="h-70 border-solid border-4 border-[#743500] bg-gradient-to-b from-[#87984d]  from-[0%] via-[#6b6436]  to-[#6b6436] to-[100%]"
       >
                
         <svg
@@ -155,18 +155,21 @@ export default function SeptemberSheep() {
               <path
                 fill="url(#Gradsheepfur)"
                 d="M 600 480 A 30,40 80 0 1 605, 430"
+                className="translate-y-[5px] opacity-100"
               />
             </g>
             <g id="swaledaleSheepS1bodycentre">
               <polygon
                 points="610 430, 605 430, 600 480, 620 480"
                 fill="url(#Gradsheepfur)"
+                className="translate-y-[5px] opacity-100"
               />
             </g>
             <g id="swaledaleSheepS1bodyright">
               <path
                 fill="url(#Gradsheepfur)"
                 d="M 620 480 A 30,40 80 0 0 610, 430"
+                className="translate-y-[5px] opacity-100"
               />
             </g>
 
@@ -266,7 +269,7 @@ export default function SeptemberSheep() {
                 cx="603"
                 cy="425"
                 rx="3"
-                ry="1.5"
+                ry="1.9"
                 fill="#36454F"
                 opacity="0.9"
                 className = "rotate-20, rotate-x-603 rotate-y-425)" 
@@ -277,7 +280,7 @@ export default function SeptemberSheep() {
                 cx="616"
                 cy="425"
                 rx="3"
-                ry="1.5"
+                ry="1.9"
                 fill="#36454F"
                 opacity="0.9"
                   className = "rotate-20, rotate-x-616 rotate-y-425)" 
@@ -453,7 +456,7 @@ export default function SeptemberSheep() {
                   ry="3"
                   fill="url(#Gradsheepfur)"
                   opacity="0.9"
-                 className = "rotate-20, rotate-x-603 rotate-y-425)" 
+                //  className = "rotate-20, rotate-x-603 rotate-y-425)" 
                 ></ellipse>
               </g>
               <g id="swaledaleSheepS2eyeleftouter">
@@ -464,29 +467,27 @@ export default function SeptemberSheep() {
                   ry="3"
                   fill="url(#Gradsheepfur)"
                   opacity="0.9"
-                  className = "rotate-20, rotate-x-616 rotate-y-425)" 
+                  // className = "rotate-20, rotate-x-616 rotate-y-425)" 
                 ></ellipse>
               </g>
               <g id="swaledaleSheepS2eyerightinner">
                 <ellipse
-                  cx="604"
-                  cy="426"
+                  cx="603"
+                  cy="425"
                   rx="3"
-                  ry="1.5"
+                  ry="1.9"
                   fill="#36454F"
-                  opacity="0.9"
-                  className = "rotate-20, rotate-x-603 rotate-y-425)" 
+                  opacity="0.9" 
                 ></ellipse>
               </g>
               <g id="swaledaleSheepS2eyeleftinner">
                 <ellipse
                   cx="616"
-                  cy="426"
+                  cy="425"
                   rx="3"
-                  ry="1.5"
+                  ry="1.9"
                   fill="#36454F"
                   opacity="0.9"
-                 className = "rotate-20, rotate-x-616 rotate-y-425)" 
                 ></ellipse>
               </g>
               <g id="swaledaleSheepS2mouth">
@@ -511,7 +512,7 @@ export default function SeptemberSheep() {
             </g>
           </svg>
           ;
-          <svg id="sheepAdultLambS1" className="scale-[50%] overflow-x-visible overflow-y-visible translate-x-[-5px] md:scale-[50%] md:*:translate-x-[200px]">
+          <svg id="sheepAdultLambS1" className="scale-[50%] overflow-x-visible overflow-y-visible translate-x-[-5px]  md:scale-[50%] md:*:translate-x-[200px] md:translate-y-[50px]">
             <use
               xlinkHref="#swaledaleSheepS1"
               x={300}
@@ -523,7 +524,6 @@ export default function SeptemberSheep() {
               xlinkHref="#swaledaleSheepS2"
               x={600}
               y={150}
-            //  className = "scale[2.2] " 
             />
           </svg>
         </svg>
