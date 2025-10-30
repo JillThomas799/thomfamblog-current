@@ -105,7 +105,7 @@ export default function SeptemberSheep() {
               <stop offset="100%" stopColor=" #d3d3d3"/>
             </linearGradient>
           </defs>
-          <svg id="swaledaleSheepS1" width="100vw" height="83vh">
+          <svg id="swaledaleSheepS1" width="100vw" height="83vh" className="overflow-visible translate-x-[-550px] translate-y-[-300px] sm:translate-x-[100px] sm:translate-y-[120px] md:translate-x-[-550px] md:translate-y-[-350px] md:scale-[120%]">
             <g id="swaledaleSheepS1frontlegright">
               <rect
                 x="618"
@@ -258,7 +258,7 @@ export default function SeptemberSheep() {
                 ry="3"
                 fill="url(#Gradsheepfur)"
                 opacity="0.9"
-                style={{ transform: "rotate(-20deg,616,425)" }}
+                className="rotate-20,rotate-x-616,rotate-y-425)" 
               ></ellipse>
             </g>
             <g id="swaledaleSheep1Seyerightinner">
@@ -295,7 +295,7 @@ export default function SeptemberSheep() {
             id="swaledaleSheepS2"
             width="100vw"
             height="83vh"
-           style={{ transform: "translate(-300px, -120px)" }} 
+            className="overflow-visible translate-x-[-370px] translate-y-[-200px] sm:translate-x-[100px] sm:translate-y-[120px] md:translate-x-[-300px] md:translate-y-[-150px] md:scale-[100%]"
           >
             <g id="swaledaleSheepS2frontlegright">
               <rect
@@ -511,20 +511,19 @@ export default function SeptemberSheep() {
             </g>
           </svg>
           ;
-          <svg id="sheepAdultLambS1" className="scale-[50%]">
+          <svg id="sheepAdultLambS1" className="scale-[50%] overflow-x-visible overflow-y-visible translate-x-[-5px] md:scale-[50%] md:*:translate-x-[200px]">
             <use
               xlinkHref="#swaledaleSheepS1"
               x={300}
               y={150}
-               className = "scale[2.2]" 
             />
           </svg>
-          <svg id="sheepAdultLambS2" className="scale-[55%]">
+          <svg id="sheepAdultLambS2" className="scale-[50%] translate-x-[-200px] md:scale-[57%] md:translate-x-[-120px] md:translate-y-[0px] overflow-x-visible overflow-y-visible">
             <use
               xlinkHref="#swaledaleSheepS2"
               x={600}
               y={150}
-             className = "scale[2.2] translate-x-8 translate-y-40" 
+            //  className = "scale[2.2] " 
             />
           </svg>
         </svg>
