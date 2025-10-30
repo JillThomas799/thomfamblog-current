@@ -456,7 +456,6 @@ export default function SeptemberSheep() {
                   ry="3"
                   fill="url(#Gradsheepfur)"
                   opacity="0.9"
-                //  className = "rotate-20, rotate-x-603 rotate-y-425)" 
                 ></ellipse>
               </g>
               <g id="swaledaleSheepS2eyeleftouter">
@@ -467,7 +466,6 @@ export default function SeptemberSheep() {
                   ry="3"
                   fill="url(#Gradsheepfur)"
                   opacity="0.9"
-                  // className = "rotate-20, rotate-x-616 rotate-y-425)" 
                 ></ellipse>
               </g>
               <g id="swaledaleSheepS2eyerightinner">
