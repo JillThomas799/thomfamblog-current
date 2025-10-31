@@ -508,14 +508,14 @@ export default function SeptemberSheep() {
             </g>
           </svg>
           ;
-          <svg id="sheepAdultLambS1" className="scale-[50%] overflow-x-visible overflow-y-visible translate-x-[-5px]  md:scale-[50%] md:*:translate-x-[200px] md:translate-y-[50px]">
+          <svg id="sheepAdultLambS1" className="scale-[50%] overflow-x-visible overflow-y-visible translate-x-[-50px]  md:scale-[50%] md:*:translate-x-[200px] md:translate-y-[50px]">
             <use
               xlinkHref="#swaledaleSheepS1"
               x={300}
               y={150}
             />
           </svg>
-          <svg id="sheepAdultLambS2" className="scale-[50%] translate-x-[-200px] md:scale-[57%] md:translate-x-[-120px] md:translate-y-[0px] overflow-x-visible overflow-y-visible">
+          <svg id="sheepAdultLambS2" className="scale-[50%] translate-x-[-250px] md:scale-[57%] md:translate-x-[-120px] md:translate-y-[0px] overflow-x-visible overflow-y-visible">
             <use
               xlinkHref="#swaledaleSheepS2"
               x={600}
