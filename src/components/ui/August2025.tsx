@@ -1,14 +1,15 @@
 "use client"
 
-import * as React from "react"
+import AugustCyclist from '@/components/ui/augustcyclist'
 import Image from 'next/image'
 import blog2025 from '/public/imagesresized/blog2025.png';
-import London16082025Titled from '/public/imagesresized/London16082025Titled.jpg';
+import London16082025Titled from '/public/imagesresized/London16082025Titled.jpg'; 
 import dinosaurrEvolutionTitled from '/public/imagesresized/dinosaurrEvolutionTitled.jpg';
 import Muncaster23082025Titled from '/public/imagesresized/Muncaster23082025Titled.jpg';
 import HMSVictoryTitled from '/public/imagesresized/HMSVictoryTitled.jpg';
 import StonehengeTitled from '/public/imagesresized/StonehengeTitled.jpg'
 import Link from 'next/link'
+
 
 
 export default function August2025() {
@@ -19,7 +20,7 @@ export default function August2025() {
     <div className=" bg-[#3167a7] border-solid border-2 border-[#22311d] mb-28"> {/*August block background*/}
         <div className="text-[#f9d8a6] text-center font-semibold text-2xl p-3 bg-[#5c87bc] border-solid border-2 border-[#22311d] m-2">August 2025
         </div> {/*End of August month block*/}
-
+        <AugustCyclist />
         <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2  bg-[#fecc6d]">
          <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12"> 31st August 2025</div>
