@@ -17,7 +17,7 @@ export default async function Home() {
   else {
     return (
     <div>    
-      {/* <BlogMenuBar /> */}
+      <BlogMenuBar />
    <div className="flex flex-col md:grid md:grid-cols-3 gap-4 p-2 bg-[#90AEAD]"> {/*Sets the overall grid layout for the display*/}
     <div className=" sm:flex-col md:col-span-2 p-2 gap-3 ">
      <August2025 />

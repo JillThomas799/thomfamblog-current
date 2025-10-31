@@ -4,6 +4,7 @@ import { getPosts } from '@/actions/post.action';
 import CreatePost from "@/components/ui/CreatePost";
 import PostCard from "@/components/ui/PostCard";
 import October2025 from "@/components/ui/October2025";
+import BlogMenuBar from "@/components/ui/blogmenubar";
 
 
 
@@ -17,7 +18,7 @@ export default async function Home() {
   else { 
   return (
     <div>
-      {/* <BlogMenuBar /> */}
+      <BlogMenuBar />
    <div className="grid grid-cols-1 md:grid-cols-3 gap-1 p-2 bg-[#90AEAD]"> {/*Sets the overall grid layout for the display*/}
         
     <div className="col-span-1 md:col-span-2 p-2 gap-3 ">
