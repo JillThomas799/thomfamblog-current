@@ -1,4 +1,3 @@
-import React from 'react'
 
 async function TasksPage() {
    const response = await fetch("http://localhost:3000/api/tasks", {

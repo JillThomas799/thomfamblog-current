@@ -1,4 +1,3 @@
-import React from "react";
 import "./fallingleaves.css";
 
 export default function FallingLeaves() {

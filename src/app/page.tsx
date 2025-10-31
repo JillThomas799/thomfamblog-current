@@ -5,9 +5,6 @@ import CreatePost from "@/components/ui/CreatePost";
 import PostCard from "@/components/ui/PostCard";
 import October2025 from "@/components/ui/October2025";
 import BlogMenuBar from "@/components/ui/blogmenubar";
-import React from "react";
-
-
 
 export default async function Home() {
   const user = await currentUser();
