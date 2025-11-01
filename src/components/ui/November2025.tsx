@@ -12,7 +12,7 @@ export default function November2025() {
     <div>
        <div className="text-[#FBE9d0] text-center font-semibold text-2xl p-3 bg-[#2F4D49] border-solid border-2 border-[#22311d] m-2 animate-pulse">November 2025
         </div>
-        {/* <NovemberBonfire /> */}
+        <div className="bg-black h-[65vh] ml-2 mr-2 mt-0"><NovemberBonfire /></div>
 
         <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">

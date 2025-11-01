@@ -1,27 +1,27 @@
-import "./BonfireAnimation.css";
+import "./novemberbonfire.css";
 
-export default function BonfireAnimation() {
+export default function NovemberBonfire() {
   return (
     <div>
-      <div className="fireplace">
-        <div className="blur">
+      <div id="fireplace">
+        <div id="blur">
           <div className="fireplaceFlameBig"></div>
         </div>
-        <section className="fireplaceLog"></section>
-        <section className="fireplaceLog"></section>
-        <section className="fireplaceLog"></section>
-        <section className="fireplaceLog"></section>
-        <section className="fireplaceLog"></section>
-        <section className="fireplaceLog"></section>
-        <section className="fireplaceLog"></section>
-        <main className="fireplaceSpark"></main>
-        <main className="fireplaceSpark"></main>
-        <main className="fireplaceSpark"></main>
-        <main className="fireplaceSpark"></main>
-        <div className="blurFix">
-          <div className="fireplaceFlame"></div>
+        <section id="fireplaceLog"></section>
+        <section id="fireplaceLog"></section>
+        <section id="fireplaceLog"></section>
+        <section id="fireplaceLog"></section>
+        <section id="fireplaceLog"></section>
+        <section id="fireplaceLog"></section>
+        <section id="fireplaceLog"></section>
+        <main id="fireplaceSpark"></main>
+        <main id="fireplaceSpark"></main>
+        <main id="fireplaceSpark"></main>
+        <main id="fireplaceSpark"></main>
+        <div id="blurFix">
+          <div id="fireplaceFlame"></div>
         </div>
-        <div className="fireplaceLight"></div>
+        <div id="fireplaceLight"></div>
       </div>
     </div>
   );
