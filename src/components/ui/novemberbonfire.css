@@ -1235,7 +1235,14 @@
   }
 }
 
-@media screen and (min-width: 602px) {
+@media screen and (min-width: 1001px) {
+  #fireplace {
+    padding-top: 0px;
+    margin-left: 17vw;
+  }
+}
+
+@media screen and (min-width: 602px) and (max-width: 1000px) {
   #fireplace {
     padding-top: 40%;
     margin-left: 10vw;
