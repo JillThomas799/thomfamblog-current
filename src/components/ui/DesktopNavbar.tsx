@@ -4,8 +4,6 @@ import { SignInButton, UserButton} from "@clerk/nextjs";
 import Link from "next/link";
 import { ModeToggle } from "./ModeToggle"; 
 import { Button } from "./button";
-// import Image from 'next/image'
-// import LennieBioImage from "/public/imagesresized/LennieBioImage.jpg";
 
 async function DesktopNavbar() {
     const user = await currentUser()
@@ -13,19 +11,10 @@ async function DesktopNavbar() {
   return (
     <div className="hidden md:flex items-center space-x-4">
         <ModeToggle />
-{/* <div>
- <Image
-                  src={ LennieBioImage}
-                  className="block ml-auto mr-auto h-auto w-[40%]  border-solid border-[white] border-2 mt-1 mb-11 "
-                  alt="Photo of Lennie"
-                />
-
-</div> */}
-
-        <Button variant="ghost" className="flex items-center gap-2 font-bold b-solid bg-black p-4" asChild>
+        <Button variant="ghost" className="flex items-center gap-2 font-bold b-solid bg-slate-500 dark:bg-black p-4" asChild>
             <Link href="/">
             <HomeIcon className="w-4 h-4" />
-            <span className="hidden lg:inline text-lg ">Home</span>
+            <span className="hidden lg:inline text-lg text-slate-300 dark:text-slate-200 ">Home</span>
             </Link>
         </Button>
 

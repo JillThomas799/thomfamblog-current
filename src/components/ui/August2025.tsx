@@ -25,7 +25,7 @@ export default function August2025() {
          <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12"> 31st August 2025</div>
         <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 py-4 text-[#f9d8a6] bg-[#9e7bab]"> Visit to Stonehenge, Wiltshire</div>
-         <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-bold text-left">
+         <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-bold text-center">
           Today, it was time for a change from naval history and a trip back to prehistoric times with a visit to Stonehenge in Wiltshire, 
           <br />
           <br />
@@ -80,7 +80,7 @@ export default function August2025() {
          <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12"> 30th August 2025</div>
         <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 py-4 text-[#f9d8a6] bg-[#9e7bab]"> Portsmouth Historic Dockyard day 1: Guided Tour of the <br />Mary Rose and all aboard HMS Victory  with Lord Horatio Nelson <br />to head out to the Battle of Trafalgar against the <br />French and Spanish.</div>
-        <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-bold text-left"> Well today, we were well-settled into our cottage accommodation in Southsea for the duration of our stay and it was time to head off to Portsmouth Historic Dockyard for the first of our 3 visits over the coming days. <Link href="https://historicdockyard.co.uk/" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Portsmouth Historic Dockyard</Link> is an area of HM Naval Base Portsmouth which is open to the public and contains several historic buildings and ships. The Royal Navy has had its home in Portsmouth Harbour since 1194. We opted to purchase Ultimate Explorer tickets as these permitted us unlimited access to all the attractions for 12 months.
+        <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-bold text-center"> Well today, we were well-settled into our cottage accommodation in Southsea for the duration of our stay and it was time to head off to Portsmouth Historic Dockyard for the first of our 3 visits over the coming days. <Link href="https://historicdockyard.co.uk/" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold">Portsmouth Historic Dockyard</Link> is an area of HM Naval Base Portsmouth which is open to the public and contains several historic buildings and ships. The Royal Navy has had its home in Portsmouth Harbour since 1194. We opted to purchase Ultimate Explorer tickets as these permitted us unlimited access to all the attractions for 12 months.
           <br />
           <br />
           Firstly, we were off to see the Mary Rose, the ship which Bernard had long wished to visit and which had been recommended to us by others as well-worth seeing. So here we were, booked on to a guided tour and clasping our guide book in hand.
@@ -109,7 +109,7 @@ export default function August2025() {
               >
                 <Image
                   src={ HMSVictoryTitled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[90%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[90%] lg:w-[70%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of HMS Victory"
                 />
               </Link>
@@ -148,7 +148,7 @@ export default function August2025() {
          <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12"> 23rd August 2025</div>
         <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 py-4  text-[#f9d8a6] bg-[#9e7bab]"> Visit to Muncaster Castle, Cumbria</div>
-        <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-bold text-left">
+        <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-bold text-center">
           Today we went to visit Muncaster Castle, which is situated just inland from the west coast of Cumbria. This castle is a must-see site if you are over this way as it has been in the hands of the same family, the Penningtons, for at least the last 800 years , with documented evidence of their presence at Muncaster since 1208, when lands were granted to Alan de Penitone. 
           <br />
           <br />
@@ -194,7 +194,7 @@ export default function August2025() {
          <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12"> 22nd August 2025</div>
         <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 py-4 bg-[#9e7bab]"> Visit to the Dinosaur rEvolution exhibition at the Tullie Museum, Carlisle</div>
-        <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-bold text-left">This exhibition by Godwana studios arrived at the Tullie at the end of June and is due to run until mid-September. We had heard good reports of it and so today we braved the school holidays to go and take a closer look ourselves before we lost out chance!
+        <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-bold text-center">This exhibition by Godwana studios arrived at the Tullie at the end of June and is due to run until mid-September. We had heard good reports of it and so today we braved the school holidays to go and take a closer look ourselves before we lost out chance!
           <br />
           <br />
           Until recently our knowledge of dinosaurs was based almost completely on the assumptions which were made from their internal body structure, their bones and tendon attachments. Bones, scales and armour sometimes fossilize well but soft tissues are more difficult to preserve.
@@ -241,7 +241,7 @@ export default function August2025() {
          <div className="text-md md:text-lg max-w-full font-bold bg-[#fecc6d] text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12"> 16th August 2025</div>
         <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 py-4 bg-[#9e7bab]"> Day trip to London to visit Westminster Abbey and Buckingham Palace. </div>
-        <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-bold text-left">It was a very early 6am departure to head down to London by train today to visit 2 places we had not yet visited: Westminster Abbey and Buckingham Palace, or at least, we thought we had not visited them. However, it turns out Bernard and Jill had previously visited Buckingham Palace in 1998 but neither could remember ever going there ......! Must have been work fatigue at the time......
+        <div className="pr-3 pl-3 md:pr-20 md:pl-20 font-bold text-center">It was a very early 6am departure to head down to London by train today to visit 2 places we had not yet visited: Westminster Abbey and Buckingham Palace, or at least, we thought we had not visited them. However, it turns out Bernard and Jill had previously visited Buckingham Palace in 1998 but neither could remember ever going there ......! Must have been work fatigue at the time......
           <br />
           <br />
           Jill had spent the previous week trying to cram the whole of the history of Westminster Abbey in terms of its relationship with the surrounding community, the nation and the wider world throughout time with the help of an extremely readable and well-researched book <Link href="https://www.amazon.co.uk/Westminster-Abbey-History-David-Cannadine/dp/1913107477?crid=32WQ8FZCSYRVX&dib=eyJ2IjoiMSJ9.VWfixm0jckHCq2KLAA7_OeQT7wHjFG0EhPoeHr3H7YpFPgiaOxiyd4lXHGSF5kxo54aVXKc7UHF33sc69m9k1gXC1p6BRrBo_yVPRA2q03fyL2sq5_oPqkI2SXLnHIody5YXQ11FMfe68hbBfCTr0lTrEUVxF0_2A8zCrytRxM_L5FAee8GkYELZfn8Qw6UhrNHC_XeEaIFrT2KwdTnd_iXI9sEFqlRWZOy7xGKrs-8.HL2MQKqJBXroVCQ3tXYK28wjNgazkWzA0IXrAYDgW9s&dib_tag=se&keywords=westminster+abbey&qid=1755707556&sprefix=westminster+abbey%2Caps%2C126&sr=8-1" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold" >"Westminster: A Church in History"</Link>  by David Canadine. This is a far more readable book than might be imagined and made a real difference to our getting the most out of our visit to the abbey on this occasion.

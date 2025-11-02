@@ -20,7 +20,7 @@ export default function November2025() {
             <div className="after"></div>
           </div>{" "}
          {/*Closing div pyro*/}
-        <div className="bg-black to-[100%] h-[75vh] sm:h-[55vh] md:h-[65vh] mx-auto mt-0">
+        <div className="bg-black h-[75vh] sm:h-[55vh] md:h-[75vh] mx-auto mt-0">
           <NovemberBonfire />
         </div>
         </div>
