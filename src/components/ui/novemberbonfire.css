@@ -2,7 +2,7 @@
   width: 320px;
   height: 320px;
   position: relative;
-  margin-top: 5%;
+  margin-top: 6vh;
   margin-left: -5vw;
 
   #fireplaceFlame,
@@ -1251,7 +1251,7 @@
 
 @media screen and (min-width: 402px) and (max-width: 601px) {
   #fireplace {
-    padding-top: 30%;
+    padding-top: 10vh;
     margin-left: 4%;
   }
 }
