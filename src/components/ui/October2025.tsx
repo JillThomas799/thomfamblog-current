@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Gaia from "/public/imagesresized/Gaia.jpg";
 import GaiaTitled from "/public/imagesresized/GaiaTitled.jpg";
+import ArchimedesScrewTitled from "/public/imagesresized/ArchimedesScrewTitled.jpg";
 import FallingLeaves from "./fallingleaves";  
 
 
@@ -73,13 +74,66 @@ export default function October2025() {
       </div>{/*End of individual dated entry photo album block*/} 
            </div> {/*End of news content block*/}
            </div> {/*End of individual dated entry design and color template block*/}
-           </div> {/*End of individual dated entry block*/}     
+           </div> {/*End of individual dated entry block*/}    
+
+
+      <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
+         <div className="text-md md:text-lg max-w-full font-bold text-[#D99E49] text-center dark:text-[#D99E49] justify-center items-center">
+        <div className="font-bold py-2 px-12 text-[#22311d] text-center dark:text-[#22311d]"> 25th October 2025</div> {/*End of news date block*/} 
+        <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#61603c]">Cragside House, Rothbury: Home of the late William Armstrong and his wife.</div> {/*End of news header block*/}
+        
+        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-bold text-left text-[#22311d] dark:text-[#22311d]">
+         <ul>
+          <li className="font-bold list-disc ml-4">Who was William Armstrong?: 
+           <br />
+           He was a visionary Victorian engineer, scientist and businessman. 
+           <br />
+           He was ‘the inventor of modern artillery’ and the world's first international arms dealer.
+           <br />
+           Together with the architect Richard Norman Shaw, he built Cragside in Northumberland, the first house in the world to be lit by hydroelectricity.  
+            <br />
+            He created the mechanisms that operate London’s Tower Bridge and Newcastle’s Swing Bridge.
+            <br />
+            He restored Bamburgh castle, one of England’s finest castles, on the Northumberland coast.
+            <br />
+            He employed more than 25,000 people at his Elswick Works on the Tyne, in the production of hydraulic machinery, ships and armaments.
+            <br />He was a philanthropist, a lifelong champion of all forms of education and the main founder of the College of Science, which would evolve into Newcastle University.
+            </li>
+            <li> </li>
+          <br />
+           <br />
           
+          <li className="font-bold list-disc ml-4">When did he live?: <br /> He was born in 1810 and died in 1900. </li> 
+         </ul>
+         <br />
+         <br />  
+
+           <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#61603c] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#61603c]">
+              {" "}
+                <div className="m-1 p-1 font-bold  border-gray-800 border-solid border-2 bg-[#b55b4b]">Click on the image below to open the album <br /> of our visit to William Armstrong's Cragside, Rothbury to see the house and undertake the carriage drive all around the estate.</div>
+                <br />
+              <br />
+              <Link
+                href="https://photos.app.goo.gl/MBPTWaMWcHBFLhKi6"
+                target="_blank"
+              >
+                <Image
+                  src={ ArchimedesScrewTitled }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[60%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of the Archimedes Screw for the hydroelectric power system, Cragside."
+                />
+              </Link>
+            </div>{" "}
+      </div>{/*End of individual dated entry photo album block*/}
+           </div> {/*End of news content block*/}
+           </div> {/*End of individual dated entry design and color template block*/}
+           </div> {/*End of individual dated entry block*/}
+
       </div> {/*End of October block*/}
       </div> {/*End of October block background*/}
-
+</div>
       </div>
-     
-   
 );
 }
