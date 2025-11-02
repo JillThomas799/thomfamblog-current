@@ -12,7 +12,7 @@ export default function October2025() {
   return (   
  <div className=" bg-[#383f17] border-solid border-2 border-[#22311d] mb-28"> {/*October block background*/}
     <div>
-       <div className="text-[#FBE9d0] text-center font-semibold text-2xl p-3 bg-[#2F4D49] border-solid border-2 border-[#22311d] m-2 animate-pulse">October 2025
+       <div className="text-[#FBE9d0] text-center font-semibold text-2xl p-3 bg-[#2F4D49] border-solid border-2 border-[#22311d] m-2">October 2025
         </div>
         <FallingLeaves />
 

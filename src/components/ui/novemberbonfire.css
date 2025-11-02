@@ -2,10 +2,6 @@
   width: 320px;
   height: 320px;
   position: relative;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;  */
   margin-top: 5%;
   margin-left: -5vw;
 
@@ -20,7 +16,6 @@
       rgba(237, 100, 52, 1) 50%,
       rgba(250, 71, 8, 1) 59%
     );
-    /* background:black; */
     position: absolute;
     margin-bottom: 30px;
     z-index: 3;
@@ -1240,22 +1235,16 @@
   }
 }
 
-@media screen and (min-width: 402px) and (max-width: 650px) {
-  .FireworkContainer {
-    -webkit-transform: scale(0.8);
-    -moz-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    -o-transform: scale(0.8);
-    transform: scale(0.8);
+@media screen and (min-width: 602px) {
+  #fireplace {
+    padding-top: 40%;
+    margin-left: 10vw;
   }
 }
 
-@media screen and (max-width: 401px) {
-  .FireworkContainer {
-    -webkit-transform: scale(0.75);
-    -moz-transform: scale(0.75);
-    -ms-transform: scale(0.75);
-    -o-transform: scale(0.75);
-    transform: scale(0.75);
+@media screen and (min-width: 402px) and (max-width: 601px) {
+  #fireplace {
+    padding-top: 30%;
+    margin-left: 4%;
   }
 }
