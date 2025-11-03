@@ -81,35 +81,28 @@ export default function October2025() {
       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
          <div className="text-md md:text-lg max-w-full font-bold text-[#D99E49] text-center dark:text-[#D99E49] justify-center items-center">
         <div className="font-bold py-2 px-12 text-[#22311d] text-center dark:text-[#22311d]"> 25th October 2025</div> {/*End of news date block*/} 
-        <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#61603c]">Cragside House, Rothbury: Home of the late William Armstrong and his wife.</div> {/*End of news header block*/}
-        
-        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-bold text-left text-[#22311d] dark:text-[#22311d]">
-         <ul>
-          <li className="font-bold list-disc ml-4">Who was William Armstrong?: 
-           <br />
-           He was a visionary Victorian engineer, scientist and businessman. 
-           <br />
-           He was ‘the inventor of modern artillery’ and the world's first international arms dealer.
-           <br />
-           Together with the architect Richard Norman Shaw, he built Cragside in Northumberland, the first house in the world to be lit by hydroelectricity.  
-            <br />
-            He created the mechanisms that operate London’s Tower Bridge and Newcastle’s Swing Bridge.
-            <br />
-            He restored Bamburgh castle, one of England’s finest castles, on the Northumberland coast.
-            <br />
-            He employed more than 25,000 people at his Elswick Works on the Tyne, in the production of hydraulic machinery, ships and armaments.
-            <br />He was a philanthropist, a lifelong champion of all forms of education and the main founder of the College of Science, which would evolve into Newcastle University.
-            </li>
-            <li> </li>
+        <div className="font-bold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#61603c]">Visit to Cragside House, Rothbury: The home created in 1863 by and for the late William Armstrong and his wife.</div> {/*End of news header block*/}
+        <div className="pr-1 pl-1 md:pr-1 md: pl-1 font-bold text-left text-[#22311d] dark:text-[#22311d]">
+          <div >Who was William Armstrong? He was: </div>
+            <ul>
+           <li className="font-bold list-disc ml-4">A visionary Victorian engineer, scientist and businessman. </li>
+           <li className="font-bold list-disc ml-4">‘The inventor of modern artillery’ and the world's first international arms dealer.</li>
+           <li className="font-bold list-disc ml-4">Together with the architect Richard Norman Shaw, the builder of Cragside in Northumberland, the first house in the world to be lit by hydroelectricity.  </li>
+            <li className="font-bold list-disc ml-4">The creator of the mechanisms that operate London’s Tower Bridge and Newcastle’s Swing Bridge.</li>
+             <li className="font-bold list-disc ml-4">Responsible for the plans to restore Bamburgh castle, one of England’s finest castles, on the Northumberland coast.</li>
+             <li className="font-bold list-disc ml-4">The employer of more than 25,000 people at his Elswick Works on the Tyne, in the production of hydraulic machinery, ships and armaments.</li>
+             <li className="font-bold list-disc ml-4">A philanthropist, a lifelong champion of all forms of education and the main founder of the College of Science, which would evolve into Newcastle University.</li>
+            </ul>
           <br />
-           <br />
-          
-          <li className="font-bold list-disc ml-4">When did he live?: <br /> He was born in 1810 and died in 1900. </li> 
-         </ul>
-         <br />
          <br />  
-         This <Link href="https://heatonhistorygroup.org/2018/03/27/lord-armstrong-1810-1900-his-science-and-his-legacy/" target="_blank">article by Heaton History Group</Link>  tells how William George Armstrong was born on 26th November 1810, just as the Industrial Revolution on Tyneside was really taking off. The Northumberland and Durham coalfield was expanding, William Hedley, Jonathan Forster and Timothy Hackworth would soon be working on their famous ‘Puffing Billy’ locomotive at Wylam and soon after George Stephenson would be working on his own ‘Rocket‘ locomotive at Farlam. With the Literary and Philosophical Society established in 1793, Tyneside was in terms of both scientific achievements and progressive ideas about society, becoming a world leader. 
-
+          William George Armstrong was born on 26th November 1810 in Newcastle upon Tyne at 9 Pleasant Row, Shieldfield. This <Link href="https://heatonhistorygroup.org/2018/03/27/lord-armstrong-1810-1900-his-science-and-his-legacy/" target="_blank" className="underline decoration-blue-700 text-blue-700 font-bold" >article by Heaton History Group</Link>  tells how William Armstrong was born just as the Industrial Revolution on Tyneside was really taking off. The Northumberland and Durham coalfield was expanding, William Hedley, Jonathan Forster and Timothy Hackworth would soon be working on their famous ‘Puffing Billy’ locomotive at Wylam and soon after George Stephenson would be working on his own ‘Rocket‘ locomotive. With the Literary and Philosophical Society established in 1793, Tyneside was in terms of both scientific achievements and progressive ideas about society, becoming a world leader. 
+             <br /> 
+              <br />    
+          As a boy, his family visited Rothbury regularly (which is where he later built Cragside in 1863), in order to escape the dirt and grime of Newcastle and he had many happy memories of fishing in the River Coquet there. He started life training to be a lawyer, at his father's wish, but it was engineering and mechanics which always interested him and it was these that he later pursued and led to his success, eventually become the first scientific engineer to become a Lord. He had a particular love of electrical experimentation.
+         <br />
+         <br /> 
+         The house and grounds are well worth a visit should you ever be within reach of this area of Nortumberland. 
+         
            <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#61603c] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#61603c]">
               {" "}
@@ -122,7 +115,7 @@ export default function October2025() {
               >
                 <Image
                   src={ ArchimedesScrewTitled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[60%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[80%] lg:w-[60%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of the Archimedes Screw for the hydroelectric power system, Cragside."
                 />
               </Link>
@@ -131,10 +124,11 @@ export default function October2025() {
            </div> {/*End of news content block*/}
            </div> {/*End of individual dated entry design and color template block*/}
            </div> {/*End of individual dated entry block*/}
+             </div>
 
       </div> {/*End of October block*/}
       </div> {/*End of October block background*/}
 </div>
-      </div>
+      
 );
 }
