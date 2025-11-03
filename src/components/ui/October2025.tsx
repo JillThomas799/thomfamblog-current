@@ -108,6 +108,7 @@ export default function October2025() {
          </ul>
          <br />
          <br />  
+         This <Link href="https://heatonhistorygroup.org/2018/03/27/lord-armstrong-1810-1900-his-science-and-his-legacy/" target="_blank">article by Heaton History Group</Link>  tells how William George Armstrong was born on 26th November 1810, just as the Industrial Revolution on Tyneside was really taking off. The Northumberland and Durham coalfield was expanding, William Hedley, Jonathan Forster and Timothy Hackworth would soon be working on their famous ‘Puffing Billy’ locomotive at Wylam and soon after George Stephenson would be working on his own ‘Rocket‘ locomotive at Farlam. With the Literary and Philosophical Society established in 1793, Tyneside was in terms of both scientific achievements and progressive ideas about society, becoming a world leader. 
 
            <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#61603c] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#61603c]">
