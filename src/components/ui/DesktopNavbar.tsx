@@ -18,19 +18,26 @@ async function DesktopNavbar() {
             </Link>
         </Button>
 
+         <Button variant="ghost" className="flex items-center gap-2 font-semibold" asChild>
+            <Link href="/dashboard/aboutus/page.tsx">
+            <HomeIcon className="w-4 h-4" />
+            <span className="hidden lg:inline text-lg text-slate-300 dark:text-slate-200 ">About Us</span>
+            </Link>
+        </Button>
+
         {user ? (
             <>
-            <Button variant="ghost" className="flex items-center gap-2" asChild>
+            <Button variant="ghost" className="flex items-center gap-2 font-semibold" asChild>
                 <Link href="/notifications">
                 <BellIcon className="w-4 h-4" />
-                 <span className="hidden lg:inline">Notifications</span>
+                 <span className="hidden lg:inline text-lg">Notifications</span>
                  </Link>
             </Button>
             
-                 <Button variant="ghost" className="flex items-center gap-2" asChild>
+                 <Button variant="ghost" className="flex items-center gap-2 font-semibold" asChild>
                     <Link href={`/profile/${user.username ?? user.emailAddresses[0].emailAddress.split("@")[0]}`}>
                     <UserIcon className="w-4 h-4" />
-                    <span className="hidden lg:inline">Profile</span>
+                    <span className="hidden lg:inline text-lg">Profile</span>
                     </Link>
                  </Button>
                  <UserButton />
