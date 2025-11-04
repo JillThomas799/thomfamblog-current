@@ -1,139 +1,38 @@
-import { useState } from "react"; //Adding 'state' to a component allows the component to 'remember' some specific information and display it. eg. count the number of times a button is clicked.
-import "./App.css"; //if importing from another file in the same folder use ./file name. ./ tells the import to look for the .js file in the same folder as the current file
-// import JillBioImage from "imagesresized/JillBioImage.jpg"; //if importing from another src folder, just use this configuration
-// import BernardBioImage from "imagesresized/BernardBioImage.jpg";
-// import LennieBioImage from "imagesresized/LennieBioImage.jpg";
-// import ElenaBioImage from "imagesresized/ElenaBioImage.jpg";
-// import HarryBioImage from "imagesresized/HarryBioImage.jpg";
-import Image from 'next/image'
-import Link from 'next/link'
+import { getDbUserId } from "@/actions/user.action";
+import { currentUser } from "@clerk/nextjs/server";
+import { getPosts } from '@/actions/post.action';
+import CreatePost from "@/components/ui/CreatePost";
+import PostCard from "@/components/ui/PostCard";
+import ProfilesHomePage from "@/components/ui/ProfilesHomePage";
+import BlogMenuBar from "@/components/ui/blogmenubar";
 
-const BernardPortalEntry = () => {
-  return (
-    <div>
-      <div className="figApp">
-        <Link href="/dashboard/aboutus/bernardbio" className="text-white underline">
-          <img
-            className="w-auto h-auto b-solid b-[5px] b-grey"
-            // src={BernardBioImage}
-            alt=""
-            title="Click here to go to Bernard's profile"
-          />
-        </Link>
-        <Link href="/dashboard/aboutus/bernardbio" className="text-white underline">
-          <figcaption>Bernard</figcaption>
-        </Link>
-      </div>
-    </div>
-  );
-};
 
-const JillPortalEntry = () => {
-  return (
-    <div>
-      <div className="figApp">
-        <Link href="/dashboard/aboutus/jillbio" className="text-white underline">
-          <img
-             className="w-auto h-auto b-solid b-[5px] b-grey"
-            // src={JillBioImage}
-            alt=""
-            title="Click here to go to Jill's profile"
-          />
-        </Link>
-        <Link href="/dashboard/aboutus/jillbio" className="text-white underline">
-          <figcaption>Jill</figcaption>
-        </Link>
-      </div>
-    </div>
-  );
-};
+export default async function Home() {
+  const user = await currentUser();
+  const userId = await getDbUserId();
+  const posts = await getPosts();
+  const dbUserId= await getDbUserId();
 
-const ElenaPortalEntry = () => {
-  return (
-    <div>
-      <div className="figApp">
-        <Link href="/dashboard/aboutus/elenabio" className="text-white underline">
-          <img
-            className="w-auto h-auto b-solid b-[5px] b-grey"
-            // src={ElenaBioImage}
-            alt=""
-            title="Click here to go to Elena's profile"
-          />
-        </Link>
-        <Link href="/dashboard/aboutus/elenabio" className="text-white underline">
-          <figcaption>Elena</figcaption>
-        </Link>
-      </div>
-    </div>
-  );
-};
+  if (!userId) return;
+  else {
+    return (
+    <div>    
+      <BlogMenuBar />
+   <div className="flex flex-col md:grid md:grid-cols-3 gap-4 p-2 bg-[#90AEAD]"> {/*Sets the overall grid layout for the display*/}
+    <div className=" sm:flex-col md:col-span-2 p-2 gap-3 ">
+    <ProfilesHomePage />
+       </div>
+    <div className=" sm: flex flex-col md: col-span-1 md:col-span-1 col-start-3 gap-2">
+        {user ? <CreatePost /> : null}
 
-const LenniePortalEntry = () => {
-  return (
-    <div>
-      <div className="figApp">
-        <Link href="/dashboard/aboutus/lenniebio" className="text-white underline">
-          <img
-            className="w-auto h-auto b-solid b-[5px] b-grey"
-            // src={LennieBioImage}
-            alt=""
-            title="Click here to go to Lennie's profile"
-          />
-        </Link>
-        <Link href="/dashboard/aboutus/lenniebio" className="text-white underline">
-          <figcaption>Lennie</figcaption>
-        </Link>
-      </div>
-    </div>
-  );
-};
-
-const HarryPortalEntry = () => {
-  return (
-    <div>
-      <div className="figApp">
-        <Link href="/dashboard/aboutus/harrybio" className="profileLink">
-          <img
-             className="w-auto h-auto b-solid b-[5px] b-grey"
-            // src={HarryBioImage}
-            alt=""
-            title="Click here to go to Harry's profile"
-          />
-        </Link>
-        <Link href="/dasboard/aboutus/harrybio" className="profileLink">
-          <figcaption>Harry</figcaption>
-        </Link>
-      </div>
-    </div>
-  );
-};
-
-export default function App() {
-  const [isVisible, setIsVisible] = useState(false); // declares a state variable inside the component App:
-
-  const toggleVisibility = () => {
-    setIsVisible(!isVisible);
-  };
-
-  return (
-    <div className="flex flex-col bg-[#6b7a8f]">
-      <div className="App">
-        <h1 id="the_Thomas_Family_Blog">Thomas Family Blog</h1>
-        <div className="gridContainer">
-          <BernardPortalEntry />
-          <div></div>
-          <JillPortalEntry />
-          <div></div>
-          <LenniePortalEntry />
-          <div></div>
-          <ElenaPortalEntry />
-          <div></div>
-          <HarryPortalEntry />
-          <div></div>
-        </div>
+         <div className="space-y-2">
+          {posts.map((post) => (
+            <PostCard key={post.id} post={post} dbUserId={dbUserId} />
+          ))}
         </div>
     </div>
+    </div>
+      </div>
   );
 }
-
-
+}
