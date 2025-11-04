@@ -1,17 +1,12 @@
-import React from "react";
-import "./Bio_Harry.css";
-import HarryBioImage from "imagesresized/HarryBioImage.jpg";
-import { Link } from "react-router-dom";
+import "./harrybioprofile.css";
+import harrybiophoto from "/public/imagesresized/harrybiophoto.jpg";
+import Image from 'next/image'
+import Link from 'next/link'
 
-export function HarryBio() {
+export default function HarryBio() {
   return (
     <div>
       <div className="midnightblue">
-        <button id="backbutton">
-          <Link to="/" className="backbuttonLink">
-            Back
-          </Link>
-        </button>
         <section className="Profession">
           <h2>Profession</h2>
           <h3>
@@ -23,16 +18,17 @@ export function HarryBio() {
         <div className="profile">
           <section className="Likes">
             <h2>Likes</h2>
+            <ul>
             <li>Cats</li>
             <li>Seagulls</li>
             <li>Bratwurst and chocolate-based desserts</li>
             <li>Computer games</li>
-            <li></li>
+            </ul>
           </section>
 
           <section className="photo">
             <figure>
-              <img id="Harry_profile_photo" src={HarryBioImage} alt="" />
+              <Image id="Harry_profile_photo" src={harrybiophoto} alt="" />
               <figcaption>
                 <strong></strong>
               </figcaption>
@@ -51,14 +47,18 @@ export function HarryBio() {
           </section>
           <section className="Dislikes">
             <h2>Dislikes</h2>
+            <ul>
             <li>Cows</li>
             <li>Barn owls</li>
             <li>Salad</li>
+              <li></li>
+            </ul>
           </section>
         </div>
 
         <section className="surprisingFacts">
           <h2>Surprising Facts</h2>
+          <ul>
           <li>
             Harry has won more awards and prizes than any one else in the family
           </li>
@@ -67,13 +67,17 @@ export function HarryBio() {
             2018 when he was awarded a DAAD scientific research internship in
             catalysis{" "}
           </li>
+            <li></li>
+          </ul>
         </section>
 
         <section className="FavouriteBooks">
           <h2>Favourite books</h2>
+          <ul>
           <li>Warrior Cats novel series</li>
           <li>Stephen King, The Shining </li>
           <li></li>
+          </ul>
         </section>
       </div>
     </div>

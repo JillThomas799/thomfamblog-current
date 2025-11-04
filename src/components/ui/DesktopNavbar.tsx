@@ -4,7 +4,7 @@ import { SignInButton, UserButton} from "@clerk/nextjs";
 import Link from "next/link";
 import { ModeToggle } from "./ModeToggle"; 
 import { Button } from "./button";
-import  ProfilesHomePage  from '.dashboard/aboutus';
+
 
 async function DesktopNavbar() {
     const user = await currentUser()
@@ -20,7 +20,7 @@ async function DesktopNavbar() {
         </Button>
 
          <Button variant="ghost" className="flex items-center gap-2 font-semibold" asChild>
-            <Link href="/dashboard/aboutus/">
+            <Link href="/dashboard/aboutus/profileshomepage">
             <HomeIcon className="w-4 h-4" />
             <span className="hidden lg:inline text-lg text-slate-300 dark:text-slate-200 ">About Us</span>
             </Link>

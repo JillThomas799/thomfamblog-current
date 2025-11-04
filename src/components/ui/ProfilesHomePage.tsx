@@ -14,7 +14,7 @@ const BernardPortalEntry = () => {
       <div className="figApp">
         <Link href="/dashboard/aboutus/bernardbio" className="text-white underline">
           <Image
-            className="w-auto h-auto b-solid b-[5px] b-grey"
+            className="w-auto h-auto border-solid border-[5px] border-slate-500"
             src={bernardbiophoto}
             alt=""
             title="Click here to go to Bernard's profile"
@@ -34,7 +34,7 @@ const JillPortalEntry = () => {
       <div className="figApp">
         <Link href="/dashboard/aboutus/jillbio" className="text-white underline">
           <Image
-             className="w-auto h-auto b-solid b-[5px] b-grey"
+             className="w-auto h-auto border-solid border-[5px] border-slate-500"
             src={jillbiophoto5}
             alt=""
             title="Click here to go to Jill's profile"
@@ -54,7 +54,7 @@ const ElenaPortalEntry = () => {
       <div className="figApp">
         <Link href="/dashboard/aboutus/elenabio" className="text-white underline">
           <Image
-            className="w-auto h-auto b-solid b-[5px] b-grey"
+            className="w-auto h-auto border-solid border-[5px] border-slate-500"
             src={elenabiophoto4}
             alt=""
             title="Click here to go to Elena's profile"
@@ -74,7 +74,7 @@ const LenniePortalEntry = () => {
       <div className="figApp">
         <Link href="/dashboard/aboutus/lenniebio" className="text-white underline">
           <Image
-            className="w-auto h-auto b-solid b-[5px] b-grey"
+            className="w-auto h-auto border-solid border-[5px] border-slate-300"
             src={lenniebiophoto5}
             alt=""
             title="Click here to go to Lennie's profile"
@@ -94,7 +94,7 @@ const HarryPortalEntry = () => {
       <div className="figApp">
         <Link href="/dashboard/aboutus/harrybio" className="profileLink">
           <Image
-             className="w-auto h-auto b-solid b-[5px] b-grey"
+             className="w-auto h-auto border-solid border-[5px] border-slate-300"
             src={harrybiophoto}
             alt=""
             title="Click here to go to Harry's profile"
@@ -111,9 +111,9 @@ const HarryPortalEntry = () => {
 export default function ProfilesHomePage() {
   
   return (
-    <div className="flex flex-col bg-[#6b7a8f]">
+    <div className="flex flex-col w-auto bg-[#6b7a8f]">
       <div className="flex flex-col bg-[#6b7a8f">
-        <h1 id="the_Thomas_Family_Blog">Thomas Family Blog</h1>
+        {/* <h1 id="the_Thomas_Family_Blog">Thomas Family Blog</h1> */}
         <div className="grid grid-cols-3 gap-4">
           <BernardPortalEntry />
           <div></div>

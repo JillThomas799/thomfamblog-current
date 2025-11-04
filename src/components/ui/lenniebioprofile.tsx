@@ -1,17 +1,12 @@
-import React from "react";
-import "./Bio_Lennie.css";
-import LennieBioImage from "imagesresized/LennieBioImage.jpg";
-import { Link } from "react-router-dom";
+import "./harrybioprofile.css";
+import lenniebiophoto5 from "/public/imagesresized/lenniebiophoto5.jpg";
+import Image from 'next/image'
+import Link from 'next/link'
 
-export function LennieBio() {
+export default function LennieBio() {
   return (
     <div>
       <div className="midnightblue">
-        <button id="backbutton">
-          <Link to="/" className="backbuttonLink">
-            Back
-          </Link>
-        </button>
         <section className="Profession">
           <h2>Profession</h2>
           <h3>Top Cat</h3>
@@ -20,6 +15,7 @@ export function LennieBio() {
         <div className="profile">
           <section className="Likes">
             <h2>Likes</h2>
+            <ul>
             <li>Mascarpone</li>
             <li>Butter</li>
             <li>Steak</li>
@@ -27,11 +23,12 @@ export function LennieBio() {
             <li>Mice</li>
             <li>His home and garden</li>
             <li>Treats</li>
+            </ul>
           </section>
 
           <section className="photo">
             <figure>
-              <img id="Lennie_profile_photo" src={LennieBioImage} alt="" />
+              <Image id="Lennie_profile_photo" src={lenniebiophoto5} alt="" />
               <figcaption>
                 <strong></strong>
               </figcaption>
@@ -46,15 +43,18 @@ export function LennieBio() {
 
           <section className="Dislikes">
             <h2>Dislikes</h2>
+            <ul>
             <li>Catteries</li>
             <li>All vets</li>
             <li>Vaccinations</li>
             <li>Cardboard boxes</li>
+            </ul>
           </section>
         </div>
 
         <section className="surprisingFacts">
           <h2>Surprising Facts</h2>
+          <ul>
           <li>
             Lennie has been occasionally known to have overstepped his hunting
             capabilities when he caught a magpie and a rat
@@ -64,18 +64,23 @@ export function LennieBio() {
             he may have been harmed when he was abandoned on the streets of
             Sheffield
           </li>
+          </ul>
         </section>
 
         <section className="FavouriteMusic">
           <h2>Favourite Music</h2>
+          <ul>
           <li>Einaudi</li>
           <li>Classic FM's Pet Classics</li>
+          </ul>
         </section>
 
         <section className="FavouriteBooks">
           <h2>Favourite books</h2>
+          <ul>
           <li>Judith Kerr, The Big Mog Collection</li>
           <li>Inga Moore, Six Dinner Sid</li>
+          </ul>
         </section>
       </div>
     </div>

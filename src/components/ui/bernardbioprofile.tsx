@@ -1,18 +1,13 @@
-import React from "react";
-import "./Bio_bernard.css";
-import BernardBioImage from "imagesresized/BernardBioImage.jpg";
-import { Link } from "react-router-dom";
+import "./bernardbioprofile.css";
+import bernardbiophoto from "/public/imagesresized/bernardbiophoto.jpg";
+import Image from 'next/image'
+import Link from 'next/link'
 
-export function BernardBio() {
+export default function BernardBio() {
   return (
     <div>
       <div className="midnightblue">
         <section className="Profession">
-          <button id="backbutton">
-            <Link to="/" className="backbuttonLink">
-              Back
-            </Link>
-          </button>
           <h2>Profession</h2>
           <h3>Retired General Practitioner</h3>
         </section>
@@ -20,14 +15,16 @@ export function BernardBio() {
         <div className="profile">
           <section className="Likes">
             <h2>Likes</h2>
+            <ul>
             <li>Playing on computer games, especially blood-bourne</li>
             <li>Cats</li>
             <li>Being retired</li>
             <li>Cooking</li>
+            </ul>
           </section>
           <section className="photo">
             <figure>
-              <img id="Bernard_profile_photo" src={BernardBioImage} alt="" />
+              <Image id="Bernard_profile_photo" src={bernardbiophoto} alt="" />
               <figcaption>
                 <strong />
               </figcaption>
@@ -43,15 +40,18 @@ export function BernardBio() {
             </article>
           </section>
           <section className="Dislikes">
+            <ul>
             <h2>Dislikes</h2>
             <li>Shopping</li>
             <li>Cruises</li>
             <li>Going out to work</li>
             <li>Foreign holidays</li>
+            </ul>
           </section>
         </div>
         <section className="surprisingFacts">
           <h2>Surprising Facts</h2>
+          <ul>
           <li>Bernard has an 'O' level in Astronomy.</li>
           <li>
             In 2013 was,together with Jill, voted by patients as the 2nd best GP
@@ -61,6 +61,7 @@ export function BernardBio() {
             Favourite saying is that of Groucho Marx who said 'I refuse to join
             any club which would have me as a member'
           </li>
+          </ul>
         </section>
       </div>
     </div>

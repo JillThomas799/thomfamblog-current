@@ -1,17 +1,12 @@
-import React from "react";
-import "./Bio_Elena.css";
-import ElenaBioImage from "imagesresized/ElenaBioImage.jpg";
-import { Link } from "react-router-dom";
+import "./elenabioprofile.css";
+import elenabiophoto4 from "/public/imagesresized/elenabiophoto4.jpg";
+import Image from 'next/image'
+import Link from 'next/link'
 
-export function ElenaBio() {
+export default function ElenaBio() {
   return (
     <div>
       <div className="AquamarineBlue">
-        <button id="backbutton">
-          <Link to="/" className="backbuttonLink">
-            Back
-          </Link>
-        </button>
         <section className="Profession">
           <h2>Profession</h2>
           <h3>Software Devops Engineer at the Economist</h3>
@@ -19,14 +14,16 @@ export function ElenaBio() {
         <div className="profileElena">
           <section className="Likes">
             <h2>Likes</h2>
+            <ul>
             <li>History</li>
             <li>Writing</li>
             <li>Hiking</li>
             <li>Video games</li>
             <li />
+            </ul>
           </section>
           <section className="photo">
-            <img id="Elena_profile_photo" src={ElenaBioImage} alt="" />
+            <Image id="Elena_profile_photo" src={elenabiophoto4} alt="" />
             <article>
               {" "}
               Works for the Economist in their tech department. Initially
@@ -37,24 +34,32 @@ export function ElenaBio() {
           </section>
           <section className="Dislikes">
             <h2>Dislikes</h2>
+            <ul>
             <li>Small dogs</li>
             <li>Loud places</li>
             <li>Excess drama </li>
             <li>Warm weather</li>
+            </ul>
           </section>
           <section className="surprisingFacts">
             <h2>Surprising Facts</h2>
+            <ul>
             <li>Elena was once on the TV</li>
+            </ul>
           </section>
           <section className="FavouriteBooks">
             <h2>Favourite books</h2>
+            <ul>
             <li>Discworld series by Terry Pratchett</li>
+            </ul>
           </section>
           <section className="FavouriteMusic">
             <h2>Favourite Music</h2>
+            <ul>
             <li>Classic rock</li>
             <li>Indie pop</li>
             <li>Orchestral</li>
+            </ul>
           </section>
         </div>
       </div>
