@@ -3,10 +3,11 @@
 import jillbiophoto5 from '/public/imagesresized/jillbiophoto5.jpg';
 import bernardbiophoto from '/public/imagesresized/bernardbiophoto.jpg';
 import lenniebiophoto5 from '/public/imagesresized/lenniebiophoto5.jpg';
-import elenabiophoto4 from '/public/imagesresized/elenabiophoto4.jpg';
+import elenabiophoto5 from '/public/imagesresized/elenabiophoto5.jpg';
 import harrybiophoto from '/public/imagesresized/harrybiophoto.jpg';
 import Image from 'next/image'
 import Link from 'next/link'
+import './ProfilesHomePage.css';
 
 const BernardPortalEntry = () => {
   return (
@@ -14,7 +15,7 @@ const BernardPortalEntry = () => {
       <div className="figApp">
         <Link href="/dashboard/aboutus/bernardbio" className="text-white underline">
           <Image
-            className="w-auto h-auto border-solid border-[5px] border-slate-500"
+            className="w-auto h-auto border-solid border-[5px] border-slate-300"
             src={bernardbiophoto}
             alt=""
             title="Click here to go to Bernard's profile"
@@ -34,7 +35,7 @@ const JillPortalEntry = () => {
       <div className="figApp">
         <Link href="/dashboard/aboutus/jillbio" className="text-white underline">
           <Image
-             className="w-auto h-auto border-solid border-[5px] border-slate-500"
+             className="w-auto h-auto border-solid border-[5px] border-slate-300"
             src={jillbiophoto5}
             alt=""
             title="Click here to go to Jill's profile"
@@ -54,8 +55,8 @@ const ElenaPortalEntry = () => {
       <div className="figApp">
         <Link href="/dashboard/aboutus/elenabio" className="text-white underline">
           <Image
-            className="w-auto h-auto border-solid border-[5px] border-slate-500"
-            src={elenabiophoto4}
+            className="w-auto h-auto border-solid border-[5px] border-slate-300"
+            src={elenabiophoto5}
             alt=""
             title="Click here to go to Elena's profile"
           />

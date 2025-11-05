@@ -5,6 +5,9 @@ import CreatePost from "@/components/ui/CreatePost";
 import PostCard from "@/components/ui/PostCard";
 import BernardBio from "@/components/ui/bernardbioprofile";
 import BlogMenuBar from "@/components/ui/blogmenubar";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { Undo2Icon } from "lucide-react";
 
 
 
@@ -18,6 +21,12 @@ export default async function Home() {
   else { 
   return (
     <div>
+       <Button variant="ghost" className="flex items-center gap-2 font-bold b-solid bg-slate-500 dark:bg-black p-4" asChild>
+            <Link href="/dashboard/aboutus/profileshomepage">
+            <span className="hidden lg:inline text-lg text-slate-300 dark:text-slate-200 ">Back</span>
+            <Undo2Icon className="w-4 h-4" />            
+            </Link>
+        </Button>
       <BlogMenuBar />
    <div className="grid grid-cols-1 md:grid-cols-3 gap-1 p-2 bg-[#90AEAD]"> {/*Sets the overall grid layout for the display*/}
         
