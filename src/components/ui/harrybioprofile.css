@@ -1,22 +1,7 @@
-h1 {
-  display: block;
-  text-align: center;
-  font: size 1em;
-  color: white;
-  background-color: #92a8d1;
-  padding: 10%;
-  border: solid 3px;
-  -webkit-border-radius: 20%;
-  -moz-border-radius: 20%;
-  -ms-border-radius: 20%;
-  -o-border-radius: 20%;
-  border-radius: 20%;
-}
-
-img {
+/* img {
   display: inline-block;
   margin: 10%;
-}
+} */
 
 img:hover {
   -webkit-transition: 0.25s ease;
@@ -31,33 +16,14 @@ img:hover {
   transform: scale(1.75);
 }
 
-#backbutton {
-  display: block;
-  position: absolute;
-  height: 50px;
-  width: 15%;
-  background-color: gray;
-  border: black 2px solid;
-  text-align: center;
-  font-size: large;
-  font-weight: bold;
+/* .backbuttonLink {
   color: white;
-  margin: 5% 20% 5% 80%;
-  -webkit-border-radius: 15%;
-  -moz-border-radius: 15%;
-  -ms-border-radius: 15%;
-  -o-border-radius: 15%;
-  border-radius: 15%;
-}
+} */
 
-.backbuttonLink {
-  color: white;
-}
-
-.profile {
+/* .profile {
   display: flex;
   flex-direction: row;
-}
+} */
 
 .Profession {
   background-color: steelblue;
@@ -101,7 +67,7 @@ img:hover {
   padding: 10px;
 }
 
-#Harry_profile_photo {
+/* #Harry_profile_photo {
   display: block;
   margin-right: 15%;
   margin-left: 35%;
@@ -113,7 +79,7 @@ img:hover {
   -ms-border-radius: 15%;
   -o-border-radius: 15%;
   border-radius: 15%;
-}
+} */
 
 article {
   color: white;
@@ -121,10 +87,6 @@ article {
   text-align: center;
   background-color: steelblue;
   padding: 20px;
-}
-
-.midnightblue {
-  background-color: midnightblue;
 }
 
 /*@MEDIA QUERIES*/
@@ -135,7 +97,7 @@ article {
     display: flex;
     flex-direction: column;
   }
-
+  /* 
   #Harry_profile_photo {
     display: block;
     margin-right: 13%;
@@ -148,7 +110,7 @@ article {
     -ms-border-radius: 15%;
     -o-border-radius: 15%;
     border-radius: 15%;
-  }
+  } */
 
   #ThomasFamilyIntro,
   .Profession,
@@ -162,43 +124,5 @@ article {
     font-size: small;
   }
 
-  #button {
-    display: block;
-    position: absolute;
-    height: 50px;
-    width: 25%;
-    background-color: gray;
-    border: black 2px solid;
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
-    color: white;
-    margin: 3% 15% 5% 70%;
-    -webkit-border-radius: 15%;
-    -moz-border-radius: 15%;
-    -ms-border-radius: 15%;
-    -o-border-radius: 15%;
-    border-radius: 15%;
-  }
-
   /*On screens that are 600px wide or less, ensure overlay-text and button does not exceed container size*/
-
-  #button {
-    display: block;
-    position: absolute;
-    height: 50px;
-    width: 20%;
-    background-color: gray;
-    border: black 2px solid;
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
-    color: white;
-    margin: 5% 55% 5% 45%;
-    -webkit-border-radius: 15%;
-    -moz-border-radius: 15%;
-    -ms-border-radius: 15%;
-    -o-border-radius: 15%;
-    border-radius: 15%;
-  }
 }

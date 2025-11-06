@@ -6,16 +6,16 @@ import Link from 'next/link'
 export default function JillBio() {
   return (
     <div>
-      <div className="midnightblue">
+      <div className="bg-[#191970]">
         <section className="Profession">
-          <h2>Profession</h2>
-          <h3>Retired General Practitioner</h3>
+          <h2 className="font-bold">Profession</h2>
+          <h3 className="font-bold">Retired General Practitioner</h3>
         </section>
 
-        <div className="profile">
+        <div className="flex flex-col sm:flex sm:flex-row">
           <section className="Likes">
-            <h2>Likes</h2>
-            <ul>
+            <h2 className="font-bold">Likes:</h2>
+            <ul className="list-disc text-left pl-6">
             <li>Family</li>
             <li>Countryside</li>
             <li>Peace and quiet</li>
@@ -27,7 +27,7 @@ export default function JillBio() {
 
           <section className="photo">
             <figure>
-              <Image id="Jill_profile_photo" src={jillbiophoto5} alt="" />
+              <Image id="Jill_profile_photo" className="mb-[10%] mt-[20%] sm:w-[75%] md:w-[70%] md:mr-[35%] md:ml-[15%] border-slate-500 border-[5px] border-solid rounded-xl" src={jillbiophoto5} alt="" />
               <figcaption>
                 <strong></strong>
               </figcaption>
@@ -44,8 +44,8 @@ export default function JillBio() {
           </section>
 
           <section className="Dislikes">
-            <h2>Dislikes</h2>
-            <ul>
+            <h2 className="font-bold">Dislikes:</h2>
+            <ul className="list-disc text-left pl-6">
             <li>Unkindness</li>
             <li>Intolerance of the underdog</li>
             <li>Arrogance</li>
@@ -54,8 +54,8 @@ export default function JillBio() {
         </div>
 
         <section className="surprisingFacts">
-          <h2>Surprising Facts</h2>
-          <ul>
+          <h2 className="font-bold">Surprising Facts:</h2>
+          <ul className="list-disc text-left pl-6">
           <li>Jill has an additional degree in European Studies</li>
           <li>
             At the age of 22 years, and never having flown before, Jill flew on
@@ -66,8 +66,8 @@ export default function JillBio() {
         </section>
 
         <section className="FavouriteBooks">
-          <h2>Favourite books</h2>
-          <ul>
+          <h2 className="font-bold">Favourite books:</h2>
+          <ul className="list-disc text-left pl-6">
           <li>
             Anatoli Rybakov, Children of the Arbat trilogy: 'Children of the
             Arbat', 'Fear' and 'Dust and Ashes'.
@@ -83,8 +83,8 @@ export default function JillBio() {
         </section>
 
         <section className="FavouriteMusic">
-          <h2>Favourite Music</h2>
-          <ul>
+          <h2 className="font-bold">Favourite Music:</h2>
+          <ul className="list-disc text-left pl-6">
           <li>Paganini Violin Concertos</li>
           <li>Chopin piano concertos numbers 1 and 2</li>
           <li>

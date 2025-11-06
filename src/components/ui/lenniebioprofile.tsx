@@ -6,16 +6,16 @@ import Link from 'next/link'
 export default function LennieBio() {
   return (
     <div>
-      <div className="midnightblue">
+      <div className="bg-[#191970] pb-6">
         <section className="Profession">
-          <h2>Profession</h2>
-          <h3>Top Cat</h3>
+          <h2 className="font-bold">Profession</h2>
+          <h3 className="font-bold">Top Cat</h3>
         </section>
 
-        <div className="profile">
+        <div className="flex flex-col sm:flex sm:flex-row">
           <section className="Likes">
-            <h2>Likes</h2>
-            <ul>
+            <h2 className="font-bold">Likes:</h2>
+            <ul className="list-disc text-left pl-6">
             <li>Mascarpone</li>
             <li>Butter</li>
             <li>Steak</li>
@@ -28,7 +28,7 @@ export default function LennieBio() {
 
           <section className="photo">
             <figure>
-              <Image id="Lennie_profile_photo" src={lenniebiophoto5} alt="" />
+              <Image id="Lennie_profile_photo" className="mb-[10%] mt-[20%] sm:w-[75%] md:w-[70%] md:mr-[35%] md:ml-[15%] border-slate-500 border-[5px] border-solid rounded-xl" src={lenniebiophoto5} alt="" />
               <figcaption>
                 <strong></strong>
               </figcaption>
@@ -42,8 +42,8 @@ export default function LennieBio() {
           </section>
 
           <section className="Dislikes">
-            <h2>Dislikes</h2>
-            <ul>
+            <h2 className="font-bold">Dislikes:</h2>
+            <ul className="list-disc text-left pl-6">
             <li>Catteries</li>
             <li>All vets</li>
             <li>Vaccinations</li>
@@ -53,8 +53,8 @@ export default function LennieBio() {
         </div>
 
         <section className="surprisingFacts">
-          <h2>Surprising Facts</h2>
-          <ul>
+          <h2 className="font-bold">Surprising Facts:</h2>
+          <ul className="list-disc text-left pl-6">
           <li>
             Lennie has been occasionally known to have overstepped his hunting
             capabilities when he caught a magpie and a rat
@@ -68,16 +68,16 @@ export default function LennieBio() {
         </section>
 
         <section className="FavouriteMusic">
-          <h2>Favourite Music</h2>
-          <ul>
+          <h2 className="font-bold">Favourite Music:</h2>
+          <ul className="list-disc text-left pl-6">
           <li>Einaudi</li>
           <li>Classic FM's Pet Classics</li>
           </ul>
         </section>
 
         <section className="FavouriteBooks">
-          <h2>Favourite books</h2>
-          <ul>
+          <h2 className="font-bold">Favourite books:</h2>
+          <ul className="list-disc text-left pl-6">
           <li>Judith Kerr, The Big Mog Collection</li>
           <li>Inga Moore, Six Dinner Sid</li>
           </ul>

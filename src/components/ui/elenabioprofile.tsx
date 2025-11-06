@@ -6,15 +6,15 @@ import Link from 'next/link'
 export default function ElenaBio() {
   return (
     <div>
-      <div className="AquamarineBlue">
+      <div className="bg-[#7fffd4] pb-6">
         <section className="Profession">
           <h2>Profession</h2>
           <h3>Software Devops Engineer at the Economist</h3>
         </section>
         <div className="profileElena">
           <section className="Likes">
-            <h2>Likes</h2>
-            <ul>
+            <h2 className="font-bold">Likes:</h2>
+            <ul className="list-disc text-left pl-6">
             <li>History</li>
             <li>Writing</li>
             <li>Hiking</li>
@@ -33,8 +33,8 @@ export default function ElenaBio() {
             </article>
           </section>
           <section className="Dislikes">
-            <h2>Dislikes</h2>
-            <ul>
+            <h2 className="font-bold">Dislikes:</h2>
+            <ul className="list-disc text-left pl-6">
             <li>Small dogs</li>
             <li>Loud places</li>
             <li>Excess drama </li>
@@ -42,20 +42,20 @@ export default function ElenaBio() {
             </ul>
           </section>
           <section className="surprisingFacts">
-            <h2>Surprising Facts</h2>
-            <ul>
+            <h2 className="font-bold">Surprising Facts:</h2>
+            <ul className="list-disc text-left pl-6">
             <li>Elena was once on the TV</li>
             </ul>
           </section>
           <section className="FavouriteBooks">
-            <h2>Favourite books</h2>
-            <ul>
+            <h2 className="font-bold">Favourite books:</h2>
+            <ul className="list-disc text-left pl-6">
             <li>Discworld series by Terry Pratchett</li>
             </ul>
           </section>
           <section className="FavouriteMusic">
-            <h2>Favourite Music</h2>
-            <ul>
+            <h2 className="font-bold">Favourite Music:</h2>
+            <ul className="list-disc text-left pl-6">
             <li>Classic rock</li>
             <li>Indie pop</li>
             <li>Orchestral</li>
