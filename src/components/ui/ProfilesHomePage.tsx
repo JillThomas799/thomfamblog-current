@@ -12,7 +12,7 @@ import './ProfilesHomePage.css';
 const BernardPortalEntry = () => {
   return (
     <div>
-      <div className="figApp">
+      <div className="flex flex-col items-center">
         <Link href="/dashboard/aboutus/bernardbio" className="text-white underline">
           <Image
             className="w-auto h-auto border-solid border-[5px] border-slate-300"
@@ -22,7 +22,7 @@ const BernardPortalEntry = () => {
           />
         </Link>
         <Link href="/dashboard/aboutus/bernardbio" className="text-white underline">
-          <figcaption>Bernard</figcaption>
+          <div className="color-white text-center text-lg font-bold">Bernard</div>
         </Link>
       </div>
     </div>
@@ -32,7 +32,7 @@ const BernardPortalEntry = () => {
 const JillPortalEntry = () => {
   return (
     <div>
-      <div className="figApp">
+      <div className="flex flex-col items-center">
         <Link href="/dashboard/aboutus/jillbio" className="text-white underline">
           <Image
              className="w-auto h-auto border-solid border-[5px] border-slate-300"
@@ -42,7 +42,7 @@ const JillPortalEntry = () => {
           />
         </Link>
         <Link href="/dashboard/aboutus/jillbio" className="text-white underline">
-          <figcaption>Jill</figcaption>
+          <div className="color-white text-center text-lg font-bold">Jill</div>
         </Link>
       </div>
     </div>
@@ -52,7 +52,7 @@ const JillPortalEntry = () => {
 const ElenaPortalEntry = () => {
   return (
     <div>
-      <div className="figApp">
+      <div className="flex flex-col items-center">
         <Link href="/dashboard/aboutus/elenabio" className="text-white underline">
           <Image
             className="w-auto h-auto border-solid border-[5px] border-slate-300"
@@ -62,7 +62,7 @@ const ElenaPortalEntry = () => {
           />
         </Link>
         <Link href="/dashboard/aboutus/elenabio" className="text-white underline">
-          <figcaption>Elena</figcaption>
+          <div className="color-white text-center text-lg font-bold">Elena</div>
         </Link>
       </div>
     </div>
@@ -72,7 +72,7 @@ const ElenaPortalEntry = () => {
 const LenniePortalEntry = () => {
   return (
     <div>
-      <div className="figApp">
+      <div className="flex flex-col items-center">
         <Link href="/dashboard/aboutus/lenniebio" className="text-white underline">
           <Image
             className="w-auto h-auto border-solid border-[5px] border-slate-300"
@@ -82,7 +82,7 @@ const LenniePortalEntry = () => {
           />
         </Link>
         <Link href="/dashboard/aboutus/lenniebio" className="text-white underline">
-          <figcaption>Lennie</figcaption>
+          <div className="color-white text-center text-lg font-bold">Lennie</div>
         </Link>
       </div>
     </div>
@@ -92,8 +92,8 @@ const LenniePortalEntry = () => {
 const HarryPortalEntry = () => {
   return (
     <div>
-      <div className="figApp">
-        <Link href="/dashboard/aboutus/harrybio" className="profileLink">
+      <div className="flex flex-col items-center">
+        <Link href="/dashboard/aboutus/harrybio" className="text-white underline">
           <Image
              className="w-auto h-auto border-solid border-[5px] border-slate-300"
             src={harrybiophoto}
@@ -101,8 +101,8 @@ const HarryPortalEntry = () => {
             title="Click here to go to Harry's profile"
           />
         </Link>
-        <Link href="/dashboard/aboutus/harrybio" className="profileLink">
-          <figcaption>Harry</figcaption>
+        <Link href="/dashboard/aboutus/harrybio" className="text-white underline">
+          <div className="color-white text-center text-lg font-bold">Harry</div>
         </Link>
       </div>
     </div>
@@ -115,7 +115,7 @@ export default function ProfilesHomePage() {
     <div className="flex flex-col w-auto bg-[#6b7a8f]">
       <div className="flex flex-col bg-[#6b7a8f">
         {/* <h1 id="the_Thomas_Family_Blog">Thomas Family Blog</h1> */}
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-3 pt-8 gap-4">
           <BernardPortalEntry />
           <div></div>
           <JillPortalEntry />

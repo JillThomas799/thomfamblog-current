@@ -57,6 +57,13 @@ function MobileNavbar() {
 
             {isSignedIn ? (
               <>
+              <Button variant="ghost" className="flex items-center  gap-3 justify-start" asChild>
+            <Link href="/dashboard/aboutus/profileshomepage">
+            <HomeIcon className="w-4 h-4" />
+            About us
+            {/* <span className="hidden lg:inline text-lg text-slate-300 dark:text-slate-200 ">About Us</span> */}
+            </Link>
+        </Button>
                 <Button variant="ghost" className="flex items-center gap-3 justify-start" asChild>
                   <Link href="/notifications">
                     <BellIcon className="w-4 h-4" />

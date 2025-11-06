@@ -21,10 +21,10 @@ export default async function Home() {
   else { 
   return (
     <div>
-       <Button variant="ghost" className="flex items-center gap-2 font-bold b-solid bg-slate-500 dark:bg-black p-4" asChild>
-            <Link href="/dashboard/aboutus/profileshomepage">
-            <span className="hidden lg:inline text-lg text-slate-300 dark:text-slate-200 ">Back</span>
-            <Undo2Icon className="w-4 h-4" />            
+        <Button variant="ghost" className="flex flex-row w-20 h-10 md:w-24 md:h-16 mb-4 md:mb-10 gap-2 p-4 font-bold b-solid bg-gray-300 text-gray-800 md:bg-gray-800  md:text-gray-300" asChild>
+           <Link href="/dashboard/aboutus/profileshomepage">
+            <span className="text-lg text-gray-800 md:text-slate-300 md:dark:text-slate-300 dark:text-slate-800 items-nowrap">Back  </span>
+            <span><Undo2Icon  /></span>                   
             </Link>
         </Button>
       <BlogMenuBar />
