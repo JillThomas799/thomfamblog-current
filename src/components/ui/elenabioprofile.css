@@ -16,14 +16,9 @@ img:hover {
   transform: scale(1.75);
 }
 
-.backbuttonLink {
+/* .backbuttonLink {
   color: white;
-}
-
-.profileElena {
-  display: flex;
-  flex-direction: column;
-}
+} */
 
 .Profession {
   background-color: steelblue;
