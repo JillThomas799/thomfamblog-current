@@ -6,9 +6,9 @@ import Link from 'next/link'
 export default function JillBio() {
   return (
     <div>
-      <div className="bg-[#191970]">
+      <div className="bg-[#191970] pb-6">
         <section className="Profession">
-          <h2 className="font-bold">Profession</h2>
+          <h2 className="font-bold">Profession:</h2>
           <h3 className="font-bold">Retired General Practitioner</h3>
         </section>
 
@@ -27,19 +27,14 @@ export default function JillBio() {
 
           <section className="photo">
             <figure>
-              <Image id="Jill_profile_photo" className="mb-[10%] mt-[20%] sm:w-[75%] md:w-[70%] md:mr-[35%] md:ml-[15%] border-slate-500 border-[5px] border-solid rounded-xl" src={jillbiophoto5} alt="" />
+              <Image id="Jill_profile_photo" className="mb-[10%] mt-[20%] sm:w-[75%] md:w-[70%] md:mr-[35%] md:ml-[15%] border-slate-500 border-[5px] border-solid rounded-xl transform transition hover:scale-150" src={jillbiophoto5} alt="" />
               <figcaption>
                 <strong></strong>
               </figcaption>
             </figure>
-            <article>
+            <article className="inline-block text-center text-white bg-[#4682b4] p-[20px]">
               {" "}
-              Jill grew up near Wigan. She has from a young age had a love of
-              classical music, opera and ballet and when younger learnt to play
-              the piano and violin. From the age of 13 years she wanted to
-              become a doctor. After obtaining the necessary A levels in
-              sciences, she successfully gained a place to study medicine at
-              Manchester Medical School.
+              Since her retirement Jill has taken the opportunity of having more free time to pursue new interests in software development, hence the blog, and history. She has developed a particular interest in the prehistoric, Roman and early medieval periods of history.  She continues to learn and practice several modern languages and has been slowly improving her mandarin chinese.
             </article>
           </section>
 
@@ -66,18 +61,18 @@ export default function JillBio() {
         </section>
 
         <section className="FavouriteBooks">
-          <h2 className="font-bold">Favourite books:</h2>
+          <h2 className="font-bold">Favourite books (there are a lot....):</h2>
           <ul className="list-disc text-left pl-6">
           <li>
             Anatoli Rybakov, Children of the Arbat trilogy: 'Children of the
             Arbat', 'Fear' and 'Dust and Ashes'.
           </li>
-          <li>Ellie Griffiths, the Ruth Galloway series</li>
-          <li>Melvyn Bragg, 'Back in the Day' </li>
-          <li>
-            M W Craven, Washington Poe series, of which my favourite is 'Dead
-            Ground'
-          </li>
+           <li>Thomas Mann, 'Buddenbrooks.'</li>
+          <li>Ellie Griffiths, the Ruth Galloway series.</li>
+          <li>M W Craven, Washington Poe series, of which my favourite is 'Dead
+            Ground.'</li>
+          <li>Melvyn Bragg, 'Back in the Day.' </li>
+          
           <li>Polly Morland, 'A Fortunate Woman' A Country Doctor's Story</li>
           </ul>
         </section>

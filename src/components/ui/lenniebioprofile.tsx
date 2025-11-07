@@ -8,7 +8,7 @@ export default function LennieBio() {
     <div>
       <div className="bg-[#191970] pb-6">
         <section className="Profession">
-          <h2 className="font-bold">Profession</h2>
+          <h2 className="font-bold">Profession:</h2>
           <h3 className="font-bold">Top Cat</h3>
         </section>
 
@@ -28,12 +28,12 @@ export default function LennieBio() {
 
           <section className="photo">
             <figure>
-              <Image id="Lennie_profile_photo" className="mb-[10%] mt-[20%] sm:w-[75%] md:w-[70%] md:mr-[35%] md:ml-[15%] border-slate-500 border-[5px] border-solid rounded-xl" src={lenniebiophoto5} alt="" />
+              <Image id="Lennie_profile_photo" className="mb-[10%] mt-[20%] sm:w-[75%] md:w-[70%] md:mr-[35%] md:ml-[15%] border-slate-500 border-[5px] border-solid rounded-xl transform transition hover:scale-150" src={lenniebiophoto5} alt="" />
               <figcaption>
                 <strong></strong>
               </figcaption>
             </figure>
-            <article>
+            <article className="inline-block text-center text-white bg-[#4682b4] p-[20px]">
               {" "}
               Lennie was born in Sheffield and was found abandoned on the
               streets of Sheffield, together with his sister and taken in by the

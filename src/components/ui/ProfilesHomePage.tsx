@@ -15,7 +15,7 @@ const BernardPortalEntry = () => {
       <div className="flex flex-col items-center">
         <Link href="/dashboard/aboutus/bernardbio" className="text-white underline">
           <Image
-            className="w-auto h-auto border-solid border-[5px] border-slate-300  transform transition hover:scale-150"
+            className="w-auto h-auto border-solid border-[5px] border-slate-300 "
             src={bernardbiophoto}
             alt=""
             title="Click here to go to Bernard's profile"
@@ -35,7 +35,7 @@ const JillPortalEntry = () => {
       <div className="flex flex-col items-center">
         <Link href="/dashboard/aboutus/jillbio" className="text-white underline">
           <Image
-             className="w-auto h-auto border-solid border-[5px] border-slate-300  transform transition hover:scale-150"
+             className="w-auto h-auto border-solid border-[5px] border-slate-300"
             src={jillbiophoto5}
             alt=""
             title="Click here to go to Jill's profile"
@@ -55,7 +55,7 @@ const ElenaPortalEntry = () => {
       <div className="flex flex-col items-center">
         <Link href="/dashboard/aboutus/elenabio" className="text-white underline">
           <Image
-            className="w-auto h-auto border-solid border-[5px] border-slate-300  transform transition hover:scale-150"
+            className="w-auto h-auto border-solid border-[5px] border-slate-300"
             src={elenabiophoto5}
             alt=""
             title="Click here to go to Elena's profile"
@@ -75,7 +75,7 @@ const LenniePortalEntry = () => {
       <div className="flex flex-col items-center">
         <Link href="/dashboard/aboutus/lenniebio" className="text-white underline">
           <Image
-            className="w-auto h-auto border-solid border-[5px] border-slate-300  transform transition hover:scale-150"
+            className="w-auto h-auto border-solid border-[5px] border-slate-300"
             src={lenniebiophoto5}
             alt=""
             title="Click here to go to Lennie's profile"
@@ -95,7 +95,7 @@ const HarryPortalEntry = () => {
       <div className="flex flex-col items-center">
         <Link href="/dashboard/aboutus/harrybio" className="text-white underline">
           <Image
-             className="w-auto h-auto border-solid border-[5px] border-slate-300 transform transition hover:scale-150"
+             className="w-auto h-auto border-solid border-[5px] border-slate-300"
             src={harrybiophoto}
             alt=""
             title="Click here to go to Harry's profile"

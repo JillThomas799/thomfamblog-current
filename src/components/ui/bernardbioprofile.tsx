@@ -6,9 +6,9 @@ import Link from 'next/link'
 export default function BernardBio() {
   return (
     <div>
-      <div className="bg-[#191970]">
+      <div className="bg-[#191970] pb-6">
         <section className="Profession">
-          <h2 className="font-bold">Profession</h2>
+          <h2 className="font-bold">Profession:</h2>
           <h3 className="font-bold">Retired General Practitioner</h3>
         </section>
 
@@ -24,20 +24,14 @@ export default function BernardBio() {
           </section>
           <section className="photo">
             <figure className="pb-1/10">
-              <Image id="Bernard_profile_photo" className="mb-[10%] mt-[20%] sm:w-[75%] md:w-[70%] md:mr-[35%] md:ml-[15%] border-slate-500 border-[5px] border-solid rounded-xl" src={bernardbiophoto} alt="" />
+              <Image id="Bernard_profile_photo" className="mb-[10%] mt-[20%] sm:w-[75%] md:w-[70%] md:mr-[35%] md:ml-[15%] border-slate-500 border-[5px] border-solid rounded-xl transform transition hover:scale-150" src={bernardbiophoto} alt="" />
               <figcaption>
                 <strong />
               </figcaption>
             </figure>
-            <article>
+            <article className="inline-block text-center text-white bg-[#4682b4] p-[20px] ">
               {" "}
-              Since retirement, Bernard has taken up reading, an activity there was little time for during his working life. He has also started to learn firstly Spanish with Duolingo and has now progressed on to learning French and is making good progress. He has a full time post-retirement occupation looking after the garden in Cumbria and feeding Lennie, the cat.
-              {/* Bernard was born in Billinge and grew up in Ashton-in-Makerfield,
-              the second eldest of three boys. He attended Ashton Grammar School
-              and at 16 years of age then went onto study for his A levels at
-              Wigan Technical College. After applying for and accepting a place
-              to study dentistry, he changed his mind and secured a place at
-              Manchester University to study medicine. */}
+              Since retirement, Bernard has taken up reading, an activity there was little time for during his working life. He  started to learn Spanish with Duolingo and has now progressed on to learning French and is making good progress. He has a full time post-retirement occupation looking after the garden in Cumbria and feeding Lennie, the cat.
             </article>
           </section>
           <section className="Dislikes">
@@ -51,7 +45,7 @@ export default function BernardBio() {
           </section>
         </div>
         <section className="surprisingFacts">
-          <h2 className="font-bold">Surprising Facts</h2>
+          <h2 className="font-bold">Surprising Facts:</h2>
           <ul className="list-disc text-left pl-6">
           <li>Bernard has an 'O' level in Astronomy.</li>
           <li>
@@ -62,6 +56,15 @@ export default function BernardBio() {
             Favourite saying is that of Groucho Marx who said 'I refuse to join
             any club which would have me as a member'
           </li>
+          </ul>
+        </section>
+
+        <section className="FavouriteBooks">
+          <h2 className="font-bold">Favourite books:</h2>
+          <ul className="list-disc text-left pl-6">
+          <li>Ernest Hemingway, 'For Whom the Bell Tolls'.</li>
+          <li>Toshikazu Kawaguchi, Tokyo cafe series.</li>
+          <li>Homer, 'The Ilyiad'.</li>
           </ul>
         </section>
       </div>

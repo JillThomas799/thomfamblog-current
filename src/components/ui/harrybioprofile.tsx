@@ -8,7 +8,7 @@ export default function HarryBio() {
     <div>
       <div className="bg-[#191970] pb-6">
         <section className="Profession">
-          <h2 className="font-bold">Profession</h2>
+          <h2 className="font-bold">Profession:</h2>
           <h3 className="font-bold">
             Digital and Technology Professional Westmoreland and Furness District Council
           </h3>
@@ -27,12 +27,12 @@ export default function HarryBio() {
 
           <section className="photo">
             <figure>
-              <Image id="Harry_profile_photo" className="mb-[10%] mt-[20%] sm:w-[75%] md:w-[70%] md:mr-[35%] md:ml-[15%] border-slate-500 border-[5px] border-solid rounded-xl" src={harrybiophoto} alt="" />
+              <Image id="Harry_profile_photo" className="mb-[10%] mt-[20%] sm:w-[75%] md:w-[70%] md:mr-[35%] md:ml-[15%] border-slate-500 border-[5px] border-solid rounded-xl transform transition hover:scale-150" src={harrybiophoto} alt="" />
               <figcaption>
                 <strong></strong>
               </figcaption>
             </figure>
-            <article>
+            <article className="inline-block text-center text-white bg-[#4682b4] p-[20px]">
               {" "}
               Harry is a graduate in chemistry from Lancaster University and holds a doctorate in computational chemistry from Cardiff University. More recently he has returned home to Cumbria and 
               has been appointed in a role as a Digital and Technology Professional with Westmoreland and District Council.
