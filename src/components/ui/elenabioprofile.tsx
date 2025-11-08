@@ -1,5 +1,5 @@
 import "./elenabioprofile.css";
-import elenabiophoto6 from "/public/imagesresized/elenabiophoto6.jpg";
+import elenabiophoto7 from "/public/imagesresized/elenabiophoto7.jpg";
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -25,7 +25,7 @@ export default function ElenaBio() {
 
           <section className="photo">
             <figure>
-              <Image id="Elena_profile_photo" className="mb-[10%] mt-[20%] sm:w-[75%] md:w-[70%] md:mr-[35%] md:ml-[15%] border-slate-500 border-[5px] border-solid rounded-xl transform transition hover:scale-150" src={elenabiophoto6} alt="" />
+              <Image id="Elena_profile_photo" className="mb-[10%] mt-[20%] sm:w-[75%] md:w-[70%] md:mr-[35%] md:ml-[15%] border-slate-500 border-[5px] border-solid rounded-xl transform transition hover:scale-150" src={elenabiophoto7} alt="" />
               <figcaption>
                 <strong></strong>
               </figcaption>

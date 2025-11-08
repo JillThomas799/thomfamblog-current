@@ -3,7 +3,7 @@
 import jillbiophoto5 from '/public/imagesresized/jillbiophoto5.jpg';
 import bernardbiophoto from '/public/imagesresized/bernardbiophoto.jpg';
 import lenniebiophoto5 from '/public/imagesresized/lenniebiophoto5.jpg';
-import elenabiophoto5 from '/public/imagesresized/elenabiophoto5.jpg';
+import elenabiophoto7 from '/public/imagesresized/elenabiophoto7.jpg';
 import harrybiophoto from '/public/imagesresized/harrybiophoto.jpg';
 import Image from 'next/image'
 import Link from 'next/link'
@@ -56,7 +56,7 @@ const ElenaPortalEntry = () => {
         <Link href="/dashboard/aboutus/elenabio" className="text-white underline">
           <Image
             className="w-auto h-auto border-solid border-[5px] border-slate-300"
-            src={elenabiophoto5}
+            src={elenabiophoto7}
             alt=""
             title="Click here to go to Elena's profile"
           />

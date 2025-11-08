@@ -38,8 +38,8 @@ export default async function Home() {
     <ProfilesHomePage />
        </div>
     </div>
-    {/* <div className="md:col-start-3 gap-2"> 
-       <div className="col-span-1">
+    <div className="md:col-start-2 gap-2 p-4 md:p-0"> 
+       <div className="col-span-1 md:col-span-3">
         {user ? <CreatePost /> : null}
 
          <div className="space-y-2"> 
@@ -49,7 +49,7 @@ export default async function Home() {
         </div>
         </div>
         
-    </div> */}
+    </div>
     </div>
     </div>  
 
