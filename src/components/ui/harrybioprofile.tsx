@@ -37,14 +37,6 @@ export default function HarryBio() {
               Harry is a graduate in chemistry from Lancaster University and holds a doctorate in computational chemistry from Cardiff University. More recently he has returned home to Cumbria and 
               has been appointed in a role as a Digital and Technology Professional with Westmoreland and District Council.
               He is particularly interested in cybersecurity, data science and data analysis.
-              {/* Harry grew up in Lancashire, where he attended school until aged
-              18 years. After obtaining A*AA in Maths, Further Maths and
-              Chemistry A levels respectively, he obtained an unconditional
-              place to study for a Masters degree in Chemistry for 4 years.
-              After obtaining the prize for best-performing Master's student in
-              Chemistry he successfully obtained a place to study for an
-              industry-sponsored PhD in Computational Chemistry at Cardiff
-              University. */}
             </article>
           </section>
           <section className="Dislikes">

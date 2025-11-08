@@ -1,5 +1,3 @@
-"use client"
-
 import AugustCyclist from '@/components/ui/augustcyclist'
 import Image from 'next/image'
 import blog2025 from '/public/imagesresized/blog2025.png';
