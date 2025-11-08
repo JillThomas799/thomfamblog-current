@@ -11,20 +11,28 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
-import { useState } from "react";
+import { useState } from "react"; /*The useState hook is used to declare a state variable and its initial value. This state variable is then used in the component, and whenever the state updates, so that React will automatically re-render the component with the new state. The useState hook returns an array with two values: the current state value and a state updater function to update that value.*/
 import { useAuth, SignInButton, SignOutButton } from "@clerk/nextjs";
 import { useTheme } from "next-themes";
 import Link from "next/link";
 
 
-function MobileNavbar() {
-  const [showMobileMenu, setShowMobileMenu] = useState(false);
+export default function MobileNavbar() {
+  const [showMobileMenu, setShowMobileMenu] = useState(false); /*showMobileMenu displays the mobile menu, setShowMobileMenu 
+  setShowMobileMenu updates the current state to a new value */
   const { isSignedIn } = useAuth();
   const { theme, setTheme } = useTheme();
- 
+
+  function toggleshowMobileMenu() {
+    if(showMobileMenu === true) {
+        setShowMobileMenu(false);
+    } else if (showMobileMenu === false) {
+        setShowMobileMenu(true);
+    }
+  }
 
   return (
-    <div className="flex md:hidden items-center space-x-2">
+    <div className="flex md:hidden items-center space-x-2 transition-all" onClick={toggleshowMobileMenu}>
       <Button
         variant="ghost"
         size="icon"
@@ -35,7 +43,6 @@ function MobileNavbar() {
         <MoonIcon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
         <span className="sr-only">Toggle theme</span>
       </Button>
-
       <Sheet open={showMobileMenu} onOpenChange={setShowMobileMenu}>
         <SheetTrigger asChild>
           <Button variant="ghost" size="icon">
@@ -97,4 +104,4 @@ function MobileNavbar() {
   );
 }
 
-export default MobileNavbar;
+// export default MobileNavbar;
