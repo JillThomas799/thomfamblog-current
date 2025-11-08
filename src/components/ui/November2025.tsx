@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 
 import Image from 'next/image'
 import Link from 'next/link'
@@ -27,9 +27,8 @@ export default function November2025() {
         </div>
         <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 pr-3 pl-3 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b] ">
-         <div className="text-md md:text-lg max-w-full font-bold text-white text-center dark:text-white justify-center items-center">
-
-        <div className="text-center text-white font-semibold border-black border-solid border-2 mr-1 ml-1 mb-4 mt-4 px-4 py-4 bg-[#773f3f]">
+         <div className="text-md md:text-lg max-w-full font-normal text-white text-center dark:text-white justify-center items-center">
+        <div className="text-center text-white font-normal border-black border-solid border-2 mr-1 ml-1 mb-4 mt-4 px-4 py-4 bg-[#773f3f]">
           Welcome to our November 2025 blog. The days are getting colder (although not yet cold enough to need to light the log fire). This month includes bonfire night and so this month's display is topical, being that of a bonfire and fireworks animation. It is also time for Pets' Classics on ClassicFM radio, Lennie's favourite programme.
           <br />
           <br />
@@ -51,7 +50,7 @@ export default function November2025() {
         <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 1st November 2025</div> {/*End of news date block*/} 
         <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">Sizergh Castle, Kendal in the electric car</div> {/*End of news header block*/}
         
-        <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-semibold text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
+        <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
          Today we decided to take the new electric car on a longer drive of 132 miles to test it out, so we headed off as a family to Sizergh Castle, Kendal for the day. 
          <br />
          <br />
@@ -63,7 +62,7 @@ export default function November2025() {
          <br />  
          <Image
                   src={ MG4Electric }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-800 border-4 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of MG4 electric"
                 />
            </div>           {/*  End of individual dated entry design and color template block */}
@@ -75,10 +74,24 @@ export default function November2025() {
         <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 7th November 2025</div> {/*End of news date block*/} 
         <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">Visit to the Colour Exhibition at the Tullie Museum, Carlisle</div> {/*End of news header block*/}
         
-        <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-semibold text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
-         
+        <div className="text-left pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
+         Today we went to see the <Link href="https://tullie.org.uk/2025/09/colour-exhibition-opens-this-saturday/" target="_blank" className="underline decoration-black text-black font-semibold">'Colour' exhibition at the Tullie Museum</Link>, Carlisle which is running from the 27th September 2025 to the 25th January 2026. It is a <Link href="https://www.museumsassociation.org/museums-journal/news/2023/05/funding-for-three-touring-exhibitions-as-part-of-network/#" target="_blank" className="underline decoration-black text-black font-semibold" >MAGNET partnership exhibition</Link>, receiving support from the Art Fund and public funding from the National Lottery through Arts Council England.
          <br />
          <br /> 
+         The exhibition explores questions of:
+         <ul className="list-disc pl-10 text-left">
+          <li>What is colour?</li> 
+          <li>Why does it mean different things in different cultures and times?</li> 
+          <li>How has colour been linked to power, values and even prejudice?</li> 
+         </ul>
+          <br />
+         The exhibition uses objects, paintings, interactive displays, and some interesting and thought-provoking exhibits to answer the above questions. It includes works by Wassily Kandinsky, Andy Warhol and Hokusai. Artists have long known how to use colour to create effect. 
+         <br />
+         <br />
+         It may not be initially apparent but in this blog much thought and research goes into the use of colour to represent concepts,ideas and feelings. For example the colours used for each month are carefully chosen to reflect colours and hues in the sky, sea and countryside at those particular months. Appropriate use of light and dark, primary and secondary colours is important in responsive design for example taking into consideration people with visual impairment and colour blindness. 
+         <br />
+         <br />
+         This exhibition is well worth a visit. To find out more about our visit, click on the photo below.
          <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#b55b4b] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#b55b4b]">
               {" "}
@@ -89,7 +102,7 @@ export default function November2025() {
               >
          <Image
                   src={ TullieColorTitled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-800 border-4 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of Bernard outside the Tullie Museum"
                 />
                 </Link>
