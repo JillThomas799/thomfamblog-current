@@ -12,21 +12,22 @@ async function DesktopNavbar() {
   return (
     <div className="hidden md:flex items-center space-x-4">
         <ModeToggle />
-               {user ? (
-            <>
-             <Button variant="ghost" className="flex items-center gap-2 font-bold b-solid bg-slate-500 dark:bg-black p-4" asChild>
+        <Button variant="ghost" className="flex items-center gap-2 font-bold b-solid bg-slate-500 dark:bg-black p-4" asChild>
             <Link href="/">
             <HomeIcon className="w-4 h-4" />
             <span className="hidden lg:inline text-lg text-slate-300 dark:text-slate-200 ">Home</span>
             </Link>
         </Button>
 
-         <Button variant="ghost" className="flex items-center gap-2 font-semibold" asChild>
+        {user ? (
+            <>
+             <Button variant="ghost" className="flex items-center gap-2 font-semibold" asChild>
             <Link href="/dashboard/aboutus/profileshomepage">
             <HomeIcon className="w-4 h-4" />
             <span className="hidden lg:inline text-lg text-slate-300 dark:text-slate-200 ">About Us</span>
             </Link>
         </Button>
+
             <Button variant="ghost" className="flex items-center gap-2 font-semibold" asChild>
                 <Link href="/notifications">
                 <BellIcon className="w-4 h-4" />
