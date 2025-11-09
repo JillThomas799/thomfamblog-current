@@ -12,6 +12,7 @@ export function ModeToggle() {
   return (
         <Button variant="outline" 
         size="icon" 
+        className="bg-slate-200 dark:bg-slate-900"
         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
             
           <SunIcon className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />

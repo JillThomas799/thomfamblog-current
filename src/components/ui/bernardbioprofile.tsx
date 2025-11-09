@@ -64,7 +64,7 @@ export default function BernardBio() {
           <ul className="list-disc text-left pl-6">
           <li>Ernest Hemingway, 'For Whom the Bell Tolls'.</li>
           <li>Toshikazu Kawaguchi, Tokyo cafe series.</li>
-          <li>Homer, 'The Ilyiad'.</li>
+          <li>Homer, 'The Odyssey'.</li>
           </ul>
         </section>
       </div>

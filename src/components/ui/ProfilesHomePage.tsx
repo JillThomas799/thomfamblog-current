@@ -112,7 +112,7 @@ const HarryPortalEntry = () => {
 export default function ProfilesHomePage() {
   
   return (
-    <div className="flex flex-col w-auto bg-[#6b7a8f]">
+    <div className="flex flex-col w-auto bg-gray-400 dark:bg-gray-700">
       <div className="flex flex-col bg-[#6b7a8f">
         {/* <h1 id="the_Thomas_Family_Blog">Thomas Family Blog</h1> */}
         {/* <div className="grid grid-cols-3 pt-8 gap-4"> */}

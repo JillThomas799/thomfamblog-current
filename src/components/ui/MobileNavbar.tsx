@@ -32,9 +32,10 @@ export default function MobileNavbar() {
   }
 
   return (
-    <div className="flex md:hidden items-center space-x-2 transition-all" onClick={toggleshowMobileMenu}>
+    <div className="flex md:hidden items-center space-x-2 transition-all bg-gray-300 dark:bg-gray-900" onClick={toggleshowMobileMenu}>
       <Button
         variant="ghost"
+        className="bg-slate-200 dark:bg-slate-900"
         size="icon"
         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         className="mr-2"
@@ -50,12 +51,12 @@ export default function MobileNavbar() {
           </Button>
           {/* <Button variant="ghost" className="font-bold text-lg">Menu</Button> */}
         </SheetTrigger>
-        <SheetContent side="right" className="w-[300px]">
+        <SheetContent side="right" className="w-[200px] bg-neutral-200 dark:bg-slate-900">
           <SheetHeader>
             <SheetTitle>Menu</SheetTitle>
           </SheetHeader>
           <nav className="flex flex-col space-y-4 mt-6">
-            <Button variant="ghost" className="flex items-center gap-3 justify-start font-bold b-solid bg-black p-6" asChild>
+            <Button variant="ghost" className="flex items-center gap-3 justify-start font-bold b-solid bg-transparent dark:bg-black p-6" asChild>
               <Link href="/">
                 <HomeIcon className="w-4 h-4" />
                 Home
@@ -64,27 +65,27 @@ export default function MobileNavbar() {
 
             {isSignedIn ? (
               <>
-              <Button variant="ghost" className="flex items-center  gap-3 justify-start" asChild>
+              <Button variant="ghost" className="flex items-center  gap-3 justify-start font-bold" asChild>
             <Link href="/dashboard/aboutus/profileshomepage">
-            <HomeIcon className="w-4 h-4" />
+            <HomeIcon className="w-4 h-4 font-semibold" />
             About us
             {/* <span className="hidden lg:inline text-lg text-slate-300 dark:text-slate-200 ">About Us</span> */}
             </Link>
         </Button>
-                <Button variant="ghost" className="flex items-center gap-3 justify-start" asChild>
+                <Button variant="ghost" className="flex items-center gap-3 justify-start font-bold" asChild>
                   <Link href="/notifications">
-                    <BellIcon className="w-4 h-4" />
+                    <BellIcon className="w-4 h-4 font-bold" />
                     Notifications
                   </Link>
                 </Button>
-                <Button variant="ghost" className="flex items-center gap-3 justify-start" asChild>
+                <Button variant="ghost" className="flex items-center gap-3 justify-start font-bold" asChild>
                   <Link href="/profile">
-                    <UserIcon className="w-4 h-4" />
+                    <UserIcon className="w-4 h-4 font-bold" />
                     Profile
                   </Link>
                 </Button>
                 <SignOutButton>
-                  <Button variant="ghost" className="flex items-center gap-3 justify-start w-full">
+                  <Button variant="ghost" className="flex items-center gap-3 justify-start w-full font-bold">
                     <LogOutIcon className="w-4 h-4" />
                     Logout
                   </Button>
