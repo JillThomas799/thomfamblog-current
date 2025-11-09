@@ -10,7 +10,10 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    /* --background: 215 20.2% 65.1%; */
+    --background: 0 0% 63.9%; /*This sets the default background color including the full scroll screen. It is written in
+    hsl (hue, saturation, light) color.*/
+    /* --background: 0 0% 100%; */
     --foreground: 0 0% 3.9%;
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
