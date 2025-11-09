@@ -22,7 +22,7 @@ const BlogMenuBar=()    => {
     <Button 
       variant="outline"
       onClick={() => setIsCollapsed(!isCollapsed)}
-      className="w-auto h-auto bg-slate-300 md:bg-gray-800 text-gray-800 md:text-gray-200 font-bold text-md items-center gap-x-10 focus:outline-none"
+      className="w-auto h-auto bg-gray-300 md:bg-gray-800 text-gray-800 md:text-gray-200 font-bold text-md items-center gap-x-10 focus:outline-none"
     >
       BLOG MENU <MenuIcon />
     </Button>

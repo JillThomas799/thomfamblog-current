@@ -72,7 +72,7 @@ function PostCard({ post, dbUserId }: { post: Post; dbUserId: string | null }) {
   };
 
   return (
-    <Card className="overflow-hidden">
+    <Card className="overflow-hidden  bg-neutral-300 dark:bg-slate-900 font-semibold">
       <CardContent className="p-4 sm:p-6">
         <div className="space-y-4">
           <div className="flex space-x-3 sm:space-x-4">
@@ -83,16 +83,16 @@ function PostCard({ post, dbUserId }: { post: Post; dbUserId: string | null }) {
             </Link>
 
             {/* POST HEADER & TEXT CONTENT */}
-            <div className="flex-1 min-w-0">
+            <div className="flex-1 min-w-0 ">
               <div className="flex items-start justify-between">
-                <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-2 truncate">
+                <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-2 truncate ">
                   <Link
                     href={`/profile/${post.author.username}`}
                     className="font-semibold truncate"
                   >
                     {post.author.name}
                   </Link>
-                  <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                  <div className="flex items-center space-x-2 text-sm ">
                     <Link href={`/profile/${post.author.username}`}>@{post.author.username}</Link>
                     <span>•</span>
                     <span>{formatDistanceToNow(new Date(post.createdAt))} ago</span>
