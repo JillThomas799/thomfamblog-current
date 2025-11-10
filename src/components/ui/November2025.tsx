@@ -72,7 +72,7 @@ export default function November2025() {
         <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 7th November 2025</div> {/*End of news date block*/} 
         <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">Visit to the Colour Exhibition at the Tullie Museum, Carlisle</div> {/*End of news header block*/}
         
-        <div className="text-left pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
+        <div className="text-left pr-3 pl-3 md:pr-3 md:pl-3 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
          Today we went to see the <Link href="https://tullie.org.uk/2025/09/colour-exhibition-opens-this-saturday/" target="_blank" className="underline decoration-black text-black font-semibold">'Colour' exhibition at the Tullie Museum</Link>, Carlisle which is running from the 27th September 2025 to the 25th January 2026. It is a <Link href="https://www.museumsassociation.org/museums-journal/news/2023/05/funding-for-three-touring-exhibitions-as-part-of-network/#" target="_blank" className="underline decoration-black text-black font-semibold" >MAGNET partnership exhibition</Link>, receiving support from the Art Fund and public funding from the National Lottery through Arts Council England.
          <br />
          <br /> 
