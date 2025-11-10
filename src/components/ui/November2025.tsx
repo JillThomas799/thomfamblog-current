@@ -110,13 +110,49 @@ export default function November2025() {
       </div>           {/*  End of individual dated entry design and color template block */}
            </div> {/*End of individual dated entry block*/}</div>    
           
+                     <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
+        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 12th November 2025, Wednesday.</div> {/*End of news date block*/} 
+        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">Glasgow City Break Day 1: The Riverside Museum and Tall Ship</div> {/*End of news header block*/}
+        
+        <div className="text-left pr-3 pl-3 md:pr-3 md:pl-3 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
+          The Riverside Museum, Glasgow is an award-winning transport and technology museum which replaced the preceding Glasgow Museum of Transport.  It was opened in June 2011, being the first purpose-built museum created by Glasgow Life in the 21st century.    
+          <br />
+          <br />
+          It fronts on to the River Clyde at Pointhouse Quay in a building designed by  Zaha Hadid Architects and connects via a pedestrian and cycle path over the Govan–Partick Bridge to Govan. It forms part of the Glasgow Harbour regeneration project, winning the 2013 European Museum of the Year Award. It houses many exhibits of national and international importance. 
+          <br />
+          <br />
+          Taking the Govan Walkway over the bridge brought us to Govan which is a very old district, far older than Glasgow, with roots dating right back to the 5th century. Viking grave burials ( the Govan Stones), and the seat of the ancient rulers of Strathclyde, a political and spiritual hub when Glasgow was just a couple of cottages and a munching cow beside a stream. Likewise Govan old Church and graveyard with many different reincarnations of churches on this site since that time.
+<br />
+          <br />
+
+          We had come here to see the Govan Stones. Visiting Viking chieftains used hogback carved stones to cover the dead and Govan church has a fine collection. Later the Vikings became Christian but still kept some pagan customs. The ancient Strathclyde stronghold of Dumbarton Rock ( Fort of the Britons) eventually succumbed to Viking siege tactics and fell so the survivors moved upriver to Govan as the River Clyde at that time was shallow with twisting sandbanks but eventually the Vikings came here as well.
+
+         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#b55b4b] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#b55b4b]">
+              {" "}
+         <div className="m-1 p-1 font-normal  border-gray-800 border-solid border-2 bg-[#773f3f] mb-6">Click on the image below to open the album <br /> of our visit to the Riverside Museum and Tall Ship</div>
+          <Link
+                href="https://photos.app.goo.gl/ZYW5Q8QV2y8KGds68"
+                target="_blank"
+              >
+         <Image
+                  src={ TullieColorTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Bernard outside the Tullie Museum"
+                />
+                </Link>
+           
+            </div>{" "}
+      </div>{/*End of individual dated entry photo album block*/} 
+      </div>           {/*  End of individual dated entry design and color template block */}
+           </div> {/*End of individual dated entry block*/}</div>    
       </div> {/*End of November block*/}
       </div> {/*End of November block background*/}
 
       </div>
       </div>
-      
-     
-   
+      </div>
 );
 }
