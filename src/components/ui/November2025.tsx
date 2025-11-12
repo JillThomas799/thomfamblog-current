@@ -126,11 +126,11 @@ export default function November2025() {
           The museum houses a collection of transport and technology of over 3,000 objects, acquired over the centuries and which are used to highlight Glasgow's globally important role through its contributions to heavy industries like shipbuilding, train manufacturing and engineering.
           <br />
           <br />
-          Taking the Govan Walkway over the bridge brought us to Govan which is a very old district, far older than Glasgow itself, with roots dating right back to the 5th century. Viking grave burials ( the Govan Stones), and the seat of the ancient rulers of Strathclyde, it was a political and spiritual hub in early medieval times. 
+          Taking the Govan Walkway over the bridge brought us to Govan which is a very old district, far older than Glasgow itself, with roots dating right back to the 5th century. The site of Viking grave burials ( the Govan Stones), and the seat of the ancient rulers of Strathclyde, it was a political and spiritual hub right back in early medieval times. 
           We had intended to see the Govan Stones which are Viking hogback gravestones which visiting chieftains used to cover their dead of high status and Govan church has a very good collection. However, unfortunately the stones are not open for viewing between 1st November and 31st March. so that will have to wait until another time.
            <br />
            <br />
-           The Riverside museum is well worth a visit and, together with our visit to the tall ship Glenlee, we spent over 4 hours there. There is a large car park right outside the museum which you have to pay for but currently entrance to the museum itself is free. There is a café in the museum. Entrance to the Glenlee tall ship outside is currently £4.50 per adult but there is lots to see in the ship of interest.
+           The Riverside museum is well worth a visit and, together with our visit to the tall ship Glenlee, which is moored outside the museum, we spent over 4 hours there. There is a large car park right outside the museum which you have to pay for but currently entrance to the museum itself is free. There is a café in the museum. Entrance to the Glenlee tall ship outside is currently £4.50 per adult but there is lots to see in the ship of interest.
 
          <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#b55b4b] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#b55b4b]">
