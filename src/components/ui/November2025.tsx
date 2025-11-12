@@ -4,6 +4,7 @@ import NovemberBonfire from "./novemberbonfire";
 import "./November2025.css"; 
 import MG4Electric from '/public/imagesresized/MG4Electric.jpg'
 import TullieColorTitled from '/public/imagesresized/TullieColorTitled.jpg'
+import JillGlasgowTramTitled from '/public/imagesresized/JillGlasgowTramTitled.jpg'
 
 export default function November2025() {
 
@@ -137,13 +138,13 @@ export default function November2025() {
               {" "}
          <div className="m-1 p-1 font-normal  border-gray-800 border-solid border-2 bg-[#773f3f] mb-6">Click on the image below to open the album <br /> of our visit to the Riverside Museum and Tall Ship</div>
           <Link
-                href="https://photos.app.goo.gl/ZYW5Q8QV2y8KGds68"
+                href="https://photos.app.goo.gl/otNBGk6Xh4w5LRT16"
                 target="_blank"
               >
          <Image
-                  src={ TullieColorTitled }
+                  src={ JillGlasgowTramTitled }
                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of Bernard outside the Tullie Museum"
+                  alt="Photo of Jill about to board one t=of the early Glasgow trams"
                 />
                 </Link>
            
