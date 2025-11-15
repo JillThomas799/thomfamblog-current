@@ -6,6 +6,7 @@ import MG4Electric from '/public/imagesresized/MG4Electric.jpg'
 import TullieColorTitled from '/public/imagesresized/TullieColorTitled.jpg'
 import JillGlasgowTramTitled from '/public/imagesresized/JillGlasgowTramTitled.jpg'
 import TheatreRoyalTitled from '/public/imagesresized/TheatreRoyalTitled.jpg'
+import KelvingroveOrganTitled from '/public/imagesresized/KelvingroveOrganTitled.jpg'
 
 export default function November2025() {
 
@@ -195,11 +196,39 @@ export default function November2025() {
       </div>           {/*  End of individual dated entry design and color template block */}
            </div> {/*End of individual dated entry block*/}</div>  
      
-     
+     <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
+        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 14th November 2025, Friday.</div> {/*End of news date block*/} 
+        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">Glasgow City Break Day 3: A day in Glasgow's West End: Glasgow Botanic Gardens, Glasgow University and  Kelvingrove Art Gallery and Museum.</div> {/*End of news header block*/}
+        
+        <div className="text-left pr-3 pl-3 md:pr-3 md:pl-3 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
+         
+
+         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#b55b4b] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#b55b4b]">
+              {" "}
+         <div className="m-1 p-1 font-normal  border-gray-800 border-solid border-2 bg-[#773f3f] mb-6">Click on the image below to open the album <br /> of our day in Glasgow's West End: Glasgow Botanic Gardens, Glasgow University and  Kelvingrove Art Gallery and Museum.</div>
+          <Link
+                href="https://photos.app.goo.gl/pmZpn6tnTr9xdj4B8"
+                target="_blank"
+              >
+         <Image
+                  src={ KelvingroveOrganTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of KelvingroveOrganRecital."
+                />
+                </Link>
+           
+            </div>{" "}
+      </div>{/*End of individual dated entry photo album block*/} 
+      </div>           {/*  End of individual dated entry design and color template block */}
+           </div> {/*End of individual dated entry block*/}</div>  
      
       </div> {/*End of November block*/}
       </div> {/*End of November block background*/}
-</div>
+     </div>
+     </div>
       </div>
       </div>
       </div>
