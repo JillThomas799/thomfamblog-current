@@ -5,6 +5,7 @@ import "./November2025.css";
 import MG4Electric from '/public/imagesresized/MG4Electric.jpg'
 import TullieColorTitled from '/public/imagesresized/TullieColorTitled.jpg'
 import JillGlasgowTramTitled from '/public/imagesresized/JillGlasgowTramTitled.jpg'
+import TheatreRoyalTitled from '/public/imagesresized/TheatreRoyalTitled.jpg'
 
 export default function November2025() {
 
@@ -152,9 +153,53 @@ export default function November2025() {
       </div>{/*End of individual dated entry photo album block*/} 
       </div>           {/*  End of individual dated entry design and color template block */}
            </div> {/*End of individual dated entry block*/}</div>    
+     
+          <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
+        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 13th November 2025, Wednesday.</div> {/*End of news date block*/} 
+        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">Glasgow City Break Day 2: Exploring Glasgow Centre and the Merchant City Mile, Hamilton at the Theatre Royal.</div> {/*End of news header block*/}
+        
+        <div className="text-left pr-3 pl-3 md:pr-3 md:pl-3 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
+         This morning we headed off on foot in the pouring rain into the city centre along Argyle and St Vincent streets. First port of call was a very good Waterstones bookshop near Central Station which...surprise, surprise...had a café where we could grab some coffees.
+          <br />
+          <br />
+          Suitably refreshed, it was time to explore the Merchant City. By the latter 18th Century around half of all tobacco imported into Britain came through Glasgow. It created huge profits that have made a mark on the urban landscape. This wealth continued into the 19th century when shipbuilding and textiles kept the industrialists prosperous. Many of the  buildings created by this wealth are still in use today but have been refashioned to alternative uses. For example, the Royal Exchange has become the Gallery of Modern Art. It is outside this gallery that the statue of the Duke of Wellington on horseback can be seen with a traffic cone on his head.
+          <br />
+          <br />
+          Next was 42, Miller Street, The Tobacco Merchant's House. This house was featured on the historian David Olusoga's series 'Union' for the BBC. The mansions of  Miller Street, Glasgow were the home of the 'Tobacco-Lords' of Glasgow, a very tight-knit community, a small number of families, who often inter-married, and they shared information and dominated the trade in tobacco. Number 42, Miller Street was home to one of them, Robert Findlay, who had grown rich on his connections with tobacco growers in Virginia and Maryland. He bought it in 1782.The Tobacco Mechant's House, is remarkable for several reasons, not least of which is the fact that it survived the enormous industrialisation and commercialisation of Glasgow over the last two centuries.
+           <br />
+          <br />
+          The main square of this district is George Square but unfortunately we were not able to fully see all its 19th century grandiose buildings, including the City Chambers, as the square is currently undergoing a major refurbishment and is all cordoned off. We were able to see however Sir Walter Scott's statue on the Doric column at the centre of the square, with Bernard quoting sections from Ivanhoe, which he has been reading recently.
+          <br />
+          <br />
+          In the afternoon it was the highlight of the day as we went to see Hamilton live at the Theatre Royal, Glasgow. It was a fantastic show and very well-performed, especially the rap. We really enjoyed it, as did all the Glaswegians who were there. 
+
+         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#b55b4b] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#b55b4b]">
+              {" "}
+         <div className="m-1 p-1 font-normal  border-gray-800 border-solid border-2 bg-[#773f3f] mb-6">Click on the image below to open the album <br /> of our day on the Merchant City Mile and to the theatre to see Hamilton.</div>
+          <Link
+                href="https://photos.app.goo.gl/Wtu7e8L6UzMPThdX6"
+                target="_blank"
+              >
+         <Image
+                  src={ TheatreRoyalTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Jill in the auditorium at the Theatre Royal, Glasgow."
+                />
+                </Link>
+           
+            </div>{" "}
+      </div>{/*End of individual dated entry photo album block*/} 
+      </div>           {/*  End of individual dated entry design and color template block */}
+           </div> {/*End of individual dated entry block*/}</div>  
+     
+     
+     
       </div> {/*End of November block*/}
       </div> {/*End of November block background*/}
-
+</div>
       </div>
       </div>
       </div>
