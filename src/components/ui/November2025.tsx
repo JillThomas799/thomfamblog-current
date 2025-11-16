@@ -203,7 +203,16 @@ export default function November2025() {
         <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">Glasgow City Break Day 3: A day in Glasgow's West End: Glasgow Botanic Gardens, Glasgow University and  Kelvingrove Art Gallery and Museum.</div> {/*End of news header block*/}
         
         <div className="text-left pr-3 pl-3 md:pr-3 md:pl-3 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
-         
+         We were staying 1 minute around the corner from the Kelvingrove art Gallery and Museum and Glasgow University in the West end of the city, so today we decided to explore the West end. Firstly we headed over to the Botanic Gardens which came into being in 1817 when about eight acres of land were laid out at Sandyford, near Sauchiehall Street, Glasgow, and run by the Royal Botanic Institution of Glasgow . They were intended to supply the University of Glasgow. William Hooker was regius professor of botany at Glasgow University, and contributed to the development of the Botanic Gardens before his appointment to the directorship of Kew Gardens in London. The Gardens moved to its current location in 1842. 
+          <br />
+          <br />
+          After some refreshment at one a number of very nice cafés in the surrounding streets, we headed back through the Victorian university towards the Kelvingrove Art Gallery and Museum. Kelvingrove was one of the last great museums of the Victorian era, opening in 1901, as part of Glasgow's International Exhibition of that year. In 1902 it became Glasgow’s civic art gallery and museum. The city's residents regularly vote it their favourite building. The collections range from fine art and design - including examples of French Impressionism and the Scottish Colourists - to natural history including Sir Roger the elephant, plus arms and armour, human history and Ancient Egypt.
+          <br />
+          <br />
+          The Kelvingrove Art Gallery and Museum is also famous for its lunchtinme organ recitals and we were fortunate enough to be able to listen to one of these recitals today. As with many museums in Scotland, entry was free. There are also areas for people to eat their own packed lunches which is really good for people who cannot afford the café or that is just their preference, especially families. So many museums in England now do not offer this possibility anymore and it is sadly missed.
+          <br />
+          <br />
+          Glasgow is a fantastic city, in many ways quite similar to Liverpool, probably due to its strong maritime history, rapid expansion during the 18th and 19th centuries and strong connections to the transatlantic trade and whilst it may be not on everyones 'bucket list' destinations we would suggest consideration that perhaps it should be. Sure, it is 'edgy' , but so is any industrial city and Glaswegians are canny and super-friendly. It is a very relaxed city and we did not feel any less safe here than we do in London, in fact probably more so.
 
          <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#b55b4b] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#b55b4b]">
