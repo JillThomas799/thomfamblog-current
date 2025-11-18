@@ -7,6 +7,7 @@ import TullieColorTitled from '/public/imagesresized/TullieColorTitled.jpg'
 import JillGlasgowTramTitled from '/public/imagesresized/JillGlasgowTramTitled.jpg'
 import TheatreRoyalTitled from '/public/imagesresized/TheatreRoyalTitled.jpg'
 import KelvingroveOrganTitled from '/public/imagesresized/KelvingroveOrganTitled.jpg'
+import GlasgowCathedralTitled from '/public/imagesresized/GlasgowCathedralTitled.jpg'
 
 export default function November2025() {
 
@@ -229,10 +230,71 @@ export default function November2025() {
                 />
                 </Link>
            
-            </div>{" "}
+             </div>{" "}
       </div>{/*End of individual dated entry photo album block*/} 
       </div>           {/*  End of individual dated entry design and color template block */}
-           </div> {/*End of individual dated entry block*/}</div>  
+           </div> {/*End of individual dated entry block*/}
+           </div>  
+
+
+
+
+<div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4  border-gray-800 border-solid border-2 bg-[#b55b4b]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
+        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 15th November 2025, Saturday.</div> {/*End of news date block*/} 
+        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">Glasgow City Break Day 4: Glasgow Cathedral,  St. Mungo Museum Of Religious Life & Art and the Rest is Politics Live at Glasgow SEC Armadillo.</div> {/*End of news header block*/}
+        
+        <div className="text-left pr-3 pl-3 md:pr-3 md:pl-3 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
+        It was our final day in Glasgow today and we still had not seen one of Scotland's most magnificent medieval buildings and the only medieval cathedral on mainland Scotland to survive the Protestant Reformation in 1560 and the Industrial Revolution in the late 1700s virtually complete, Glasgow Cathedral. We set off on a 2.2 mile walk from the flat over to the east side of the city to visit this important medieval building.
+        <br />
+        <br />
+        The building of Glasgow Cathedral began in 1136 and took about 350 years to finish. It is dedicated to St Kentigern, or St Mungo as he is otherwise known, the first bishop of the ancient kingdom of Strathclyde, who was widely believed to have been buried on the site around 612. It was built to be a more appropriate shrine to St Kentigern, for the use of the many pilgrims who visited his tomb. 
+        <br />
+        <br />
+        It is possible from the site of the cathedral to see how Glasgow city sprang up between the Cathedral on the hill and the River Clyde to the South. The cathedral is well worth a visit and appeared to be the star attraction for a large group of French visitors. The staff within the cathedral are very helpful.
+         <br />
+        <br />
+        Following our visit to the cathedral, we crossed the road to visit the <Link href="https://www.glasgowlife.org.uk/museums/venues/st-mungo-museum-of-religious-life-and-art" target="_blank" className="underline decoration-[#D99E49]  text-[#D99E49] font-semibold">St Mungo Museum of Religious Life and Art</Link>. St Mungo Museum is named after the city's patron saint who brought the Christian faith to Glasgow in the 6th century. It is built on the site of the medieval Bishops’ Castle and is designed in its style. It aims to promote understanding and respect between people of different faiths and those of none and offers something for everyone. This was the great gift of this museum which is quite delightful despite it having some uncomfortable and tragic displays. At first entry it can seem a little underwhelming, but we would suggest persevering as it lies over 3 floors and has some very thoughtful and meaningful displays regarding a wide range of faiths.
+        <br />
+        <br />
+        The evening saw us at the SEC Armadillo, set on Scotland's Exhibition Centre campus, to see Alistair Campbell and Rory Stewart live at <Link href="https://open.spotify.com/show/1Ysx8g1Iw42gESAtegrFaH" target="_blank" className="underline decoration-[#D99E49]  text-[#D99E49]  font-semibold">Rest is Politics</Link>. The Rest Is Politics is a British podcast and television series hosted by Alastair Campbell and Rory Stewart which launched in March 2022. It has since become one of the leading political podcasts in the United Kingdom.Campbell and Stewart generally discuss contemporary news and politics, with a strong focus on UK politics, but also international developments, such as foreign elections and humanitarian catastrophes. 
+         <br />
+        <br />
+        Rory Stewart was conservative MP for our constituency area Penrith and the Borders between 2010-2019 , a constituency which unfortunately no longer exists in the same format. He has recently published a book <Link href="https://www.amazon.co.uk/Middleland-Times-bestselling-co-host-podcast-Politics/dp/1787336247" target="_blank" className="underline decoration-[#D99E49]  text-[#D99E49]  font-semibold">Middlelands</Link> which is well worth a read. The description of the book on Amazon describes it as 'Drawing on pieces originally written for a local newspaper, Middleland is an urgent and inspiring portrait of rural Britain today – a place caught in tensions between farming and the natural world, between the need to preserve and to grow, between local and national politics – as well as a timeless evocation of the history, people and landscape of Cumbria.' 
+        <br />
+        <br />
+        This is the 2nd live Rest is Politics show we have been to, the first being at Manchester's Apollo theatre last year. We had a very enjoyable evening with Alistair taking us out by playing his bagpipes (see album for video extract) to the sound of a large proportion of the audience singing along in Scottish gaelic. 
+
+         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#b55b4b] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#b55b4b]">
+              {" "}
+         <div className="m-1 p-1 font-normal  border-gray-800 border-solid border-2 bg-[#773f3f] mb-6">Click on the image below to open the album <br /> of our day at Glasgow Cathedral,  St. Mungo Museum Of Religious Life & Art and the Rest is Politics Live at Glasgow SEC Armadillo.</div>
+          <Link
+                href="https://photos.app.goo.gl/ADnEdkB8kFyoqiZf8"
+                target="_blank"
+              >
+         <Image
+                  src={ GlasgowCathedralTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Glasgow Cathedral."
+                />
+                </Link>
+           
+             </div>{" "}
+      </div>{/*End of individual dated entry photo album block*/} 
+      </div>           {/*  End of individual dated entry design and color template block */}
+           </div> {/*End of individual dated entry block*/}
+           </div>
+           </div>
+
+
+
+
+
+
+
+           
      
       </div> {/*End of November block*/}
       </div> {/*End of November block background*/}
@@ -241,5 +303,5 @@ export default function November2025() {
       </div>
       </div>
       </div>
-);
+  );
 }
