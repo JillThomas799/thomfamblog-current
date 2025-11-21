@@ -306,7 +306,9 @@ export default function November2025() {
            <br />
           <br />
           We were also very fortunate as we were one of the first visitors there and as we were climbing the Rock met a volunteer who goes there every day and he got chatting to us. We learnt a tremendous amount as he lives locally and is very knowledgeable about the local history. He was in the navy for many years and was a submariner for a period so he had some interesting stories. He told us much about the Clyde and the shipyards, the types of boat out on that day and what their roles were, together with a very detailed description of the history of Dumbarton Rock and its buildings.
-        
+           <br />
+          <br />
+          We had had a really busy, interesting and enjoyable trip to Glasgow, with still things to see and do here which on this occasion we did not have the opportunity for. I have no doubt this will mean a return trip in the future. It is well worth a visit.        
          <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#b55b4b] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#b55b4b]">
               {" "}
@@ -328,8 +330,6 @@ export default function November2025() {
            </div> {/*End of individual dated entry block*/}
            </div>
            </div>
-
-
 
 
 
