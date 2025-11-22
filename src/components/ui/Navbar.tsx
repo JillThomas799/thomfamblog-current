@@ -12,13 +12,13 @@ async function Navbar() {
 
   
   return (
-    <nav className="sticky top-0 w-full border-b  bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-neutral-500 
+    <nav className="top-0 w-full border-b  bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-neutral-500 
     md:supports-[backdrop-filter]:bg-background/60 z-50 ">
       {/*The background property refers to the default background color which is set in globals.css. Refer to globals.css to see settings */}
-        <div className="w-screen mx-auto px-4 py-20 border-b-4 border-solid border-neutral-100">
+        <div className="w-screen mx-auto px-4 py-8 border-b-4 border-solid border-neutral-100">
             <div className="flex items-center justify-between h-16 ">
                 <div className="flex-items-center">
-                    <div className=" text-5xl font-bold text-primary font-mono tracking-wider text-gray-900 md:text-gray-700 dark:text-gray-300">Thomas Family Blog</div>
+                    <div className=" text-4xl font-bold text-primary font-mono tracking-wider text-gray-900 md:text-gray-700 dark:text-gray-300">Thomas Family Blog</div>
                 </div>
           <DesktopNavbar />
           <MobileNavbar />
