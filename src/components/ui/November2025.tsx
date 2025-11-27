@@ -331,6 +331,28 @@ export default function November2025() {
            </div>
            </div>
 
+           <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
+        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 18th November 2025, Tuesday.</div> {/*End of news date block*/} 
+        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">Visit to Rheged Centre cinema to see the film 'The Choral' starring Ralph Fiennes.</div> {/*End of news header block*/}
+        
+        <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
+         Today we went to see the film  <Link href="https://www.theguardian.com/film/2025/nov/06/the-choral-review-alan-bennett-ralph-fiennes" target="_blank" className="underline decoration-[#D99E49]  text-[#D99E49]  font-semibold">The Choral</Link> at <Link href="https://rheged.com/cinema/" target="_blank" className="underline decoration-[#D99E49]  text-[#D99E49]  font-semibold">The Rheged Centre cinema, Penrith.</Link>
+          <br />
+          <br />
+         The film stars Ralph Fiennes and is set in 1916. It is directed by BAFTA, Olivier and Tony Award winner NICHOLAS HYTNER (The Crucible) and written by BAFTA, Olivier and Tony Award winner ALAN BENNETT, The Choral marks their fourth writer-director collaboration following the acclaimed films The Madness of King George, The History Boys, and The Lady in The Van. 
+          <br />
+          <br />
+         The promotional description at the Rheged Centre describes the synopsis as follows: "As war rages on the Western Front, the Choral Society in Ramsden, Yorkshire has lost most of its men to the army. The Choral’s ambitious committee, determined to press ahead, decides to recruit local young males to swell their ranks. They must also engage a new chorus master, and despite their suspicions that he has something to hide, their best bet seems to be Dr. Henry Guthrie (Ralph Fiennes) – driven, uncompromising, and recently returned from a career in Germany. As conscription papers start to arrive, the whole community discovers that the best response to the chaos that is laying waste to their lives is to make music together."
+         <br />
+          <br />
+          For those who know Alan Bennett's previous works, it certainly has discernible hallmarks of his writing. Ralph Fiennes, as always in these types of roles, is the master of nuance. We very much enjoyed the film. 
+           </div>           {/*  End of individual dated entry design and color template block */}
+           </div> {/*End of individual dated entry block*/}
+           </div> 
+            </div>  
+
 
 
       </div> {/*End of November block*/}
