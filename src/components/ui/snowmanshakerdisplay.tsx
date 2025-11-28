@@ -1,7 +1,7 @@
 import React from "react";
 import "./snowmanshakerdisplay.css";
 
-export default function SnowmanShakerDisplay({ title }) {
+export default function SnowmanShakerDisplay() {
   return (
     <div>
       <div className="snowmanshaker">
@@ -51,7 +51,7 @@ export default function SnowmanShakerDisplay({ title }) {
           <div className="base"></div>
         </div>
 
-        <div className="MonthTitleDecember">{title}</div>
+       
       </div>
     </div>
   );
