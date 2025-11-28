@@ -127,10 +127,10 @@ Refer to this link for further information https://www.w3schools.com/cssref/sel_
   left: 60%;
   transform: rotate(17deg) translateX(-50%);
 }
-
+/* 
 .canvas:active .shadow {
   opacity: 0;
-}
+} */
 
 .shadow {
   width: 100%;
