@@ -30,21 +30,21 @@ export default function December2025() {
          <br />
          <Image
                   src={ AdventCalendar }
-                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%] transform transition hover:scale-150"
                   alt="Photo of Advent Calendar"
                 />
                 <div className="flex flex-col mr-[10%] ml-[10%] bg-[#165b33] border-solid border-black border-2 text-white items-center mb-8 p-4">The advent calendar is marking the 1st day of Christmas. Time to start preparing the Christmas cake and Christmas puddings. </div>
 
                 <Image
                   src={ LambLennieHat }
-                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%] transform transition hover:scale-150"
                   alt="Photo of toy lamb in Lennie's Christmas hat"
                 />
                  <div className="flex flex-col mr-[10%] ml-[10%] bg-[#165b33] border-solid border-black border-2 text-white items-center mb-8 p-4">The sheep has been awarded Lennie's Christmas hat, as there is no way Lennie will wear it. . </div>
 
                 <Image
                   src={ ChristmasTree2025 }
-                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-6 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-6 rounded-[70%] transform transition hover:scale-150"
                   alt="Photo of Christmas Tree 2025"
                 />
                 <div className="flex flex-col mr-[10%] ml-[10%] bg-[#165b33] border-solid border-black border-2 text-white items-center mb-8 p-4">The Christmas tree is up. Not quite as tinselly as it might have been but Bernard got bored of the tinsel part the way through...  </div>
