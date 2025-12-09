@@ -131,18 +131,7 @@ export default function December2025() {
                 />
                 <div className="flex flex-col mr-[10%] ml-[10%] bg-[#165b33] border-solid border-black border-2 text-white items-center mb-8 p-4"> </div>
 
-                <Image
-                  src={ QuakerTapestryMuseum }
-                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%] transform transition hover:scale-150"
-                  alt="Photo of entrance to Quaker Tapestry Museum"
-                />
-                 <div className="flex flex-col mr-[10%] ml-[10%] bg-[#165b33] border-solid border-black border-2 text-white items-center mb-8 p-4">Entrance to the Quaker Tapestry Museum and Meeting House on Stramongate, Kendal </div>
-
-                <Image
-                  src={ QuakerLocations1652 }
-                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-6 rounded-[70%] transform transition hover:scale-150"
-                  alt="Map of Quaker Places 1652"
-                />
+                
                 <div className="flex flex-col mr-[10%] ml-[10%] bg-[#165b33] border-solid border-black border-2 text-white items-center mb-8 p-4">This map shows the Quaker places in the North West of England in 1652.  </div>            
                  
   </div>
