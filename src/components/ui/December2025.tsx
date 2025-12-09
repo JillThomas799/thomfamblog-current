@@ -5,6 +5,10 @@ import SnowmanShakerDisplay from './snowmanshakerdisplay';
 import AdventCalendar from '/public/imagesresized/AdventCalendar.jpg';
 import LambLennieHat from '/public/imagesresized/LambLennieHat.jpg';
 import ChristmasTree2025 from '/public/imagesresized/ChristmasTree2025.jpg';
+import KendalMeetingHouse from '/public/imagesresized/KendalMeetingHouse.jpg';
+import QuakerTapestryMuseum from '/public/imagesresized/QuakerTapestryMuseum.jpg';
+import QuakerLocations1652 from '/public/imagesresized/QuakerLocations1652.jpg';
+
 
 export default function December2025() {
   return (   
@@ -53,9 +57,99 @@ export default function December2025() {
            </div> {/*End of news content block*/}
            </div> {/*End of individual dated entry design and color template block*/}  
 
-               
-           </div> 
+           <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#165b33]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
+        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 4th December 2025</div> {/*End of news date block*/} 
+        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#bb252b]">Very rainy day in Kendal and a visit to the Quaker Tapestry Museum....much more interesting than it might initially sound.</div> {/*End of news header block*/}
+        
+        <div className="text-left pr-3 pl-3 md:pr-3 md:pl-3 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#bb252b]">  
+          The <Link href="https://www.quaker-tapestry.co.uk/" target="_blank" className="underline decoration-black text-yellow-400 font-semibold">Kendal Quaker Tapestry Museum</Link> won the Cumbria small visitor attraction of the year prize for 2025 and we would agree that it is a well-deserved winner. Unfortunately, it closes to the public on the 13th December 2025. The future of the tapestries is as yet to be decided...
+          <br />
+          <br />
+          It is a display of 77 embroidered panels telling the history of Quakerism from its formation by George Fox during the late 17th century, following the English Civil War, through to the present day. 4000 Quaker men, women and children from 15 countries contributed to its formation. It was commenced in 1981 and the 77th panel added in 1996. The museum guide  tells how many of the people involved in the making of the Tapestry were completely without previous experience.
+          <br />
+          <br />
+          The following <Link href="https://settlequakers.org.uk/a-bit-about-george-fox/" target="_blank" className="underline decoration-black text-yellow-400 font-semibold" >link from the Settle Quaker Meeting</Link> tells how 
+          George Fox came from Fenny Drayton, a small village in Leicestershire and aged 12, became an apprentice to a local tradesman. He left home in 1643 to seek ‘the truth’, through listening to preachers.
+          <br />
+          <br />
+          In contrast to conventional religious teaching of the time, he came to believe that everyone could speak to God and that priests were not needed. He began talking to everyone he met about his ideas. He said that experiencing God need not be in a church and so the tithes that supported them were not necessary. 
+          <br />
+          <br />
+          He was soon in trouble with the authorities and imprisoned for the first time in Nottingham in 1649. On release from prison in October 1652 he made his way North to Pendle Hill, Firbank Fell  and Swarthmoor Hall in Ulverston. 
+            <br />
+          <br />          
+          Others like William Penn and Oliver Cromwell respected him. The movement spread across England and then globally, notably to America, where William Penn established Pennsylvania as a haven for religious freedom, shaping significant social reform movements worldwide. 
+          <br />
+          <br />
+          The series of tapesteries takes us from these early origins and spread of Quakerism both in England and globally, through the industrial revolution, developments in science and medicine, astronomy, the abolition of slavery, social reform and many. many more events.
+          
+          <Image
+                  src={ KendalMeetingHouse }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%] transform transition hover:scale-150"
+                  alt="Photo of Kendal Meeting House Information Board."
+                />
+                <div className="flex flex-col mr-[10%] ml-[10%] bg-[#165b33] border-solid border-black border-2 text-white items-center mb-8 p-4">All about the Kendal Meeting house which was founded in 1688, with a school following in 1698. 
+                  <br />
+                  <br />
+                  The Carr's biscuit factory owner Jonathan Dodgson Carr was a Quaker, born and brought up in Kendal, later moving to Carlisle. Margaret Forster in her carefully-researched book <Link href="https://www.bookscumbria.com/product/cumbrian-books/arts-and-literature/fiction/margaret-forster/rich-desserts-and-captain-s-thin/" target="_blank" className="underline decoration-black text-yellow-400 font-semibold">'Rich Desserts and Captain's Thin: A Family and Their Times 1831-1931'</Link>  describes the rise to fame of the Carr family and as part of this story, the Kendal Quakers, in some depth. It is very interesting and well worth a read.  </div>
 
+                <Image
+                  src={ QuakerTapestryMuseum }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%] transform transition hover:scale-150"
+                  alt="Photo of entrance to Quaker Tapestry Museum"
+                />
+                 <div className="flex flex-col mr-[10%] ml-[10%] bg-[#165b33] border-solid border-black border-2 text-white items-center mb-8 p-4">Entrance to the Quaker Tapestry Museum and Meeting House on Stramongate, Kendal </div>
+
+                <Image
+                  src={ QuakerLocations1652 }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-6 rounded-[70%] transform transition hover:scale-150"
+                  alt="Map of Quaker Places 1652"
+                />
+                <div className="flex flex-col mr-[10%] ml-[10%] bg-[#165b33] border-solid border-black border-2 text-white items-center mb-8 p-4">This map shows the Quaker places in the North West of England in 1652.  </div>            
+                 
+  </div>
+      </div>
+      </div>
+      </div>               
+      </div> 
+
+
+ <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#165b33]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
+        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 7th December 2025, Sunday</div> {/*End of news date block*/} 
+        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#bb252b]">Sunday lunch with our friends Robin and Cathy and the dogs Wilf and Nell at the Sun Inn, Pooley Bridge, Ullswater.</div> {/*End of news header block*/}
+        
+        <div className="text-left pr-3 pl-3 md:pr-3 md:pl-3 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#bb252b]">  
+          
+          <Image
+                  src={ KendalMeetingHouse }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%] transform transition hover:scale-150"
+                  alt="Photo of Kendal Meeting House Information Board."
+                />
+                <div className="flex flex-col mr-[10%] ml-[10%] bg-[#165b33] border-solid border-black border-2 text-white items-center mb-8 p-4"> </div>
+
+                <Image
+                  src={ QuakerTapestryMuseum }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%] transform transition hover:scale-150"
+                  alt="Photo of entrance to Quaker Tapestry Museum"
+                />
+                 <div className="flex flex-col mr-[10%] ml-[10%] bg-[#165b33] border-solid border-black border-2 text-white items-center mb-8 p-4">Entrance to the Quaker Tapestry Museum and Meeting House on Stramongate, Kendal </div>
+
+                <Image
+                  src={ QuakerLocations1652 }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-6 rounded-[70%] transform transition hover:scale-150"
+                  alt="Map of Quaker Places 1652"
+                />
+                <div className="flex flex-col mr-[10%] ml-[10%] bg-[#165b33] border-solid border-black border-2 text-white items-center mb-8 p-4">This map shows the Quaker places in the North West of England in 1652.  </div>            
+                 
+  </div>
+      </div>
+      </div>
+      </div>               
+     
      </div>
   );
 }
