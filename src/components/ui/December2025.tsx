@@ -8,6 +8,7 @@ import ChristmasTree2025 from '/public/imagesresized/ChristmasTree2025.jpg';
 import KendalMeetingHouse from '/public/imagesresized/KendalMeetingHouse.jpg';
 import QuakerTapestryMuseum from '/public/imagesresized/QuakerTapestryMuseum.jpg';
 import QuakerLocations1652 from '/public/imagesresized/QuakerLocations1652.jpg';
+import WildSwimmingTitled from '/public/imagesresized/WildSwimmingTitled.jpg';
 
 
 export default function December2025() {
@@ -122,23 +123,36 @@ export default function December2025() {
         <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 7th December 2025, Sunday</div> {/*End of news date block*/} 
         <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#bb252b]">Sunday lunch with our friends Robin and Cathy and the dogs Wilf and Nell at the Sun Inn, Pooley Bridge, Ullswater.</div> {/*End of news header block*/}
         
-        <div className="text-left pr-3 pl-3 md:pr-3 md:pl-3 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#bb252b]">  
-          
-          <Image
-                  src={ KendalMeetingHouse }
-                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%] transform transition hover:scale-150"
-                  alt="Photo of Kendal Meeting House Information Board."
+         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#bb252b] pb-2 pt-2 mr-[2%] ml-[2%] mt-5 mb-4  justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#bb252b]">
+              It was to have been a lovely Winter's day walking at Pooley Bridge, Ullswater but unfortunately the weather had other ideas.... However there was a plan B in place, in that it had already been agreed that the <Link href="https://www.suninnpooleybridgepub.co.uk/" target="_blank" className="underline decoration-black text-yellow-400 font-semibold">Sun Inn</Link> at Pooley Bridge would be a suitable alternative for a prolonged Sunday lunch should the weather be very unsuitable and so it proved.
+              {" "}
+              <br />
+              <br />
+              The Sun Inn does a  <Link href="https://www.suninnpooleybridgepub.co.uk/menus" target="_blank" className="underline decoration-black text-yellow-400 font-semibold">good range menu on a Sunday</Link> including Sunday lunches for a reasonable price and it has a relaxing ambiance. They are dog-friendly throughout all areas of the pub so Wilf and Nell were safe. 
+              <br />
+              <br />
+              As always, it was great to meet up and catch up on news again.
+               <br />
+              <br />
+         <div className="m-1 p-1 font-normal  border-gray-800 border-solid border-2 bg-[#165b33] mb-6">Click on the image below to open the album <br /> of our day with Robin and Cathy together with the dogs Wilf and Nell at Pooley Bridge, Ullswater.</div>
+          <Link
+                href="https://photos.app.goo.gl/6gLAXybsvHaATh2J8"
+                target="_blank"
+              >
+         <Image
+                  src={ WildSwimmingTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Jill about to board one t=of the early Glasgow trams"
                 />
-                <div className="flex flex-col mr-[10%] ml-[10%] bg-[#165b33] border-solid border-black border-2 text-white items-center mb-8 p-4"> </div>
+                </Link>
+           
+            </div>{" "}
+      </div>{/*End of individual dated entry photo album block*/} 
+      </div>           {/*  End of individual dated entry design and color template block */}
+           </div> {/*End of individual dated entry block*/}</div>    
+    
 
-                
-                <div className="flex flex-col mr-[10%] ml-[10%] bg-[#165b33] border-solid border-black border-2 text-white items-center mb-8 p-4">This map shows the Quaker places in the North West of England in 1652.  </div>            
-                 
-  </div>
-      </div>
-      </div>
-      </div>               
-     
      </div>
   );
 }
