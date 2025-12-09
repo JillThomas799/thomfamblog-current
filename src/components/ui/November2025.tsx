@@ -15,7 +15,7 @@ export default function November2025() {
   return (   
  <div className=" bg-black border-solid border-2 border-black mb-28"> {/*November block background*/}
     <div>
-       <div className="text-white text-center font-semibold text-2xl p-3 bg-[#41231c] border-solid border-2 border-[#b55b4b] m-2 animate-pulse">November 2025
+       <div className="text-white text-center font-semibold text-2xl p-3 bg-[#41231c] border-solid border-2 border-[#b55b4b] m-2">November 2025
         </div>
         <div className="FireworkContainer">
          <div className="pyro">
