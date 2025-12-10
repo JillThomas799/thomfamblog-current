@@ -45,7 +45,7 @@ export default function MobileNavbar() {
       </Button>
       <Sheet open={showMobileMenu} onOpenChange={setShowMobileMenu}>
         <SheetTrigger asChild>
-          <Button variant="ghost" size="icon">
+          <Button variant="ghost" size="icon" className="text-white">
             <MenuIcon className="h-5 w-5" />
           </Button>
           {/* <Button variant="ghost" className="font-bold text-lg">Menu</Button> */}
@@ -56,10 +56,6 @@ export default function MobileNavbar() {
           </SheetHeader>
           <nav className="flex flex-col space-y-4 mt-6">
             <Button variant="ghost" className="flex items-center gap-3 justify-start font-bold b-solid bg-transparent dark:bg-black p-6" asChild>
-              <Link href="/">
-                <HomeIcon className="w-4 h-4" />
-                Home
-              </Link>
             </Button>
 
             {isSignedIn ? (
@@ -92,8 +88,8 @@ export default function MobileNavbar() {
               </>
             ) : (
               <SignInButton mode="modal">
-                <Button variant="default" className="w-full">
-                  Sign In/Register
+                <Button variant="default" className="w-full text-white-500 text-wrap font-bold bg-blue-500 pt-6 pb-6 ">
+                  Sign In, Register
                 </Button>
               </SignInButton>
             )}
