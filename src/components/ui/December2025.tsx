@@ -123,7 +123,7 @@ export default function December2025() {
         <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 7th December 2025, Sunday</div> {/*End of news date block*/} 
         <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#bb252b]">Sunday lunch with our friends Robin and Cathy and the dogs Wilf and Nell at the Sun Inn, Pooley Bridge, Ullswater.</div> {/*End of news header block*/}
         
-         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#bb252b] pb-2 pt-2 mr-[2%] ml-[2%] mt-5 mb-4  justify-center text-center">
+         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#bb252b] pb-2 pt-2 pr-4 pl-4 mr-[2%] ml-[2%] mt-5 mb-4  justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#bb252b]">
               It was to have been a lovely Winter's day walking at Pooley Bridge, Ullswater but unfortunately the weather had other ideas.... However there was a plan B in place, in that it had already been agreed that the <Link href="https://www.suninnpooleybridgepub.co.uk/" target="_blank" className="underline decoration-black text-yellow-400 font-semibold">Sun Inn</Link> at Pooley Bridge would be a suitable alternative for a prolonged Sunday lunch should the weather be very unsuitable and so it proved.
               {" "}
@@ -159,7 +159,7 @@ export default function December2025() {
         <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 12th December 2025, Wednesday</div> {/*End of news date block*/} 
         <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#bb252b]">London, Cambridge and the South East Short Break and Christmas Gift Dispatches: Day 1 - Arrival in the South East to see relatives.</div> {/*End of news header block*/}
         
-         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#bb252b] pb-2 pt-2 mr-[2%] ml-[2%] mt-5 mb-4  justify-center text-center">
+         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#bb252b] pb-2 pt-2 pr-4 pl-4 mr-[2%] ml-[2%] mt-5 mb-4  justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#bb252b]">  It was that time of year again and so we packed our bags and set off for the South East and South of England for a pre-Christmas visit to our relatives in those distant and far-off lands (both geographically and culturally)...  Harry was back home working and had been put in charge of looking after Lennie.....
 </div>
 </div>
@@ -174,7 +174,10 @@ export default function December2025() {
         <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 13th December 2025, Sunday</div> {/*End of news date block*/} 
         <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#bb252b]">London, Cambridge and the South East Short Break and Christmas Gift Dispatches: Day 2 - Cambridge for the day, exploring the history of computing and a ride on the Park and Ride bus service... </div> {/*End of news header block*/}
         
-         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#bb252b] pb-2 pt-2 pr-3 pl-3 mr-[2%] ml-[2%] mt-5 mb-4  justify-left text-left">Today, we were off to Cambridge for the day. There are many museums in Cambridge but unfortunately not all are open on a Sunday. The Fitzwilliam Museum was an obvious contender but decided, in view of a British Museum visit planned for Monday, to instead head to the slightly more niche <Link href="https://www.computinghistory.org.uk/" target="_blank" className="underline decoration-black text-yellow-400 font-semibold">Centre for Computing History</Link>.
+         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#bb252b] pb-2 pt-2 pr-3 pl-3 mr-[2%] ml-[2%] mt-5 mb-4  justify-center text-center">Today, we were off to Cambridge for the day. There are many museums in Cambridge but unfortunately not all are open on a Sunday. The Fitzwilliam Museum was an obvious contender but we decided, in view of a forthcoming British Museum visit planned for Monday, to instead head to the slightly more niche <Link href="https://www.computinghistory.org.uk/" target="_blank" className="underline decoration-black text-yellow-400 font-semibold">Centre for Computing History.</Link> This link contains lots of information about the work of the museum, its activities, projects and future events. 
+        <br />
+        <br />
+        It was a veritable trip back in time and it was good to see that the many women pioneers, who usually do not gain much prominence, were highlighted. It was also interesting how the period of computing between 1981 and 1986 seemed to be a veritable 'black-hole' for us in terms of memory, probably due to the fact we were at Medical School during this period busy cramming our heads to the brim with the required medical learning and computers were the last things on our minds!...
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#bb252b]">  
 </div>
 </div>
