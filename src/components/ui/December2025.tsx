@@ -9,6 +9,7 @@ import KendalMeetingHouse from '/public/imagesresized/KendalMeetingHouse.jpg';
 import QuakerTapestryMuseum from '/public/imagesresized/QuakerTapestryMuseum.jpg';
 import QuakerLocations1652 from '/public/imagesresized/QuakerLocations1652.jpg';
 import WildSwimmingTitled from '/public/imagesresized/WildSwimmingTitled.jpg';
+import CenterComputingHistoryBTTitled from '/public/imagesresized/CenterComputingHistoryBTTitled.jpg';
 
 
 export default function December2025() {
@@ -143,7 +144,7 @@ export default function December2025() {
          <Image
                   src={ WildSwimmingTitled }
                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of Jill about to board one t=of the early Glasgow trams"
+                  alt="Photo of Cathy by the outdoor sauna hut by Ullswater lake."
                 />
                 </Link>
            
@@ -174,11 +175,31 @@ export default function December2025() {
         <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 13th December 2025, Sunday</div> {/*End of news date block*/} 
         <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#bb252b]">London, Cambridge and the South East Short Break and Christmas Gift Dispatches: Day 2 - Cambridge for the day, exploring the history of computing and a ride on the Park and Ride bus service... </div> {/*End of news header block*/}
         
-         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#bb252b] pb-2 pt-2 pr-3 pl-3 mr-[2%] ml-[2%] mt-5 mb-4  justify-center text-center">Today, we were off to Cambridge for the day. There are many museums in Cambridge but unfortunately not all are open on a Sunday. The Fitzwilliam Museum was an obvious contender but we decided, in view of a forthcoming British Museum visit planned for Monday, to instead head to the slightly more niche <Link href="https://www.computinghistory.org.uk/" target="_blank" className="underline decoration-black text-yellow-400 font-semibold">Centre for Computing History.</Link> This link contains lots of information about the work of the museum, its activities, projects and future events. 
+         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#bb252b] pb-2 pt-2 pr-3 pl-3 mr-[2%] ml-[2%] mt-5 mb-4  justify-center text-center"><p>Today, we were off to Cambridge for the day. There are many museums in Cambridge but unfortunately not all are open on a Sunday. The Fitzwilliam Museum was an obvious contender but we decided, in view of a forthcoming British Museum visit planned for Monday, to instead head to the slightly more niche <Link href="https://www.computinghistory.org.uk/" target="_blank" className="underline decoration-black text-yellow-400 font-semibold">Centre for Computing History.</Link> The link contains lots of information about the work of the museum, its activities, projects and future events. It is sited tucked away on a commercial park, so if visiting, we would advise taking careful note of the 'How to find us' instructions. It is a few miles out of the centre.</p>
         <br />
         <br />
-        It was a veritable trip back in time and it was good to see that the many women pioneers, who usually do not gain much prominence, were highlighted. It was also interesting how the period of computing between 1981 and 1986 seemed to be a veritable 'black-hole' for us in terms of memory, probably due to the fact we were at Medical School during this period busy cramming our heads to the brim with the required medical learning and computers were the last things on our minds!...
+        <p className="m-4">It was a veritable trip back in time and it was good to see that the many women pioneers, who usually do not gain much prominence, were highlighted. It was also interesting how the period of computing between 1981 and 1986 seemed to be a veritable 'black-hole' for us in terms of memory, probably due to the fact we were at Medical School during this period busy cramming our heads to the brim with the required medical learning and computers were the last things on our minds!...</p>
+            <br />
+              <br />
+              <p className="m-4">Needless to say Bernard succumbed to the temptation to play on all the arcade video games from our past, but he was eventually dragged away and we headed over to the other side of the city to pick up the Park and Ride into the City Centre. Needless to say it was <em>very</em> busy on the bus. It is clearly very popular and cost us just £4.00 each to park and ride for the day. This is in contrast to parking for over 5 hours in one of the car parks on a Sunday which can set you back anywhere between £29.00 and £37.00 !</p>
+<br />
+              <br />
+              <p className="m-4">We were lucky to be able to find a table for lunch at Café au Chocolat on Green Street, so we appreciated our well-earned crepes before heading off to the Cambridge University and Heffer's book shops. It was a very busy but enjoyable day albeit a reminder just how busy Cambridge is...</p>
+
+
+         <div className="m-1 p-1 font-normal  border-gray-800 border-solid border-2 bg-[#165b33] mb-6">Click on the image below to open the album <br /> of our day in Cambridge, including the Center for Computing History and the Park and Ride experience.</div>
+          <Link
+                href="https://photos.app.goo.gl/R3TmzpGZzUah99UDA"
+                target="_blank"
+              >
+         <Image
+                  src={ CenterComputingHistoryBTTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Bernard playing the video game 'Pong'"
+                />
+                </Link>
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#bb252b]">  
+              
 </div>
 </div>
 </div>
