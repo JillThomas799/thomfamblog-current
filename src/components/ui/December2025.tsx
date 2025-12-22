@@ -10,6 +10,7 @@ import QuakerTapestryMuseum from '/public/imagesresized/QuakerTapestryMuseum.jpg
 import QuakerLocations1652 from '/public/imagesresized/QuakerLocations1652.jpg';
 import WildSwimmingTitled from '/public/imagesresized/WildSwimmingTitled.jpg';
 import CenterComputingHistoryBTTitled from '/public/imagesresized/CenterComputingHistoryBTTitled.jpg';
+import CordonBleuCakesTitled from '/public/imagesresized/CordonBleuCakesTitled.jpg';
 
 
 export default function December2025() {
@@ -212,9 +213,36 @@ export default function December2025() {
       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#165b33]">
          <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
         <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 14th December 2025, Monday</div> {/*End of news date block*/} 
-        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#bb252b]">London, Cambridge and the South East Short Break and Christmas Gift Dispatches: Day 3 - Day in London with Bernard's brother to catch up on news and see the Iranian and Islamic galleries at the British Museum.</div> {/*End of news header block*/}
+        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#bb252b]">London, Cambridge and the South East Short Break and Christmas Gift Dispatches: Day 3 - Day in London with Bernard's brother to catch up on news and to see the Rahim Irvani Gallery of Ancient Iran - Room 52 and the Albukhary Gallery of the Islamic World - Rooms 42 and 43, at the British Museum.</div> {/*End of news header block*/}
         
          <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#bb252b] pb-2 pt-2 mr-[2%] ml-[2%] mt-5 mb-4  justify-center text-center">
+          <p className="m-4">Today, we had agreed to meet up with Bernard's brother for the day in London, so the first challenge was of trying to decipher Greater Anglia rail's ticketing and fare structure! A kind and helpful member of staff at the station helped us as we struggled to purchase our tickets at the ticketing machine (there is no ticket office) .She informed us that there had been a recent change such that to qualify for an off-peak return, you had to be leaving London Liverpool Street before 16.00 otherwise it would cost significantly more, the problem being that the last train out before 16.00 was 15.36 which made the schedule for the day somewhat tighter than anticipated.....! </p>
+          <p className="m-4"> and where better to go with our British Museum membership tickets than the British Museum? Not least because it has a very pleasant members café upstairs....</p>      
+          <br />
+              <br />       
+            <p className="m-4">After refreshing ourselves with coffees, we headed towards the Rahim Irvani Gallery of Ancient Iran - Room 52 and the Albukhary Gallery of the Islamic World - Rooms 42 and 43. </p>
+       
+          <p className="m-4">The Albukhary Gallery of the Islamic World opened on the 18th October 2018 and consists of 2 rooms, room 42 and room 43, which present an alternative history of the world, displaying the material culture of a region which stretches from West Africa to the Malay World, from the 7th century to the present day. The experience of visiting the gallery is probably best described by this article in <em>The Guardian</em> newspaper around the time of its opening in October 2018: <br /> <Link href="https://www.theguardian.com/artanddesign/2018/oct/16/british-museum-albukhary-foundation-gallery-of-the-islamic-world-review" target="_blank" className="underline decoration-black text-yellow-400 font-semibold">A soaring miracle of art' – Albukhary Gallery of the Islamic World review.</Link></p>
+            <br />
+              <br />
+              <p className="m-4">The gallery is extremely well-conceived and it is well worth a visit. It is the sort of gallery which really requires multiple visits to allow time for reflection and then retuning to look at in more detail. </p>
+<br />
+              <br />
+              <p className="m-4">It was then time for lunch, so we crossed the road for the convenience of <Link href="https://www.greeneking.co.uk/pubs/greater-london/museum-tavern" target="_blank" className="underline decoration-black text-yellow-400 font-semibold">Museum Tavern,</Link> in Bloomsbury which was busy but suited our purposes fine and the food was good.</p>
+
+
+         <div className="m-1 p-1 font-normal  border-gray-800 border-solid border-2 bg-[#165b33] mb-6">Click on the image below to open the album <br /> of our day in London visiting the British Museum, lunch at the Museum Tavern and then cake purchase at the Cordon-Bleu school of cookery..</div>
+          <Link
+                href="https://photos.app.goo.gl/oRRt37ub1Q4NdwXV6"
+                target="_blank"
+              >
+         <Image
+                  src={ CordonBleuCakesTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Bernard playing the video game 'Pong'"
+                />
+                </Link>
+
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#bb252b]">  
 </div>
 </div>
