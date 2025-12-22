@@ -288,7 +288,7 @@ export default function December2025() {
         <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 17th December 2025, Wednesday</div> {/*End of news date block*/} 
         <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#bb252b]">London, Cambridge and the South East Short Break and Christmas Gift Dispatches: Day 5 - A detour to see Bernard's dad and then the long journey home to the wet, windy but very beloved (and quiet) North.</div> {/*End of news header block*/}
         
-         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#bb252b] pb-2 pt-10 mr-[2%] ml-[2%] mt-5 mb-4  justify-center text-center">
+         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#bb252b] pb-8 pt-4 pr-4 pl-4 mr-[2%] ml-[2%] mt-5 mb-4  justify-center text-center">
           Before heading off home, we took some photos of Jill's brother and sister-in-law's garden, which they had fully landscaped earlier this year, and which we have added to the album below. It is looking very good. 
           <br />
           <br />
