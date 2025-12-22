@@ -11,6 +11,9 @@ import QuakerLocations1652 from '/public/imagesresized/QuakerLocations1652.jpg';
 import WildSwimmingTitled from '/public/imagesresized/WildSwimmingTitled.jpg';
 import CenterComputingHistoryBTTitled from '/public/imagesresized/CenterComputingHistoryBTTitled.jpg';
 import CordonBleuCakesTitled from '/public/imagesresized/CordonBleuCakesTitled.jpg';
+import RHSHyde161225_1 from '/public/imagesresized/RHSHyde161225_1.jpg';
+import RHSHyde161225_2 from '/public/imagesresized/RHSHyde161225_2.jpg';
+import Alan171225Titled from '/public/imagesresized/Alan171225Titled.jpg';
 
 
 export default function December2025() {
@@ -256,10 +259,21 @@ export default function December2025() {
   <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#165b33]">
          <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
-        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 15th December 2025, Tuesday</div> {/*End of news date block*/} 
+        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 16th December 2025, Tuesday</div> {/*End of news date block*/} 
         <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#bb252b]">London, Cambridge and the South East Short Break and Christmas Gift Dispatches: Day 4 - Christmas lunch at RHS Hyde Hall.</div> {/*End of news header block*/}
         
-         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#bb252b] pb-2 pt-2 mr-[2%] ml-[2%] mt-5 mb-4  justify-center text-center">
+         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#bb252b] pr-4 pl-4 pt-4 pb-8 mr-[2%] ml-[2%] mt-5 mb-4  justify-center text-center">
+          Today it was time for our annual Christmas lunch with Jill's brother and sister-in-law. It made for a very pleasant contrast after recent days to have a more relaxed day, with a gentle stroll around the Royal Horticultural Society Gardens at Hyde Hall before having a lovely Christmas lunch at the Hill-top lodge restaurant in the gardens.
+          <Image
+                  src={ RHSHyde161225_1 }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-black-400 border-4 mt-8 mb-11 rounded-[70%] transform transition hover:scale-150"
+                  alt="Photo of Christmas lunch at Hyde 1"
+                />
+                <Image
+                  src={ RHSHyde161225_2 }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%] transform transition hover:scale-150"
+                  alt="Photo of Christmas lunch at Hyde 2"
+                />
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#bb252b]">  
 </div>
 </div>
@@ -271,10 +285,28 @@ export default function December2025() {
   <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#165b33]">
          <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
-        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 16th December 2025, Wednesday</div> {/*End of news date block*/} 
+        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 17th December 2025, Wednesday</div> {/*End of news date block*/} 
         <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#bb252b]">London, Cambridge and the South East Short Break and Christmas Gift Dispatches: Day 5 - A detour to see Bernard's dad and then the long journey home to the wet, windy but very beloved (and quiet) North.</div> {/*End of news header block*/}
         
-         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#bb252b] pb-2 pt-2 mr-[2%] ml-[2%] mt-5 mb-4  justify-center text-center">
+         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#bb252b] pb-2 pt-10 mr-[2%] ml-[2%] mt-5 mb-4  justify-center text-center">
+          Before heading off home, we took some photos of Jill's brother and sister-in-law's garden, which they had fully landscaped earlier this year, and which we have added to the album below. It is looking very good. 
+          <br />
+          <br />
+          <p className="m-4">Then we took a slight detour on the way home to call in and see Bernard's dad.</p>
+
+         
+
+          <div className="m-2 p-2 font-normal  border-gray-800 border-solid border-2 bg-[#165b33] mb-6">Click on the image below to open the Winter garden album <br /> featuring Jill's brother's landscaped garden and our visit to Bernard's dad.</div>
+          <Link
+                href=" https://photos.app.goo.gl/8A3LzEQKDQ1supA96"
+                target="_blank"
+              >
+         <Image
+                  src={ Alan171225Titled }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[50%] lg:w-[40%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Alan eating a mince pie."
+                />
+                </Link>
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#bb252b]">  
 </div>
 </div>
