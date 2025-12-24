@@ -2,10 +2,10 @@ import "./augustcyclist.css";
 
 export default function AugustCyclist() {
   return (
-    <div className="scale-[70%] translate-x-[-31px] md:scale-[53%] md:translate-x-[-21%]">
-      <div id="AugustHeader">
+    <div>
+      {/* <div id="AugustHeader"> */}
         <div className="bikeRiding">
-          <div className="clouds"></div>
+          {/* <div className="clouds"></div> */}
           {/* <div className="shadow"></div> */}
           <div className="cyclist">
             <div id="bike" className="scale-[70%] translate-x-[-50px] md:scale-[100%]">
@@ -22,7 +22,7 @@ export default function AugustCyclist() {
               <div className="chain"></div>
             </div>{" "}
             {/*Closing div for bike*/}
-            <div id="girl" className="scale-[70%] translate-x-[-50px] md:scale-[85%]">
+            <div id="girl" className="scale-[70%] translate-x-[-50px] translate-y-[-15px] md:scale-[85%]">
               <div className="top"></div>
               <div className="rightArm"></div>
               <div className="leftArm"></div>
@@ -44,7 +44,7 @@ export default function AugustCyclist() {
           {/*closing div for class cyclist*/}
         </div>{" "}
         {/*Closing div for class bike-riding*/}
-      </div>{" "}
+      {/* </div>{" "} */}
       {/*closing div for id AugustHeader*/}
     </div>
   );

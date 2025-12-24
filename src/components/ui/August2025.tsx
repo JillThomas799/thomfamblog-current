@@ -18,10 +18,10 @@ export default function August2025() {
     <div className=" bg-[#3167a7] border-solid border-2 border-[#22311d] mb-28"> {/*August block background*/}
         <div className="text-[#f9d8a6] text-center font-semibold text-2xl p-3 bg-[#5c87bc] border-solid border-2 border-[#22311d] mt-2 mb-0">August 2025
         </div> {/*End of August month block*/}
-       <AugustCyclist />
+       <div><AugustCyclist /> </div>
        
 
-<div className="flex items-start">
+<div className="flex items-start mt-[50%]">
    <div className="flex flex-col max-w-full leading-5 p-4 m-8 border-solid  border-gray-800 border-[2px] bg-[#fecc6d] text-[#3C4142]] rounded-e-xl rounded-es-xl dark:bg-[#fecc6d]">
       <div className="flex items-center space-x-2 rtl:space-x-reverse">
          <div className="font-bold text-lg text-[#3C4142] dark:text-[#3C4142]">What's new this month?</div>
