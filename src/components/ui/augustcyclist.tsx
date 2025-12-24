@@ -2,7 +2,7 @@ import "./augustcyclist.css";
 
 export default function AugustCyclist() {
   return (
-    <div className="scale-[70%] translate-x-[-31px] md:scale-[50%] md:translate-x-[-20%]">
+    <div className="scale-[70%] translate-x-[-31px] md:scale-[53%] md:translate-x-[-21%]">
       <div id="AugustHeader">
         <div className="bikeRiding">
           <div className="clouds"></div>
