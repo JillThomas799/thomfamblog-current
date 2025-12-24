@@ -18,7 +18,7 @@ export default function August2025() {
     <div className=" bg-[#5A7833] border-solid border-2 border-[#22311d] mb-28"> {/*August block background*/}
         <div className="text-[#9B5F38] text-center font-bold text-2xl p-3 bg-[#A5AE92] border-solid border-2 border-[#22311d] mt-8 mb-0 mr-4 ml-4">August 2025
         </div> {/*End of August month block*/}
-       <div className="md: scale-125"><AugustCyclist /> </div>
+       <div className="md:scale-125"><AugustCyclist /> </div>
        
 
 <div className="flex items-start  mt-[120%] md:mt-[50vh]">
@@ -136,7 +136,7 @@ export default function August2025() {
               >
                 <Image
                   src={ WestminsterAbbeyTitled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[80%] lg:w-[55%] border-solid border-[#5A7833] border-4 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[90%] lg:w-[55%] border-solid border-[#5A7833] border-4 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of Westminster Abbey"
                 />
               </Link>
@@ -186,7 +186,7 @@ export default function August2025() {
               >
                 <Image
                   src={ dinosaurrEvolutionTitled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[80%] lg:w-[55%] border-solid border-[#5A7833] border-4 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[90%] lg:w-[55%] border-solid border-[#5A7833] border-4 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of a dinosaur"
                 />
               </Link>
@@ -231,7 +231,7 @@ export default function August2025() {
               >
                 <Image
                   src={ Muncaster23082025Titled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[80%] lg:w-[65%] border-solid border-[#5A7833] border-4 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[90%] lg:w-[65%] border-solid border-[#5A7833] border-4 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of Muncaster Castle"
                 />
               </Link>
