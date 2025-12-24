@@ -117,26 +117,26 @@ function PostCard({ post, dbUserId }: { post: Post; dbUserId: string | null }) {
 
           {/* LIKE & COMMENT BUTTONS */}
           <div className="flex items-center pt-2 space-x-4 text-neutral-800 dark:text-neutral-200">
-            {user ? (
+               {user ? (
               <Button
                 variant="ghost"
-                size="md"
+                size="sm"
                 className={`text-muted-foreground gap-2 ${
                   hasLiked ? "text-red-500 hover:text-red-600" : "hover:text-red-500"
                 }`}
                 onClick={handleLike}
               >
                 {hasLiked ? (
-                  <HeartIcon className="size-8 fill-current" />
+                  <HeartIcon className="size-5 fill-current" />
                 ) : (
-                  <HeartIcon className="size-8" />
+                  <HeartIcon className="size-5" />
                 )}
                 <span>{optimisticLikes}</span>
               </Button>
             ) : (
               <SignInButton mode="modal">
                 <Button variant="ghost" size="sm" className="text-muted-foreground gap-2">
-                  <HeartIcon className="size-5" />
+                  <HeartIcon className="size-5"/>
                   <span>{optimisticLikes}</span>
                 </Button>
               </SignInButton>
