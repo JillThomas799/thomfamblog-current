@@ -26,7 +26,7 @@ function PostCard({ post, dbUserId }: { post: Post; dbUserId: string | null }) {
   const [optimisticLikes, setOptmisticLikes] = useState(post._count.likes);
   const [showComments, setShowComments] = useState(false);
 
-  const handleLike = async () => {
+ const handleLike = async () => {
     if (isLiking) return;
     try {
       setIsLiking(true);
@@ -72,7 +72,7 @@ function PostCard({ post, dbUserId }: { post: Post; dbUserId: string | null }) {
   };
 
   return (
-    <Card className="overflow-hidden  bg-neutral-300 dark:bg-slate-900 font-semibold">
+    <Card className="overflow-hidden">
       <CardContent className="p-4 sm:p-6">
         <div className="space-y-4">
           <div className="flex space-x-3 sm:space-x-4">
@@ -83,16 +83,16 @@ function PostCard({ post, dbUserId }: { post: Post; dbUserId: string | null }) {
             </Link>
 
             {/* POST HEADER & TEXT CONTENT */}
-            <div className="flex-1 min-w-0 ">
+            <div className="flex-1 min-w-0">
               <div className="flex items-start justify-between">
-                <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-2 truncate ">
+                <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-2 truncate">
                   <Link
                     href={`/profile/${post.author.username}`}
                     className="font-semibold truncate"
                   >
                     {post.author.name}
                   </Link>
-                  <div className="flex items-center space-x-2 text-sm ">
+                  <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                     <Link href={`/profile/${post.author.username}`}>@{post.author.username}</Link>
                     <span>•</span>
                     <span>{formatDistanceToNow(new Date(post.createdAt))} ago</span>
@@ -110,14 +110,13 @@ function PostCard({ post, dbUserId }: { post: Post; dbUserId: string | null }) {
           {/* POST IMAGE */}
           {post.image && (
             <div className="rounded-lg overflow-hidden">
-              <img src={post.image} alt="Post content"  className="w-1/4 h-auto object-cover hover:w-full" />
-            
+              <img src={post.image} alt="Post content" className="w-full h-auto object-cover" />
             </div>
           )}
 
           {/* LIKE & COMMENT BUTTONS */}
-          <div className="flex items-center pt-2 space-x-4 text-neutral-800 dark:text-neutral-200">
-               {user ? (
+          <div className="flex items-center pt-2 space-x-4">
+            {user ? (
               <Button
                 variant="ghost"
                 size="sm"
@@ -136,7 +135,7 @@ function PostCard({ post, dbUserId }: { post: Post; dbUserId: string | null }) {
             ) : (
               <SignInButton mode="modal">
                 <Button variant="ghost" size="sm" className="text-muted-foreground gap-2">
-                  <HeartIcon className="size-5"/>
+                  <HeartIcon className="size-5" />
                   <span>{optimisticLikes}</span>
                 </Button>
               </SignInButton>
@@ -144,8 +143,8 @@ function PostCard({ post, dbUserId }: { post: Post; dbUserId: string | null }) {
 
             <Button
               variant="ghost"
-              size="md"
-              className="text-neutral-800 dark:text-neutral-200 gap-2 font-bold  hover:text-blue-500"
+              size="sm"
+              className="text-muted-foreground gap-2 hover:text-blue-500"
               onClick={() => setShowComments((prev) => !prev)}
             >
               <MessageCircleIcon
