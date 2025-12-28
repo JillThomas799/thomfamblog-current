@@ -158,7 +158,7 @@ export default function Bestof2025() {
 <div className="text-white text-center font-semibold text-2xl pt-3 pb-4 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">
             <div className="border-black border-4 rounded-md text-white mr-[30%] ml-[30%] pb-4 pt-2 bg-[#165b33]">Events</div>
             <div>
-             <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pr-8 border-solid border-4 border-[#F0F0F0]">Harry's PhD Graduation in Cardiff.
+             <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pr-8 pl-6 border-solid border-4 border-[#F0F0F0]">Harry's PhD Graduation in Cardiff.
 
               <Image
                   src={ harrybiophoto }
@@ -171,7 +171,7 @@ export default function Bestof2025() {
             </div>
             <br />
               <br />
-            <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pr-8 border-solid border-4 border-[#F0F0F0]">Bernard learns to fly an Airbus 320
+            <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pr-8 pl-6 border-solid border-4 border-[#F0F0F0]">Bernard learns to fly an Airbus 320
 
               <Image
                   src={ pilotbPassed }
@@ -223,6 +223,14 @@ export default function Bestof2025() {
             Obtaining employment as a Digital and Technology Solutions professional with one of the local councils. 
             </div>
         </div>
+
+
+         <div div className="text-white text-center font-semibold text-2xl pt-8 pb-4 pl-4 pr-4 bg-black border-solid border-2 border-[#165b33] m-2">
+So it has been a good year with many happy memories. We have compiled a 'Best of 2025' photo album which you can open to see and read about all the photo highlights by clicking on the photo below.
+            </div>
+           
+            
+        
 
        
         
