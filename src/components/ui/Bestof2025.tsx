@@ -1,6 +1,17 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import GlynebourneDeparture from '/public/imagesresized/GlynebourneDeparture.jpg';
+import GlynebourneAuditorium from '/public/imagesresized/GlynebourneAuditorium.jpg';
 import SuttonHoo from '/public/imagesresized/SuttonHoo.jpg';
+import SuttonHooTranmereJill from '/public/imagesresized/SuttonHooTranmereJill.jpg';
+import BamburghCastle from '/public/imagesresized/BamburghCastle.jpg';
+import BamburghBeach2 from '/public/imagesresized/BamburghBeach2.jpg';
+import WinchesterCathedralExternal from '/public/imagesresized/WinchesterCathedralExternal.jpg';
+import WinchesterMortuaryChests from '/public/imagesresized/WinchesterMortuaryChests.jpg';
+import HMSVictory from '/public/imagesresized/HMSVictory.jpg';
+import HMSWarrior from '/public/imagesresized/HMSWarrior.jpg';
+import Stonehenge from '/public/imagesresized/Stonehenge.jpg';
+import StonehengeArrival from '/public/imagesresized/StonehengeArrival.jpg';
 
 export default function Bestof2025() {
   return ( 
@@ -10,80 +21,80 @@ export default function Bestof2025() {
             <div className="border-black border-4 rounded-md text-white mr-[30%] ml-[30%] pb-2 pt-2 bg-[#165b33]">Holidays - Highlights</div>
             <div className="text-wrap">
               <br />
-              Holidays visiting Family in South East: 
-             <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pr-8">Sutton Hoo  
+              <div className="bg-[#165b33] width-full h-auto p-2">Holidays visiting Family in South East: </div>
+             <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pr-8 border-solid border-4 border-[#F0F0F0] ">Sutton Hoo  
                 <Image
                   src={ SuttonHoo }
                   className=" w-[50%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
                   alt="Photo of recreation of boat skeleton Sutton Hoo" />
                   <Image
-                  src={ SuttonHoo }
+                  src={ SuttonHooTranmereJill }
                   className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
                   alt="Photo of recreation of boat skeleton Sutton Hoo" />
                   </div> 
               <br />
-                <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pl-4 pr-8">Glynebourne Opera to see Verdi's Falstaff
+                <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pl-4 pr-8 border-solid border-4 border-[#F0F0F0]">Glynebourne Opera to see Verdi's Falstaff
                 <Image
-                  src={ SuttonHoo }
+                  src={ GlynebourneDeparture }
                   className=" w-[50%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
                   alt="Photo of recreation of boat skeleton Sutton Hoo" />
                   <Image
-                  src={ SuttonHoo }
+                  src={ GlynebourneAuditorium }
                   className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
                   alt="Photo of recreation of boat skeleton Sutton Hoo" />
                   </div> 
               <br />
               <br />
-              Northumberland Coast
-             <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pl-4 pr-8">Bamburgh Castle, Northumbria Coast and Seahouses 
+              <div className="bg-[#165b33] width-full h-auto p-2">Northumberland Coast Holiday</div>
+             <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pl-4 pr-8 border-solid border-4 border-[#F0F0F0]">Bamburgh Castle, Northumbria Coast and Seahouses 
                 <Image
-                  src={ SuttonHoo }
+                  src={ BamburghCastle }
                   className=" w-[50%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
                   alt="Photo of recreation of boat skeleton Sutton Hoo" />
                   <Image
-                  src={ SuttonHoo }
+                  src={ BamburghBeach2 }
                   className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
                   alt="Photo of recreation of boat skeleton Sutton Hoo" />
                   </div> 
               <br />
               <br />
-            Portsmouth: 
+            <div className="bg-[#165b33] width-full h-auto p-2">Portsmouth Holiday: </div>
              <br />
-              <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pr-8">Portsmouth Historic Dockyard 
+              <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pr-8 border-solid border-4 border-[#F0F0F0]">Portsmouth Historic Dockyard 
                 <Image
-                  src={ SuttonHoo }
+                  src={ HMSVictory }
                   className=" w-[50%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
                   alt="Photo of recreation of boat skeleton Sutton Hoo" />
                   <Image
-                  src={ SuttonHoo }
-                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
-                  </div> 
-             <br />
-               <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pr-8">Winchester Cathedral 
-                <Image
-                  src={ SuttonHoo }
-                  className=" w-[50%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
-                  <Image
-                  src={ SuttonHoo }
+                  src={ HMSWarrior }
                   className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
                   alt="Photo of recreation of boat skeleton Sutton Hoo" />
                   </div> 
              <br />
-               <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pr-8">Stonehenge 
+               <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pr-8 border-solid border-4 border-[#F0F0F0]">Winchester Cathedral 
                 <Image
-                  src={ SuttonHoo }
+                  src={ WinchesterCathedralExternal }
                   className=" w-[50%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
                   alt="Photo of recreation of boat skeleton Sutton Hoo" />
                   <Image
-                  src={ SuttonHoo }
+                  src={ WinchesterMortuaryChests }
+                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
+                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  </div> 
+             <br />
+               <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pr-8 border-solid border-4 border-[#F0F0F0]">Stonehenge 
+                <Image
+                  src={ StonehengeArrival }
+                  className=" w-[50%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
+                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  <Image
+                  src={ Stonehenge }
                   className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
                   alt="Photo of recreation of boat skeleton Sutton Hoo" />
                   </div> 
               <br />
               <br />
-            Glasgow: 
+            <div className="bg-[#165b33] width-full h-auto p-2">Glasgow Holiday: </div>
             <br />
             'Hamilton' live, 
             <br />
