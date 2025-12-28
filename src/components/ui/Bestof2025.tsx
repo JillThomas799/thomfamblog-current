@@ -12,6 +12,16 @@ import HMSVictory from '/public/imagesresized/HMSVictory.jpg';
 import HMSWarrior from '/public/imagesresized/HMSWarrior.jpg';
 import Stonehenge from '/public/imagesresized/Stonehenge.jpg';
 import StonehengeArrival from '/public/imagesresized/StonehengeArrival.jpg';
+import GlasgowTramJT from '/public/imagesresized/GlasgowTramJT.jpg';
+import TallShipBT from '/public/imagesresized/TallShipBT.jpg';
+import ArmadilloBernard from '/public/imagesresized/ArmadilloBernard.jpg';
+import RestisPoliticsStage from '/public/imagesresized/RestisPoliticsStage.jpg';
+import KelvingroveExteriorBT from '/public/imagesresized/KelvingroveExteriorBT.jpg';
+import KelvingroveOrgan from '/public/imagesresized/KelvingroveOrgan.jpg';
+import HamiltonJill from '/public/imagesresized/HamiltonJill.jpg';
+import HamiltonPoster from '/public/imagesresized/HamiltonPoster.jpg';
+import pilotbPassed from '/public/imagesresized/pilotbPassed.jpg';
+import harrybiophoto from '/public/imagesresized/harrybiophoto.jpg';
 
 export default function Bestof2025() {
   return ( 
@@ -21,7 +31,7 @@ export default function Bestof2025() {
             <div className="border-black border-4 rounded-md text-white mr-[30%] ml-[30%] pb-2 pt-2 bg-[#165b33]">Holidays - Highlights</div>
             <div className="text-wrap">
               <br />
-              <div className="bg-[#165b33] width-full h-auto p-2">Holidays visiting Family in South East: </div>
+              <div className="bg-[#165b33] width-full h-auto p-2">3 Holidays visiting Family in South East: </div>
              <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pr-8 border-solid border-4 border-[#F0F0F0] ">Sutton Hoo  
                 <Image
                   src={ SuttonHoo }
@@ -96,30 +106,104 @@ export default function Bestof2025() {
               <br />
             <div className="bg-[#165b33] width-full h-auto p-2">Glasgow Holiday: </div>
             <br />
-            'Hamilton' live, 
-            <br />
-            'Rest is Politics' live at SEC arena, 
-            <br />
-            Riverside Transport museum.
-            <br />
-            <br />
-            </div>
-        </div>
-<br />
-<br />
-        <div className="text-white text-center font-semibold text-2xl pt-3 pb-4 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">
-            <div className="border-black border-4 rounded-md text-white mr-[30%] ml-[30%] pb-4 pt-2 bg-[#165b33]">History</div>
-            <div>
-            Winchester Abbey and Westminster Abbey.
-              <br />
-            Stonehenge.
-              <br />
-            Lindisfarne/Holy Island
-            </div>
-        </div>
+            <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pr-8 border-solid border-4 border-[#F0F0F0]">'Hamilton' live
 
-        <br />
+              <Image
+                  src={ HamiltonPoster }
+                  className=" w-[50%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
+                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  <Image
+                  src={ HamiltonJill }
+                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
+                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+            </div>
+            <br />
+            <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pr-8 border-solid border-4 border-[#F0F0F0]">'Rest is Politics' live at SEC arena
+              <Image
+                  src={ ArmadilloBernard }
+                  className=" w-[50%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
+                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  <Image
+                  src={ RestisPoliticsStage }
+                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
+                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+            </div>
+            <br />
+            <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pr-8 border-solid border-4 border-[#F0F0F0]">Riverside Transport museum  and Tall Ship Glenlee
+              <Image
+                  src={ GlasgowTramJT }
+                  className=" w-[50%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
+                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  <Image
+                  src={ TallShipBT }
+                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
+                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+            </div>
+            <br />
+             <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pr-8 pl-6 border-solid border-4 border-[#F0F0F0]">Kelvingrove Art gallery and museum
+              <Image
+                  src={ KelvingroveExteriorBT }
+                  className=" w-[50%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
+                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  <Image
+                  src={ KelvingroveOrgan }
+                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
+                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+            </div>
+            <br />
+            </div>
+        </div>
 <br />
+<br />
+<div className="text-white text-center font-semibold text-2xl pt-3 pb-4 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">
+            <div className="border-black border-4 rounded-md text-white mr-[30%] ml-[30%] pb-4 pt-2 bg-[#165b33]">Events</div>
+            <div>
+             <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pr-8 border-solid border-4 border-[#F0F0F0]">Harry's PhD Graduation in Cardiff.
+
+              <Image
+                  src={ harrybiophoto }
+                  className=" w-[50%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
+                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  <Image
+                  src={ HamiltonJill }
+                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
+                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+            </div>
+            <br />
+              <br />
+            <div className="grid grid-cols-3 gap-4 bg-black mt-8 pt-8 pr-8 border-solid border-4 border-[#F0F0F0]">Bernard learns to fly an Airbus 320
+
+              <Image
+                  src={ pilotbPassed }
+                  className=" w-[50%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
+                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  <Image
+                  src={ HamiltonJill }
+                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[30%] transform transition hover:scale-150"
+                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+            </div>
+            <br />
+              <br />
+             </div>
+        </div>
+         <br />
+<br />
+
+<div className="text-white text-center font-semibold text-2xl pt-3 pb-4 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">
+            <div className="border-black border-4 rounded-md text-white mr-[30%] ml-[30%] pb-4 pt-2 bg-[#165b33]">Enjoying time with friends</div>
+            <div>
+            Robin and Kathy with their dogs Wilf and Nell, <br />
+            Pat and Dermot with their dog Archie, 
+             <br />
+             Moira and Geoff, 
+              <br />Paul and Kamla, 
+               <br />Tom.
+              <br />
+             </div>
+        </div>
+         <br />
+<br />
+  
         <div className="text-white text-center font-semibold text-2xl pt-3 pb-4 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">
             <div className="border-black border-4 rounded-md text-white mr-[30%] ml-[30%] pb-4 pt-2 bg-[#165b33]">Achievements</div>
             <div>
@@ -140,24 +224,8 @@ export default function Bestof2025() {
             </div>
         </div>
 
-        <br />
-<br />
-        <div className="text-white text-center font-semibold text-2xl pt-3 pb-4 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">
-            <div className="border-black border-4 rounded-md text-white mr-[30%] ml-[30%] pb-4 pt-2 bg-[#165b33]">Events</div>
-            <div>
-            Harry's PhD Graduation in Cardiff.
-              <br />
-            Elena's partner comes to live in Cumbria.
-            <br />
-            Glynebourne to see Verdi's Falstaff
-              <br />
-           Theatre Royal Glasgow 'Hamilton'.
-           <br />
-           Rest is Politics Live show at the SEC arena Glasgow.
-             <br />
-             Bernard's magical mystery tour Father's day trip to Flight Experience, Newcastle
-             </div>
-        </div>
+       
+        
     </div>
   );
 }
