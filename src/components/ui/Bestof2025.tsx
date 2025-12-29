@@ -29,6 +29,7 @@ import Archie from '/public/imagesresized/Archie.jpg';
 import WildSwimming from '/public/imagesresized/WildSwimming.jpg';
 import JillDec2025 from '/public/imagesresized/JillDec2025.jpg';
 import HarryCardiff from '/public/imagesresized/HarryCardiff.jpg';
+import Lennie20250815Titled from '/public/imagesresized/Lennie20250815Titled.jpg';
 
 export default function Bestof2025() {
   return ( 
@@ -195,7 +196,7 @@ export default function Bestof2025() {
 
 <div className="text-white text-center font-semibold text-lg md:text-2xl pt-3 pb-4 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">
             <div className="border-black border-2 md:border-4 rounded-md text-white mr-[5%] ml-[5%]  md:mr-[30%] md:ml-[30%] pb-2 pt-2 bg-[#165b33]">Enjoying time with friends</div>
-            <div className="sm:flex sm:flex-col lg:grid lg:grid-cols-5 gap-0">
+            <div className=":flex flex-col">
             <div className="bg-[#FDDC5C] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Moira and Geoff</div>
             <div className="bg-[#FDDC5C] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Robin and Cathy with their dogs Wilf and Nell
               <br />
@@ -285,8 +286,27 @@ export default function Bestof2025() {
                   alt="Photo of Harry at his PhD graduation"
                 />
                 </Link>
+
+                <div className="bg-[#165b33] p-6 font-normal">Lennie has also had a good year although, he says he is getting older and as such cannot be as entertaining as he used to be (he is now 13 years old). 
+                  <br />
+                    <br />
+                  We have compiled a 'Best of Lennie 2025' photo album which you can open by clicking on the photo below.</div>
+<br />
+<br />
+<Link
+                href="https://photos.app.goo.gl/u2ubkRjwvjAKU7eaA"
+                target="_blank"
+              >
+         <Image
+                  src={ Lennie20250815Titled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Harry at his PhD graduation"
+                />
+                </Link>
            
             </div>{" "}
+
+
 
     </div>
   );
