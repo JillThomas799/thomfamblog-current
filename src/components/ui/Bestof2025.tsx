@@ -29,160 +29,158 @@ import harrybiophotoTitled from '/public/imagesresized/harrybiophotoTitled.jpg';
 export default function Bestof2025() {
   return ( 
     <div className="bg-black h-[100%]">
-        <div className="sm:text-lg md:text-2xl  text-center text-[#FDDC5C] font-bold pt-10 pb-8 mb-8 border-[#bb252b] border-4 rounded-md bg-[#165b33] animate-pulse">THE BEST OF 2025</div>
-        <div className="text-white text-center font-semibold sm:text-lg md:text-2xl p-3 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">
-            <div className="border-black border-4 rounded-md text-white md:mr-[30%] md:ml-[30%] pb-2 pt-2 bg-[#165b33]">Holidays - Highlights</div>
+        <div className="text-lg md:text-2xl  text-center text-[#FDDC5C] font-bold pt-10 pb-8 mb-8 border-[#bb252b] border-4 rounded-md bg-[#165b33] animate-pulse">THE BEST OF 2025</div>
+        <div className="text-white text-center font-semibold text-lg md:text-2xl p-3 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">
+            <div className="border-black border-2 md:border-4 rounded-md text-white md:mr-[10%] md:ml-[10%] pb-2 pt-2 bg-[#165b33]">Holidays - Highlights</div>
             <div className="text-wrap">
               <br />
               <div className="bg-[#165b33] width-full h-auto p-2">3 Holidays visiting Family in South East: </div>
-             <div className="flex flex-col md:grid md:grid-cols-3 md:gap-4 bg-black mt-8 pt-8 pr-8 pl-4 border-solid border-4 border-[#F0F0F0] ">Sutton Hoo  
+             <div className="flex flex-col  text-xl md:text-2xl bg-black mt-8 pb-8 pt-8 pr-4  pl-4 border-solid border-2 md:border-4 border-[#F0F0F0] ">Sutton Hoo  
                 <Image
                   src={ SuttonHoo }
-                  className=" w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-4 mb-11 md:rounded-[30%] transform transition hover:scale-200"
+                  className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
                   alt="Photo of recreation of boat skeleton Sutton Hoo" />
                   <Image
                   src={ SuttonHooTranmereJill }
-                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of Jill in front of Tranmere House, Sutton Hoo." />
                   </div> 
               <br />
-                <div className="flex flex-col md:grid md:grid-cols-3 md:gap-4 bg-black mt-8 pt-6 pl-6 pl-4 pr-8 border-solid border-4 border-[#F0F0F0]">Glynebourne Opera to see Verdi's Falstaff
+                <div className="flex flex-col text-xl bg-black mt-8 pt-8 pb-8 pr-4 pl-4 border-solid border-2 md:border-4 border-[#F0F0F0] ">Glynebourne Opera to see Verdi's Falstaff
                 <Image
                   src={ GlynebourneDeparture }
-                  className=" w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-4 mb-11 md:rounded-[30%] transform transition hover:scale-150"
+                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
                   alt="Photo of Bernard and Jill departing to Glynebourne" />
                   <Image
                   src={ GlynebourneAuditorium }
-                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 md:rounded-[30%] transform transition hover:scale-150"
+                className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
                   alt="Photo of Bernard in the auditorium Glynebourne" />
                   </div> 
               <br />
               <br />
               <div className="bg-[#165b33] width-full h-auto p-2">Northumberland Coast Holiday</div>
-             <div className="flex flex-col md:grid md:grid-cols-3 md:gap-4 bg-black mt-8 pt-6 pl-6 pr-8 border-solid border-4 border-[#F0F0F0]">Bamburgh Castle, Northumbria Coast and Seahouses 
+             <div className="flex flex-col text-xl bg-black mt-8 pt-8 pb-8 pr-4 pl-4 border-solid border-2 md:border-4 border-[#F0F0F0] ">Bamburgh Castle, Northumbria Coast and Seahouses 
                 <Image
                   src={ BamburghCastle }
-                  className=" w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-4 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of Jill with Bamburgh Castle in the background" />
                   <Image
                   src={ BamburghBeach2 }
-                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of the beautiful beach at Bamburgh with Bamburgh Castle in the background." />
                   </div> 
               <br />
               <br />
-            <div className="bg-[#165b33] width-full h-auto mt-2 p-2">Portsmouth Holiday: </div>
-             <br />
-              <div className="flex flex-col md:grid md: md:grid-cols-3 md:gap-4 bg-black mt-4 pt-8 pl-6 pr-6 border-solid border-4 border-[#F0F0F0]">Portsmouth Historic Dockyard 
+            <div className="bg-[#165b33] width-full h-auto p-2">Portsmouth Holiday: </div>
+              <div className="flex flex-col text-xl bg-black mt-8 pt-8 pb-8 pr-4 pl-4 border-solid border-2 md:border-4 border-[#F0F0F0] ">Portsmouth Historic Dockyard 
                 <Image
                   src={ HMSVictory }
-                  className=" w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-4 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of HMS Victory" />
                   <Image
                   src={ HMSWarrior }
-                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of HMS Warrior" />
                   </div> 
              <br />
-               <div className="flex flex-col md:grid md:grid-cols-3 md:gap-4 bg-black mt-8 pt-8 pr-6 pl-6 border-solid border-4 border-[#F0F0F0]">Winchester Cathedral 
+               <div className="flex flex-col text-xl bg-black mt-8 pt-8 pb-8 pr-4 pl-4 border-solid border-2 md:border-4 border-[#F0F0F0] ">Winchester Cathedral 
                 <Image
                   src={ WinchesterCathedralExternal }
-                  className=" w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-4 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of exterior of Winchester Cathedral" />
                   <Image
                   src={ WinchesterMortuaryChests }
-                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of Mortuary chests of thought to be certain of the Anglo-Saxon Kings and Queens" />
                   </div> 
              <br />
-               <div className="flex flex-col md:grid md:grid-cols-3 md:gap-4 bg-black mt-8 pt-6 pl-6 pr-8 border-solid border-4 border-[#F0F0F0]">Stonehenge 
+               <div className="flex flex-col text-xl bg-black mt-8 pt-8 pb-8 pr-4 pl-4 border-solid border-2 md:border-4 border-[#F0F0F0] ">Stonehenge 
                 <Image
                   src={ StonehengeArrival }
-                  className=" w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-4 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of Bernard in front of main visitor hub at Stonehenge." />
                   <Image
                   src={ Stonehenge }
-                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of Stonehenge" />
                   </div> 
               <br />
               <br />
             <div className="bg-[#165b33] width-full h-auto p-2">Glasgow Holiday: </div>
-            <br />
-            <div className="gflex flex-col md:grid md:grid-cols-3 md:gap-4 bg-black mt-8 pt-6 pl-6 pr-8 border-solid border-4 border-[#F0F0F0]">'Hamilton' live
+            <div className="flex flex-col text-xl bg-black mt-8 pt-8 pb-8 pr-4 pl-4 border-solid border-2 md:border-4 border-[#F0F0F0] ">'Hamilton' live
 
               <Image
                   src={ HamiltonPoster }
-                  className=" w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-4 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of recreation of poster of Hamilton inside the Theatre Royal, Glasgow." />
                   <Image
                   src={ HamiltonJill }
-                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of Jill inside auditorium of Theatre Royal Glasgow." />
             </div>
             <br />
-            <div className="flex flex-col md:grid md:grid-cols-3 md:gap-4 bg-black mt-8 pt-8 pr-6 pl-6 border-solid border-4 border-[#F0F0F0]">'Rest is Politics' live at SEC arena
+            <div className="flex flex-col text-xl bg-black mt-8 pt-8 pb-8 pr-4 pl-4 border-solid border-2 md:border-4 border-[#F0F0F0] ">'Rest is Politics' live at SEC arena
               <Image
                   src={ ArmadilloBernard }
-                  className=" w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-4 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of Bernard outside the SEC arena Amradillo" />
                   <Image
                   src={ RestisPoliticsStage }
-                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of stage awaiting start of show." />
             </div>
             <br />
-            <div className="flex flex-col md:grid md:grid-cols-3 md:gap-4 bg-black mt-8 pt-8 pr-6 pl-6 border-solid border-4 border-[#F0F0F0]">Riverside Transport museum  and Tall Ship Glenlee
+            <div className="flex flex-col text-xl bg-black mt-8 pt-8 pb-8 pr-4 pl-4 border-solid border-2 md:border-4 border-[#F0F0F0] ">Riverside Transport museum  and Tall Ship Glenlee
               <Image
                   src={ GlasgowTramJT }
-                  className=" w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-4 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of Jill boarding tram in Riverside Transport Museum" />
                   <Image
                   src={ TallShipBT }
-                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of Bernard with Tall Ship Glenlee in the background." />
             </div>
             <br />
-             <div className="flex flex-col md:grid md:grid-cols-3 md:gap-4 bg-black mt-8 pt-8 pr-6 pl-6 border-solid border-4 border-[#F0F0F0]">Kelvingrove Art gallery and museum
+             <div className="flex flex-col text-xl bg-black mt-8 pt-8 pb-8 pr-4 pl-4 border-solid border-2 md:border-4 border-[#F0F0F0] ">Kelvingrove Art gallery and museum
               <Image
                   src={ KelvingroveExteriorBT }
-                  className=" w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-4 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of outside of Kelvingrove Museum and Art Gallery" />
                   <Image
                   src={ KelvingroveOrgan }
-                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of Kelvingrove Organ" />
             </div>
             <br />
             </div>
         </div>
 <br />
 <br />
-<div className="text-white text-center font-semibold text-lg md:text-2xl pt-3 pb-4 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">
-            <div className="border-black border-4 rounded-md text-white mr-[5%] ml-[5%]  md:mr-[30%] md:ml-[30%] pb-2 pt-2 bg-[#165b33]">Events</div>
+<div className="text-white text-center font-semibold text-lg md:text-2xl pt-3 pb-4 pr-4 pl-4 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">
+            <div className="border-black border-2 md:border-4 rounded-md text-white mr-[5%] ml-[5%]  md:mr-[10%] md:ml-[10%] pb-2 pt-2 bg-[#165b33]">Events</div>
             <div>
-             <div className="flex flex-col lg:grid lg:grid-cols-3 lg:gap-4 bg-black mt-8 pt-8 pr-6 pl-6 border-solid border-4 border-[#F0F0F0]">Harry's PhD Graduation in Cardiff.
+             <div className="flex flex-col text-xl md:text-2xl bg-black mt-8 pb-8 pt-8 pr-4  pl-4 border-solid border-2 md:border-4 border-[#F0F0F0] ">Harry's PhD Graduation in Cardiff.
               
               <Image
                   src={ harrybiophoto }
-                  className=" w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-4 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                   className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of Harry in his Doctoral regalia" />
                   <Image
                   src={ CardiffGraduationBJH }
-                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of Bernard, Jill and Harry at Cardiff university." />
             </div>
             <br />
               <br />
-            <div className="flex flex-col lg:grid lg:grid-cols-3 lg:gap-4 bg-black mt-8 pt-8 pr-6 pl-6 border-solid border-4 border-[#F0F0F0]">Bernard learns to fly an Airbus 320
+            <div className="flex flex-col text-xl bg-black mt-8 pt-8 pb-8 pr-4 pl-4 border-solid border-2 md:border-4 border-[#F0F0F0] ">Bernard learns to fly an Airbus 320
               <Image
                   src={ pilotbPassed }
-                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-4 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                   className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of Nermard in the pilot's seat" />
                   <Image
                   src={ FlightDepartures }
-                  className="h-auto w-[100%] md:w-[100%] lg:w-[100%] border-solid border-black-400 border-2 mt-1 mb-11 md:rounded-[30%] transform transition hover:scale-150"
-                  alt="Photo of recreation of boat skeleton Sutton Hoo" />
+                  className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of departures' board with Bernard listed." />
             </div>
             <br />
               <br />
@@ -192,7 +190,7 @@ export default function Bestof2025() {
 <br />
 
 <div className="text-white text-center font-semibold text-lg md:text-2xl pt-3 pb-4 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">
-            <div className="border-black border-4 rounded-md text-white mr-[5%] ml-[5%]  md:mr-[30%] md:ml-[30%] pb-2 pt-2 bg-[#165b33]">Enjoying time with friends</div>
+            <div className="border-black border-2 md:border-4 rounded-md text-white mr-[5%] ml-[5%]  md:mr-[30%] md:ml-[30%] pb-2 pt-2 bg-[#165b33]">Enjoying time with friends</div>
             <div className="sm:flex sm:flex-col lg:grid lg:grid-cols-5 gap-0">
             <div className="bg-[#FDDC5C] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Moira and Geoff</div>
             <div className="bg-[#FDDC5C] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Robin and Kathy with their dogs Wilf and Nell</div>
@@ -209,7 +207,7 @@ export default function Bestof2025() {
 <br />
   
         <div className="text-white text-center font-semibold text-lg md:text-xl pt-3 pb-4 m-2 bg-[#bb252b] border-solid border-2 border-[#165b33]">
-            <div className="border-black border-4 rounded-md text-white mr-[5%] ml-[5%] md:mr-[30%] md:ml-[30%] pb-2 pt-2 bg-[#165b33]">Achievements
+            <div className="border-black border-2 md:border-4 rounded-md text-white mr-[5%] ml-[5%] md:mr-[30%] md:ml-[30%] pb-2 pt-2 bg-[#165b33]">Achievements
             </div>
             <div>
             Bernard: 
