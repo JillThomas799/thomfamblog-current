@@ -25,6 +25,8 @@ import FlightDepartures from '/public/imagesresized/FlightDepartures.jpg';
 import CardiffGraduationBJH from '/public/imagesresized/CardiffGraduationBJH.jpg';
 import harrybiophoto from '/public/imagesresized/harrybiophoto.jpg';
 import harrybiophotoTitled from '/public/imagesresized/harrybiophotoTitled.jpg';
+import Archie from '/public/imagesresized/Archie.jpg';
+import WildSwimming from '/public/imagesresized/WildSwimming.jpg';
 
 export default function Bestof2025() {
   return ( 
@@ -193,8 +195,20 @@ export default function Bestof2025() {
             <div className="border-black border-2 md:border-4 rounded-md text-white mr-[5%] ml-[5%]  md:mr-[30%] md:ml-[30%] pb-2 pt-2 bg-[#165b33]">Enjoying time with friends</div>
             <div className="sm:flex sm:flex-col lg:grid lg:grid-cols-5 gap-0">
             <div className="bg-[#FDDC5C] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Moira and Geoff</div>
-            <div className="bg-[#FDDC5C] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Robin and Kathy with their dogs Wilf and Nell</div>
-            <div className="bg-[#FDDC5C] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Pat and Dermot and their dog Archie</div>   
+            <div className="bg-[#FDDC5C] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Robin and Cathy with their dogs Wilf and Nell
+              <br />
+              <Image
+                  src={ WildSwimming }
+                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of Cathy with Wilf and Nelf" />
+            </div>
+            <div className="bg-[#FDDC5C] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Pat and Dermot and their dog Archie
+              <br />
+              <Image
+                  src={ Archie }
+                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of Archie, Pat and Dermot's dog" />
+                  </div>   
             <div className="bg-[#FDDC5C] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Paul and Kamla</div> 
             <div className="bg-[#FDDC5C] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Tom</div> 
             <br />
@@ -209,20 +223,32 @@ export default function Bestof2025() {
         <div className="text-white text-center font-semibold text-lg md:text-xl pt-3 pb-4 m-2 bg-[#bb252b] border-solid border-2 border-[#165b33]">
             <div className="border-black border-2 md:border-4 rounded-md text-white mr-[5%] ml-[5%] md:mr-[30%] md:ml-[30%] pb-2 pt-2 bg-[#165b33]">Achievements
             </div>
-            <div>
+            <div  className="mt-8">
             Bernard: 
              <br />
+             <Image
+                  src={ pilotbPassed }
+                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of Bernard in pilot's seat" />
             Learning Spanish and French. 
+             <br />
              <br />
              Learning how to fly an airbus.
               <br />
                <br />
-            Jill: Learning how to read early modern Scottish palaeography, 
+            Jill: 
              <br />
-             software and new blog.
+            Learning how to read early modern Scottish palaeography, 
+             <br />
+             <br />
+             Further developing software skills and creating new blog.
             <br />
              <br />
-            Harry: Graduating with his PhD,  <br />
+            Harry: 
+             <br />
+            Graduating with his PhD,  
+            <br />
+            <br />
             Obtaining employment as a Digital and Technology Solutions professional with one of the local councils. 
             </div>
         </div>
