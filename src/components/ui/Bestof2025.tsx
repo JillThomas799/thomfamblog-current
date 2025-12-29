@@ -224,6 +224,7 @@ export default function Bestof2025() {
             <div className="border-black border-2 md:border-4 rounded-md text-white mr-[5%] ml-[5%] md:mr-[30%] md:ml-[30%] pb-2 pt-2 bg-[#165b33]">Achievements
             </div>
             <div  className="mt-8">
+              <div className="bg-[#FDDC5C] border-black border-2 text-black text-xl font-semibold ml-4 mr-4 mt-4 pt-6 pr-2 pl-2 pb-2">
             Bernard: 
              <br />
              <Image
@@ -232,24 +233,28 @@ export default function Bestof2025() {
                   alt="Photo of Bernard in pilot's seat" />
             Learning Spanish and French. 
              <br />
-             <br />
              Learning how to fly an airbus.
               <br />
                <br />
-            Jill: 
+               </div>
+               <div className="bg-[#FDDC5C] border-black border-2 text-black text-xl font-semibold ml-4 mr-4 mt-4 pt-6 pr-2 pl-2 pb-2">
+            Jill
              <br />
             Learning how to read early modern Scottish palaeography, 
              <br />
-             <br />
+              <br />
              Further developing software skills and creating new blog.
             <br />
              <br />
-            Harry: 
+             </div>
+             <div className="bg-[#FDDC5C] border-black border-2 text-black text-xl font-semibold ml-4 mr-4 mt-4 pt-6 pr-2 pl-2 pb-2">
+            Harry 
              <br />
             Graduating with his PhD,  
             <br />
-            <br />
+             <br />
             Obtaining employment as a Digital and Technology Solutions professional with one of the local councils. 
+            </div>
             </div>
         </div>
 
