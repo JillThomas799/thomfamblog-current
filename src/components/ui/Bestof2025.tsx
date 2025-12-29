@@ -27,6 +27,8 @@ import harrybiophoto from '/public/imagesresized/harrybiophoto.jpg';
 import harrybiophotoTitled from '/public/imagesresized/harrybiophotoTitled.jpg';
 import Archie from '/public/imagesresized/Archie.jpg';
 import WildSwimming from '/public/imagesresized/WildSwimming.jpg';
+import JillDec2025 from '/public/imagesresized/JillDec2025.jpg';
+import HarryCardiff from '/public/imagesresized/HarryCardiff.jpg';
 
 export default function Bestof2025() {
   return ( 
@@ -240,6 +242,10 @@ export default function Bestof2025() {
                <div className="bg-[#FDDC5C] border-black border-2 text-black text-xl font-semibold ml-4 mr-4 mt-4 pt-6 pr-2 pl-2 pb-2">
             Jill
              <br />
+              <Image
+                  src={ JillDec2025 }
+                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of Jill Dec 2025" />
             Learning how to read early modern Scottish palaeography, 
              <br />
               <br />
@@ -250,10 +256,16 @@ export default function Bestof2025() {
              <div className="bg-[#FDDC5C] border-black border-2 text-black text-xl font-semibold ml-4 mr-4 mt-4 pt-6 pr-2 pl-2 pb-2">
             Harry 
              <br />
+             <Image
+                  src={ HarryCardiff }
+                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                  alt="Photo of Harry in smart clothes July 2025" />
             Graduating with his PhD,  
             <br />
              <br />
             Obtaining employment as a Digital and Technology Solutions professional with one of the local councils. 
+             <br />
+             <br />
             </div>
             </div>
         </div>
