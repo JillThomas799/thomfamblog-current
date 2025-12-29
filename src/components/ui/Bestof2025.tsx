@@ -227,7 +227,7 @@ export default function Bestof2025() {
             </div>
             <div  className="mt-8">
               <div className="bg-[#FDDC5C] border-black border-2 text-black text-xl font-semibold ml-4 mr-4 mt-4 pt-6 pr-2 pl-2 pb-2">
-            Bernard: 
+           <div className="bg-[#165b33] mr-[10%] ml-[10%] border-2 border-black text-[#F0F0F0]">Bernard </div> 
              <br />
              <Image
                   src={ pilotbPassed }
@@ -240,7 +240,7 @@ export default function Bestof2025() {
                <br />
                </div>
                <div className="bg-[#FDDC5C] border-black border-2 text-black text-xl font-semibold ml-4 mr-4 mt-4 pt-6 pr-2 pl-2 pb-2">
-            Jill
+             <div className="bg-[#165b33] mr-[10%] ml-[10%] border-2 border-black text-[#F0F0F0]">Jill </div>
              <br />
               <Image
                   src={ JillDec2025 }
@@ -254,7 +254,7 @@ export default function Bestof2025() {
              <br />
              </div>
              <div className="bg-[#FDDC5C] border-black border-2 text-black text-xl font-semibold ml-4 mr-4 mt-4 pt-6 pr-2 pl-2 pb-2">
-            Harry 
+        <div className="bg-[#165b33] mr-[10%] ml-[10%] border-2 border-black text-[#F0F0F0]">Harry </div>
              <br />
              <Image
                   src={ HarryCardiff }
