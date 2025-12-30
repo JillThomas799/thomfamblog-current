@@ -30,6 +30,9 @@ import WildSwimming from '/public/imagesresized/WildSwimming.jpg';
 import JillDec2025 from '/public/imagesresized/JillDec2025.jpg';
 import HarryCardiff from '/public/imagesresized/HarryCardiff.jpg';
 import Lennie20250815Titled from '/public/imagesresized/Lennie20250815Titled.jpg';
+import WorstWeatherTitled from '/public/imagesresized/WorstWeatherTitled.jpg';
+import BestGardenTitled from '/public/imagesresized/BestGardenTitled.jpg';
+import CutestTitled from '/public/imagesresized/CutestTitled.jpg';
 
 export default function Bestof2025() {
   return ( 
@@ -303,11 +306,60 @@ export default function Bestof2025() {
                   alt="Photo of Harry at his PhD graduation"
                 />
                 </Link>
-           
-            </div>{" "}
 
+            <div className="bg-[#165b33] p-6 font-normal">As is typical of Northern Cumbria, we had the best and worst of weather in 2025 including a beautiful, fantastic long and warm Spring, Summer and early Autumn whilst still managing to avoid the excessively high temperatures of the south of England. In addition there were some notable storms including Storm Éowyn in January 2025 which caused significant damage to buildings and trees at the local tarn and Storm Bram in December 2025. 
+                  <br />
+                    <br />
+                  We have compiled a 'Best and worst of weather 2025' photo album which you can open by clicking on the photo below.</div>
+<br />
+<br />
+<Link
+                href="https://photos.app.goo.gl/1hByfKnR9Rihk1H17"
+                target="_blank"
+              >
+         <Image
+                  src={ WorstWeatherTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Harry at his PhD graduation"
+                />
+                </Link>
 
+                <div className="bg-[#165b33] p-6 font-normal">We have also added an album of the cutest of the animals we met in 2025 (excluding Lennie of course because he has his only separate, special album). 
+                  <br />
+                    <br />
+                  We have compiled a 'Cutest animals and birds 2025' photo album which you can open by clicking on the photo below.</div>
+<br />
+<br />
+<Link
+                href="https://photos.app.goo.gl/8ekAM6vfKGCt65n2A"
+                target="_blank"
+              >
+         <Image
+                  src={ BestGardenTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of garden in colour June 2025."
+                />
+                </Link>
 
-    </div>
+                                   <div className="bg-[#165b33] p-6 font-normal">Last but not least, it has been a great year for enjoying the garden, which has now become a more mature garden. We like to describe it as a garden of colourful, creative chaos. It probably would not suit a person whose taste leans more towards a closely manicured French garden style but the world would be very boring if all garden styles were identical and our cottage-garden effect with the many flowers and plants it contains are a real attraction for many threatened species of wildlife.
+                  <br />
+                    <br />
+                  We have compiled a 'Best of the Garden 2025' photo album which you can open by clicking on the photo below.</div>
+<br />
+<br />
+<Link
+                href="https://photos.app.goo.gl/BjTKk74WjV9NrYmf7"
+                target="_blank"
+              >
+         <Image
+                  src={ BestGardenTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of colourful garden June 2025."
+                />
+                </Link>
+                </div>
+            
+            </div>
+
   );
 }
