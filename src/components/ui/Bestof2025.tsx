@@ -335,9 +335,9 @@ export default function Bestof2025() {
                 target="_blank"
               >
          <Image
-                  src={ BestGardenTitled }
+                  src={ CutestTitled }
                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of garden in colour June 2025."
+                  alt="Photo of cute lambs surrounding Bernard."
                 />
                 </Link>
 
