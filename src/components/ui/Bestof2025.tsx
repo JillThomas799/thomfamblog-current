@@ -265,7 +265,7 @@ export default function Bestof2025() {
                   alt="Photo of Harry in smart clothes July 2025" />
             Graduating with his PhD,  
             <br />
-            Obtaining employment as a Digital and Technology <br />Solutions professional  with one of the local councils. 
+            Obtaining employment as a Digital and Technology Solutions professional <br /> with one of the local councils. 
              <br />
              <br />
             </div>
@@ -322,10 +322,10 @@ export default function Bestof2025() {
                 />
                 </Link>
 
-                <div className="bg-[#165b33] p-6 font-normal">We have also added an album of the cutest of the animals we met in 2025 (excluding Lennie of course because he has his only separate, special album). 
+                <div className="bg-[#165b33] p-6 font-normal">We have also added an album of the cutest of the animals and birds we met in 2025 (excluding Lennie of course because he has his only separate, special album). 
                   <br />
                     <br />
-                  We have compiled a 'Cutest animals and birds 2025' photo album which you can open by clicking on the photo below.</div>
+                  The album which can be opened by clicking on the photo below.</div>
 <br />
 <br />
 <Link
@@ -339,7 +339,10 @@ export default function Bestof2025() {
                 />
                 </Link>
 
-                                   <div className="bg-[#165b33] p-6 font-normal">Last but not least, it has been a great year for enjoying the garden, which has now become a more mature garden. We like to describe it as a garden of colourful, creative chaos. It probably would not suit a person whose taste leans more towards a closely manicured French garden style but the world would be very boring if all garden styles were identical and our cottage-garden effect with the many flowers and plants it contains are a real attraction for many threatened species of wildlife.
+                                   <div className="bg-[#165b33] p-6 font-normal">Last, but not least, it has been a great year for enjoying the garden, which has now become a more mature garden. We like to describe it as a garden of colourful, creative chaos. 
+                                    <br />
+                                    <br />
+                                    It probably would not suit a person whose taste leans more towards a closely manicured French garden style but the world would be very boring if all garden styles were identical and our cottage-garden effect with the many flowers and plants it contains are a real attraction for many threatened species of wildlife.
                   <br />
                     <br />
                   We have compiled a 'Best of the Garden 2025' photo album which you can open by clicking on the photo below.</div>
