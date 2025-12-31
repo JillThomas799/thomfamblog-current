@@ -200,23 +200,23 @@ export default function Bestof2025() {
 <div className="text-white text-center font-semibold text-lg md:text-2xl pt-3 pb-4 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">
             <div className="border-black border-2 md:border-4 rounded-md text-white mr-[5%] ml-[5%]  md:mr-[30%] md:ml-[30%] pb-2 pt-2 bg-[#165b33]">Enjoying time with friends</div>
             <div className=":flex flex-col">
-            <div className="bg-[#FDDC5C] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Moira and Geoff</div>
-            <div className="bg-[#FDDC5C] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Robin and Cathy with their dogs Wilf and Nell
+            <div className="bg-[#cab049] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Moira and Geoff</div>
+            <div className="bg-[#cab049] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Robin and Cathy with their dogs Wilf and Nell
               <br />
               <Image
                   src={ WildSwimming }
                  className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto  border-black border-2 transform transition hover:scale-150"
                   alt="Photo of Cathy with Wilf and Nelf" />
             </div>
-            <div className="bg-[#FDDC5C] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Pat and Dermot and their dog Archie
+            <div className="bg-[#cab049] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Pat and Dermot and their dog Archie
               <br />
               <Image
                   src={ Archie }
                  className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto  border-black border-2 transform transition hover:scale-150"
                   alt="Photo of Archie, Pat and Dermot's dog" />
                   </div>   
-            <div className="bg-[#FDDC5C] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Paul and Kamla</div> 
-            <div className="bg-[#FDDC5C] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Tom</div> 
+            <div className="bg-[#cab049] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Paul and Kamla</div> 
+            <div className="bg-[#cab049] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Tom</div> 
             <br />
            
              </div>
@@ -230,7 +230,7 @@ export default function Bestof2025() {
             <div className="border-black border-2 md:border-4 rounded-md text-white mr-[5%] ml-[5%] md:mr-[30%] md:ml-[30%] pb-2 pt-2 bg-[#165b33]">Achievements
             </div>
             <div  className="mt-8">
-              <div className="bg-[#FDDC5C] border-black border-2 text-black text-xl font-semibold ml-4 mr-4 mt-4 pt-6 pr-2 pl-2 pb-2">
+              <div className="bg-[#cab049] border-black border-2 text-black text-xl font-semibold ml-4 mr-4 mt-4 pt-6 pr-2 pl-2 pb-2">
            <div className="bg-[#165b33] mr-[10%] ml-[10%] border-2 border-black text-[#F0F0F0]">Bernard </div> 
              <br />
              <Image
@@ -243,7 +243,7 @@ export default function Bestof2025() {
               <br />
                <br />
                </div>
-               <div className="bg-[#FDDC5C] border-black border-2 text-black text-xl font-semibold ml-4 mr-4 mt-4 pt-6 pr-2 pl-2 pb-2">
+               <div className="bg-[#cab049] border-black border-2 text-black text-xl font-semibold ml-4 mr-4 mt-4 pt-6 pr-2 pl-2 pb-2">
              <div className="bg-[#165b33] mr-[10%] ml-[10%] border-2 border-black text-[#F0F0F0]">Jill </div>
              <br />
               <Image
@@ -256,7 +256,7 @@ export default function Bestof2025() {
             <br />
              <br />
              </div>
-             <div className="bg-[#FDDC5C] border-black border-2 text-black text-xl font-semibold ml-4 mr-4 mt-4 pt-6 pr-2 pl-2 pb-2">
+             <div className="bg-[#cab049] border-black border-2 text-black text-xl font-semibold ml-4 mr-4 mt-4 pt-6 pr-2 pl-2 pb-2">
         <div className="bg-[#165b33] mr-[10%] ml-[10%] border-2 border-black text-[#F0F0F0]">Harry </div>
              <br />
              <Image
@@ -265,7 +265,7 @@ export default function Bestof2025() {
                   alt="Photo of Harry in smart clothes July 2025" />
             Graduating with his PhD,  
             <br />
-            Obtaining employment as a Digital and Technology <br /> Solutions professional  with one of the local councils. 
+            Obtaining employment as a Digital and Technology <br />Solutions professional  with one of the local councils. 
              <br />
              <br />
             </div>
