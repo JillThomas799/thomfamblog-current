@@ -205,14 +205,14 @@ export default function Bestof2025() {
               <br />
               <Image
                   src={ WildSwimming }
-                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto  border-black border-2 transform transition hover:scale-150"
                   alt="Photo of Cathy with Wilf and Nelf" />
             </div>
             <div className="bg-[#FDDC5C] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Pat and Dermot and their dog Archie
               <br />
               <Image
                   src={ Archie }
-                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto  border-black border-2 transform transition hover:scale-150"
                   alt="Photo of Archie, Pat and Dermot's dog" />
                   </div>   
             <div className="bg-[#FDDC5C] border-black border-2 text-black text-base ml-4 mr-4 mt-4 p-2">Paul and Kamla</div> 
@@ -235,7 +235,7 @@ export default function Bestof2025() {
              <br />
              <Image
                   src={ pilotbPassed }
-                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto  border-black border-2 transform transition hover:scale-150"
                   alt="Photo of Bernard in pilot's seat" />
             Learning Spanish and French. 
              <br />
@@ -248,11 +248,10 @@ export default function Bestof2025() {
              <br />
               <Image
                   src={ JillDec2025 }
-                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto  border-black border-2 transform transition hover:scale-150"
                   alt="Photo of Jill Dec 2025" />
             Learning how to read early modern Scottish palaeography, 
              <br />
-              <br />
              Further developing software skills and creating new blog.
             <br />
              <br />
@@ -262,12 +261,11 @@ export default function Bestof2025() {
              <br />
              <Image
                   src={ HarryCardiff }
-                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
+                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto  border-black border-2 transform transition hover:scale-150"
                   alt="Photo of Harry in smart clothes July 2025" />
             Graduating with his PhD,  
             <br />
-             <br />
-            Obtaining employment as a Digital and Technology Solutions professional with one of the local councils. 
+            Obtaining employment as a Digital and Technology <br /> Solutions professional  with one of the local councils. 
              <br />
              <br />
             </div>
