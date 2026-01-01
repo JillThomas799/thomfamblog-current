@@ -20,7 +20,7 @@ export default function December2025() {
   return (   
  <div className=" bg-black border-solid border-4 border- border-[#165b33]  mb-28"> {/*December block background*/}
     <div>
-       <div className="text-white text-center font-semibold text-2xl p-3 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2 animate-pulse">December 2025 </div> 
+       <div className="text-white text-center font-semibold text-2xl p-3 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">December 2025 </div> 
         <div className="block relative mt-[70%] mb-[135%] md:mt-[50%] md:scale-[65%]  md:mb-[100%] lg:scale-80 text-center 
         text-[1.75em] font-bold width-full height-full ">
             <SnowmanShakerDisplay /></div>   
