@@ -41,9 +41,14 @@ export default function Bestof2025() {
 
 
 <div className="text-white text-center font-semibold text-lg md:text-xl pt-8 pb-4 pl-4 pr-4 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">
-<div className="bg-[#165b33] p-6 font-normal">So 2025 has been a good year with many happy memories. We have compiled a 'Best of 2025' photo album which you can open to see and read about all the photo highlights by clicking on the photo below.</div>
+<div className="bg-[#165b33] p-6 font-normal">So 2025 has been a good year with many happy memories. We have compiled a 'Best of 2025' photo album which you can open to see and read about all the photo highlights by clicking on the photo below.
 <br />
 <br />
+  Please make sure to click on the 'i' icon at the top right hand corner of each photo in the album to open the drop-down sidebar which contains the additional background information required for each entry.
+</div>
+<br />
+<br />
+
 <Link
                 href="https://photos.app.goo.gl/TQ4J3kB8gRWcP64m7"
                 target="_blank"
