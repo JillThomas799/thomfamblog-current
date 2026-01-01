@@ -38,6 +38,97 @@ export default function Bestof2025() {
   return ( 
     <div className="bg-black h-[100%]">
         <div className="text-lg md:text-2xl  text-center text-[#FDDC5C] font-bold pt-10 pb-8 mb-8 border-[#bb252b] border-4 rounded-md bg-[#165b33] animate-pulse">THE BEST OF 2025</div>
+
+
+<div className="text-white text-center font-semibold text-lg md:text-xl pt-8 pb-4 pl-4 pr-4 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">
+<div className="bg-[#165b33] p-6 font-normal">So 2025 has been a good year with many happy memories. We have compiled a 'Best of 2025' photo album which you can open to see and read about all the photo highlights by clicking on the photo below.</div>
+<br />
+<br />
+<Link
+                href="https://photos.app.goo.gl/TQ4J3kB8gRWcP64m7"
+                target="_blank"
+              >
+         <Image
+                  src={ harrybiophotoTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Harry at his PhD graduation"
+                />
+                </Link>
+
+                <div className="bg-[#165b33] p-6 font-normal">Lennie has also had a good year although, he says he is getting older and as such cannot be as entertaining as he used to be (he is now 13 years old). 
+                  <br />
+                    <br />
+                  We have compiled a 'Best of Lennie 2025' photo album which you can open by clicking on the photo below.</div>
+<br />
+<br />
+<Link
+                href="https://photos.app.goo.gl/u2ubkRjwvjAKU7eaA"
+                target="_blank"
+              >
+         <Image
+                  src={ Lennie20250815Titled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Harry at his PhD graduation"
+                />
+                </Link>
+
+            <div className="bg-[#165b33] p-6 font-normal">As is typical of Northern Cumbria, we had the best and worst of weather in 2025 including a beautiful, fantastic long and warm Spring, Summer and early Autumn whilst still managing to avoid the excessively high temperatures of the south of England. In addition there were some notable storms including Storm Éowyn in January 2025 which caused significant damage to buildings and trees at the local tarn and Storm Bram in December 2025. 
+                  <br />
+                    <br />
+                  We have compiled a 'Best and worst of weather 2025' photo album which you can open by clicking on the photo below.</div>
+<br />
+<br />
+<Link
+                href="https://photos.app.goo.gl/1hByfKnR9Rihk1H17"
+                target="_blank"
+              >
+         <Image
+                  src={ WorstWeatherTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Harry at his PhD graduation"
+                />
+                </Link>
+
+                <div className="bg-[#165b33] p-6 font-normal">We have also added an album of the cutest of the animals and birds we met in 2025 (excluding Lennie of course because he has his only separate, special album). 
+                  <br />
+                    <br />
+                  The album which can be opened by clicking on the photo below.</div>
+<br />
+<br />
+<Link
+                href="https://photos.app.goo.gl/8ekAM6vfKGCt65n2A"
+                target="_blank"
+              >
+         <Image
+                  src={ CutestTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of cute lambs surrounding Bernard."
+                />
+                </Link>
+
+                                   <div className="bg-[#165b33] p-6 font-normal">Last, but not least, it has been a great year for enjoying the garden, which has now become a more mature garden. We like to describe it as a garden of colourful, creative chaos. 
+                                    <br />
+                                    <br />
+                                    It probably would not suit a person whose taste leans more towards a closely manicured French garden style but the world would be very boring if all garden styles were identical and our cottage-garden effect with the many flowers and plants it contains are a real attraction for many threatened species of wildlife.
+                  <br />
+                    <br />
+                  We have compiled a 'Best of the Garden 2025' photo album which you can open by clicking on the photo below.</div>
+<br />
+<br />
+<Link
+                href="https://photos.app.goo.gl/BjTKk74WjV9NrYmf7"
+                target="_blank"
+              >
+         <Image
+                  src={ BestGardenTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of colourful garden June 2025."
+                />
+                </Link>
+                </div>
+
+
+
         <div className="text-white text-center font-semibold text-lg md:text-2xl p-3 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">
             <div className="border-black border-2 md:border-4 rounded-md text-white md:mr-[10%] md:ml-[10%] pb-2 pt-2 bg-[#165b33]">Holidays - Highlights</div>
             <div className="text-wrap">
@@ -273,92 +364,7 @@ export default function Bestof2025() {
         </div>
 
 
-         <div className="text-white text-center font-semibold text-lg md:text-xl pt-8 pb-4 pl-4 pr-4 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">
-<div className="bg-[#165b33] p-6 font-normal">So 2025 has been a good year with many happy memories. We have compiled a 'Best of 2025' photo album which you can open to see and read about all the photo highlights by clicking on the photo below.</div>
-<br />
-<br />
-<Link
-                href="https://photos.app.goo.gl/TQ4J3kB8gRWcP64m7"
-                target="_blank"
-              >
-         <Image
-                  src={ harrybiophotoTitled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of Harry at his PhD graduation"
-                />
-                </Link>
-
-                <div className="bg-[#165b33] p-6 font-normal">Lennie has also had a good year although, he says he is getting older and as such cannot be as entertaining as he used to be (he is now 13 years old). 
-                  <br />
-                    <br />
-                  We have compiled a 'Best of Lennie 2025' photo album which you can open by clicking on the photo below.</div>
-<br />
-<br />
-<Link
-                href="https://photos.app.goo.gl/u2ubkRjwvjAKU7eaA"
-                target="_blank"
-              >
-         <Image
-                  src={ Lennie20250815Titled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of Harry at his PhD graduation"
-                />
-                </Link>
-
-            <div className="bg-[#165b33] p-6 font-normal">As is typical of Northern Cumbria, we had the best and worst of weather in 2025 including a beautiful, fantastic long and warm Spring, Summer and early Autumn whilst still managing to avoid the excessively high temperatures of the south of England. In addition there were some notable storms including Storm Éowyn in January 2025 which caused significant damage to buildings and trees at the local tarn and Storm Bram in December 2025. 
-                  <br />
-                    <br />
-                  We have compiled a 'Best and worst of weather 2025' photo album which you can open by clicking on the photo below.</div>
-<br />
-<br />
-<Link
-                href="https://photos.app.goo.gl/1hByfKnR9Rihk1H17"
-                target="_blank"
-              >
-         <Image
-                  src={ WorstWeatherTitled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of Harry at his PhD graduation"
-                />
-                </Link>
-
-                <div className="bg-[#165b33] p-6 font-normal">We have also added an album of the cutest of the animals and birds we met in 2025 (excluding Lennie of course because he has his only separate, special album). 
-                  <br />
-                    <br />
-                  The album which can be opened by clicking on the photo below.</div>
-<br />
-<br />
-<Link
-                href="https://photos.app.goo.gl/8ekAM6vfKGCt65n2A"
-                target="_blank"
-              >
-         <Image
-                  src={ CutestTitled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of cute lambs surrounding Bernard."
-                />
-                </Link>
-
-                                   <div className="bg-[#165b33] p-6 font-normal">Last, but not least, it has been a great year for enjoying the garden, which has now become a more mature garden. We like to describe it as a garden of colourful, creative chaos. 
-                                    <br />
-                                    <br />
-                                    It probably would not suit a person whose taste leans more towards a closely manicured French garden style but the world would be very boring if all garden styles were identical and our cottage-garden effect with the many flowers and plants it contains are a real attraction for many threatened species of wildlife.
-                  <br />
-                    <br />
-                  We have compiled a 'Best of the Garden 2025' photo album which you can open by clicking on the photo below.</div>
-<br />
-<br />
-<Link
-                href="https://photos.app.goo.gl/BjTKk74WjV9NrYmf7"
-                target="_blank"
-              >
-         <Image
-                  src={ BestGardenTitled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of colourful garden June 2025."
-                />
-                </Link>
-                </div>
+         
             
             </div>
 
