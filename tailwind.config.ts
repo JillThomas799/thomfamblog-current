@@ -71,7 +71,11 @@ const config: Config = withUt({
 
 	  '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
-    }
+    },
+	 backgroundImage: {
+        'WinterRobin': "url('/imagesresized/WinterRobin.jpg')",
+		'IcyGrass': "url('/imagesresized/IcyGrass.jpg')",
+      },
   	}
   },
   plugins: [require("tailwindcss-animate")]

@@ -11,41 +11,10 @@ export default function Robins() {
           x="0"
           y="0"
           width="100vw"
-          height="30vh"
+          height="40vh"
           viewBox="-80 -90 500 500"
-          className="overflow-visible"
-          
+          className="overflow-visible"          
         >
-          <g>               
-            <defs>
-              <radialGradient
-                id="gradIceHouse"
-                x1="0%"
-                y1="100%"
-                x2="100%"
-                y2="0%"
-                opacity="1.0"
-              >
-                <stop
-                  offset="0%"
-                  style={{ stopColor: "#cdced5", stopOpacity: "0" }}
-                >
-                  {" "}
-                </stop>
-                <stop
-                  offset="70%"
-                  style={{ stopColor: "#FFFAFA", stopOpacity: "0.7" }}
-                >
-                  {" "}
-                </stop>
-                <stop
-                  offset="95%"
-                  style={{ stopColor: "white", stopOpacity: "1" }}
-                ></stop>
-              </radialGradient>
-            </defs>
-          </g>
-
           <g
             id="robin1"
             className="translate-x-[100px]  translate-y-[-350px] scale-[200%] md:translate-x-[-200px] md:translate-y-[-550px] md:scale-[300%]"
@@ -58,7 +27,6 @@ export default function Robins() {
               </filter>
             </defs>
 
-            {/* <ellipse id="robin1Body" cx="0" cy="350" rx="20" ry="10" fill="#C3BDBD"" transform="translate(-200) rotate(-30)"/> */}
             <g id="robin1breast">
               <path
                 d="M -30 270 A 1 1 10 1 0 0 260"
