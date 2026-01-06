@@ -48,7 +48,7 @@ export default function Robins() {
 
           <g
             id="robin1"
-            className="translate-x-[100px]  translate-y-[-350px] scale-[200%] md:translate-x-[-200px] md:translate-y-[-600px] md:scale-[300%]"
+            className="translate-x-[100px]  translate-y-[-350px] scale-[200%] md:translate-x-[-200px] md:translate-y-[-550px] md:scale-[300%]"
             // style={{ transform: "scale(1.5)" }}
             filter="url(#blur8)"
           >
@@ -232,7 +232,7 @@ export default function Robins() {
 
           <g
             id="robin2"
-             className="translate-y-[-500px] scale-[200%] md:translate-x-[-400px] md:translate-y-[-800px] md:scale-[300%]"
+             className="translate-y-[-500px] scale-[200%] md:translate-x-[-400px] md:translate-y-[-770px] md:scale-[300%]"
             // style={{ transform: "scale(0.89)" }}
             filter="url(#blur8)"
           >
