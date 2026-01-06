@@ -74,7 +74,9 @@ const config: Config = withUt({
     },
 	 backgroundImage: {
         'WinterRobin': "url('/imagesresized/WinterRobin.jpg')",
-		'IcyGrass': "url('/imagesresized/IcyGrass.jpg')",
+		'WinterGrass': "url('/imagesresized/WinterGrass.jpg')",
+		'WinterPath': "url('/imagesresized/WinterPath.jpg')",
+		'IcyTarn':"url('/imagesresized/IcyTarn.jpg')",
       },
   	}
   },

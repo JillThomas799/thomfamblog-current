@@ -17,7 +17,7 @@ export default function Robins() {
         >
           <g
             id="robin1"
-            className="translate-x-[100px]  translate-y-[-350px] scale-[200%] md:translate-x-[-200px] md:translate-y-[-550px] md:scale-[300%]"
+            className="translate-x-[100px]  translate-y-[-350px] scale-[200%] md:translate-x-[-200px] md:translate-y-[-950px] md:scale-[350%]"
             // style={{ transform: "scale(1.5)" }}
             filter="url(#blur8)"
           >
@@ -33,7 +33,7 @@ export default function Robins() {
                 stroke="#C3BDBD"
                 strokeWidth="1'5"
                 fill="#C3BDBD"
-                opacity="0.8"
+                opacity="1.0"
               />
             </g>
             <g id="robin1wing">
@@ -42,7 +42,7 @@ export default function Robins() {
                 stroke="#90816A"
                 strokeWidth="1'5"
                 fill="#90816A"
-                opacity="0.8"
+                opacity="1.0"
               />
             </g>
             <g id="robin1redbreast">
@@ -54,7 +54,7 @@ export default function Robins() {
                 stroke="#FF8F02"
                 strokeWidth="1'5"
                 fill="#FF8F02"
-                opacity="0.8"
+                opacity="1.0"
               />
             </g>
             <g id="robin1Tail" transform="rotate(-40,-45, 280)">
@@ -66,7 +66,7 @@ export default function Robins() {
                 stroke="#C3BDBD"
                 strokeWidth="1'5"
                 fill="#90816A"
-                opacity="0.8"
+                opacity="1.0"
               ></rect>
             </g>
             <g id="robin1TailFly" transform="rotate(55,-45, 237)">
@@ -78,7 +78,7 @@ export default function Robins() {
                 stroke="#C3BDBD"
                 strokeWidth="1'5"
                 fill="#90816A"
-                opacity="0.8"
+                opacity="1.0"
               ></rect>
             </g>
             <g id="robin1eye">
@@ -97,7 +97,7 @@ export default function Robins() {
                 fill="90816"
                 stroke="black"
                 strokeWidth="2.5"
-                opacity="0.8"
+                opacity="1.0"
               ></path>
             </g>
 
@@ -107,7 +107,7 @@ export default function Robins() {
                 fill="black"
                 stroke="black"
                 strokeWidth="1.7"
-                opacity="0.8"
+                opacity="1.0"
               />
               <g id="robin1leftFoot">
                 <g id="robin1leftFootToe1">
@@ -116,7 +116,7 @@ export default function Robins() {
                     fill="#C3BDBD"
                     stroke="black"
                     strokeWidth="1.5"
-                    opacity="0.8"
+                    opacity="1.0"
                   />
                 </g>
                 <g id="robin1leftFootToe2">
@@ -125,7 +125,7 @@ export default function Robins() {
                     fill="#C3BDBD"
                     stroke="black"
                     strokeWidth="1"
-                    opacity="0.8"
+                    opacity="1.0"
                   />
                 </g>
                 <g id="robin1leftFootToe3">
@@ -134,7 +134,7 @@ export default function Robins() {
                     fill="#C3BDBD"
                     stroke="black"
                     strokeWidth="1"
-                    opacity="0.8"
+                    opacity="1.0"
                   />
                 </g>
                 <g id="robin1leftFootToe4">
@@ -143,7 +143,7 @@ export default function Robins() {
                     fill="#C3BDBD"
                     stroke="black"
                     strokeWidth="1"
-                    opacity="0.8"
+                    opacity="1.0"
                   />
                 </g>
               </g>
@@ -155,7 +155,7 @@ export default function Robins() {
                 fill="black"
                 stroke="black"
                 strokeWidth="1.7"
-                opacity="0.8"
+                opacity="1.0"
               />
               <g id="robin1rightFoot">
                 <g id="robin1rightFootToe1">
@@ -164,7 +164,7 @@ export default function Robins() {
                     fill="#C3BDBD"
                     stroke="black"
                     strokeWidth="1"
-                    opacity="0.8"
+                    opacity="1.0"
                   />
                 </g>
                 <g id="robin1rightFootToe2">
@@ -173,7 +173,7 @@ export default function Robins() {
                     fill="#C3BDBD"
                     stroke="black"
                     strokeWidth="1"
-                    opacity="0.8"
+                    opacity="1.0"
                   />
                 </g>
                 <g id="robin1rightFootToe3">
@@ -182,7 +182,7 @@ export default function Robins() {
                     fill="#C3BDBD"
                     stroke="black"
                     strokeWidth="1"
-                    opacity="0.8"
+                    opacity="1.0"
                   />
                 </g>
                 <g id="robin1rightFootToe4">
@@ -191,7 +191,7 @@ export default function Robins() {
                     fill="#C3BDBD"
                     stroke="black"
                     strokeWidth="1"
-                    opacity="0.8"
+                    opacity="1.0"
                   />
                 </g>
               </g>
@@ -200,7 +200,7 @@ export default function Robins() {
 
           <g
             id="robin2"
-             className="translate-y-[-500px] scale-[200%] md:translate-x-[-400px] md:translate-y-[-770px] md:scale-[300%]"
+             className="translate-y-[-500px] scale-[200%] md:translate-x-[-400px] md:translate-y-[-930px] md:scale-[400%]"
             // style={{ transform: "scale(0.89)" }}
             filter="url(#blur8)"
           >

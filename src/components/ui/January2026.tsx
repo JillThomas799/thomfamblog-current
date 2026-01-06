@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import WinterRobin from "/public/imagesresized/WinterRobin.jpg";
-import IcyGrass from "/public/imagesresized/IcyGrass.jpg";
+
+
 import Robins from "./robins";
 
 
@@ -9,7 +9,8 @@ import Robins from "./robins";
 export default function January2026() {
   return (   
  <div className=" bg-black h-[100vh] w-full pb-[100%] border-solid border-4 border- border-gray-600  mb-28">     
-       <div className="text-white text-center font-semibold text-2xl p-3 bg-gray-700 border-[#bdbeba] border-4 m-2 bg-WinterRobin bg-cover">January 2026
+       <div className="text-black text-center font-semibold text-2xl p-3 bg-gray-700 border-[#bdbeba] border-4 m-2 bg-WinterGrass bg-cover ">
+        <div className="bg-black mr-[30%] ml-[30%] border-grey-600 border-4 text-white">January 2026</div>
                   <br />
                   <br />
                   < Robins />
