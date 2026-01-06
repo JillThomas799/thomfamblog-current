@@ -1,18 +1,20 @@
 import React from "react";
-import "./catlennie.css";
+import "./robins.css";
 
 export default function Robins() {
   return (
     <div>
       <div>
         <svg
-          className="lennieIceHouseCat"
+          id="robins"
           version="1.1"
           x="0"
           y="0"
           width="100vw"
-          height="60vh"
+          height="30vh"
           viewBox="-80 -90 500 500"
+          className="overflow-visible"
+          
         >
           <g>               
             <defs>
@@ -45,8 +47,9 @@ export default function Robins() {
           </g>
 
           <g
-            className="robin1"
-            style={{ transform: "scale(0.8)" }}
+            id="robin1"
+            className="translate-x-[100px]  translate-y-[-350px] scale-[200%] md:translate-x-[-200px] md:translate-y-[-600px] md:scale-[300%]"
+            // style={{ transform: "scale(1.5)" }}
             filter="url(#blur8)"
           >
             <defs>
@@ -228,8 +231,9 @@ export default function Robins() {
           </g>
 
           <g
-            className="robin2"
-            style={{ transform: "scale(0.89)" }}
+            id="robin2"
+             className="translate-y-[-500px] scale-[200%] md:translate-x-[-400px] md:translate-y-[-800px] md:scale-[300%]"
+            // style={{ transform: "scale(0.89)" }}
             filter="url(#blur8)"
           >
             <defs>

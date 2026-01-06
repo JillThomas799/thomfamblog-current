@@ -1,197 +1,93 @@
-#iceHouse {
-  display: block;
-  position: relative;
-}
-
-/*Set lennieCat movement animations*/
-@keyframes catheadRotate {
-  from {
-    -webkit-transform: translate(0deg);
-    -moz-transform: translate(0deg);
-    -ms-transform: translate(0deg);
-    -o-transform: translate(0deg);
-    transform: translate(0deg);
-  }
-  to {
-    -webkit-transform: translate(4px, 12px);
-    -moz-transform: translate(4px, 12px);
-    -ms-transform: translate(4px, 12px);
-    -o-transform: translate(4px, 12px);
-    transform: translate(4px, 12px);
-  }
-}
-
-@keyframes cateyesBlink {
-  from {
-    ry: 1.7px;
-  }
-  to {
-    ry: 0.1px;
-  }
-}
-
-@keyframes stretchlennielegright {
-  from {
-    width: 65px;
-  }
-  to {
-    width: 75px;
-  }
-}
-
-@keyframes stretchlennielegleft {
-  from {
-    width: 65px;
-  }
-  to {
-    width: 75px;
-  }
-}
-
-@keyframes lickingtonguelennie {
-  from {
-    height: 0px;
-  }
-  to {
-    height: 12px;
-  }
-}
-
-.catHeadTotal {
-  -webkit-animation: catheadRotate 1.2s linear infinite alternate;
-  animation: catheadRotate 1.2s linear infinite alternate;
-}
-
-#lennieLegRight {
-  animation-name: stretchlennielegright;
-  animation-duration: 1.2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate;
-}
-
-#lennieLegLeft {
-  animation-name: stretchlennielegleft;
-  animation-duration: 1.2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate;
-}
-
-#catEyeLeft {
-  animation-name: cateyesBlink;
-  animation-duration: 1.2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate;
-}
-
-#catEyeRight {
-  animation-name: cateyesBlink;
-  animation-duration: 1.2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate;
-}
-
-#mouthTongue {
-  animation-name: lickingtonguelennie;
-  animation-duration: 1.2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate;
-}
-
 /*animation robin*/
 
 @keyframes robinHop {
   0% {
-    translate: -30px 0px;
+    translate: -100px 0px;
   }
   1% {
-    translate: -30px 0px;
+    translate: -100px 0px;
   }
   2% {
-    translate: -30px -15px;
+    translate: -100px -15px;
   }
   3% {
-    translate: -15px -15px;
+    translate: -75px -15px;
   }
   5% {
-    translate: -15px 0px;
+    translate: -75px 0px;
   }
 
   30% {
-    translate: -15px 0px;
+    translate: -75px 0px;
   }
   31% {
-    translate: -15px -15px;
+    translate: -75px -15px;
   }
   33% {
-    translate: -5px -15px;
+    translate: -50px -15px;
   }
   35% {
-    translate: -5px 0px;
+    translate: -50px 0px;
   }
 
   54% {
-    translate: -5px 0px;
+    translate: -50px 0px;
   }
   55% {
-    translate: -5px -15px;
+    translate: -50px -15px;
   }
   57% {
-    translate: 10px -15px;
+    translate: 20px -15px;
   }
   59% {
-    translate: 10px 0px;
+    translate: 20px 0px;
   }
 
   72% {
-    translate: 10px 0px;
+    translate: 20px 0px;
   }
   73% {
-    translate: 10px -15px;
-  }
-  74% {
     translate: 20px -15px;
   }
+  74% {
+    translate: 40px -15px;
+  }
   75% {
-    translate: 20px 0px;
+    translate: 40px 0px;
   }
 
   85% {
-    translate: 20px 0px;
+    translate: 40px 0px;
   }
   86% {
-    translate: 20px -15px;
+    translate: 40px -15px;
   }
   87% {
-    translate: 25px -15px;
+    translate: 75px -15px;
   }
   89% {
-    translate: 25px 0px;
+    translate: 75px 0px;
   }
 
   95% {
-    translate: 25px 0px;
+    translate: 75px 0px;
   }
   96% {
-    translate: 25px -15px;
+    translate: 100px -15px;
   }
   97% {
-    translate: 50px -15px;
+    translate: 100px -15px;
   }
   98% {
-    translate: 50px 0px;
+    translate: 150px 0px;
   }
 
   100% {
-    translate: 50px 0px;
+    translate: 150px 0px;
   }
 }
 
-.robin1 {
+#robin1 {
   animation-name: robinHop;
   animation-duration: 5s;
   animation-delay: 0s;
@@ -200,7 +96,7 @@
   animation-direction: alternate;
 }
 
-.robin2 {
+#robin2 {
   animation-name: robinHop;
   animation-duration: 5s;
   animation-delay: 5s;
@@ -413,16 +309,7 @@
 }
 
 @media screen and (min-width: 601px) and (max-width: 1400px) {
-  .lennie-cat {
-    bottom: 1%;
-    -webkit-transform: scale(50%);
-    -moz-transform: scale(50%);
-    -ms-transform: scale(50%);
-    -o-transform: scale(50%);
-    transform: scale(50%);
-  }
-
-  .lennieIceHouseCat {
+  #robins {
     -webkit-transform: scale(60%);
     -moz-transform: scale(60%);
     -ms-transform: scale(60%);
@@ -430,16 +317,8 @@
     transform: scale(60%);
   }
 
-  .robin1 {
+  #robin1 {
     translate: scale(60%);
-  }
-}
-
-@media screen and (min-width: 799px) and (max-width: 1200px) {
-  .Lennie-cat {
-    left: 60%;
-    height: auto;
-    width: auto;
   }
 }
 
@@ -449,7 +328,7 @@
     transform: scale(90%);
   }
 
-  .lennieIceHouseCat {
+  #robins {
     -webkit-transform: scale(40%);
     -moz-transform: scale(40%);
     -ms-transform: scale(40%);
