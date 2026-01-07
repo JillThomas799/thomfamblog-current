@@ -9,33 +9,39 @@ import IcyTarn2 from "/public/imagesresized/IcyTarn2.jpg";
 
 export default function January2026() {
   return (   
- <div className=" bg-black h-[100vh] w-full pb-[100%] border-solid border-4 border- border-gray-600  mb-28">     
-       <div className="text-black text-center font-semibold text-2xl p-3 bg-gray-700 border-[#bdbeba] border-4 m-2 bg-WinterGrass bg-cover ">
-        <div className="bg-black mr-[30%] ml-[30%] border-white border-2 text-white p-2">January 2026</div>
+ <div className=" bg-black border-solid border-4 border-gray-600 p-2 md:p-4 mb-28">     
+       <div className="text-black text-center font-semibold text-xl p-3 bg-gray-700 border-[#bdbeba] border-4 m-2 bg-WinterGrass bg-cover ">
+        <div className="bg-black mr-[15%] ml-[15%] md:mr-[20%] md:ml-[20%] border-white border-2 text-white p-2">January 2026</div>
                   <br />
                   <br />
                   < Robins />
         </div> 
 
-    
-       <div className="text-white text-center font-semibold text-xl p-3 bg-gray-700 border-[#bdbeba] border-4 mt-6 mr-2 ml-2 mb-20">
-            <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 5th January 2026, Monday</div> {/*End of news date block*/} 
-        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-black">Frozen</div> {/*End of news header block*/}
-        
-         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-black pb-8 pt-4 pr-4 pl-4 mr-[2%] ml-[2%] mt-5 mb-4  justify-center text-center">
-          <div className="flex flex-col text-xl bg-black mt-8 pt-8 pb-8 pr-4 pl-4 border-solid border-2 md:border-4 border-[#F0F0F0] ">Icy Tarn 
-              <Image
-                  src={ IcyTarn2 }
-                 className=" w-[100%] md:w-[60%] lg:w-[50%]  mt-4 md:mt-8 mb-8 md:mr-auto md:ml-auto transform transition hover:scale-150"
-                  alt="Photo of outside of icy tarn" />
-            </div>
-            <br />
-         
-          </div> 
 
-        </div> 
-  
-  
+
+                  <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 pr-3 pl-3 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
+         <div className="text-md md:text-lg max-w-full font-normal text-white text-center dark:text-white justify-center items-center bg-[#bdbeba">
+       
+        
+         <Image
+                  src={ IcyTarn2 }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-gray-500 border-4 mt-8 mb-11 transform transition hover:scale-150"
+                  alt="Photo of tarn iced over"
+                />
+                <div className="flex flex-col bg-black border-solid border-gray-500 border-2 text-white items-center mb-8 p-4">Icy Tarn </div>
+
+          </div>{" "}
+      </div>{/*End of individual dated entry photo album block*/} 
+           </div> {/*End of news content block*/}
+        
+
+
+
+
+
+        
+
   
 </div>
 

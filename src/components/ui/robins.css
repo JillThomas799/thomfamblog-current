@@ -1,27 +1,27 @@
 /*animation robin*/
 
-@keyframes robinHop {
+@keyframes robinHop1 {
   0% {
-    translate: -100px 0px;
+    translate: -70px 0px;
   }
   1% {
-    translate: -100px 0px;
+    translate: -70px 0px;
   }
   2% {
-    translate: -100px -15px;
+    translate: -70px -15px;
   }
   3% {
-    translate: -75px -15px;
+    translate: -60px -15px;
   }
   5% {
-    translate: -75px 0px;
+    translate: -60px 0px;
   }
 
   30% {
-    translate: -75px 0px;
+    translate: -60px 0px;
   }
   31% {
-    translate: -75px -15px;
+    translate: -60px -15px;
   }
   33% {
     translate: -50px -15px;
@@ -63,32 +63,119 @@
     translate: 40px -15px;
   }
   87% {
-    translate: 75px -15px;
+    translate: 70px -15px;
   }
   89% {
-    translate: 75px 0px;
+    translate: 70px 0px;
   }
 
   95% {
-    translate: 75px 0px;
+    translate: 70px 0px;
   }
   96% {
-    translate: 100px -15px;
+    translate: 110px -15px;
   }
   97% {
-    translate: 100px -15px;
+    translate: 110px -15px;
   }
   98% {
-    translate: 150px 0px;
+    translate: 120px 0px;
   }
 
   100% {
-    translate: 150px 0px;
+    translate: 120px 0px;
+  }
+}
+
+@keyframes robinHop2 {
+  0% {
+    translate: 0px 0px;
+  }
+  1% {
+    translate: 0px 0px;
+  }
+  2% {
+    translate: 20px -15px;
+  }
+  3% {
+    translate: 20px -15px;
+  }
+  5% {
+    translate: 20px 0px;
+  }
+
+  30% {
+    translate: 20px 0px;
+  }
+  31% {
+    translate: 20px -15px;
+  }
+  33% {
+    translate: 40px -15px;
+  }
+  35% {
+    translate: 40px 0px;
+  }
+
+  54% {
+    translate: 40px 0px;
+  }
+  55% {
+    translate: 40px -15px;
+  }
+  57% {
+    translate: 20px -15px;
+  }
+  59% {
+    translate: 20px 0px;
+  }
+
+  72% {
+    translate: 20px 0px;
+  }
+  73% {
+    translate: 20px -15px;
+  }
+  74% {
+    translate: 10px -15px;
+  }
+  75% {
+    translate: 10px 0px;
+  }
+
+  85% {
+    translate: 10px 0px;
+  }
+  86% {
+    translate: 10px -15px;
+  }
+  87% {
+    translate: 0px -15px;
+  }
+  89% {
+    translate: 0px 0px;
+  }
+
+  95% {
+    translate: 0px 0px;
+  }
+  96% {
+    translate: -20px -15px;
+  }
+  97% {
+    translate: -20px -15px;
+  }
+  98% {
+    translate: -20px 0px;
+  }
+
+  100% {
+    translate: -20px 0px;
   }
 }
 
 #robin1 {
-  animation-name: robinHop;
+  animation-name: robinHop1;
   animation-duration: 5s;
   animation-delay: 0s;
   animation-iteration-count: infinite;
@@ -97,7 +184,7 @@
 }
 
 #robin2 {
-  animation-name: robinHop;
+  animation-name: robinHop2;
   animation-duration: 5s;
   animation-delay: 5s;
   animation-iteration-count: infinite;
@@ -297,17 +384,6 @@
   animation-direction: alternate;
 }
 
-@media screen and (min-width: 3000px) {
-  .lennieCat {
-    bottom: 1%;
-    -webkit-transform: scale(98%);
-    -moz-transform: scale(90%);
-    -ms-transform: scale(90%);
-    -o-transform: scale(90%);
-    transform: scale(90%);
-  }
-}
-
 @media screen and (min-width: 601px) and (max-width: 1400px) {
   #robins {
     -webkit-transform: scale(60%);
@@ -323,11 +399,6 @@
 }
 
 @media screen and (maxwidth: 600px) {
-  .lennieCat {
-    padding-bottom: 10%;
-    transform: scale(90%);
-  }
-
   #robins {
     -webkit-transform: scale(40%);
     -moz-transform: scale(40%);
