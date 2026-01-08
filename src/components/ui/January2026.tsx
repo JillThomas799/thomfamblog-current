@@ -5,6 +5,12 @@ import Link from 'next/link'
 import Robins from "./robins";
 import IcyTarn2 from "/public/imagesresized/IcyTarn2.jpg";
 import WinterRobin from "/public/imagesresized/WinterRobin.jpg";
+import GraduationDurham08012026V2 from '/public/imagesresized/GraduationDurham08012026V2.jpg';
+import CathedralCafeBT from '/public/imagesresized/CathedralCafeBT.jpg';
+import CathedralShop from '/public/imagesresized/CathedralShop.jpg';
+import CathedralBooks from '/public/imagesresized/CathedralBooks.jpg';
+import ArabianSands from '/public/imagesresized/ArabianSands.jpg';
+import ArthurBooks from '/public/imagesresized/ArthurBooks.jpg';
 
 
 
@@ -50,7 +56,7 @@ export default function January2026() {
                   className="block md:mr-auto md:ml-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-gray-500 border-4 mt-8 mb-11 transform transition hover:scale-150"
                   alt="Photo of tarn iced over"
                 />
-                <div className="flex flex-col bg-[#bdbeba] border-solid border-gray-500 border-2 text-black  items-center mr-[10%] ml-[10%] md:ml-[30%] md:mr-[30%] p-2 font-bold">Icy Tarn </div>
+                <div className="flex flex-col bg-[#D99e49] border-solid border-gray-500 border-2 text-black text-normal  items-center mr-[20%] ml-[20%] p-1 font-semibold">Icy tarn </div>
 
              <div className="font-normal pt-4 py-2 px-4 text-[#D99e49] text-center pb-8">The first few days of January 2026 have been very icy with temperatures down to -7 degrees c. The ducks, swans and moor hens on the tarn have been looking rather miserable but there have been some very scenic views. </div>
               
@@ -59,6 +65,61 @@ export default function January2026() {
            </div> 
         </div>
 
+        <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 p-3 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
+         < div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center justify-center items-center bg-black">
+
+          <div className="font-semibold pt-8 py-2 px-12 text-[#D99e49] text-center"> 8th January 2026</div> {/*End of news date block*/} 
+          <div className="font-semibold pt-2 pb-4 py-2 px-12 text-[#D99e49] text-center"> Visit to Durham to see the cathedral .... Attempt number 2  ......</div>
+        <p className="text-[#D99e49] text-left mb-4 md:pr-4 md:pl-4">Today we made a last-minute decision to visit Durham for the day, so a beautiful drive via the A69 and A68 across Blanchland and the Upper Derwent with some spectacular views ensued.
+           <br />
+          <br />
+          The plan had been to go and visit the inside of Durham Cathedral and to go the book shops in the city. However, on arrival at the cathedral, the scene below greeted us .. 
+     
+         <Image
+                  src={ GraduationDurham08012026V2 }
+                  className="block md:mr-auto md:ml-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-gray-500 border-4 mt-8 mb-11 transform transition hover:scale-150"
+                  alt="Photo of graduands and relatives waiting outside the cathedral for their graduations"
+                />
+            
+             Once again some graduations were taking place and the main interior of Durham Cathedral was inaccessible. 
+              Not to be deterred, we headed off to the Durham Cathedral café for some lunch....
+              <Image
+                  src={ CathedralCafeBT }
+                  className="block md:mr-auto md:ml-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-gray-500 border-4 mt-8 mb-11 transform transition hover:scale-150"
+                  alt="Photo of Bernard enjoying lunch in the cathedral café"
+                />
+                {/* <div className="flex flex-col bg-[#D99e49] border-solid border-gray-500 border-2 text-black text-normal  items-center mr-[20%] ml-[20%] p-1 font-semibold">Bernard enjoying lunch at the cathedral café </div> */}
+              Following lunch we wandered over to the interesting Durham Cathedral bookshop..
+               <Image
+                  src={ CathedralShop }
+                  className="block md:mr-auto md:ml-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-gray-500 border-4 mt-8 mb-11 transform transition hover:scale-150"
+                  alt="Photo of Durham Cathedral shop"
+                />
+                Durham Cathedral has a very good bookshop, so Jill bought some books:
+                <Image
+                  src={ CathedralBooks }
+                  className="block md:mr-auto md:ml-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-gray-500 border-4 mt-8 mb-11 transform transition hover:scale-150"
+                  alt="Photo of Durham Cathedral shop"
+                />
+                Then we wandered down North Bailey to the excellent academic/university branch of Waterstones, where Jill bought more books:
+                <Image
+                  src={ ArthurBooks }
+                  className="block md:mr-auto md:ml-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-gray-500 border-4 mt-8 mb-11 transform transition hover:scale-150"
+                  alt="Photo of Durham Cathedral shop"
+                />
+                before finally ending up at the 'normal' branch of Waterstones a little further along the main street. Jill found more books whe wanted...:
+                <Image
+                  src={ ArabianSands }
+                  className="block md:mr-auto md:ml-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-gray-500 border-4 mt-8 mb-11 transform transition hover:scale-150"
+                  alt="Photo of Durham Cathedral shop"
+                />
+                and Bernard, not to be left out, bought the autobiography of Werner Herzog.
+                </p>
+              
+          </div>{" "}
+  </div>
+</div>
 </div>
 
   );
