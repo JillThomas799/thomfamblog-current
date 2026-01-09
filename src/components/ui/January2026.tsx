@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Robins from "./robins";
 import IcyTarn2 from "/public/imagesresized/IcyTarn2.jpg";
 import WinterRobin from "/public/imagesresized/WinterRobin.jpg";
+import DurhamArrivalJT1 from "/public/imagesresized/DurhamArrivalJT2.jpg";
 import GraduationDurham08012026V2 from '/public/imagesresized/GraduationDurham08012026V2.jpg';
 import CathedralCafeBT from '/public/imagesresized/CathedralCafeBT.jpg';
 import CathedralShop from '/public/imagesresized/CathedralShop.jpg';
@@ -56,9 +57,9 @@ export default function January2026() {
                   className="block md:mr-auto md:ml-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-gray-500 border-4 mt-8 mb-11 transform transition hover:scale-150"
                   alt="Photo of tarn iced over"
                 />
-                <div className="flex flex-col bg-[#D99e49] border-solid border-gray-500 border-2 text-black text-normal  items-center mr-[20%] ml-[20%] p-1 font-semibold">Icy tarn </div>
+                {/* <div className="flex flex-col bg-[#D99e49] border-solid border-gray-500 border-2 text-black text-normal  items-center mr-[20%] ml-[20%] p-1 font-semibold">Icy tarn </div> */}
 
-             <div className="font-normal pt-4 py-2 px-4 text-[#D99e49] text-center pb-8">The first few days of January 2026 have been very icy with temperatures down to -7 degrees c. The ducks, swans and moor hens on the tarn have been looking rather miserable but there have been some very scenic views. </div>
+             <div className="font-normal pt-4 py-2 px-4 text-[#D99e49] text-center pb-8">The first few days of January 2026 have been very icy with temperatures down to -7 degrees c. The ducks, swans and moor hens on the tarn have been looking rather miserable but there have been some very scenic views, as shown in this picture of the tarn here. </div>
               
           </div>{" "}
   
@@ -67,22 +68,27 @@ export default function January2026() {
 
         <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-3 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
-         < div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center justify-center items-center bg-black">
+         < div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-black">
 
           <div className="font-semibold pt-8 py-2 px-12 text-[#D99e49] text-center"> 8th January 2026</div> {/*End of news date block*/} 
-          <div className="font-semibold pt-2 pb-4 py-2 px-12 text-[#D99e49] text-center"> Visit to Durham to see the cathedral .... Attempt number 2  ......</div>
-        <p className="text-[#D99e49] text-left mb-4 md:pr-4 md:pl-4">Today we made a last-minute decision to visit Durham for the day, so a beautiful drive via the A69 and A68 across Blanchland and the Upper Derwent with some spectacular views ensued.
+          <div className="font-semibold pt-2 pb-4 py-2 md:px-12 text-[#D99e49] text-center"> Visit to Durham to see the Cathedral </div>
+        <div className="text-[#D99e49] text-center md:text-left mb-4 pr-4 pl-4">Today we made a last-minute decision to visit Durham for the day. It was a beautiful drive along the A69 and A68 across Blanchland and the Upper Derwent with some spectacular views.
            <br />
           <br />
-          The plan had been to go and visit the inside of Durham Cathedral and to go the book shops in the city. However, on arrival at the cathedral, the scene below greeted us .. 
-     
+          On arrival at Durham, we walked carefully over the very icy pavements towards the cathedral. Here is Jill on the bridge over the River Wear:
+          <Image
+                  src={ DurhamArrivalJT1 }
+                  className="block md:mr-auto md:ml-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-gray-500 border-4 mt-8 mb-11 transform transition hover:scale-150"
+                  alt="Photo of Jill on the bridge over the Wear, Durham"
+                />
+          The plan had been to go and visit the inside of Durham Cathedral, which we could not do last time because of graduation ceremonies, and to go the book shops in the city. However, on arrival at the cathedral, the scene below greeted us: 
          <Image
                   src={ GraduationDurham08012026V2 }
                   className="block md:mr-auto md:ml-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-gray-500 border-4 mt-8 mb-11 transform transition hover:scale-150"
                   alt="Photo of graduands and relatives waiting outside the cathedral for their graduations"
                 />
             
-             Once again some graduations were taking place and the main interior of Durham Cathedral was inaccessible. 
+             Once again some graduation ceremonies were taking place and the main interior of Durham Cathedral was inaccessible. 
               Not to be deterred, we headed off to the Durham Cathedral café for some lunch....
               <Image
                   src={ CathedralCafeBT }
@@ -93,29 +99,35 @@ export default function January2026() {
               Following lunch we wandered over to the interesting Durham Cathedral bookshop..
                <Image
                   src={ CathedralShop }
-                  className="block md:mr-auto md:ml-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-gray-500 border-4 mt-8 mb-11 transform transition hover:scale-150"
+                  className="block md:mr-auto md:ml-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-gray-500 border-4 mt-8 mb-8 transform transition hover:scale-150"
                   alt="Photo of Durham Cathedral shop"
                 />
-                Durham Cathedral has a very good bookshop, so Jill bought some books:
+                Durham Cathedral has a very good bookshop, so Jill bought some books. Then we wandered down North Bailey to the excellent academic/university branch of Waterstones, where Jill bought more books. Finally we ended up at the 'normal' branch of Waterstones a little further along the street,  where Jill found even more books.....
+                  <br />
+                  <br />
+                 Bernard, not to be outdone, purchased the autobiography of Werner Herzog <Link href="https://www.waterstones.com/book/every-man-for-himself-and-god-against-all/werner-herzog/michael-hofmann/9781529923865" target="_blank" className="text-decoration-underline text-[#bdbeba] font-semibold">'Every Man for Himself and God Against All'</Link> about which the Guardian newspaper wrote <Link href="https://www.theguardian.com/books/2023/oct/19/every-man-for-himself-and-god-against-all-by-werner-herzog-review-magical-thinking" target="_blank" className="text-[#bdbeba] font-semibold">this article </Link> in October 2023.
+                
+               <div className="flex flex-col md:gap-2">
                 <Image
                   src={ CathedralBooks }
-                  className="block md:mr-auto md:ml-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-gray-500 border-4 mt-8 mb-11 transform transition hover:scale-150"
+                  className="block md:mr-auto md:ml-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-gray-500 border-4 mt-8 mb-6 transform transition hover:scale-150"
                   alt="Photo of Durham Cathedral shop"
                 />
-                Then we wandered down North Bailey to the excellent academic/university branch of Waterstones, where Jill bought more books:
+               
                 <Image
                   src={ ArthurBooks }
-                  className="block md:mr-auto md:ml-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-gray-500 border-4 mt-8 mb-11 transform transition hover:scale-150"
+                  className="block md:mr-auto md:ml-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-gray-500 border-4 mt-6 mb-8 transform transition hover:scale-150"
                   alt="Photo of Durham Cathedral shop"
                 />
-                before finally ending up at the 'normal' branch of Waterstones a little further along the main street. Jill found more books whe wanted...:
+                
                 <Image
                   src={ ArabianSands }
-                  className="block md:mr-auto md:ml-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-gray-500 border-4 mt-8 mb-11 transform transition hover:scale-150"
+                  className="block md:mr-auto md:ml-auto h-auto w-[100%] md:w-[75%] lg:w-[60%] border-solid border-gray-500 border-4 mt-8 mb-6 transform transition hover:scale-150"
                   alt="Photo of Durham Cathedral shop"
                 />
-                and Bernard, not to be left out, bought the autobiography of Werner Herzog.
-                </p>
+                We had a lovely day as Durham is always a very pretty city to visit and now, all we have to worry about is finding the time to do all that reading.....
+                </div>
+                </div>
               
           </div>{" "}
   </div>
