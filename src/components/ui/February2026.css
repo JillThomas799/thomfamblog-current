@@ -1,0 +1,14 @@
+#snowScene {
+  background: linear-gradient(
+    180deg,
+    #a6c0cd 20%,
+    #dde6eb 30%,
+    #f4f4f4 35% 100%
+  );
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: 70vh;
+  top: 0;
+}
