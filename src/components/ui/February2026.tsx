@@ -8,7 +8,7 @@ export default function February2026() {
   return ( <div>
  <div id="snowScene" className=" bg-black border-solid border-4 border-gray-600 p-2 md:p-4  height-[100vh]"> 
  <div className="text-gray-600 bg-[#edeaea] border-solid border-2 mt-0 border-gray-600  font-bold text-xl md:text-2xl text-center">February 2026</div>  
- <div className="md: md:scale-75 translate-x-[-25%]"><Deer/> </div>          
+ <div className="scale-[70%] translate-x-[-10%] md:scale-[82%] md:translate-x-[-30%] lg:scale-[85%] lg:translate-x-[-20%]"><Deer/> </div>          
                   <br />
                   <br />
              </div> 
