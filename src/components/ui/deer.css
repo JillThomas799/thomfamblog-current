@@ -3,99 +3,177 @@
   overflow: visible;
 }
 
-.deer1 {
-  animation-name: deer1turnhead;
-  animation-duration: 5s;
+#deerLegRightFront {
+  animation-name: deerLegRightFront;
+  animation-duration: 10s;
   animation-delay: 0s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-direction: alternate;
 }
 
-@keyframes deer1turnhead {
+#deerLegRightFrontRaised {
+  animation-name: deerLegRightFrontRaised;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes deerLegRightFront {
   0% {
-    translate: -70px 0px;
+    opacity: 1;
   }
   1% {
-    translate: -70px 0px;
+    opacity: 1;
   }
   2% {
-    translate: -70px -15px;
+    opacity: 0;
   }
   3% {
-    translate: -60px -15px;
+    opacity: 0;
   }
   5% {
-    translate: -60px 0px;
+    opacity: 1;
   }
-
   30% {
-    translate: -60px 0px;
+    opacity: 1;
   }
   31% {
-    translate: -60px -15px;
+    opacity: 0;
   }
   33% {
-    translate: -50px -15px;
+    opacity: 0;
   }
   35% {
-    translate: -50px 0px;
+    opacity: 0;
   }
-
   54% {
-    translate: -50px 0px;
+    opacity: 1;
   }
   55% {
-    translate: -50px -15px;
+    opacity: 0;
   }
   57% {
-    translate: 20px -15px;
+    opacity: 0;
   }
   59% {
-    translate: 20px 0px;
+    opacity: 1;
   }
-
   72% {
-    translate: 20px 0px;
+    opacity: 1;
   }
   73% {
-    translate: 20px -15px;
+    opacity: 0;
   }
   74% {
-    translate: 40px -15px;
+    opacity: 0;
   }
   75% {
-    translate: 40px 0px;
+    opacity: 1;
   }
-
   85% {
-    translate: 40px 0px;
+    opacity: 1;
   }
   86% {
-    translate: 40px -15px;
+    opacity: 0;
   }
   87% {
-    translate: 70px -15px;
+    opacity: 0;
   }
   89% {
-    translate: 70px 0px;
+    opacity: 1;
   }
-
-  95% {
-    translate: 70px 0px;
+  58% {
+    opacity: 0;
   }
   96% {
-    translate: 110px -15px;
+    opacity: 1;
   }
   97% {
-    translate: 110px -15px;
+    opacity: 1;
   }
   98% {
-    translate: 120px 0px;
+    opacity: 0;
   }
+}
 
-  100% {
-    translate: 120px 0px;
+@keyframes deerLegRightFrontRaised {
+  0% {
+    opacity: 0;
+  }
+  1% {
+    opacity: 0;
+  }
+  2% {
+    opacity: 1;
+  }
+  3% {
+    opacity: 1;
+  }
+  5% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  31% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 1;
+  }
+  54% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  57% {
+    opacity: 1;
+  }
+  59% {
+    opacity: 0;
+  }
+  72% {
+    opacity: 0;
+  }
+  73% {
+    opacity: 1;
+  }
+  74% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 0;
+  }
+  86% {
+    opacity: 1;
+  }
+  87% {
+    opacity: 1;
+  }
+  89% {
+    opacity: 0;
+  }
+  58% {
+    opacity: 1;
+  }
+  96% {
+    opacity: 0;
+  }
+  97% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 1;
   }
 }
 

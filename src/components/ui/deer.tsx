@@ -149,6 +149,16 @@ export default function Deer() {
               This is the deer neck.
             </g>
 
+            <g id="deerLegRightFrontRaised" transform="translate(-310, 180) rotate(-40)">
+              <path
+               d="M 100 535 L 111 565 105 605 117 605 121 565 123 530 "
+               
+                fill="url(#gradLegsDeer)"
+                opacity="0.9"
+                filter="url(#blur2)"
+              ></path>
+            </g>
+
             <g className="deerBody">
               <path
                 d="M 10 505 Q 30 490 130 505 A 30 30 330 0 1 105 543 L 105 543 17 543 Q 6 525 15 505 Z"
@@ -167,6 +177,8 @@ export default function Deer() {
               />{" "}
               This is the white deer tail
             </g>
+
+            
 
             <g id="deerLegLeftRear">
               <path
@@ -194,6 +206,7 @@ export default function Deer() {
                 filter="url(#blur2)"
               ></path>
             </g>
+            
 
             <g className="deerBib">
               <path
