@@ -177,6 +177,276 @@
   }
 }
 
+@keyframes robinHop1 {
+  0% {
+    translate: -70px 0px;
+  }
+  1% {
+    translate: -70px 0px;
+  }
+  2% {
+    translate: -70px -15px;
+  }
+  3% {
+    translate: -60px -15px;
+  }
+  5% {
+    translate: -60px 0px;
+  }
+
+  30% {
+    translate: -60px 0px;
+  }
+  31% {
+    translate: -60px -15px;
+  }
+  33% {
+    translate: -50px -15px;
+  }
+  35% {
+    translate: -50px 0px;
+  }
+
+  54% {
+    translate: -50px 0px;
+  }
+  55% {
+    translate: -50px -15px;
+  }
+  57% {
+    translate: 20px -15px;
+  }
+  59% {
+    translate: 20px 0px;
+  }
+
+  72% {
+    translate: 20px 0px;
+  }
+  73% {
+    translate: 20px -15px;
+  }
+  74% {
+    translate: 40px -15px;
+  }
+  75% {
+    translate: 40px 0px;
+  }
+
+  85% {
+    translate: 40px 0px;
+  }
+  86% {
+    translate: 40px -15px;
+  }
+  87% {
+    translate: 70px -15px;
+  }
+  89% {
+    translate: 70px 0px;
+  }
+
+  95% {
+    translate: 70px 0px;
+  }
+  96% {
+    translate: 110px -15px;
+  }
+  97% {
+    translate: 110px -15px;
+  }
+  98% {
+    translate: 120px 0px;
+  }
+
+  100% {
+    translate: 120px 0px;
+  }
+}
+
+@keyframes robinHop2 {
+  0% {
+    translate: -70px 0px;
+  }
+  1% {
+    translate: -70px 0px;
+  }
+  2% {
+    translate: -70px -15px;
+  }
+  3% {
+    translate: -60px -15px;
+  }
+  5% {
+    translate: -60px 0px;
+  }
+
+  30% {
+    translate: -60px 0px;
+  }
+  31% {
+    translate: -60px -15px;
+  }
+  33% {
+    translate: -50px -15px;
+  }
+  35% {
+    translate: -50px 0px;
+  }
+
+  54% {
+    translate: -50px 0px;
+  }
+  55% {
+    translate: -50px -15px;
+  }
+  57% {
+    translate: 20px -15px;
+  }
+  59% {
+    translate: 20px 0px;
+  }
+
+  72% {
+    translate: 20px 0px;
+  }
+  73% {
+    translate: 20px -15px;
+  }
+  74% {
+    translate: 40px -15px;
+  }
+  75% {
+    translate: 40px 0px;
+  }
+
+  85% {
+    translate: 40px 0px;
+  }
+  86% {
+    translate: 40px -15px;
+  }
+  87% {
+    translate: 70px -15px;
+  }
+  89% {
+    translate: 70px 0px;
+  }
+
+  95% {
+    translate: 70px 0px;
+  }
+  96% {
+    translate: 110px -15px;
+  }
+  97% {
+    translate: 110px -15px;
+  }
+  98% {
+    translate: 120px 0px;
+  }
+
+  100% {
+    translate: 120px 0px;
+  }
+}
+
+.deer1 {
+  animation-name: deer1leap;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: 5;
+  animation-timing-function: linear;
+  /* animation-direction: alternate; */
+}
+
+@keyframes deer1leap {
+  0% {
+    translate: -70px 0px;
+  }
+  1% {
+    translate: -70px 0px;
+  }
+  2% {
+    translate: -70px -15px;
+  }
+  3% {
+    translate: -60px -15px;
+  }
+  5% {
+    translate: -60px 0px;
+  }
+
+  30% {
+    translate: -60px 0px;
+  }
+  31% {
+    translate: -60px -15px;
+  }
+  33% {
+    translate: -50px -15px;
+  }
+  35% {
+    translate: -50px 0px;
+  }
+
+  54% {
+    translate: -50px 0px;
+  }
+  55% {
+    translate: -50px -15px;
+  }
+  57% {
+    translate: 20px -15px;
+  }
+  59% {
+    translate: 20px 0px;
+  }
+
+  72% {
+    translate: 20px 0px;
+  }
+  73% {
+    translate: 20px -15px;
+  }
+  74% {
+    translate: 40px -15px;
+  }
+  75% {
+    translate: 40px 0px;
+  }
+
+  85% {
+    translate: 40px 0px;
+  }
+  86% {
+    translate: 40px -15px;
+  }
+  87% {
+    translate: 70px -15px;
+  }
+  89% {
+    translate: 70px 0px;
+  }
+
+  95% {
+    translate: 70px 0px;
+  }
+  96% {
+    translate: 110px -15px;
+  }
+  97% {
+    translate: 110px -15px;
+  }
+  98% {
+    translate: 120px 0px;
+  }
+
+  100% {
+    translate: 120px 0px;
+  }
+}
+
 /*To ensure on all devices that the 3 deer are scaled and repositioned so visible*/
 @media screen and (min-width: 1111px) and (max-width: 3500px) {
   .deer1 {
