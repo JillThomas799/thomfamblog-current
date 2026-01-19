@@ -149,6 +149,50 @@ export default function Deer() {
               This is the deer neck.
             </g>
 
+             <g className="deerNeck">
+              <rect
+                id="deerNeck"
+                x="102"
+                y="460"
+                width="25"
+                height="70"
+                rx="15"
+                ry="15"
+                transform="translate(90,-10) rotate(10)"
+                fill="url(#gradNeckDeer)"
+                opacity="1.0"
+                filter="url(#blur2)"
+              />{" "}
+              This is the deer neck.
+            </g>
+
+            <g className="deerNeckLeap">
+              <rect
+                id="deerNeck"
+                x="102"
+                y="460"
+                width="25"
+                height="70"
+                rx="15"
+                ry="15"
+                transform="translate(100,-10) rotate(10)"
+                fill="url(#gradNeckDeer)"
+                opacity="1.0"
+                filter="url(#blur2)"
+              />{" "}
+              This is the deer neck.
+            </g>
+
+             <g className="deerNeckLeapMouthExtension">
+              <path
+               d="M 135 490 L 144 484 153 478 144 472 135 466 "
+               
+                fill="url(#gradNeckDeer)"
+                opacity="0.9"
+                filter="url(#blur2)"
+              ></path>
+             </g>
+
             <g id="deerLegRightFrontRaised" transform="translate(-310, 180) rotate(-40)">
               <path
                d="M 100 535 L 111 565 105 605 117 605 121 565 123 530 "
@@ -207,7 +251,7 @@ export default function Deer() {
               ></path>
             </g>
             
-
+                
             <g className="deerBib">
               <path
                 id="deerBib"
@@ -226,6 +270,24 @@ export default function Deer() {
                 y="483"
                 height="10"
                 width="10"
+                rx="5"
+                ry="5"
+                fill="black"
+                filter="url(#blur2)"
+                opacity="0.8"
+              />
+            </g>
+
+            
+            <g
+              className="deerMuzzleLeap"
+              style={{ transform: "translate(380px, 45px) rotate(45deg)" }}
+            >
+              <rect
+                x="140"
+                y="468"
+                height="8"
+                width="8"
                 rx="5"
                 ry="5"
                 fill="black"
@@ -280,6 +342,8 @@ export default function Deer() {
               opacity="0.9"
             ></ellipse>
           </g>
+
+      
           <g
             id="deerEyesLeft"
             style={{ transform: "translate(89px, -30px) rotate(15deg)" }}
@@ -298,6 +362,34 @@ export default function Deer() {
               id="deerEyeLeft"
               cx="166"
               cy="317"
+              rx="3"
+              ry="4"
+              fill="#36454F"
+              opacity="0.9"
+              filter="url(#blur2)"
+              style={{ transform: "rotate(-20deg,128,490)" }}
+            ></ellipse>
+          </g>
+
+          
+          <g
+            id="deerEyesLeftLeap"
+            style={{ transform: "translate(89px, -30px) rotate(15deg)" }}
+          >
+            <ellipse
+              id="deerEyeWhiteLeftLeap"
+              cx="176"
+              cy="310"
+              rx="3.5"
+              ry="4.5"
+              fill="#ECD0B8"
+              opacity="0.7"
+              filter="url(#blur2)"
+            ></ellipse>
+            <ellipse
+              id="deerEyeLeftLeap"
+              cx="176"
+              cy="310"
               rx="3"
               ry="4"
               fill="#36454F"
