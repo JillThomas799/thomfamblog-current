@@ -149,24 +149,7 @@ export default function Deer() {
               This is the deer neck.
             </g>
 
-             <g className="deerNeck">
-              <rect
-                id="deerNeck"
-                x="102"
-                y="460"
-                width="25"
-                height="70"
-                rx="15"
-                ry="15"
-                transform="translate(90,-10) rotate(10)"
-                fill="url(#gradNeckDeer)"
-                opacity="1.0"
-                filter="url(#blur2)"
-              />{" "}
-              This is the deer neck.
-            </g>
-
-            <g className="deerNeckLeap">
+             <g className="deerNeckLeap">
               <rect
                 id="deerNeck"
                 x="102"
@@ -197,6 +180,24 @@ export default function Deer() {
               <path
                d="M 100 535 L 111 565 105 605 117 605 121 565 123 530 "
                
+                fill="url(#gradLegsDeer)"
+                opacity="0.9"
+                filter="url(#blur2)"
+              ></path>
+            </g>
+
+            <g id="deerLegLeftRearRaised" transform="translate(-330, 140) rotate(-40)">
+              <path
+                d="M 16 535 L 5 565 4 605 13 605 16 565 38 535 Z"
+                fill="url(#gradLegsDeer)"
+                opacity="0.9"
+                filter="url(#blur2)"
+              ></path>
+            </g>
+
+            <g id="deerLegRightRearRaised" transform="translate(-330, 140) rotate(-40)">
+              <path
+                d="M 28 535 L 18 565 27 605 36 605 29 565 48 535 Z"
                 fill="url(#gradLegsDeer)"
                 opacity="0.9"
                 filter="url(#blur2)"
