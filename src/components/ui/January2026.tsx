@@ -12,7 +12,7 @@ import CathedralShop from '/public/imagesresized/CathedralShop.jpg';
 import CathedralBooks from '/public/imagesresized/CathedralBooks.jpg';
 import ArabianSands from '/public/imagesresized/ArabianSands.jpg';
 import ArthurBooks from '/public/imagesresized/ArthurBooks.jpg';
-import DarkSkyTitled from '/public/imagesresized/DarkSkyTitled.jpg';
+import DarkSkyMathiasMHTitled from '/public/imagesresized/DarkSkyMathiasMHTitled.jpg';
 
 
 
@@ -72,7 +72,7 @@ export default function January2026() {
          < div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-black">
 
           <div className="font-normal pt-8 py-2  text-[#D99e49] text-center"> 8th January 2026</div> {/*End of news date block*/} 
-          <div className="font-normal pt-2 pb-4 py-2 md:px-4 text-[#D99e49] text-center"> Visit to Durham to see the Cathedral </div>
+           <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-black text-center  border-gray-800 border-solid border-2 bg-[#D99e49]"> Visit to Durham to see the Cathedral. </div>
         <div className="text-[#D99e49] text-left md:text-left mb-4 pr-4 pl-4">Today we made a last-minute decision to visit Durham for the day. It was a beautiful drive along the A69 and A68 across Blanchland and the Upper Derwent with some spectacular views.
            <br />
           <br />
@@ -136,21 +136,35 @@ export default function January2026() {
       <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
          < div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-black">
 
-          <div className="font-normal pt-8 py-2  text-[#D99e49] text-center"> 18th January 2026</div> {/*End of news date block*/} 
-          <div className="font-normal pt-2 pb-4 py-2 md:px-4 text-[#D99e49] text-center"> Stargazing at the Dark Skies ....or rather,  </div>
-        <div className="text-black text-left md:text-center mb-4 pr-4 pl-4 ">
-                <div className="m-1 pr-1 pl-1 pt-4 pb-4 font-semibold  border-gray-800 border-solid border-2 bg-[#D99e49] mb-6">Click on the image below to open the album <br /> of our Stargazing evening meal and event.</div>
+          <div className="font-semibold pt-8 py-2  text-[#D99e49] text-center"> 18th January 2026</div> {/*End of news date block*/} 
+          <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-black text-center  border-gray-800 border-solid border-2 bg-[#D99e49]"> Stargazing at the Dark Skies ....or rather, indoor stargazing <br /> at the night sky via the planetarium, <br /> as it was too cloudy outside. </div>
+        <div className="text-black text-center md:text-center mb-4 md:*:pr-6 md:*:pl-6 ">
+          <div className="text-[#D99e49] text-left md:text-left mb-4 pr-4 pl-4">One of the items on our 'To Do' list for this year has been to go up to the Kielder Observatory situated in the wilds of the Kielder Water and Forest Park, close to the Scottish Border. <Link href=" https://kielderobservatory.org/" target="_blank" className="text-[#bdbeba] font-semibold"></Link> 
+          <br />
+          <br /> 
+          The Kielder Observatory is a public astronomical observatory and educational charity located in Europe’s largest Gold-Tier International Dark Sky Park. Getting to Kielder itself however, is rather an interesting drive, even for experienced remote countryside drivers like ourselves and certainly more challenging in the dark and jn poor weather conditions. 
+          <br />
+          <br /> 
+          So we were delighted to discover that since September 2025, the team at <Link href=" https://twicebrewedinn.co.uk/" target="_blank" className="text-[#bdbeba] font-semibold">Twice Brewed Inn</Link>, located on the Hadrian's Wall route, near Bardon Mill in rural Northumberland,  have joined up with the astronomers at <Link href=" https://kielderobservatory.org/" target="_blank" className="text-[#bdbeba] font-semibold">Kielder Observatory</Link>  and their team to run <Link href=" https://twicebrewedinn.co.uk/stargazing-at-twice-brewed-inn/" target="_blank" className="text-[#bdbeba] font-semibold">Star Gazing Events</Link> at the <Link href=" https://twicebrewedinn.co.uk/" target="_blank" className="text-[#bdbeba] font-semibold">Twice Brewed Inn</Link>. <Link href=" https://twicebrewedinn.co.uk/" target="_blank" className="text-[#bdbeba] font-semibold">Twice Brewed Inn</Link> is located within the protected Dark Sky park, thus benefitting from minimal light pollution. It is also more easily than Kielder water, not just for visitors but also for the observatory staff themselves. 
+           <br />
+          <br /> 
+          To be able to do this, and accommodate the often inclement weather in this area, the owners of Twice Brewed Inn have constructed an area called 'The Space', where the astronomers can host talks, and also a <Link href="https://twicebrewedinn.co.uk/planetarium/" target="_blank" className="text-[#bdbeba] font-semibold">Planetarium</Link>, which is a purpose-built 360 degree immersive dome which brings to life the universe.   </div>
+                <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-bold  border-gray-800 border-solid border-2 bg-[#D99e49] mb-6">Click on the image below to open the album <br /> of our Stargazing evening meal and event. 
+                <br />
+          <br /> 
+                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo and event in that space.</div>
+                
           <Link
                 href="https://photos.app.goo.gl/Ps8ySrfrgSGXGTTL8"
                 target="_blank"
               >
          <Image
-                  src={ DarkSkyTitled}
+                  src={ DarkSkyMathiasMHTitled}
                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of starry sky."
                 />
                 </Link>
-                 <div className="relative text-lg -mt-16 text-white pt-12 ml-4"><em>Creative Commons Licence </em></div>
+                 <div className="relative text-xs -mt-16 text-white pt-12 ml-4"><em>By <Link href="https://www.flickr.com/people/125204407@N08">MATHIAS, M H</Link> from Guaratinguetá, Brasil,  <Link href="https://creativecommons.org/licenses/by/2.0" title="Creative Commons Attribution 2.0">CC BY 2.0</Link>, <Link href="https://commons.wikimedia.org/w/index.php?curid=101329205">Link</Link></em></div>
                
                 </div>
                
