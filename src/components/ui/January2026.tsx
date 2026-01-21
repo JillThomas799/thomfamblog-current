@@ -12,6 +12,7 @@ import CathedralShop from '/public/imagesresized/CathedralShop.jpg';
 import CathedralBooks from '/public/imagesresized/CathedralBooks.jpg';
 import ArabianSands from '/public/imagesresized/ArabianSands.jpg';
 import ArthurBooks from '/public/imagesresized/ArthurBooks.jpg';
+import DarkSkyTitled from '/public/imagesresized/DarkSkyTitled.jpg';
 
 
 
@@ -128,8 +129,40 @@ export default function January2026() {
                 We had a lovely day as Durham is always a very pretty city to visit and now, all we have to worry about is finding the time to do all that reading.....
                 </div>
                 </div>
+                </div>              
+          </div>{" "}
+
+            <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
+         < div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-black">
+
+          <div className="font-normal pt-8 py-2  text-[#D99e49] text-center"> 18th January 2026</div> {/*End of news date block*/} 
+          <div className="font-normal pt-2 pb-4 py-2 md:px-4 text-[#D99e49] text-center"> Stargazing at the Dark Skies ....or rather,  </div>
+        <div className="text-black text-left md:text-center mb-4 pr-4 pl-4 ">
+                <div className="m-1 pr-1 pl-1 pt-4 pb-4 font-semibold  border-gray-800 border-solid border-2 bg-[#D99e49] mb-6">Click on the image below to open the album <br /> of our Stargazing evening meal and event.</div>
+          <Link
+                href="https://photos.app.goo.gl/Ps8ySrfrgSGXGTTL8"
+                target="_blank"
+              >
+         <Image
+                  src={ DarkSkyTitled}
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of starry sky."
+                />
+                </Link>
+                 <div className="relative text-lg -mt-16 text-white pt-12 ml-4"><em>Creative Commons Licence </em></div>
+               
+                </div>
+               
               
           </div>{" "}
+                  
+  </div>
+  
+
+
+
+          
   </div>
 </div>
 </div>
