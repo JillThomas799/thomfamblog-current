@@ -145,11 +145,12 @@ export default function Deer() {
                 fill="url(#gradNeckDeer)"
                 opacity="1.0"
                 filter="url(#blur2)"
+                visibility="visible"
               />{" "}
               This is the deer neck.
             </g>
 
-             <g className="deerNeckLeap">
+             <g className="deerNeckLeap" > <rect></rect>
               <rect
                 id="deerNeck"
                 x="102"
@@ -162,6 +163,7 @@ export default function Deer() {
                 fill="url(#gradNeckDeer)"
                 opacity="1.0"
                 filter="url(#blur2)"
+                 visibility="hidden"
               />{" "}
               This is the deer neck.
             </g>
@@ -173,6 +175,7 @@ export default function Deer() {
                 fill="url(#gradNeckDeer)"
                 opacity="0.9"
                 filter="url(#blur2)"
+                visibility="hidden"
               ></path>
              </g>
 
@@ -183,6 +186,7 @@ export default function Deer() {
                 fill="url(#gradLegsDeer)"
                 opacity="0.9"
                 filter="url(#blur2)"
+                visibility="hidden"
               ></path>
             </g>
 
@@ -192,6 +196,7 @@ export default function Deer() {
                 fill="url(#gradLegsDeer)"
                 opacity="0.9"
                 filter="url(#blur2)"
+                 visibility="hidden"
               ></path>
             </g>
 
@@ -201,6 +206,7 @@ export default function Deer() {
                 fill="url(#gradLegsDeer)"
                 opacity="0.9"
                 filter="url(#blur2)"
+                 visibility="hidden"
               ></path>
             </g>
 
@@ -219,6 +225,7 @@ export default function Deer() {
                 ry="10"
                 fill="white"
                 filter="url(#blur2)"
+                visibility="visible"
               />{" "}
               This is the white deer tail
             </g>
@@ -231,6 +238,7 @@ export default function Deer() {
                 fill="url(#gradLegsDeer)"
                 opacity="0.9"
                 filter="url(#blur2)"
+                visibility="visible"
               ></path>
             </g>
 
@@ -240,6 +248,7 @@ export default function Deer() {
                 fill="url(#gradLegsDeer)"
                 opacity="0.9"
                 filter="url(#blur2)"
+                visibility="visible"
               ></path>
             </g>
 
@@ -249,6 +258,7 @@ export default function Deer() {
                 fill="url(#gradLegsDeer)"
                 opacity="0.9"
                 filter="url(#blur2)"
+                visibility="visible"
               ></path>
             </g>
             
@@ -259,6 +269,7 @@ export default function Deer() {
                 d="M 111 500 A 7 18 10 1 1 126 500"
                 fill="white"
                 filter="url(#blur2)"
+                visibility="visible"
               ></path>
             </g>
 
@@ -276,6 +287,7 @@ export default function Deer() {
                 fill="black"
                 filter="url(#blur2)"
                 opacity="0.8"
+                visibility="visible"
               />
             </g>
 
@@ -294,6 +306,7 @@ export default function Deer() {
                 fill="black"
                 filter="url(#blur2)"
                 opacity="0.8"
+                 visibility="hidden"
               />
             </g>
 
@@ -307,6 +320,7 @@ export default function Deer() {
                 fill="url(#gradEarsDeer)"
                 filter="url(#blur2)"
                 opacity="1.0"
+                visibility="visible"
               ></path>
               <path
                 id="deerEarLeft"
@@ -314,6 +328,7 @@ export default function Deer() {
                 fill="url(#gradEarsDeer)"
                 filter="url(#blur2)"
                 opacity="1.0"
+                visibility="visible"
               ></path>
               <path
                 id="deerEarRightLeap"
@@ -321,6 +336,7 @@ export default function Deer() {
                 fill="#5C4033"
                 filter="url(#blur2)"
                 opacity="0.8"
+                visibility="hidden"
               ></path>
 
             </g>
@@ -339,6 +355,7 @@ export default function Deer() {
               fill="#ECD0B8"
               opacity="0.7"
               filter="url(#blur2)"
+              visibility="visible"
             ></ellipse>
             <ellipse
               id="deerEyeRight"
@@ -349,6 +366,7 @@ export default function Deer() {
               fill="#36454F"
               filter="url(#blur2)"
               opacity="0.9"
+              visibility="visible"
             ></ellipse>
           </g>
 
@@ -366,6 +384,7 @@ export default function Deer() {
               fill="#ECD0B8"
               opacity="0.7"
               filter="url(#blur2)"
+              visibility="visible"
             ></ellipse>
             <ellipse
               id="deerEyeLeft"
@@ -376,7 +395,9 @@ export default function Deer() {
               fill="#36454F"
               opacity="0.9"
               filter="url(#blur2)"
+              visibility="visible"
               style={{ transform: "rotate(-20deg,128,490)" }}
+
             ></ellipse>
           </g>
 
@@ -394,6 +415,7 @@ export default function Deer() {
               fill="#ECD0B8"
               opacity="0.7"
               filter="url(#blur2)"
+               visibility="hidden"
             ></ellipse>
             <ellipse
               id="deerEyeLeftLeap"
@@ -405,6 +427,7 @@ export default function Deer() {
               opacity="0.9"
               filter="url(#blur2)"
               style={{ transform: "rotate(-20deg,128,490)" }}
+               visibility="hidden"
             ></ellipse>
           </g>
         </g>

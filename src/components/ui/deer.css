@@ -7,42 +7,46 @@
 #deerLegRightRear,
 #deerLegLeftRear {
   animation-name: deerLegRightFront;
-  animation-duration: 5s;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
   animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
 
 #deerLegRightFrontRaised,
 #deerLegRightRearRaised,
 #deerLegLeftRearRaised {
   animation-name: deerLegRightFrontRaised;
-  animation-duration: 5s;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
   animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
 
 .deer1 {
   animation-name: deer1leap;
-  animation-duration: 5s;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
   animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
 
 .deerBib,
 .deerMuzzle,
-#deerEyesRight,
+#deerEyeRight,
 #deerEyesLeft,
 #deerEarLeft,
 #deerEarRight,
 .deerNeck {
   animation-name: deerBib;
-  animation-duration: 5s;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
   animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
 
 #deerEyesLeftLeap,
@@ -51,228 +55,229 @@
 .deerNeckLeapMouthExtension,
 #deerEarLeap {
   animation-name: deerEyesLeftLeap;
-  animation-duration: 5s;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
   animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
 
 @keyframes deerEyesLeftLeap {
   0% {
-    opacity: 0;
+    visibility: hidden;
   }
   1% {
-    opacity: 0;
+    visibility: hidden;
   }
   2% {
-    opacity: 0;
+    visibility: visible;
   }
   3% {
-    opacity: 0;
+    visibility: visible;
   }
   5% {
-    opacity: 0;
+    visibility: visible;
   }
   7% {
-    opacity: 1;
+    visibility: visible;
   }
   9% {
-    opacity: 1;
+    visibility: visible;
   }
   12% {
-    opacity: 1;
+    visibility: visible;
   }
   15% {
-    opacity: 1;
+    visibility: visible;
   }
   90% {
-    opacity: 1;
+    visibility: visible;
   }
   95% {
-    opacity: 1;
+    visibility: visible;
   }
   100% {
-    opacity: 0;
+    visibility: hidden;
   }
 }
 
 @keyframes deerBib {
   0% {
-    opacity: 1;
+    visibility: visible;
   }
   1% {
-    opacity: 1;
+    visibility: visible;
   }
   2% {
-    opacity: 1;
+    visibility: hidden;
   }
   3% {
-    opacity: 1;
+    visibility: hidden;
   }
   5% {
-    opacity: 1;
+    visibility: hidden;
   }
   7% {
-    opacity: 0;
+    visibility: hidden;
   }
   9% {
-    opacity: 0;
+    visibility: hidden;
   }
   12% {
-    opacity: 0;
+    visibility: hidden;
   }
   15% {
-    opacity: 0;
+    visibility: hidden;
   }
   90% {
-    opacity: 0;
+    visibility: hidden;
   }
   95% {
-    opacity: 0;
+    visibility: hidden;
   }
   100% {
-    opacity: 1;
+    visibility: visible;
   }
 }
 
 @keyframes deerLegRightFront {
   0% {
-    opacity: 1;
+    visibility: visible;
   }
   5% {
-    opacity: 0;
+    visibility: hidden;
   }
   30% {
-    opacity: 1;
+    visibility: visible;
   }
   31% {
-    opacity: 0;
+    visibility: hidden;
   }
   33% {
-    opacity: 0;
+    visibility: hidden;
   }
   35% {
-    opacity: 1;
+    visibility: visible;
   }
   54% {
-    opacity: 1;
+    visibility: visible;
   }
   55% {
-    opacity: 0;
+    visibility: hidden;
   }
   57% {
-    opacity: 0;
+    visibility: hidden;
   }
   59% {
-    opacity: 1;
+    visibility: visible;
   }
   72% {
-    opacity: 1;
+    visibility: visible;
   }
   73% {
-    opacity: 0;
+    visibility: hidden;
   }
   74% {
-    opacity: 0;
+    visibility: hidden;
   }
   75% {
-    opacity: 1;
+    visibility: visible;
   }
   85% {
-    opacity: 1;
+    visibility: visible;
   }
   86% {
-    opacity: 1;
+    visibility: visible;
   }
   87% {
-    opacity: 1;
+    visibility: visible;
   }
   89% {
-    opacity: 1;
+    visibility: visible;
   }
 
   96% {
-    opacity: 1;
+    visibility: visible;
   }
   97% {
-    opacity: 1;
+    visibility: visible;
   }
   98% {
-    opacity: 1;
+    visibility: visible;
   }
   100% {
-    opacity: 1;
+    visibility: visible;
   }
 }
 
 @keyframes deerLegRightFrontRaised {
   0% {
-    opacity: 0;
+    visibility: visible;
   }
 
   5% {
-    opacity: 1;
+    visibility: visible;
   }
   30% {
-    opacity: 0;
+    visibility: hidden;
   }
   31% {
-    opacity: 1;
+    visibility: visible;
   }
   33% {
-    opacity: 1;
+    visibility: visible;
   }
   35% {
-    opacity: 0;
+    visibility: hidden;
   }
   54% {
-    opacity: 0;
+    visibility: hidden;
   }
   55% {
-    opacity: 1;
+    visibility: visible;
   }
   57% {
-    opacity: 1;
+    visibility: visible;
   }
   59% {
-    opacity: 0;
+    visibility: hidden;
   }
   72% {
-    opacity: 0;
+    visibility: hidden;
   }
   73% {
-    opacity: 1;
+    visibility: visible;
   }
   74% {
-    opacity: 1;
+    visibility: visible;
   }
   75% {
-    opacity: 0;
+    visibility: hidden;
   }
   85% {
-    opacity: 0;
+    visibility: hidden;
   }
   86% {
-    opacity: 0;
+    visibility: hidden;
   }
   87% {
-    opacity: 0;
+    visibility: hidden;
   }
   89% {
-    opacity: 0;
+    visibility: hidden;
   }
 
   96% {
-    opacity: 0;
+    visibility: hidden;
   }
   97% {
-    opacity: 0;
+    visibility: hidden;
   }
   98% {
-    opacity: 0;
+    visibility: hidden;
   }
   100% {
-    opacity: 0;
+    visibility: hidden;
   }
 }
 
@@ -280,86 +285,71 @@
   0% {
     translate: 0px 0px;
   }
-  1% {
-    translate: 0px 0px;
-  }
-  2% {
-    translate: 0px 0px;
-  }
-  3% {
-    translate: 0px 0px;
-  }
   5% {
-    translate: 50px -30px;
+    translate: 0px -30px;
   }
-
-  30% {
-    translate: 50px 30px;
-  }
-  31% {
+  10% {
     translate: 50px 0px;
   }
-  33% {
+  15% {
+    translate: 50px 30px;
+  }
+
+  20% {
     translate: 50px -30px;
   }
+  25% {
+    translate: 100px 0px;
+  }
+  30% {
+    translate: 100px 30px;
+  }
+
   35% {
-    translate: 70px 30px;
+    translate: 100px -30px;
   }
-
-  54% {
-    translate: 70px 0px;
-  }
-  55% {
-    translate: 70px -30px;
-  }
-  57% {
-    translate: 70px 30px;
-  }
-  59% {
-    translate: 110px 0px;
-  }
-
-  72% {
-    translate: 110px 0px;
-  }
-  73% {
-    translate: 110px -30px;
-  }
-  74% {
-    translate: 110px 30px;
-  }
-  75% {
+  40% {
     translate: 150px 0px;
   }
-
-  85% {
-    translate: 150px 0px;
-  }
-  86% {
-    translate: 150px -30px;
-  }
-  87% {
+  45% {
     translate: 150px 30px;
   }
-  89% {
-    translate: 250px 0px;
+
+  50% {
+    translate: 150px -30px;
+  }
+  55% {
+    translate: 200px 0px;
+  }
+  60% {
+    translate: 250px 30px;
+  }
+
+  65% {
+    translate: 250px -30px;
+  }
+  70% {
+    translate: 300px 0px;
+  }
+  75% {
+    translate: 300px 30px;
+  }
+
+  80% {
+    translate: 300px -30px;
+  }
+  85% {
+    translate: 350px 0px;
+  }
+  90% {
+    translate: 350px 30px;
   }
 
   95% {
-    translate: 250px 0px;
+    translate: 350px 0px;
   }
-  96% {
-    translate: 250px 0px;
-  }
-  97% {
-    translate: 300px 0px;
-  }
-  98% {
-    translate: 300px 0px;
-  }
-
   100% {
-    translate: 300px 0px;
+    translate: 350px 0px;
   }
 }
 
