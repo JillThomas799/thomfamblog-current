@@ -35,7 +35,8 @@
 .deerMuzzle,
 #deerEyesRight,
 #deerEyesLeft,
-#deerEars,
+#deerEarLeft,
+#deerEarRight,
 .deerNeck {
   animation-name: deerBib;
   animation-duration: 5s;
@@ -47,7 +48,8 @@
 #deerEyesLeftLeap,
 .deerMuzzleLeap,
 .deerNeckLeap,
-.deerNeckLeapMouthExtension {
+.deerNeckLeapMouthExtension,
+#deerEarLeap {
   animation-name: deerEyesLeftLeap;
   animation-duration: 5s;
   animation-delay: 0s;
@@ -72,13 +74,13 @@
     opacity: 0;
   }
   7% {
-    opacity: 0.3;
+    opacity: 1;
   }
   9% {
-    opacity: 0.5;
+    opacity: 1;
   }
   12% {
-    opacity: 0.7;
+    opacity: 1;
   }
   15% {
     opacity: 1;
@@ -87,7 +89,7 @@
     opacity: 1;
   }
   95% {
-    opacity: 0.5;
+    opacity: 1;
   }
   100% {
     opacity: 0;
@@ -111,13 +113,13 @@
     opacity: 1;
   }
   7% {
-    opacity: 0.7;
+    opacity: 0;
   }
   9% {
-    opacity: 0.5;
+    opacity: 0;
   }
   12% {
-    opacity: 0.3;
+    opacity: 0;
   }
   15% {
     opacity: 0;
@@ -126,7 +128,7 @@
     opacity: 0;
   }
   95% {
-    opacity: 0.5;
+    opacity: 0;
   }
   100% {
     opacity: 1;

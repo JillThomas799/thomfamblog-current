@@ -315,6 +315,14 @@ export default function Deer() {
                 filter="url(#blur2)"
                 opacity="1.0"
               ></path>
+              <path
+                id="deerEarRightLeap"
+                d="M 135 477 A 8 11 40 1 0 133 469"
+                fill="#5C4033"
+                filter="url(#blur2)"
+                opacity="0.8"
+              ></path>
+
             </g>
           </g>
 
