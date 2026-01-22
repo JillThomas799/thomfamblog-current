@@ -62,6 +62,33 @@ export default function Deer() {
               />
             </radialGradient>
 
+             <radialGradient
+              id="gradMouthpieceLeap"
+              cx="50%"
+              cy="60%"
+              r="50%"
+              fx="50%"
+              fy="80%"
+            >
+              
+               <stop
+                offset="0%"
+                style={{ stopColor: "#786D68", stopOpacity: 1 }}
+              />
+              <stop
+                offset="20%"
+                style={{ stopColor: "#f3e2d6", stopOpacity: 1 }}
+              />
+              <stop
+                offset="70%"
+                style={{ stopColor: "#C2B280", stopOpacity: 1 }}
+              />
+              <stop
+                offset="99%"
+                style={{ stopColor: "#BA8759" , stopOpacity: 1 }}
+              />
+            </radialGradient>
+
             <filter id="blur1" x="0" y="0">
               <feGaussianBlur in="SourceGraphic" stdDeviation="3.4" />
             </filter>
@@ -149,6 +176,57 @@ export default function Deer() {
               This is the deer neck.
             </g>
 
+             <g className="deerNeckLeap" > <rect></rect>
+              <rect
+                id="deerNeck"
+                x="102"
+                y="460"
+                width="25"
+                height="60"
+                rx="15"
+                ry="15"
+                transform="translate(280,10) rotate(30)"
+                fill="url(#gradNeckDeer)"
+                opacity="1.0"
+                filter="url(#blur2)"
+              />{" "}
+              This is the deer neck.
+            </g>
+
+             <g className="deerNeckLeapMouthExtension">
+              <path
+               d="M 145 494 L 154 488 162 482 156 476 144 470 "               
+                fill="url(#gradMouthpieceLeap)"
+                opacity="0.9"
+                filter="url(#blur2)"
+                ></path>
+             </g>
+
+            <g id="deerLegRightFrontRaised" transform="translate(-310, 180) rotate(-40)">
+              <path
+               d="M 100 535 L 111 565 105 605 117 605 121 565 123 530 "               
+                fill="url(#gradLegsDeer)"
+                opacity="0.9"
+                filter="url(#blur2)"
+              ></path>
+            </g>
+
+            <g id="deerLegLeftRearRaised" transform="translate(-330, 140) rotate(-40)">
+              <path
+                d="M 16 535 L 5 565 4 605 13 605 16 565 38 535 Z"
+                fill="url(#gradLegsDeer)"                
+                filter="url(#blur2)"                
+              ></path>
+            </g>
+
+            <g id="deerLegRightRearRaised" transform="translate(-330, 140) rotate(-40)">
+              <path
+                d="M 28 535 L 18 565 27 605 36 605 29 565 48 535 Z"
+                fill="url(#gradLegsDeer)"
+                filter="url(#blur2)"               
+              ></path>
+            </g>
+
             <g className="deerBody">
               <path
                 d="M 10 505 Q 30 490 130 505 A 30 30 330 0 1 105 543 L 105 543 17 543 Q 6 525 15 505 Z"
@@ -168,12 +246,14 @@ export default function Deer() {
               This is the white deer tail
             </g>
 
+            
+
             <g id="deerLegLeftRear">
               <path
                 d="M 16 535 L 5 565 4 605 13 605 16 565 38 535 Z"
                 fill="url(#gradLegsDeer)"
                 opacity="0.9"
-                filter="url(#blur2)"
+                filter="url(#blur2)"               
               ></path>
             </g>
 
@@ -194,7 +274,8 @@ export default function Deer() {
                 filter="url(#blur2)"
               ></path>
             </g>
-
+            
+                
             <g className="deerBib">
               <path
                 id="deerBib"
@@ -205,7 +286,7 @@ export default function Deer() {
             </g>
 
             <g
-              className="deerMuzzle"
+              id="deerMuzzle"
               style={{ transform: "translate(380px, 57px) rotate(45deg)" }}
             >
               <rect
@@ -215,6 +296,24 @@ export default function Deer() {
                 width="10"
                 rx="5"
                 ry="5"
+                fill="black"
+                filter="url(#blur2)"
+                opacity="0.8"
+              />
+            </g>
+
+            
+            <g
+              id="deerMuzzleLeap"
+              style={{ transform: "translate(380px, 45px) rotate(45deg)" }}
+            >
+              <rect
+                x="150"
+                y="464"
+                height="7"
+                width="7"
+                rx="4"
+                ry="4"
                 fill="black"
                 filter="url(#blur2)"
                 opacity="0.8"
@@ -239,6 +338,15 @@ export default function Deer() {
                 filter="url(#blur2)"
                 opacity="1.0"
               ></path>
+              <path
+                id="deerEarRightLeap"
+                d="M 139 477 A 8 15 30 1 0 139 472"
+                fill="#907061"
+                filter="url(#blur2)"
+                opacity="0.7"
+                
+              ></path>
+
             </g>
           </g>
 
@@ -267,6 +375,8 @@ export default function Deer() {
               opacity="0.9"
             ></ellipse>
           </g>
+
+      
           <g
             id="deerEyesLeft"
             style={{ transform: "translate(89px, -30px) rotate(15deg)" }}
@@ -279,12 +389,41 @@ export default function Deer() {
               ry="4.5"
               fill="#ECD0B8"
               opacity="0.7"
-              filter="url(#blur2)"
+              filter="url(#blur2)"              
             ></ellipse>
             <ellipse
               id="deerEyeLeft"
               cx="166"
               cy="317"
+              rx="3"
+              ry="4"
+              fill="#36454F"
+              opacity="0.9"
+              filter="url(#blur2)"
+              style={{ transform: "rotate(-20deg,128,490)" }}
+
+            ></ellipse>
+          </g>
+
+          
+          <g
+            id="deerEyesLeftLeap"
+            style={{ transform: "translate(89px, -30px) rotate(15deg)" }}
+          >
+            <ellipse
+              id="deerEyeWhiteLeftLeap"
+              cx="190"
+              cy="310"
+              rx="3.5"
+              ry="4.5"
+              fill="#ECD0B8"
+              opacity="0.7"
+              filter="url(#blur2)"
+            ></ellipse>
+            <ellipse
+              id="deerEyeLeftLeap"
+              cx="190"
+              cy="310"
               rx="3"
               ry="4"
               fill="#36454F"
@@ -594,7 +733,7 @@ export default function Deer() {
           </g>
         </g>
 
-        <g className="deer3" xmlns="http://www.w3.org/2000/svg">
+        <g className="deer3" xmlns="http://www.w3.org/2000/svg" >
           {" "}
           This is deer 3
           <defs>
