@@ -62,6 +62,33 @@ export default function Deer() {
               />
             </radialGradient>
 
+             <radialGradient
+              id="gradMouthpieceLeap"
+              cx="50%"
+              cy="60%"
+              r="50%"
+              fx="50%"
+              fy="80%"
+            >
+              
+               <stop
+                offset="0%"
+                style={{ stopColor: "#786D68", stopOpacity: 1 }}
+              />
+              <stop
+                offset="20%"
+                style={{ stopColor: "#f3e2d6", stopOpacity: 1 }}
+              />
+              <stop
+                offset="70%"
+                style={{ stopColor: "#C2B280", stopOpacity: 1 }}
+              />
+              <stop
+                offset="99%"
+                style={{ stopColor: "#BA8759" , stopOpacity: 1 }}
+              />
+            </radialGradient>
+
             <filter id="blur1" x="0" y="0">
               <feGaussianBlur in="SourceGraphic" stdDeviation="3.4" />
             </filter>
@@ -155,10 +182,10 @@ export default function Deer() {
                 x="102"
                 y="460"
                 width="25"
-                height="70"
+                height="60"
                 rx="15"
                 ry="15"
-                transform="translate(100,-10) rotate(10)"
+                transform="translate(280,10) rotate(30)"
                 fill="url(#gradNeckDeer)"
                 opacity="1.0"
                 filter="url(#blur2)"
@@ -168,8 +195,8 @@ export default function Deer() {
 
              <g className="deerNeckLeapMouthExtension">
               <path
-               d="M 135 490 L 144 484 153 478 144 472 135 466 "               
-                fill="url(#gradNeckDeer)"
+               d="M 145 494 L 154 488 162 482 156 476 144 470 "               
+                fill="url(#gradMouthpieceLeap)"
                 opacity="0.9"
                 filter="url(#blur2)"
                 ></path>
@@ -281,8 +308,8 @@ export default function Deer() {
               style={{ transform: "translate(380px, 45px) rotate(45deg)" }}
             >
               <rect
-                x="140"
-                y="468"
+                x="150"
+                y="464"
                 height="7"
                 width="7"
                 rx="4"
@@ -313,10 +340,10 @@ export default function Deer() {
               ></path>
               <path
                 id="deerEarRightLeap"
-                d="M 128 477 A 8 15 40 1 0 128 472"
-                fill="#5C4033"
+                d="M 139 477 A 8 15 30 1 0 139 472"
+                fill="#907061"
                 filter="url(#blur2)"
-                opacity="0.8"
+                opacity="0.7"
                 
               ></path>
 
@@ -385,7 +412,7 @@ export default function Deer() {
           >
             <ellipse
               id="deerEyeWhiteLeftLeap"
-              cx="176"
+              cx="190"
               cy="310"
               rx="3.5"
               ry="4.5"
@@ -395,7 +422,7 @@ export default function Deer() {
             ></ellipse>
             <ellipse
               id="deerEyeLeftLeap"
-              cx="176"
+              cx="190"
               cy="310"
               rx="3"
               ry="4"

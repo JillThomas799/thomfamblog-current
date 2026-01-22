@@ -42,7 +42,8 @@
 #deerEyeWhiteLeft,
 #deerEarLeft,
 #deerEarRight,
-#deerBib {
+#deerBib,
+.deerNeck {
   animation-name: deerBib;
   animation-duration: 4s;
   animation-delay: 0s;
@@ -142,7 +143,7 @@
   }
 }
 
-@keyframes deerLegRightFront {
+/* @keyframes deerLegRightFront {
   0% {
     opacity: 1;
   }
@@ -155,63 +156,113 @@
   20% {
     opacity: 0;
   }
+  25% {
+    opacity: 0;
+  }
   30% {
     opacity: 1;
-  }
-  31% {
-    opacity: 0;
-  }
-  33% {
-    opacity: 0;
   }
   35% {
     opacity: 1;
   }
-  54% {
+  40% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;
+  }
+  50% {
     opacity: 1;
   }
   55% {
     opacity: 0;
   }
-  57% {
+  60% {
     opacity: 0;
   }
-  59% {
+  65% {
     opacity: 1;
   }
-  72% {
+  70% {
     opacity: 1;
-  }
-  73% {
-    opacity: 0;
-  }
-  74% {
-    opacity: 0;
   }
   75% {
-    opacity: 1;
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
   }
   85% {
     opacity: 1;
   }
-  86% {
+  90 {
     opacity: 1;
   }
-  87% {
+  95% {
     opacity: 1;
   }
-  89% {
+  100% {
     opacity: 1;
   }
+} */
 
-  96% {
+@keyframes deerLegRightFront {
+  0% {
     opacity: 1;
   }
-  97% {
+  5% {
+    opacity: 0;
+  }
+  15% {
     opacity: 1;
   }
-  98% {
+  20% {
     opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 1;
+  }
+  90 {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0;
   }
   100% {
     opacity: 1;
@@ -222,67 +273,62 @@
   0% {
     opacity: 0;
   }
-
   5% {
     opacity: 1;
+  }
+  10% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
   }
   30% {
     opacity: 0;
   }
-  31% {
-    opacity: 1;
-  }
-  33% {
-    opacity: 1;
-  }
   35% {
+    opacity: 1;
+  }
+  40% {
     opacity: 0;
   }
-  54% {
+  45% {
     opacity: 0;
+  }
+  50% {
+    opacity: 1;
   }
   55% {
-    opacity: 1;
-  }
-  57% {
-    opacity: 1;
-  }
-  59% {
     opacity: 0;
   }
-  72% {
+  60% {
     opacity: 0;
   }
-  73% {
+  65% {
     opacity: 1;
   }
-  74% {
-    opacity: 1;
+  70% {
+    opacity: 0;
   }
   75% {
     opacity: 0;
   }
+  80% {
+    opacity: 1;
+  }
   85% {
     opacity: 0;
   }
-  86% {
+  90% {
     opacity: 0;
   }
-  87% {
-    opacity: 0;
-  }
-  89% {
-    opacity: 0;
-  }
-
-  96% {
-    opacity: 0;
-  }
-  97% {
-    opacity: 0;
-  }
-  98% {
-    opacity: 0;
+  95% {
+    opacity: 1;
   }
   100% {
     opacity: 0;
@@ -302,7 +348,6 @@
   15% {
     translate: 50px 30px;
   }
-
   20% {
     translate: 50px -30px;
   }
