@@ -13,6 +13,7 @@ import CathedralBooks from '/public/imagesresized/CathedralBooks.jpg';
 import ArabianSands from '/public/imagesresized/ArabianSands.jpg';
 import ArthurBooks from '/public/imagesresized/ArthurBooks.jpg';
 import DarkSkyMathiasMHTitled from '/public/imagesresized/DarkSkyMathiasMHTitled.jpg';
+import RoyalExchangeTitled from '/public/imagesresized/RoyalExchangeTitled.jpg';
 
 
 
@@ -134,7 +135,7 @@ export default function January2026() {
 
             <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
-         < div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-black">
+         <div div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-black">
 
           <div className="font-semibold pt-8 py-2  text-[#D99e49] text-center"> 18th January 2026</div> {/*End of news date block*/} 
           <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-black text-center  border-gray-800 border-solid border-2 bg-[#D99e49]"> Stargazing at the Dark Skies ....or rather, indoor stargazing <br /> at the night sky via the planetarium, <br /> as it was too cloudy outside. </div>
@@ -156,32 +157,61 @@ export default function January2026() {
                 <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-bold  border-gray-800 border-solid border-2 bg-[#D99e49] mb-6">Click on the image below to open the album <br /> of our Stargazing evening meal and event. 
                 <br />
           <br /> 
-                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo and event in that space.</div>
-                
+                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo and event in that space.
           <Link
                 href="https://photos.app.goo.gl/Ps8ySrfrgSGXGTTL8"
                 target="_blank"
               >
          <Image
                   src={ DarkSkyMathiasMHTitled}
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-4 mb-6 rounded-[70%]"
                   alt="Photo of starry sky."
                 />
                 </Link>
-                 <div className="relative text-xs -mt-16 text-white pt-12 ml-4"><em>By <Link href="https://www.flickr.com/people/125204407@N08">MATHIAS, M H</Link> from Guaratinguetá, Brasil,  <Link href="https://creativecommons.org/licenses/by/2.0" title="Creative Commons Attribution 2.0">CC BY 2.0</Link>, <Link href="https://commons.wikimedia.org/w/index.php?curid=101329205">Link</Link></em></div>
-               
+                 <div className="relative text-xs -mt-16 text-black pt-12 ml-4"><em>By <Link href="https://www.flickr.com/people/125204407@N08">MATHIAS, M H</Link> from Guaratinguetá, Brasil,  <Link href="https://creativecommons.org/licenses/by/2.0" title="Creative Commons Attribution 2.0">CC BY 2.0</Link>, <Link href="https://commons.wikimedia.org/w/index.php?curid=101329205">Link</Link></em></div>
+               </div>
+                
                 </div>
-               
+                </div>
+                </div>
+
               
           </div>{" "}
-                  
-  </div>
-  
 
+           <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
+         < div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-black">
 
-
+          <div className="font-semibold pt-8 py-2  text-[#D99e49] text-center"> 24th January 2026</div> {/*End of news date block*/} 
+          <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-black text-center  border-gray-800 border-solid border-2 bg-[#D99e49]"> Visit to Manchester and 'Singin' In the Rain' at the Royal Exchange Theatre.</div>
+        <div className="text-black text-center md:text-center mb-4 md:*:pr-6 md:*:pl-6 ">
+          <div className="text-[#D99e49] text-left md:text-left mb-4 pr-4 pl-4"> Following our successful, albeit lengthy, journey by car to Manchester last year to see a show, we decided to reinstate our routine of attending the Christmas show at the Royal Exchange Theatre, Manchester. 
+          <br />
+          <br /> 
+            It was November 2016 when we last attended such a performance, when Jill's mum was still alive, as she used to come along with us. In the intervening years Jill's mum has died and we had the prolonged lock down period with Covid and really there has just not been the time nor inclination.
           
-  </div>
+            </div>
+                <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-bold  border-gray-800 border-solid border-2 bg-[#D99e49] mb-6">Click on the image below to open the album <br /> of our day in Manchester and return to the Royal Exchange Theatre, Manchester. 
+                <br />
+          <br /> 
+                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo and event in that space.
+          <Link
+                href="https://photos.app.goo.gl/oLNUBNKmcGtKrZHi8"
+                target="_blank"
+              >
+         <Image
+                  src={ RoyalExchangeTitled}
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-4 mb-6 rounded-[70%]"
+                  alt="Photo of starry sky."
+                />
+                </Link>
+               </div>
+                
+                </div>
+               </div>
+</div>
+
+</div>
 </div>
 </div>
 
