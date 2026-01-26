@@ -135,7 +135,7 @@ export default function January2026() {
 
         <div className="mb-20">
           <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
-            <div div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-black">
+            <div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-black">
 
               <div className="font-semibold pt-8 py-2  text-[#D99e49] text-center"> 18th January 2026</div> {/*End of news date block*/}
               <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-black text-center  border-gray-800 border-solid border-2 bg-[#D99e49]"> Stargazing at the Dark Skies ....or rather, indoor stargazing <br /> at the night sky via the planetarium, <br /> as it was too cloudy outside. </div>
