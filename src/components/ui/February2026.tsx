@@ -18,6 +18,7 @@ export default function February2026() {
         <div className="font-semibold text-center border-solid border-black border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#786d68]">Welcome to our February 2026 blog.
           <br />
           <br />
+          We are delighted to be able to bring you our February 2026 blog reintroducing the local deer. This year we have taken the header display one step further by animating the deer from first principles. In this month's scene the first of the deer is leaping across the snow and the 2nd deer, in the rear, is turning to look towards the rear of the scene before returning its gaze towards the spectator.
             </div>{" "}
         </div> 
          </div> 

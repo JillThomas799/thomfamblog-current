@@ -415,7 +415,7 @@
 #deer2EarRight,
 #deer2EarLeft {
   animation-name: deer2move;
-  animation-duration: 4s;
+  animation-duration: 8s;
   animation-delay: 0s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
@@ -425,7 +425,7 @@
 #deer2EarRightMoving,
 #deer2EarLeftMoving {
   animation-name: deer2EarsMove;
-  animation-duration: 4s;
+  animation-duration: 8s;
   animation-delay: 0s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
