@@ -577,7 +577,7 @@ export default function Deer() {
               />
             </linearGradient>
           </defs>
-          <g className="deer2Neck">
+           <g className="deer2Neck">
             <rect
               id="deer2Neck"
               x="900"
@@ -591,8 +591,9 @@ export default function Deer() {
               opacity="1.0"
               filter="url(#blur2)"
             />{" "}
-            This is the deer neck.
-          </g>
+            This is the deer2 neck.
+          </g> 
+        
           <g
             id="deer2Ears"
             style={{ transform: "translate(730px, -86px) scale(1.15)" }}
@@ -602,12 +603,31 @@ export default function Deer() {
               d="M 100 462 A 8 11 -30 1 0 101 461"
               fill="url(#gradEarsRightDeer2)"
               filter="url(#blur2)"
-              opacity="1.0"
+              // opacity="1.0"
             ></path>
             <path
               id="deer2EarLeft"
               d="M 135 475 A 8 11 40 1 0 133 471"
               fill="url(#gradEarsLeftDeer2)"
+              filter="url(#blur2)"
+              // opacity="1.0"
+            ></path>
+          </g>
+          <g
+            id="deer2Ears"
+            style={{ transform: "translate(730px, -86px) scale(1.15)" }}
+          >
+            <path
+              id="deer2EarRightMoving"
+              d="M 100 462 A 8 11 -30 1 0 101 461"
+              fill="#786D68"
+              filter="url(#blur2)"
+              opacity="1.0"
+            ></path>
+            <path
+              id="deer2EarLeftMoving"
+              d="M 135 475 A 8 11 40 1 0 133 471"
+              fill="#786D68"
               filter="url(#blur2)"
               opacity="1.0"
             ></path>
@@ -638,6 +658,7 @@ export default function Deer() {
               style={{ transform: "rotate(-20deg,128,490)" }}
             ></ellipse>
           </g>
+         
           <g
             id="deer2EyesRight"
             style={{ transform: "translate(634px, 207px) rotate(-15deg)" }}
@@ -689,6 +710,7 @@ export default function Deer() {
               filter="url(#blur2)"
               opacity="0.7"
             />
+            
           </g>
           <g className="deer2Bib">
             <path
