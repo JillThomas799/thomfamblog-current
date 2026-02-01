@@ -19,6 +19,12 @@ export default function February2026() {
           <br />
           <br />
           We are delighted to be able to bring you our February 2026 blog reintroducing the local deer. This year we have taken the header display one step further by animating the deer from first principles. In this month's scene the first of the deer is leaping across the snow and the 2nd deer, in the rear, is turning to look towards the rear of the scene before returning its gaze towards the spectator.
+          <br />
+          <br />
+          February looks to be a fairly quiet month with Harry  working hard, continuing to enjoy his work for the council and driving independently around the county in the new car and Elena settled happily with her partner not too far away. 
+          <br />
+          <br />
+          We do have some important news and that is that the family has acquired an additional member in the form of a young black cat called Gawain from the rescue centre, which Elena and her partner have acquired. Gawain will be living with Elena though so Lennie is safe....
             </div>{" "}
         </div> 
          </div> 
