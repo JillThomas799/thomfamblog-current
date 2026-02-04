@@ -45,7 +45,7 @@ export default function February2026() {
                 Lets hope Gawain is going to live up to his reputation....
                 <br />
                 <br />
-                <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-semibold border-gray-800 border-solid border-2 bg-[#5d5450] mb-6">Click on the image below to open the album <br /> of Gawain's arrival.
+                <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-semibold text-center border-gray-800 border-solid border-2 bg-[#5d5450] mb-6">Click on the image below to open the album <br /> of Gawain's arrival.
                 <br />
                 <br />
                       Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
