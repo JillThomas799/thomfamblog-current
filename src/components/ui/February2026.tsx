@@ -76,7 +76,7 @@ export default function February2026() {
             <div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-[#786d68]">
 
               <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> 14th February 2026</div> {/*End of news date block*/}
-              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> Tullie Museum, Carlisle: Gladiator and Roman Carlisle Exhibition</div>
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> Tullie Museum, Carlisle: Gladiators of Britain and Uncovering Roman Carlisle - Where Worlds Met Exhibition</div>
               <div className="text-[#f3e2d6] text-center md:text-left mb-4 md:*:pr-6 md:*:pl-6 ">
                 From the 7th February until 31st May 2026, Tullie Museum, Carlisle is hosting the British Museum Partnership Exhibition 'Gladiators of Britain' together with Colchester and Ipswich Museums and 'Uncovering Roman Carlisle: Where Worlds Meet'. The 'Gladiators of Britain' exhibition explores the lives and deaths of those who fought in Britain's arenas through extraordinary objects from across the country and beyond. The 'Uncovering Roman Carlisle: Where World's Met' exhibition brings the latest chapter in the going exploration of Roman Carlisle.
                 So where better for us to be on a cold February day....?
@@ -97,6 +97,7 @@ export default function February2026() {
                  <li><Link  href="https://www.cumberland.gov.uk/news/2024/new-archaeological-find-uncovered-carlisle-dig" target="_blank" className="text-decoration-underline text-white font-semibold underline">Cumberland Council Article 19th September 2024: 'New archaeological find uncovered at Carlisle dig'</Link></li>
                  <li><Link  href="https://www.youtube.com/watch?v=Zq8es5osM1c" target="_blank" className="text-decoration-underline text-white font-semibold underline">Film February 2025 about the Bath House Excavations, Uncovering Roman Carlisle </Link></li>
                 <li><Link  href="https://www.bbc.co.uk/news/articles/c93y0ll0n9eo" target="_blank" className="text-decoration-underline text-white font-semibold underline list-disc">BBC article 13th June 2025: Roman column dig discovery 'tip of the iceberg'</Link> </li>
+                 <li><Link  href="hhttps://tullie.org.uk/who-we-are/partnership-projects/uncovering-roman-carlisle/" target="_blank" className="text-decoration-underline text-white font-semibold underline list-disc">Tullie Museum: Uncovering Roman Carlisle</Link> </li>
                 </ul>
                  <br />
                  If anyone is interested in volunteering with the project, the details of how to go about expressing interest are included on the <Link href="https://www.uncoveringromancarlisle.co.uk/" target="_blank" className="text-decoration-underline text-white font-semibold underline">'Uncovering Roman Carlisle'</Link> site.
