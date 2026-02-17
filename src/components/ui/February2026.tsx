@@ -4,6 +4,7 @@ import "./February2026.css";
 import Deer from "./deer";
 import GawainArrivalTitled from "/public/imagesresized/GawainArrivalTitled.jpg";
 import TullieGladiatorsTitled from "/public/imagesresized/TullieGladiatorsTitled.jpg";
+import ShroveTuesday from "/public/imagesresized/ShroveTuesday.jpg";
 
 
 export default function February2026() {
@@ -68,9 +69,6 @@ export default function February2026() {
             </div>
           </div>
 
-
-
-
            <div className="mb-20">
           <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
             <div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-[#786d68]">
@@ -102,8 +100,7 @@ export default function February2026() {
                  <br />
                  If anyone is interested in volunteering with the project, the details of how to go about expressing interest are included on the <Link href="https://www.uncoveringromancarlisle.co.uk/" target="_blank" className="text-decoration-underline text-white font-semibold underline">'Uncovering Roman Carlisle'</Link> site.
                   <br />
-                 <br />
-                 
+                 <br />                 
                  <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-semibold text-center border-gray-800 border-solid border-2 bg-[#5d5450] mb-6">Click on the image below to open the album <br /> of our visit to the Gladiators and Roman Carlisle Exhibition at the Tullie Museum, Carlisle.
                 <br />
                 <br />
@@ -116,7 +113,7 @@ export default function February2026() {
                     <Image
                       src={TullieGladiatorsTitled}
                       className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-black-400 border-4 mt-4 mb-6"
-                      alt="Photo of Gawain day 2."
+                      alt="Photo of Bernard and Harry outside Tullie Museum."
                     />
                   </Link>
                  
@@ -125,6 +122,40 @@ export default function February2026() {
   </div>
             </div>
           </div>
+
+
+          <div className="mb-20">
+          <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
+            <div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-[#786d68]">
+
+              <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> 17th February 2026</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> Shrove Tuesday - Time for homemade pancakes....</div>
+              <div className="text-[#f3e2d6] text-center md:text-left mb-4 md:*:pr-6 md:*:pl-6 ">
+              Shrove Tuesday, also called Pancake Day, is the Christian feast day before the Lent fast, which starts the following day, on Ash Wednesday. 
+              <br />
+                 <br /> 
+              Christians believe that the 40 days before Easter (called Lent) mark the time that Jesus spent fasting in the desert. Traditionally, this time was spent praying and fasting, which meant not eating a range of foods including meat, eggs, fats and milk.
+              <br />
+                 <br /> 
+               Before Lent could begin, all of the foods people couldn’t eat while fasting needed to be removed from the house so that they wouldn’t be tempted to break the rules. And the best way to do that was to eat these foods during Shrovetide.
+              <br />
+              <br /> 
+              Meats like bacon would be eaten up on ‘Collop Monday’ (a collop is a thin slice of meat), two days before the start of Lent. On Shrove Tuesday, eggs, butter and fat were used up – and one of the easiest ways to do this was to make pancakes or fritters. 
+               <br />
+              <br /> 
+                    <Image
+                      src={ShroveTuesday}
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]"
+                      alt="Photo of Harry eating pancakes."
+                    />
+
+                </div>
+            </div>
+          </div>
+
+</div>
+            
+          
 
         </div>{" "}
 
