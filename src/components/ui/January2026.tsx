@@ -14,6 +14,7 @@ import ArabianSands from '/public/imagesresized/ArabianSands.jpg';
 import ArthurBooks from '/public/imagesresized/ArthurBooks.jpg';
 import DarkSkyMathiasMHTitled from '/public/imagesresized/DarkSkyMathiasMHTitled.jpg';
 import RoyalExchangeTitled from '/public/imagesresized/RoyalExchangeTitled.jpg';
+import OrionTitled from '/public/imagesresized/OrionTitled.jpg';
 
 
 
@@ -163,12 +164,12 @@ export default function January2026() {
                     target="_blank"
                   >
                     <Image
-                      src={DarkSkyMathiasMHTitled}
+                      src={OrionTitled}
                       className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-4 mb-6 rounded-[70%]"
                       alt="Photo of starry sky."
                     />
                   </Link>
-                  <div className="relative text-xs -mt-16 text-black pt-12 ml-4"><em>By <Link href="https://www.flickr.com/people/125204407@N08">MATHIAS, M H</Link> from Guaratinguetá, Brasil,  <Link href="https://creativecommons.org/licenses/by/2.0" title="Creative Commons Attribution 2.0">CC BY 2.0</Link>, <Link href="https://commons.wikimedia.org/w/index.php?curid=101329205">Link</Link></em></div>
+                  {/* <div className="relative text-xs -mt-16 text-black pt-12 ml-4"><em>By <Link href="https://www.flickr.com/people/125204407@N08">MATHIAS, M H</Link> from Guaratinguetá, Brasil,  <Link href="https://creativecommons.org/licenses/by/2.0" title="Creative Commons Attribution 2.0">CC BY 2.0</Link>, <Link href="https://commons.wikimedia.org/w/index.php?curid=101329205">Link</Link></em></div> */}
                 </div>
 
               </div>
