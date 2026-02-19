@@ -145,11 +145,10 @@ export default function February2026() {
               <br /> 
               
                     <Image
-                      src={ShroveTuesday}
-                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]"
+                      src={ShroveTuesday}   
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]"                   
                       alt="Photo of Harry eating pancakes."
                     />
-
                 </div>
             </div>
           </div>
