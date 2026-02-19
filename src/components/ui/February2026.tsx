@@ -11,7 +11,7 @@ export default function February2026() {
   return ( <div>
  <div id="snowScene" className=" bg-black border-solid border-4 border-gray-600  p-2 md:p-4  height-[100vh]"> 
  <div className="text-gray-600 bg-[#edeaea] border-solid border-2 mr-auto ml-auto mt-0 p-2 border-gray-600  font-bold text-xl text-center">February 2026</div>  
- <div className="scale-[70%] translate-x-[-10%] md:scale-[82%] md:translate-x-[-30%] lg:scale-[85%] lg:translate-x-[-20%]"><Deer/> </div>          
+ <div className="scale-[70%] translate-x-[-10%] translate-y-[-30%] md:scale-[82%] md:translate-x-[-30%] md:translate-y-0 lg:scale-[85%] lg:translate-x-[-20%]"><Deer/> </div>          
                   <br />
                   <br />
              </div> 
@@ -143,6 +143,7 @@ export default function February2026() {
               Meats like bacon would be eaten up on ‘Collop Monday’ (a collop is a thin slice of meat), two days before the start of Lent. On Shrove Tuesday, eggs, butter and fat were used up – and one of the easiest ways to do this was to make pancakes or fritters. 
                <br />
               <br /> 
+              
                     <Image
                       src={ShroveTuesday}
                       className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]"
