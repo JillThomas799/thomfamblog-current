@@ -167,7 +167,7 @@ export default function February2026() {
               Today was meeting up with friends Moira and Geoff, who had been holidaying in the Northern Lake District for a few days, at Pooley Bridge. We went to Granny Dowbekins Café and Restaurant for lunch, followed by a walk along Ullswater lake shore as far as the site of the Sharrow Bay Hotel and back. 
               <br />
               <br /> 
-              Meanhile Elena and Willow were also at Ullswater for the day with Willow's family who had come to visit for a few days. They have not visited the Lake District before, so they were all at the other end of the lake in Glenridding, taking a very atmospheric ride around the lake on the steamer.
+              Meanhile Elena and Willow were also at Ullswater for the day with Willow's family who had come to visit for a few days. They have not visited the Lake District before, so they were making the most of this opportunity by visiting Glenridding at the other end of the lake, taking a very atmospheric ride around the lake on the steamer.
                <br />
               <br /> 
                <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-semibold text-center border-gray-800 border-solid border-2 bg-[#5d5450] mb-6">Click on the image below to open the album of our  and Elena and Willow's visit to Ullswater.
