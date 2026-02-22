@@ -5,6 +5,7 @@ import Deer from "./deer";
 import GawainArrivalTitled from "/public/imagesresized/GawainArrivalTitled.jpg";
 import TullieGladiatorsTitled from "/public/imagesresized/TullieGladiatorsTitled.jpg";
 import ShroveTuesday from "/public/imagesresized/ShroveTuesday.jpg";
+import Ullswater20022026Titled from "/public/imagesresized/Ullswater20022026Titled.jpg";
 
 
 export default function February2026() {
@@ -123,8 +124,7 @@ export default function February2026() {
             </div>
           </div>
 
-
-          <div className="mb-20">
+           <div className="mb-20">
           <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
             <div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-[#786d68]">
 
@@ -145,14 +145,47 @@ export default function February2026() {
               <br /> 
               
                     <Image
-                      src={ShroveTuesday}   
-                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]"                   
+                      src={ShroveTuesday}
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]"
                       alt="Photo of Harry eating pancakes."
                     />
+
                 </div>
             </div>
           </div>
 
+</div>
+    
+            
+          <div className="mb-20">
+          <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
+            <div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-[#786d68]">
+
+              <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> 20th February 2026</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> Today we were meeting up with friends at Pooley Bridge, Ullswater</div>
+              <div className="text-[#f3e2d6] text-center md:text-left mb-4 md:*:pr-6 md:*:pl-6 ">
+              Today was meeting up with friends Moira and Geoff, who had been holidaying in the Northern Lake District for a few days, at Pooley Bridge. We went to Granny Dowbekins Café and Restaurant for lunch, followed by a walk along Ullswater lake shore as far as the site of the Sharrow Bay Hotel and back. 
+               <br />
+              <br /> 
+               <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-semibold text-center border-gray-800 border-solid border-2 bg-[#5d5450] mb-6">Click on the image below to open the album of our visit to Ullswater.
+                <br />
+                <br />
+                      Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                   </div>
+                  <Link
+                    href="https://photos.app.goo.gl/YUndG34r9g5xWL1M8"
+                    target="_blank"
+                  >
+                    <Image
+                      src={Ullswater20022026Titled}
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-black-400 border-4 mt-4 mb-6"
+                      alt="Photo of Bernard and Harry outside Tullie Museum."
+                    />
+                  </Link>
+                   
+                </div>
+            </div>
+          </div>
 </div>
             
           
