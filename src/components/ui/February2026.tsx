@@ -6,6 +6,7 @@ import GawainArrivalTitled from "/public/imagesresized/GawainArrivalTitled.jpg";
 import TullieGladiatorsTitled from "/public/imagesresized/TullieGladiatorsTitled.jpg";
 import ShroveTuesday from "/public/imagesresized/ShroveTuesday.jpg";
 import Ullswater20022026Titled from "/public/imagesresized/Ullswater20022026Titled.jpg";
+import GawainExploreTitled06022026 from "/public/imagesresized/GawainExploreTitled06022026.jpg";
 
 
 export default function February2026() {
@@ -181,6 +182,43 @@ export default function February2026() {
                   >
                     <Image
                       src={Ullswater20022026Titled}
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-black-400 border-4 mt-4 mb-6"
+                      alt="Photo of Bernard and Harry outside Tullie Museum."
+                    />
+                  </Link>
+                   
+                </div>
+            </div>
+          </div>
+</div>
+
+<div className="mb-20">
+          <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
+            <div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-[#786d68]">
+
+              <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> 23rd February 2026</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> Time for a Gawain Update....</div>
+              <div className="text-[#f3e2d6] text-center md:text-left mb-4 md:*:pr-6 md:*:pl-6 ">
+              Gawain came home to live with Elena and Willow on Friday 31st January 2026. He was acquired from one of the local animal rescue centres, who had brought him in from one of the farms around Milburn. He had been living at the rescue centre for the past 2 years and was very shy and wary.
+               <br />
+              <br /> 
+              After a slightly challenging start (being in an entirely new environment with new people), from the 6th February 2026 he started to made slow but steady progress in making himself at home. He has a little room of his own upstairs with all his things and where he can remain at night and when Elena and Willow go out. He has started, little by little to explore and get used to different areas of the house.
+              <br />
+              <br /> 
+              By the morning of the 19th February he is happy as can be being fed; purring loudly and brushing up against things, letting himself be petted on the head a little whilst being given treats. He's also by this stage getting used to exploring the house. He loves watching bird videos on You Tube, so think he is definitely going to need to be kept an indoor cat.
+              <br />
+              <br /> 
+               <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-semibold text-center border-gray-800 border-solid border-2 bg-[#5d5450] mb-6">Click on the image below to open the album of Gawain's progress settling into his new home.
+                <br />
+                <br />
+                      Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                   </div>
+                  <Link
+                    href="https://photos.app.goo.gl/Qra2tRZ6d575jxdq8"
+                    target="_blank"
+                  >
+                    <Image
+                      src={GawainExploreTitled06022026}
                       className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-black-400 border-4 mt-4 mb-6"
                       alt="Photo of Bernard and Harry outside Tullie Museum."
                     />
