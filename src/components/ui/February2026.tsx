@@ -202,10 +202,13 @@ export default function February2026() {
               Gawain came home to live with Elena and Willow on Friday 31st January 2026. He was acquired from one of the local animal rescue centres, who had brought him in from one of the farms around Milburn. He had been living at the rescue centre for the past 2 years and was very shy and wary.
                <br />
               <br /> 
-              After a slightly challenging start (being in an entirely new environment with new people), from the 6th February 2026 he started to made slow but steady progress in making himself at home. He has a little room of his own upstairs with all his things and where he can remain at night and when Elena and Willow go out. He has started, little by little to explore and get used to different areas of the house.
+              After a slightly challenging start, being in an entirely new environment with new people, from the 6th February 2026 he started to made slow but steady progress in making himself at home. He has a little room of his own upstairs with all his things and where he can remain at night and when Elena and Willow go out. He has started, little by little to explore and get used to different areas of the house.
               <br />
               <br /> 
-              By the morning of the 19th February he is happy as can be being fed; purring loudly and brushing up against things, letting himself be petted on the head a little whilst being given treats. He's also by this stage getting used to exploring the house. He loves watching bird videos on You Tube, so think he is definitely going to need to be kept an indoor cat.
+              By the morning of the 19th February he is happy as can be being fed; purring loudly and brushing up against things, letting himself be petted on the head a little whilst being given treats. He's also by this stage getting used to exploring the house. He loves watching bird videos on You Tube, so think he is definitely going to need to be kept an indoor cat. He is also fascinated by the washing machine, which he watches going round.
+              <br />
+              <br /> 
+              On the 23rd February 2026, Gawain starts his new job as a new helper on Elena's work team (see album photo). He seems very happy. He still remains rather wary and is reluctant to be picked up, but he is making steady progress, which is the main thing....
               <br />
               <br /> 
                <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-semibold text-center border-gray-800 border-solid border-2 bg-[#5d5450] mb-6">Click on the image below to open the album of Gawain's progress settling into his new home.
