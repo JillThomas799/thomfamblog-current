@@ -7,6 +7,11 @@ import TullieGladiatorsTitled from "/public/imagesresized/TullieGladiatorsTitled
 import ShroveTuesday from "/public/imagesresized/ShroveTuesday.jpg";
 import Ullswater20022026Titled from "/public/imagesresized/Ullswater20022026Titled.jpg";
 import GawainExploreTitled06022026 from "/public/imagesresized/GawainExploreTitled06022026.jpg";
+import Audience from "/public/imagesresized/Audience.jpg";
+import StormySteamer from "/public/imagesresized/StormySteamer.jpg";
+import Lamb1 from "/public/imagesresized/Lamb1.jpg";
+import Lamb2 from "/public/imagesresized/Lamb2.jpg";
+import StitchIt from "/public/imagesresized/StitchIt.jpg";
 
 
 export default function February2026() {
@@ -162,7 +167,7 @@ export default function February2026() {
           <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
             <div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-[#786d68]">
 
-              <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> 20th February 2026</div> {/*End of news date block*/}
+              <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> 20th February 2026, Friday</div> {/*End of news date block*/}
               <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> Today we were meeting up with friends at Pooley Bridge, Ullswater</div>
               <div className="text-[#f3e2d6] text-center md:text-left mb-4 md:*:pr-6 md:*:pl-6 ">
               Today was meeting up with friends Moira and Geoff, who had been holidaying in the Northern Lake District for a few days, at Pooley Bridge. We went to Granny Dowbekins Café and Restaurant for lunch, followed by a walk along Ullswater lake shore as far as the site of the Sharrow Bay Hotel and back. 
@@ -191,6 +196,29 @@ export default function February2026() {
             </div>
           </div>
 </div>
+
+  <div className="mb-20">
+          <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
+            <div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-[#786d68]">
+
+              <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> 21st February 2026, Saturday</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> Meeting Elena's partner, Willow's family for the first time.</div>
+              <div className="text-[#f3e2d6] text-center md:text-left mb-4 md:*:pr-6 md:*:pl-6 ">
+              Today we were very pleased to have the opportunity to meet up with Elena's partner Willow's mum, aunt and gran in Penrith. They had bravely made their way up the country by train from the South of England to spend a weekend in Penrith. 
+              <br />
+              <br /> 
+              After their spending the day yesterday with Elena and Willow braving the weather on the Ullswater steamer (see photo below), we all met in slightly calmer conditions for a lovely lunch at <Link href="https://www.foundry-34.co.uk/" target="_blank" className="text-decoration-underline text-white font-semibold underline">Foundry 34</Link> in Penrith.
+               <br />
+              <br /> 
+               <Image
+                      src={ StormySteamer }
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]"
+                      alt="Photo Ullswater steamer in stormy weather"
+                    />
+                </div>
+            </div>
+          </div>
+           </div>
 
 <div className="mb-20">
           <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
@@ -232,44 +260,84 @@ export default function February2026() {
           </div>
 
 
-                   <div className="mb-20">
-          <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
-            <div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-[#786d68]">
-
-              <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> 21st February 2026</div> {/*End of news date block*/}
-              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> Meeting Elena's partner, Willow's family for the first time.</div>
-              <div className="text-[#f3e2d6] text-center md:text-left mb-4 md:*:pr-6 md:*:pl-6 ">
-              Today we were very pleased to have the opportunity to meet up with Elena's partner Willow's mum, aunt and gran in Penrith. They had bravely made their way up the country by train from the depths of south of the M25 to spend a weekend in Penrith. After a day on Friday braving the weather on the Ullswater steamer, we met for lunch on Saturday at Foundry 34
-               <br />
-              <br /> 
-                </div>
-            </div>
-          </div>
-           </div>
+                 
 
 
                    <div className="mb-20">
           <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
             < div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-[#786d68]">
 
-              <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> 21st February 2026</div> {/*End of news date block*/}
-              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> Meeting Elena's partner, Willow's family for the first time.</div>
+              <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> 26th February 2026, Thursday</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> National Theatre Live screening of 'The Audience' starring Helen Mirren at Rheged.</div>
               <div className="text-[#f3e2d6] text-center md:text-left mb-4 md:*:pr-6 md:*:pl-6 ">
-              Today we were very pleased to have the opportunity to meet up with Elena's partner Willow's mum, aunt and gran in Penrith. They had bravely made their way up the country by train from the depths of south of the M25 to spend a weekend in Penrith. After a day on Friday braving the weather on the Ullswater steamer, we met for lunch on Saturday at Foundry 34
+              An evening at the Rheged Centre today to see the live screening from the National Theatre of Helen Mirren starring in <Link href="https://www.ntlive.com/plays/the-audience/#synopsis" target="_blank" className="text-decoration-underline text-white font-semibold underline">'The Audience'</Link> which was good.
                <br />
               <br /> 
               
                     <Image
-                      src={ShroveTuesday}
+                      src={ Audience }
                       className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]"
-                      alt="Photo of Harry eating pancakes."
+                      alt="Photo interval screensaver 'The Audience'"
                     />
 
   </div>
   </div>
   </div>
 </div>
-            
+
+
+                 <div className="mb-20">
+          <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
+            < div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-[#786d68]">
+
+              <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> 27th February 2026, Friday</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> The first of the spring lambs ....</div>
+              <div className="text-[#f3e2d6] text-center md:text-left mb-4 md:*:pr-6 md:*:pl-6 ">
+             On Monday this week (23rd February 2026), we saw the first of the spring lambs near to the village. Today we walked over to see them close up. Here are a couple of them.....
+               <br />
+              <br /> 
+               <Image
+                      src={ Lamb1 }
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]"
+                      alt="Photo first spring lamb"
+                    />
+ <br />
+              <br /> 
+                     <Image
+                      src={Lamb2 }
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]"
+                      alt="Photo second spring lamb"
+                    />
+              
+                    
+  </div>
+  </div>
+  </div>
+</div>       
+
+<div className="mb-20">
+          <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
+            < div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-[#786d68]">
+
+              <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> 28th February 2026, Saturday</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> 'Stitch It, Don't Ditch it' Workshop at the Rheged Centre.</div>
+              <div className="text-[#f3e2d6] text-center md:text-left mb-4 md:*:pr-6 md:*:pl-6 ">
+              We were back at the Rheged Centre for 9.15 am this morning to attend a workshop titled  <Link href="https://rheged.com/event/stitch-it-dont-ditch-it-simple-hand-sewn-repairs/" target="_blank" className="text-decoration-underline text-white font-semibold underline">'Stitch It, Don't Ditch it.'</Link> in which Mary V Morton and Jeanna Wigger, authors of the book “Stitch It, Don’t Ditch It" explained how with some simple hand-sewn repairs you can keep your clothes wearable for longer, thus reducing your carbon footprint and in the process hopefully contribute positively to reducing climate change.
+              <br />
+              <br />
+              We were taught how to identify the type of damage to your clothes and which materials and hand mending approach will best work together for a long-lasting repair. Bernard was a little worried he was to be the only man, but there were other men attending also, so he was not alone! Whilst at first glance it might not seem the most glamorous or dynamic event to attend, we both agreed it was actually really interesting and very helpful! 
+              <br />
+              <br /> 
+                    <Image
+                      src={ StitchIt }
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]"
+                      alt="Photo 'Stitch It, Don't Ditch It' book"
+                    />
+
+  </div>
+  </div>
+  </div>
+</div>
           
 
         </div>{" "}
