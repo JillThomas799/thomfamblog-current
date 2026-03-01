@@ -226,10 +226,48 @@ export default function February2026() {
                       alt="Photo of Bernard and Harry outside Tullie Museum."
                     />
                   </Link>
-                   
+                  </div> 
+                    </div>
+                     </div>
+          </div>
+
+
+                   <div className="mb-20">
+          <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
+            <div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-[#786d68]">
+
+              <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> 21st February 2026</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> Meeting Elena's partner, Willow's family for the first time.</div>
+              <div className="text-[#f3e2d6] text-center md:text-left mb-4 md:*:pr-6 md:*:pl-6 ">
+              Today we were very pleased to have the opportunity to meet up with Elena's partner Willow's mum, aunt and gran in Penrith. They had bravely made their way up the country by train from the depths of south of the M25 to spend a weekend in Penrith. After a day on Friday braving the weather on the Ullswater steamer, we met for lunch on Saturday at Foundry 34
+               <br />
+              <br /> 
                 </div>
             </div>
           </div>
+           </div>
+
+
+                   <div className="mb-20">
+          <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#bdbeba]">
+            < div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-[#786d68]">
+
+              <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> 21st February 2026</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#f3e2d6] text-center  border-gray-800 border-solid border-2 bg-[#5d5450]"> Meeting Elena's partner, Willow's family for the first time.</div>
+              <div className="text-[#f3e2d6] text-center md:text-left mb-4 md:*:pr-6 md:*:pl-6 ">
+              Today we were very pleased to have the opportunity to meet up with Elena's partner Willow's mum, aunt and gran in Penrith. They had bravely made their way up the country by train from the depths of south of the M25 to spend a weekend in Penrith. After a day on Friday braving the weather on the Ullswater steamer, we met for lunch on Saturday at Foundry 34
+               <br />
+              <br /> 
+              
+                    <Image
+                      src={ShroveTuesday}
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]"
+                      alt="Photo of Harry eating pancakes."
+                    />
+
+  </div>
+  </div>
+  </div>
 </div>
             
           
