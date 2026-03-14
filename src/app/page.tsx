@@ -3,7 +3,7 @@ import { currentUser } from "@clerk/nextjs/server";
 import { getPosts } from '@/actions/post.action';
 import CreatePost from "@/components/ui/CreatePost";
 import PostCard from "@/components/ui/PostCard";
-import February2026 from "@/components/ui/February2026";
+import March2026 from "@/components/ui/March2026";
 import BlogMenuBar from "@/components/ui/blogmenubar";
 
 export default async function Home() {
@@ -22,7 +22,7 @@ export default async function Home() {
    <div className="grid grid-cols-1 md:grid-cols-3 gap-1 p-2 bg-[#90AEAD]"> {/*Sets the overall grid layout for the display*/}
     <div className="col-span-1 md:col-span-2 p-2 gap-3 ">
     <div>
-    <February2026 />
+    <March2026 />
     </div>
     
     </div>
