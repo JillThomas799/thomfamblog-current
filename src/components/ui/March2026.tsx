@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import SamuraiArmourTitled from "/public/imagesresized/SamuraiArmourTitled.jpg";
 import WaterParkTitled from "/public/imagesresized/WaterParkTitled.jpg";
+import ColchesterCastleTitled from "/public/imagesresized/ColchesterCastleTitled.jpg";
 
 export default function March2026() {
   return (
@@ -110,6 +111,49 @@ export default function March2026() {
         </div> 
          </div> 
           </div> 
+
+          < div className="mb-20"> 
+      < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
+         < div className="text-md md:text-base max-w-full font-semibold text-[#2b8936] text-center  md:text-left dark:text-[#2b8936] justify-center items-center">
+         <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">Day 4: Monday 9th March 2026</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#bbe89e] text-center  border-[#bbe89e] border-2  bg-[#2b8936]"> Day in Colchester, Essex.</div>
+        <div className="font-semibold text-center md:text-left border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#bbe89e]">
+          Colchester is a city in Essex which occupies the site of Camulodunum, the first major city in Roman Britain and its first capital. So what better reason to go? 
+          <br />
+            <br />
+          First we went on a walk around the city including Castle Park and the Dutch quarter. There are a number of places to eat in the city according to your preference. We chose <Link href="https://www.honeyandharvey.co.uk/colchester/"  target="_blank" className="text-decoration-underline text-red-600 font-semibold underline">Honey and Harvey café</Link> for our lunch, which was great as the food was good and it was immediately opposite the castle.
+                <br />
+                <br />
+          Following lunch we went into Colchester Castle, which was ordered to be constructed by William the Conqueror in the 2nd half of the eleventh century on the foundations of a former Roman temple. We paid for an additional guided tour in addition to standard entry, and this took us down through 2,000 years of history to the Roman Vaults, the foundations of the Temple of Claudius. We then traveled up the Great Stairs, which is the route taken when monarchs visit and where can be seen graffiti including a man holding a sword, a mounted knight and a circular symbol usually interpreted as a witch mark. 
+                <br />
+                <br />
+                There was time for coffees at the <Link href="https://www.bakehousecoffeeshop.co.uk/"  target="_blank" className="text-decoration-underline text-red-600 font-semibold underline">Bakehouse café</Link> before heading back home.   However, it left plenty to see for another time including <Link href="https://www.visitcolchester.com/listing/a-walking-tour-of-the-roman-and-medieval-gates/122892101/"  target="_blank" className="text-decoration-underline text-red-600 font-semibold underline">walking the walls</Link>, the <Link href="https://www.visitcolchester.com/listing/a-walking-tour-of-the-roman-and-medieval-gates/122892101/"  target="_blank" className="text-decoration-underline text-red-600 font-semibold underline">Roman Circus visitors' Centre</Link>, <Link href="https://www.visitcolchester.com/listing/firstsite/119043101/"  target="_blank" className="text-decoration-underline text-red-600 font-semibold underline">First Site</Link> the contemporary visual arts gallery and <Link href="https://www.visitcolchester.com/listing/hollytrees-museum/119055101/"  target="_blank" className="text-decoration-underline text-red-600 font-semibold underline">Hollytrees Museum</Link>.
+                <br />
+                <br />
+               
+
+                <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-semibold text-center md:text-left text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] mb-6">Click on the image below to open the album of our day in Colchester, Essex.
+                <br />
+                <br />
+                      Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                   </div>
+                  <Link
+                    href="https://photos.app.goo.gl/yhUjSYLS16Uu51rN8"
+                    target="_blank"
+                  >
+                    <Image
+                      src={ColchesterCastleTitled}
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#efca60] border-4 mt-4 mb-6"
+                      alt="Photo of Colchester Castle exterior"
+                    />
+                  </Link>
+                
+               
+            </div>{" "}
+        </div> 
+         </div> 
+          </div> 
+
 
 </div>
 
