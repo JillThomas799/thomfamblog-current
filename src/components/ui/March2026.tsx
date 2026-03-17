@@ -115,6 +115,21 @@ export default function March2026() {
           < div className="mb-20"> 
       < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
          < div className="text-md md:text-base max-w-full font-semibold text-[#2b8936] text-center  md:text-left dark:text-[#2b8936] justify-center items-center">
+         <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">Day 3: Sunday 8th March 2026</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#bbe89e] text-center  border-[#bbe89e] border-2  bg-[#2b8936]"> Bernard's dad's to Jill's brother</div>
+        <div className="font-semibold text-center md:text-left border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#bbe89e]"> 
+          It was time to say goodbye to Bernard's dad today and to head over to see Jill's brother and sister-in-law in Essex.
+          We had arranged to go out for lunch at <Link href="https://www.cote.co.uk/restaurant/chelmsford"  target="_blank" className="text-decoration-underline text-red-600 font-semibold underline">Côte Brasserie</Link> and we had a lovely relaxing meal there.           The garden, which they had landscaped lst year, is looking very good and everything is starting to grow now.
+
+                </div>{" "}
+
+                </div> 
+         </div> 
+          </div> 
+
+          < div className="mb-20"> 
+      < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
+         < div className="text-md md:text-base max-w-full font-semibold text-[#2b8936] text-center  md:text-left dark:text-[#2b8936] justify-center items-center">
          <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">Day 4: Monday 9th March 2026</div> {/*End of news date block*/}
               <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#bbe89e] text-center  border-[#bbe89e] border-2  bg-[#2b8936]"> Day in Colchester, Essex.</div>
         <div className="font-semibold text-center md:text-left border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#bbe89e]">
@@ -151,6 +166,22 @@ export default function March2026() {
                
             </div>{" "}
         </div> 
+         </div> 
+          </div> 
+
+          < div className="mb-20"> 
+      < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
+         < div className="text-md md:text-base max-w-full font-semibold text-[#2b8936] text-center  md:text-left dark:text-[#2b8936] justify-center items-center">
+         <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">Day 5: Tuesday 10th March 2026</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#bbe89e] text-center  border-[#bbe89e] border-2  bg-[#2b8936]"> Return home to Cumbria, with a diversion via Leicestershire to see friends.</div>
+        <div className="font-semibold text-center md:text-left border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#bbe89e]"> 
+          It was finally time to return back home to the wilds of Cumbria, so it was goodbyes all around until the next time and then into the car to drive over to Leicestershire to see some long-standing friends and have lunch with them before heading back North on the final leg of the journey home.
+          <br />
+          <br />
+
+                </div>{" "}
+
+                </div> 
          </div> 
           </div> 
 
