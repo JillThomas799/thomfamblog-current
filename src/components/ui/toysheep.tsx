@@ -33,13 +33,14 @@ export default function Toysheep() {
                 r="90.0"
                 fill="#FCF5E5"
                 opacity="1"
+                className="md:translate-x-[-300px] md:translate-y-[30px]"
                /></g>
            
-            <g id="toysheephead"  className="md:translate-x-[-150px] md:translate-y-[50px]" >
+            <g id="toysheephead"  className="md:translate-x-[-300px] md:translate-y-[30px]" >
               <g id="toysheepface">
                 <circle
                 cx="50"
-                cy="100"
+                cy="150"
                 r="45.0"
                 fill="#483C32"
                 opacity="1"
@@ -49,7 +50,7 @@ export default function Toysheep() {
                 <circle
                 id="outereyeleft"
                 cx="70"
-                cy="90"
+                cy="140"
                 r="10.0"
                 fill="#FCF5E5"
                 opacity="1"
@@ -57,7 +58,7 @@ export default function Toysheep() {
                <circle
                 id="innereyeleft"
                 cx="70"
-                cy="90"
+                cy="140"
                 r="5.7"
                 fill="#000000"
                 opacity="1"
@@ -67,7 +68,7 @@ export default function Toysheep() {
                 <circle
                 id="outereyeright"
                 cx="35"
-                cy="90"
+                cy="140"
                 r="10.0"
                 fill="#FCF5E5"
                 opacity="1"
@@ -75,7 +76,7 @@ export default function Toysheep() {
                <circle
                 id="innereyeright"
                 cx="35"
-                cy="90"
+                cy="140"
                 r="5.7"
                 fill="#000000"
                 opacity="1"
@@ -84,7 +85,7 @@ export default function Toysheep() {
                <g id="toysheepearright">
                 <rect
                 x="-30"
-                y="60"
+                y="110"
                 rx="6"
                 ry="6"
                 width="65"
@@ -94,7 +95,7 @@ export default function Toysheep() {
                <g id="toysheepearleft">
                 <rect
                 x="70"
-                y="60"
+                y="110"
                 rx="6"
                 ry="6"
                 width="65"
