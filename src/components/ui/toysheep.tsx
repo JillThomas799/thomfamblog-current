@@ -148,7 +148,7 @@ export default function Toysheep() {
                </g>
             </g>
 
-              <g id="toysheeplegrightrear" filter="url(#blur2)">
+              {/* <g id="toysheeplegrightrear" filter="url(#blur2)">
               <g id="toysheeplegrightrearupper">
                 <rect 
                 x="-310"
@@ -169,9 +169,9 @@ export default function Toysheep() {
                 opacity="0.9"
                 />
                </g>
-            </g>
+            </g> */}
             
-            <g id="toysheeplegleftrear" filter="url(#blur2)">
+            {/* <g id="toysheeplegleftrear" filter="url(#blur2)">
               <g id="toysheeplegleftrearupper">
                 <rect 
                 x="-250"
@@ -192,7 +192,7 @@ export default function Toysheep() {
                 opacity="0.9"
                 />
                </g>
-            </g>             
+            </g>              */}
 
             <g id="toysheepbody" filter="url(#blur3)">
                 <circle
@@ -205,7 +205,7 @@ export default function Toysheep() {
                 
                /></g>
            
-            <g id="toysheephead"  className=" md:translate-x-[-310px] md:translate-y-[30px]" >
+            <g id="toysheephead"   >
               
               <g id="toysheepface" filter="url(#blur2)" >
                 <circle
