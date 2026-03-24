@@ -90,28 +90,35 @@ export default function Toysheep() {
               
             </radialGradient>
 
-              <filter id="blur8" x="0" y="0">
-                <feGaussianBlur in="SourceGraphic" stdDeviation="0.5" />
+              <filter id="blur1" x="0" y="0">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="1.0" />
               </filter>
             </defs>
+
+              <filter id="blur2" x="0" y="0">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="3.5" />
+            </filter>
+            <filter id="blur3" x="0" y="0">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="2.0" />
+            </filter>
 
             <g id="toysheeplegleftfront">
               <g id="toysheeplegleftfrontupper">
                 <rect 
-                x="-220"
+                x="55"
                 y="230"
                 rx="6"
                 ry="6"
-                width="20"
-                height="85"
+                width="10"
+                height="60"
                 fill="#444444" />
               </g>
                <g id="toysheeplegleftfrontfoot">
                 <ellipse
-                cx="-210"
-                cy="315"
-                rx="20"
-                ry="15"
+                cx="60"
+                cy="290"
+                rx="10"
+                ry="7.5"
                 fill="black"
                 opacity="0.9"
                 />
@@ -121,27 +128,27 @@ export default function Toysheep() {
              <g id="toysheeplegrightfront">
               <g id="toysheeplegrightfrontupper"> 
                 <rect 
-                x="-280"
-                y="240"
+                x="35"
+                y="230"
                 rx="6"
                 ry="6"
-                width="20"
-                height="75"
+                width="10"
+                height="60"
                 fill="#444444" />
               </g>
                <g id="toysheeplegrightfrontfoot">
                 <ellipse
-                cx="-270"
-                cy="315"
-                rx="20"
-                ry="15"
+                cx="37"
+                cy="290"
+                rx="10"
+                ry="7.5"
                 fill="black"
                 opacity="0.9"
                 />
                </g>
             </g>
 
-              <g id="toysheeplegrightrear">
+              <g id="toysheeplegrightrear" filter="url(#blur2)">
               <g id="toysheeplegrightrearupper">
                 <rect 
                 x="-310"
@@ -164,8 +171,9 @@ export default function Toysheep() {
                </g>
             </g>
             
-            <g id="toysheeplegleftrear">
-              <g id="toysheeplegleftrearupper"> <rect 
+            <g id="toysheeplegleftrear" filter="url(#blur2)">
+              <g id="toysheeplegleftrearupper">
+                <rect 
                 x="-250"
                 y="220"
                 rx="6"
@@ -174,7 +182,7 @@ export default function Toysheep() {
                 height="60"
                 fill="#444444" />
                 </g>
-               <g id="toysheeplegleftrearfoot">
+               <g id="toysheeplegleftrearfoot" filter="url(#blur2)">
                      <ellipse
                 cx="-240"
                 cy="290"
@@ -186,41 +194,47 @@ export default function Toysheep() {
                </g>
             </g>             
 
-            <g id="toysheepbody">
+            <g id="toysheepbody" filter="url(#blur3)">
                 <circle
                 cx="50"
-                cy="150"
-                r="75.0"
+                cy="240"
+                r="30.0"
                 // fill="#FCF5E5"
                 fill="url(#gradtoysheepjumper)"
                 opacity="1"
-                className="md:translate-x-[-300px] md:translate-y-[30px]"
+                
                /></g>
            
             <g id="toysheephead"  className=" md:translate-x-[-310px] md:translate-y-[30px]" >
-              <g id="toysheepface" >
+              
+              <g id="toysheepface" filter="url(#blur2)" >
                 <circle
                 cx="50"
-                cy="145"
-                r="38.0"
+                cy="230"
+                r="19.0"
                 fill="#483C32"
                 opacity="1"
-               /></g>              
+               /></g>   
+               <g id="toysheephair" filter="url(#blur2)">
+                 
+                <path fill="#222222"
+                d="M 36 220 a 3,2 30 1 1 37 0 Z" />
+              </g>           
 
                <g id="toysheepeyeleft">
                 <circle
                 id="outereyeleft"
-                cx="70"
-                cy="140"
-                r="10.0"
+                cx="58"
+                cy="223"
+                r="4.0"
                 fill="#FCF5E5"
                 opacity="1"
                />
                <circle
                 id="innereyeleft"
-                cx="70"
-                cy="140"
-                r="5.7"
+                cx="58"
+                cy="223"
+                r="2.5"
                 fill="#000000"
                 opacity="1"
                />               
@@ -228,39 +242,39 @@ export default function Toysheep() {
                <g id="toysheepeyeright">
                 <circle
                 id="outereyeright"
-                cx="35"
-                cy="140"
-                r="10.0"
+                cx="42"
+                cy="223"
+                r="4.0"
                 fill="#FCF5E5"
                 opacity="1"
                />
                <circle
                 id="innereyeright"
-                cx="35"
-                cy="140"
-                r="5.7"
+                cx="42"
+                cy="223"
+                r="2.5"
                 fill="#000000"
                 opacity="1"
                />
                </g>
-               <g id="toysheepearright">
+               <g id="toysheepearright" filter="url(#blur1)">
                 <rect
-                x="-30"
-                y="110"
+                x="20"
+                y="210"
                 rx="6"
                 ry="6"
-                width="65"
-                height="15"
+                width="20"
+                height="5"
                 fill="#000000"
               ></rect></g>
-               <g id="toysheepearleft">
+               <g id="toysheepearleft" filter="url(#blur1)">
                 <rect
-                x="70"
-                y="110"
+                x="55"
+                y="210"
                 rx="6"
                 ry="6"
-                width="65"
-                height="15"
+                width="20"
+                height="5"
                 fill="#000000"
               ></rect>
                </g>
