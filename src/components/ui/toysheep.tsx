@@ -18,7 +18,8 @@ export default function Toysheep() {
 
            <g
             id="toysheep1"
-            filter="url(#blur8)"            
+            filter="url(#blur8)"  
+                    
           >
             <defs>
               <radialGradient
@@ -183,9 +184,7 @@ export default function Toysheep() {
                 opacity="0.9"
                 />
                </g>
-            </g>
-
-             
+            </g>             
 
             <g id="toysheepbody">
                 <circle
@@ -267,12 +266,6 @@ export default function Toysheep() {
                </g>
             </g>
 
-           
-            
-            
-           
-
-          
           </g>
 
         </svg>
