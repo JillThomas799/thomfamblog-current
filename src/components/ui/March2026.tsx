@@ -3,6 +3,7 @@ import Link from 'next/link'
 import SamuraiArmourTitled from "/public/imagesresized/SamuraiArmourTitled.jpg";
 import WaterParkTitled from "/public/imagesresized/WaterParkTitled.jpg";
 import ColchesterCastleTitled from "/public/imagesresized/ColchesterCastleTitled.jpg";
+import Sizergh21032026Titled from "/public/imagesresized/Sizergh21032026Titled.jpg";
 
 export default function March2026() {
   return (
@@ -188,11 +189,26 @@ export default function March2026() {
       < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
          < div className="text-md md:text-base max-w-full font-semibold text-[#2b8936] text-center  md:text-left dark:text-[#2b8936] justify-center items-center">
          <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">Saturday 21st March 2026</div> {/*End of news date block*/}
-              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#bbe89e] text-center  border-[#bbe89e] border-2  bg-[#2b8936]"> Sizergh Castle</div>
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#bbe89e] text-center  border-[#bbe89e] border-2  bg-[#2b8936]"> Sizergh House, Estate and Fell and a beautiful,sunny Spring day.</div>
         <div className="font-semibold text-center md:text-left border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#bbe89e]"> 
           
           <br />
           <br />
+           <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-semibold text-center md:text-left text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] mb-6">Click on the image below to open the album of our day visiting Sizergh House, Estate and Fell, Cumbria.
+                <br />
+                <br />
+                      Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                   </div>
+                  <Link
+                    href="https://photos.app.goo.gl/u3Dme5duGE6xmkBe9"
+                    target="_blank"
+                  >
+                    <Image
+                      src={Sizergh21032026Titled}
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#efca60] border-4 mt-4 mb-6"
+                      alt="Photo of Jill and Bernard in front of Sizergh House"
+                    />
+                  </Link>
 
                 </div>{" "}
 
