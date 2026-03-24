@@ -185,6 +185,50 @@ export default function March2026() {
                 </div> 
          </div> 
           </div> 
+
+          < div className="mb-20"> 
+      < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
+         < div className="text-md md:text-base max-w-full font-semibold text-[#2b8936] text-center  md:text-left dark:text-[#2b8936] justify-center items-center">
+         <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">Saturday, 21st March 2026</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#bbe89e] text-center  border-[#bbe89e] border-2  bg-[#2b8936]"> Sizergh House, Estate and Fell and a beautiful,sunny Spring day.</div>
+        <div className="font-semibold text-center md:text-left border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#bbe89e]"> 
+          Harry was keen to have a day out today, after working hard all week. The suggestion of a 6 mile walk to the local town and back was not met with much enthusiasm, but the suggestion of Sizergh House and Estate was much better received, so Sizergh House and Estate it was to be....
+          <br />
+          <br />
+          Unfortunately, but unsurprisingly, lots of other people had the same plan, and the car park was already teaming on our arrival. Jill devised a cunning plan to walk to the far end of the estate where it would likely be quieter, Park End, where there is a bird hide which has been created. This is trickier to access, and on previous occasions in the wet, we had failed to do so. However today it was fine. It was quiet and we even saw some birds, including a beautiful egret.
+           <br />
+          <br />
+          Then it was a short steep ascent up the side of Sizergh Fell to the Chapel of Ease of St John Helsington. From here you can usually see the far Western Lake District fell summits, but today these were cloudy in a murky haze which apparently is due to dust from the Sahara.
+           <br />
+          <br />
+          Back to the visitor's centre and through  to the gardens where Charlie, the resident black cat could be spotted sunning himself.
+           <br />
+          <br />
+           In spite of it being so busy, we had had a lovely day, as always at Sizergh.
+           <br />
+          <br />
+           <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-semibold text-center md:text-left text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] mb-6">Click on the image below to open the album of our day visiting Sizergh House, Estate and Fell, Cumbria.
+                <br />
+                <br />
+                      Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                   </div>
+                  <Link
+                    href="https://photos.app.goo.gl/u3Dme5duGE6xmkBe9"
+                    target="_blank"
+                  >
+                    <Image
+                      src={Sizergh21032026Titled}
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#efca60] border-4 mt-4 mb-6"
+                      alt="Photo of Jill and Bernard in front of Sizergh House"
+                    />
+                  </Link>
+
+                </div>{" "}
+
+                </div> 
+         </div> 
+          </div> 
+
   
 </div>
 
