@@ -29,6 +29,27 @@ export default function Toysheep() {
               spreadMethod="repeat"
             >
                <stop
+                offset="0%"
+                stopColor ="#1c0100"
+               stopOpacity = "1"
+              >
+                {" "}
+              </stop>
+              <stop
+                offset="30%"
+                stopColor ="#1c0100"
+               stopOpacity = "1"
+              >
+                {" "}
+              </stop>
+               <stop
+                offset="30%"
+                stopColor ="#f4eee0"
+               stopOpacity = "1"
+              >
+                {" "}
+              </stop>
+                <stop
                 offset="30%"
                 stopColor ="#f4eee0"
                stopOpacity = "1"
@@ -38,14 +59,14 @@ export default function Toysheep() {
               
               <stop
                 offset="40%"
-                stopColor ="#483c32"
+                stopColor ="#1c0100"
                stopOpacity = "1"
               >
                 {" "}
               </stop>
               <stop
                 offset="40%"
-                stopColor ="#483c32"
+                stopColor ="#1c0100"
                stopOpacity = "1"
               >
                 {" "}
@@ -78,13 +99,13 @@ export default function Toysheep() {
                stopOpacity = "1"
               ></stop>
                <stop
-                offset="80%"
+                offset="85%"
                 stopColor ="#f4eee0"
                stopOpacity = "1"
               ></stop>
               <stop
                 offset="100%"
-                stopColor ="#483c32"
+                stopColor ="#1c0100"
                stopOpacity = "1"
               ></stop>
               
@@ -99,28 +120,58 @@ export default function Toysheep() {
               <feGaussianBlur in="SourceGraphic" stdDeviation="3.0" />
             </filter>
             <filter id="blur3" x="0" y="0">
-              <feGaussianBlur in="SourceGraphic" stdDeviation="2.0" />
+              <feGaussianBlur in="SourceGraphic" stdDeviation="1.6" />
             </filter>
 
+;           <g id="toysheepleftlegrear">
+            <g id="toysheeplegleftrearupper">
+                <rect 
+                x="25"
+                y="260"
+                rx="6"
+                ry="6"
+                width="8"
+                height="20"
+                fill="#444444" />
+              </g>
             <g id="toysheeplegleftrearfoot">
                      <ellipse
-                cx="35"
-                cy="272"
+                cx="30"
+                cy="285"
                 rx="9"
                 ry="6.5"
                 fill="black"
                 opacity="0.9"
                 />
                 </g>
-                 <g id="toysheeplegrightrearfoot">
+                </g>
+                 
+
+                <g id="toysheeprightlegrear">
+                 <g id="toysheeplegrightrearupper">
+                <rect 
+                x="44"
+                y="260"
+                rx="6"
+                ry="6"
+                width="8"
+                height="20"
+                fill="#444444" />
+              </g>
+                
+                <g id="toysheeplegrightrearfoot">
                      <ellipse
-                cx="55"
-                cy="272"
+                cx="51"
+                cy="281"
                 rx="9"
                 ry="6.5"
                 fill="black"
                 opacity="0.9"
                 />
+                </g>
+
+
+
                 </g>
 
             <g id="toysheeplegleftfront">
@@ -137,7 +188,7 @@ export default function Toysheep() {
                <g id="toysheeplegleftfrontfoot">
                 <ellipse
                 cx="60"
-                cy="290"
+                cy="295"
                 rx="9"
                 ry="6.5"
                 fill="black"
@@ -160,7 +211,7 @@ export default function Toysheep() {
                <g id="toysheeplegrightfrontfoot">
                 <ellipse
                 cx="37"
-                cy="290"
+                cy="295"
                 rx="9"
                 ry="6.5"
                 fill="black"
@@ -181,7 +232,7 @@ export default function Toysheep() {
                 
                /></g>
            
-            <g id="toysheephead"   >
+            <g id="toysheephead" transform="translate(0, 6)"  >
               
               <g id="toysheepface" filter="url(#blur1)" >
                 <circle
@@ -190,6 +241,8 @@ export default function Toysheep() {
                 r="18.0"
                 fill="#483C32"
                 opacity="1"
+                stroke="#1C0100"
+                stroke-width="2.0"
                />
                <g id="mouthright">
                 <line 
@@ -215,16 +268,16 @@ export default function Toysheep() {
                <g id="toysheepeyeleft">
                 <circle
                 id="outereyeleft"
-                cx="58"
+                cx="60"
                 cy="223"
-                r="4.0"
+                r="4.5"
                 fill="#FCF5E5"
-                opacity="1"
+                opacity="0.9"
                 filter="url(#blur1)"
                />
                <circle
                 id="innereyeleft"
-                cx="58"
+                cx="60"
                 cy="223"
                 r="2.5"
                 fill="#000000"
@@ -234,16 +287,16 @@ export default function Toysheep() {
                <g id="toysheepeyeright">
                 <circle
                 id="outereyeright"
-                cx="42"
+                cx="40"
                 cy="223"
-                r="4.0"
+                r="4.5"
                 fill="#FCF5E5"
-                opacity="1"
+                opacity="0.9"
                 filter="url(#blur1)"
                />
                <circle
                 id="innereyeright"
-                cx="42"
+                cx="40"
                 cy="223"
                 r="2.5"
                 fill="#000000"
@@ -252,7 +305,7 @@ export default function Toysheep() {
                </g>
                <g id="toysheepearright" transform="rotate(-30,20,217) translate (0,10)">
                 <rect
-                x="20"
+                x="16"
                 y="210"
                 rx="6"
                 ry="6"
@@ -261,7 +314,7 @@ export default function Toysheep() {
                 fill="#000000"
                 opacity="0.9"
               ></rect></g>
-               <g id="toysheepearleft"  transform="rotate(-10,55,217) translate (0,0)">
+               <g id="toysheepearleft"  transform="rotate(4,55,217)">
                 <rect
                 x="53"
                 y="210"
@@ -278,8 +331,8 @@ export default function Toysheep() {
                  
                 <ellipse 
                  cx="50"
-                cy="211"
-                rx="11.0"
+                cy="213"
+                rx="13.0"
                 ry="12.0"
                 fill="#222222"
                 opacity="1" />
