@@ -78,7 +78,9 @@ const config: Config = withUt({
 		'WinterPath': "url('/imagesresized/WinterPath.jpg')",
 		'IcyTarn':"url('/imagesresized/IcyTarn.jpg')",
 		'March2026Header':"url('/imagesresized/March2026Header.jpg')",
-		'AprilGrass':"url('/imagesresized/AprilGrass.jpg')"
+		'AprilGrass':"url('/imagesresized/AprilGrass.jpg')",
+		'AprilLambs':"url('/imagesresized/AprilLambs.jpg')"
+		
       },
   	}
   },

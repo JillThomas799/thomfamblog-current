@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Toysheep from "./toysheep";
+import toysheep1 from '/public/imagesresized/toysheep1.jpg';
+
+
 
 
 
@@ -12,6 +15,12 @@ export default function April2026() {
         <br />
         <br />
         < Toysheep/ >
+         <Image
+                  src={ toysheep1 }
+                  className="block ml-[1%] mt-2 mr-auto h-auto w-[90%] md:w-[30%] lg:w-[20%]"
+                  alt="Photo of toy sheep "
+                />
+        
       </div>
 
        < div className="mb-20"> 
