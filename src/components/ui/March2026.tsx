@@ -4,6 +4,7 @@ import SamuraiArmourTitled from "/public/imagesresized/SamuraiArmourTitled.jpg";
 import WaterParkTitled from "/public/imagesresized/WaterParkTitled.jpg";
 import ColchesterCastleTitled from "/public/imagesresized/ColchesterCastleTitled.jpg";
 import Sizergh21032026Titled from "/public/imagesresized/Sizergh21032026Titled.jpg";
+import JapaneseCookingTitled from "/public/imagesresized/JapaneseCookingTitled.jpg";
 
 export default function March2026() {
   return (
@@ -189,6 +190,47 @@ export default function March2026() {
           < div className="mb-20"> 
       < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
          < div className="text-md md:text-base max-w-full font-semibold text-[#2b8936] text-center  md:text-left dark:text-[#2b8936] justify-center items-center">
+         <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">Friday 20th to Sunday 22nd March 2026</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#bbe89e] text-center  border-[#bbe89e] border-2  bg-[#2b8936]"> The Japanese theme to the month continues ....with us learning how to cook some Japanese food...</div>
+        <div className="font-semibold text-center md:text-left border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#bbe89e]"> 
+          Our Japan theme has continued after our visit to the Samurai exhibition, with an attempt to learn to cook some Japanese food! 
+           <br />
+          <br />
+          First of all, to source authentic Japanese food,  we used the <Link href="https://www.japancentre.com/en/categories/10100-groceries"  target="_blank" className="text-decoration-underline text-red-600 font-semibold underline">Japan centre</Link> in London, who will deliver to most places in the UK, together with local large supermarkets. 
+          <br />
+          <br />
+          Next, we sourced an easily readable and understandable Japanese cookbook. Whilst <Link href="https://en.wikipedia.org/wiki/Tim_Anderson_(chef)"  target="_blank" className="text-decoration-underline text-red-600 font-semibold underline">Tim Anderson</Link>, the author of the <Link href="https://www.amazon.co.uk/Japaneasy-Classic-Japanese-Recipes-Actually/dp/1784881147"  target="_blank" className="text-decoration-underline text-red-600 font-semibold underline">JapanEasy</Link> book we chose, is not native Japanese he has spent several years cooking and studying Japanese cuisine in Japan and studied Japanese food history at Occidental College Los Angeles. He was Masterchef winner 2011, for those who are fans and followers of the programme and many dishes he cooked to attain his success were Japanese dishes.
+          <br />
+          <br />
+          For our first weekend of Japanese cooking, we undertook 4 dishes: Daigaku imu - candied sweet potato wedges, Sweet miso-glazed aubergine, Takikomi gohan: Japanese-style mushroom pilaf and Stir fried pork with ginger sauce.
+          <br />
+          <br />
+          <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-semibold text-center md:text-left text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] mb-6">Click on the image below to open our Japanese cooking album and to take a glance at the finished products...
+                <br />
+                <br />
+                      Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                   </div>
+                  <Link
+                    href="https://photos.app.goo.gl/T7E2YyNEjEt5fRCT7"
+                    target="_blank"
+                  >
+                    <Image
+                      src={JapaneseCookingTitled}
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#efca60] border-4 mt-4 mb-6"
+                      alt="Photo of Japanese cooking ingredients."
+                    />
+                  </Link>
+
+                </div>{" "}
+
+                </div> 
+         </div> 
+          </div> 
+  
+
+          < div className="mb-20"> 
+      < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
+         < div className="text-md md:text-base max-w-full font-semibold text-[#2b8936] text-center  md:text-left dark:text-[#2b8936] justify-center items-center">
          <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">Saturday, 21st March 2026</div> {/*End of news date block*/}
               <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#bbe89e] text-center  border-[#bbe89e] border-2  bg-[#2b8936]"> Sizergh House, Estate and Fell and a beautiful,sunny Spring day.</div>
         <div className="font-semibold text-center md:text-left border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#bbe89e]"> 
@@ -224,12 +266,10 @@ export default function March2026() {
                   </Link>
 
                 </div>{" "}
-
                 </div> 
          </div> 
           </div> 
-
-  
+ 
 </div>
 
   )
