@@ -13,102 +13,89 @@ export default function Toysheep() {
           width="100vw"
           height="40vh"
           viewBox="-80 -90 500 500"
-          className="overflow-visible"         
+          className="overflow-visible scale-[60%] translate-y-[100px] md:scale-[75%] lg:scale-[100%] lg:translate-x-[-100px] "         
         >
 
            <g
             id="toysheep1"
-            filter="url(#blur8)"  
-                    
+            filter="url(#blur8)"                      
           >
             <defs>
               <radialGradient
               id="gradtoysheepjumper"
-              cx="50%"
-              cy="50%"
+              cx="55%"
+              cy="55%"
               spreadMethod="repeat"
             >
                <stop
                 offset="0%"
-                stopColor ="#1c0100"
-               stopOpacity = "1"
-              >
-                {" "}
-              </stop>
-              <stop
-                offset="30%"
-                stopColor ="#1c0100"
-               stopOpacity = "1"
-              >
-                {" "}
-              </stop>
-               <stop
-                offset="30%"
-                stopColor ="#f4eee0"
-               stopOpacity = "1"
-              >
-                {" "}
-              </stop>
-                <stop
-                offset="30%"
-                stopColor ="#f4eee0"
-               stopOpacity = "1"
-              >
-                {" "}
-              </stop>
-              
-              <stop
-                offset="40%"
-                stopColor ="#1c0100"
-               stopOpacity = "1"
-              >
-                {" "}
-              </stop>
-              <stop
-                offset="40%"
-                stopColor ="#1c0100"
-               stopOpacity = "1"
-              >
-                {" "}
-              </stop>
-              <stop
-                offset="50%"
-                stopColor ="#f4eee0"
-               stopOpacity = "1"
-              >
-                {" "}
-              </stop>
-               <stop
-                offset="50%"
                 stopColor ="#f4eee0"
                stopOpacity = "1"
               ></stop>
               <stop
-                offset="60%"
-                stopColor = '#483c32'
+                offset="5%"
+                stopColor ="#f4eee0"
+               stopOpacity = "1"
+              ></stop>
+              <stop
+                offset="6%"
+                stopColor ="#393028"
+               stopOpacity = "1"
+              ></stop>
+                          
+              <stop
+                offset="40%"
+                stopColor ="#393028"
+               stopOpacity = "1"
+              >
+                {" "}
+              </stop>
+               <stop
+                offset="45%"
+                stopColor ="#f4eee0"
+               stopOpacity = "1"
+              ></stop>
+               <stop
+                offset="55%"
+                stopColor ="#f4eee0"
+               stopOpacity = "1"
+              ></stop>
+              <stop
+                offset="56%"
+                stopColor = '#393028'
                 stopOpacity = "1"
               ></stop>
               <stop
-                offset="60%"
-                stopColor = '#483c32'
+                offset="70%"
+                stopColor = '#393028'
                 stopOpacity = "1"
               ></stop>
                <stop
+                offset="76%"
+                stopColor ="#f4eee0"
+               stopOpacity = "1"
+              ></stop>
+               <stop
+                offset="78%"
+                stopColor ="#f4eee0"
+               stopOpacity = "1"
+              ></stop>
+              <stop
                 offset="80%"
-                stopColor ="#f4eee0"
-               stopOpacity = "1"
+                stopColor = '#393028'
+                stopOpacity = "1"
               ></stop>
-               <stop
-                offset="85%"
-                stopColor ="#f4eee0"
-               stopOpacity = "1"
+
+              <stop
+                offset="99%"
+                stopColor = '#393028'
+                stopOpacity = "1"
               ></stop>
               <stop
                 offset="100%"
-                stopColor ="#1c0100"
+                stopColor ="#f4eee0"
                stopOpacity = "1"
-              ></stop>
-              
+              ></stop>             
             </radialGradient>
 
               <filter id="blur1" x="0" y="0">
@@ -169,9 +156,6 @@ export default function Toysheep() {
                 opacity="0.9"
                 />
                 </g>
-
-
-
                 </g>
 
             <g id="toysheeplegleftfront">
@@ -239,9 +223,9 @@ export default function Toysheep() {
                 cx="50"
                 cy="230"                
                 r="18.0"
-                fill="#483C32"
+                fill="#393028"
                 opacity="1"
-                stroke="#1C0100"
+                stroke="#000000"
                 stroke-width="2.0"
                />
                <g id="mouthright">
@@ -305,11 +289,11 @@ export default function Toysheep() {
                </g>
                <g id="toysheepearright" transform="rotate(-30,20,217) translate (0,10)">
                 <rect
-                x="16"
+                x="13"
                 y="210"
                 rx="6"
                 ry="6"
-                width="30"
+                width="35"
                 height="7"
                 fill="#000000"
                 opacity="0.9"
@@ -320,23 +304,26 @@ export default function Toysheep() {
                 y="210"
                 rx="6"
                 ry="6"
-                width="27"
+                width="35"
                 height="7"
                 fill="#000000"
                  opacity="0.9"
               ></rect>
                </g>
 
-                <g id="toysheephair" filter="url(#blur1)">
+                <g id="toysheephair" filter="url(#blur3)">
                  
                 <ellipse 
                  cx="50"
                 cy="213"
                 rx="13.0"
                 ry="12.0"
-                fill="#222222"
-                opacity="1" />
-                
+                fill="#393028"
+                opacity="1"
+                stroke="#000000"
+                stroke-width="1.0"    
+                 />
+                            
               </g>   
             </g>
 
