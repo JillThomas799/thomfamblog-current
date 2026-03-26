@@ -30,6 +30,15 @@ export default function April2026() {
               <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#bbe89e] text-center  border-[#bbe89e] border-2  bg-[#2b8936]"> Welcome to the April 2026 blog</div>
 
         <div className="font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#bbe89e]"> Welcome to our April blog. 
+          <br />
+          <br />
+          Last month, for mother's day, Elena kindly bought Jill a very cute toy sheep. This has been used as the starting point for the design of this month's header. The sheep and lambs are all in the fields currently, so using the background base of a Cumbrian field, a graphical representation of the toy sheep has been created within the field and an image of the actual toy sheep inserted as comparison.
+          <br />
+          <br />
+          It is an early Easter this month, although with the rise in fuel prices and risk to supply, we are aiming to restrict driving of the petrol and diesel cars. 
+          <br />
+          <br />
+          A day on the train to Edinburgh is planned and towards the middle of the month Jill and Bernard are off to Norfolk for the week. However, more about that later...
             </div>{" "}
         </div> 
          </div> 
