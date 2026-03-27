@@ -226,7 +226,7 @@ export default function Toysheep() {
                 fill="#393028"
                 opacity="1"
                 stroke="#000000"
-                stroke-width="2.0"
+                strokeWidth="2.0"
                />
                <g id="mouthright">
                 <line 
@@ -235,7 +235,7 @@ export default function Toysheep() {
                 x2="50"
                 y2="244"
                 stroke="#000000"
-                stroke-width="1.6" />
+                strokeWidth="1.6" />
                </g>
                 <g id="mouthleft">
                    <line 
@@ -244,7 +244,7 @@ export default function Toysheep() {
                 x2="50"
                 y2="244"
                 stroke="#000000"
-                stroke-width="1.6" />
+                strokeWidth="1.6" />
                </g>
                 
                </g>           
@@ -321,7 +321,7 @@ export default function Toysheep() {
                 fill="#393028"
                 opacity="1"
                 stroke="#000000"
-                stroke-width="1.0"    
+                strokeWidth="1.0"    
                  />
                             
               </g>   
