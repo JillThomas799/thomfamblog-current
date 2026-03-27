@@ -38,7 +38,7 @@ export default function April2026() {
           It is an early Easter this month, although with the rise in fuel prices and risk to supply, we are aiming to restrict driving of the petrol and diesel cars. 
           <br />
           <br />
-          A day on the train to Edinburgh is planned and towards the middle of the month Jill and Bernard are off to Norfolk for the week. However, more about that later...
+          A day on the train to Edinburgh is planned and towards the middle of the month Jill and Bernard are off to Norfolk for the week. The week in Norfolk looks to involve lots of history and walking and means that at long last Jill can see the locations described in one of her favourite novelist, Ellie Griffith's, Ruth Galloway series. However, more about that later...
             </div>{" "}
         </div> 
          </div> 
