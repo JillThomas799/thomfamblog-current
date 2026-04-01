@@ -13,7 +13,7 @@ export default function Toysheep() {
           width="100vw"
           height="40vh"
           viewBox="-80 -90 500 500"
-          className="overflow-visible scale-[60%] translate-y-[100px] md:scale-[75%] lg:scale-[100%] lg:translate-x-[-100px] "         
+          className="overflow-visible scale-[70%] translate-y-[170px] md:scale-[75%] lg:scale-[100%] lg:translate-x-[-100px] "         
         >
 
            <g
