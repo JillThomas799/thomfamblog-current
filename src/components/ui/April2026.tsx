@@ -10,14 +10,14 @@ import toysheep1 from '/public/imagesresized/toysheep1.jpg';
 export default function April2026() {
   return (
     <div className="bg-[#66ab4d] border-solid border-4 border-gray-600 md:p-4 mb-8">
-      <div className=" h-[50vh] text-[#D99E49] text-center font-semibold text-l p-3">
+      <div className=" h-[50vh] text-[#D99E49] text-center font-normal text-l p-3">
         <div className="bg-gray-800 mr-[7%] ml-[7%] md:mr-[40%] md:ml-[40%] p-1 border-[#bdbeba] border-2 text-[white] font-semibold">April 2026</div>
         <br />
         <br />
         < Toysheep/ >
          <Image
                   src={ toysheep1 }
-                  className=" scale-[120%] ml-[35%] mt-[-100%] mr-auto h-auto w-[30%] md:w-[30%] md:mt-[-80%] lg:w-[20%] lg:mt-[-40%] "
+                  className=" ml-[35%] mt-[-75%] mr-auto h-auto w-[30%] md:w-[30%] md:mt-[-80%] lg:w-[20%] lg:mt-[-40%] "
                   alt="Photo of toy sheep "
                 />
         
@@ -25,7 +25,7 @@ export default function April2026() {
 
        < div className="mb-20"> 
       < div className="flex flex-col bg-[#f4f498] h-[80%] md:h-[100vh]  w-auto leading-1.5 md:p-4 lg:p-4 border-[#efca60] border-solid border-4 md:border-2 ">
-         < div className="text-md md:text-base max-w-full font-semibold text-[#2b8936] text-center dark:text-[#2b8936] justify-center items-center">
+         < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-[#2b8936] justify-center items-center">
          <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]"> 1st April 2026</div> {/*End of news date block*/}
               <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#bbe89e] text-center  border-[#bbe89e] border-2  bg-[#2b8936]"> Welcome to the April 2026 blog</div>
 
