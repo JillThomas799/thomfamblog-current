@@ -17,7 +17,7 @@ export default function April2026() {
         < Toysheep/ >
          <Image
                   src={ toysheep1 }
-                  className=" scale-[120%] ml-[35%] mt-[-100%] mr-auto h-auto w-[30%] md:w-[30%] md:mt-[-69%] lg:w-[20%] lg:mt-[-40%] "
+                  className=" scale-[120%] ml-[35%] mt-[-100%] mr-auto h-auto w-[30%] md:w-[30%] md:mt-[-80%] lg:w-[20%] lg:mt-[-40%] "
                   alt="Photo of toy sheep "
                 />
         
