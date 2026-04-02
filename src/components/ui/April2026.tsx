@@ -9,15 +9,15 @@ import toysheep1 from '/public/imagesresized/toysheep1.jpg';
 
 export default function April2026() {
   return (
-    <div className="bg-[#66ab4d] border-solid border-4 border-gray-600 md:p-4 mb-8">
-      <div className=" h-[50vh] text-[#D99E49] text-center font-normal text-l p-3">
+    <div className="">
+      <div className="bg-AprilGrass bg-cover border-solid border-4 border-gray-600 md:p-4 mb-8 h-[50vh] text-[#D99E49] text-center font-normal text-l p-3">
         <div className="bg-gray-800 mr-[7%] ml-[7%] md:mr-[40%] md:ml-[40%] p-1 border-[#bdbeba] border-2 text-[white] font-semibold">April 2026</div>
         <br />
         <br />
         < Toysheep/ >
          <Image
                   src={ toysheep1 }
-                  className=" ml-[35%] mt-[-75%] mr-auto h-auto w-[30%] md:w-[30%] md:mt-[-80%] lg:w-[20%] lg:mt-[-40%] "
+                  className=" ml-[30%] mt-[-75%] mr-auto h-auto w-[25%] md:w-[30%] md:mt-[-80%] lg:w-[20%] lg:ml-[25%] lg:mt-[-30%] "
                   alt="Photo of toy sheep "
                 />
         
