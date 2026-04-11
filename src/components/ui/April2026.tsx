@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Toysheep from "./toysheep";
 import toysheep1 from '/public/imagesresized/toysheep1.jpg';
+import JapaneseCookingTitled from "/public/imagesresized/JapaneseCookingTitled.jpg";
 
 
 
@@ -43,6 +44,44 @@ export default function April2026() {
         </div> 
          </div> 
           </div> 
+
+          < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
+                   < div className="text-md md:text-base max-w-full font-semibold text-[#2b8936] text-center  md:text-left dark:text-[#2b8936] justify-center items-center">
+                   <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">8th April 2026</div> {/*End of news date block*/}
+                        <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#bbe89e] text-center  border-[#bbe89e] border-2  bg-[#2b8936]">Edinburgh for the day, on the train</div>
+                  <div className="font-semibold text-center md:text-left border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#bbe89e]"> 
+                    Harry was on holiday this week, so it was time for some day trips.
+                     <br />
+                    <br />
+                    First of all, to source authentic Japanese food,  we used the <Link href="https://www.japancentre.com/en/categories/10100-groceries"  target="_blank" className="text-decoration-underline text-red-600 font-semibold underline">Japan centre</Link> in London, who will deliver to most places in the UK, together with local large supermarkets. 
+                    <br />
+                    <br />
+                   
+                    <br />
+                    <br />
+                    <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-semibold text-center md:text-left text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] mb-6">Click on the image below to open the album of our trip to Edinburgh.
+                          <br />
+                          <br />
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/T7E2YyNEjEt5fRCT7"
+                              target="_blank"
+                            >
+                              <Image
+                                src={JapaneseCookingTitled}
+                                className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#efca60] border-4 mt-4 mb-6"
+                                alt="Photo of Japanese cooking ingredients."
+                              />
+                            </Link>
+          
+                          </div>{" "}
+          
+                          </div> 
+                   </div> 
+                    </div> 
+            
 
 
       </div>
