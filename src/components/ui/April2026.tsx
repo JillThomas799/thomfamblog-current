@@ -81,7 +81,7 @@ export default function April2026() {
           < div className="mb-20"> 
                 < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
                    < div className="text-md md:text-base max-w-full font-semibold text-[#416946] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
-                    <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">8th April 2026</div> {/*End of news date block*/}
+                    <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">8th April 2026, Wednesday</div> {/*End of news date block*/}
                        <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]">Edinburgh for the day, on the train</div>
                  <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]">
                     Harry was on holiday this week, so rather than going away and Lennie having to go in the cattery, it was decided to undertake some day trips instead.
@@ -124,14 +124,13 @@ export default function April2026() {
                     < div className="mb-20"> 
                 < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
                    < div className="text-md md:text-base max-w-full font-semibold text-[#416946] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
-                    <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">8th April 2026</div> {/*End of news date block*/}
-                       <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]">Edinburgh for the day, on the train</div>
+                    <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">10th April 2026, Friday</div> {/*End of news date block*/}
+                       <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]">Visit to Lancaster and Lancaster Castle</div>
                  <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]">
                     
                      <br />
                     <br />
-                    Cafés visited included: <Link href="https://www.nms.ac.uk/national-museum-of-scotland/plan-your-visit/eating-and-drinking"  target="_blank" className="text-decoration-underline text-[#0000EE] font-normal md:font-semibold underline">Balcony Café, National Museum of Scotland</Link>, <Link href="https://www.edinburghcastle.scot/see-and-do/eat/redcoat-cafe/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-normal md:font-semibold underline">Redcoat Café, Edinburgh Castle</Link> and   
-                    <Link href="https://cappuccino.menu-world.com/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-normal md:font-semibold underline"> Cappuccino Café</Link> , Jeffrey Street.
+                     <Link href="https://www.lancastercastle.com/the-castle-today/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-normal md:font-semibold underline">Lancaster Castle</Link>
                     
                     <br />
                     <br />                 
