@@ -45,7 +45,7 @@ export default function April2026() {
            < div className="mb-20"> 
                 < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
                    < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#416946] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
-                   <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">6th April 2026, Easter Monday</div> {/*End of news date block*/}
+                   <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">6th April 2026, Easter Monday.</div> {/*End of news date block*/}
                         <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]">Hadrian's Wall Path West to East (abridged): Day 1, Bowness-on-Solway to Drumburgh.</div>
                   <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]"> We so enjoyed our Hadrian's Wall walk in 2024 that we have decided to walk the Hadrian's Wall path once again this year but going from West to East rather than from East to West. This means this year we will be starting in Bowness-on-Solway and ending in Wallsend.
                     People have their individual preferences as to whether they prefer East to West or West to East. One of the arguments for West to East is  that the Atlantic wind is normally behind you.
@@ -81,7 +81,7 @@ export default function April2026() {
           < div className="mb-20"> 
                 < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
                    < div className="text-md md:text-base max-w-full font-semibold text-[#416946] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
-                    <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">8th April 2026, Wednesday</div> {/*End of news date block*/}
+                    <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">8th April 2026, Wednesday.</div> {/*End of news date block*/}
                        <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]">Edinburgh for the day, on the train</div>
                  <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]">
                     Harry was on holiday this week, so rather than going away and Lennie having to go in the cattery, it was decided to undertake some day trips instead.
@@ -124,13 +124,14 @@ export default function April2026() {
                     < div className="mb-20"> 
                 < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
                    < div className="text-md md:text-base max-w-full font-semibold text-[#416946] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
-                    <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">10th April 2026, Friday</div> {/*End of news date block*/}
-                       <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]">Visit to Lancaster and Lancaster Castle</div>
+                    <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">10th April 2026, Friday.</div> {/*End of news date block*/}
+                       <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]">Visit to Lancaster and Lancaster Castle, with lunch at Pizza Margherita.</div>
                  <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]">
-                    
+                    Harry spent 4 years at Lancaster University undertaking a Masters in Chemistry, which he completed in 2020, so we do know Lancaster quite well. Harry had previously visited Lancaster Castle on the 12th June 2013 with his history group at school and had really enjoyed it. He was keen on a revisit. However, we had never been, nor to the popular Lancashire police museum, also on-site. So a day out down memory lane to Lancaster and <Link href="https://www.lancastercastle.com/the-castle-today/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-normal md:font-semibold underline">Lancaster Castle</Link> was arranged. 
                      <br />
                     <br />
-                     <Link href="https://www.lancastercastle.com/the-castle-today/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-normal md:font-semibold underline">Lancaster Castle</Link>
+                    You can only visit the castle on a guided tour, but given the detailed history of the building, this is very beneficial and we had a very detailed and interesting tour. When we had finished at the castle, we headed off for lunch at one of our old haunts from the past, <Link href="https://www.pizza-margherita.co.uk/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-normal md:font-semibold underline">Pizza Margherita</Link>. The welcome and food is as excellent as ever and it was lovely to be back here. Being a Friday lunchtime, not in university term-time, it was not too busy which was good.
+                     
                     
                     <br />
                     <br />                 
