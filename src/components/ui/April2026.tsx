@@ -4,6 +4,7 @@ import Toysheep from "./toysheep";
 import toysheep1 from '/public/imagesresized/toysheep1.jpg';
 import EdinburghTitled from "/public/imagesresized/EdinburghTitled.jpg";
 import UnchartedGlassonTitled from "/public/imagesresized/UnchartedGlassonTitled.jpg";
+import LancasterCastleTitled from "/public/imagesresized/LancasterCastleTitled.jpg";
 
 export default function April2026() {
   return (
@@ -110,6 +111,41 @@ export default function April2026() {
                             >
                               <Image
                                 src={EdinburghTitled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#efca60] border-4 mt-4 mb-6"
+                                alt="Photo of Jill and Bernard on the Castle Esplanade, Edinburgh ."
+                              />
+                            </Link>          
+                          </div>{" "}          
+                          </div> 
+                   </div> 
+                    </div> 
+
+
+                    < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
+                   < div className="text-md md:text-base max-w-full font-semibold text-[#416946] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
+                    <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">8th April 2026</div> {/*End of news date block*/}
+                       <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]">Edinburgh for the day, on the train</div>
+                 <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]">
+                    
+                     <br />
+                    <br />
+                    Cafés visited included: <Link href="https://www.nms.ac.uk/national-museum-of-scotland/plan-your-visit/eating-and-drinking"  target="_blank" className="text-decoration-underline text-[#0000EE] font-normal md:font-semibold underline">Balcony Café, National Museum of Scotland</Link>, <Link href="https://www.edinburghcastle.scot/see-and-do/eat/redcoat-cafe/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-normal md:font-semibold underline">Redcoat Café, Edinburgh Castle</Link> and   
+                    <Link href="https://cappuccino.menu-world.com/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-normal md:font-semibold underline"> Cappuccino Café</Link> , Jeffrey Street.
+                    
+                    <br />
+                    <br />                 
+                    <div className="p-2 font-normal md:font-semibold text-center text-sm md:text-md text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] ">Click on the image below to open the album of our trip to Lancaster and Lancaster Castle.
+                          <br />
+                          <br />
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/DMH3J9meVhiUdypX7"
+                              target="_blank"
+                            >
+                              <Image
+                                src={LancasterCastleTitled}
                                 className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#efca60] border-4 mt-4 mb-6"
                                 alt="Photo of Jill and Bernard on the Castle Esplanade, Edinburgh ."
                               />
