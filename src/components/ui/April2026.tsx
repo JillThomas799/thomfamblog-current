@@ -2,11 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Toysheep from "./toysheep";
 import toysheep1 from '/public/imagesresized/toysheep1.jpg';
-import JapaneseCookingTitled from "/public/imagesresized/JapaneseCookingTitled.jpg";
-
-
-
-
+import EdinburghTitled from "/public/imagesresized/EdinburghTitled.jpg";
+import UnchartedGlassonTitled from "/public/imagesresized/UnchartedGlassonTitled.jpg";
 
 export default function April2026() {
   return (
@@ -45,34 +42,68 @@ export default function April2026() {
          </div> 
           </div> 
 
-          < div className="mb-20"> 
-                < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
-                   < div className="text-md md:text-base max-w-full font-semibold text-[#2b8936] text-center  md:text-left dark:text-[#2b8936] justify-center items-center">
-                   <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">8th April 2026</div> {/*End of news date block*/}
-                        <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#bbe89e] text-center  border-[#bbe89e] border-2  bg-[#2b8936]">Edinburgh for the day, on the train</div>
-                  <div className="font-semibold text-center md:text-left border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#bbe89e]"> 
-                    Harry was on holiday this week, so it was time for some day trips.
+           < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
+                   < div className="text-md md:text-base max-w-full font-semibold text-[#416946] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
+                   <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">6th April 2026, Easter Monday</div> {/*End of news date block*/}
+                        <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#bbe89e] text-center  border-[#bbe89e] border-2  bg-[#2b8936]">Hadrian's Wall Path West to East (abridged): Day 1, Bowness-on-Solway to Drumburgh.</div>
+                  <div className="font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]"> 
                      <br />
                     <br />
-                    First of all, to source authentic Japanese food,  we used the <Link href="https://www.japancentre.com/en/categories/10100-groceries"  target="_blank" className="text-decoration-underline text-red-600 font-semibold underline">Japan centre</Link> in London, who will deliver to most places in the UK, together with local large supermarkets. 
-                    <br />
-                    <br />
-                   
-                    <br />
-                    <br />
-                    <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-semibold text-center md:text-left text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] mb-6">Click on the image below to open the album of our trip to Edinburgh.
+                    <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-semibold text-center text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] mb-6">Click on the image below to open the album of Hadrian's Wall Path West to East (abridged): Day 1, Bowness-on-Solway to Drumburgh.
                           <br />
                           <br />
                                 Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
                              </div>
                             <Link
-                              href="https://photos.app.goo.gl/T7E2YyNEjEt5fRCT7"
+                              href="https://photos.app.goo.gl/f77USA8BtRSCPz6b7"
                               target="_blank"
                             >
                               <Image
-                                src={JapaneseCookingTitled}
+                                src={UnchartedGlassonTitled}
                                 className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#efca60] border-4 mt-4 mb-6"
-                                alt="Photo of Japanese cooking ingredients."
+                                alt="Photo of Bernard avoiding puddles ."
+                              />
+                            </Link>
+          
+                          </div>{" "}
+          
+                          </div> 
+                   </div> 
+                    </div> 
+            
+
+
+   
+
+
+
+          < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
+                   < div className="text-md md:text-base max-w-full font-semibold text-[#416946] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
+                   <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">8th April 2026</div> {/*End of news date block*/}
+                        <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-[#bbe89e] text-center  border-[#bbe89e] border-2  bg-[#2b8936]">Edinburgh for the day, on the train</div>
+                  <div className="font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]"> 
+                    Harry was on holiday this week, so rather than going away and Lennie having to go in the cattery, it was decided to undertake some day trips instead.
+                     <br />
+                    <br />
+                    Edinburgh is only about 1hr 15 by train on a direct line from Carlisle and we had for some time to be planning to revisit.
+                    Cappuccino <Link href="https://cappuccino.menu-world.com/"  target="_blank" className="text-decoration-underline text-red-600 font-semibold underline">Cappuccino</Link> , Jeffrey Street.
+                    <br />
+                    <br />                   
+                    <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-semibold text-center text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] mb-6">Click on the image below to open the album of our trip to Edinburgh.
+                          <br />
+                          <br />
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/Giyy9jWrTr3kFpx16"
+                              target="_blank"
+                            >
+                              <Image
+                                src={EdinburghTitled}
+                                className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#efca60] border-4 mt-4 mb-6"
+                                alt="Photo of Jill and Bernard on the Castle Esplanade, Edinburgh ."
                               />
                             </Link>
           
