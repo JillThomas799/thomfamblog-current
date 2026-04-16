@@ -162,14 +162,11 @@ export default function April2026() {
                     <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">Saturday 18th - Saturday 25th April 2026.</div> {/*End of news date block*/}
                        <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]">We go on holiday to the Norfolk Coast</div>
                  <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]">
-                    <br />
+                    Whilst I appreciate that the Norfolk Coast in the UK may not seem the most glamorous or exciting of locations, I can reassure people that for anyone interested in history and the wild outdoors, it is brilliant. It is steeped in fascinating history and has plenty to see and do.  So, here we are in Blakeney for a week to find out more.....
+                     <br />
                     <br /> 
-                    Whilst I appreciate that the Norfolk Coast in the UK may not seem the most glamorous or exciting of locations, I can reassure people that for anyone interested in history and the wild outdoors, it is brilliant. It is steeped in fascinating history and has plenty to see and do.
                           </div>{" "}          
-                          </div> 
-                    So, here we are in Blakeney for a week to find out more.....
-                    <br />
-                    <br /> 
+                          </div>                    
                    </div> 
                     </div> 
 
