@@ -155,6 +155,59 @@ export default function April2026() {
                    </div> 
                     </div> 
 
+                    
+                    < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
+                   < div className="text-md md:text-base max-w-full font-semibold text-[#416946] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
+                    <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">Saturday 18th - Saturday 25th April 2026.</div> {/*End of news date block*/}
+                       <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]">We go on holiday to the Norfolk Coast</div>
+                 <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]">
+                    <br />
+                    <br /> 
+                    Whilst I appreciate that the Norfolk Coast in the UK may not seem the most glamorous or exciting of locations, I can reassure people that for anyone interested in history and the wild outdoors, it is brilliant. It is steeped in fascinating history and has plenty to see and do.
+                          </div>{" "}          
+                          </div> 
+                    So, here we are in Blakeney for a week to find out more.....
+                    <br />
+                    <br /> 
+                   </div> 
+                    </div> 
+
+                                     
+                    < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
+                   < div className="text-md md:text-base max-w-full font-semibold text-[#416946] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
+                    <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">18th April 2026, Saturday.</div> {/*End of news date block*/}
+                       <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]"> Visit to Creswell Crags on the Derbyshire/Nottinghamshire border to see pre-historic cave paintings (the only known ones in the UK)</div>
+                 <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]">
+                 In July 2011, which seems a <em>long</em> time ago now, we had a very interesting holiday with Elena and Harry in the Basque country in South Western France. Whilst there, we had the opportunity to visit one of the most important archaeological sites of the prehistory of Western Europe, an important Paleolithic (early Stone age: 50,000-10,000 years BCE) site where amongst other things, a Neanderthal mandible was found. Finds also included cave paintings and bone flutes. The caves are located in the Gaztelu hill in the Arberoue Valley in the foothills of Pyrenees the caves at Isturitz.
+                     <br />
+                    <br />
+                    However, as a family at that time there were a number of other distractions, including crêpes Suzette and chocolate sauce in the café, as demonstrated here....
+                   {/* <Image></Image>  */}
+                   and our memories of the site are a little vague.... So today on our journey down to Norfolk, we decided to give Palaeolithic cave art another run and see the site of the only known Palaeolithic cave art in Britain at <Link href="https://www.creswell-crags.org.uk/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-normal md:font-semibold underline">Creswell Crags</Link>. More about the history of Creswell Crags can be found via this link to the  <Link href="https://www.creswell-crags.org.uk/news-archive/twenty-years-since-the-rock-art-discovery-at-creswell-crags"  target="_blank" className="text-decoration-underline text-[#0000EE] font-normal md:font-semibold underline">history of Creswell Crags</Link> . 
+                    <br />
+                    <br />                 
+                    <div className="p-2 font-normal md:font-semibold text-center text-sm md:text-md text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] ">Click on the image below to open the album of our visit to Creswell Crags Derbyshire/Nottinghamshire.
+                          <br />
+                          <br />
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/DMH3J9meVhiUdypX7"
+                              target="_blank"
+                            >
+                              <Image
+                                src={LancasterCastleTitled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#efca60] border-4 mt-4 mb-6"
+                                alt="Photo of Jill and Bernard on the Castle Esplanade, Edinburgh ."
+                              />
+                            </Link>          
+                          </div>{" "}          
+                          </div> 
+                   </div> 
+                    </div> 
+
       </div>
   )
 }
