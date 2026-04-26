@@ -5,6 +5,7 @@ import toysheep1 from '/public/imagesresized/toysheep1.jpg';
 import EdinburghTitled from "/public/imagesresized/EdinburghTitled.jpg";
 import UnchartedGlassonTitled from "/public/imagesresized/UnchartedGlassonTitled.jpg";
 import LancasterCastleTitled from "/public/imagesresized/LancasterCastleTitled.jpg";
+import JillCaveTitled from "/public/imagesresized/JillCaveTitled.jpg";
 
 export default function April2026() {
   return (
@@ -191,11 +192,11 @@ export default function April2026() {
                                 Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
                              </div>
                             <Link
-                              href="https://photos.app.goo.gl/DMH3J9meVhiUdypX7"
+                              href="https://photos.app.goo.gl/QaewaodVi3K2TyLz7"
                               target="_blank"
                             >
                               <Image
-                                src={LancasterCastleTitled}
+                                src={JillCaveTitled}
                                 className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#efca60] border-4 mt-4 mb-6"
                                 alt="Photo of Jill and Bernard on the Castle Esplanade, Edinburgh ."
                               />
