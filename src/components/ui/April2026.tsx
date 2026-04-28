@@ -218,11 +218,25 @@ export default function April2026() {
                    < div className="text-md md:text-base max-w-full font-semibold text-[#416946] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
                     <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">19th April 2026, Sunday.</div> {/*End of news date block*/}
                        <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]"> Circular walk from Blakeney to Cley-next-the-sea and Wiveton Downs from the house, 16 km, 10 miles</div>
-                 <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]"> Given all the driving yesterday, a car-free day had been planned for today and a walk along the Norfolk Coastal Path from Blakeney over to Cley-next-the-sea, returning the inland route over Wiveton Downs back to Blakeney. The walk was 16 km, 10 miles in total and takes in 
-                 
+                 <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]"> Given all the driving yesterday, a car-free day had been planned for today and a walk along the Norfolk Coastal Path from Blakeney over to Cley-next-the-sea, returning via an inland route over Wiveton Downs back to Blakeney. The walk was 16 km, 10 miles in total and took in the Morston salt marsh and Freshwater marsh, the village of Cley-Next-the-Sea, Newgate (the site of the old village of Cley prior to 1612), Glandford and Wiveton Downs before looping around to return back to the coast between Morston and Blakeney and picking up the coastal path back to Blakeney. 
+                  <br />
+                    <br /> 
+                    Cley-Next-the-Sea is a fascinating village. Its origins date back to prehistoric times but by the 1200s, Cley (pronounced Cly) was one of 3 ports which made up a major shipping area. Today it is a mile from the sea, separated by a band of marshland. In medieval times, and for a good while afterwards, the coast of North Norfolk was where our main trade with Europe took place. At that time, Norwich was England’s 2nd city, after London. Cley was one of the busiest ports in the whole of England at that time with ships of over 130 tonnes off-loading their cargoes at the quayside.  Imports included fish, spices and coal and exports included barley, oats and malt.
                     <br />
-                    <br />                 
-                    <div className="p-2 font-normal md:font-semibold text-center text-sm md:text-md text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] ">Click on the image below to open the album of our walk along the Norfolk Coastal Path from Blakeney over to Cley-next-the-sea.
+                    <br /> 
+                    During medieval times, Cley’s original harbour would have lain at Newgate, where St Margaret’s church is located. In 1612, a devastating fire burnt down most of the medieval buildings in Cley. 117 houses were destroyed. Only the church and one or two other buildings remained.
+                    <br />
+                    <br />                    
+                    The trade links across the North Sea provided opportunities for new settlers. Between 1565 and 1620 around 4000 people of Dutch and French descent were living in Norwich alone. Thousands arrived and became known as ‘The Strangers’. They settled here and their influence can be seen in Cley as well as all over Norfolk. Many were protestants, fleeing to escape persecution in mainland Catholic Europe. They were weavers, merchants and traders. They brought with them the canary and beer.
+                    <br />
+                    <br /> 
+                    In 1637, unfortunately, the landowner Henry Calthorpe drained the salt marshes for agricultural use and in 1637 put a dam across the river Glaven and enclosed the marshes. Although the bank was later demolished, the river channel had already began to silt up. Soon ships could not get to the Cley wharves…it was no longer-by-the-sea.
+                     <br />
+                    <br />     
+                    This was a great and varied walk, lots of wildlife and views and interesting history. A pleasant change after all the driving yesterday. We returned to the house for a well-earned rest...   
+                     <br />
+                    <br />            
+                    <div className="p-2 font-normal md:font-semibold text-center text-sm md:text-md text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] ">Click on the image below to open the album of our circular walk along the Norfolk Coastal Path from Blakeney over to Cley-next-the-sea and back by Wiveton Downs.
                           <br />
                           <br />
                                 Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
@@ -234,7 +248,7 @@ export default function April2026() {
                               <Image
                                 src={CleyWindmillTitled}
                                 className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#efca60] border-4 mt-4 mb-6"
-                                alt="Photo of Jill in hard hat, caving at Church Cave."
+                                alt="Photo of Cley-Next-the-Sea from the Norfolk Coastal Path."
                               />
                             </Link>          
                           </div>{" "}          
