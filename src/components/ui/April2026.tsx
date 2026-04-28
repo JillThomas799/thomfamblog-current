@@ -7,6 +7,7 @@ import UnchartedGlassonTitled from "/public/imagesresized/UnchartedGlassonTitled
 import LancasterCastleTitled from "/public/imagesresized/LancasterCastleTitled.jpg";
 import JillCaveTitled from "/public/imagesresized/JillCaveTitled.jpg";
 import Isturitz2011 from "/public/imagesresized/Isturitz2011.jpg";
+import CleyWindmillTitled from "/public/imagesresized/CleyWindmillTitled.jpg";
 
 export default function April2026() {
   return (
@@ -203,6 +204,35 @@ export default function April2026() {
                             >
                               <Image
                                 src={JillCaveTitled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#efca60] border-4 mt-4 mb-6"
+                                alt="Photo of Jill in hard hat, caving at Church Cave."
+                              />
+                            </Link>          
+                          </div>{" "}          
+                          </div> 
+                   </div> 
+                    </div> 
+
+                               < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
+                   < div className="text-md md:text-base max-w-full font-semibold text-[#416946] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
+                    <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">19th April 2026, Sunday.</div> {/*End of news date block*/}
+                       <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]"> Circular walk from Blakeney to Cley-next-the-sea and Wiveton Downs from the house, 16 km, 10 miles</div>
+                 <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]"> Given all the driving yesterday, a car-free day had been planned for today and a walk along the Norfolk Coastal Path from Blakeney over to Cley-next-the-sea, returning the inland route over Wiveton Downs back to Blakeney. The walk was 16 km, 10 miles in total and takes in 
+                 
+                    <br />
+                    <br />                 
+                    <div className="p-2 font-normal md:font-semibold text-center text-sm md:text-md text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] ">Click on the image below to open the album of our walk along the Norfolk Coastal Path from Blakeney over to Cley-next-the-sea.
+                          <br />
+                          <br />
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/N7CaNbKNER54JGry8"
+                              target="_blank"
+                            >
+                              <Image
+                                src={CleyWindmillTitled}
                                 className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#efca60] border-4 mt-4 mb-6"
                                 alt="Photo of Jill in hard hat, caving at Church Cave."
                               />
