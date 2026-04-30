@@ -263,8 +263,19 @@ export default function April2026() {
                     <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">20th April 2026, Monday.</div> {/*End of news date block*/}
                        <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]">Sandringham House and Estate and Wells-Next-the-Sea</div>
                  <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]">  
+                  People we know who had visited Sandringham House and Estate had recommended it to us in the past, but we had never had the opportunity or occasion to visit. So today, that is where we were headed.
                      <br />
-                    <br />            
+                    <br /> 
+                    We were very fortunate in that the weather was set to be beautiful. We had pre-booked our parking online, which at £5.00 for the day, worked out a little cheaper. There was nothing to pay for our entry into the house as we were covered by our Historic Houses membership cards. To go around the 8 rooms of Sandringham house open to the public, it is necessary to prebook, which we had done so.
+                    <br />
+                    <br /> 
+                    The housekeeping staff were very welcoming, helpful and informative and the whole visitor experience seemed extremely well-organised and efficient. The house was worth a visit as , in contrast to Buckingham Palace, this is King Charles' and  Queen Camilla's home and it feels relaxed and comfortable. It is also good to see the recent work which has been undertaken in the garden, including the creation of a topiary and maze garden. 
+                    <br />
+                    <br /> 
+                    We really enjoyed our visit to Sandringham House and Gardens. Following on from the visit we took the 3 mile yellow trail through the parkland. This is one of a number of varied length trails. On our return to Blakeney, we stopped off in Wells-Next-the-Sea for ice cream and to have a look around.
+                     <br />
+                    <br />  
+
                     <div className="p-2 font-normal md:font-semibold text-center text-sm md:text-md text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] ">Click on the image below to open the album of our visit to Sandringham House and Estate.
                           <br />
                           <br />
