@@ -291,10 +291,12 @@ export default function April2026() {
                    < div className="text-md md:text-base max-w-full font-semibold text-[#416946] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
                     <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">21st April 2026, Tuesday.</div> {/*End of news date block*/}
                        <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]">Trip to Norwich for the day.</div>
-                 <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]">  
-                  
+                 <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]">  Today we visited Norwich. It has to be said however, that we no where near got to see all there was to see. This is because Norwich is a very important and interesting historic city dating back to                  
                      <br />
                     <br />  
+                    Norwich claims to be the most complete medieval city in the United Kingdom. It includes cobbled streets such as Elm Hill, Timber Hill and Tombland; ancient buildings such as St Andrew's Hall; half-timbered houses such as Dragon Hall, The Guildhall and Strangers' Hall; the Art Nouveau of the 1899 Royal Arcade; many medieval lanes; and the winding River Wensum that flows through the city centre towards Norwich Castle.
+                     <br />
+                    <br /> 
 
                     <div className="p-2 font-normal md:font-semibold text-center text-sm md:text-md text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] ">Click on the image below to open the album of our visit to Norwich.
                           <br />
