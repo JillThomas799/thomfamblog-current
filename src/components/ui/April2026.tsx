@@ -290,12 +290,18 @@ export default function April2026() {
                 < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
                    < div className="text-md md:text-base max-w-full font-semibold text-[#416946] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
                     <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">21st April 2026, Tuesday.</div> {/*End of news date block*/}
-                       <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]">Trip to Norwich for the day.</div>
-                 <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]">  Today we visited Norwich. It has to be said however, that we no where near got to see all there was to see. This is because Norwich is a very important and interesting historic city dating back to                  
+                       <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]">Trip to Norwich for the day on the Park and Ride bus.</div>
+                 <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]">  Today we visited Norwich. It has to be said however, that we got no where near seeing all there was to see. This is because Norwich is a very important and interesting historic city.... 
+                  <br />
+                    <br />                 
+                The Domesday Book records that on the eve of the Norman Conquest of 1066, in the reign of King Edward the Confessor, Norwich was already a substantial borough containing 1,320 burgesses. The earliest document preserved among the records of this borough is its first surviving charter, dated c1158. The charter (translated from its original Latin) records that King Henry II: "Granted and confirmed to my burgesses of Norwich all the customs and liberties and quittances which they had in the time of King Henry my grandfather." Norwich's second surviving charter is that of Henry II's son Richard I, dated 1194. This is a more significant document as it refers to Norwich as a city and, in addition to confirming existing rights and customs, confers a new measure of independence. Many more royal charters and letters patent followed. The most significant was the charter of Henry IV, dated 1404, which made the City of Norwich a county in its own right, separate from the county of Norfolk.                 .  
                      <br />
-                    <br />  
-                    Norwich claims to be the most complete medieval city in the United Kingdom. It includes cobbled streets such as Elm Hill, Timber Hill and Tombland; ancient buildings such as St Andrew's Hall; half-timbered houses such as Dragon Hall, The Guildhall and Strangers' Hall; the Art Nouveau of the 1899 Royal Arcade; many medieval lanes; and the winding River Wensum that flows through the city centre towards Norwich Castle.
-                     <br />
+                    <br /> 
+                 Norwich also claims to be the most complete medieval city in the United Kingdom. It includes cobbled streets such as Elm Hill, Timber Hill and Tombland; ancient buildings such as St Andrew's Hall; half-timbered houses such as Dragon Hall, The Guildhall and Strangers' Hall; the Art Nouveau of the 1899 Royal Arcade; many medieval lanes; and the winding River Wensum that flows through the city centre towards Norwich Castle.
+                   <br />
+                    <br />                     
+                  This was not our first visit to Norwich as back in July 2007 we spent a day and a half in Norwich when stopping at Hunsett Mill, near Statham on the Norfolk Broads. On that occasion Elena and Harry were with us, so our priorities were a little different and our memories of the city were a little vague apart from Pizza Express in the Forum Centre and the Park and Ride bus stop outside Waterstones on Castle Meadow! It was nice therefore to return to Norwich outside the school holidays in a more relaxed fashion.
+                  <br />
                     <br /> 
 
                     <div className="p-2 font-normal md:font-semibold text-center text-sm md:text-md text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] ">Click on the image below to open the album of our visit to Norwich.
