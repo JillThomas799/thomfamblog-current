@@ -336,15 +336,20 @@ export default function April2026() {
                  <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]">  Today we went forward with a little trepidation to see King's Lynn, known until 1537 as Bishop's Lynn and colloquially as Lynn, a port and market town in the borough of King's Lynn and West Norfolk. We had heard varied reports, both good and bad, but our opinion, having visited, was that it was a very interesting and enjoyable visit for a number of reasons. 
                   <br />
                     <br />                   
-                   Firstly and most importantly (for Jill anyway) is that it is central to the books in the Elly Griffiths Ruth Galloway series of mystery novels. Ruth's university was situated just North of King's Lynn and DCI Nelson was based at King's Lynn police station.
+                   Firstly and most importantly (for Jill anyway) is that it is central to the books in the Elly Griffiths Ruth Galloway series of mystery novels. The archeologist and bone's expert, Ruth's, university was situated just North of King's Lynn, DCI Nelson was based at King's Lynn police station and Cathbad was one of the druids involved in objecting to the removal of the Seahenge timbers.
                   <br />
                     <br /> 
                   Secondly, it is a very historically interesting town and port. It was one of England’s most important ports from as early as the 12th Century. From the 13th century, the market town and seaport of the then Bishop's Lynn (now King's Lynn) became the first member trading depot (Kontor) in the Kingdom of England of the Hanseatic League of ports. During the 14th century, Lynn was the most important port in England when the League dominated sea trade with Europe. It still retains two medieval Hanseatic League warehouses: Hanse House, built in 1475, and Marriott's Warehouse. 
-
                     <br />
                     <br />
-                   Thirdly, it has a wonderful small museum which houses 'Seahenge'. 
+                   Thirdly, it has a wonderful small museum which houses the 'Seahenge' gallery. In the Spring of 1998, spikes of timber appeared on the beach at Holme-next-the Sea, near Hunstanton. The resultant interest and publicity generated, together with the question of whether the henge timbers should be left or removed to a safe place led to eventually a safe haven being created for it in the 'Seahenge' gallery where the treated timbers, a reproduction of the henge and the background information of what the research revealed can be seen in the little King's Lynn Museum.
                     <br />
+                    <br /> 
+                    We really enjoyed our visit to King's Lynn and in many ways enjoyed this visit even more than Norwich. It did of course have the advantage that it is a smaller town and also had bacon rolls which only cost £3.50...
+                    <br />
+                    <br /> 
+                    In the afternoon we headed South along the cost to Titchmarsh RSPB bird sanctuary and nature reserve where we saw a lot of birds. Some of the pictures or our visit can be seen in the link below.
+                      <br />
                     <br /> 
 
                     <div className="p-2 font-normal md:font-semibold text-center text-sm md:text-md text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] ">Click on the image below to open the album of our visit to King's Lynn.
