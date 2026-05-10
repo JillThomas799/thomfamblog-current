@@ -12,6 +12,7 @@ import SandringhamTitled from "/public/imagesresized/SandringhamTitled.jpg";
 import NorwichCastleTitled from "/public/imagesresized/NorwichCastleTitled.jpg";
 import CustomHouseLynnTitled from "/public/imagesresized/CustomHouseLynnTitled.jpg";
 import HolkhamHallTitled from "/public/imagesresized/HolkhamHallTitled.jpg";
+import AfternoonTeaTitled from "/public/imagesresized/AfternoonTeaTitled.jpg";
 
 export default function April2026() {
   return (
@@ -415,10 +416,49 @@ export default function April2026() {
                           </div>{" "}          
                           </div> 
                    </div> 
-                    </div> 
-                      </div> 
-                 
+                    </div>
 
+                    <div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
+                   < div className="text-md md:text-base max-w-full font-semibold text-[#416946] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
+                    <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">24th April 2026, Thursday.</div> {/*End of news date block*/}
+                       <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]">Boat trip to see the seals at Blakeney Point, afternoon tea at the Blakeney Hotel and evening visit to Salthouse marsh.</div>
+                 <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]"> Blakeney Point is home to England's largest grey seal colony and seal pupping season is described as being a breathtaking wildlife spectacle. Blakeney Point is home to England's largest grey seal colony with around 9,000 pups born between the end of October and mid-January each year. The best way to get close to the wildlife on Blakeney Point is via a trip with one of the seal boat tour operators that are based at Morston Quay. We had missed the seal pups for this year, but the grey seals were out on the point, shortly to leave and be replaced by the common seals.
+                    <br />
+                    <br />
+                  We had booked our boat trip in plenty of time as they are very popular. The weather was looking fairly good and most importantly there was not too much wind. Morston quay is about 1.5 miles from Blakeney so we decided to  walk over along the coastal path both ways. There was another reason for this as the National Trust car park occasional floods at Morston Quay a couple of times a year at seasonal hight tides and in fact this had been the case the previous week when the car park was underwater, so we made the decision to leave our car safely at our rental house.
+                    <br />
+                    <br />
+                    The boat trip was great. A bit choppy when there was a swell over the sandbank just past Blakeney point beach where the seals were located. Bernard got a bit wet as he was sitting in the front of the boat. In terms of seals we have seen, this was a very enjoyable trip but we would not rate it as the best, as there was a limit to how close you could get to the seals. That prize goes to the Isle of Skye seals on 3 occasions: Dunvegan Castle seals in August 2013, the seals on our boat trip to Loch Coruisk on 24th May 2024 and the seal swimming by our ferry on the Glenelg to Kylerhea original Skye ferry trip on 17th May 2024, not to mention the seal waving at us on the beach in Northumberland near Craster in March 2025.
+                     <br />
+                    <br />
+                    In the afternoon, we had booked to have afternoon tea at the very smart <Link href="https://www.blakeney-hotel.co.uk/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-normal md:font-semibold underline">Blakeney Hotel</Link>, on the front at Blakeney quayside. Bernard had always wanted to try an afternoon tea, so we thought we would give it a go as it was the last day of our holiday. The hotel was very smart and we had a great view through the window at the quayside. The food was great: sandwiches, scones and cakes. 
+                    <br />
+                    <br />                    
+                    We were so full after the afternoon tea, we skipped dinner in the evening..... Instead we worked off some calories by parking at Cley and Saltmarsh visitors centre and walking over the SaltHouse marsh to the beach. It was a lovely evening and a perfect end to a great holiday....
+                     <br />
+                    <br /> 
+                    <div className="p-2 font-normal md:font-semibold text-center text-sm md:text-md text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] ">Click on the image below to open the album of our boat trip to see the seals at Blakeney Point, afternoon tea at the Blakeney Hotel and visit to Salthouse marsh.
+                          <br />
+                          <br />
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/Kpak4vAWXatMxLMe8"
+                              target="_blank"
+                            >
+                              <Image
+                                src={AfternoonTeaTitled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#efca60] border-4 mt-4 mb-6"
+                                alt="Photo of afternoon tea at the Blakeney Hotel."
+                              />
+                            </Link>          
+                          </div>{" "}          
+                          </div> 
+                   </div> 
+                    </div> 
+
+                      </div> 
       </div>
   )
 }
