@@ -11,6 +11,7 @@ import CleyWindmillTitled from "/public/imagesresized/CleyWindmillTitled.jpg";
 import SandringhamTitled from "/public/imagesresized/SandringhamTitled.jpg";
 import NorwichCastleTitled from "/public/imagesresized/NorwichCastleTitled.jpg";
 import CustomHouseLynnTitled from "/public/imagesresized/CustomHouseLynnTitled.jpg";
+import HolkhamHallTitled from "/public/imagesresized/HolkhamHallTitled.jpg";
 
 export default function April2026() {
   return (
@@ -328,10 +329,12 @@ export default function April2026() {
                    </div> 
                     </div> 
 
+                   
+                   
                     < div className="mb-20"> 
                 < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
                    < div className="text-md md:text-base max-w-full font-semibold text-[#416946] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
-                    <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">22nd April 2026, Tuesday.</div> {/*End of news date block*/}
+                    <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">22nd April 2026, Wednesday.</div> {/*End of news date block*/}
                        <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]">King's Lynn, all about Sea Henge and Titchmarsh RSPB reserve.</div>
                  <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]">  Today we went forward with a little trepidation to see King's Lynn, known until 1537 as Bishop's Lynn and colloquially as Lynn, a port and market town in the borough of King's Lynn and West Norfolk. We had heard varied reports, both good and bad, but our opinion, having visited, was that it was a very interesting and enjoyable visit for a number of reasons. 
                   <br />
@@ -370,7 +373,50 @@ export default function April2026() {
                           </div>{" "}          
                           </div> 
                    </div> 
+
+
+                    <div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
+                   < div className="text-md md:text-base max-w-full font-semibold text-[#416946] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
+                    <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">23rd April 2026, Thursday.</div> {/*End of news date block*/}
+                       <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]">Holkham Hall and Deer Park, Wells-next-the-Sea, Norfolk.</div>
+                 <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]">  Holkham Hall has had good reviews from travellers and historic houses members can enter the house free of charge, so we dusted down our historic houses membership cards and for the first time today we visited <Link href="https://www.holkham.co.uk/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-normal md:font-semibold underline">Holkham Hall, Estate and Deer Park</Link>.
+                  <br />
+                    <br />       
+                    For the 2026 season (March 29 – October 29), Holkham Hall is open Sundays, Mondays, and Thursdays, 10am–4pm for pre-booked tours. The surrounding Park is open daily 9am–5pm, and the Walled Garden is open daily 10am–5pm. Cycles are available for hire in the grounds, which is a good idea as the grounds are very large and if you do as we did and park in the main car park, it is quite a walk over the parkland and down to Holkham village and beach and back. We spent the whole day here at the Holkham Estate, as it would be difficult to shorten the visit without losing something in the experience. There is actually self-catering accommodation available on the estate, should anyone be interested in hiring it.          
+                      <br />
+                    <br /> 
+                    Holkham Hall is a magnificent eighteenth-century Palladian hall which is home is to the Earls of Leicester and the family seems to place great importance in sharing the house and its treasures with visitors. The state rooms offer superb collections of ancient statuary, original furniture, tapestries and paintings by Rubens, Van Dyck, Gaspar Poussin and Gainsborough. They have created a display titled 'the Holkham Stories Experience' which is useful to find out all about the family genealogy and the estate’s 400-year past, living present and their sustainable plans for the future. 
+                    <br />
+                    <br /> 
+                    We visited the Holkham Experience, inside the Hall, the parkland including the deer park, the walled garden and we walked down to Holkham village and beach.
+                    <br />
+                    <br /> 
+                    What did we like best about the day? Lots of exercise, the food in the Courtyard café at lunch was rustic but home-grown and exceptionally good, the family strive to follow in the foosteps of their ancestor Thomas William Coke who played a huge role in the Agricultural Revolution in the 18th century to improve Holkham’s soil health and protect the land. The same rationale is at the centre of the current family's <Link href="https://www.holkham.co.uk/journal/wonder-five-years-on/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-normal md:font-semibold underline">WONDER strategy</Link> , launched in 2020 to improve the estate’s environmental impact and become carbon negative by 2040.and place environmental sustainability at the core of their policy, achieving in that area.<br />
+                    <br />
+                    <br />
+                    <br />
+
+                    <div className="p-2 font-normal md:font-semibold text-center text-sm md:text-md text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] ">Click on the image below to open the album of our visit to Holkham Hall, Estate and Deer Park.
+                          <br />
+                          <br />
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/MB3K1rGPY2kUtEDY9"
+                              target="_blank"
+                            >
+                              <Image
+                                src={HolkhamHallTitled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#efca60] border-4 mt-4 mb-6"
+                                alt="Photo of Holkham Hall, Norfolk."
+                              />
+                            </Link>          
+                          </div>{" "}          
+                          </div> 
+                   </div> 
                     </div> 
+                      </div> 
                  
 
       </div>
