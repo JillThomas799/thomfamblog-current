@@ -437,7 +437,7 @@ export default function April2026() {
                     In the afternoon, we had booked to have afternoon tea at the very smart <Link href="https://www.blakeney-hotel.co.uk/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-normal md:font-semibold underline">Blakeney Hotel</Link>, on the front at Blakeney quayside. Bernard had always wanted to try an afternoon tea, so we thought we would give it a go as it was the last day of our holiday. The hotel was very smart and we had a great view through the window at the quayside. The food was great: sandwiches, scones and cakes. 
                     <br />
                     <br />                    
-                    We were so full after the afternoon tea, we skipped dinner in the evening..... Instead we worked off some calories by parking at Cley and Saltmarsh visitors centre and walking over the SaltHouse marsh to the beach. It was a lovely evening and a perfect end to a great holiday....
+                    We were so full after the afternoon tea, we skipped dinner in the evening..... Instead we worked off some calories by parking at Cley and Salthouse marsh visitors centre and walking over the SaltHouse marsh to the beach. It was a lovely evening and a perfect end to a great holiday....
                      <br />
                     <br /> 
                     <div className="p-2 font-normal md:font-semibold text-center text-sm md:text-md text-[#bbe89e] border-[#efca60] border-solid border-2 bg-[#2b8936] ">Click on the image below to open the album of our boat trip to see the seals at Blakeney Point, afternoon tea at the Blakeney Hotel and visit to Salthouse marsh.
