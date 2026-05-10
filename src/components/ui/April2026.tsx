@@ -380,7 +380,7 @@ export default function April2026() {
                 < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4 mt-4 border-[#efca60] border-solid border-2 md:border-2 bg-[#f4f498]">
                    < div className="text-md md:text-base max-w-full font-semibold text-[#416946] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
                     <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center  border-[#bbe89e] border-2 bg-[#2b8936]">23rd April 2026, Thursday.</div> {/*End of news date block*/}
-                       <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]">Holkham Hall and Deer Park, Wells-next-the-Sea, Norfolk.</div>
+                       <div className="font-normal md:font-semibold p-2 m-2 text-[#bbe89e] text-center text-md border-[#bbe89e] border-2  bg-[#2b8936]">Holkham Hall and Deer Park, Wells-next-the-Sea, Norfolk and dinner at the King's Arms at Blakeney in the evening.</div>
                  <div className="font-normal md:font-semibold text-center border-solid border-[#efca60] border-2 mr-1 ml-1 mt-2 px-4 py-2 bg-[#bbe89e]">  Holkham Hall has had good reviews from travellers and historic houses members can enter the house free of charge, so we dusted down our historic houses membership cards and for the first time today we visited <Link href="https://www.holkham.co.uk/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-normal md:font-semibold underline">Holkham Hall, Estate and Deer Park</Link>.
                   <br />
                     <br />       
@@ -395,6 +395,8 @@ export default function April2026() {
                     <br /> 
                     What did we like best about the day? Lots of exercise, the food in the Courtyard café at lunch was rustic but home-grown and exceptionally good, the family strive to follow in the foosteps of their ancestor Thomas William Coke who played a huge role in the Agricultural Revolution in the 18th century to improve Holkham’s soil health and protect the land. The same rationale is at the centre of the current family's <Link href="https://www.holkham.co.uk/journal/wonder-five-years-on/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-normal md:font-semibold underline">WONDER strategy</Link> , launched in 2020 to improve the estate’s environmental impact and become carbon negative by 2040.and place environmental sustainability at the core of their policy, achieving in that area.<br />
                     <br />
+                    <br />
+                    In the evening, we ventured out for dinner to the local pub, the King's Arms in Blakeney. They do not take reservations but work on a first come first served basis. The ambience was really relaxing and welcoming and the food was very good, as was the beer (according to Bernard). It was a very enjoyable end to the day.
                     <br />
                     <br />
 
