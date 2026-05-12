@@ -80,7 +80,8 @@ const config: Config = withUt({
 		'March2026Header':"url('/imagesresized/March2026Header.jpg')",
 		'AprilGrass':"url('/imagesresized/AprilGrass.jpg')",
 		'AprilGrass1':"url('/imagesresized/AprilGrass1.jpg')",
-		'AprilLambs':"url('/imagesresized/AprilLambs.jpg')"
+		'AprilLambs':"url('/imagesresized/AprilLambs.jpg')",
+		'RavenglassEskdaleRailway':"url('/imagesresized/RavenglassEskdaleRailway.jpg')"
 		
       },
   	}
