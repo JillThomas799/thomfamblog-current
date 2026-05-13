@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import DogsLifeTitled from "/public/imagesresized/DogsLifeTitled.jpg";
 import Greystoke2026Titled from "/public/imagesresized/Greystoke2026Titled.jpg";
+import BurghByMarshTitled from "/public/imagesresized/BurghByMarshTitled.jpg";
 
 
 
@@ -55,7 +56,6 @@ export default function May2026() {
                    </div>
 
 
-
                     < div className="mb-20"> 
                 < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-[#bbe89e] border-solid border-2 md:border-2 bg-[#F38e7e]">
                    < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#white] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
@@ -88,6 +88,48 @@ export default function May2026() {
                    </div>
                    </div>
 
+< div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-[#bbe89e] border-solid border-2 md:border-2 bg-[#F38e7e]">
+                   < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#white] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
+                   <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center  border-[#bbe89e] border-2 bg-[#93c572]">9th May 2026, Saturday.</div> {/*End of news date block*/}
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center text-md border-[#bbe89e] border-2  bg-[#93c572]">'Hadrian's Wall Path West to East (abridged): Day 2, Burgh by Sands, King Edward 1's Monument on Burgh Marsh and St Michael's 12th Century church.</div>
+                  <div className="font-normal md:font-semibold text-center text-gray-800 border-solid border-[#bbe89e] border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#93c572]">
+                          When we undertook the Hadrian's Wall path from East to West in 2024, there were some points of interest en-route which we did not have time to explore more fully. Today we were going to see a couple of such sites: Edward's Monument on Burgh Marsh and St Michael's 12th century church at Burgh by Sands.
+                          <br />
+                          <br />
+                          Firstly, Edwards monument. In February. King Edward, now moved north himself but developed dysentery on the way, and his condition deteriorated. On 6 July he encamped at Burgh by Sands and the following day, on 7th July 1307, the King died in his servants' arms. He was 68 years old. The 19th-century memorial to Edward I replaces an earlier one and is said to mark the exact spot where he died.
+                           <br />
+                          <br />
+                          Secondly, St Michael's church which is a fortified church standing on the line of Hadrian's Wall, and which is unique in having had two fortified towers. The church dates probably from the late 12th century,with the north aisle added in about 1200. During the 14th century fortified towers were added to the west and east of the church. While the foundations for the west tower were being dug in 1360, the north arcade collapsed and had to be rebuilt. 
+                             <br />
+                          <br />
+                          When King Edward I died in Burgh by Sands in 1307, his body then lay in state in St Michael's church prior to being taken first to Waltham Abbey in Essex before being transported to Westminster Abbey for burial in the chapel of St Edward the Confessor on 27th October 1307.
+                           <br />
+                          <br />
+                          Today though, King Edward I's bodyguards seemed to still be guarding his monument, as when we approached the final stile prior to the last few hundred yard walk across the marsh to the monument, we were spotted by some rather noisy and lively cows, who immediately joined forces and made, with determined purpose, a bee-line for Bernard who was standing behind the gate and they blocked his way! The videos and photos can be seen in the album below....   As a result, we did not succeed in getting right up to the railings, but none the less had a very good view of the monument on the marsh from the barricaded final gate.
+                           <br />
+                          <br />
+                            <div className="p-4 font-semibold md:font-semibold text-center text-md text-gray-800 border-[#bbe89e] border-solid border-2 bg-[#F38e7e] "> 
+                              Click on the image below to open the album of our Hadrian's Wall Path West to East (abridged): Day 2, Burgh by Sands, King Edward 1's Monument on Burgh Marsh and St Michael's 12th Century church.                          
+                          <br />
+                          <br />
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/36XPaLx36mgSaZUv5"
+                              target="_blank"
+                            >
+                              <Image
+                                src={BurghByMarshTitled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#bbe89e] border-4 mt-4 mb-6"
+                                alt="Bernard meets the cows en route to King Edward I monument."
+                              />
+                            </Link>
+                          </div>{" "}
+                          </div>
+                   </div>
+                        </div>
+               
 
       </div>
     </div>
