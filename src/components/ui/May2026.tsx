@@ -138,9 +138,23 @@ export default function May2026() {
                    <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center  border-[#bbe89e] border-2 bg-[#93c572]">11th May 2026, Saturday.</div> {/*End of news date block*/}
                         <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center text-md border-[#bbe89e] border-2  bg-[#93c572]">Ravenglass and Eskdale Railway and Muncaster Castle.</div>
                   <div className="font-normal md:font-semibold text-center text-gray-800 border-solid border-[#bbe89e] border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#93c572]">
-                         The rhodedendra are in flower currently at Muncaster Castle, so being retired people now, we decided to make the most of the day and not only go over to Muncaster Castle but also go for a ride on the Ravenglass and Eskdale Railway.
+                         The rhodedendra are in flower currently at Muncaster Castle and apparently are beautiful. So being retired people, we decided to make the most of the day and not only go over to Muncaster Castle to see the rhodedendra but also to go for a ride on the Ravenglass and Eskdale Railway, which Bernard has been wanting to do for sometime.
+                           <br />
+                          <br /> 
+                          We have traveled on the railway in the past, with Elena and Harry during the school holidays when they were younger. However, we were interested to travel on the railway with a different perspective in mind this time and we were fortunate in that it was a beautifully sunny day. We left home early to catch the first train at 10.30am and to make it into something a little bit special, we booked tickets in the more comfortable premium Pullman Coach 'Joan' carriages.
                            <br />
                           <br />
+                          We thought it might be quiet with it being an early Monday morning during term time, but no, this is a very popular attraction and in our carriage alone were visitors from New Zealand and Holland who had traveled quite some distance to take the journey. All the passengers were adults.
+                          Our two drivers were reasonably young and seemed to be really enjoying themselves. Our driver had his shades on and was very much looking the part! We discovered that their collegue Jeremy had recently died, so we had a minute's silence for him at Dalegarth Station and the steam engine tooted its horn in respect.
+ <br />
+                          <br />
+                          The journey up to Dalegarth and back takes 40 minutes each way. Many people go for lunch or a walk in the middle, before getting the return train. However, given our intention was to walk up to Muncaster Castle in the afternoon, we only had 25 minutes between the out and return journeys. There was of course, time for some photos though...
+                            <br />
+                          <br />
+                          On our return to Ravenglass, we climbed up to Muncaster Castle via the Roman Bath House. Jill opted to take the slightly longer route which was actually quite a bit further and more challenging than it looked. We did not make the same mistake on our return and dropped back down into the village on the usual public footpath with some spectacular views over to the Isle of Man en-route.
+                          <br />
+                          <br />
+
                             <div className="p-4 font-semibold md:font-semibold text-center text-md text-gray-800 border-[#bbe89e] border-solid border-2 bg-[#F38e7e] "> 
                               Click on the image below to open the album of our day out on the Ravenglass and Eskdale Steam Railway and to Muncaster Castle.                          
                           <br />
