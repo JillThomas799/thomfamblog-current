@@ -5,6 +5,7 @@ import Greystoke2026Titled from "/public/imagesresized/Greystoke2026Titled.jpg";
 import BurghByMarshTitled from "/public/imagesresized/BurghByMarshTitled.jpg";
 import TrainDalegarth2026Titled from "/public/imagesresized/TrainDalegarth2026Titled.jpg";
 import QuarrybeckWoodBluebellsTitled from "/public/imagesresized/QuarrybeckWoodBluebellsTitled.jpg";
+import HWP3Rickerby2026Titled from "/public/imagesresized/HWP3Rickerby2026Titled.jpg";
 
 
 
@@ -223,7 +224,46 @@ export default function May2026() {
                         </div>
 
 
-               
+       < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-[#bbe89e] border-solid border-2 md:border-2 bg-[#F38e7e]">
+                   < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#white] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
+                   <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center  border-[#bbe89e] border-2 bg-[#93c572]">16th May 2026, Saturday.</div> {/*End of news date block*/}
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center text-md border-[#bbe89e] border-2  bg-[#93c572]">Hadrian's Wall Path West to East (abridged): Day 3, Carlisle to Low Crosby.</div>
+                  <div className="font-normal md:font-semibold text-center text-gray-800 border-solid border-[#bbe89e] border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#93c572]">                         
+                          We are now (Bernard, Jill and Harry), on the 3rd day of our West to East Hadrian's Wall Path abridged walk and today we were covering the section between central Carlisle and Low Crosby.
+                          <br />
+                          <br />
+                          This stretch of the walk is 4.8 miles, however this year we are managing with just one vehicle. The bus services between Low Crosby and Carlisle only run on a limited service on weekdays and not at all at the weekend. As a result, our plan was to walk in the morning into Carlisle from Low Crosby, have lunch in Carlisle at the Tullie Museum café and then walk today's section on the return to the car in the afternoon, making a total walk of 9.6 miles.
+                            <br />
+                          <br />
+                          The weather was cold but generally sunny and we met and passed plenty of Hadrian's Wall walkers setting off after breakfast from Carlisle. Low Crosby, Linstock and Rickerby are very pretty little villages, although Low Crosby does have the disadvantage of being at a serious risk of flooding from the River Eden, when the waters are high. However, Linstock does not suffer from the same risk. We were safe leaving our car in Low Crosby today though as there was no  flood risk alert currently in place.
+                            <br />
+                          <br />
+                          We were tired by the time we reached the Tullie House Museum café so it was great to sit down for a while and lunch was really good. Afterwards, we walked along the Hadrian's Wall Path to Low Crosby through Bitt's Park, Rickerby Park, Rickerby, Linstock and finally Low Crosby.
+                           <br />
+                          <br />
+
+                            <div className="p-4 font-semibold md:font-semibold text-center text-md text-gray-800 border-[#bbe89e] border-solid border-2 bg-[#F38e7e] "> 
+                              Click on the image below to open the album of our walk on the Hadrian's Wall Path West to East (abridged): Day 3, Carlisle to Low Crosby .                          
+                          <br />
+                          <br />
+                          
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/LbEzggYoK6a3DQq16"
+                              target="_blank"
+                            >
+                              <Image
+                                src={HWP3Rickerby2026Titled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#bbe89e] border-4 mt-4 mb-6"
+                                alt="Photo of \bernard and Harry at Rickerby, Carlisle."
+                              />
+                            </Link>
+                          </div>{" "}
+                          </div>
+                   </div>
+                        </div>        
 
       </div>
     </div>
