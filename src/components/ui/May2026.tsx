@@ -257,7 +257,7 @@ export default function May2026() {
                               <Image
                                 src={HWP3Rickerby2026Titled}
                                 className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#bbe89e] border-4 mt-4 mb-6"
-                                alt="Photo of \bernard and Harry at Rickerby, Carlisle."
+                                alt="Photo of Bernard and Harry at Rickerby, Carlisle."
                               />
                             </Link>
                           </div>{" "}
