@@ -6,6 +6,7 @@ import BurghByMarshTitled from "/public/imagesresized/BurghByMarshTitled.jpg";
 import TrainDalegarth2026Titled from "/public/imagesresized/TrainDalegarth2026Titled.jpg";
 import QuarrybeckWoodBluebellsTitled from "/public/imagesresized/QuarrybeckWoodBluebellsTitled.jpg";
 import HWP3Rickerby2026Titled from "/public/imagesresized/HWP3Rickerby2026Titled.jpg";
+import Holker052026Titled from "/public/imagesresized/Holker052026Titled.jpg";
 
 
 
@@ -263,7 +264,54 @@ export default function May2026() {
                           </div>{" "}
                           </div>
                    </div>
-                        </div>        
+                        </div>       
+
+                         < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-[#bbe89e] border-solid border-2 md:border-2 bg-[#F38e7e]">
+                   < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#white] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
+                   <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center  border-[#bbe89e] border-2 bg-[#93c572]">17th May 2026, Sunday.</div> {/*End of news date block*/}
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center text-md border-[#bbe89e] border-2  bg-[#93c572]">Holker Hall and Gardens, Cark, Grange over Sands.</div>
+                  <div className="font-normal md:font-semibold text-center text-gray-800 border-solid border-[#bbe89e] border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#93c572]">                         
+                          Holker Hall and Gardens has been on our visit list for this year as we had heard many positive reviews from visitors. The gardens are apparently particularly nice at this time of year, although we had unfortunately just missed the rhodedendra flowering for this year, so it looks like the beginning of May is probably the best time to visit the gardens.
+                           <br />
+                          <br />  
+                          Holker Hall dates from the 16th century, with alterations, additions, and rebuilding in the 18th and 19th centuries. The original house was built in 1604 by the Preston family shortly  after the Dissolution of the Monasteries, on lands previously associated  with Cartmel Priory and purchased from the Bishopric of Chester in the 16th century. The  first Holker Hall was a large but relatively modest country residence. 
+                             <br />
+                          <br /> 
+                          A major transformation came in shortly after 1756 when Holker passed  to the Cavendish family—one of the most significant aristocratic  dynasties of the age. In 1783, they commissioned George Webster, a  respected architect from nearby Kendal, to oversee a significant  programme of enlargement and refinement, whilst still respecting the older Jacobean structure.
+                             <br />
+                          <br /> 
+                           In 1871 a devastating fire destroyed the majority of the house, of which only a small segment remains today. The section which now forms the guest wing and which has a Victorian appearance, is the section which was rebuilt in the late 19th century to a design by architects Paley & Austin, following the fire of 1871. The family still live in and own the house today and Lady Lucy Cavendish lives in the remaining old 16th century section of the house and the family use the guest wing, when it is not open to visitors.
+                          <br />
+                          <br />
+                          The gardens at Holker were designed by the renowned  landscape architect Thomas Mawson in the early 20th century. We especially liked the gardens as they included formal and less formal sections which blended into each other.                          
+                            <br />
+                          <br />
+                           The house and gardens are included in Historic Houses membership. Parking is free as is entrance to the café and gift shop, which are situated just prior to entry to the house and gardens.
+                          <br />
+                          <br />  
+
+                            <div className="p-4 font-semibold md:font-semibold text-center text-md text-gray-800 border-[#bbe89e] border-solid border-2 bg-[#F38e7e] "> 
+                              Click on the image below to open the album of our visit to Holker Hall and Gardens, Cark, Grange over Sands.                          
+                          <br />
+                          <br />
+                                                 
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/pzTnXqp2kbQ3EiPF7"
+                              target="_blank"
+                            >
+                              <Image
+                                src={Holker052026Titled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#bbe89e] border-4 mt-4 mb-6"
+                                alt="Photo of Holker Hall, Cark."
+                              />
+                            </Link>
+                          </div>{" "}
+                          </div>
+                   </div>
+                        </div>   
 
       </div>
     </div>
