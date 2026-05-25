@@ -7,6 +7,7 @@ import TrainDalegarth2026Titled from "/public/imagesresized/TrainDalegarth2026Ti
 import QuarrybeckWoodBluebellsTitled from "/public/imagesresized/QuarrybeckWoodBluebellsTitled.jpg";
 import HWP3Rickerby2026Titled from "/public/imagesresized/HWP3Rickerby2026Titled.jpg";
 import Holker052026Titled from "/public/imagesresized/Holker052026Titled.jpg";
+import JillLanercost2505Titled from "/public/imagesresized/JillLanercost2505Titled.jpg";
 
 
 
@@ -312,6 +313,53 @@ export default function May2026() {
                           </div>
                    </div>
                         </div>   
+
+
+                        < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-[#bbe89e] border-solid border-2 md:border-2 bg-[#F38e7e]">
+                   < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#white] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
+                   <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center  border-[#bbe89e] border-2 bg-[#93c572]">25th May 2026, Bank holiday Monday.</div> {/*End of news date block*/}
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center text-md border-[#bbe89e] border-2  bg-[#93c572]">Hadrian's Wall Path West to East (abridged): Day 4, Walton to Lanercost.</div>
+                  <div className="font-normal md:font-semibold text-center text-gray-800 border-solid border-[#bbe89e] border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#93c572]">                         
+                          Today was Whit bank holiday Monday and the weather was forecast to be hot again, so following our climb up Talkin fell yesterday,  what better day to undertake the 4th day of our West to East Hadrian's Wall Path abridged walk? 
+                          <br />
+                          <br />
+                          After some debate, we had decided to skip the section of the walk between Low Crosby and Walton village as, whilst it has potentially some interesting sites from the time of the Romans, last time we did the walk there was little to see of these sites which include Castlesteads House and Bleatarn Farm. 
+                          <br />
+                          <br />                          
+                          <Link href="  https://perlineamvalli.wordpress.com/tag/castlesteads/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline">Castlesteads House </Link> , which lies between Walton and Newtown and to the left of the Hadrian's Wall Path, is on the site of <Link href=" https://www.u3ahadrianswall.co.uk/castlesteads-roman-fort-camboglanna/ "  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline">Camboglanna Roman Fort </Link> , one of the detached forts immediately south of the Wall (the others being Carvoran, Vindolanda, and – probably – Newcastle). The site of what was Camboglanna fort is on private land and has effectively been razed by the formal garden of the late-18th-century listed building, Castlesteads, constructed on the site of an earlier Walton House belonging to the Dacre family. 
+                          In the case of the other potential site of interest, Bleatarn Farm, the ground around Bleatarn Farm was used by the Romans to gather stone for Hadrian's Wall and the mounds created by the debris from the quarry activity can still be seen, although we did not see them on our previous Hadrian's Wall walk.
+                          <br />
+                          <br />
+                          Today then, we were covering the section between Walton village and Lanercost which includes Dovecote Bridge, by which there used to be a visible section of Hadrian's Wall. The bridge was however made of Cumbrian red sandstone and as a result, did not weather well. After being exposed for just 20 years, it had sustained significant damage by the elements. In 1983 therefore, it was reburied in order to preserve it. There is a seat to take a rest and interesting English Heritage information board by this section of wall though. 
+                          <br />
+                          <br />
+                          We walked on a circuit of about 5 1/2 miles from Lanercost Bridge, along the road via Burtholme and Dovecote to Walton before returning to Lanercost along the Hadrian's Wall Path. It was to be a very warm day so we took the precaution of setting off early in order that we had finished the walk by midday.                         
+                          
+                           <br />
+                          <br />
+
+                            <div className="p-4 font-semibold md:font-semibold text-center text-md text-gray-800 border-[#bbe89e] border-solid border-2 bg-[#F38e7e] "> 
+                              Click on the image below to open the album of our walk on the Hadrian's Wall Path West to East (abridged): Day 4, Walton to Lanercost.                          
+                          <br />
+                          <br />
+                          
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/qgnENsPiPyMCaZer7"
+                              target="_blank"
+                            >
+                              <Image
+                                src={JillLanercost2505Titled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#bbe89e] border-4 mt-4 mb-6"
+                                alt="Photo of Jill at start of walk at Lanercost Bridge."
+                              />
+                            </Link>
+                          </div>{" "}
+                          </div>
+                   </div>
+                        </div>       
 
       </div>
     </div>
