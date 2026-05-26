@@ -8,6 +8,7 @@ import QuarrybeckWoodBluebellsTitled from "/public/imagesresized/QuarrybeckWoodB
 import HWP3Rickerby2026Titled from "/public/imagesresized/HWP3Rickerby2026Titled.jpg";
 import Holker052026Titled from "/public/imagesresized/Holker052026Titled.jpg";
 import JillLanercost2505Titled from "/public/imagesresized/JillLanercost2505Titled.jpg";
+import TalkinSummitTitled from "/public/imagesresized/TalkinSummitTitled.jpg";
 
 
 
@@ -313,6 +314,47 @@ export default function May2026() {
                           </div>
                    </div>
                         </div>   
+
+
+
+                          < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-[#bbe89e] border-solid border-2 md:border-2 bg-[#F38e7e]">
+                   < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#white] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
+                   <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center  border-[#bbe89e] border-2 bg-[#93c572]">24th May 2026, Sunday.</div> {/*End of news date block*/}
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center text-md border-[#bbe89e] border-2  bg-[#93c572]">Ascent of Talkin Fell via the Nature Reserve and walk around the  back of Talkin Fell.</div>
+                  <div className="font-normal md:font-semibold text-center text-gray-800 border-solid border-[#bbe89e] border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#93c572]">                         
+                              The walk today was a combination of a popular walk of ours around the back of Talkin Fell by Forest Head and an ascent to the summit of Talkin Fell itself via a new route through the nature reserve. 
+                               <br />
+                          <br />
+                          We had been wanting to try the new ascent to the summit of the fell for sometime so today we decided to give it a go. It was beautifully peaceful en route and even on the summit of the fell, there was only one other family. The views from the summit were spectacular.                
+                          <br />
+                          <br />
+                          To discover more of some of the interesting history about Talkin Fell, see our photo album below in which notes of interest have been added.
+                          <br />
+                          <br />
+                            <div className="p-4 font-semibold md:font-semibold text-center text-md text-gray-800 border-[#bbe89e] border-solid border-2 bg-[#F38e7e] "> 
+                              Click on the image below to open the album of our ascent to the summit of Talkin Fell and walk around the back of the fell.                          
+                          <br />
+                          <br />
+                          
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/zF2s5ELcKqAUfyzU8"
+                              target="_blank"
+                            >
+                              <Image
+                                src={TalkinSummitTitled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#bbe89e] border-4 mt-4 mb-6"
+                                alt="Photo of Jill and Harry on summit of Talkin Fell."
+                              />
+                            </Link>
+                          </div>{" "}
+                          </div>
+                   </div>
+                        </div>  
+
+
 
 
                         < div className="mb-20"> 
