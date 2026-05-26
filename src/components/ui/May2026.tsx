@@ -9,6 +9,7 @@ import HWP3Rickerby2026Titled from "/public/imagesresized/HWP3Rickerby2026Titled
 import Holker052026Titled from "/public/imagesresized/Holker052026Titled.jpg";
 import JillLanercost2505Titled from "/public/imagesresized/JillLanercost2505Titled.jpg";
 import TalkinSummitTitled from "/public/imagesresized/TalkinSummitTitled.jpg";
+import RomanFestivalTitled from "/public/imagesresized/RomanFestivalTitled.jpg";
 
 
 
@@ -314,6 +315,42 @@ export default function May2026() {
                           </div>
                    </div>
                         </div>   
+
+
+                                                < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-[#bbe89e] border-solid border-2 md:border-2 bg-[#F38e7e]">
+                   < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#white] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
+                   <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center  border-[#bbe89e] border-2 bg-[#93c572]">23rd May 2026, Saturday.</div> {/*End of news date block*/}
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center text-md border-[#bbe89e] border-2  bg-[#93c572]">Roman Festival in Carlisle and Elena and Willow come over for a barbecue.</div>
+                  <div className="font-normal md:font-semibold text-center text-gray-800 border-solid border-[#bbe89e] border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#93c572]">                         
+                              Elena and Willow were coming over this afternoon to join us for a barbecue as it was a special day.
+                              Once all our preparations for the afternoon were complete, we headed over to Carlisle for a couple of hours to visit the Roman Festival which the Tullie museum had put on for the day including reenactment, marching centurions, Roman food and weaponry....
+                          <br />
+                          <br />
+                          It was a great day, which was finished off by a very relaxing barbecue in the sunshine in the garden. 
+                          <br />
+                          <br />
+                            <div className="p-4 font-semibold md:font-semibold text-center text-md text-gray-800 border-[#bbe89e] border-solid border-2 bg-[#F38e7e] "> 
+                              Click on the image below to open the album of our visit  to the Roman Festival Carlisle and cake baking.                          
+                          <br />
+                          <br />
+                          
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/F8qeM3BYKmkkypYz6"
+                              target="_blank"
+                            >
+                              <Image
+                                src={RomanFestivalTitled}
+                                className="block ml-auto mr-auto h-auto w-[70%] md:w-[40%] lg:w-[30%] border-solid border-[#bbe89e] border-4 mt-4 mb-6"
+                                alt="Photo of Roman centurions' march to the temple."
+                              />
+                            </Link>
+                          </div>{" "}
+                          </div>
+                   </div>
+                        </div>  
 
 
 
