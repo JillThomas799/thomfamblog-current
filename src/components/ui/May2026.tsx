@@ -10,6 +10,7 @@ import Holker052026Titled from "/public/imagesresized/Holker052026Titled.jpg";
 import JillLanercost2505Titled from "/public/imagesresized/JillLanercost2505Titled.jpg";
 import TalkinSummitTitled from "/public/imagesresized/TalkinSummitTitled.jpg";
 import RomanFestivalTitled from "/public/imagesresized/RomanFestivalTitled.jpg";
+import AmatiTitled from "/public/imagesresized/AmatiTitled.jpg";
 
 
 
@@ -433,6 +434,46 @@ export default function May2026() {
                                 src={JillLanercost2505Titled}
                                 className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#bbe89e] border-4 mt-4 mb-6"
                                 alt="Photo of Jill at start of walk at Lanercost Bridge."
+                              />
+                            </Link>
+                          </div>{" "}
+                          </div>
+                   </div>
+                        </div>    
+
+
+                                               < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-[#bbe89e] border-solid border-2 md:border-2 bg-[#F38e7e]">
+                   < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#white] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
+                   <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center  border-[#bbe89e] border-2 bg-[#93c572]">30th May 2026, Saturday.</div> {/*End of news date block*/}
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center text-md border-[#bbe89e] border-2  bg-[#93c572]">Super-exciting visit to see Andrea Amati's 1564 Violin, Old Tullie House</div>
+                  <div className="font-normal md:font-semibold text-center text-gray-800 border-solid border-[#bbe89e] border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#93c572]"> It was hugely exciting today, well at least for Jill anyway as the Tullie Museum had put on display one of the most significant objects in the museum's collection, one of the original set of Amati violins made by Andrea Amati in 1564 for the French King Charles IX. This is a spotlight exhibition which is running between the 30th May and 14th June 2026 at the Tullie Museum in Carlisle.                    
+                           <br />
+                          <br />
+                          This is an incredibly rare violin, made in 1564 by the famed Italian luthier Andrea Amati (c.1505-1577). To put it into context, this was a time when Queen ELizabeth I was on the throne in England and William Shakespeare was alive..... 
+                           <br />
+                          <br />
+                          Andrea Amati (c. 1505–1577): Was the pioneer of the modern violin. He originally crafted a famous set of 38 instruments for the French royal court. Only about 14 of those specific royal instruments, and roughly 20 authenticated Andrea Amati instruments in total, are known to still exist. This violin is one of those rare survivors!
+                           <br />
+                          <br />
+                        
+  <br />
+                          <br />
+                            <div className="p-4 font-semibold md:font-semibold text-center text-md text-gray-800 border-[#bbe89e] border-solid border-2 bg-[#F38e7e] "> 
+                              Click on the image below to open the album of our visit to the Amati exhibition at the Old Tullie House, Carlisle.                          
+                          <br />
+                          <br />
+                          
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/RMbZyzUfBBbw6Emd9"
+                              target="_blank"
+                            >
+                              <Image
+                                src={AmatiTitled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#bbe89e] border-4 mt-4 mb-6"
+                                alt="Photo of Andrea Amati's violin made in 1546 for Charles IX of France."
                               />
                             </Link>
                           </div>{" "}
