@@ -11,6 +11,7 @@ import JillLanercost2505Titled from "/public/imagesresized/JillLanercost2505Titl
 import TalkinSummitTitled from "/public/imagesresized/TalkinSummitTitled.jpg";
 import RomanFestivalTitled from "/public/imagesresized/RomanFestivalTitled.jpg";
 import AmatiTitled from "/public/imagesresized/AmatiTitled.jpg";
+import HareHillTitled from "/public/imagesresized/HareHillTitled.jpg";
 
 
 
@@ -485,7 +486,44 @@ export default function May2026() {
                           </div>{" "}
                           </div>
                    </div>
-                        </div>       
+                        </div>  
+
+
+                        < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-[#bbe89e] border-solid border-2 md:border-2 bg-[#F38e7e]">
+                   < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#white] text-center  md:text-center dark:text-[#2b8936] justify-center items-center">
+                   <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center  border-[#bbe89e] border-2 bg-[#93c572]">31st May 2026, Sunday.</div> {/*End of news date block*/}
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center text-md border-[#bbe89e] border-2  bg-[#93c572]">Hadrian's Wall Path West to East (abridged): Day 5, Lanercost via Hare Hill and Banks to Banks East Turret and Pike Hill Signal Tower.</div>
+                  <div className="font-normal md:font-semibold text-center text-gray-800 border-solid border-[#bbe89e] border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#93c572]">                         
+                             It was a shorter walk today of about 4 miles, with the section from Haytongate to the Signal Tower being the section on the Hadrian's Wall Path and the return journey forming a circuit along the road back into Lanercost and then taking the public footpath along the banks of the River Irthing, back to the car park.
+                             <br />
+                          <br />
+                          Of course, there was lots of history as usual, and fuller detailing about the history can be found in the information section of each photo in the album below, but the highlight of the day was a cat which befriended us at Hare Hill, whom we called 'Hadrian's' cat. We have no idea what his name really is but he seemed to consider himself to be guardian of the Hare Hill segment of the wall and a guide to the passing Hadrian's Wallers, whom like us, he was busy befriending.           
+                          
+                           <br />
+                          <br />
+
+                            <div className="p-4 font-semibold md:font-semibold text-center text-md text-gray-800 border-[#bbe89e] border-solid border-2 bg-[#F38e7e] "> 
+                              Click on the image below to open the album of our walk on the Hadrian's Wall Path West to East (abridged): Day 5, Lanercost via Hare Hill and Banks to Banks East Turret and Pike Hill Signal Tower.                          
+                          <br />
+                          <br />
+                          
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/jdXeD9juUPpPKbP49"
+                              target="_blank"
+                            >
+                              <Image
+                                src={HareHillTitled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#bbe89e] border-4 mt-4 mb-6"
+                                alt="Photo of Jill holding 'Hadrian's' cat at Hare Hill."
+                              />
+                            </Link>
+                          </div>{" "}
+                          </div>
+                   </div>
+                        </div>         
 
       </div>
     </div>
