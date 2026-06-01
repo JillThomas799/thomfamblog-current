@@ -81,7 +81,11 @@ const config: Config = withUt({
 		'AprilGrass':"url('/imagesresized/AprilGrass.jpg')",
 		'AprilGrass1':"url('/imagesresized/AprilGrass1.jpg')",
 		'AprilLambs':"url('/imagesresized/AprilLambs.jpg')",
-		'RavenglassEskdaleRailway':"url('/imagesresized/RavenglassEskdaleRailway.jpg')"
+		'RavenglassEskdaleRailway':"url('/imagesresized/RavenglassEskdaleRailway.jpg')",
+		'Garden2':"url('/images/DoNotDelete/Garden2.jpg')",
+		'Garden3':"url('/images/DoNotDelete/Garden3.jpg')",
+		'Garden4':"url('/images/DoNotDelete/Garden4.jpg')",
+		'Garden6':"url('/images/DoNotDelete/Garden6.jpg')",
 		
       },
   	}
