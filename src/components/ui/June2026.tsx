@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import CathyRobinLowtherTitled from "/public/imagesresized/CathyRobinLowtherTitled.jpg";
+import NymansJillTitled from "/public/imagesresized/NymansJillTitled.jpg";
 
 export default function June2026() {
   return (
@@ -66,7 +67,44 @@ export default function June2026() {
          </div> 
           </div> 
 
+           < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#bdbeba]">
+                   < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+                   <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#A47DAB]">5th June 2026, Friday.</div> {/*End of news date block*/}
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">Nymans Gardens and Forest, Handcross, Haywards Heath.</div>
+                  <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#A47DAB]">
+                    We had had a long journey from Cumbria down to Hertfordshire yesterday to see Bernard's dad and today, it was time to journey onwards to East Sussex. As we would not be able to sign into our accommodation until after 15.00, some friends had recommended going to visit Nymans Gardens en route, which are under the care of the National Trust.
+                          <br />
+                          <br />
 
+                          Nymans Garden in Sussex is considered by some to be one of the National Trusts most beautiful gardens. In the late 1800's Ludwig Messel bought the Nymans Estate in the Sussex High Weald to make a dream family home. Inspired by the wooded surroundings he created a garden with rare and unusual plant collections of national significance which have been collected from around the world
+                          It was intended and used as a family home and here his family entertained friends, enjoyed relaxing, playing and picnicking in the garden and woods. 
+                          <br />
+                          <br />
+                          However, the house was partially destroyed by fire in 1947, apparently due to someone trying to defrost some iced water pipes during an icy spell, using a blow torch! It was just after the end of the 2nd world war and rationing was still in place so it was not feasible to rebuild. Rather like Lowther Castle closer to us, the romantic ruins of a fairytale gothic mansion remain and the gardens became the focus of attention. The ruined Gothic styled Great Hall has now been transformed into a small garden to remind people been of <Link href="https://www.bristol.ac.uk/theatre-collection/explore/theatre/oliver-messel-archive/exploring-the-oliver-messel-archive/oliver-messel-biography/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline">Oliver Messel</Link>, a well known costume designer who also designed for Glynebourne, spent some of his childhood at Nymans.
+                           <br />
+                          <br />
+
+                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#a1a09c] ">Click on the image below to open the album of our visit to Nymans Gardens, Handcross.
+                          <br />
+                          <br />
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/yvs3xWzgitHmNPmL8"
+                              target="_blank"
+                            >
+                              <Image
+                                src={NymansJillTitled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#bbe89e] border-4 mt-4 mb-6"
+                                alt="Photo of Jill standing outside entrance to Nymans Gardens, Sussex."
+                              />
+                            </Link>
+                          </div>{" "}
+                          </div>
+                   </div>
+
+</div>
 </div>
 </div>
           </div>
