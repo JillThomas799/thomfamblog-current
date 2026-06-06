@@ -55,7 +55,19 @@ export default function June2026() {
                    </div>
 
 
+                   < div className="mb-20"> 
+      < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-gray-800 border-solid border-2 md:border-2 bg-[#bdbeba]">
+         < div className="text-md md:text-lg max-w-full font-normal text-white text-center dark:text-white justify-center items-center">
+            <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#A47DAB]">Thursday 4th - Saturday 13th June 2026.</div> {/*End of news date block*/}
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">Holiday in Sussex and visits to relatives in the South and South East of England.</div>
+        <div className="font-normal text-center border-solid border-black border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#A47DAB]">
+         It is time for another of our jaunts to the South and South East of England. Initially calling to to see Bernard's dad, before heading off for 6 days to Sussex for a short holiday and to attend the Glynebourne opera festival. Our return journey will see us spending a few days with Jill's brother and his wife, before returning to Cumbria.
+            </div>{" "}
+         </div> 
+          </div> 
 
+
+</div>
 </div>
           </div>
            </div>
