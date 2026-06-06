@@ -16,7 +16,7 @@ export default function June2026() {
       < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-gray-800 border-solid border-2 md:border-2 bg-[#bdbeba]">
          < div className="text-md md:text-lg max-w-full font-normal text-white text-center dark:text-white justify-center items-center">
         <div className="font-normal text-center border-solid border-black border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#A47DAB]"><div className="font-semibold">Welcome to our June 2026 blog.</div>
-          We are delighted to be able to bring you our June 2026 blog. June is a busy month as we are off to Sussex to see Rossini's opera 'La Turca in Italia' at the Glynebourne Festival. Much planning has been underway. Jill has bought her dress and Bernard has made sure his suit still fits, so we are all set to go.... 
+          We are delighted to be able to bring you our June 2026 blog. June is a busy month as we are off to Sussex to see Rossini's opera 'Il Turco in Italia' at the Glynebourne Festival. Much planning has been underway. Jill has bought her dress and Bernard has made sure his suit still fits, so we are all set to go.... 
             </div>{" "}
          </div> 
           </div> 
