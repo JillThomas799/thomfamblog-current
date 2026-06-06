@@ -109,13 +109,20 @@ export default function June2026() {
                 < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#bdbeba]">
                    < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
                    <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#A47DAB]">6th June 2026, Saturday.</div> {/*End of news date block*/}
-                        <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">Uckfield M and S Glynebourne shopping, some goats make an appearance (again) and a visit to Lewes.</div>
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">Uckfield Marks and Spencers for Glynebourne food shopping, the goats make an appearance (again) and a visit to the town of Lewes.</div>
                   <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#A47DAB]">
-                   
+                    The first and most important task today was to go food shopping for our Glynebourne picnic tomorrow. Bernard had been looking forward to this part even more than the opera itself and we had even gone on a reconnaissance expedition last week to check out some ideas in  M and S...   Anyway, here we were in Marks and Spencer Food, Uckfield, which is probably the largest M and S food store we have ever seen... Given the selection of food in there, we suspect it is not just ourselves who go to M and S for their Glynebourne picnic!                   
                            <br />
                           <br />
+                          With all food stores successfully secured, we returned to the cottage to discover the family of goats had returned to the meadow field at the rear of the property. There had been some children chasing the goats around the field and trying to herd them up last night but they seemed to have given up as there was no sign of them today. By the end of the afternoon however, those goats were really going to regret their decision to stay put.....
+                          <br />
+                          <br />
+                          After a prompt lunch, we headed off to the town of Lewes, which as can be imagined on a Saturday lunchtime was very busy. We had an explore of the town as Lewes is a historic, independent market town famous for its Norman castle, Tudor history, and thriving craft scene. We had stayed in a hotel in the town when we came to the Glynebourne festival in 2013, so it was a trip down memory lane when we came across the hotel once again. We have included a few of the relevant 2013 photos from that trip in the album below.
 
-                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#a1a09c] ">Click on the image below to open the album of our visit to Nymans Gardens, Handcross.
+                          <br />
+                          <br />
+
+                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#a1a09c] ">Click on the image below to open the album of our Glynebourne Food expedition, the goats and our visit to the town of Lewes.
                           <br />
                           <br />
                                 Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
