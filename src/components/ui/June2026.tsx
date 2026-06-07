@@ -142,7 +142,43 @@ export default function June2026() {
                    </div>
 
 
+                   < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#bdbeba]">
+                   < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+                   <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#A47DAB]">7th June 2026, Sunday.</div> {/*End of news date block*/}
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">Our day at the Glynebourne Summer Festival 2026, 'Il Turco in Italia' by Rossini.</div>
+                  <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#A47DAB]"> 'Il Turco in Italia is a comic two act opera written by Giachino Rossini .The Italian-language libretto was written by Felice Romani and was influenced by Mozart's Così fan Tutte, which was performed at the same theatre shortly before Rossini's work. It first performed in La Scala, Milan, on 14 August 1814 
+                     <br />
+                          <br />
+                          Gioachino Antonio Rossini (29 February 1792 – 13 November 1868) was an Italian composer and conductor of the late Classical and early Romantic eras. He gained most of his fame for his 39 operas, but also wrote many pieces of chamber music, piano, and some sacred music. He set new standards for both comic and serious opera before retiring from large-scale composition while still in his thirties, at the height of his popularity. 
+                    
+                    This is a helpful review from one of the previous showings of the opera at Glynebourne back in May 2021
+                   <Link href="https://operatoday.com/2024/10/glyndebournes-hilarious-il-turco-in-italia/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline">Il Turco in Italia</Link>
 
+                          <br />
+                          <br />
+
+                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#a1a09c] ">Click on the image below to open the album of our day at the Glynebourne Summer Festival 2026.
+                          <br />
+                          <br />
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/cV6vggnfeqQseWLLA"
+                              target="_blank"
+                            >
+                              <Image
+                                src={GlynebourneFoodTitled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#bbe89e] border-4 mt-4 mb-6"
+                                alt="Photo of Jill standing outside entrance to Nymans Gardens, Sussex."
+                              />
+                            </Link>
+                          </div>{" "}
+                          </div>
+                   </div>
+
+
+</div>
   </div>
 </div>
 </div>
