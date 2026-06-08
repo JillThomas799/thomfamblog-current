@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CathyRobinLowtherTitled from "/public/imagesresized/CathyRobinLowtherTitled.jpg";
 import NymansJillTitled from "/public/imagesresized/NymansJillTitled.jpg";
 import GlynebourneFoodTitled from "/public/imagesresized/GlynebourneFoodTitled.jpg";
+import BJGlynebourne2026Titled from "/public/imagesresized/BJGlynebourne2026Titled.jpg";
 
 export default function June2026() {
   return (
@@ -164,11 +165,11 @@ export default function June2026() {
                                 Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
                              </div>
                             <Link
-                              href="https://photos.app.goo.gl/cV6vggnfeqQseWLLA"
+                              href="https://photos.app.goo.gl/nFm2u4MMByZ4eLQo8"
                               target="_blank"
                             >
                               <Image
-                                src={GlynebourneFoodTitled}
+                                src={BJGlynebourne2026Titled}
                                 className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#bbe89e] border-4 mt-4 mb-6"
                                 alt="Photo of Jill standing outside entrance to Nymans Gardens, Sussex."
                               />
