@@ -4,6 +4,7 @@ import CathyRobinLowtherTitled from "/public/imagesresized/CathyRobinLowtherTitl
 import NymansJillTitled from "/public/imagesresized/NymansJillTitled.jpg";
 import GlynebourneFoodTitled from "/public/imagesresized/GlynebourneFoodTitled.jpg";
 import BJGlynebourne2026Titled from "/public/imagesresized/BJGlynebourne2026Titled.jpg";
+import BrightonPavilionTitled from "/public/imagesresized/BrightonPavilionTitled.jpg";
 
 export default function June2026() {
   return (
@@ -179,6 +180,37 @@ export default function June2026() {
                    </div>
 
 
+        < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#bdbeba]">
+                   < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+                   <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#A47DAB]">8th June 2026, Monday.</div> {/*End of news date block*/}
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">Brighton for the first time ever.....</div>
+                  <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#A47DAB]"> 
+
+                          <br />
+                          <br />
+
+                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#a1a09c] ">Click on the image below to open the album of our day in Brighton.
+                          <br />
+                          <br />
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/4VumWeqFHgq9NYUm7"
+                              target="_blank"
+                            >
+                              <Image
+                                src={BrightonPavilionTitled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#bbe89e] border-4 mt-4 mb-6"
+                                alt="Photo of Brighton Pavilion"
+                              />
+                            </Link>
+                          </div>{" "}
+                          </div>
+                   </div>
+           
+
+</div>
 </div>
   </div>
 </div>
