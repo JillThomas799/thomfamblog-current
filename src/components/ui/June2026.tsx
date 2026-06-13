@@ -185,8 +185,29 @@ export default function June2026() {
                    < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
                    <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#A47DAB]">8th June 2026, Monday.</div> {/*End of news date block*/}
                         <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">Brighton for the first time ever.....</div>
-                  <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#A47DAB]"> 
+                  <div className="font-normal md:font-normal text-left text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#A47DAB]">We had never visited Brighton but had heard much about it. It appears to be a popular place with people because of its diversity, culture, friendliness and ease of commute by train into London. So what would we make of it?
+                     <br />
+                          <br />
+                  We had a great time looking around the Brighton Pavilion, which is very interesting and had an explore of 'The Lanes', a famous part of Brighton & Hove located  between the North Laine and the seafront. We had a really nice lunch in the North Laine area in a vegetarian restaurant called  <Link href="https://www.facebook.com/people/Iydea/100041276425823/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline">Iydea</Link>.
+                          <br />
+                          <br />
+                          <div className="text-left">So, what did we like about Brighton?</div>
+                          
+                          <ol className="list-disc pl-16">
+                            <li className="text-left">The friendliness and helpfulness of the people.</li>
+                             <li  className="text-left">The artistic, bohemian vibe.</li>
+                              <li className="text-left">The range of independent shops and the cafés .</li>
+                          </ol>
 
+                            <br />
+                          <br />
+                          <div className="text-left">So, what didn't we like so much about Brighton?</div>
+                          
+                          <ol className="list-disc pl-16">
+                            <li>The weather. In all fairness to Brighton, anywhere would have looked miserable in the heavy rain when we were there......</li>
+                             <li>The traffic system, which was stressful and confusing.</li>
+                              <li>Like many English seaside resorts, the Promenade seems to have become quite run down and neglected in appearance.</li>
+                          </ol>
                           <br />
                           <br />
 
