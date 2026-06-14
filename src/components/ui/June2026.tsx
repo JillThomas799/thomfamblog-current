@@ -5,6 +5,7 @@ import NymansJillTitled from "/public/imagesresized/NymansJillTitled.jpg";
 import GlynebourneFoodTitled from "/public/imagesresized/GlynebourneFoodTitled.jpg";
 import BJGlynebourne2026Titled from "/public/imagesresized/BJGlynebourne2026Titled.jpg";
 import BrightonPavilionTitled from "/public/imagesresized/BrightonPavilionTitled.jpg";
+import BluebellRailwayTitled from "/public/imagesresized/BluebellRailwayTitled.jpg";
 
 export default function June2026() {
   return (
@@ -231,6 +232,46 @@ export default function June2026() {
                    </div>
            
 
+           < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#bdbeba]">
+                   < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+                   <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#A47DAB]">9th June 2026, Tuesday.</div> {/*End of news date block*/}
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">Trip on the Bluebell Railway, and visit to Sheffield Park and Gardens</div>
+                  <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#A47DAB]">
+                    Today, for Bernard, we decided on a ride on the Sussex <Link href="https://www.bluebell-railway.com/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"> Bluebell Railway </Link>, which we have to say is <em>extremely</em> popular.
+                    <br />
+                          <br />
+                       The Bluebell Railway runs across 11 miles from Sheffield Park to East Grinstead in Sussex, stopping at Horsted Keynes and Kingscote. It is managed by the Bluebell Railway Preservation Society and uses steam trains. It was the first preserved standard gauge steam-operated passenger railway in the world to operate a public service.The society ran its first train on 7 August 1960, less than three years after the line from East Grinstead to Lewes had been closed by British Railways. Today, it is managed by the Bluebell Railway Preservation Society.
+                     <br />
+                          <br />
+                      We had not prebooked tickets, so were rather alarmed when we arrived at the station only to find the booking office full of school children and the platform swarming with people. However, all was OK and we managed to successfully purchase  our tickets and get them stamped. Carriages are shared, so it was interesting to be able to chat with our fellow occupants on the out and return journey.
+                          <br />
+                          <br />
+                          Once finished at the railway, we headed a few minutes up the road to the National Trust owned  <Link href="https://www.nationaltrust.org.uk/visit/sussex/sheffield-park-and-garden"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"> Sheffield Park and Gardens </Link>. We had a late lunch in the café before spending a pleasant afternoon, which was thankfully now beautifully sunny after the pouring rain in the morning, walking round the gardens.
+                         .
+                          <br />
+                          <br />
+
+                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#a1a09c] ">Click on the image below to open the album of our day on the Bluebell Steam Railway and visit to Sheffield Park and Gardens, National trust..
+                          <br />
+                          <br />
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/Vmg8WdnUbxN5Lg6E6"
+                              target="_blank"
+                            >
+                              <Image
+                                src={BluebellRailwayTitled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#bbe89e] border-4 mt-4 mb-6"
+                                alt="Photo of the Bluebell Railway"
+                              />
+                            </Link>
+                          </div>{" "}
+                          </div>
+                   </div>
+
+</div>
 </div>
 </div>
   </div>
