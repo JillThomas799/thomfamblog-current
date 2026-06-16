@@ -278,18 +278,12 @@ export default function June2026() {
                    < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
                    <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#A47DAB]">10th June 2026, Wednesday.</div> {/*End of news date block*/}
                         <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">We leave Barcombe and travel via Michelham Priory to Phil and Claire's</div>
-                  <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#A47DAB]">Today it was time to leave our accommodation and head on to Jill's brother and his wife in Essex, where we were to stay for 3 nights. As we had to leave the cottage by 10am and there was no rush to arrive in Essex, we decided to take the opportunity to visit  <Link href="https://sussexpast.co.uk/a-short-history-of-michelham-priory/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"> Michelham Priory </Link>, situated in Upper Dicker, Sussex.
-                    
-                          <br />
-                          <br />
-
-                    Michelham Priory is lovely and a really interesting case of the changing use and nature of a building through time. It is well worth a visit.
+                  <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#A47DAB]">Today it was time to leave our accommodation and head on to Jill's brother and his wife in Essex, where we were to stay for 3 nights. As we had to leave the cottage by 10am and there was no rush to arrive in Essex, we decided to take the opportunity to visit  <Link href="https://sussexpast.co.uk/a-short-history-of-michelham-priory/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"> Michelham Priory </Link>, situated in Upper Dicker, Sussex. Michelham Priory is lovely and a really interesting case of the changing use and nature of a building through time. It is very interesting and well worth a visit.
                     <br />
                           <br />
-                          Several hours later and after some lunch, we set off again to head towards Essex......and that is when all the trouble began.....
+                          Several hours later and after some lunch, we set off again to head towards Essex......and that is when all the trouble began. The journey should have taken in the region of 2 hours, but after one serious crash adjacent to the Dartford tunnel and seven subsequent collisions secondary to the initial accident, the journey eventually took us 3.5 hours and much frustration and taking diversions across the A and B roads of Kent.
                           <br />
                           <br />
-
                     <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#a1a09c] ">Click on the image below to open the album of visit to Michelham Priory, Upper Dicker, Sussex.
                           <br />
                           <br />
