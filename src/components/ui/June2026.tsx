@@ -7,6 +7,7 @@ import BJGlynebourne2026Titled from "/public/imagesresized/BJGlynebourne2026Titl
 import BrightonPavilionTitled from "/public/imagesresized/BrightonPavilionTitled.jpg";
 import BluebellRailwayTitled from "/public/imagesresized/BluebellRailwayTitled.jpg";
 import MichelhamPrioryTitled from "/public/imagesresized/MichelhamPrioryTitled.jpg";
+import GrimesGravesTitled from "/public/imagesresized/GrimesGravesTitled.jpg";
 
 export default function June2026() {
   return (
@@ -277,14 +278,14 @@ export default function June2026() {
                 < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#bdbeba]">
                    < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
                    <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#A47DAB]">10th June 2026, Wednesday.</div> {/*End of news date block*/}
-                        <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">We leave Barcombe and travel via Michelham Priory to Phil and Claire's</div>
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">We leave Barcombe and travel via Michelham Priory to Phil and Claire's.</div>
                   <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#A47DAB]">Today it was time to leave our accommodation and head on to Jill's brother and his wife in Essex, where we were to stay for 3 nights. As we had to leave the cottage by 10am and there was no rush to arrive in Essex, we decided to take the opportunity to visit  <Link href="https://sussexpast.co.uk/a-short-history-of-michelham-priory/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"> Michelham Priory </Link>, situated in Upper Dicker, Sussex. Michelham Priory is lovely and a really interesting case of the changing use and nature of a building through time. It is very interesting and well worth a visit.
                     <br />
                           <br />
-                          Several hours later and after some lunch, we set off again to head towards Essex......and that is when all the trouble began. The journey should have taken in the region of 2 hours, but after one serious crash adjacent to the Dartford tunnel and seven subsequent collisions secondary to the initial accident, the journey eventually took us 3.5 hours and much frustration and taking diversions across the A and B roads of Kent.
+                          Several hours later and after some lunch, we set off again to head towards Essex......and that is when all the trouble began. The journey should have taken in the region of 2 hours, but after one serious crash adjacent to the Dartford tunnel and seven subsequent collisions secondary to the initial accident, the journey eventually took us 3.5 hours and much frustration and taking diversions across the A and B roads of Kent....
                           <br />
                           <br />
-                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#a1a09c] ">Click on the image below to open the album of visit to Michelham Priory, Upper Dicker, Sussex.
+                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#a1a09c] ">Click on the image below to open the album of our visit to Michelham Priory, Upper Dicker, Sussex.
                           <br />
                           <br />
                                 Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
@@ -302,6 +303,38 @@ export default function June2026() {
                           </div>{" "}
                           </div>
                    </div>
+
+
+                   < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#bdbeba]">
+                   < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+                   <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#A47DAB]">12th June 2026, Friday.</div> {/*End of news date block*/}
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">Visit to Grimes Graves, Neolithic Flint Mines.</div>
+                         <br />
+                          <br />
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">
+                          <br />
+                          <br />
+                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#a1a09c] ">Click on the image below to open the album of our visit to Grimes Graves, Thetford, Norfolk.
+                          <br />
+                          <br />
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/Mjsv46pE5CeDVRiU7"
+                              target="_blank"
+                            >
+                              <Image
+                                src={GrimesGravesTitled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#bbe89e] border-4 mt-4 mb-6"
+                                alt="Photo of Jill and Claire, about to enter pit 1, Grimes Graves."
+                              />
+                            </Link>
+                          </div>{" "}
+                          </div>
+                   </div>
+                   </div>
+
 
 
 
