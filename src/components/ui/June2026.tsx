@@ -312,9 +312,35 @@ export default function June2026() {
                         <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">Visit to Grimes Graves, Neolithic Flint Mines.</div>
                          <br />
                           <br />
-                        <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">
+                        <div className="font-normal md:font-normal p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">
+                               <br />
+                          What is the significance of Grime's Graves? Why is it so important? Well, Grime’s Graves is the only known late Neolithic flint mine in England, and was first used some 4,500 years ago, at the same time as some of the Stonehenge stones were erected. It was the first archaeological site in the UK to be recognised as a Neolithic flint mine, in 1868–70.
                           <br />
                           <br />
+                          It is not just hugely significant for archeological purposes, but also for geological purposes.It is one of the best places in Britain to see the links between geology and archaeology. Grimes Graves is sited on Chalk bedrock of Turonian age, laid down about 90 million years ago in the Cretaceous period. Several flint horizons occur in the Chalk at this level, and the richest are known as the Brandon Series. With some effort, miners could access the flint here and in other places in the Brecks where the Brandon Series lies close to the surface. The fact that the prehistoric miners knew where to dig suggests they may have had a practical understanding of the local geology. 
+                          <br />
+                          <br />
+                          Only one of the pits is open to the general public and that is pit 1. However, the largest and deepest pit, researched by Canon William Greenwell between 1868-1870, can now be visited from your armchair by watching this <Link href="https://www.english-heritage.org.uk/visit/places/grimes-graves-prehistoric-flint-mine/history/virtual-tour/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"> video tour of the Greenwell pit Virtual Tour Greenwell Pit </Link> .
+                          <br />
+                          <br />
+                          Before visiting the Graves though, have a read through the following links:
+                          <br />
+                          <Link href="https://www.english-heritage.org.uk/visit/places/grimes-graves-prehistoric-flint-mine/ "  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"> Introductory Video by English Heritage </Link>,
+                          <br />
+                           <Link href="https://www.english-heritage.org.uk/visit/places/grimes-graves-prehistoric-flint-mine/history/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"> History of Grimes Graves by English Heritage </Link>,
+                          <br />
+                          <Link href="https://www.english-heritage.org.uk/visit/places/grimes-graves-prehistoric-flint-mine/history/virtual-tour/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"> Video tour of the Greenwell pit Virtual Tour Greenwell Pit </Link>,
+                          <br />                         
+                          <Link href="https://www.breakingnewground.org.uk/earthheritagetrail/grimes-graves/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"> Breaking New Ground article: Grimes Graves </Link>,
+                          <br />                          
+                          <Link href="https://www.english-heritage.org.uk/visit/places/grimes-graves-prehistoric-flint-mine/audio-guide/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"> Audio guide 'Digging Deeper' featuring archeologist Phil Harding (previously of Time Team) </Link>,
+                            <br />
+                            <Link href="https://directory.explorenorfolkuk.co.uk/articles/grimes-graves-explore-britain%E2%80%99s-ancient-flint-mines"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"> Explore Norfolk: Grime's Graves Flint Mines </Link>,
+                            <br />
+                            before going on to explore our album and experience of Grime's Graves below, in which Jill, Claire and Bernard have a go at being neolithic flint miners, with variable success!
+                          <br />
+                          <br />
+
                     <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#a1a09c] ">Click on the image below to open the album of our visit to Grimes Graves, Thetford, Norfolk.
                           <br />
                           <br />
