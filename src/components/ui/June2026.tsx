@@ -309,7 +309,7 @@ export default function June2026() {
                 < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#bdbeba]">
                    < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
                    <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#A47DAB]">12th June 2026, Friday.</div> {/*End of news date block*/}
-                        <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">Visit to Grimes Graves, Neolithic Flint Mines.</div>
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">Visit to Grime's Graves Neolithic Flint Mines, Thetford, Norfolk.</div>
                          <br />
                           <br />
                         <div className="font-normal md:font-normal p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">
@@ -320,7 +320,10 @@ export default function June2026() {
                           It is not just hugely significant for archeological purposes, but also for geological purposes.It is one of the best places in Britain to see the links between geology and archaeology. Grimes Graves is sited on Chalk bedrock of Turonian age, laid down about 90 million years ago in the Cretaceous period. Several flint horizons occur in the Chalk at this level, and the richest are known as the Brandon Series. With some effort, miners could access the flint here and in other places in the Brecks where the Brandon Series lies close to the surface. The fact that the prehistoric miners knew where to dig suggests they may have had a practical understanding of the local geology. 
                           <br />
                           <br />
-                          Only one of the pits is open to the general public and that is pit 1. However, the largest and deepest pit, researched by Canon William Greenwell between 1868-1870, can now be visited from your armchair by watching this <Link href="https://www.english-heritage.org.uk/visit/places/grimes-graves-prehistoric-flint-mine/history/virtual-tour/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"> video tour of the Greenwell pit Virtual Tour Greenwell Pit </Link> .
+                          Only one of the pits is open to the general public and that is pit 1. However, you'll be glad to know that access to this pit has been significantly improved of recent times, since the opening in April 2024 of the National Heritage Lottery Grant supported improvements to the site related in this <Link href="https://www.english-heritage.org.uk/about/search-news/grimes-graves-flint-mine-opens-to-the-public/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"> English Heritage update article </Link> . 
+                           <br />
+                          <br />
+                          This grant has also enabled a virtual tour of the largest and deepest pit, researched by Canon William Greenwell between 1868-1870, to be filmed which can now be visited from your armchair by watching this <Link href="https://www.english-heritage.org.uk/visit/places/grimes-graves-prehistoric-flint-mine/history/virtual-tour/"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"> video tour of the Greenwell pit Virtual Tour Greenwell Pit </Link>, as opposed to booking a specialist guided tour and having to be winched down using a winch, harness and ladder as was the option between 2017 and 2024!.
                           <br />
                           <br />
                           Before visiting the Graves though, have a read through the following links:
