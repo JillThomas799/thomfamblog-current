@@ -1,0 +1,295 @@
+.july2025Header {
+  display: block;
+  text-align: center;
+  font-size: 1.75em;
+  color: white;
+  font-weight: bold;
+  border: solid 3px;
+  width: 100vw;
+  height: 43vh;
+  background: #c0b9bf;
+  position: absolute;
+}
+
+#july2025Title {
+  display: block;
+  text-align: center;
+  margin-top: 5%;
+  color: #588061;
+}
+
+.linkJuly2025 {
+  /*This is the coloring and underlining for hyperlinks in the main body of the text */
+  text-decoration: underline;
+  color: #d00067;
+  font-weight: bold;
+}
+
+#backbuttonJuly2025 {
+  display: block;
+  position: absolute;
+  height: 50px;
+  width: 15%;
+  background-color: #588061;
+  border: black 2px solid;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  margin: 5% 25% 5% 75%;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -ms-border-radius: 15%;
+  -o-border-radius: 15%;
+  border-radius: 15%;
+}
+
+.backbuttonLink {
+  color: black;
+}
+
+.roseTiles {
+  margin-top: 10%;
+  background-image: url(./imagesresized/Roses1.jpg);
+  background-repeat: repeat round;
+  width: 100%;
+  height: 100%;
+  border: solid #588061 8px;
+}
+
+.backgroundColorJuly2025 {
+  background: #c0b9bf;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/*Instructions for text and news parts of the blog page*/
+.datenewsDivJuly2025 {
+  background-color: #c0b9bf;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-top: 10%;
+  padding-bottom: 1%;
+}
+
+.dateJuly2025 {
+  color: #22311d;
+  border: solid 3px #22311d;
+  background-color: #99b19d;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  font-size: 1.2rem;
+  font-family:
+    Calibri,
+    Trebuchet MS,
+    sans-serif;
+  font-weight: bold;
+}
+
+.newsHeaderJuly2025V1 {
+  color: #22311d;
+  border: solid 3px #22311d;
+  background-color: #99b19d;
+  text-align: center;
+  padding: 10px 3% 20px 30px;
+  margin-top: 40%;
+  margin-bottom: 5px;
+  margin-left: 0%;
+  margin-right: 0%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family:
+    Calibri,
+    Trebuchet MS,
+    sans-serif;
+}
+
+.newsHeaderJuly2025 {
+  color: #22311d;
+  border: solid 3px #22311d;
+  background-color: #99b19d;
+  text-align: center;
+  padding: 10px 3% 20px 30px;
+  margin-top: 3%;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family:
+    Calibri,
+    Trebuchet MS,
+    sans-serif;
+}
+
+.newsJuly2025 {
+  color: #22311d;
+  border: solid 3px #22311d;
+  background-color: #99b19d;
+  text-align: left;
+  padding: 10px 10px 20px 10px;
+  margin: 3%;
+  font-size: 1.2rem;
+  font-weight: normal;
+  font-family:
+    Calibri,
+    Trebuchet MS,
+    sans-serif;
+  padding: 3%;
+}
+
+.blogPhotoDivJuly2025 {
+  display: flex;
+  flex-direction: row;
+  border: solid 2px #22311d;
+  background-color: #99b19d;
+  padding-bottom: 2%;
+  padding-top: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 100%;
+}
+
+.blogPhotoJuly2025 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  height: auto;
+  border: solid #22311d 3px;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+  border-radius: 20%;
+}
+
+.july2025FigCaption {
+  text-align: center;
+  font-family: bold;
+  color: #22311d;
+  font-size: 1.1rem;
+  font-family:
+    Calibri,
+    Trebuchet MS,
+    sans-serif;
+  overflow-wrap: normal;
+  padding-top: 5%;
+}
+
+.slideshowinstructionsJuly2025 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 1.1rem;
+  font-family:
+    Calibri,
+    Trebuchet MS,
+    sans-serif;
+  display: block;
+  color: #22311d;
+  background-color: #99b19d;
+}
+
+.slideshowentryJuly2025 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  pointer-events: none;
+  height: auto;
+  width: 70%;
+  border: solid #22311d 4px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  -webkit-border-radius: 70%;
+  -moz-border-radius: 70%;
+  -ms-border-radius: 70%;
+  -o-border-radius: 70%;
+  border-radius: 70%;
+}
+
+.SlideshowHostPhotoJuly2025 {
+  display: flex;
+  flex-direction: column;
+  border: solid 3px #22311d;
+  background-color: #99b19d;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+  /*To ensure on mobile screens between 769px and 1000px width that relevant components 
+  of the site are displayed with the best dimensions for the smaller devices (This includes Bernard's and certain other mobile devices)*/
+  .july2025Header {
+    height: 21vh;
+  }
+
+  .newsJuly2025 {
+    padding: 10px 10px 40px 10px;
+  }
+
+  .blogPhotoDivJuly2025 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /*To ensure on mobile screens between 481px and 768px width that relevant components 
+  of the site are displayed with the best dimensions for the smaller devices (This includes Bernard's and certain other mobile devices)*/
+  .july2025Header {
+    height: 23vh;
+  }
+
+  .newsJuly2025 {
+    padding: 10px 10px 40px 10px;
+  }
+
+  .blogPhotoDivJuly2025 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  /*To ensure on mobile screens between 320px and 480px width that relevant components 
+  of the site are displayed with the best dimensions for the smaller devices (This includes Bernard's and certain other mobile devices)*/
+  .july2025Header {
+    height: 15vh;
+  }
+
+  .blogPhotoDivJuly2025 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20%;
+  }
+
+  .newsJuly2025 {
+    padding: 10px 10px 40px 10px;
+  }
+
+  .blogPhotoDivJuly2025 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slideshowentryJuly2025 {
+    width: 70%;
+    margin-top: 12%;
+  }
+}
