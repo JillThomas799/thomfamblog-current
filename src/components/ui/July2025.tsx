@@ -1,20 +1,20 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Image from 'next/image'
+import Link from 'next/link'
 import "./july2025.css";
-import waitingPatientlyFlightExperience from "./imagesresized/waitingPatientlyFlightExperience.jpg";
-import ehbflightExperienceExterior from "./imagesresized/ehbflightExperienceExterior.jpg";
-import b04072025flightExperience from "./imagesresized/b04072025flightExperience.jpg";
-import eh04072025flightExperience from "./imagesresized/eh04072025flightExperience.jpg";
-import pilotbAnxious from "imagesresized/pilotbAnxious.jpg";
-import pilotbPassed from "imagesresized/pilotbPassed.jpg";
-import departuresBoard from "imagesresized/departuresBoard.jpg";
-import preflightEntertainment from "imagesresized/preflightEntertainment.jpg";
-import flightTicket from "./imagesresized/flightTicket.jpg";
-import GraduationCardiff1Titled from "./imagesresized/GraduationCardiff1Titled.jpg";
-import medievalReenactmentTitled from "./imagesresized/medievalReenactmentTitled.jpg";
-import Glynebourne2025Titled from "./imagesresized/Glynebourne2025Titled.jpg";
-import London30072025Titled from "./imagesresized/London30072025Titled.jpg";
-import ShawsCorner31072025Titled from "./imagesresized/ShawsCorner31072025Titled.jpg";
+import waitingPatientlyFlightExperience from "/public/imagesresized/waitingPatientlyFlightExperience.jpg";
+import ehbflightExperienceExterior from "/public/imagesresized/ehbflightExperienceExterior.jpg";
+import eh04072025flightExperience from "/public/imagesresized/eh04072025flightExperience.jpg";
+import b04072025flightExperience from "/public/imagesresized/b04072025flightExperience.jpg";
+import pilotbAnxious from "/public/imagesresized/pilotbAnxious.jpg";
+import pilotbPassed from "/public/imagesresized/pilotbPassed.jpg";
+import departuresBoard from "/public/imagesresized/departuresBoard.jpg";
+import preflightEntertainment from "/public/imagesresized/preflightEntertainment.jpg";
+import flightTicket from "/public/imagesresized/flightTicket.jpg";
+import GraduationCardiff1Titled from "/public/imagesresized/GraduationCardiff1Titled.jpg";
+import medievalReenactmentTitled from "/public/imagesresized/medievalReenactmentTitled.jpg";
+import Glynebourne2025Titled from "/public/imagesresized/Glynebourne2025Titled.jpg";
+import London30072025Titled from "/public/imagesresized/London30072025Titled.jpg";
+import ShawsCorner31072025Titled from "/public/imagesresized/ShawsCorner31072025Titled.jpg";
 
 export default function July2025() {
   return (
@@ -23,13 +23,8 @@ export default function July2025() {
       <div>
         <div className="july2025Header">
           {/*div for July2025header */}{" "}
-          <button id="backbuttonJuly2025">
-            <Link to="/" className="backbuttonLink">
-              Back
-            </Link>
-          </button>
           <div id="july2025Title">July 2025</div>
-          <div className="roseTiles"> </div>
+         <div className="bg-RoseTile bg-cover"> </div> 
         </div>{" "}
         {/*Closing div for July2025header */}
         <div className="datenewsDivJuly2025">
@@ -48,7 +43,7 @@ export default function July2025() {
             to stay and finally, we are off to the South East of England for a
             few days including a visit to{" "}
             <Link
-              to="https://www.glyndebourne.com/"
+              href="https://www.glyndebourne.com/"
               target="_blank"
               className="linkJuly2025"
             >
@@ -68,7 +63,7 @@ export default function July2025() {
             <br />
             or rather, coming back to reality, a visit to{" "}
             <Link
-              to="https://theflightexperience.co.uk/"
+              href="https://theflightexperience.co.uk/"
               target="_blank"
               className="linkJuly2025"
             >
@@ -86,7 +81,7 @@ export default function July2025() {
             So this year, Elena and Harry decided to stay with the flying theme
             and arrange a surprise trip out for Bernard for a lesson at the{" "}
             <Link
-              to="https://theflightexperience.co.uk/"
+              href="https://theflightexperience.co.uk/"
               target="_blank"
               className="linkJuly2025"
             >
@@ -107,7 +102,7 @@ export default function July2025() {
           <div className="blogPhotoDivJuly2025">
             <figure>
               <section className="blogPhotoJuly2025">
-                <img src={eh04072025flightExperience} alt="" />
+                <Image src={eh04072025flightExperience}/>
                 <div className="july2025FigCaption">
                   <strong>
                     Elena and Harry, the guardians of <br /> the magical mystery
@@ -118,7 +113,12 @@ export default function July2025() {
             </figure>
             <figure>
               <section className="blogPhotoJuly2025">
-                <img src={b04072025flightExperience} alt="" />
+                <Image
+                                src={b04072025flightExperience}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#bbe89e] border-4 mt-4 mb-6"
+                                alt="Photo of Jill and Claire, about to enter pit 1, Grimes Graves."
+                              />
+                {/* <image src={b04072025flightExperience} alt="" /> */}
                 <div className="july2025FigCaption">
                   <strong>Bernard .... all prepared for the day ahead.</strong>
                 </div>
@@ -126,13 +126,13 @@ export default function July2025() {
             </figure>
             <figure>
               <section className="blogPhotoJuly2025">
-                <img src={ehbflightExperienceExterior} alt="" />
+                <Image src={ehbflightExperienceExterior} />
                 <div className="july2025FigCaption">
                   <strong>
                     A little while later, we have <br />
                     safely arrived at our destination: <br />{" "}
                     <Link
-                      to="https://theflightexperience.co.uk/"
+                      href="https://theflightexperience.co.uk/"
                       target="_blank"
                       className="linkJuly2025"
                     >
@@ -148,7 +148,7 @@ export default function July2025() {
           <div className="blogPhotoDivJuly2025">
             <figure>
               <section className="blogPhotoJuly2025">
-                <img src={flightTicket} alt="" />
+                <Image src={flightTicket} />
                 <div className="july2025FigCaption">
                   <strong>Here is the flight ticket for the journey...</strong>
                 </div>
@@ -156,7 +156,7 @@ export default function July2025() {
             </figure>
             <figure>
               <section className="blogPhotoJuly2025">
-                <img src={waitingPatientlyFlightExperience} alt="" />
+                <Image src={waitingPatientlyFlightExperience} />
                 <div className="july2025FigCaption">
                   <strong>
                     Bernard is getting into the zone ready for <br /> taking the
@@ -169,7 +169,7 @@ export default function July2025() {
             </figure>
             <figure>
               <section className="blogPhotoJuly2025">
-                <img src={preflightEntertainment} alt="" />
+                <Image src={preflightEntertainment} />
                 <div className="july2025FigCaption">
                   <strong>
                     Some pre-flight entertainment on live-feed .....
@@ -182,7 +182,7 @@ export default function July2025() {
           <div className="blogPhotoDivJuly2025">
             <figure>
               <section className="blogPhotoJuly2025">
-                <img src={departuresBoard} alt="" />
+                <Image src={departuresBoard}  />
                 <div className="july2025FigCaption">
                   <strong>
                     ... Bernard is taking the first departure slot....
@@ -192,7 +192,7 @@ export default function July2025() {
             </figure>
             <figure>
               <section className="blogPhotoJuly2025">
-                <img src={pilotbAnxious} alt="" />
+                <Image src={pilotbAnxious}  />
                 <div className="july2025FigCaption">
                   <strong>
                     Bernard is not entirely sure about this .....
@@ -204,7 +204,7 @@ export default function July2025() {
             </figure>
             <figure>
               <section className="blogPhotoJuly2025">
-                <img src={pilotbPassed} alt="" />
+                <Image src={pilotbPassed} />
                 <div className="july2025FigCaption">
                   <strong>
                     ...but after commandeering his first successful <br />{" "}
@@ -234,7 +234,7 @@ export default function July2025() {
             <br />
             We had fortunately managed to rent some very pleasant{" "}
             <Link
-              to="https://www.airbnb.co.uk/rooms/609320701093859071?adults=1&search_mode=regular_search&check_in=2025-08-09&check_out=2025-08-14&children=0&infants=0&pets=0&source_impression_id=p3_1753261446_P3onrYSGnR9aShXj&previous_page_section_name=1000&federated_search_id=8292d703-7e53-49a8-9b2e-fcda546f054d"
+              href="https://www.airbnb.co.uk/rooms/609320701093859071?adults=1&search_mode=regular_search&check_in=2025-08-09&check_out=2025-08-14&children=0&infants=0&pets=0&source_impression_id=p3_1753261446_P3onrYSGnR9aShXj&previous_page_section_name=1000&federated_search_id=8292d703-7e53-49a8-9b2e-fcda546f054d"
               target="_blank"
               className="linkJuly2025"
             >
@@ -251,7 +251,7 @@ export default function July2025() {
             <br />
             The graduation ceremony was held at the{" "}
             <Link
-              to="https://www.utilitaarenacardiff.co.uk/"
+              href="https://www.utilitaarenacardiff.co.uk/"
               target="_blank"
               className="linkJuly2025"
             >
@@ -270,7 +270,7 @@ export default function July2025() {
             The opening procession of the ceremony was accompanied by the Welsh
             hymn{" "}
             <Link
-              to="https://en.wikipedia.org/wiki/Calon_L%C3%A2n"
+              href="https://en.wikipedia.org/wiki/Calon_L%C3%A2n"
               target="_blank"
               className="linkJuly2025"
             >
@@ -278,7 +278,7 @@ export default function July2025() {
             </Link>{" "}
             {}, which can be heard{" "}
             <Link
-              to="https://open.spotify.com/track/4018M1GQWCpjdHOwdFmVgU"
+              href="https://open.spotify.com/track/4018M1GQWCpjdHOwdFmVgU"
               target="_blank"
               className="linkJuly2025"
             >
@@ -295,7 +295,7 @@ export default function July2025() {
             take part in the ceremony. After some lovely speeches in both
             English and Welsh,{" "}
             <Link
-              to="https://www.bass12.co.uk/"
+              href="https://www.bass12.co.uk/"
               target="_blank"
               className="linkJuly2025"
             >
@@ -314,7 +314,7 @@ export default function July2025() {
               </strong>
               <br />
               <Link
-                to="https://photos.app.goo.gl/wM5DEM5YUrXNbqTk7"
+                href="https://photos.app.goo.gl/wM5DEM5YUrXNbqTk7"
                 target="_blank"
                 className="linkJuly2025"
               >
@@ -348,7 +348,7 @@ export default function July2025() {
             behind the scenes is very impressive. The medieval reenactment at
             Greystoke Castle involved the group{" "}
             <Link
-              to="https://normannis.co.uk/joining-us/"
+              href="https://normannis.co.uk/joining-us/"
               target="_blank"
               className="linkJuly2025"
             >
@@ -362,7 +362,7 @@ export default function July2025() {
             West Mercia group. For anyone interested in joining or finding out
             more about a group, contact
             <Link
-              to="https://normannis.co.uk/joining-us/"
+              href="https://normannis.co.uk/joining-us/"
               target="_blank"
               className="linkJuly2025"
             >
@@ -435,14 +435,14 @@ export default function July2025() {
               </strong>
               <br />
               <Link
-                to="https://photos.app.goo.gl/kwBEApWmLAH8yutM7"
+                href="https://photos.app.goo.gl/kwBEApWmLAH8yutM7"
                 target="_blank"
                 className="linkJuly2025"
               >
-                <img
+                <Image
                   className="slideshowentryJuly2025"
                   src={medievalReenactmentTitled}
-                  alt=""
+                  
                 />
               </Link>
             </div>{" "}
@@ -496,7 +496,7 @@ export default function July2025() {
             a ginger and white cat on the bar of the Garter Inn, can be seen
             from 0.57 onwards until the end of this{" "}
             <Link
-              to="https://youtu.be/wy3Z7akRtYo"
+              href="https://youtu.be/wy3Z7akRtYo"
               target="_blank"
               className="linkJuly2025"
             >
@@ -517,11 +517,11 @@ export default function July2025() {
               </strong>
               <br />
               <Link
-                to="https://photos.app.goo.gl/S7Vp5KAfdfmFSsJS8"
+                href="https://photos.app.goo.gl/S7Vp5KAfdfmFSsJS8"
                 target="_blank"
                 className="linkJuly2025"
               >
-                <img
+                <Image
                   className="slideshowentryJuly2025"
                   src={Glynebourne2025Titled}
                   alt=""
@@ -552,7 +552,7 @@ export default function July2025() {
             British Museum. Our membership tickets enabled us to avoid the
             queues and access easily. Today the focus was on{" "}
             <Link
-              to="https://www.britishmuseum.org/collection/galleries/medieval-europe"
+              href="https://www.britishmuseum.org/collection/galleries/medieval-europe"
               target="_blank"
               className="linkJuly2025"
             >
@@ -560,7 +560,7 @@ export default function July2025() {
             </Link>{" "}
             and{" "}
             <Link
-              to="https://www.britishmuseum.org/collection/galleries/sutton-hoo-and-europe"
+              href="https://www.britishmuseum.org/collection/galleries/sutton-hoo-and-europe"
               target="_blank"
               className="linkJuly2025"
             >
@@ -595,7 +595,7 @@ export default function July2025() {
             theatres, Regent Street and Waterloo Place, Trafalgar Square and the
             best Waterstones store in London ending at{" "}
             <Link
-              to="https://www.brasseriezedel.com/"
+              href="https://www.brasseriezedel.com/"
               target="_blank"
               className="linkJuly2025"
             >
@@ -621,14 +621,14 @@ export default function July2025() {
               </strong>
               <br />
               <Link
-                to="https://photos.app.goo.gl/ZFbE3sJn2t8ngrpE8"
+                href="https://photos.app.goo.gl/ZFbE3sJn2t8ngrpE8"
                 target="_blank"
                 className="linkJuly2025"
               >
-                <img
+                <Image
                   className="slideshowentryJuly2025"
                   src={London30072025Titled}
-                  alt=""
+                  
                 />
               </Link>
             </div>{" "}
@@ -648,7 +648,7 @@ export default function July2025() {
             <br />
             <br />
             <Link
-              to="https://www.nationaltrustcollections.org.uk/place/shaw%27s-corner"
+              href="https://www.nationaltrustcollections.org.uk/place/shaw%27s-corner"
               target="_blank"
               className="linkJuly2025"
             >
@@ -687,7 +687,7 @@ export default function July2025() {
             nights off, having a rare period of relaxation by calling in for a
             drink at{" "}
             <Link
-              to="https://www.brocketarms.com/"
+              href="https://www.brocketarms.com/"
               target="_blank"
               className="linkJuly2025"
             >
@@ -707,14 +707,14 @@ export default function July2025() {
               </strong>
               <br />
               <Link
-                to="https://photos.app.goo.gl/Wq26VHxPyEHvd2s69"
+                href="https://photos.app.goo.gl/Wq26VHxPyEHvd2s69"
                 target="_blank"
                 className="linkJuly2025"
               >
-                <img
+                <Image
                   className="slideshowentryJuly2025"
                   src={ShawsCorner31072025Titled}
-                  alt=""
+                  
                 />
               </Link>
             </div>{" "}
