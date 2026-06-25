@@ -86,7 +86,7 @@ const config: Config = withUt({
 		'Garden3':"url('/images/DoNotDelete/Garden3.jpg')",
 		'Garden4':"url('/images/DoNotDelete/Garden4.jpg')",
 		'Garden6':"url('/images/DoNotDelete/Garden6.jpg')",
-		'RoseTile':"url('/imagesresized/RoseTile.jpg')",
+		'RoseTile':"url('/imagesresized/Roses1.jpg')",
 		
       },
   	}
