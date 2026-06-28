@@ -426,6 +426,120 @@ export default function July2025() {
 
 
 
+< div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#bdbeba]">
+                   < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-gray-800 text-center  md:text-center dark:text-white justify-center items-center">
+                   <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center  border-gray-800 border-2 bg-[#99b19d]">30th July 2025, Wednesday.</div> {/*End of news date block*/}
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-gray-800 text-center text-md border-gray border-2  bg-[#99b19d]">    Visit to London: ride on the Elizabeth line, British Museum Sutton
+            Hoo exhibits, walking tour of London and lunch at Brasserie Zédel.
+            <br />
+           </div>
+                  <div className="font-normal md:font-normal text-center text-gray-600 border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#99b19d]">
+                      <br />
+                Today was a visit into London and an opportunity to try out the
+            newest of the London trains, the Elizabeth Line which opened in
+            2022. It is a high-frequency, high-capacity railway that connects
+            the east and west of London with a new central section and is
+            similar to the RER in Paris and the S-Bahn systems of
+            German-speaking countries.
+            <br />
+            <br />
+            Having arrived safely at Stratford (where Jill showed her age by
+            spotting and becoming quite excited about the Abba arena where the
+            production Abba Voyage is performed) and changing trains to
+            Tottenham Court Road Elizabeth Line station, we were soon at the
+            British Museum. Our membership tickets enabled us to avoid the
+            queues and access easily. 
+            <br />
+            <br />            
+            Today the focus was on{" "}:
+            <br />
+             <Link
+              href="https://www.britishmuseum.org/collection/galleries/medieval-europe"
+              target="_blank"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+             Room 40: Medieval Europe AD 1050–1500
+            </Link> {""}
+            <br />
+             and{" "}
+             <br />
+            <Link
+              href="https://www.britishmuseum.org/collection/galleries/sutton-hoo-and-europe"
+              target="_blank"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >Room 41: Sutton Hoo and Europe AD 300–1100.</Link>
+             <br />
+            <br />
+            In room 41, it was great to see the original Sutton Hoo finds and
+            whilst some, such as the iron chain mail armour found at the burial
+            site and which was most likely part of a three-quarter length coat
+            of mail, consist now of rusted together iron links and copper rivets
+            in alternate rows, nonetheless this find, along with others, give
+            clear insights into the wealth and status of the individual buried
+            at Sutton Hoo. The Sutton Hoo helmet was very impressive.
+            <br />
+            <br />
+            In room 40, which was dedicated to Medieval Europe, there was the
+            Lewis Chessmen: A set of 12th-century chess pieces, discovered on
+            the Isle of Lewis, made of walrus ivory and whalebone; a Royal Gold
+            Cup: A lavishly decorated gold cup, likely a presentation piece from
+            the French royal family; a ceremonial knight's shield, a 2-handed
+            sword (which Bernard was very excited about as it resembled the
+            sword he uses on the computer game 'Dark Souls') and the Fishpool
+            Hoard: A collection of jewelry and coins found buried in
+            Nottinghamshire.
+            <br />
+            <br />
+            On leaving the British Museum, we headed round the corner to the
+            café at the Cordon Bleu School in Bloomsbury to grab some coffees
+            and a sit down before commencing our walking tour which took us
+            through Bloomsbury, Piccadilly Circus, Shaftesbury Avenue and the
+            theatres, Regent Street and Waterloo Place, Trafalgar Square and the
+            best Waterstones store in London ending at{" "}
+         
+            <Link
+              href="https://www.brasseriezedel.com/"
+              target="_blank"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+             Brasserie Zédel
+            </Link> {""}
+            for some lunch.
+            <br />
+            <br />
+            As we left Brasserie Zedel, there was a flurry of activity and some
+            filming appeared to be taking place. All was shortly revealed when
+            we realised that Sadiq Khan was giving a recorded interview. After
+            lunch, we took an interesting diversion through Soho before taking
+            our return train home.
+                          <br />
+                          <br />
+            
+                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-gray-800 border-gray-800 border-solid border-2 bg-[#c0b9bf] ">Click on the image below to open the album <br /> of our trip to
+               London on the 30th July 2025.
+                          <br />
+                          <br />
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/ZFbE3sJn2t8ngrpE8"
+                              target="_blank"
+                            >
+                              <Image
+                                src={London30072025Titled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#A47DAB] border-4 mt-4 mb-6"
+                                alt="Photo of the cakes at the Cordon Bleu School Café, Bloomsbury."
+                              />
+                            </Link>
+                          </div>{" "}
+                          </div>
+                   </div>
+
+                   </div>
+
+
+
 
 </div>
 </div> 
