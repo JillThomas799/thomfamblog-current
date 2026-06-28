@@ -8,6 +8,7 @@ import BrightonPavilionTitled from "/public/imagesresized/BrightonPavilionTitled
 import BluebellRailwayTitled from "/public/imagesresized/BluebellRailwayTitled.jpg";
 import MichelhamPrioryTitled from "/public/imagesresized/MichelhamPrioryTitled.jpg";
 import GrimesGravesTitled from "/public/imagesresized/GrimesGravesTitled.jpg";
+import PatDermotLanercostTitled from "/public/imagesresized/PatDermotLanercostTitled.jpg";
 
 export default function June2026() {
   return (
@@ -365,8 +366,40 @@ export default function June2026() {
                    </div>
 
 
+                   < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#bdbeba]">
+                   < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+                   <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#A47DAB]">26th-27th June 2026, Friday to Saturday.</div> {/*End of news date block*/}
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">Pat, Dermot and Archie the dog come to stay.</div>
+                  <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#A47DAB]">
+                    <br />
+                          Today was a big event and a major test, as for the first time our friends' dog Archie and our cat Lennie were going to have to share a home..... This is because Pat and Dermot, whom we usually meet up with once a year, this year were coming to stay with us from Friday 26th June to Saturday 27th June whilst en route to their holiday in Alnwick in Northumberland.
+
+                          
+                          <br />
+                          <br />
+                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#a1a09c] ">Click on the image below to open the album of the saga of when Archie met Lennie.
+                          <br />
+                          <br />
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/yRy69spGoaDAdgXg9"
+                              target="_blank"
+                            >
+                              <Image
+                                src={PatDermotLanercostTitled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#bbe89e] border-4 mt-4 mb-6"
+                                alt="Photo of Michelham Priory"
+                              />
+                            </Link>
+                          </div>{" "}
+                          </div>
+                   </div>
 
 
+
+</div>
 </div>
 </div>
 </div>
