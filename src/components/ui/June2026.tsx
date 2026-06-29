@@ -373,12 +373,20 @@ export default function June2026() {
                         <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#A47DAB]">Pat, Dermot and Archie the dog come to stay.</div>
                   <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#A47DAB]">
                     <br />
-                          Today was a big event and a major test, as for the first time our friends' dog Archie and our cat Lennie were going to have to share a home..... This is because Pat and Dermot, whom we usually meet up with once a year, this year were coming to stay with us from Friday 26th June to Saturday 27th June whilst en route to their holiday in Alnwick in Northumberland.
+                          Today was a big event and a major test, as for the first time our friends' dog Archie and our cat Lennie were going to have to share a home. This is because Pat and Dermot, whom we usually meet up with once a year, were this year coming to stay with us from Friday 26th June to Saturday 27th June whilst en route to their holiday in Alnwick in Northumberland.                          
+                          <br />
+                          <br />
+                          The problem we faced is that Archie chases cats and Lennie does not like dogs, so what were we to do?....    Added to the fact that each animal has separation anxiety when away from their respective human parents.... 
+                          <br />
+                          <br />
+                          Archie usually sleeps downstairs in the kitchen, but would not be happy outside in the newly heated and cleaned kennel and Lennie's food and requirements were usually in the kitchen, which was where Archie was going to need to sleep. How were we to solve the conundrum?
+                             <br />
+                          <br />
+                          In the end though, it quickly became apparent that Archie would probably be ok in the kitchen and Lennie could have a treat and be moved entirely into Jill and Bernard's bedroom and bathroom overnight. An arrangement which thankfully, Lennie was more than happy about.
+                          <br />
+                          <br />
 
-                          
-                          <br />
-                          <br />
-                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#a1a09c] ">Click on the image below to open the album of the saga of when Archie met Lennie.
+                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#a1a09c] ">Click on the image below to open the album of the saga of when Archie met Lennie and what we got up to.
                           <br />
                           <br />
                                 Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
