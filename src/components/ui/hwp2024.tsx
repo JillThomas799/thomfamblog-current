@@ -1,23 +1,23 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import "./hwp2024.css";
+import Romaneagle from "./eagle"
+import HWPThermometer from "./hwpthermometer"
 import NewcastleQuayside from "/public/imagesresized/NewcastleQuayside.jpg";
 
 
 
 export default function HWP2024() {
   return (
-    <div className="">
-      <div className="bg-white border-solid border-4 border-gray-600 md:p-4 mb-8 h-[50vh] text-black text-center font-normal text-l p-3">
+    <div className="" >
+      <div className="bg-white border-solid border-4 border-gray-600 md:p-4 mb-8 h-[100%] text-black text-center font-normal text-l p-3">
         <div className="bg-gray-800 mr-[7%] ml-[7%] md:mr-[40%] md:ml-[40%] p-1 border-[#bdbeba] border-2 text-[white] font-semibold">Hadrian's Wall Path Expedition 2024</div>
         <br />
         <br />
-        {/* < Toysheep/ >
-         <Image
-                  src={ toysheep1 }
-                  className=" ml-[30%] mt-[-75%] mr-auto h-auto w-[25%] md:w-[30%] md:mt-[-80%] lg:w-[20%] lg:ml-[25%] lg:mt-[-30%] 2xl:ml-[5%]"
-                  alt="Photo of toy sheep "
-                /> */}
+        <div className="mr-[30%] ml-[30%]">< Romaneagle /></div>
+        
+        < HWPThermometer />
+       
       </div>
 
        < div className="mb-20"> 
