@@ -4,27 +4,34 @@ import "./hwp2024.css";
 import Romaneagle from "./eagle"
 import HWPThermometer from "./hwpthermometer"
 import NewcastleQuayside from "/public/imagesresized/NewcastleQuayside.jpg";
+import HWPIntro from "/public/imagesresized/HWPIntro.jpg";
 
 
 
 export default function HWP2024() {
   return (
-    <div className="" >
-      <div className="bg-white border-solid border-4 border-gray-600 md:p-4 mb-8 h-[100%] text-black text-center font-normal text-l p-3">
-        <div className="bg-gray-800 mr-[7%] ml-[7%] md:mr-[40%] md:ml-[40%] p-1 border-[#bdbeba] border-2 text-[white] font-semibold">Hadrian's Wall Path Expedition 2024</div>
+    <div >
+      < div className="bg-[#850f55] border-solid border-4 border-gray-600 md:p-4 mb-8 h-[100%] text-black text-center font-normal text-l p-3">
+        <div className="bg-[#d19b2f] mr-[7%] ml-[7%] md:mr-[20%] md:ml-[20%] p-1 border-[#bdbeba] border-2 text-black font-bold">Hadrian's Wall Path Expedition 2024</div>
         <br />
         <br />
-        <div className="mr-[30%] ml-[30%]">< Romaneagle /></div>
-        
+        < Romaneagle />        
         < HWPThermometer />
+        <div className="text-sm font-semibold bg-[#d19b2f] border-solid border-1 border-gray-600 mr-[15%] ml-[15%] mb-[10%]">100% Completed by August 24th 2024 !</div>
        
       </div>
 
        < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
-         < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
-         <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-white text-center bg-[#66023c]">   1st June, 2024 onwards.... Hadrian's Wall Long Distance Path</div> {/*End of news date block*/}
-              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]"> How did we come to be here?.....</div>
+         < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-white text-center dark:text-black justify-center items-center">
+
+         <Image
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                  src={HWPIntro}
+                  alt=""
+                />
+         <div className="font-semibold pt-2 pb-2 mr-[10%] ml-[10%]  text-white text-center bg-[#66023c]">   1st June, 2024 onwards.... Hadrian's Wall Long Distance Path</div> {/*End of news date block*/}
+              <div className="font-semibold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]"> How did we come to be here?.....</div>
 
         <div className="font-semibold text-center border-solid mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#d19b2f]">              
               If this were a novel, it might possibly commence with the

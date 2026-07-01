@@ -10,12 +10,13 @@
 } */
 
 #Laag_1 {
-  -webkit-transform: scale(70%) translate(0px, 0px);
-  -moz-transform: scale(70%) translate(0px, 0px);
-  -ms-transform: scale(70%) translate(0px, 0px);
-  -o-transform: scale(70%) translate(0px, 0px);
+  -webkit-transform: scale(60%) translate(-120px, 0px);
+  -moz-transform: scale(60%) translate(-120px, 0px);
+  -ms-transform: scale(60%) translate(-120px, 0px);
+  -o-transform: scale(60%) translate(-120px, 0px);
   margin-bottom: -10%;
-  transform: scale(70%) translate(0px, 0px);
+  margin-top: -12%;
+  transform: scale(60%) translate(-120px, 0px);
 }
 
 @media screen and (max-width: 480px) {
@@ -35,13 +36,13 @@
 @media screen and (min-width: 480px) and (max-width: 901px) {
   /*To ensure on mobile screens between 480px and 901px width (this includes ipads) that relevant components of the site are displayed with the best dimensions for the smaller devices*/
   #Laag_1 {
-    -webkit-transform: scale(75%) translate(0px, 0px);
-    -moz-transform: scale(75%) translate(0px, 0px);
-    -ms-transform: scale(75%) translate(0px, 0px);
-    -o-transform: scale(75%) translate(0px, 0px);
-    transform: scale(75%) translate(0px, 0px);
+    -webkit-transform: scale(90%) translate(20%, 0px);
+    -moz-transform: scale(90%) translate(20%, 0px);
+    -ms-transform: scale(90%) translate(20%, 0px);
+    -o-transform: scale(90%) translate(20%, 0px);
+    transform: scale(90%) translate(20%, 0px);
     margin-bottom: -30%;
-    margin-top: 5%;
+    margin-top: 1%;
     width: 75%;
     height: auto;
   }

@@ -23,47 +23,53 @@ a {
 .chartWrapper {
   display: grid;
   justify-content: center;
-  grid-column-gap: 3rem;
+  grid-column-gap: 2rem;
   grid-template-columns: 30% auto 30%;
-  margin-top: 10%;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
 
 .chartWrapper .chartY {
   display: grid;
-  grid-row-gap: 3rem;
+  grid-row-gap: 1rem;
 }
 
 .chartY {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  margin-left: 30%;
 }
 
 /*CUSTOM VARIABLES HERE*/
 
 .chartWrapper .chartX {
   position: relative;
-  width: 50px;
-  border: 8px solid var(--chart-line-color);
-  background: #d5544f;
+  width: 23px;
+  border: 4px solid var(--chart-line-color);
+  background: #d19b2f;
   overflow: hidden;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  -o-border-radius: 50px;
-  border-radius: 50px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
 }
 
 .chartWrapper .chartX1 {
   position: relative;
-  width: 85px;
+  width: 55px;
   height: 0%;
   background: #66023c;
   overflow: hidden;
 }
 
 .chartLabels {
-  margin-top: 100%;
-  font-size: 1.4rem;
-  margin-left: 30%;
+  margin-top: 50%;
+  font-size: 12px;
+  margin-left: 5%;
+  font-weight: normal;
+  background-color: #d19b2f;
+  border: solid 2px black;
+  padding-bottom: 0%;
 }
 
 @media screen and (min-width: 481px) and (max-width: 902px) {
@@ -71,9 +77,9 @@ a {
     display: grid;
     justify-content: center;
     grid-column-gap: 3rem;
-    grid-template-columns: 30% auto 30%;
-    margin-top: 10%;
-    margin-bottom: -20%;
+    grid-template-columns: 70% auto 70%;
+    margin-top: -50%;
+    margin-bottom: -50%;
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
     -ms-transform: scale(0.5);
@@ -82,8 +88,12 @@ a {
   }
 
   .chartLabels {
-    margin-top: 100%;
-    font-size: 1.8rem;
+    font-size: 20px;
+    padding: 15%;
+  }
+
+  .chartY {
+    font-size: 1.5rem;
     margin-left: 30%;
   }
 }
