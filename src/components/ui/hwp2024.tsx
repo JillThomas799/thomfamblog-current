@@ -6,6 +6,11 @@ import HWPThermometer from "./hwpthermometer"
 import NewcastleQuayside from "/public/imagesresized/NewcastleQuayside.jpg";
 import HWPIntro from "/public/imagesresized/HWPIntro.jpg";
 import TyneKingGeorgeTitled from "/public/imagesresized/TyneKingGeorgeTitled.jpg";
+import Branzinos from "/public/imagesresized/Branzinos.jpg";
+import DunstonStaithes from "/public/imagesresized/DunstonStaithes.jpg";
+import Lemington from "/public/imagesresized/Lemington.jpg";
+import Newburn from "/public/imagesresized/Newburn.jpg";
+import DentonHallTurret from "/public/imagesresized/DentonHallTurret.jpg";
 
 
 
@@ -19,11 +24,11 @@ export default function HWP2024() {
         < Romaneagle />        
         < HWPThermometer />
         <div className="text-sm font-semibold bg-[#d19b2f] border-solid border-1 border-gray-600 mr-[15%] ml-[15%] mb-[10%] p-2 mt-[30%] md:mt-[0%] ">100% Completed by August 24th 2024 !</div>
-       
       </div>
 
+          <div >
        < div className="mb-20"> 
-      < div className="flex flex-col bg-[#850f55] h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
+      < div className="flex flex-col bg-[#850f55] border-solid border-4 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
          < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-white text-center dark:text-black justify-center items-center">
 
          <Image
@@ -51,21 +56,21 @@ export default function HWP2024() {
             On a more serious note though, what is clear are the aims of this
             undertaking, which are to:
             <br />
-            <ul id="hwpIntroList" className="pl-[10%] list-none">
-              <li className="text-left list-disc">
+            <ul className=" list-none">
+              <li className="text-left list-disc ml-4">
                 Complete the Hadrian's Wall Path on separate days over a number
                 of months.
               </li>
-              <li className="text-left list-disc">
+              <li className="text-left list-disc ml-4">
                 Ensure there is ample opportunity to visit the many museums and
                 sites of interest en route and to enjoy the fantastic views.
               </li>
-              <li className="text-left list-disc">Try and keep the trip as 'green' as possible.</li>
-              <li className="text-left list-disc">
+              <li className="text-left list-disc ml-4">Try and keep the trip as 'green' as possible.</li>
+              <li className="text-left list-disc ml-4">
                 Make a blog record of the journey, which others considering this
                 trip might find useful.
               </li>
-              <li className="text-left list-disc">
+              <li className="text-left list-disc ml-4">
                 Try where possible to support local and regional businesses,
                 organisations and charities.
               </li>
@@ -94,23 +99,21 @@ export default function HWP2024() {
           </div>{" "}
         </div>{" "}
       </div>{" "}
+</div>
 
 
-
-
+      <div>
       < div className="mb-20"> 
-      < div className="flex flex-col bg-[#850f55] h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
+      < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
          < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
          <div className="font-semibold pt-2 pb-2 mr-[20%] ml-[20%]  text-white text-center bg-[#66023c] p-2">1st June 2024, Saturday</div> {/*End of news date block*/}
               <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]">  Day 1 - Wallsend to Newcastle Swing Bridge: 5.1 miles on the
             Hadrian's Wall Path, 7.5 miles total</div>
       
-        
-         
-            <div className="bg-[#66023c] text-white font-semibold">Details of the Walk </div>
+            <div className="bg-[#66023c] text-white font-bold">DETAILS OF THE WALK </div>
             <div className="font-semibold text-center border-solid mr-1 ml-1 mt-2 mb-2 px-4 py-4 ">            
         <div className="font-normal pt-2 pb-2  text-black text-center">
-             <ul className="pl-[10%] list-none">
+             <ul className="list-none">
               <li className="text-left bg-[#d19b2f] p-4">
                 <strong className="text-[#66023c]">Parking:</strong>
                 <br />
@@ -170,7 +173,7 @@ export default function HWP2024() {
             <div className="bg-[#66023c] text-white font-bold text-decoration-underline">GOOD</div>
              <br />  
         <br /> 
-            <ul className="pl-[10%] list-none">
+            <ul className="list-none">
               <div className="listItemsAlign">
                 <li className="text-left bg-[#d19b2f] p-4">
                   <div className="text-[#66023c] font-semibold">Museums :</div>
@@ -229,7 +232,7 @@ export default function HWP2024() {
             <br />
             <div className="bg-[#66023c] text-white font-bold text-decoration-underline">NOT SO GOOD</div>
              <br />  
-            <ul className="hwpIntroList">
+            <ul className="list-none">
               <li className="text-left  bg-[#d19b2f] p-4">
                 <div className="text-[#66023c] font-semibold">Underfoot</div>
                 All of the walk was on firm surfaces.
@@ -247,9 +250,9 @@ export default function HWP2024() {
                <br />  
         <br /> 
             </ul>
-             <div className="font-semibold pt-2 pb-2 mr-[20%] ml-[20%]  text-white text-center bg-[#66023c] p-2">HIKE RATING</div>
+             <div className="bg-[#66023c] text-white font-bold text-decoration-underline] p-2">HIKE RATING</div>
               <br /> 
-            <ul className="hwpIntroList">
+            <ul className="list-none">
               <li className="text-left bg-[#d19b2f] p-4">
                 <div className="text-[#66023c] text-center font-semibold">8 (out of 10):</div> Better walk
                 than expected so don't let some people's complaints about its
@@ -399,14 +402,14 @@ export default function HWP2024() {
             with everyone looking forward to the next stage....
             <br />
             <br />
-            Join us on our 1st day of the Hadrian's Wall Path by clicking on the
-            album below and following our narrative by clicking on the added
-            comments.
           </div>{" "}
           {/*Closing tag for hwpDailyNarrative div */}
            <br />
            <br />
           <div className="slideshowHostPhotoHwp">            
+              <div className="text-white text-semibold">Join us on our 1st day of the Hadrian's Wall Path by clicking on the
+            album below and following our narrative by clicking on the added
+            comments. </div>
               <Link
                 href="https://photos.app.goo.gl/sRhBPqCMEbCajSdf9"
                 target="_blank"
@@ -426,12 +429,13 @@ export default function HWP2024() {
         {/* Closing tag datenewsDivHwp */}
       </div>
         </div>{" "}
+        </div>
 
 
 
-
+        <div>
         < div className="mb-20"> 
-      < div className="flex flex-col bg-[#850f55] h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
+      < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
          < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
          <div className="font-semibold pt-2 pb-2 mr-[20%] ml-[20%]  text-white text-center bg-[#66023c] p-2">3rd August 2024, Saturday</div> {/*End of news date block*/}
               <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]"> Day 2 - Newcastle Gateshead millennium Bridge to Tyne Riverside
@@ -440,13 +444,12 @@ export default function HWP2024() {
       
         
          
-            <div className="bg-[#66023c] text-white font-semibold">Details of the Walk </div>
+            <div className="bg-[#66023c] text-white font-bold">DETAILS OF THE WALK </div>
             <div className="font-semibold text-center border-solid mr-1 ml-1 mt-2 mb-2 px-4 py-4 ">            
         <div className="font-normal pt-2 pb-2  text-black text-center">
-             <ul className="pl-[10%] list-none">
+             <ul className="list-none">
               <li className="text-left bg-[#d19b2f] p-4">
-                <strong className="text-[#66023c]">Parking:</strong>
-                <br />
+                <div className="text-[#66023c] font-semibold">Parking:</div>
                 Free parking at Tyne Riverside car park and parking for £4.60 for
               the day on a Saturday at St Ann's Car Park, Sandgate, Newcastle
               Upon Tyne.
@@ -496,11 +499,9 @@ export default function HWP2024() {
              <br />  
         <br /> 
         
-            <ul className="pl-[10%] list-none">
+            <ul className="list-none">
                 <li className="text-left bg-[#d19b2f] p-4">
                    <div className="text-[#66023c] font-semibold">Points of Interest: </div>
-                   <br />
-                   <br />
                 There are a surprising number of points of interest on this
                 segment of the walk, far more than we had anticipated. They
                 include the Blacksmith's Needle, the seven key Newcastle
@@ -544,7 +545,7 @@ export default function HWP2024() {
             <br />
             <div className="bg-[#66023c] text-white font-bold text-decoration-underline">NOT SO GOOD</div>
              <br />  
-            <ul className="hwpIntroList">
+            <ul className="list-none">
               <li className="text-left  bg-[#d19b2f] p-4">
                 <div className="text-[#66023c] font-semibold">Traffic Congestion</div>
                 <br />
@@ -567,9 +568,9 @@ export default function HWP2024() {
                <br />  
         <br /> 
             </ul>
-             <div className="font-semibold pt-2 pb-2 mr-[20%] ml-[20%]  text-white text-center bg-[#66023c] p-2">HIKE RATING</div>
+             <div className="bg-[#66023c] text-white font-bold text-decoration-underline">HIKE RATING</div>
               <br /> 
-            <ul className="hwpIntroList">
+            <ul className="list-none">
               <li className="text-left bg-[#d19b2f] p-4">
                 <div className="text-[#66023c] text-center font-semibold">8 (out of 10):</div> 
                 This was an interesting and enjoyable walk. There was more opportunity to sit
@@ -629,7 +630,8 @@ export default function HWP2024() {
           </div>
           <br />
           <br />
-           <div className="slideshowHostPhotoHwp">            
+           <div className="slideshowHostPhotoHwp">    
+            <div className="text-white text-semibold p-2">Click on the photo below to discover all about the 7 iconic  bridges of Newcastle upon Tyne (from East to West). </div>        
               <Link
                 href="https://photos.app.goo.gl/7yMkmcspEhY4kKhx7"
                 target="_blank"
@@ -639,28 +641,141 @@ export default function HWP2024() {
                   src={TyneKingGeorgeTitled}
                   alt=""
                 />
-              </Link>
-         
+              </Link>         
           </div>{" "}
-          
-            <br />
-            <br />
-            Join us on our 1st day of the Hadrian's Wall Path by clicking on the
-            album below and following our narrative by clicking on the added
-            comments.
+          <br />
+
+           This additional{" "}
+          <Link
+            href="https://englandsnortheast.co.uk/newcastle-quayside-history/"
+            target="_blank"
+            title="Click here to discover more about Newcastle's seven bridges and quayside"
+            className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+          >
+            article
+          </Link>{" "}
+          also has some really interesting information about the bridges and the
+          history of Newcastle quayside.
+          <br />
+          <br />
+          <div className="font-semibold text-md"> Fish Market : </div>
+          There have been fish stalls on Sandhill going back to Medieval times.
+          From 1823 the fish market was held in the new covered section of the
+          Guildhall designed by John Dobson. In 1880 a new purpose-built indoor
+          fish market was built on Sandhill. Later the fish market moved to
+          Clayton Street and then eventually relocated as a dedicated section of
+          the Green Market. Today, the old Fish Market, is now 'Riverside', a
+          popular live music venue.
+          <br />
+          <br />
+          <div className="font-semibold text-md"> Dunston Staiths : </div>
+          Dunston Staiths, on the River Tyne, is believed to be the largest
+          timber structure in Europe. It is a Scheduled Monument, Grade II
+          listed and is owned by registered charity Tyne and Wear Building
+          Preservation Trust (TWBPT). Opened in 1893 by the North East Railway
+          Company, it was built to allow large quantities of coal arriving by
+          rail from the Durham Coalfields to be loaded directly onto waiting
+          colliers (coal ships) ready for the onward journey to customers in
+          London and abroad. At the coal industry's peak around 5.5 million tons
+          of coal was moved this way each year.
+          <br />
+          <br />          
+                <Image
+                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                  src={DunstonStaithes}
+                  alt=""
+                />         
+         
+
+           <div className="font-semibold text-md">
+            {" "}
+            Elswick and Scotwood :{" "}
+          </div>
+          At its zenith, around the turn of the century, William Armstrong's
+          Elswick and Scotswood works employed over 20,000 people. This
+          workforce together with their families and the many small trades,
+          industries, shops and the like which served them, accounted for the
+          growth of most of the western suburbs of Newcastle. Scotswood and
+          Elswick, along with four other small townships Jesmond, Heaton, Byker
+          and Westgate – were taken into the boundaries of Newcastle Upon Tyne
+          under the municipal Corporation Act of 1835. This expansion of the
+          city brought the spread of housing into the suburbs. Fuelled by the
+          growth of industry on the riverbank, the construction of houses in
+          Elswick and Scotswood took place at a rapid and constant pace. In 1851
+          the population of Elswick was 3,539.
+          <br />
+          <br />
+          <div className="font-semibold text-md">
+            {" "}
+            Lemington Glassworks :{" "}
+          </div>
+          The glassworks site was leased from the Duke of Northumberland by a
+          group of local businessmen under the name of the Northumberland Glass
+          Company in 1787. Initially flat glass was produced from 4 large glass
+          cones. This company owned the glassworks until 1837 when three of the
+          glass houses were demolished, leaving the huge cone which is still in
+          existence.
+          <br />
+          <br />
+           <Image
+                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                  src={Lemington}
+                  alt=""
+                />   
+
+            <div className="font-semibold text-md">
+            {" "}
+            Battle of Newburn Ford :{" "}
+          </div>
+          The Battle of Newburn Ford took place in Summer 1640 when a Scottish
+          Covenanter army of 20,000 under Alexander Leslie defeated an English
+          force of 5,000, led by Lord Conway. The only significant military
+          action of the Second Bishop's War, victory enabled the Scots to take
+          Newcastle, which provided the bulk of London's coal supplies, and
+          allowed them to put pressure on the central government. It is
+          important because it had far-reaching consequences for King Charles,
+          setting the scene for a civil war in which King Charles lost his
+          throne and his head and England became a republic for the first and
+          last time under Oliver Cromwell. The main cause of the confrontation
+          was religion, particularly as Archbishop William Laud has attempted to
+          impose a new prayer book on the Scots.
+          <br />
+          <br />
+           <Image
+                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                  src={Newburn}
+                  alt=""
+                />   
+          <div className="font-semibold text-md"> Denton Hall Turret : </div>
+          Denton Hall Turret lies in the western suburbs of Newcastle, part of a
+          63-metre section of Hadrian’s Wall in a small public space adjacent to
+          the A186. Built of unusually large stones, the turret has a platform
+          in one corner, which probably served as the base for a ladder to reach
+          the upper floors. Another 60-metre section of the Wall survives 300
+          metres west, alongside the south verge of the A69.
+          <br />
+          <br />
+          <Image
+                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                  src={DentonHallTurret}
+                  alt=""
+                /> 
+             </div>{" "}
           </div>{" "}
           {/*Closing tag for hwpDailyNarrative div */}
            <br />
            <br />
           <div className="slideshowHostPhotoHwp">
-            
+           <div className="text-white text-semibold">Join us on our 2nd day of the Hadrian's Wall Path by clicking on the
+            album below and following our narrative by clicking on the added
+            comments. </div>
               <Link
-                href="https://photos.app.goo.gl/sRhBPqCMEbCajSdf9"
+                href="https://photos.app.goo.gl/DoVrHqfsWP4d2KWb8"
                 target="_blank"
               >
                 <Image
                    className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
-                  src={NewcastleQuayside}
+                  src={Branzinos}
                   alt=""
                 />
               </Link>
@@ -673,13 +788,12 @@ export default function HWP2024() {
         {/* Closing tag datenewsDivHwp */}
       </div>
         </div>{" "}
+        </div>
       
+
       
       </div>{" "}
             </div>{" "}
-     
          </div> 
-          </div> 
-
   )
 }
