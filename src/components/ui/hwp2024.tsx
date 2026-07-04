@@ -11,6 +11,7 @@ import DunstonStaithes from "/public/imagesresized/DunstonStaithes.jpg";
 import Lemington from "/public/imagesresized/Lemington.jpg";
 import Newburn from "/public/imagesresized/Newburn.jpg";
 import DentonHallTurret from "/public/imagesresized/DentonHallTurret.jpg";
+import HeddonItalianClosed2Text from "/public/imagesresized/HeddonItalianClosed2Text.jpg";
 
 
 
@@ -789,11 +790,312 @@ export default function HWP2024() {
       </div>
         </div>{" "}
         </div>
+
+
+
+
+
+
+
+
+         <div>
+        < div className="mb-20"> 
+      < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
+         < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
+         <div className="font-semibold pt-2 pb-2 mr-[20%] ml-[20%]  text-white text-center bg-[#66023c] p-2">20th July, 2024, Saturday</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]">Day 3 - Tyne Riverside Country Park to Whittle Dene Reservoirs: 8.6
+            miles on the Hadrian's Wall Path, 9.56 miles in total.</div>      
+        
+         
+            <div className="bg-[#66023c] text-white font-bold">DETAILS OF THE WALK </div>
+            <div className="font-semibold text-center border-solid mr-1 ml-1 mt-2 mb-2 px-4 py-4 ">            
+        <div className="font-normal pt-2 pb-2  text-black text-center">
+             <ul className="list-none">
+              <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Parking:</div>
+                Free parking at Tyne Riverside Country Park car park and on the
+                roadside-parking in the lay-by at Whittle dene reservoirs.
+              </li>
+              <br />  
+        <br /> 
+         <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Paths:</div>
+                 Clear, well-defined and sign-posted paths once you reach the
+                far-side of Tyne Riverside Country Park.
+              </li>
+              <br />  
+        <br /> 
+              <li  className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Distance:</div>
+               9.56 miles in total, of which 8.6 miles on the Hadrian's
+                Wall Path.<strong> Ascent:</strong>159 metres, 521 feet.{" "}
+              </li>
+               <br />  
+        <br /> 
+              <li  className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Refreshments:</div>
+              Limited on this section, depending on the time when you are
+                undertaking the walk. A special mention is therefore necessary
+                for{" "}
+                <Link
+                  href="https://www.spar.co.uk/store-locator/hal22784-spar-heddon"
+                  target="_blank"
+                className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >
+                  Spar Petrol Station, Heddon-on-the-Wall
+                </Link>{" "}
+                who sell take-away coffees and a good range of drinks and snacks
+                . There is also a bathroom here which you can use, as long as
+                you are purchasing something at the shop.{" "}
+              
+              </li>
+            </ul>
+             <br />  
+        <br /> 
+            <div className="bg-[#66023c] text-white font-bold text-decoration-underline">GOOD</div>
+             <br />  
+        <br /> 
+        
+            <ul className="list-none">
+                <li className="text-left bg-[#d19b2f] p-4">
+                   <div className="text-[#66023c] font-semibold">Heddon on the Wall: </div>
+                  is an interesting and pretty village, situated up on the hill.
+                  There are some lovely views from here. There is also, with a
+                  small detour, the longest existing segment of the original
+                  broad section of Hadrian's Wall. There are plenty of
+                  information signs. Most of the year, the Italian bistro and
+                  deli should be open, we were just unlucky in it being their
+                  summer break.
+                              
+                </li>
+                 <br />  
+        <br /> 
+    
+                <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">History : </div>
+                  The remains of{" "}
+                  <Link
+                    href="https://rudchester.org/fort.html"
+                    target="_blank"
+                    title="Click here to discover more 
+                about Vindobala/Rudchester Fort"
+                    className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                  >
+                    {" "}
+                    Vindobala/Rudchester Fort
+                  </Link>{" "}
+                  and the information board there are very interesting. <br />
+                </li>
+                 <br />  
+        <br /> 
+              
+            </ul>
+            <br />
+            <div className="bg-[#66023c] text-white font-bold text-decoration-underline">NOT SO GOOD</div>
+             <br />  
+            <ul className="list-none">
+              <li className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Waymarks initially:</div>
+              Google maps will not take you to the correct place on Tyne Riverside
+                Country Park, as we were parking on the main car park by
+                Hedley's Riverside Coffee Shop. To get there, when you are
+                following Google Maps and entering Tyne Riverside Country Park,
+                take a left by the Keelman and Big Lamp Brewery; this will take
+                you to the desired car park immediately behind Hedley's
+                Riverside Coffee Shop. <br />  <br />  On leaving the car, walk directly
+                towards the River Tyne, by the side of the playground, and on
+                meeting the main path, turn right towards Wylam (ie. away from
+                Newcastle). Keep following this path until you see the Acorn
+                sign pointing to the right, at which point you will leave the
+                main path and follow the Hadrian's Walk Path.{" "}
+              </li>
+               <br />  
+        <br /> 
+              <li className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Mud and flood!</div>
+                There were
+                occasional extremely muddy sections and one section where the
+                path was completely submerged in water up to mid-calf depth,
+                calling for an{" "}
+                <Link
+                  href="https://en.wikipedia.org/wiki/Uncharted_4:_A_Thief%27s_End"
+                  target="_blank"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >
+                  'Uncharted'
+                </Link>{" "}
+                type manoeuvre (see photo album). <br />{" "}
+              </li>
+               <br />  
+        <br /> 
+
+        <li className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Refreshments - Lack thereof:</div>
+              Refreshments are limited on this section, depending on the time
+                when you are undertaking the walk. See "Refreshments" in the
+                "Details of the Walk" section above. <br />{" "}
+              </li>
+               <br />  
+        <br /> 
+            </ul>
+             <div className="bg-[#66023c] text-white font-bold text-decoration-underline">HIKE RATING</div>
+              <br /> 
+            <ul className="list-none">
+              <li className="text-left bg-[#d19b2f] p-4">
+                What can we
+                say....we have to deduct several points for the muddiness
+                underfoot in sections, the flood and the limited opportunity for
+                refreshments en-route!
+              </li>
+            </ul>
+          </div>{" "}
+          {/* Closing tag ComponentWalkDetails Class*/}
+          <br />
+          <div className="font-normal text-left bg-[#d19b2f] p-4">
+            We were walking today from Tyne Riverside Country Park, which is located 7 miles from the centre of Newcastle,
+            up via Heddon-on-the-Wall and over to Whittle dene reservoir. On leaving the Tyne Riverside Country Park, we shortly joined the{" "}
+            <Link
+              href="https://co-curate.ncl.ac.uk/wylam-wagonway/"
+              target="_blank"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Wylam Waggonway
+            </Link>{" "}
+            , before starting to head up hill towards Heddon-on-the-Wall.
+            <br />
+            <br />
+            This climb up to Heddon-on-the-Wall is the very final stage of Day 1
+            for East to West Hadrian's Wall Path walkers who are undertaking the
+            trek over a week, and they complain about it a lot. We can see
+            why....we would have not liked to climb up here after 16-18 miles
+            walking. However, it was at the start of our walk, so all was well
+            and good and we were soon in Heddon-on-the-Wall.
+            <br />
+            <br />
+            It had been quite a long drive out to Tyne Riverside Country Park,
+            so we felt it was time for coffees and refreshments. However, it was
+            only 11.10am and so the{" "}
+            <Link
+              href="https://www.facebook.com/THREETUNSHEDDON/?_rdr"
+              target="_blank"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              The Three Tuns
+            </Link>{" "}
+            and{" "}
+            <Link
+              href="https://www.vintageinn.co.uk/restaurants/north-east/swan-at-heddon?utm_source=google&utm_medium=organic&utm_campaign=gmb-homepage#/"
+              target="_blank"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Swan{" "}
+            </Link>{" "}
+            inns were not yet open. Elena identified an alternative, the{" "}
+            <Link
+              href="https://www.tripadvisor.co.uk/Restaurant_Review-g1653233-d25194372-Reviews-Bell_E_Buon-Heddon_on_the_Wall_Northumberland_England.html"
+              target="_blank"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+              >
+              {" "}
+              Bell e Buon{" "}
+            </Link>{" "}
+            Italian Bistro and Deli. However, when we arrived it was closed and
+            there was a sign on the door; they were closed for their annual
+            holiday..... After taking a small detour to see the longest
+            remaining segment of the broad (2.9 metre thickness) section of
+            Hadrian's Wall, we were rescued by the{" "}
+            <Link
+              href="https://www.spar.co.uk/store-locator/hal22784-spar-heddon"
+              target="_blank"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Spar Petrol Station{" "}
+            </Link>{" "}
+            where we could buy drinks and snacks and use the bathroom
+            facilities. So five stars to the Spar Petrol Station,
+            Heddon-on-the-Wall!
+            <br />
+            <br />
+            After a short rest, we set on our way again towards the remains of{" "}
+            <Link
+              href="https://rudchester.org/fort.html"
+              target="_blank"
+              title="Click here to discover more 
+            about Vindobala/Rudchester Fort"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Vindobala/Rudchester Fort
+            </Link>{" "}
+            . Then it was on towards Ironsign Farm B and B, which we
+            circumnavigated and headed onwards towards Harlow Hill, some 2.25
+            miles away. There are some very muddy parts on this segment (see
+            photos). But these soon sank into insignificance, when we came to{" "}
+            <em>the great flood</em>, which was located just before Albermale
+            Barracks. This necessitated some very creative thinking, as
+            demonstrated in the photo album.
+            <br />
+            <br />
+            Finally, we were back at Whittle dene Reservoirs and it was time for
+            a well-earned lunch, sitting on the picnic tables by the reservoir.
+            Then it was time to pack our gear back in the car, return to pick up
+            the 2nd car from Tyne Riverside Country Park and to return to{" "}
+            <Link
+              href="https://www.tripadvisor.co.uk/ShowUserReviews-g1051961-d1508482-r953594113-The_Errington_Coffee_House-Corbridge_Northumberland_England.html"
+              target="_blank"
+              title="Click here to discover more about the Errington Coffee House"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Errington Coffee House{" "}
+            </Link>{" "}
+            for some coffees and home-baked cakes.
+            <br />
+            <br />
+          </div>{" "}
+          {/*Closing tag for hwpDailyNarrative div */}
+          <br />
+          <br />
+           <br />
+           <br />
+          <div className="slideshowHostPhotoHwp">
+           <div className="text-white text-semibold">Join us on our 3rd day of the Hadrian's Wall Path by clicking on the
+            album below and following our narrative by clicking on the added
+            comments. </div>
+              <Link
+                href="https://photos.app.goo.gl/eH7jJcK2NZ5Gh1Kh7"
+                target="_blank"
+              >
+                <Image
+                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                  src={HeddonItalianClosed2Text}
+                  alt=""
+                />
+              </Link>
+         
+          </div>{" "}
+          {/* Closing div SlideshowHostPhotoHwp */}
+           <br />
+           <br />
+        </div>{" "}
+        {/* Closing tag datenewsDivHwp */}
+      </div>
+        </div>{" "}
+        </div>
+
+
+
       
 
       
-      </div>{" "}
+   
             </div>{" "}
          </div> 
+          </div>{" "}
+         </div> 
+           
   )
 }
