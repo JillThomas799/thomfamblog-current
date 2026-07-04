@@ -12,6 +12,7 @@ import Lemington from "/public/imagesresized/Lemington.jpg";
 import Newburn from "/public/imagesresized/Newburn.jpg";
 import DentonHallTurret from "/public/imagesresized/DentonHallTurret.jpg";
 import HeddonItalianClosed2Text from "/public/imagesresized/HeddonItalianClosed2Text.jpg";
+import WillowfordDay9 from "/public/imagesresized/WillowfordDay9.jpg";
 
 
 
@@ -942,6 +943,7 @@ export default function HWP2024() {
               <br /> 
             <ul className="list-none">
               <li className="text-left bg-[#d19b2f] p-4">
+                 <div className="text-[#66023c] text-center font-semibold">8 (out of 10):</div> 
                 What can we
                 say....we have to deduct several points for the muddiness
                 underfoot in sections, the flood and the limited opportunity for
@@ -1085,6 +1087,472 @@ export default function HWP2024() {
       </div>
         </div>{" "}
         </div>
+
+
+           <div>
+        < div className="mb-20"> 
+      < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
+         < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
+         <div className="font-semibold pt-2 pb-2 mr-[20%] ml-[20%]  text-white text-center bg-[#66023c] p-2">28th July 2024, Sunday</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]"> Day 9 - Gilsland to Lanercost: 6.5 miles on the Hadrian's Wall Path,
+            7.5 miles in total.</div>               
+            <div className="bg-[#66023c] text-white font-bold">DETAILS OF THE WALK </div>
+            <div className="font-semibold text-center border-solid mr-1 ml-1 mt-2 mb-2 px-4 py-4 ">            
+        <div className="font-normal pt-2 pb-2  text-black text-center">
+             <ul className="list-none">
+              <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Parking:</div>
+                The free car park by the River Irthing at Lanercost and the free
+                on-street parking at Railway Terrace, Gilsland.
+              </li>
+              <br />  
+        <br /> 
+         <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Paths:</div>
+                The paths are clear and well-signposted. There is a diversion in
+                place (hopefully only temporary) between Poltross Burn
+                Milecastle and the Willowford segment of the wall, but in actual
+                fact this takes you through Gilsland village which is an
+                interesting little village with the possibility of refreshments
+                (within opening hours) at the{" "}
+                <Link
+                  href="https://www.facebook.com/houseofmegtearooms/?locale=en_GB"
+                  target="_blank"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >
+                  House of Meg
+                </Link>{" "}
+                , or the{" "}
+                <Link
+                  href="https://www.facebook.com/bridgeinngilsland/?locale=en_GB"
+                  target="_blank"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >
+                  {" "}
+                  Bridge Inn{" "}
+                </Link>{" "}
+                . Normally, there is also the{" "}
+                <Link
+                  href="https://www.thesamson.co.uk/"
+                  target="_blank"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >
+                  {" "}
+                  Samson Inn{" "}
+                </Link>{" "}
+                which is a community pub owned by three local farmers. However
+                it is currently closed for refurbishment.{" "}
+              </li>
+              <br />  
+        <br /> 
+              <li  className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Distance:</div>
+              6.5 miles on the Hadrian's Wall Path, 7.5 miles in total<strong> Ascent:</strong>191 metres, 623 feet.{" "}
+              </li>
+               <br />  
+        <br /> 
+              <li  className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Refreshments:</div>
+              The{" "}
+                <Link
+                  href="https://www.facebook.com/houseofmegtearooms/?locale=en_GB"
+                  target="_blank"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >
+                  House of Meg
+                </Link>{" "}
+                and the{" "}
+                <Link
+                  href="https://www.facebook.com/bridgeinngilsland/?locale=en_GB"
+                  target="_blank"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >
+                  {" "}
+                  Bridge Inn{" "}
+                </Link>{" "}
+                .
+              </li>
+            </ul>
+             <br />  
+        <br /> 
+            <div className="bg-[#66023c] text-white font-bold text-decoration-underline">GOOD</div>
+             <br />  
+        <br /> 
+        
+            <ul className="list-none">
+                <li className="text-left bg-[#d19b2f] p-4">
+                   <div className="text-[#66023c] font-semibold">History: </div>
+                 There was a surprising amount of things of historical interest
+                  on this stretch; certainly more than we had anticipated,
+                  including some really well-preserved segments of wall, the
+                  Willowford Bridge abutment showing evidence that even the
+                  Roman's experienced damage due to flooding, a centurial stone,
+                  Birdoswald Roman Fort and the only known Roman signal tower
+                  together with Lanercost Priory.{" "}                              
+                </li>
+                 <br />  
+        <br /> 
+    
+                <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">Countryside : </div>
+                   Picturesque, lush, rolling countryside.
+                </li>
+                 <br />  
+        <br /> 
+        <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">Refreshments : </div>
+                   There was ample opportunity for refreshments both in Gilsland,
+                  at Birdoswald café and at Lanercost tearooms.{" "}
+                </li>
+                 <br />  
+        <br /> 
+        <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">Weather : </div>
+                   It was a pleasantly warm, sunny day; great walking weather.{" "}
+                </li>
+                 <br />  
+        <br /> 
+              
+            </ul>
+            <br />
+            <div className="bg-[#66023c] text-white font-bold text-decoration-underline">NOT SO GOOD</div>
+             <br />  
+            <ul className="list-none">
+              <li className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Summer holiday season:</div>
+            It is now the peak Summer holiday season and the number of
+                visitors reflected that.
+              </li>
+               <br />  
+        <br /> 
+            </ul>
+             <div className="bg-[#66023c] text-white font-bold text-decoration-underline">HIKE RATING</div>
+              <br /> 
+          <ul className="list-none">
+              <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] text-center font-semibold">10 (out of 10):</div> 
+              This was a far more enjoyable and interesting section of the wall than we
+                had anticipated. There are still some significant sections of
+                Roman Wall remaining and the line of the ditch can be followed
+                easily. It helped for the first time to cement an understanding
+                of how Lanercost Priory fits into the history and landscape of
+                Hadrian's Wall. It also enabled us to discover Gilsland, a small
+                village we had previously only driven through to reach
+                elsewhere...
+              </li>
+            </ul>
+          </div>{" "}
+          {/* Closing tag ComponentWalkDetails Class*/}
+          <br />
+          <div className="font-normal text-left bg-[#d19b2f] p-4">
+            Today we walked the 9th stage of the Hadrian's Wall path, taking us
+            from{" "}
+            <Link
+              href="https://www.visitcumbria.com/car/gilsland/"
+              target="_blank"
+              title="Click here to discover more about Gilsland"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Gilsland{" "}
+            </Link>{" "}
+            , via{" "}
+            <Link
+              href="https://www.english-heritage.org.uk/visit/places/birdoswald-roman-fort-hadrians-wall/"
+              target="_blank"
+              title="Click here to discover more about Birdoswald Fort"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Birdoswald Fort{" "}
+            </Link>{" "}
+            , over to{" "}
+            <Link
+              href="https://www.english-heritage.org.uk/visit/places/lanercost-priory/"
+              target="_blank"
+              title="Click here to discover more about Lanercost Priory"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Lanercost Priory{" "}
+            </Link>
+            .
+            <br />
+            <br />
+            Key points and way-marks on the walk from Gilsland to Lanercost
+            Priory include Poltross Burns Milecastle (number 48), Gilsland
+            village, the Willowford section of Hadrian's Wall with turrets 48a
+            and 48b, Willowford Farm B and B and self-catering accommodation
+            where there is a Roman centurial stone built into the barn wall,
+            Willowford Bridge abutment and the new millennium bridge over the
+            River Irthing, Harrows Scar (site of Milecastle 49), Birdoswald
+            Roman Fort, Turret 49a, Piper Sike Turret (number 51a), Pike Hill
+            Signal Tower, Banks East Turret (number 52a), Hare Hill with a 3m
+            high section of Hadrian's Wall and Lanercost Priory.
+            <br />
+            <br />
+            <Link
+              href="https://www.english-heritage.org.uk/visit/places/poltross-burn-milecastle-hadrians-wall/history/"
+              target="_blank"
+              title="Click here to discover more about 
+            Poltross Burn Milecastle"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Poltross Burn Milecastle, Gilsland{" "}
+            </Link>{" "}
+            : This is one of the best preserved milecastles on Hadrian's Wall.
+            It is bigger than usual, and inside are the remains of 2 barrack
+            blocks. Broad Wall foundations on the East wing indicate that it was
+            built, at least in part , before the decision was taken to narrow
+            the width of Hadrian's Wall. In the North West corner there are
+            remains of ovens and in the North East corner the only surviving set
+            of steps, probably leading up to the ramparts.
+            <br />
+            <br />
+            <Link
+              href="https://www.visitcumbria.com/car/gilsland/"
+              target="_blank"
+              title="Click here to discover more about Gilsland"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Gilsland village{" "}
+            </Link>{" "}
+            : A small village which today has a good community spirit and
+            focuses a large part of its trade on providing accommodation and
+            refreshments for walkers on the Hadrian's Wall path and cyclists.
+            <br />
+            <br />
+            <Link
+              href="https://www.english-heritage.org.uk/visit/places/willowford-wall-turrets-and-bridge-hadrians-wall/history/"
+              target="_blank"
+              title="Click here to discover more about the Willowford section of Hadrian's Wall"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Willowford section of the wall with Turrets 48a and 48b{" "}
+            </Link>{" "}
+            : Here well-preserved sections of the wall and ditch and several
+            turrets (48a and 48b) can be seen.
+            <br />
+            <br />
+            <Link
+              href="https://willowford.co.uk/"
+              target="_blank"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Willowford Farm B and B and self-catering accommodation{" "}
+            </Link>{" "}
+            : This is a popular and very pleasant stop-over location for
+            Hadrian's Wall walkers where there is a Roman centurial stone built
+            into the barn wall.
+            <br />
+            <br />
+            <Link
+              href="https://www.english-heritage.org.uk/visit/places/willowford-wall-turrets-and-bridge-hadrians-wall/history/"
+              target="_blank"
+              title="Click here to discover more about the Willowford Bridge abutment"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Willowford Bridge abutment{" "}
+            </Link>{" "}
+            : The East abutment is all that is left of the Romans' Bridge over
+            the River Irthing. It is now on dry land because the course of the
+            Irthing has moved West over time. There were a number of bridges
+            built at this site but the earliest one was probably built under
+            Hadrian at the same time as Hadrians Wall. On the North side of the
+            abutment, there are two sluices with an open channel beside them:
+            the channel was possibly a mill race with the sluices helping to
+            control the flow of water through it. In 1999 a new millennium
+            bridge over the River Irthing was designed by the architectural firm
+            Napper and constructed and lowered into place using a RAF
+            helicopter.
+            <br />
+            <br />
+            <Link
+              href="https://www.english-heritage.org.uk/visit/places/harrows-scar-milecastle-and-wall-hadrians-wall/history/"
+              target="_blank"
+              title="Click here to discover more about Harrow's Scar"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Harrows Scar (site of Milecastle 49){" "}
+            </Link>{" "}
+            : Little remains of this milecastle, but there are still some points
+            of interest. In the 17th century, a cottage was built inside the
+            ruins and you can still see its foundations in the South West
+            corner. More about the milecastle and its exact location cane be
+            found{" "}
+            <Link
+              href="https://en.wikipedia.org/wiki/Milecastle_49"
+              target="_blank"
+              title="Click here to discover more about Milecastle 49 and turrets 49a and 49b"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              here{" "}
+            </Link>{" "}
+            . Milecastle 49 is immediately west of the gorge of the River
+            Irthing where the Wall was carried over the river by the bridge at
+            Willowford. The scar or cliff and hence the milecastle are named
+            after an ancient tenement called The Harrows which stood nearby.
+            <br />
+            <br />
+            <Link
+              href="https://www.english-heritage.org.uk/visit/places/birdoswald-roman-fort-hadrians-wall/history-and-stories/history/"
+              target="_blank"
+              title="Click here to discover more about Birdoswald Roman Fort"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Birdoswald Roman Fort{" "}
+            </Link>{" "}
+            : The Romans occupied Birdoswald Fort for 300 years from the 2nd to
+            the 5th centuries and Birdoswald's defences are the best preserved
+            of any of the forts on the line of the wall. Birdoswald is
+            interesting also because it was occupied after the Romans had left;
+            in the Dark Ages and then again in medieval times going on to be a
+            fortified farm subject to raids by the Border Reivers. It also
+            contains the only drill and exercise hall ever to have been found in
+            a Roman auxiliary fort.
+            <br />
+            <br />
+            <Link
+              href="https://en.wikipedia.org/wiki/Milecastle_49"
+              target="_blank"
+              title="Click here to discover more about Milecastle 49 and turrets 49a and 49b"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Turret 49b, Birdoswald West{" "}
+            </Link>
+            : There is no turret 49a, as it was positioned right in the centre
+            of Birdoswald Fort. Turret 49b is situated to the west of the River
+            Irthing. Hadrian's Wall was originally built as a turf wall, but
+            later it was replaced by a stone wall which followed a different
+            course for 2 Roman miles between milecastle 49 and 51. Turret 49b
+            was built on the line of, and around the same time as, the stone
+            wall and was fully bonded with it.
+            <br />
+            <br />
+            <Link
+              href="https://hadrianswallcountry.co.uk/attraction/leahill-turret-and-piper-sike-turret/"
+              target="_blank"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Piper Sike Turret, number 51a{" "}
+            </Link>{" "}
+            : Unlike Turret 49b, this turret was not bonded fully with Hadrian's
+            Wall. It was originally constructed for the turf wall. When the turf
+            wall was replaced by the stone wall, the turret then had to be
+            integrated into it.
+            <br />
+            <br />
+            <Link
+              href="https://en.wikipedia.org/wiki/Pike_Hill_Signal_Tower"
+              target="_blank"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Pike Hill Signal Tower{" "}
+            </Link>
+            : Unfortunately, there is little left of the only known signal tower
+            on Hadrian's Wall. It overlooked the Stanegate, a key Roman Road
+            which ran E-W from Corbridge to Carlisle. Soldiers would have been
+            able to signal to the nearby forts at Nether Denton and Castle Hill.
+            The tower was built under Trajan, long before Hadrian's Wall. The
+            wall was built with a deliberate kink to incorporate the tower.
+            <br />
+            <br />
+            <Link
+              href="https://en.wikipedia.org/wiki/Milecastle_52"
+              target="_blank"
+              title="Click here to discover more about Turret 52a and also Milecastle 52 and turret 52b"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Turret 52a, Banks East Turret{" "}
+            </Link>{" "}
+            : Turret 52a is one of the 2 turrets associated with milecastle 52,
+            which today is unfortunately no longer visible, but is occupied by
+            Bankshead House and Garden. Turret 52B (grid reference NY57006457)
+            has never been located. Its position has been estimated in relation
+            to Turret 52A and Milecastle 53. It may lie beneath the modern road.
+            Unlike Turret 49b, this turret was not bonded fully with Hadrian's
+            Wall. It was originally constructed for the turf wall. When the turf
+            wall was replaced by the stone wall, the turret then had to be
+            integrated into it.
+            <br />
+            <br />
+            <Link
+              href="https://www.english-heritage.org.uk/visit/places/hare-hill-hadrians-wall/"
+              target="_blank"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Hare Hill section of Hadrian's Wall{" "}
+            </Link>{" "}
+            : This contains a 3m high piece of Hadrian's Wall. Although it is
+            often claimed to be the highest remaining section of Hadrian's Wall
+            and the central core is original, the north side of it was actually
+            rebuilt in the 19th century using Roman stones. There is a centurial
+            stone built into the north side of the wall at about head height,
+            but it is very difficult to spot. The stone was taken from a
+            different part of Hadrian's Wall.
+            <br />
+            <br />
+            <Link
+              href="https://www.english-heritage.org.uk/visit/places/lanercost-priory/"
+              target="_blank"
+              title="Click here to discover more about Lanercost Priory"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Lanercost Priory{" "}
+            </Link>{" "}
+            : Standing close to Hadrian’s Wall, and built in large part from
+            stone sourced from the nearby sections of Hadrian's Wall, it
+            suffered frequent attacks during the long Anglo-Scottish wars, once
+            by Robert Bruce in person. The mortally sick King Edward I rested
+            here for five months in 1306-7, shortly before his death on his
+            final campaign. Today it is looked after by English Heritage. We
+            have visited Lanercost Priory severl times in the past, so
+            concentrated today on the walk itself. However, we will be returning
+            here when we return to Birdoswald Fort in the forthcoming months.
+            <br />
+            <br />
+           <br />
+           <br />
+          <div className="slideshowHostPhotoHwp">
+           <div className="text-white text-semibold">Join us on our 9th day of the Hadrian's Wall Path by clicking on the
+            album below and following our narrative by clicking on the added
+            comments. </div>
+              <Link
+                href="https://photos.app.goo.gl/dHXXFUtCaz1QUdzt5"
+                target="_blank"
+              >
+                <Image
+                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                  src={WillowfordDay9}
+                  alt=""
+                />
+              </Link>
+         
+          </div>{" "}
+          {/* Closing div SlideshowHostPhotoHwp */}
+           <br />
+           <br />
+        </div>{" "}
+        {/* Closing tag datenewsDivHwp */}
+      </div>
+        </div>{" "}
+        </div>
+         </div>
+         </div>
 
 
 
