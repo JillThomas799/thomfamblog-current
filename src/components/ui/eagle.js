@@ -30,7 +30,7 @@ export default function Romaneagle() {
               cy="175px"
               r="230"
               stroke="black"
-              stroke-width="1"
+              strokeWidth="1"
               fill="#D19B2F"
             />
             <circle
@@ -38,7 +38,7 @@ export default function Romaneagle() {
               cy="175px"
               r="185"
               stroke="black"
-              stroke-width="1"
+              strokeWidth="1"
               fill="#66023c"
             />
             <rect
@@ -49,7 +49,7 @@ export default function Romaneagle() {
               rx="0"
               ry="0"
               stroke="black"
-              stroke-width="1"
+              strokeWidth="1"
               fill="#D19B2F"
             />
             <text
