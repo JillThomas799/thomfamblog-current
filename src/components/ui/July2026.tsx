@@ -6,7 +6,7 @@ import CathyRobinLowtherTitled from "/public/imagesresized/CathyRobinLowtherTitl
 export default function July2026() {
   return (
     <div className="">
-      <div className="bg-HermitageFerry bg-cover border-solid border-4 border-gray-600 md:p-4 mb-8 h-[80vh] text-[#D99E49] text-center font-normal text-l p-3">
+      <div className="bg-HermitageFerry bg-cover border-solid border-8 border-[#336600] md:p-4 mb-8 h-[80vh] text-gray-800 text-center font-normal text-l p-3">
         <div className="bg-[#336600] mr-[7%] ml-[7%] md:mr-[40%] md:ml-[40%] p-1 border-gray-800 border-2 text-white font-semibold">July 2026</div>
         <br />
         <br />
