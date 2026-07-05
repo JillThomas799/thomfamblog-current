@@ -71,6 +71,9 @@ const BlogMenuBar=()    => {
      <div className="text-center h-15 bg-gray-800 border-b border-gray-700 font-semibold p-4 hover:text-blue-300">
       <Link href="/dashboard/months/june2026" >June 2026</Link>
     </div> 
+    <div className="text-center h-15 bg-gray-800 border-b border-gray-700 font-semibold p-4 hover:text-blue-300">
+      <Link href="/dashboard/months/july2026" >July 2026</Link>
+    </div> 
     
     </div>
 )}
