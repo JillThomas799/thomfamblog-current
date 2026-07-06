@@ -14,6 +14,7 @@ import DentonHallTurret from "/public/imagesresized/DentonHallTurret.jpg";
 import HeddonItalianClosed2Text from "/public/imagesresized/HeddonItalianClosed2Text.jpg";
 import WillowfordDay9 from "/public/imagesresized/WillowfordDay9.jpg";
 import WhittleChollerford from "/public/imagesresized/WhittleChollerford.jpg";
+import ChollerfordBroccolitia from "/public/imagesresized/ChollerfordBroccolitia.jpg";
 
 
 
@@ -1090,10 +1091,6 @@ export default function HWP2024() {
         </div>
 
 
-
-
-
-
           <div>
         < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
@@ -1480,6 +1477,303 @@ export default function HWP2024() {
       </div>
         </div>{" "}
         </div>
+
+          <div>
+        < div className="mb-20"> 
+      < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
+         < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
+         <div className="font-semibold pt-2 pb-2 mr-[20%] ml-[20%]  text-white text-center bg-[#66023c] p-2">29th June, 2024, Saturday</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]"> Day 5 - Chollerford to Brocolitia/Carrawburgh Roman Fort: 4miles</div>      
+        
+         
+            <div className="bg-[#66023c] text-white font-bold">DETAILS OF THE WALK </div>
+            <div className="font-semibold text-center border-solid mr-1 ml-1 mt-2 mb-2 px-4 py-4 ">            
+        <div className="font-normal pt-2 pb-2  text-black text-center">
+             <ul className="list-none">
+              <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Parking:</div>
+               Brocolitia Roman Fort Car Park and lay-by on B6320 just north of
+                the roundabout at Chollerford.
+              </li>
+              <br />  
+        <br /> 
+         <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Paths:</div>
+                 The Hadrian's Wall path is well-marked, clear and easy to
+                following in this segment, just follow the Acorn signs.{" "}
+              </li>
+              <br />  
+        <br /> 
+              <li  className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Distance:</div>
+              4 miles on the Hadrian's Wall Path<strong> Ascent: </strong> 215 metres, 705 feet.{" "}
+              </li>
+               <br />  
+        <br /> 
+              <li  className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Refreshments:</div>
+              English Heritage Café at Chester's Roman Fort. There is also the
+                Corbridge Coffee Company mobile van daily on Broccolitia Fort
+                car park.
+              </li>
+            </ul>
+             <br />  
+        <br /> 
+            <div className="bg-[#66023c] text-white font-bold text-decoration-underline">GOOD</div>
+             <br />  
+        <br /> 
+        
+            <ul className="list-none">
+                <li className="text-left bg-[#d19b2f] p-4">
+                   <div className="text-[#66023c] font-semibold">Views: </div>
+                 We gained over 200 metres on this walk, as we climbed out of
+                  the valley at Chollerford through which the North Tyne River
+                  runs and up onto the ridge. There were therefore some
+                  extensive and impressive views looking in all directions as
+                  the terrain opened out.                              
+                </li>
+                 <br />  
+        <br /> 
+    
+                <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">Walk : </div>
+                   Very enjoyable walk with extensive views. Easy to navigate.
+                </li>
+                 <br />  
+        <br /> 
+
+        <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">History : </div>
+                   Chester's Roman Fort, which is , together with Vindolanda and
+                  Housesteads, one of the most outstanding Roman Forts on the
+                  Hadrian's Wall path and we would suggest setting aside 2 hours
+                  to visit the fort and museum.
+                </li>
+                 <br />  
+        <br /> 
+
+          <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">Paths : </div>
+                   The rangers keep a wide path of grass cut shorter and request
+                  that you walk 2 abreast to reduce the risk of erosion, which
+                  we attempted as much as possible to do. This made walking on
+                  the paths very straightforward.
+                </li>
+                 <br />  
+        <br /> 
+
+        <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">Weather : </div>
+                    Whilst a rather cloudy day, the wind had dropped from
+                  the previous day and the rainy showers which had been forecast
+                  did not materialise until later in the day.{" "}
+                </li>
+                 <br />  
+        <br /> 
+
+              
+            </ul>
+            <br />
+            <div className="bg-[#66023c] text-white font-bold text-decoration-underline">NOT SO GOOD</div>
+             <br />  
+            <ul className="list-none">
+              <li className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Public Transport:</div>
+               The AD122 bus, which we had planned on taking from Broccolitia
+                Fort back to Chollerford only runs every 2 hours, which meant
+                that, in order to have plenty time to see Chester's Fort, on
+                this occasion we had to take 2 cars, which was not so good.
+              </li>
+               <br />  
+        <br /> 
+             
+            </ul>
+             <div className="bg-[#66023c] text-white font-bold text-decoration-underline">HIKE RATING</div>
+              <br /> 
+            <ul className="list-none">
+              <li className="text-left bg-[#d19b2f] p-4">
+                 <div className="text-[#66023c] text-center font-semibold">9 (out of 10):</div> 
+              </li>
+            </ul>
+          </div>{" "}
+          {/* Closing tag ComponentWalkDetails Class*/}
+          <br />
+          <div className="font-normal text-left bg-[#d19b2f] p-4">
+             This was a reasonably short walk today, being only 4 miles, but we
+            had chosen this option deliberately to allow us plenty of time to
+            see
+            <Link
+              href="https://www.english-heritage.org.uk/visit/places/chesters-roman-fort-and-museum-hadrians-wall/"
+              target="_blank"
+              title="Click here to discover more about Chester's Roman Fort"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Chester's Roman Fort and Museum{" "}
+            </Link>{" "}
+            .
+            <br />
+            <br />
+            This segment is the first of 4 segments which form what is widely
+            considered to be the finest section of the Hadrian's Wall Path
+            (HWP). These 4 sections are also the best-preserved segments of the
+            wall and it becomes obvious as you walk along the path of the wall
+            why this should be, as the landscape becomes increasingly wild and
+            rugged.
+            <br />
+            <br />
+            First of all though, it was time to get our passports stamped at
+            Chester's Fort. The only problem being it was not very clear which
+            section of the passport was for which stamp, so we ended up
+            mistakenly stamping Chester's in the Housesteads slot! Not to worry
+            though, we are sure Northumberland National Parks are used to this
+            and Elena said it was all part and parcel of the Hadrian's Wall
+            experience!...
+            <br />
+            <br />
+            Key points and way-marks on the walk from Chollerford to
+            Brocolitia/Carrawburgh Roman Fort include Chester's Roman Fort,
+            Black Carts wall and Turret (29A), Limestone Corner, the trig point
+            at 250 metres and Limestone corner.
+            <br />
+            <br />
+            <strong>Turret 29A (Black Carts):</strong> Black Carts is a 200 metre section of
+            narrow wall. However, the accompanying Black Carts Turret was built
+            in 122AD for the originally planned 3 metre width broad wall, before
+            the decision was made to build with a reduced width of 1.8 metres.
+            The turrets and small section of wall were built first and then the
+            rest of the wall afterwards. Just to the north of Black Carts Turret
+            the ditch can clearly be seen where, when John Clayton first
+            excavated the site in 1873, he found 3 'centurial' stones showing
+            the names of soldiers who built the section of wall.
+            <br />
+            <br />
+           <strong> Trig point at 250 metres: </strong>Following a climb of about 200 metres from
+            Chollerford, the views now started to open up here. The Cheviot
+            Hills came into view in the north and{" "}
+            <Link
+              href="https://www.chipchasecastle.com/"
+              target="_blank"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              Chipchase Castle
+            </Link>{" "}
+            which has a 14th century Pele tower and a 17th century Jacobean
+            house attached. It is a scheduled ancient monument and Grade 1
+            listed building.
+            <br />
+            <br />
+            <strong>Limestone Corner: </strong>At Limestone Corner, there is an unfinished
+            section of ditch filled with abandoned stone blocks: one slab still
+            show the holes chiselled by the Romans to split the rock. The stone
+            here is hard basalt and it appears that the Romans found this too
+            hard to work with and gave up trying to complete this part of the
+            ditch. Unfortunately, we did not take any photos of Limestone
+            Corner, but this{" "}
+            <Link
+              href="https://perlineamvalli.wordpress.com/tag/limestone-corner/"
+              target="_blank"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Per Lineam Valli{" "}
+            </Link>{" "}
+            website has some interesting information and photographs
+            <br />
+            <br />
+            Once we had successfully reached Brocolitia/Carrawburgh Military
+            Fort we returned to the car in order to travel back to Chester's
+            Roman Fort and spent the remainder of the afternoon there exploring
+            fully the fort and museum, leaving the exploration of Brocolitia
+            Fort for the following morning.
+            <br />
+            <br />
+            <Link
+              href="https://www.english-heritage.org.uk/visit/places/chesters-roman-fort-and-museum-hadrians-wall/"
+              target="_blank"
+              title="Click here to discover more about Chester's Roman Fort"
+              className="text-decoration-underline text-black font-bold md:font-bold underline"
+            >
+              {" "}
+              Chester's Roman Fort and Museum{" "}
+            </Link>{" "}
+            are managed by English Heritage so members can obtain free entry
+            using their membership cards. Chester's Roman Fort is one of the
+            best preserved Roman Ruins in Britain and is certainly, together
+            with{" "}
+            <Link
+              href="https://www.english-heritage.org.uk/visit/places/chesters-roman-fort-and-museum-hadrians-wall/history/collection/"
+              target="_blank"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              John Clayton's museum{" "}
+            </Link>{" "}
+            , one of our favourites. In 1843, John Clayton inherited the site
+            from his father, who had previously turfed over the ruins. John
+            Clayton excavated many parts of the fort and created the museum to
+            house and maintain the many exhibits both from the fort and other
+            segments of the wall. He also developed such a fascination for
+            Hadrian's Wall that he bought up many other large areas of the wall.
+            By the time John died in 1890 he owned five forts – Chesters,
+            Carrawburgh, Housesteads, Vindolanda and Carvoran – as well as most
+            of the Wall within this 20 mile stretch.
+            <br />
+            <br />
+            If you are visiting the Chesters site, we would strongly advise
+            making sure that you leave enough time and that you also have time
+            to see the John Clayton Museum and the Chester's Bridge abutment
+            detour right down to the river (see our previous, Day 4 entry
+            regarding the Chesters Bridge abutment detour), where a narrow
+            footbridge originally carried the Wall across the River North Tyne,
+            but the Romans later replaced this with an impressive stone road
+            bridge. The remains of the stone abutment that joined the bridge to
+            the riverbank survive, along with the foundations of the tower and a
+            section of the wall.
+            <br />
+            <br />
+            The fort was situated astride Hadrian's Wall, guarding the bridge
+            over the river North Tyne and was occupied by a 500 strong cavalry
+            regiment, the ala II Asturum (Second Asturian Cavalry Unit) from
+            Asturia in Northern Western Spain. There are plenty of information
+            boards to provide further explanation for the various areas as you
+            go around the fort.
+          </div>{" "}
+          {/*Closing tag for hwpDailyNarrative div */}
+          <br />
+          <br />
+           <br />
+           <br />
+          <div className="slideshowHostPhotoHwp">
+           <div className="text-white text-semibold">Join us on our 5th day of the Hadrian's Wall Path by clicking on the
+            album below and following our narrative by clicking on the added
+            comments. </div>
+              <Link
+                href="https://photos.app.goo.gl/DzGAUH9XyUbsxUft6"
+                target="_blank"
+              >
+                <Image
+                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                  src={ChollerfordBroccolitia}
+                  alt=""
+                />
+              </Link>
+         
+          </div>{" "}
+          {/* Closing div SlideshowHostPhotoHwp */}
+           <br />
+           <br />
+        </div>{" "}
+        {/* Closing tag datenewsDivHwp */}
+      </div>
+        </div>{" "}
+        </div>
+
+
+
+
+
+
 
 
 
@@ -1951,14 +2245,21 @@ export default function HWP2024() {
         </div>
          </div>
          </div>
-
-
-
-      
-
-      
-   </div>{" "}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  </div>
+</div>{" "}
             </div>{" "}
+
+      
+
+      
+   
          </div> 
           </div>{" "}
          </div> 
