@@ -13,6 +13,7 @@ import Newburn from "/public/imagesresized/Newburn.jpg";
 import DentonHallTurret from "/public/imagesresized/DentonHallTurret.jpg";
 import HeddonItalianClosed2Text from "/public/imagesresized/HeddonItalianClosed2Text.jpg";
 import WillowfordDay9 from "/public/imagesresized/WillowfordDay9.jpg";
+import WhittleChollerford from "/public/imagesresized/WhittleChollerford.jpg";
 
 
 
@@ -1089,6 +1090,403 @@ export default function HWP2024() {
         </div>
 
 
+
+
+
+
+          <div>
+        < div className="mb-20"> 
+      < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
+         < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
+         <div className="font-semibold pt-2 pb-2 mr-[20%] ml-[20%]  text-white text-center bg-[#66023c] p-2">13th July, 2024, Saturday</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]"> Day 4 - Whittle Dene Reservoirs to Chollerford with Brunton
+            Turret(26a) and Chesters Bridge Abutment: 12.6 miles</div>      
+        
+         
+            <div className="bg-[#66023c] text-white font-bold">DETAILS OF THE WALK </div>
+            <div className="font-semibold text-center border-solid mr-1 ml-1 mt-2 mb-2 px-4 py-4 ">            
+        <div className="font-normal pt-2 pb-2  text-black text-center">
+             <ul className="list-none">
+              <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Parking:</div>
+               We parked for free on roadside-parking at Whittle dene
+                reservoirs and the lay-by on the B6320 just north of the
+                roundabout at Chollerford.
+              </li>
+              <br />  
+        <br /> 
+         <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Paths:</div>
+                 Clear, well-marked
+                and sign-posted paths along the entire route. There is a
+                requirement to cross the road at several points, where care is
+                needed. This section has the most stiles of any section of the
+                walk.
+              </li>
+              <br />  
+        <br /> 
+              <li  className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Distance:</div>
+               12.6 miles in total, of which on the Hadrian's Wall Path.<strong> Ascent: </strong>246 metres, 810 feet.{" "}
+              </li>
+               <br />  
+        <br /> 
+              <li  className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Refreshments:</div>
+              Coffees and drinks at the Robin Hood Inn, lunch at the Errington
+                Coffee House.{" "}
+              </li>
+            </ul>
+             <br />  
+        <br /> 
+            <div className="bg-[#66023c] text-white font-bold text-decoration-underline">GOOD</div>
+             <br />  
+        <br /> 
+        
+            <ul className="list-none">
+                <li className="text-left bg-[#d19b2f] p-4">
+                   <div className="text-[#66023c] font-semibold">Navigation: </div>
+                   This section of the Hadrian's Wall Path is very
+                  well-signposted and easy to follow on a clear path.                              
+                </li>
+                 <br />  
+        <br /> 
+    
+                <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">Vallum : </div>
+                  Whilst there is not much wall to see in this section, there is
+                  plenty to see of the vallum, which can be observed quite
+                  clearly. 
+                </li>
+                 <br />  
+        <br /> 
+
+        <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">Local hospitality : </div>
+                  A big plus for the hospitality of the Robin Hood inn and
+                  Errington coffee house en-route. especially given the weather.
+                  They were a life-saver.
+                </li>
+                 <br />  
+        <br /> 
+              
+            </ul>
+            <br />
+            <div className="bg-[#66023c] text-white font-bold text-decoration-underline">NOT SO GOOD</div>
+             <br />  
+            <ul className="list-none">
+              <li className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Weather:</div>
+              It was unfortunately raining all morning, which was a shame.
+              </li>
+               <br />  
+        <br /> 
+              <li className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Distance:</div>
+               This was (together with the detours), at 12.6 miles, at the
+                upper end of an acceptable walk length for the day. However, we
+                did not regret having pushed on that bit extra to see the
+                Brunton Turret and Chesters Wall Abutment detours.
+              </li>
+               <br />  
+        <br />
+            </ul>
+             <div className="bg-[#66023c] text-white font-bold text-decoration-underline">HIKE RATING</div>
+              <br /> 
+            <ul className="list-none">
+              <li className="text-left bg-[#d19b2f] p-4">
+                 <div className="text-[#66023c] text-center font-semibold">8 (out of 10):</div> 
+              </li>
+            </ul>
+          </div>{" "}
+          {/* Closing tag ComponentWalkDetails Class*/}
+          <br />
+          <div className="font-normal text-left bg-[#d19b2f] p-4">
+            Todays walk was to start at{" "}
+            <Link
+              href="https://www.nwt.org.uk/nature-reserves/whittle-dene"
+              target="_blank"
+              title="Click here to discover more about Whittledene reservoirs and nature reserve"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Whittle dene reservoirs and nature reserve{" "}
+            </Link>{" "}
+            and end back at the car at Chollerford roundabout taking in{" "}
+            <Link
+              href="https://www.nwt.org.uk/nature-reserves/whittle-dene"
+              target="_blank"
+              title="Click here to discover more about Whittledene reservoirs and nature reserve"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Whittle dene reservoirs and nature reserve{" "}
+            </Link>
+            , the sites of turrets 17a to 26b and milecastles 17 to 26,{" "}
+            <Link
+              href="https://robinhoodinnnorthumberland.co.uk"
+              target="_blank"
+              title="Click here to discover more about the Robin Hood Inn"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Robin Hood Inn{" "}
+            </Link>{" "}
+            at East Wallhouses (also a stamping station), site of{" "}
+            <Link
+              href="https://www.u3ahadrianswall.co.uk/halton-chesters-roman-fort/"
+              target="_blank"
+              title="Click here to discover more about Halton Chesters Fort (Onnum)"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Halton Chesters Fort (Onnum){" "}
+            </Link>{" "}
+            ,
+            <Link
+              href="https://www.roman-britain.co.uk/places/portgate/"
+              target="_blank"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Port Gate{" "}
+            </Link>
+            ,{" "}
+            <Link
+              href="https://www.tripadvisor.co.uk/ShowUserReviews-g1051961-d1508482-r953594113-The_Errington_Coffee_House-Corbridge_Northumberland_England.html"
+              target="_blank"
+              title="Click here to discover more about the Errington Coffee House"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Errington Coffee House{" "}
+            </Link>
+            ,{" "}
+            <Link
+              href="https://fabulousnorth.com/heavenfield/"
+              target="_blank"
+              title="Click here to discover more about Heavenfield Battle Site and St Oswald's Church"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Heavenfield Battle site and Church of St Oswald{" "}
+            </Link>{" "}
+            ,{" "}
+            <Link
+              href="https://www.english-heritage.org.uk/visit/places/planetrees-roman-wall-hadrians-wall/"
+              target="_blank"
+              title="Click here to discover more about"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Planetrees{" "}
+            </Link>{" "}
+            ,{" "}
+            <Link
+              href="https://www.english-heritage.org.uk/visit/places/brunton-turret-hadrians-wall/"
+              target="_blank"
+              title="Click here to discover more about Brunton Turret"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Brunton Turret (26a){" "}
+            </Link>{" "}
+            , and the{" "}
+            <Link
+              href="https://www.english-heritage.org.uk/visit/places/chesters-bridge-abutment-hadrians-wall/"
+              target="_blank"
+              title="Click here to discover more about Chesters Bridge Abutment"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Chesters Bridge Abutment{" "}
+            </Link>{" "}
+            .
+            <br />
+            <br />
+            After parking the car, we left{" "}
+            <Link
+              href="https://www.nwt.org.uk/nature-reserves/whittle-dene"
+              target="_blank"
+              title="Click here to discover more about Whittledene reservoirs and nature reserve"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Whittle dene reservoirs and nature reserve{" "}
+            </Link>{" "}
+            just before 9.30am in steady rain. Our first stop was intended to be
+            the{" "}
+            <Link
+              href="https://robinhoodinnhadrianswall.co.uk/"
+              target="_blank"
+              title="Click here to discover more about the Robin Hood Inn"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Robin Hood Inn{" "}
+            </Link>{" "}
+            at East Wallhouses, which is also a stamping station for our
+            Hadrian's Wall passports. The Inn apparently dates back to 1752 and
+            is constructed with traditional stone, which is thought to have been
+            sourced from Hadrian’s Wall. The Inn is often mentioned by Hadrian's
+            Wall walkers and local people and in our opinion, having been there,
+            with good reason. In spite of it being 10am in the morning and the
+            owners in the middle of cleaning after breakfast, when we appeared
+            through the door soaking wet, they were more than happy to get us
+            seated, serve us some coffees and chat about their experience doing
+            what we are doing ie. walking the Wall in stages at the weekend,
+            last year. We understand that there is also the Vallum Farm Tearoom
+            on the other side of the road as a possible place for refreshments,
+            although we have not personally visited and it is important to
+            distinguish this from the restaurant at that location.
+            <br />
+            <br />
+            Fully refreshed and dried out a little, and with our passports
+            successfully stamped, we recommenced our journey. The path follows
+            parallel to the B6318 but does cross this road a number of times, so
+            it is necessary to take care. There are many stiles also along this
+            section, which can become a little tiring after a while, but we
+            would not advise being tempted to walk on the road, as some people
+            were doing as the traffic travels very fast and your chances of
+            surviving intact are questionable! The path anyway is well
+            demarcated and signposted and whilst there is a reasonable ascent on
+            all this stretch today, it is very gradual and therefore you do not
+            really notice it. It is also a great stretch for visualising at
+            length, and really getting a feel for the{" "}
+            <Link
+              href="https://en.wikipedia.org/wiki/Vallum_(Hadrian%27s_Wall)"
+              target="_blank"
+              title="Click here to discover more about the Vallum"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Vallum{" "}
+            </Link>{" "}
+            , and you cannot achieve this the same from the road.
+            <br />
+            <br />
+            Eventually, we came to the site of{" "}
+            <Link
+              href="https://www.u3ahadrianswall.co.uk/halton-chesters-roman-fort/"
+              target="_blank"
+              title="Click here to discover more about Halton Chesters Fort (Onnum)"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Halton Chesters Fort (Onnum){" "}
+            </Link>
+            , near Halton Castle before finally reaching Errington roundabout,
+            the site of{" "}
+            <Link
+              href="https://www.roman-britain.co.uk/places/portgate/"
+              target="_blank"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Port Gate{" "}
+            </Link>
+            , and our lunch stop <em>(yeah!)</em>{" "}
+            <Link
+              href="https://www.tripadvisor.co.uk/ShowUserReviews-g1051961-d1508482-r953594113-The_Errington_Coffee_House-Corbridge_Northumberland_England.html"
+              target="_blank"
+              title="Click here to discover more about the Errington Coffee House"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Errington Coffee House{" "}
+            </Link>{" "}
+            , which was <em>extremely</em> busy, so we would advise making sure
+            you are there promptly if you are intending to eat there. It is very
+            reasonably-priced.
+            <br />
+            <br />
+            After lunch, it was time to head towards an important 7th century
+            battle site, the{" "}
+            <Link
+              href="https://fabulousnorth.com/heavenfield/"
+              target="_blank"
+              title="Click here to discover more about Heavenfield Battle Site and St Oswald's Church"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Heavenfield Battle site and Church of St Oswald{" "}
+            </Link>{" "}
+            and then{" "}
+            <Link
+              href="https://www.english-heritage.org.uk/visit/places/planetrees-roman-wall-hadrians-wall/"
+              target="_blank"
+              title="Click here to discover more about"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Planetrees{" "}
+            </Link>{" "}
+            which was where can be seen a really good example of a piece of the
+            Roman Wall which demonstrates the reduction from the building of the
+            Wall initially as broad gauge and subsequently, seemingly for the
+            purposes of increased speed and reduction in cost, as narrow gauge.
+            We were quite tired by now but it was decided that we could not
+            venture out all this way without also adding in the detours to{" "}
+            <Link
+              href="https://www.english-heritage.org.uk/visit/places/brunton-turret-hadrians-wall/"
+              target="_blank"
+              title="Click here to discover more about Brunton Turret"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Brunton Turret (26a){" "}
+            </Link>{" "}
+            , and the{" "}
+            <Link
+              href="https://www.english-heritage.org.uk/visit/places/chesters-bridge-abutment-hadrians-wall/"
+              target="_blank"
+              title="Click here to discover more about Chesters Bridge Abutment"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Chesters Bridge Abutment{" "}
+            </Link>
+            . The Chesters Bridge Abutment detour, alongside the east bank of
+            the river North Tyne does, at the end of a long day, seem like a bit
+            of a trek, but having undertaken it, it is in our opinion well worth
+            the effort.
+          </div>{" "}
+          {/*Closing tag for hwpDailyNarrative div */}
+          <br />
+          <br />
+           <br />
+           <br />
+          <div className="slideshowHostPhotoHwp">
+           <div className="text-white text-semibold">Join us on our 4th day of the Hadrian's Wall Path by clicking on the
+            album below and following our narrative by clicking on the added
+            comments. </div>
+              <Link
+                href="https://photos.app.goo.gl/K7VFmkjym23aazvd8"
+                target="_blank"
+              >
+                <Image
+                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                  src={WhittleChollerford}
+                  alt=""
+                />
+              </Link>
+         
+          </div>{" "}
+          {/* Closing div SlideshowHostPhotoHwp */}
+           <br />
+           <br />
+        </div>{" "}
+        {/* Closing tag datenewsDivHwp */}
+      </div>
+        </div>{" "}
+        </div>
+
+
+
+
+
+
+
            <div>
         < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
@@ -1559,7 +1957,7 @@ export default function HWP2024() {
       
 
       
-   
+   </div>{" "}
             </div>{" "}
          </div> 
           </div>{" "}
