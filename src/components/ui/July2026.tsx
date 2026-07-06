@@ -1,11 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import CathyRobinLowtherTitled from "/public/imagesresized/CathyRobinLowtherTitled.jpg";
+import HermitageHarryTitled from "/public/imagesresized/HermitageHarryTitled.jpg";
+import BanksEastGilslandTitled from "/public/imagesresized/BanksEastGilslandTitled.jpg";
 
 
 export default function July2026() {
   return (
-    <div className="">
+    <div>
       <div className="bg-HermitageFerry bg-cover border-solid border-8 border-[#336600] md:p-4 mb-8 h-[80vh] text-gray-800 text-center font-normal text-l p-3">
         <div className="bg-[#336600] mr-[7%] ml-[7%] md:mr-[40%] md:ml-[40%] p-1 border-gray-800 border-2 text-white font-semibold">July 2026</div>
         <br />
@@ -29,8 +31,6 @@ export default function July2026() {
                    <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#336600]">4th July 2026, Tuesday.</div> {/*End of news date block*/}
                         <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]">Hadrian's Wall Path West to East (abridged): Day 6, Banks East Turret to Gilsland.</div>
                   <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#336600]">
-                    
-
                           <br />
                           <br />
                     <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#336600] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of the 6th day of our Hadrian's Wall Path walk West to East (abridged): Banks East Turret to Gilsland.
@@ -39,13 +39,13 @@ export default function July2026() {
                                 Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
                              </div>
                             <Link
-                              href="https://photos.app.goo.gl/qt7GXmL5ofti2uc59"
+                              href="https://photos.app.goo.gl/2hWBCwaw1fcviKuz8"
                               target="_blank"
                             >
                               <Image
-                                src={CathyRobinLowtherTitled}
+                                src={BanksEastGilslandTitled}
                                 className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
-                                alt="Photo of Cathy, Robin and the dogs Wilf and Nell, at Lowther Castle.."
+                                alt="Photo of Bernard and Harry by the car at Banks East Turret parking."
                               />
                             </Link>
                           </div>{" "}
@@ -67,13 +67,13 @@ export default function July2026() {
                                 Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
                              </div>
                             <Link
-                              href="https://photos.app.goo.gl/qt7GXmL5ofti2uc59"
+                              href="https://photos.app.goo.gl/AwATguNTF9Tv1TD8A"
                               target="_blank"
                             >
                               <Image
-                                src={CathyRobinLowtherTitled}
+                                src={HermitageHarryTitled}
                                 className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
-                                alt="Photo of Cathy, Robin and the dogs Wilf and Nell, at Lowther Castle.."
+                                alt="Photo of Harry on the steps of Warkworth hermitage"
                               />
                             </Link>
                           </div>{" "}
