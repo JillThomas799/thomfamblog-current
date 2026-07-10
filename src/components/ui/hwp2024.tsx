@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Romaneagle from "./eagle"
 import HWPThermometer from "./hwpthermometer"
 import NewcastleQuayside from "/public/imagesresized/NewcastleQuayside.jpg";
-import HWPIntro from "/public/imagesresized/HWPIntro.jpg";
+import HwpIntro from "/public/imagesresized/HwpIntro.jpg";
 import TyneKingGeorgeTitled from "/public/imagesresized/TyneKingGeorgeTitled.jpg";
 import Branzinos from "/public/imagesresized/Branzinos.jpg";
 import DunstonStaithes from "/public/imagesresized/DunstonStaithes.jpg";
@@ -37,7 +37,7 @@ export default function HWP2024() {
 
          <Image
                   className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
-                  src={HWPIntro}
+                  src={HwpIntro}
                   alt=""
                 />
          <div className="font-semibold pt-2 pb-2 mr-[10%] ml-[10%]  text-white text-center bg-[#66023c]">   1st June, 2024 onwards.... Hadrian's Wall Long Distance Path</div> {/*End of news date block*/}
