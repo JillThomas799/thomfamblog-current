@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import "./july2025.css";
 import waitingPatientlyFlightExperience from "/public/imagesresized/waitingPatientlyFlightExperience.jpg";
 import ehbflightExperienceExterior from "/public/imagesresized/ehbflightExperienceExterior.jpg";
 import eh04072025flightExperience from "/public/imagesresized/eh04072025flightExperience.jpg";
