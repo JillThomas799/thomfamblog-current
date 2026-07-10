@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import "./hwp2024.css";
+// import "./hwp2024.css";
 import Romaneagle from "./eagle"
 import HWPThermometer from "./hwpthermometer"
 import NewcastleQuayside from "/public/imagesresized/NewcastleQuayside.jpg";
