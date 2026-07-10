@@ -75,19 +75,16 @@ export default function July2026() {
                     Hence, it had been an early start from our home, with Harry driving the manual Superbe diesel car for the first time in a long time, having got used to the automatic EV. 
                      <br />
                           <br />
-                          Warkworth Castle and Hermitage form one of the most spectacular pairing of medieval monuments in Britain. The castle was probably constructed in its current form in 1200 by Robert fitz Roger and developed by its subsequent owners the Percy family, who were the earls (and Later dukes) of Northumberland.
-                          <br />
-                          <br />
-                          The scale and ambition of the castle reflect the power and pretensions of the Percy family, who were among the greatest landowners in Northern England.
+                          Warkworth Castle and Hermitage form one of the most spectacular pairing of medieval monuments in Britain. The castle was probably constructed in its current form in 1200 by Robert fitz Roger and developed by its subsequent owners the Percy family, who were the earls (and Later dukes) of Northumberland and who also owned the nearby Alnwick Castle.  The scale and ambition of the castle reflect the power and pretensions of the Percy family, who were among the greatest landowners in Northern England.
                             <br />
                           <br />
                         Despite the early start, we had a lovely day exploring the castle and really enjoyed the 2 minute ferry ride over to the Hermitage. Ray, our guide, was very interesting and told us all about the history. We were fortunate as the weather was fine, however thunderstorms were forecast for 14.00 so it was as well we got on the ferry crossing when we did.
                             <br />
                           <br />
-                          On returning to the castle we took the car the 1.5-2 miles down to the harbour at Amble and went for lunch at <Link href="radcliffes cafe bar amble"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline">Radcliffe's café bar</Link> Amble which serves a varied food menu including German sausages and kebabs and a wide range of drinks.
+                          On returning to the castle we took the car the 1.5-2 miles down to the harbour at Amble and went for lunch at <Link href="radcliffes cafe bar amble"  target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline">Radcliffe's café bar</Link> Amble which serves a varied food menu including German sausages and kebabs and a wide range of drinks. This brought back good memories of Harry's Summer in Ulm, Germany in 2018 and eating Currywurst in Heidelberg.
                              <br />
                           <br />
-                          It was Sunday lunch and Amble was seriously busy (it felt like half of Newcastle was there). However, it turned out it was RMS Mauretiana day so this probably accounted for some of the crowds. RMS Mauretiana described Amble as the 'Friendliest Port'.
+                          It was Sunday lunch and Amble was seriously busy (it felt like half of Newcastle was there). However, it turned out it was RMS Mauretiana day so this probably accounted for some of the crowds. RMS Mauretiana described Amble as the 'Friendliest Port' (see the information board in the photo album below).
                              <br />
                           <br />
                     <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#336600] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of our visit to Warkworth Castle and Hermitage with Currywurst German lunch in Amble.
