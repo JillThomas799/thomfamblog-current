@@ -71,7 +71,17 @@ export default function July2026() {
                    <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#336600]">5th July 2026, Sunday.</div> {/*End of news date block*/}
                         <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]">Warkworth Castle and Hermitage, Amble fishing village.</div>
                   <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#336600]">
+                    For quite some time now Warkworth Castle and Hermitage have been on our 'bucket list'. However, the Hermitage is only open on Sundays and Mondays between 11am and 4pm. Tickets (which cannot be pre-booked) are obtainable from the main castle ticket office and are limited to 6 people every half an hour, so it is first come, first serve!
                           <br />
+                          <br />
+                    Hence, it had been an early start from our home, with Harry driving the manual Superbe diesel car for the first time in a long time (he has got used to the automatic EV). 
+                     <br />
+                          <br />
+                          Warkworth Castle and Hermitage form one of the most spectacular pairing of medieval monuments in Britain. The castle was probably constructed in its current form in 1200 by Robert fitz Roger and developed by its subsequent owners the Percy family, who were the earls (and Later dukes) of Northumberland.
+                          <br />
+                          <br />
+                          The scale and ambition of the castle reflect the power and pretensions of the Percy family, who were among the greatest landowners in Northern England.
+                            <br />
                           <br />
                     <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#336600] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of our visit to Warkworth Castle and Hermitage with Currywurst German lunch in Amble.
                           <br />
