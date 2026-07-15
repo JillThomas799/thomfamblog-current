@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CathyRobinLowtherTitled from "/public/imagesresized/CathyRobinLowtherTitled.jpg";
 import HermitageHarryTitled from "/public/imagesresized/HermitageHarryTitled.jpg";
 import BanksEastGilslandTitled from "/public/imagesresized/BanksEastGilslandTitled.jpg";
+import Shambles11072026Titled from "/public/imagesresized/Shambles11072026Titled.jpg";
 
 
 export default function July2026() {
@@ -108,8 +109,38 @@ export default function July2026() {
 
 
 
-                  
+                    < div className="mb-20"> 
+                < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#96AD93]">
+                   < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+                   <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#336600]">11th July 2026, Saturday.</div> {/*End of news date block*/}
+                        <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]">York Holiday Day 1: York - Jorvik, Clifford Tower, York Minster and Theatre visit</div>
+                  <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#336600]">
+                   
+                             <br />
+                          <br />
+                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-black border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of our
+                          <br />day in York visiting the Shambles, the city walls, Jorvik, Clifford Tower, York Minster and evening at the theatre.
+                          <br />
+                                Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                             </div>
+                            <Link
+                              href="https://photos.app.goo.gl/SGpqtUtSBzJSRUUv9"
+                              target="_blank"
+                            >
+                              <Image
+                                src={Shambles11072026Titled}
+                                className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
+                                alt="Photo of Bernard in the Shambles medieval street, York."
+                              />
+                            </Link>
+                          </div>{" "}
+                          </div>
+                   </div>
 
+
+
+                  
+</div>
      </div>
 </div>
 </div>
