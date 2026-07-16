@@ -46,7 +46,7 @@ export default function July2026() {
                      <br />
                           <br />
                 
-                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#336600] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of the 6th day of our Hadrian's Wall Path walk West to East (abridged): Banks East Turret to Gilsland.
+                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of the 6th day of our Hadrian's Wall Path walk West to East (abridged): Banks East Turret to Gilsland.
                           <br />
                           <br />
                                 Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
@@ -88,7 +88,7 @@ export default function July2026() {
                           It was Sunday lunch and Amble was seriously busy (it felt like half of Newcastle was there). However, it turned out it was RMS Mauretiana day so this probably accounted for some of the crowds. RMS Mauretiana described Amble as the 'Friendliest Port' (see the information board in the photo album below).
                              <br />
                           <br />
-                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#336600] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of our visit to Warkworth Castle and Hermitage with Currywurst German lunch in Amble.
+                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of our visit to Warkworth Castle and Hermitage with Currywurst German lunch in Amble.
                           <br />
                           <br />
                                 Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
@@ -115,10 +115,14 @@ export default function July2026() {
                    <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#336600]">11th July 2026, Saturday.</div> {/*End of news date block*/}
                         <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]">York Holiday Day 1: York - Jorvik, Clifford Tower, York Minster and Theatre visit</div>
                   <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#336600]">
-                   
+                   We were here in York on our presumed last short break holiday away of the year. Mind you, that has yet to be seen as things keep cropping up and additional invites coming in.....   
+                   <br />
+                          <br />  
+                          We have had many visits to York in the past. We were last in York in 2015 with Harry on both 29th October and 19th August for York university Open day and York university Chemistry Open Days respectively. Before that, Jill was in York on the 4th July 2013 with Elena for the Chemistry open day. Earlier still, on the 15th and 16th March 2008 with Harry when we visited the Jorvik museum and Eden Camp, when we stayed in The Coach House, York. 29th April 2000 when we visited the National Railway Museum. 26th and 27th May 2001 when we had a minibreak in the York Novotel.
+                          As these visits were all for a specific purpose relating to Elena and Harry and York was kind of the sideline, we felt it would be good to have a few days here to explore in a relaxed fashion and enjoy the city and hopefully get over to the coast. 
                              <br />
                           <br />
-                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-black border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of our
+                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of our
                           <br />day in York visiting the Shambles, the city walls, Jorvik, Clifford Tower, York Minster and evening at the theatre.
                           <br />
                                 Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
