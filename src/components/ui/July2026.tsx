@@ -118,10 +118,19 @@ export default function July2026() {
                    We were here in York on our presumed last short break holiday away of the year. Mind you, that has yet to be seen as things keep cropping up and additional invites coming in.....   
                    <br />
                           <br />  
-                          We have had many visits to York in the past. We were last in York in 2015 with Harry on both 29th October and 19th August for York university Open day and York university Chemistry Open Days respectively. Before that, Jill was in York on the 4th July 2013 with Elena for the Chemistry open day. Earlier still, on the 15th and 16th March 2008 with Harry when we visited the Jorvik museum and Eden Camp, when we stayed in The Coach House, York. 29th April 2000 when we visited the National Railway Museum. 26th and 27th May 2001 when we had a minibreak in the York Novotel.
-                          As these visits were all for a specific purpose relating to Elena and Harry and York was kind of the sideline, we felt it would be good to have a few days here to explore in a relaxed fashion and enjoy the city and hopefully get over to the coast. 
+                          We have had many visits to York in the past. We were last in York in 2015 with Harry on both 29th October and 19th August for York university Open day and York university Chemistry Open Days respectively. Before that, Jill was in York on the 4th July 2013 with Elena for the Chemistry open day and has vivid memories of setting off before 6am to drive across the M62, so that by the afternoon she was in the Yorkshire Museum and saw some cushioned long seating in the Romans section which she just needed to lie down on and go to sleep.... Earlier still, on the 15th and 16th March 2008 with Harry when we visited the Jorvik museum and Eden Camp, when we stayed in The Coach House, York. Additionally on the 29th April 2000 when we visited the National Railway Museum and the 26th and 27th May 2001 when we had a minibreak in the York Novotel.
+                           <br />
+                          <br />
+                          As these visits were all for a specific purpose relating to Elena and Harry and York city and sights was kind of the sideline, we felt it would be good to have a few days here to explore in a relaxed fashion, enjoy the city and hopefully get over to the coast. 
                              <br />
                           <br />
+                          We booked on to the Jorvik exhibition which recreates the Viking street discovered under Coppergate in the 1970s and includes a motorised car ride through the streets with animatronic models, actors and realistic smells of the time. We then went to Clifford's tower which is part of the original York castle and is today run and maintained by English Heritage. It has a spectacular 360 degree viewing tower on the top. In the afternoon we had an interesting guided tour around York Minster and in the evening we had booked to see 'I'm Sorry Prime Minister' at the Grand Opera House, York.''
+                            <br />
+                          <br />
+                          
+ <br />
+                          <br />
+
                     <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of our
                           <br />day in York visiting the Shambles, the city walls, Jorvik, Clifford Tower, York Minster and evening at the theatre.
                           <br />
