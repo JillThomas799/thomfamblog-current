@@ -6,6 +6,7 @@ import BanksEastGilslandTitled from "/public/imagesresized/BanksEastGilslandTitl
 import RavenglassJuly2026Titled from "/public/imagesresized/RavenglassJuly2026Titled.jpg";
 import Shambles11072026Titled from "/public/imagesresized/Shambles11072026Titled.jpg";
 import PizzaTullieBTTitled from "/public/imagesresized/PizzaTullieBTTitled.jpg";
+import LowtherRoseBJHTitled from "/public/imagesresized/LowtherRoseBJHTitled.jpg";
 
 
 export default function July2026() {
@@ -103,6 +104,36 @@ export default function July2026() {
                       src={HermitageHarryTitled}
                       className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
                       alt="Photo of Harry on the steps of Warkworth hermitage"
+                    />
+                  </Link>
+                </div>{" "}
+              </div>
+            </div>
+
+
+
+            < div className="mb-20">
+            < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#96AD93]">
+              < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+                <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#336600]">7th July 2026, Tuesday.</div> {/*End of news date block*/}
+                <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]">Harry's holidays - Visit to Lowther Castle and Rose Garden.</div>
+                <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#336600]">
+               The work on making safe and partially restoring the previously closed West wing of Lowther Castle has recently been completed and the rose garden was due to be fully in bloom, so we decided a visit to Lowther Castle was called for. Work on the courtyard canopy for the café is making progress and that should be good once complete. Everything was looking great.
+                  <br />
+                  <br />
+                  <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of our visit to Lowther Castle and Rose Garden.
+                    <br />
+                    <br />
+                    Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                  </div>
+                  <Link
+                    href="https://photos.app.goo.gl/NRUcSZdHx8awum7g6"
+                    target="_blank"
+                  >
+                    <Image
+                      src={LowtherRoseBJHTitled}
+                      className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[40%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
+                      alt="Photo of Bernard,Jill and Harry in Lowther Rose Garden."
                     />
                   </Link>
                 </div>{" "}
@@ -229,7 +260,8 @@ export default function July2026() {
 
 
 
-  </div>
+           </div>
+            </div>
             </div>
             </div>
           </div>
