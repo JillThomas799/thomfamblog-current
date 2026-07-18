@@ -7,6 +7,7 @@ import RavenglassJuly2026Titled from "/public/imagesresized/RavenglassJuly2026Ti
 import Shambles11072026Titled from "/public/imagesresized/Shambles11072026Titled.jpg";
 import PizzaTullieBTTitled from "/public/imagesresized/PizzaTullieBTTitled.jpg";
 import LowtherRoseBJHTitled from "/public/imagesresized/LowtherRoseBJHTitled.jpg";
+import TullieNLTTitled from "/public/imagesresized/TullieNLTTitled.jpg";
 
 
 export default function July2026() {
@@ -109,6 +110,43 @@ export default function July2026() {
                 </div>{" "}
               </div>
             </div>
+
+
+            < div className="mb-20">
+            < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#96AD93]">
+              < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+                <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#336600]">6th July 2026, Monday.</div> {/*End of news date block*/}
+                <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]">Bernard and Jill go to see the National Theatre Live production of Dangerous Liaisons at the Tullie Museum and try out the Tullie supper club beforehand.</div>
+                <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#336600]">
+             The performance of <em>Les Liaisons Dangeureuses</em> being shown was filmed live on stage at the National Theatre with Marianne Elliott (Angels in America) directing. 
+             The lead roles were played by BAFTA Award-winner Lesley Manville (Phantom Thread) and Aidan Turner (Rivals, Poldark) in a striking new staging of Christopher Hampton’s celebrated adaptation of Choderlos de Laclos’ classic novel, where among the glittering salons of the super-rich, one misstep can mean ruin. 
+                  <br />
+                  <br />
+             For previous National Theatre Live performances, we have tended to go to Rheged, but the Tullie at Carlisle is closer and it has the advantage that as we are now Friends of the Tullie, we can obtain a discount off tickets and they have a pre-performance supper club in the restaurant where you can get a <Link href="https://tullie.org.uk/wp-content/uploads/2025/09/NTL-Supper-Club-menu.pdf" target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline">2 course dinner</Link> for £20.00 and a very pleasant meal it was too.
+                   <br />
+                  <br />
+                  It was quite a long play (3 hours), but there was an interval mid way and together with the meal, it made for a pleasant outing.  It was interesting to see an older Aidan Turner playing a non-Poldark role. The script sticks closely to that of the original film with John Malkovitch, Glenn Close and Michelle Pfeifer, which we saw at the cinema in Leamington Spa in December 1988. The original film still has the edge though, not least because of John Malkovitch's menace....
+                   <br />
+                  <br />
+                  <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of our visit to see the National Theatre Live production of Dangerous Liaisons at the Tullie Museum and try out the Tullie supper club beforehand.
+                    <br />
+                    <br />
+                    Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                  </div>
+                  <Link
+                    href="https://photos.app.goo.gl/bpR7sZPsLbjDBd5L6"
+                    target="_blank"
+                  >
+                    <Image
+                      src={TullieNLTTitled}
+                      className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[40%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
+                      alt="Photo of Bernard,Jill and Harry in Lowther Rose Garden."
+                    />
+                  </Link>
+                </div>{" "}
+              </div>
+            </div>
+
 
 
 
@@ -260,6 +298,7 @@ export default function July2026() {
 
 
 
+           </div>
            </div>
             </div>
             </div>
