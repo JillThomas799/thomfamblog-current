@@ -5,6 +5,7 @@ import HermitageHarryTitled from "/public/imagesresized/HermitageHarryTitled.jpg
 import BanksEastGilslandTitled from "/public/imagesresized/BanksEastGilslandTitled.jpg";
 import RavenglassJuly2026Titled from "/public/imagesresized/RavenglassJuly2026Titled.jpg";
 import Shambles11072026Titled from "/public/imagesresized/Shambles11072026Titled.jpg";
+import PizzaTullieBTTitled from "/public/imagesresized/PizzaTullieBTTitled.jpg";
 
 
 export default function July2026() {
@@ -150,6 +151,40 @@ export default function July2026() {
 
 
 
+            < div className="mb-20">
+            < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#96AD93]">
+              < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+                <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#336600]">9th July 2026, Thursday.</div> {/*End of news date block*/}
+                <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]">Harry's holidays - Bernard and Harry go for Summer pizzas at the Tullie museum café, Carlisle.</div>
+                <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#336600]">
+                Bernard and Harry had spotted a week or two ago that the café at the Tullie museum were bringing home made Summer pizzas to the café menu for the first time. The so-called Summer Pizzas are fresh 12-inch pizzas made to order which can be eaten in taken away. For the first time the catering operation at the Tullie museum has been taken in house. This means more of the money visitors spend in the café can go towards making Tullie more financially sustainable and help care for the collections and buildings on behalf of the people of Carlisle. Our personal view also is that the quality of the food and service has improved markedly as a result.
+                  <br />
+                  <br />
+                  Since seeing the option of the Summer pizza menu, there had been a number of attempts made to engineer a visit to the café to try out the pizzas. Today Bernard and Harry were successful as Harry was on holiday from work. The pizzas were huge but very tasty.
+                  <br />
+                  <br />
+                  <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to see the photos of Harry and Bernard enjoying their very large Summer pizzas at the Tullie museum café, Carlisle.
+                    <br />
+                    <br />
+                    Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                  </div>
+                  <Link
+                    href="https://photos.app.goo.gl/1NQrJVUpaiEJbxxp8"
+                    target="_blank"
+                  >
+                    <Image
+                      src={PizzaTullieBTTitled}
+                      className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
+                      alt="Photo of Bernard with his very large time-traveller pizza."
+                    />
+                  </Link>
+                </div>{" "}
+              </div>
+            </div>
+
+
+
+
 
             < div className="mb-20">
               < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#96AD93]">
@@ -194,7 +229,7 @@ export default function July2026() {
 
 
 
-
+  </div>
             </div>
             </div>
           </div>
