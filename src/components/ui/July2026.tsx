@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CathyRobinLowtherTitled from "/public/imagesresized/CathyRobinLowtherTitled.jpg";
 import HermitageHarryTitled from "/public/imagesresized/HermitageHarryTitled.jpg";
 import BanksEastGilslandTitled from "/public/imagesresized/BanksEastGilslandTitled.jpg";
+import RavenglassJuly2026Titled from "/public/imagesresized/RavenglassJuly2026Titled.jpg";
 import Shambles11072026Titled from "/public/imagesresized/Shambles11072026Titled.jpg";
 
 
@@ -30,7 +31,7 @@ export default function July2026() {
           < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#96AD93]">
             < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
               <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#336600]">4th July 2026, Saturday.</div> {/*End of news date block*/}
-              <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]">Hadrian's Wall Path West to East (abridged): Day 6, Banks East Turret to Gilsland.</div>
+              <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]">Harry's holidays - Hadrian's Wall Path West to East (abridged): Day 6, Banks East Turret to Gilsland.</div>
               <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#336600]">
                 Today, it was time for more Hadrian's Wall walking as we were on to day 6, Banks East Turret to Gilsland. We were now approaching some of the main and most interesting parts of the wall as originally, the stone wall only ran from Wallsend as far as Birdoswald Fort and after that it was turf.  Subsequently, the turf wall was also converted to stone. From here on in is a segment where a significant amount of the original wall remains.
                 <br />
@@ -70,7 +71,7 @@ export default function July2026() {
             < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#96AD93]">
               < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
                 <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#336600]">5th July 2026, Sunday.</div> {/*End of news date block*/}
-                <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]">Warkworth Castle and Hermitage, Amble fishing village.</div>
+                <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]">Harry's holidays - Warkworth Castle and Hermitage, Amble fishing village.</div>
                 <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#336600]">
                   For quite some time now Warkworth Castle and Hermitage have been on our 'bucket list' of things to do. However, the Hermitage is only open on Sundays and Mondays between 11am and 4pm. Tickets (which cannot be pre-booked) are obtainable from the main castle ticket office and are limited to 6 people every half an hour,
                   Hence, it had been an early start from our home, with Harry driving the manual Superbe diesel car for the first time in a long time, having got used to the automatic EV.
@@ -106,6 +107,47 @@ export default function July2026() {
                 </div>{" "}
               </div>
             </div>
+
+< div className="mb-20">
+            < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#96AD93]">
+              < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+                <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#336600]">8th July 2026, Wednesday.</div> {/*End of news date block*/}
+                <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]">Harry's holidays - A ride with Harry on the Ravenglass-Eskdale railway out to Dalegarth Station, Eskdale and return walk back to Ravenglass.</div>
+                <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#336600]">
+                We had enjoyed ourselves very much on our recent trip on the Ravenglass and Eskdale railway but unfortunately, Harry had missed out on that day as he was working. Fortunately Harry was on holiday from work this week, and we were keen to try out purchasing a single ticket on the <Link href="https://ravenglass-railway.co.uk/" target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline">Ravenglass-Eskdale steam railway</Link> out to Dalegarth Station and then walking the 7 miles back to Ravenglass on foot.   
+                 <br />
+                  <br />
+                  The weather forecast was looking good and Harry had offered to drive us there (it is a 2 hour drive, or there about, allowing for slow moving vehicles such as tractors), so at 10am or there about we arrived at Ravenglass station. We managed to obtain seats in a semi-open compartment, which was very pleasant given it was a hot day and we were soon on our way towards the hills.       
+                  <br />
+                  <br />
+                  We dismounted the train at Dalegarth Station and organised some refreshments from the café before commencing our walk back to the car at Ravenglass. There are a number of ways you can return to Ravenglass on foot, depending on your time and energy levels. There are also plenty of circular walks to do from the station itself in the surrounding countryside and then returning on the steam train to Ravenglass. 
+                  <br />
+                  <br />
+                  We were picking up the Esk trail. The initial section departing the village of Boot can be a bit tricky to work out, but there is a bridge to cross the river a little higher upstream, you do not have to use the stepping stones, which in any case were impassable on the day we were there! A warning also that the walk is classified easy-moderate, the moderate section being a steep and slightly prolonged climb up the side of Muncaster fell towards the end of the walk, so it is worth bearing this in mind. It was well worth it for the views of the Irish seas on commencing the descent though.....
+                   <br />
+                  <br />
+                  We had a great day and would recommend this trip for anyone visiting or staying in the area.
+                  <br />
+                  <br />
+                  <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of our ride with Harry on the Ravenglass-Eskdale railway out to Dalegarth and return walk back to Ravenglass.
+                    <br />
+                    <br />
+                    Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                  </div>
+                  <Link
+                    href="https://photos.app.goo.gl/4uabff3wRfKhY1E39"
+                    target="_blank"
+                  >
+                    <Image
+                      src={RavenglassJuly2026Titled}
+                      className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
+                      alt="Photo of Jill and Harry on Ravenglass Station platform."
+                    />
+                  </Link>
+                </div>{" "}
+              </div>
+            </div>
+
 
 
 
@@ -153,6 +195,7 @@ export default function July2026() {
 
 
 
+            </div>
             </div>
           </div>
         </div>
