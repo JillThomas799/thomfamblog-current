@@ -8,6 +8,7 @@ import Shambles11072026Titled from "/public/imagesresized/Shambles11072026Titled
 import PizzaTullieBTTitled from "/public/imagesresized/PizzaTullieBTTitled.jpg";
 import LowtherRoseBJHTitled from "/public/imagesresized/LowtherRoseBJHTitled.jpg";
 import TullieNLTTitled from "/public/imagesresized/TullieNLTTitled.jpg";
+import WhitbyAbbeyTitled from "/public/imagesresized/WhitbyAbbeyTitled.jpg";
 
 
 export default function July2026() {
@@ -252,9 +253,6 @@ export default function July2026() {
             </div>
 
 
-
-
-
             < div className="mb-20">
               < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#96AD93]">
                 < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
@@ -274,11 +272,9 @@ export default function July2026() {
                     <br />
                     <br />
 
-                    <br />
-                    <br />
-
                     <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of our
-                      <br />day in York visiting the Shambles, the city walls, Jorvik, Clifford Tower, York Minster and evening at the theatre.
+                     day in York visiting the Shambles, the city walls, Jorvik, Clifford Tower, York Minster and evening at the theatre.
+                      <br />
                       <br />
                       Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
                     </div>
@@ -297,7 +293,56 @@ export default function July2026() {
               </div>
 
 
+              < div className="mb-20">
+              < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#96AD93]">
+                < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+                  <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#336600]">12th July 2026, Sunday.</div> {/*End of news date block*/}
+                  <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]">York Holiday Day 2: Whitby and Whitby Abbey</div>
+                  <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#336600]">
+                    The name Whitby is Danish and was given to this current Yorkshire coastal town and port, located at the mouth of the river Esk, by Viking settlers during the 9th century. Prior to that it was called Streaneshalch and occupies an important place in the history of England. In the 5th and 6th centuries Angles and Saxons from Northern Europe settled in Britain. The Angles settled in the north and East whilst the Saxons setlled in the South and West. In the north, Anglian settlers founded 2 kingdoms: Deira, represented by modern day Yorkshire and Bernicia, which covered Durham and Northumberland and stretched into lowland Scotland. In the 7th century, the 2 were combined to form the Kingdom of Northumberland.
+                    <br />
+                    <br />
+                    Until the 6th century the Anglo-Saxons were pagans, worshipping gods such as Woden, Tiw and Freya. Their subsequent conversion to Christianity came from 2 different routes. The first originated in Rome,  from where Pope Gregory the Great sent Augustine (d.604) on a mission to England in 597. Augustine landed in Kent, where he where he converted King Aethelberht of Kent (reigned 560-616) and his people. Augustine's followers spread out, among them Paulinus (d.640). He reached  Northumbria in 627, converted King Edwin (d.633) and baptised him and his household.
+                    <br />
+                    <br />
+                    Meanwhile Christianity was also being brought to England by Celtic missionaries from Ireland. These missionaries first converted the inhabitants of Scotland and then moved South. The Celtic tradition was relatively isolated, and had little contact with the centralising power of Rome as represented by Augustine.
 
+                     <br />
+                    <br />
+                    The conversion of the peoples of Britain to Christianity did not proceed smoothly as many resisted the new faith and fought against it. Following a series of mid 7th Century battles between the Christian kings of Northumbria and the pagan rulers from elsewhere in Britain, Oswiu of Northumbria (d.670) finally defeated the forces of paganism led by Penda of Mercia at the Battle of Winwaed in 655 and the future of Christianity in northern England was secured. The Christian Oswiu became King of Northumbria and married King Edwin's daughter Eanflaed. The minster at Whitby - or Straneshalch - was founded by King Oswiu in AD 655 to give thanks for this great victory and he appointed Hild to be in charge.
+                     <br />
+                    <br />
+                    The minster and settlement had disappeared by the end of the 9th century, presumably as a result of Viking raids along the English coast. Following the Norman conquest, a Benedictine monastery was founded on the site at the end of the 11th century and remained in place until it was suppressed in 1537. Its site and the surrounding estates were bought by the Cholmleys, a new rich land-owning family. They deemolished the monastic buildings but left the shell of the church, and adapted the former abbot's lodgings as a residence, adding a grand new wing to it in the 1670s.
+                     <br />
+                    <br />
+                    By the later 18th century, the abbey had become a picturesque ruin and a historic monument. In the 19th century, Whitby became a popular tourist destination, a thriving port and fammouly a setting for the London theatre manager and writer Bram Stoker's 1897 novel Dracula.
+                     <br />
+                    <br />
+
+                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of our
+                      day in Whitby. 
+                      <br />
+                      <br />
+                      Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                    </div>
+                    <Link
+                      href="https://photos.app.goo.gl/euCgRypaeJsEFeRL6"
+                      target="_blank"
+                    >
+                      <Image
+                        src={WhitbyAbbeyTitled}
+                        className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
+                        alt="Photo of Whitby Abbey on the Headland."
+                      />
+                    </Link>
+                  </div>{" "}
+                </div>
+              </div>
+
+
+
+
+           </div>
            </div>
            </div>
             </div>
