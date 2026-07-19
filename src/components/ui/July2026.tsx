@@ -318,6 +318,9 @@ export default function July2026() {
                     By the later 18th century, the abbey had become a picturesque ruin and a historic monument. In the 19th century, Whitby became a popular tourist destination, a thriving port and fammouly a setting for the London theatre manager and writer Bram Stoker's 1897 novel Dracula.
                      <br />
                     <br />
+                    Today, Tourism supported by fishing is the mainstay of Whitby's economy. Certainly, the day of our visit was a warm sunny day in July and it was <em>extremely busy</em> with visitors of all ages. Another time when the town is known to be busy is when 'Goth weekends' are held.
+                    <br />
+                    <br />
 
                     <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of our
                       day in Whitby. 
