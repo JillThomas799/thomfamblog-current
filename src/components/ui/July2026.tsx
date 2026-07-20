@@ -9,6 +9,7 @@ import PizzaTullieBTTitled from "/public/imagesresized/PizzaTullieBTTitled.jpg";
 import LowtherRoseBJHTitled from "/public/imagesresized/LowtherRoseBJHTitled.jpg";
 import TullieNLTTitled from "/public/imagesresized/TullieNLTTitled.jpg";
 import WhitbyAbbeyTitled from "/public/imagesresized/WhitbyAbbeyTitled.jpg";
+import ClevelandBTTitled from "/public/imagesresized/ClevelandBTTitled.jpg";
 
 
 export default function July2026() {
@@ -363,25 +364,34 @@ export default function July2026() {
               < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#96AD93]">
                 < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
                   <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#336600]">13th July 2026, Monday.</div> {/*End of news date block*/}
-                  <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]">York Holiday Day 3: Visit to Robin Hood's Bay and walk along Cinder Track and Cleveland Way.</div>
+                  <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]">York Holiday Day 3: Visit to Robin Hood's Bay and 6 mile walk along Cinder Track and Cleveland Way.</div>
                   <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#336600]">
-                 
+                 As it remained extremely hot in York city (24 to 25 degrees c) and it was forecast to be somewhat cooler on the coast (19 to 21 degrees c), we decided today to head over to the coast again. It is a pleasant 1hr 15 to 1hr 30 minute drive through the North Yorks National Park via Pickering and before too long we had arrived safely at our destination. There is a large council car park at the top of the hill, with bathroom facilities, which was helpful.
                          <br />
                     <br />
+                  Our plan was to undertake a 6 mile circular walk; 3 miles out along the Cinder Track to Hawser and then back along the Cleveland Way to Robin Hood's Bay, after which we would climb down into the village, which is <em>very</em> steep, to explore. We had a little difficulty initially picking up the start of the trail, but basically you need to take the avenue opposite the large car park and then turn left at the end of this and you will pick up the Cinder Track. 
+                  <br />
+                    <br />
+                  The Cinder Track, also known as the Scarborough to Whitby Rail Trail or the Scarborough to Whitby Cinder Track, is a 21.7-mile (34.9 km) multi-use rail trail that runs from Scarborough to Whitby. It gets its name from the cinders used to make the track bed as opposed to the usual crushed stone. The route follows the former trackbed of the Scarborough and Whitby Railway and is used by walkers, cyclists and horse riders. The CLeveland Way soon branches off along the coast but we followed the Cinder Track as far as Hawser, fortunately found a seasonal café at the holiday park and then returned along the Cleveland Way.
+                   <br />
+                    <br />
+                    By now it was the afternoon, very warm and Robin's Hood Bay village was busy as it appeared some of the schools were already on Summer holiday. After a short look round the village, we returned to the car and headed back to York.
+                            <br />
+                    <br />
 
-                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of visit to Robin Hood's Bay and walk.. 
+                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of our visit to Robin Hood's Bay and walk.. 
                       <br />
                       <br />
                       Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
                     </div>
                     <Link
-                      href="https://photos.app.goo.gl/euCgRypaeJsEFeRL6"
+                      href="https://photos.app.goo.gl/ChwkpJGHL4GvNES16"
                       target="_blank"
                     >
                       <Image
-                        src={WhitbyAbbeyTitled}
+                        src={ClevelandBTTitled}
                         className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
-                        alt="Photo of Whitby Abbey on the Headland."
+                        alt="Photo of Bernard on the Cleveland Way."
                       />
                     </Link>
                   </div>{" "}
