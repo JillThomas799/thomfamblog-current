@@ -309,7 +309,7 @@ export default function July2026() {
               < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#96AD93]">
                 < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
                   <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#336600]">12th July 2026, Sunday.</div> {/*End of news date block*/}
-                  <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]">York Holiday Day 2: Whitby and Whitby Abbey</div>
+                  <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]">York Holiday Day 2: Visit to Whitby and Whitby Abbey and a wander around York and the walls in the evening light.</div>
                   <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#336600]">
                     The name Whitby is Danish and was given to this current Yorkshire coastal town and port, located at the mouth of the river Esk, by Viking settlers during the 9th century. Prior to that it was called Streaneshalch and occupies an important place in the history of England. In the 5th and 6th centuries Angles and Saxons from Northern Europe settled in Britain. The Angles settled in the north and East whilst the Saxons setlled in the South and West. In the north, Anglian settlers founded 2 kingdoms: Deira, represented by modern day Yorkshire and Bernicia, which covered Durham and Northumberland and stretched into lowland Scotland. In the 7th century, the 2 were combined to form the Kingdom of Northumberland.
                     <br />
@@ -318,7 +318,6 @@ export default function July2026() {
                     <br />
                     <br />
                     Meanwhile Christianity was also being brought to England by Celtic missionaries from Ireland. These missionaries first converted the inhabitants of Scotland and then moved South. The Celtic tradition was relatively isolated, and had little contact with the centralising power of Rome as represented by Augustine.
-
                      <br />
                     <br />
                     The conversion of the peoples of Britain to Christianity did not proceed smoothly as many resisted the new faith and fought against it. Following a series of mid 7th Century battles between the Christian kings of Northumbria and the pagan rulers from elsewhere in Britain, Oswiu of Northumbria (d.670) finally defeated the forces of paganism led by Penda of Mercia at the Battle of Winwaed in 655 and the future of Christianity in northern England was secured. The Christian Oswiu became King of Northumbria and married King Edwin's daughter Eanflaed. The minster at Whitby - or Straneshalch - was founded by King Oswiu in AD 655 to give thanks for this great victory and he appointed Hild to be in charge.
@@ -332,6 +331,10 @@ export default function July2026() {
                     <br />
                     Today, Tourism supported by fishing is the mainstay of Whitby's economy. Certainly, the day of our visit was a warm sunny day in July and it was <em>extremely busy</em> with visitors of all ages. Another time when the town is known to be busy is when 'Goth weekends' are held.
                     <br />
+                    <br />
+                    Whitby was very interesting and the abbey ruins impressive. It was worth the drive for these alone. Up on the headland in the abbey ruins was not too busy, but the town itself and along the quayside was <em>very</em> popular with a lot of visitors. It was an interesting and scenic drive over to Whitby through the North York Moors National Park.
+
+                         <br />
                     <br />
 
                     <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of our
