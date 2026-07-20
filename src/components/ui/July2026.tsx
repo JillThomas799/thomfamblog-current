@@ -252,6 +252,18 @@ export default function July2026() {
               </div>
             </div>
 
+             < div className="mb-20">
+        < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-gray-800 border-solid border-2 md:border-2 bg-[#96AD93]">
+          < div className="text-md md:text-lg max-w-full font-normal text-white text-center dark:text-white justify-center items-center">
+          
+            <div className="font-normal text-center border-solid border-black border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#336600]">
+              <div className="font-semibold">Friday 10th July 2026 - Wednesday 15th July 2026</div>
+              <div className="font-semibold">Our York Holiday (with a couple of days spent out on the North Yorkshire coast).</div>
+
+            </div>{" "}
+          </div>
+        </div>
+
 
             < div className="mb-20">
               < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#96AD93]">
@@ -345,6 +357,7 @@ export default function July2026() {
 
 
 
+           </div>
            </div>
            </div>
            </div>
