@@ -10,6 +10,8 @@ import LowtherRoseBJHTitled from "/public/imagesresized/LowtherRoseBJHTitled.jpg
 import TullieNLTTitled from "/public/imagesresized/TullieNLTTitled.jpg";
 import WhitbyAbbeyTitled from "/public/imagesresized/WhitbyAbbeyTitled.jpg";
 import ClevelandBTTitled from "/public/imagesresized/ClevelandBTTitled.jpg";
+import VanillaTitled from "/public/imagesresized/VanillaTitled.jpg";
+
 
 
 export default function July2026() {
@@ -399,10 +401,41 @@ export default function July2026() {
               </div>
 
 
+    < div className="mb-20">
+              < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#96AD93]">
+                < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+                  <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#336600]">14th July 2026, Tuesday.</div> {/*End of news date block*/}
+                  <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]">York Holiday Day 4: York city, the Yorkshire museum to see the Melmonby Hoard and Viking North Exhibitions. a walk along the river Ouse, lunch at a Syrian restaurant and the artisan chocolate shop....</div>
+                  <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#336600]">
+               
+                            <br />
+                    <br />
+
+                    <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of our final day in York. 
+                      <br />
+                      <br />
+                      Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                    </div>
+                    <Link
+                      href="https://photos.app.goo.gl/Bhj7D2cDTupMKsRw6"
+                      target="_blank"
+                    >
+                      <Image
+                        src={VanillaTitled}
+                        className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
+                        alt="Photo of Bernard at Vanilla café near York Minster."
+                      />
+                    </Link>
+                  </div>{" "}
+                </div>
+              </div>
 
 
 
 
+
+
+ </div>
  </div>
            </div>
            </div>
