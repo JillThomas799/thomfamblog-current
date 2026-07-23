@@ -1779,6 +1779,251 @@ export default function HWP2024() {
 
 
 
+< div className="mb-20"> 
+      < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
+         < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
+         <div className="font-semibold pt-2 pb-2 mr-[20%] ml-[20%]  text-white text-center bg-[#66023c] p-2">6th July 2024, Saturday</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]"> Day 7 - Housesteads Roman Fort to Cawfield Quarry (PS. This is the best day of the walk!): 6 miles on the Hadrian's Wall Path, 6.5
+            miles in total.</div>               
+            <div className="bg-[#66023c] text-white font-bold">DETAILS OF THE WALK </div>
+            <div className="font-semibold text-center border-solid mr-1 ml-1 mt-2 mb-2 px-4 py-4 ">            
+        <div className="font-normal pt-2 pb-2  text-black text-center">
+             <ul className="list-none">
+              <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Parking:</div>
+                We parked at{" "}
+                <Link
+                  href="https://www.english-heritage.org.uk/visit/places/housesteads-roman-fort-hadrians-wall/plan-your-visit/facilities/"
+                  target="_blank"
+                  title="Click here to discover more about Housesteads Car Park"
+                className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >
+                  {" "}
+                  Housesteads Car Park{" "}
+                </Link>{" "}
+                and{" "}
+                <Link
+                  href="https://www.northumberlandnationalpark.org.uk/places-to-visit/hadrians-wall/cawfields/"
+                  target="_blank"
+                  title="Click here to discover more about Cawfield Quarry Car Park"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >
+                  {" "}
+                  Cawfield Quarry Car Park{" "}
+                </Link>{" "}
+                
+                 Both of these car parks are run by Northumberland National
+                Park and we had bought an annual Hadrian's Wall parking pass for
+                one of the cars.{" "}
+                <Link
+                  href="https://www.northumberlandnationalpark.org.uk/visitor-info/car-parks/"
+                  target="_blank"
+                 className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >  .
+                  Annual passes{" "}
+                </Link>{" "}
+                are available from{" "}
+                <Link
+                  href="https://www.thesill.org.uk/"
+                  target="_blank"
+                  title="Click here to discover more about The Sill Visitor's Centre"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >
+                  {" "}
+                  The Sill{" "}
+                </Link>{" "}
+                .
+              </li>
+             
+              <br />  
+        <br /> 
+         <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Paths:</div>
+               Well-defined path over the numerous crags between Housesteads
+                Fort and Cawfields Quarry. The walk is reasonably strenuous as
+                there are repeated ascents and descents along the line of the
+                crags.               
+              </li>
+              <br />  
+              <br /> 
+              <li  className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Distance:</div>
+              6 miles on the Hadrian's Wall Path, 6.5 miles in total.<strong> Ascent:</strong>309 metres, 1014 feet.{" "}
+              </li>
+               <br />  
+        <br /> 
+              <li  className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Refreshments:</div>
+                Café at The Sill Visitor's Centre.             .
+              </li>
+            </ul>
+             <br />  
+        <br /> 
+            <div className="bg-[#66023c] text-white font-bold text-decoration-underline">GOOD</div>
+             <br />  
+        <br /> 
+        
+            <ul className="list-none">
+                <li className="text-left bg-[#d19b2f] p-4">
+                   <div className="text-[#66023c] font-semibold">Walk: </div>
+                 This is without
+                  exception the most awesome and stunning section of the
+                  Hadrian's Wall Path, as you walk along a series of ridges of
+                  the Whin Sill along which this section of the wall was built.
+                  Together with the wildness and remoteness of the landscape,
+                  which remains to this day largely uninhabited, this is a
+                  really impressive walk and has been our favourite day's
+                  walking on the Wall so far.                             
+                </li>
+                 <br />  
+        <br /> 
+    
+                <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">Path : </div>
+                   We had walked the section of the Wall between Cawfield Quarry
+                  and Peel Gap in 2014 as part of a 6 3/4 mile circular walk and
+                  it had been quite a lot more strenuous than we had
+                  anticipated, not least because conditions underfoot were not
+                  great. However, the National Trust seem to have undertaken a
+                  lot of work improving the footpath to reduce erosion and this
+                  was certainly an improvement underfoot compared to previously.
+                </li>
+                 <br />  
+        <br /> 
+        <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">Weather : </div>
+                  Brilliant sunshine and not too hot, so ideal walking weather -
+                  what more can I say!
+                </li>
+                 <br />  
+        <br />               
+            </ul>
+            <br />
+            <div className="bg-[#66023c] text-white font-bold text-decoration-underline">NOT SO GOOD</div>
+             <br />  
+            <ul className="list-none">
+              <li className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">  Tragedy of the Sycamore Gap Tree:{" "}:</div>
+               As many of you will know, on the morning of 28th September 2023,
+                the iconic{" "}
+                <Link
+                  href="https://en.wikipedia.org/wiki/Sycamore_Gap_tree"
+                  target="_blank"
+                  title="Click here to discover more about the Sycamore Gap Tree"
+                   className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >
+                  {" "}
+                  Sycamore Gap tree{" "}
+                </Link>{" "}
+                which stood in Sycamore Gap, a dramatic dip in the landscape of
+                Hadrian's Wall, was maliciously felled. The tree had been
+                described as one of the most photographed trees in the country
+                and an emblem for the North East of England. It derived its
+                alternative name from featuring in a prominent scene in the 1991
+                film Robin Hood: Prince of Thieves. It was well-known by
+                everyone locally and there has been a huge amount of anger and
+                sadness at its loss.
+                <br />
+              </li>
+               <br />  
+        <br /> 
+
+        <li className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold"> Weather warning:{" "}:</div>
+               We were
+                very fortunate and the good weather held out until just after we
+                had returned to the car and safely settled ourselves in the café
+                at the Sill Visitors Centre. At that point, the heavens opened
+                and it was raining so hard, blowing in sheets, that even
+                hardened walkers with full rain-proof gear were not venturing
+                across the car park. For anyone who has not experienced weather
+                in this area, this can come as somewhat of a shock! Our advice
+                would be always come prepared and be willing to change route to
+                a safer option from that planned if necessary (there are a
+                number of 'escape' routes off the Wall) . Do not rely too
+                heavily on the weather forecast, conditions can change totally
+                within a minute at times..... <br />
+              </li>
+               <br />  
+        <br /> 
+            </ul>
+             <div className="bg-[#66023c] text-white font-bold text-decoration-underline">HIKE RATING</div>
+              <br /> 
+          <ul className="list-none">
+              <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] text-center font-semibold">10 (out of 10):</div> 
+              </li>
+            </ul>
+          </div>{" "}
+          {/* Closing tag ComponentWalkDetails Class*/}
+          <br />
+          <div className="font-normal text-left bg-[#d19b2f] p-4">
+             It was an 8.20am start this morning, as the weather forecast for the
+            afternoon was poor, so we were already at Housesteads car park in
+            the sunshine and peace and quiet by 8.40am. First of all, we had to
+            climb back up to the point on Hadrian's Wall at which we had
+            finished yesterday's walk, namely Knag Burn gate. Whilst the fort
+            itself, which is owned by the National Trust, does not open until
+            10am, there is a public footpath which runs up around the edge of
+            the fort which can be accessed at anytime. Once on the path, we
+            headed off in a westerly direction towards Cawfield Quarry Car Park.
+            <br />
+            <br />
+            Todays walk was to include Hotbank Crags, Crag Lough and Highshield
+            Crags, Sycamore Gap, Peel Crags, Steel Rigg, Shield on the Wall,
+            Whinshield Crags, Caw Gap and Cawfield Quarry. It was to be a
+            brilliant day and our best walking day on the wall so far.
+            <br />
+            <br />
+            We invite you to join us on our 7th day of the Hadrian's Wall Path
+            by clicking on the album below and following our narrative by
+            clicking on the added comments.
+            <br />
+            <br />
+          </div>{" "}
+          {/*Closing tag for hwpDailyNarrative div */}
+          <div className="slideshowHostPhotoHwp">
+            <figure>
+              <Link
+                href="https://photos.app.goo.gl/GHz7GUV4ujfteaxN9"
+                target="_blank"
+              >
+                <Image                  
+                  src={HousesteadsCawfieldQuarry}
+                  alt=""
+                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                />
+              </Link>
+            </figure>
+          </div>{" "}
+          {/* Closing div SlideshowHostPhotoHwp */}
+        </div>{" "}
+        {/* Closing tag datenewsDivHwp */}
+      </div>
+         
+          </div>{" "}
+          {/* Closing div SlideshowHostPhotoHwp */}
+           <br />
+           <br />
+        </div>{" "}
+        {/* Closing tag datenewsDivHwp */}
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
          <div>
         < div className="mb-20"> 
