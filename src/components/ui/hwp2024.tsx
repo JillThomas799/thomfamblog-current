@@ -15,6 +15,8 @@ import HeddonItalianClosed2Text from "/public/imagesresized/HeddonItalianClosed2
 import WillowfordDay9 from "/public/imagesresized/WillowfordDay9.jpg";
 import WhittleChollerford from "/public/imagesresized/WhittleChollerford.jpg";
 import ChollerfordBroccolitia from "/public/imagesresized/ChollerfordBroccolitia.jpg";
+import ThirlwallElena1 from "/public/imagesresized/ThirlwallElena1.jpg";
+import HousesteadsCawfieldQuarry from "/public/imagesresized/HousesteadsCawfieldQuarry.jpg";
 
 
 
@@ -1772,6 +1774,240 @@ export default function HWP2024() {
 
 
 
+<div>
+        < div className="mb-20"> 
+      < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
+         < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
+         <div className="font-semibold pt-2 pb-2 mr-[20%] ml-[20%]  text-white text-center bg-[#66023c] p-2">6th July 2024, Saturday</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]"> Day 7 - Housesteads Roman Fort to Cawfield Quarry (PS. This is the best day of the walk!): 6 miles on the Hadrian's Wall Path, 6.5
+            miles in total.</div>               
+            <div className="bg-[#66023c] text-white font-bold">DETAILS OF THE WALK </div>
+            <div className="font-semibold text-center border-solid mr-1 ml-1 mt-2 mb-2 px-4 py-4 ">            
+        <div className="font-normal pt-2 pb-2  text-black text-center">
+             <ul className="list-none">
+              <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Parking:</div>
+                We parked at{" "}
+                <Link
+                  href="https://www.english-heritage.org.uk/visit/places/housesteads-roman-fort-hadrians-wall/plan-your-visit/facilities/"
+                  target="_blank"
+                  title="Click here to discover more about Housesteads Car Park"
+                className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >
+                  {" "}
+                  Housesteads Car Park{" "}
+                </Link>{" "}
+                and{" "}
+                <Link
+                  href="https://www.northumberlandnationalpark.org.uk/places-to-visit/hadrians-wall/cawfields/"
+                  target="_blank"
+                  title="Click here to discover more about Cawfield Quarry Car Park"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >
+                  {" "}
+                  Cawfield Quarry Car Park{" "}
+                </Link>{" "}
+                
+                <Link
+                  href="https://www.northumberlandnationalpark.org.uk/visitor-info/car-parks/"
+                  target="_blank"
+                 className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >  . Both of these car parks are run by Northumberland National
+                Park and we had bought an annual Hadrian's Wall parking pass for
+                one of the cars.{" "}
+                {" "}
+                  Annual passes{" "}
+                </Link>{" "}
+                are available from{" "}
+                <Link
+                  href="https://www.thesill.org.uk/"
+                  target="_blank"
+                  title="Click here to discover more about The Sill Visitor's Centre"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >
+                  {" "}
+                  The Sill{" "}
+                </Link>{" "}
+                .
+              </li>
+             
+              <br />  
+        <br /> 
+         <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Paths:</div>
+               Well-defined path over the numerous crags between Housesteads
+                Fort and Cawfields Quarry. The walk is reasonably strenuous as
+                there are repeated ascents and descents along the line of the
+                crags.               
+              </li>
+              <br />  
+              <br /> 
+              <li  className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Distance:</div>
+              6 miles on the Hadrian's Wall Path, 6.5 miles in total.<strong> Ascent:</strong>309 metres, 1014 feet.{" "}
+              </li>
+               <br />  
+        <br /> 
+              <li  className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Refreshments:</div>
+                Café at The Sill Visitor's Centre.             .
+              </li>
+            </ul>
+             <br />  
+        <br /> 
+            <div className="bg-[#66023c] text-white font-bold text-decoration-underline">GOOD</div>
+             <br />  
+        <br /> 
+        
+            <ul className="list-none">
+                <li className="text-left bg-[#d19b2f] p-4">
+                   <div className="text-[#66023c] font-semibold">Walk: </div>
+                 This is without
+                  exception the most awesome and stunning section of the
+                  Hadrian's Wall Path, as you walk along a series of ridges of
+                  the Whin Sill along which this section of the wall was built.
+                  Together with the wildness and remoteness of the landscape,
+                  which remains to this day largely uninhabited, this is a
+                  really impressive walk and has been our favourite day's
+                  walking on the Wall so far.                             
+                </li>
+                 <br />  
+        <br /> 
+    
+                <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">Path : </div>
+                   We had walked the section of the Wall between Cawfield Quarry
+                  and Peel Gap in 2014 as part of a 6 3/4 mile circular walk and
+                  it had been quite a lot more strenuous than we had
+                  anticipated, not least because conditions underfoot were not
+                  great. However, the National Trust seem to have undertaken a
+                  lot of work improving the footpath to reduce erosion and this
+                  was certainly an improvement underfoot compared to previously.
+                </li>
+                 <br />  
+        <br /> 
+        <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">Weather : </div>
+                  Brilliant sunshine and not too hot, so ideal walking weather -
+                  what more can I say!
+                </li>
+                 <br />  
+        <br />               
+            </ul>
+            <br />
+            <div className="bg-[#66023c] text-white font-bold text-decoration-underline">NOT SO GOOD</div>
+             <br />  
+            <ul className="list-none">
+              <li className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">  Tragedy of the Sycamore Gap Tree:{" "}:</div>
+               As many of you will know, on the morning of 28th September 2023,
+                the iconic{" "}
+                <Link
+                  ref="https://en.wikipedia.org/wiki/Sycamore_Gap_tree"
+                  target="_blank"
+                  title="Click here to discover more about the Sycamore Gap Tree"
+                   className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >
+                  {" "}
+                  Sycamore Gap tree{" "}
+                </Link>{" "}
+                which stood in Sycamore Gap, a dramatic dip in the landscape of
+                Hadrian's Wall, was maliciously felled. The tree had been
+                described as one of the most photographed trees in the country
+                and an emblem for the North East of England. It derived its
+                alternative name from featuring in a prominent scene in the 1991
+                film Robin Hood: Prince of Thieves. It was well-known by
+                everyone locally and a there has been a huge amount of anger and
+                sadness at its loss.
+                <br />
+              </li>
+               <br />  
+        <br /> 
+
+        <li className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold"> Weather warning:{" "}:</div>
+               We were
+                very fortunate and the good weather held out until just after we
+                had returned to the car and safely settled ourselves in the café
+                at the Sill Visitors Centre. At that point, the heavens opened
+                and it was raining so hard, blowing in sheets, that even
+                hardened walkers with full rain-proof gear were not venturing
+                across the car park. For anyone who has not experienced weather
+                in this area, this can come as somewhat of a shock! Our advice
+                would be; always come prepared and be willing to change route to
+                a safer option from that planned if necessary (there are a
+                number of 'escape' routes off the Wall) . Do not rely too
+                heavily on the weather forecast, conditions can change totally
+                within a minute at times..... <br />
+              </li>
+               <br />  
+        <br /> 
+            </ul>
+             <div className="bg-[#66023c] text-white font-bold text-decoration-underline">HIKE RATING</div>
+              <br /> 
+          <ul className="list-none">
+              <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] text-center font-semibold">10 (out of 10):</div> 
+              </li>
+            </ul>
+          </div>{" "}
+          {/* Closing tag ComponentWalkDetails Class*/}
+          <br />
+          <div className="font-normal text-left bg-[#d19b2f] p-4">
+             It was an 8.20am start this morning, as the weather forecast for the
+            afternoon was poor, so we were already at Housesteads car park in
+            the sunshine and peace and quiet by 8.40am. First of all, we had to
+            climb back up to the point on Hadrian's Wall at which we had
+            finished yesterday's walk, namely Knag Burn gate. Whilst the fort
+            itself, which is owned by the National Trust, does not open until
+            10am, there is a public footpath which runs up around the edge of
+            the fort which can be accessed at anytime. Once on the path, we
+            headed off in a westerly direction towards Cawfield Quarry Car Park.
+            <br />
+            <br />
+            Todays walk was to include Hotbank Crags, Crag Lough and Highshield
+            Crags, Sycamore Gap, Peel Crags, Steel Rigg, Shield on the Wall,
+            Whinshield Crags, Caw Gap and Cawfield Quarry. It was to be a
+            brilliant day and our best walking day on the wall so far.
+            <br />
+            <br />
+            We invite you to join us on our 7th day of the Hadrian's Wall Path
+            by clicking on the album below and following our narrative by
+            clicking on the added comments.
+            <br />
+            <br />
+          </div>{" "}
+          {/*Closing tag for hwpDailyNarrative div */}
+          <div className="slideshowHostPhotoHwp">
+            <figure>
+              <Link
+                href="https://photos.app.goo.gl/GHz7GUV4ujfteaxN9"
+                target="_blank"
+              >
+                <Image
+                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                  src={HousesteadsCawfieldQuarry}
+                  alt=""
+                />
+              </Link>
+            </figure>
+          </div>{" "}
+          {/* Closing div SlideshowHostPhotoHwp */}
+        </div>{" "}
+        {/* Closing tag datenewsDivHwp */}
+      </div>
+         
+          </div>{" "}
+          {/* Closing div SlideshowHostPhotoHwp */}
+           <br />
+           <br />
+        </div>{" "}
+        {/* Closing tag datenewsDivHwp */}
+      </div>
+        </div>{" "}
+        </div>
+         </div>
+         </div>
 
 
 
@@ -1779,6 +2015,322 @@ export default function HWP2024() {
 
 
 
+
+
+
+
+
+
+         <div>
+        < div className="mb-20"> 
+      < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
+         < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
+         <div className="font-semibold pt-2 pb-2 mr-[20%] ml-[20%]  text-white text-center bg-[#66023c] p-2">7th July 2024, Sunday</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]"> Day 8 - Cawfields Quarry to Gilsland: 6 miles.</div>               
+            <div className="bg-[#66023c] text-white font-bold">DETAILS OF THE WALK </div>
+            <div className="font-semibold text-center border-solid mr-1 ml-1 mt-2 mb-2 px-4 py-4 ">            
+        <div className="font-normal pt-2 pb-2  text-black text-center">
+             <ul className="list-none">
+              <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Parking:</div>
+                We parked at{" "}
+                <Link
+                  href="https://www.northumberlandnationalpark.org.uk/places-to-visit/hadrians-wall/cawfields/"
+                  target="_blank"
+                  title="Click here to discover more about Cawfield Quarry Car Park"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >
+                  {" "}
+                  Cawfield Quarry Car Park{" "}
+                </Link>{" "}
+                and on Railway Terrace in Gilsland, where there is free on-road
+                parking. Cawfields Car Park is run by Northumberland National
+                Park and we had bought an annual Hadrian's Wall parking pass for
+                one of the cars, so we left the car with the pass at Cawfield
+                Quarry.{" "}
+                <Link
+                  href="https://www.northumberlandnationalpark.org.uk/visitor-info/car-parks/"
+                  target="_blank"
+                 className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >
+                  {" "}
+                  Annual passes{" "}
+                </Link>{" "}
+                are available from{" "}
+                <Link
+                  href="https://www.thesill.org.uk/"
+                  target="_blank"
+                  title="Click here to discover more about The Sill Visitor's Centre"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >
+                  {" "}
+                  The Sill{" "}
+                </Link>{" "}
+                .
+              </li>
+             
+              <br />  
+        <br /> 
+         <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Paths:</div>
+                A clear, well-defined path firstly through the ruins of
+                Aesica (Great Chesters) Roman Fort and then a gradual climb up
+                onto Walltown Crags, with some ascents and descents similar to
+                yesterday before dropping down to the visitor's centre at
+                Walltown Quarry. On leaving the Quarry, the terrain evens out
+                considerably and becomes more undulating as it heads out towards
+                Gilsland.                
+              </li>
+              <br />  
+              <br /> 
+              <li  className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Distance:</div>
+              6 miles on the Hadrian's Wall Path.<strong> Ascent:</strong>325 metres, 1066 feet.{" "}
+              </li>
+               <br />  
+        <br /> 
+              <li  className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Refreshments:</div>
+                Lanercost Priory tearooms.                .
+              </li>
+            </ul>
+             <br />  
+        <br /> 
+            <div className="bg-[#66023c] text-white font-bold text-decoration-underline">GOOD</div>
+             <br />  
+        <br /> 
+        
+            <ul className="list-none">
+                <li className="text-left bg-[#d19b2f] p-4">
+                   <div className="text-[#66023c] font-semibold">Views: </div>
+                 Spectacularly good views from the top of Walltown Crags,
+                  stretching for miles. It is really easy to get a feeling of
+                  lived-experience of being a legionnary up on the wall
+                  patrolling and keeping guard from the milecastles and turrets.
+                  The views were better today than expected and come a close
+                  second to those of yesterday's walk.wn Roman signal tower
+                  together with Lanercost Priory.{" "}                              
+                </li>
+                 <br />  
+        <br /> 
+    
+                <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">History : </div>
+                  The ruins of Aesica (Great Chesters) Fort are less well
+                  organised and therefore have more of a romantic feel than some
+                  of the other forts. The opportunity to go and look at the 14th
+                  century Thirlwall Castle en route to Gilsland was also very
+                  interesting.{" "}.
+                </li>
+                 <br />  
+        <br /> 
+        <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">Walk : </div>
+                  Another high level walk and interestingly, a greater overall
+                  ascent than yesterday. The wall is pretty well-preserved in
+                  the section running down to Walltown Quarry Car Park and
+                  Visitor's Centre and the Roman Army Museum/Magnis (Carvoran)
+                  Fort.{" "}
+                </li>
+                 <br />  
+        <br />               
+            </ul>
+            <br />
+            <div className="bg-[#66023c] text-white font-bold text-decoration-underline">NOT SO GOOD</div>
+             <br />  
+            <ul className="list-none">
+              <li className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">  Path on the descents Walltown Crags:{" "}:</div>
+                Whilst the path was at all times clearly marked and signposted,
+                the paths were not maintained on the descents as well as on the
+                previous days section of walking between Housesteads and
+                Cawfields Quarry, presumably in part because this section of the
+                path is not under the care of the National Trust.
+              </li>
+               <br />  
+        <br /> 
+
+        <li className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold"> Aesica fort:{" "}:</div>
+                Whilst in one respect, the lack of any information boards at
+                Aesica Fort led to a more romantic feel, it would have been
+                helpful to have some additional information on site. We have a
+                feeling we may have missed some things here and so intend to
+                return for a shorter walk and more detailed visit one day in the
+                coming months.
+              </li>
+               <br />  
+        <br /> 
+            </ul>
+             <div className="bg-[#66023c] text-white font-bold text-decoration-underline">HIKE RATING</div>
+              <br /> 
+          <ul className="list-none">
+              <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] text-center font-semibold">10 (out of 10):</div> 
+              </li>
+            </ul>
+          </div>{" "}
+          {/* Closing tag ComponentWalkDetails Class*/}
+          <br />
+          <div className="font-normal text-left bg-[#d19b2f] p-4">
+            Todays walk was to start in Cawfields car park and end in Gilsland
+            village taking in Aesica (Great Chesters) Roman Fort, past the sites
+            of Turrets 43a and 43b where no visible remains exist, Walltown
+            Crags including Turrets 44b(Mucklebank) and 45a and the site of the
+            previous Milecastle 45, Walltown Quarry, Thirlwall Castle , Holmhead
+            Guesthouse, Gap Farm and Gilsland, 2 nesting kestrels and a Texel
+            Mule cross bred sheep.
+            <br />
+            <br />
+            Aesica Fort, whose modern name is Great Chesters (not to be confused
+            with Chesters Fort at Chollerford) was the ninth fort on Hadrian's
+            Wall. It lies 6.0 miles to the east of Housesteads (Roman name
+            Vercovicium) and 6.5 miles to the west of Birdoswald Fort (Roman
+            name Banna). Its main purpose was to guard the Caw Gap where the
+            Haltwhistle Burn crosses the Wall. It was built relatively late
+            (AD128), over the site of the existing Milecastle 43. There are no
+            visible remains of Milecastle 43's two accompanying turrets: turret
+            43A and turret 43B either. At 3 acres Aesica Fort was smaller than
+            some of the other forts. More information about Aesica fort can be
+            found{" "}
+            <Link
+              href="https://perlineamvalli.wordpress.com/2015/10/17/the-best-bits-of-hadrians-wall-the-forts-great-chesters/"
+              target="_blank"
+               className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              here{" "}
+            </Link>{" "}
+            and{" "}
+            <Link
+              href="https://www.u3ahadrianswall.co.uk/great-chester-roman-fortaesica/"
+              target="_blank"
+               className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              here{" "}
+            </Link>{" "}
+            .
+            <br />
+            <br />
+            Walltown Crags: There are a number of routes over Walltown Crags and
+            any can be used, but the top route offers the most spectacular views
+            and is well worth the climb, so this was the route we used. It is
+            also the route we suggest to others to use if walking this route (as
+            long as you are up for the climb). We passed the previous site of
+            Milecastle 45 which is located on the top of Walltown Crags. The
+            walls have been robbed, so little remains. We understand however
+            that the site is still{" "}
+            <Link
+              href="https://en.wikipedia.org/wiki/Milecastle_45"
+              target="_blank"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              visible as earthworks on aerial photographs{" "}
+            </Link>{" "}
+            . As we walked along the crags, we saw 2 Kestrels circling overhead
+            which appeared to be nesting in the walls of the crag.
+            <br />
+            <br />
+            Turret 44b (Mucklebank) has magnificent views over the surrounding
+            landscape. It is unusual in that it is built into a corner of
+            Hadrian's Wall. Dropping down below Turret 44b(Mucklebank) is the
+            alleged site of King Arthur's Well , although there is no sign of it
+            today. Turret 45a is built high on Walltown Crags. It is thought
+            that the wall and turret were built separately as, whilst the Wall's
+            foundations run through the turret, above ground the wall and turret
+            are separate structures and there are no wing walls and the wall
+            meets the turret at an angle.This suggests they were probably built
+            separately.
+            <br />
+            <br />
+            Finally we dropped down to the Walltown Quarry car park where there
+            is a very pleasant small Visitors Centre, where you can buy some hot
+            drinks from a machine and there are picnic tables to sit on by the
+            quarry. We took the opportunity to have some lunch here. There are
+            also a number of walks you can do from this site, for which there
+            are information boards. It is one of the pick up points for the
+            <Link
+              href="https://www.gonortheast.co.uk/ad122"
+              target="_blank"
+              title="Click here to discover more 
+            about the AD 122 bus service"
+             className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline">
+              {" "}
+              AD122 bus{" "}
+            </Link>{" "}
+            run by Go North East and in fact the bus arrived whilst we were
+            there. The{" "}
+            <Link
+              href="https://romanarmymuseum.com/"
+              target="_blank"
+              title="Click here to discover more about the Roman Army Museum"
+               className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Roman Army Museum{" "}
+            </Link>{" "}
+            on the site of the old Roman Fort Magnis (Carvoran) is near here,
+            although this requires a full half-day visit, so we will return to
+            this on a separate occasion on a poor-weather day over the
+            forthcoming months.
+            <br />
+            <br />
+            We then headed over to{" "}
+            <Link
+              href="https://www.northumberlandnationalpark.org.uk/places-to-visit/hadrians-wall/thirlwall-castle/"
+              target="_blank"
+              title="Click here to discover more about Thirlwall Castle"
+               className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+            >
+              {" "}
+              Thirlwall Castle{" "}
+            </Link>{" "}
+            , which is a 12th century castle which was later strengthened using
+            stones from nearby Hadrian’s Wall. This link also includes a
+            hyperlink to an interesting leaflet about Thirlwall castle produced
+            by Northumberland National Park. It was then time to cross the
+            railway line carefully and head on for the final couple of miles
+            towards Gilsland where we would end the walk.
+            <br />
+            <br />
+            We invite you to join us on our 8th day of the Hadrian's Wall Path
+            by clicking on the album below and following our narrative by
+            clicking on the added comments.
+          </div>{" "}
+          {/*Closing tag for hwpDailyNarrative div */}
+          <div className="slideshowHostPhotoHwp">
+            <figure>
+              <Link
+                href="https://photos.app.goo.gl/9oqpf1quTChrLdXY6"
+                target="_blank"
+              >
+                <Image
+                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                  src={ThirlwallElena1}
+                  alt=""
+                />
+              </Link>
+            </figure>
+          </div>{" "}
+          {/* Closing div SlideshowHostPhotoHwp */}
+        </div>{" "}
+        {/* Closing tag datenewsDivHwp */}
+      </div>
+         
+          </div>{" "}
+          {/* Closing div SlideshowHostPhotoHwp */}
+           <br />
+           <br />
+        </div>{" "}
+        {/* Closing tag datenewsDivHwp */}
+      </div>
+        </div>{" "}
+        </div>
+         </div>
+         </div>
+         </div>
 
 
            <div>
@@ -2246,23 +2798,7 @@ export default function HWP2024() {
          </div>
          </div>
  
- 
- 
- 
- 
- 
- 
   </div>
-</div>{" "}
-            </div>{" "}
-
-      
-
-      
-   
-         </div> 
-          </div>{" "}
-         </div> 
-           
+    </div>        
   )
 }
