@@ -2012,7 +2012,7 @@ export default function HWP2024() {
           <div className="slideshowHostPhotoHwp">
             <figure>
               <Link
-                href="https://photos.app.goo.gl/GHz7GUV4ujfteaxN9"
+                href="https://photos.app.goo.gl/FvfwKiefCxTUjnov7"
                 target="_blank"
               >
                 <Image                  
