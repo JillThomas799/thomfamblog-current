@@ -18,6 +18,7 @@ import ChollerfordBroccolitia from "/public/imagesresized/ChollerfordBroccolitia
 import ThirlwallElena1 from "/public/imagesresized/ThirlwallElena1.jpg";
 import HousesteadsCawfieldQuarry from "/public/imagesresized/HousesteadsCawfieldQuarry.jpg";
 import MithrasTemple from "/public/imagesresized/MithrasTemple.jpg";
+import WaltonTearoomNamed from "/public/imagesresized/WaltonTearoomNamed.jpg";
 
 
 
@@ -2038,20 +2039,6 @@ export default function HWP2024() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
          < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
@@ -2281,19 +2268,6 @@ export default function HWP2024() {
         </div>{" "}
         {/* Closing tag datenewsDivHwp */}
       
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3068,9 +3042,276 @@ export default function HWP2024() {
       </div>
         </div>{" "}
         </div>
-        
+    </div> 
 
-    </div>  
+
+
+
+
+
+
+< div className="mb-20"> 
+      < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
+         < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
+         <div className="font-semibold pt-2 pb-2 mr-[20%] ml-[20%]  text-white text-center bg-[#66023c] p-2">10th August 2024, Saturday</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]">  Day 10 - Lanercost to Low Crosby village: 8.75 miles on the Hadrian's Wall Path, 9.75 miles in total.</div>               
+            <div className="bg-[#66023c] text-white font-bold">DETAILS OF THE WALK </div>
+            <div className="font-semibold text-center border-solid mr-1 ml-1 mt-2 mb-2 px-4 py-4 ">            
+        <div className="font-normal pt-2 pb-2  text-black text-center">
+             <ul className="list-none">
+              <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Parking:</div>
+               Free parking on the car park by the River Irthing and Old Bridge
+                at Lanercost and free on-street parking in the centre of Low
+                Crosby village.
+              </li>
+             
+              <br />  
+        <br /> 
+         <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Paths:</div>
+              As for all the Hadrian's Wall national trail, the path is
+                mainly a green sward cut into the grass, which makes navigation
+                straightforward. In areas where it can become very muddy and
+                boggy in wet weather, there are stones or matting which have
+                been inserted. We would advise people to use the Acorn signs,
+                Hadrian's Wall Path signposts and the Carlisle OS map number 315
+                to navigate and <em>not</em> Google maps, otherwise you will end
+                up going around the front of Bleatarn Farm, which will not make
+                the farmer very happy! (see photo in album).....{" "}              
+              </li>
+              <br />  
+              <br /> 
+              <li  className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Distance:</div>
+              8.75 miles on the Hadrian's Wall Path, 9.75 miles in
+                total <strong> Ascent:</strong>108 metres, 355 feet.{" "}
+              </li>
+               <br />  
+        <br /> 
+              <li  className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Refreshments:</div>
+                Sadly the Walton tearoom, where we obtained refreshments, is no longer open, but hurrah, there is another alternative which is 
+            {" "}
+            <Link
+              href="https://www.tripadvisor.co.uk/Restaurant_Review-g8715454-d10261729-Reviews-Berry_s_Tearoom-Walton_Brampton_Cumbria_England.html"
+              target="_blank"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold" 
+            >
+              Berry's Tearoom{" "}
+            </Link>{" "}
+                and Lanercost Tea Rooms.{" "}
+              </li>
+            </ul>
+             <br />  
+        <br /> 
+            <div className="bg-[#66023c] text-white font-bold text-decoration-underline">GOOD</div>
+             <br />  
+        <br /> 
+        
+            <ul className="list-none">
+                  <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">Countryside : </div>
+                   Whilst this section of the walk does not have the rugged
+                  splendour of the Chollerford to Walltown Quarry section of the
+                  path, none the less it is through some lovely verdant and
+                  rolling countryside with spectacular views south west towards
+                  Blencathra and the northern Lake District peaks and to the
+                  south towards Cold Fell and the North Pennines.
+                </li>
+                 <br />  
+        <br /> 
+         <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">Refreshments : </div>
+                        This was a definite plus on this section of the walk, as the
+                  opportunities to pick up refreshments and, or sit down turned
+                  out to be at key strategic points. 
+                  <br />  
+        <br /> 
+                  Walton Tearoom{" "}
+                  was definitely worth a visit and the proprietors were very
+                  welcoming. Sadly the Walton tearoom is no longer open, but hurrah, there is another alternative which is 
+            {" "}
+            <Link
+              href="https://www.tripadvisor.co.uk/Restaurant_Review-g8715454-d10261729-Reviews-Berry_s_Tearoom-Walton_Brampton_Cumbria_England.html"
+              target="_blank"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold" 
+            >
+              Berry's Tearoom{" "}
+            </Link>{" "}
+            .
+            <br />  
+        <br /> 
+            The picnic bench
+                  at Newtown green was a great spot for lunch and then of course
+                  Lanercost tearoom, at the end of the walk is always very
+                  pleasant and serves good food and cakes.{" "}
+                </li>
+                 <br />  
+        <br />   
+        <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">Weather : </div>
+                   It was a pleasantly warm, sunny day; great walking weather.{" "}
+                </li>
+                 <br />  
+        <br />               
+            </ul>
+            <br />
+            <div className="bg-[#66023c] text-white font-bold text-decoration-underline">NOT SO GOOD</div>
+             <br />  
+            <ul className="list-none">
+              <li className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">  Summer holiday season:{" "}:</div>
+               It was now the peak Summer holiday season and, whilst not as
+                busy as some of the central sections of the trail, there were
+                still a steady number of walkers whom we passed en route.
+              </li>
+               <br />  
+        <br /> 
+
+        <li className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold"> Remaining segments of the wall:{" "}:</div>
+               From Dovecote Bridge onwards, there are no remaining segments of
+                the wall visible, which might be disappointing for some people.
+                However, the route does actually follow the line of the wall
+                extremely closely and the path runs by the Roman ditch, which is
+                visible for a large part of the way.
+              </li>
+               <br />  
+        <br /> 
+            </ul>
+             <div className="bg-[#66023c] text-white font-bold text-decoration-underline">HIKE RATING</div>
+              <br /> 
+          <ul className="list-none">
+              <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] text-center font-semibold">9 (out of 10):</div> 
+                An enjoyable days walking through lovely countryside and with some
+                spectacular views.
+              </li>
+            </ul>
+          </div>{" "}
+          {/* Closing tag ComponentWalkDetails Class*/}
+          <br />
+          <div className="font-normal text-left bg-[#d19b2f] p-4">
+              Today we walked the 10th stage of the Hadrian's Wall path, taking us
+            from Lanercost to Low Crosby village.
+            <br />
+            <br />
+            Key points and way-marks on the walk from Lanercost to Low Crosby
+            village include: Lanercost Exit and some remaining segments of
+            Hadrian's wall, Dovecote Bridge, Walton village and church, Bleatarn
+            Farm
+            <br />
+            <br />
+            <div className="text-lg font-bold"> Lanercost Exit: </div> On
+            continuing west shortly after Lanercost Exit, there are some
+            sections of Hadrian's Wall in the trees on the right.
+            <br />
+            <br />
+           <div className="text-lg font-bold">
+              {" "}
+              Dovecote Bridge (just outside of Walton):{" "}
+            </div>
+            There used to be a visible section of Hadrian's Wall at this bridge.
+            The bridge was however made of Cumbrian red sandstone and as a
+            result, did not weather well. After being exposed for just 20 years,
+            it had sustained significant damage by the elements. In 1983
+            therefore, it was reburied in order to preserve it.
+            <br />
+            <br />
+             <div className="text-lg font-bold">
+              Walton village, St Mary's church and Walton Tearoom:
+           </div>
+              Walton village and St Mary's church{" "} are on the path of Hadrian's Wall. 
+            Walton is only a small village but is very pretty with some great views out towards Cold Fell and
+            the North Pennines and has one very important feature for all walkers on the Hadrian's Wall path, the Walton Tearoom.
+            Sadly Walton's tearoom is no longer open, but hurrah, there is another alternative in Walton which is 
+           {" "}
+            {" "}
+            <Link
+              href="https://www.tripadvisor.co.uk/Restaurant_Review-g8715454-d10261729-Reviews-Berry_s_Tearoom-Walton_Brampton_Cumbria_England.html"
+              target="_blank"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold" 
+            >
+              Berry's Tearoom{" "}
+            </Link>{" "}
+            .
+            <br />
+            <br />
+             <div className="text-lg font-bold">
+              {" "}
+              Castlesteads House:{" "}
+            </div>
+            <Link
+              href="https://co-curate.ncl.ac.uk/castlesteads-brampton-cumbria/"
+              target="_blank"
+              title="Click here to discover more about Castlesteads House"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold" 
+            >
+              {" "}
+              Castlesteads House{" "}
+            </Link>{" "}
+            is an 18th century mansion built on the site of the earlier Walton
+            House. It is situated between Walton and Newtown, to the left of the
+            Hadrian's Wall Path and is situated on the site of
+            <Link
+              href="https://en.wikipedia.org/wiki/Camboglanna"
+              target="_blank"
+              title="Click here to discover more about Campoglanna Roman Fort"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold" 
+              >
+              {" "}
+              Camboglanna Roman Fort{" "}
+            </Link>
+            .
+            <br />
+            <br />
+            <div className="text-lg font-bold"> Bleatarn Farm: </div> The
+            ground around Bleatarn Farm was used by the Romans to gather stone
+            for Hadrian's Wall and the mounds created by the debris from the
+            quarry activity can still be seen.
+            <br />
+            <br />
+           <div className="text-white text-semibold">Join us on our 10th day of the Hadrian's Wall Path by clicking on the
+            album below and following our narrative by clicking on the added
+            comments. </div>
+            <br />
+            <br />
+            
+          </div>{" "}
+          {/*Closing tag for hwpDailyNarrative div */}
+          <div className="slideshowHostPhotoHwp">
+            <figure>
+              <Link
+                href="https://photos.app.goo.gl/EgBhnPsWTsCzfmVeA"
+                target="_blank"
+              >
+                <Image                  
+                  src={WaltonTearoomNamed}
+                  alt=""
+                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                />
+              </Link>
+            </figure>
+          </div>{" "}
+          {/* Closing div SlideshowHostPhotoHwp */}
+        </div>{" "}
+        {/* Closing tag datenewsDivHwp */}
+      </div>
+         
+          </div>{" "}
+          {/* Closing div SlideshowHostPhotoHwp */}
+           <br />
+           <br />
+        </div>{" "}
+        {/* Closing tag datenewsDivHwp */}
+      
+
+
+
+
+
+
     </div>   
        
   </div>
