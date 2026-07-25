@@ -19,6 +19,7 @@ import ThirlwallElena1 from "/public/imagesresized/ThirlwallElena1.jpg";
 import HousesteadsCawfieldQuarry from "/public/imagesresized/HousesteadsCawfieldQuarry.jpg";
 import MithrasTemple from "/public/imagesresized/MithrasTemple.jpg";
 import WaltonTearoomNamed from "/public/imagesresized/WaltonTearoomNamed.jpg";
+import KingEdward1 from "/public/imagesresized/KingEdward1.jpg";
 
 
 
@@ -3288,6 +3289,233 @@ export default function HWP2024() {
               >
                 <Image                  
                   src={WaltonTearoomNamed}
+                  alt=""
+                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                />
+              </Link>
+            </figure>
+          </div>{" "}
+          {/* Closing div SlideshowHostPhotoHwp */}
+        </div>{" "}
+        {/* Closing tag datenewsDivHwp */}
+      </div>
+         
+          </div>{" "}
+          {/* Closing div SlideshowHostPhotoHwp */}
+           <br />
+           <br />
+        </div>{" "}
+        {/* Closing tag datenewsDivHwp */}
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+< div className="mb-20"> 
+      < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
+         < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
+         <div className="font-semibold pt-2 pb-2 mr-[20%] ml-[20%]  text-white text-center bg-[#66023c] p-2">18th August 2024, Saturday</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]">  Day 11 - Low Crosby village to Burgh-by-Sands: 11.8 miles.</div>               
+            <div className="bg-[#66023c] text-white font-bold">DETAILS OF THE WALK </div>
+            <div className="font-semibold text-center border-solid mr-1 ml-1 mt-2 mb-2 px-4 py-4 ">            
+        <div className="font-normal pt-2 pb-2  text-black text-center">
+             <ul className="list-none">
+              <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Parking:</div>
+                Free on-street parking in the centre of Low Crosby village and
+                parking for a contribution of £2.00 into the honesty box on the
+                village green car park at Burgh-by-Sands.
+              </li>
+             
+              <br />  
+        <br /> 
+         <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Paths:</div>
+              As for all the Hadrian's Wall national trail, the path is
+                in rural areas a green sward cut into the grass, which makes
+                navigation straightforward. In more urban areas such as through
+                the central section in Carlisle it is on more firm surfaces.
+                This section of the path is once again well-signposted.             
+              </li>
+              <br />  
+              <br /> 
+              <li  className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Distance:</div>
+              11.8 miles <strong> Ascent:</strong> approx 80 metres,
+                approx 262 feet.{" "}
+              </li>
+               <br />  
+        <br /> 
+              <li  className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">Refreshments:</div>
+                TG café Bitt's Park, Carlisle and the Greyhound Inn
+                Burgh-by-Sands{" "}
+              </li>
+            </ul>
+             <br />  
+        <br /> 
+            <div className="bg-[#66023c] text-white font-bold text-decoration-underline">GOOD</div>
+             <br />  
+        <br /> 
+        
+            <ul className="list-none">
+                  <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">History : </div>
+                  Whilst there are no visible remains of Hadrian Wall to
+                  be seen now on this segment of the walk, nonetheless there is
+                  plenty of historical interest. Roman history lies everywhere
+                  as demonstrated by the evidence found in Rickerby. Many
+                  buildings such as Carlisle Castle{" "}
+                </li>
+                 <br />  
+        <br /> 
+         <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">Walk : </div>
+                        Whilst lengthy, this was an easier walk than many of
+                  the earlier stretches (or maybe we are just getting
+                  fitter...). The stop for lunch in Carlisle at about the
+                  half-way point worked well.
+                </li>
+                 <br />  
+        <br />   
+        <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">Refreshments : </div>
+                   There was plenty of opportunity for refreshments. We
+                  went to TG's café in Bitts Park, Carlisle (although with a
+                  short detour there are numerous places to eat and drink in
+                  Carlisle. We particularly like Carlisle cathedral café).
+                </li>
+                 <br />  
+        <br />  
+         <li className="text-left  bg-[#d19b2f] p-4">
+                  <div className="text-[#66023c] font-semibold">Weather : </div>
+                  It did not rain....what more can I say? That is all
+                  that matters.
+                </li>
+                 <br />  
+        <br />                
+            </ul>
+            <br />
+            <div className="bg-[#66023c] text-white font-bold text-decoration-underline">NOT SO GOOD</div>
+             <br />  
+            <ul className="list-none">
+              <li className="text-left  bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] font-semibold">  Time available..... or lack thereof:{" "}:</div>
+               The length of this segment of the walk meant there was not
+                adequate time to explore in more depth some of the sites and
+                resources of interest such as Carlisle Castle, Tullie Museum, St
+                Mary's church Beaumont, St Michael's church Burgh-by-Sands and
+                St Edward's Monument on Burgh Marsh. However, a catch-up visit
+                to all these sights to allow us plenty of time to explore these
+                fully is scheduled for the weeks after we have finished the
+                walk, so we will not miss out on them.
+              </li>
+               <br />  
+        <br /> 
+            </ul>
+             <div className="bg-[#66023c] text-white font-bold text-decoration-underline">HIKE RATING</div>
+              <br /> 
+          <ul className="list-none">
+              <li className="text-left bg-[#d19b2f] p-4">
+                <div className="text-[#66023c] text-center font-semibold">8 (out of 10):</div> 
+               An enjoyable days walking which, despite the length, did not seem too
+                challenging.
+              </li>
+            </ul>
+          </div>{" "}
+          {/* Closing tag ComponentWalkDetails Class*/}
+          <br />
+          <div className="font-normal text-left bg-[#d19b2f] p-4">
+                  Today we walked the 11th stage of the Hadrian's Wall path, taking us
+            from Low Crosby village to Burgh-by-Sands.
+            <br />
+            <br />
+            Key points and way-marks on the walk from Low Crosby village to
+            Burgh-by-Sands include: the River Eden, Carlisle and Carlisle
+            Castle, St Mary's church Beaumont, Burgh-by-Sands with St Michael's
+            church and King Edward I's monument and statue.
+            <br />
+            <br />
+            <div className="text-lg font-bold"> The River Eden: </div>The
+            River Eden originates in Black Fell Moss, Mallerstang and flows
+            through the Eden District of Cumbria down to the Solway Firth. Its
+            Roman name was <em>Itouna</em> derived from the Celtic word
+            <em> ituna </em> , meaning water or rushing. The river supports
+            Atlantic salmon and Eurasian otter. It is, together with its
+            tributaries, designated a Special Area of Conservation under the
+            European Union's Habitats Directive.
+            <br />
+            <br />            
+           <div className="text-lg font-bold">
+              {" "}
+             Carlisle:{" "}
+            </div>
+           There is
+            not much in the way of wall or excavated remains now but Carlisle
+            was the site of an important Roman fortress, Luguvalium, for many
+            years. The fort was established by Quintus Petillius Cerialis in
+            about AD 72, as the Romans took their invasion North from Chester
+            and York. It was an extremely good strategic location as it guarded
+            the crossing over the river Eden and provided important support to
+            Agricola's invasion over the years AD 78 -84 into Scotland. The fort
+            today lies largely below the Castle Keep and the present day castle
+            is partly constructed from Roman stone. The vicus (the supporting
+            settlement) lay to the East of the fort. There is also an impressive
+            collection of local Roman remains at the Tullie House museum.
+            <br />
+            <br />
+             <div className="text-lg font-bold">
+                 {" "}
+               St Mary's church, Beaumont:{" "}
+           </div>
+             This is the only church which stands on the line of Hadrian's wall.
+            It was built in the 12th century on the site of Turret 70a and was
+            constructed from sandstone , partly using stones from Hadrian's
+            Wall. Little remains of the original structure as the church was
+            restored on a number of occasions, most recently in the late 19th
+            century. The roof dates from the 16th century.
+            <br />
+            <br />
+             <div className="text-lg font-bold">
+                 {" "}
+              Burgh-by-Sands:{" "}
+            </div>
+           Michael's church in Burgh-by-Sands was built in the 12th century
+            with Roman stones. There is the head of a pagan god which can be
+            seen in the eastern wall. The church is more famous as the place
+            where King Edward I was laid out after he died of dysentery. A
+            statue of Edward I can be seen in the centre of the village and
+            there is a monument to King Edward I at the site of his death a
+            short distance away on Burgh Marsh.
+            <br />
+            <br />
+          
+           <div className="text-white text-semibold">Join us on our 11th day of the Hadrian's Wall Path by clicking on the
+            album below and following our narrative by clicking on the added
+            comments. </div>
+            <br />
+            <br />
+            
+          </div>{" "}
+          {/*Closing tag for hwpDailyNarrative div */}
+          <div className="slideshowHostPhotoHwp">
+            <figure>
+              <Link
+                href="https://photos.app.goo.gl/dKiEa6YXKRiz79pL9"
+                target="_blank"
+              >
+                <Image                  
+                  src={KingEdward1}
                   alt=""
                    className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
                 />
