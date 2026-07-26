@@ -441,8 +441,6 @@ export default function HWP2024() {
       </div>
         </div>{" "}
          </div>
-       
-
 
 
         <div>
@@ -803,12 +801,6 @@ export default function HWP2024() {
         </div>
 
 
-
-
-
-
-
-
          
         < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
@@ -1067,8 +1059,6 @@ export default function HWP2024() {
             <br />
           </div>{" "}
           {/*Closing tag for hwpDailyNarrative div */}
-          <br />
-          <br />
            <br />
            <br />
           <div className="slideshowHostPhotoHwp">
@@ -1453,10 +1443,10 @@ export default function HWP2024() {
             the river North Tyne does, at the end of a long day, seem like a bit
             of a trek, but having undertaken it, it is in our opinion well worth
             the effort.
+           <br />
+            <br />
           </div>{" "}
           {/*Closing tag for hwpDailyNarrative div */}
-          <br />
-          <br />
            <br />
            <br />
           <div className="slideshowHostPhotoHwp">
@@ -1776,13 +1766,6 @@ export default function HWP2024() {
         </div>
 
 
-
-
-
-
-
-
-
 < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
          < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
@@ -2001,15 +1984,16 @@ export default function HWP2024() {
             preserved latrines from Roman Britain. It was abandoned between the
             early 5th until the 16th Century, when it was taken over by the
             Border Reivers, a lawless community on the Anglo-Scottish border.
-            <br />
-            <br />
-            We invite you to join us on our 6th day of the Hadrian's Wall Path
-            by clicking on the album below and following our narrative by
-            clicking on the added comments.
-            <br />
+             <br />
             <br />
           </div>{" "}
           {/*Closing tag for hwpDailyNarrative div */}
+           <br />
+           <br />
+            <div className="text-white">We invite you to join us on our 6th day of the Hadrian's Wall Path
+            by clicking on the album below and following our narrative by clicking on the added comments.</div>
+            <br />
+            <br />
           <div className="slideshowHostPhotoHwp">
             <figure>
               <Link
@@ -2235,9 +2219,12 @@ export default function HWP2024() {
             brilliant day and our best walking day on the wall so far.
             <br />
             <br />
-            We invite you to join us on our 7th day of the Hadrian's Wall Path
-            by clicking on the album below and following our narrative by
-            clicking on the added comments.
+          </div>{" "}
+          {/*Closing tag for hwpDailyNarrative div */}
+           <br />
+           <br />
+            <div className="text-white">We invite you to join us on our 7th day of the Hadrian's Wall Path
+            by clicking on the album below and following our narrative by clicking on the added comments.</div>
             <br />
             <br />
           </div>{" "}
@@ -2265,12 +2252,6 @@ export default function HWP2024() {
           {/* Closing div SlideshowHostPhotoHwp */}
            <br />
            <br />
-        </div>{" "}
-        {/* Closing tag datenewsDivHwp */}
-      
-
-
-
 
          <div>
         < div className="mb-20"> 
@@ -2545,11 +2526,15 @@ export default function HWP2024() {
             towards Gilsland where we would end the walk.
             <br />
             <br />
-            We invite you to join us on our 8th day of the Hadrian's Wall Path
-            by clicking on the album below and following our narrative by
-            clicking on the added comments.
           </div>{" "}
           {/*Closing tag for hwpDailyNarrative div */}
+           <br />
+           <br />
+            <div className="text-white">We invite you to join us on our 8th day of the Hadrian's Wall Path
+            by clicking on the album below and following our narrative by
+            clicking on the added comments.</div>
+            <br />
+           <br />
           <div className="slideshowHostPhotoHwp">
             <figure>
               <Link
@@ -2575,26 +2560,7 @@ export default function HWP2024() {
            <br />
         </div>{" "}
         {/* Closing tag datenewsDivHwp */}
-     
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
+ 
          < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
          <div div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
@@ -2646,13 +2612,18 @@ export default function HWP2024() {
               taking a full day for Vindolanda and a separate half-day for the
               Roman Army Museum. We went on free guided tours at both sites
               which were very interesting.
-              <br />
-              <br />
-              <div className="text-white text-semibold">
+               <br />
+            <br />
+          </div>{" "}
+          {/*Closing tag for hwpDailyNarrative div */}
+           <br />
+           <br />
+              <div className="text-white font-bold">
               We invite you to join us on our visit to the Roman Army and
               Vindolanda Museums by clicking on the album below and following
               our narrative by clicking on the added comments.
-
+              <br />
+           <br />
                <Link
                 href="https://photos.app.goo.gl/7UbS3Bujzjgc79C87"
                 target="_blank"
@@ -2663,39 +2634,14 @@ export default function HWP2024() {
                   alt=""
                 />
               </Link>
-              
-            </div>{" "}
-            {/*Closing tag for hwpDailyNarrative div */}
              <br />
-            <br />
-             
+            <br />             
               </div>  
             </div> 
       </div> 
       </div> 
 
 
-
-
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
            <div>
         < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
@@ -3129,12 +3075,14 @@ export default function HWP2024() {
             have visited Lanercost Priory severl times in the past, so
             concentrated today on the walk itself. However, we will be returning
             here when we return to Birdoswald Fort in the forthcoming months.
+               <br />
             <br />
-            <br />
+          </div>{" "}
+          {/*Closing tag for hwpDailyNarrative div */}
            <br />
            <br />
           <div className="slideshowHostPhotoHwp">
-           <div className="text-white text-semibold">Join us on our 9th day of the Hadrian's Wall Path by clicking on the
+           <div className="text-white font-bold">Join us on our 9th day of the Hadrian's Wall Path by clicking on the
             album below and following our narrative by clicking on the added
             comments. </div>
               <Link
@@ -3147,22 +3095,14 @@ export default function HWP2024() {
                   alt=""
                 />
               </Link>
-         
           </div>{" "}
           {/* Closing div SlideshowHostPhotoHwp */}
            <br />
            <br />
-        </div>{" "}
-        {/* Closing tag datenewsDivHwp */}
       </div>
         </div>{" "}
         </div>
     </div> 
-
-
-
-
-
 
 
 < div className="mb-20"> 
@@ -4066,16 +4006,18 @@ export default function HWP2024() {
             come....
             <br />
             <br />
-             <div className="text-center">We hope you have all enjoyed our Hadrian's wall blog.</div>
+            <div className="text-center">We hope you have all enjoyed our Hadrian's wall blog.</div>
              <br />
             <br />
+             </div>  
+            </div> 
+             
              <Image                  
                   src={TheEnd}
                   alt=""
                    className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
                 />
-              </div>  
-            </div> 
+             
       </div> 
       </div> 
 
@@ -4132,12 +4074,15 @@ export default function HWP2024() {
               As part of the Trees of Hope initiative, all 15 UK National Parks
               will also receive a sapling that will find new homes in some of
               the most beautiful landscapes in the UK.
-             
+                           <br />
               <br />
+              </div>{" "}
+            {/*Closing tag for hwpDailyNarrative div */}
+            <br />
               <br />
               <div className="text-white text-semibold">
-              We invite you to join us on our visit to the 'Sycamore Gap: One Year On Exhibition' by the artist Charlie Whinney at The Sill by clicking on the album below and following our narrative by clicking on the added comments.
-
+              We invite you to join us on our visit to the 'Sycamore Gap: One Year On Exhibition' by the artist Charlie Whinney at The Sill by clicking on the album below and following our narrative by clicking on the added comments.            
+             </div>
                <Link
                 href="https://photos.app.goo.gl/Tjb8jb5G9Y2Wdx5fA"
                 target="_blank"
@@ -4149,12 +4094,11 @@ export default function HWP2024() {
                 />
               </Link>
               
-            </div>{" "}
-            {/*Closing tag for hwpDailyNarrative div */}
+            
              <br />
             <br />
              
-              </div>  
+               
             </div> 
       </div> 
       </div> 
