@@ -21,7 +21,7 @@ import HousesteadsCawfieldQuarry from "/public/imagesresized/HousesteadsCawfield
 import RomanArmyMuseumT from "/public/imagesresized/RomanArmyMuseumT.jpg";
 import MithrasTemple from "/public/imagesresized/MithrasTemple.jpg";
 import Birdoswald112024Titled from "/public/imagesresized/Birdoswald112024Titled.jpg";
-import WaltonTearoomNamed from "/public/imagesresized/WaltonTearoomNamed.jpg";
+import WaltonTearoomnamed from "/public/imagesresized/WaltonTearoomnamed.jpg";
 import KingEdward1 from "/public/imagesresized/KingEdward1.jpg";
 import Day12Album from "/public/imagesresized/Day12Album.jpg";
 import TheEnd from "/public/imagesresized/TheEnd.jpg";
@@ -3429,7 +3429,7 @@ export default function HWP2024() {
                 target="_blank"
               >
                 <Image                  
-                  src={WaltonTearoomNamed}
+                  src={WaltonTearoomnamed}
                   alt=""
                    className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
                 />
