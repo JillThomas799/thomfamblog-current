@@ -5,6 +5,7 @@ import Romaneagle from "./eagle"
 import HWPThermometer from "./hwpthermometer"
 import NewcastleQuayside from "/public/imagesresized/NewcastleQuayside.jpg";
 import HwpIntro from "/public/imagesresized/HwpIntro.jpg";
+import GreatNorthMuseumTitled from "/public/imagesresized/GreatNorthMuseumTitled.jpg";
 import TyneKingGeorgeTitled from "/public/imagesresized/TyneKingGeorgeTitled.jpg";
 import Branzinos from "/public/imagesresized/Branzinos.jpg";
 import DunstonStaithes from "/public/imagesresized/DunstonStaithes.jpg";
@@ -439,6 +440,66 @@ export default function HWP2024() {
       </div>
         </div>{" "}
          </div>
+
+            < div className="mb-20"> 
+      < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
+         <div className="text-sm md:text-md md:text-base max-w-full font-normal md:font-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
+         <div className="font-semibold pt-2 pb-2 mr-[20%] ml-[20%]  text-white text-center bg-[#66023c] p-2">5th September 2024, Saturday</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]">ADDITIONAL DAY - Visit to the Hadrian's Wall Gallery at the Great North Museum, Newcastle upon Tyne.{" "} <div className="font-semibold">(Added here in the blog as the Great North Museum is located in Newcastle.{" "}</div></div> 
+            <div className="font-normal text-left bg-[#d19b2f] p-4">
+                The Great North Museum has been on our list of additional visits
+              whilst undertaking the Hadrian's Wall Path. It is situated in
+              Newcastle upon Tyne close to the university and is a museum of
+              natural history and ancient civilisations. It was established in
+              1884, being formerly known as the Hancock Museum. As a result,the
+              café at the museum is now called the 'Hancock café'.
+              <br />
+              <br />
+              On the ground floor of the museum is the Hadrian’s Wall gallery,
+              which relates the history of the Hadrian's Wall World Heritage
+              Site together with information about all the forts, milecastles
+              and associated museums that can be visited today. The gallery
+              includes a large number of archaeological finds from across the 73
+              mile stretch of Hadrian’s Wall.
+              <br />
+              <br />
+              Today, we took the opportunity to take the train into Newcastle
+              upon Tyne and to go and visit the Hadrian's Wall Gallery at the
+              Great North Museum. There are some very interesting exhibits.
+              Especially impressive is the reproduction model of the entire
+              wall, forts and milecastles which gives a real sense of the
+              geography and scale of the endeavour. The overhead drone footage
+              of the remaining wall sites in Newcastle itself was also a really
+              helpful tool as it is possible to obtain a much clearer and
+              informative view from an aerial photograph.
+              <br />
+              <br />              
+               <br />
+            <br />
+          </div>{" "}
+          {/*Closing tag for hwpDailyNarrative div */}
+           <br />
+           <br />
+              <div className="text-white font-bold">
+              We invite you to join us on our catch-up visit to the Hadrian's Wall Gallery at the Great North Museum, Newcastle upon Tyne by clicking on the album below and following our narrative by clicking on the added comments.
+              <br />
+           <br />
+               <Link
+                href="https://photos.app.goo.gl/b36nQYsVQJT8dwip6"
+                target="_blank"
+              >
+                <Image
+                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                  src={GreatNorthMuseumTitled}
+                  alt=""
+                />
+              </Link>
+             <br />
+            <br />             
+              </div>  
+            </div> 
+      </div> 
+      </div> 
 
         < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
@@ -1076,8 +1137,6 @@ export default function HWP2024() {
       </div>
         </div>{" "}
         </div>
-
-
           
         < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
@@ -1453,8 +1512,7 @@ export default function HWP2024() {
                   src={WhittleChollerford}
                   alt=""
                 />
-              </Link>
-         
+              </Link>         
           </div>{" "}
           {/* Closing div SlideshowHostPhotoHwp */}
            <br />
@@ -1464,7 +1522,6 @@ export default function HWP2024() {
       </div>
         </div>{" "}
         </div>
-
           
         < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
@@ -1725,10 +1782,10 @@ export default function HWP2024() {
             Asturia in Northern Western Spain. There are plenty of information
             boards to provide further explanation for the various areas as you
             go around the fort.
+            <br />
+          <br />
           </div>{" "}
-          {/*Closing tag for hwpDailyNarrative div */}
-          <br />
-          <br />
+          {/*Closing tag for hwpDailyNarrative div */}          
            <br />
            <br />
           <div className="slideshowHostPhotoHwp">
@@ -1755,7 +1812,6 @@ export default function HWP2024() {
       </div>
         </div>{" "}
         </div>
-
 
 < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
@@ -2011,9 +2067,6 @@ export default function HWP2024() {
         </div>{" "}
         {/* Closing tag datenewsDivHwp */}
 
-
-
-
 < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
          < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
@@ -2243,8 +2296,8 @@ export default function HWP2024() {
           {/* Closing div SlideshowHostPhotoHwp */}
            <br />
            <br />
-
          <div>
+
         < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
          < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
@@ -2632,8 +2685,6 @@ export default function HWP2024() {
       </div> 
       </div> 
 
-
-           <div>
         < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
          < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
@@ -3093,18 +3144,7 @@ export default function HWP2024() {
       </div>
         </div>{" "}
         </div>
-    </div> 
-
-
-
-
-
-
-
-
-
-
-
+   
 
      < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
@@ -3137,7 +3177,7 @@ export default function HWP2024() {
                 target="_blank"
               >
                 <Image
-                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[30%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
                   src={Birdoswald112024Titled}
                   alt=""
                 />
@@ -3148,14 +3188,6 @@ export default function HWP2024() {
             </div> 
       </div> 
       </div> 
-
-
-
-
-
-
-    
-
 
 < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
@@ -4112,7 +4144,7 @@ export default function HWP2024() {
             <br />
             </div> 
       </div> 
-      </div> 
+      </div> {/*Closing tag for Sycamore Gap Exhibition div */}
 
 
 
