@@ -194,8 +194,7 @@ export default function HWP2024() {
                   <Link
                     href="https://segedunumromanfort.org.uk/"
                     target="_blank"
-                    title="Click here
-            to discover more about Segedunum Fort"
+                    title="Click here to discover more about Segedunum Fort"
                    className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
                   >
                     {" "}
@@ -205,8 +204,7 @@ export default function HWP2024() {
                   <Link
                     href="https://www.newcastlecastle.co.uk/"
                     target="_blank"
-                    title="Click 
-            here to discover more about Newcastle Castle"
+                    title="Click here to discover more about Newcastle Castle"
                   className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
                   >
                     Newcastle Castle
@@ -402,8 +400,7 @@ export default function HWP2024() {
             <Link
               href="https://www.newcastlecastle.co.uk/"
               target="_blank"
-              title="Click
-            here to discover more about Newcastle Castle"
+              title="Click here to discover more about Newcastle Castle"
               className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
             >
               Newcastle Castle
@@ -891,8 +888,7 @@ export default function HWP2024() {
                   <Link
                     href="https://rudchester.org/fort.html"
                     target="_blank"
-                    title="Click here to discover more 
-                about Vindobala/Rudchester Fort"
+                    title="Click here to discover more about Vindobala/Rudchester Fort"
                     className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
                   >
                     {" "}
@@ -1038,8 +1034,7 @@ export default function HWP2024() {
             <Link
               href="https://rudchester.org/fort.html"
               target="_blank"
-              title="Click here to discover more 
-            about Vindobala/Rudchester Fort"
+              title="Click here to discover more about Vindobala/Rudchester Fort"
                   className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
             >
               {" "}
@@ -1283,7 +1278,7 @@ export default function HWP2024() {
             <Link
               href="https://www.english-heritage.org.uk/visit/places/planetrees-roman-wall-hadrians-wall/"
               target="_blank"
-              title="Click here to discover more about"
+              title="Click here to discover more about Planetrees"
               className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
             >
               {" "}
@@ -1423,7 +1418,7 @@ export default function HWP2024() {
             <Link
               href="https://www.english-heritage.org.uk/visit/places/planetrees-roman-wall-hadrians-wall/"
               target="_blank"
-              title="Click here to discover more about"
+              title="Click here to discover more about Planetrees."
               className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
             >
               {" "}
@@ -2510,8 +2505,7 @@ export default function HWP2024() {
             <Link
               href="https://www.gonortheast.co.uk/ad122"
               target="_blank"
-              title="Click here to discover more 
-            about the AD 122 bus service"
+              title="Click here to discover more about the AD 122 bus service"
              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline">
               {" "}
               AD122 bus{" "}
@@ -2907,8 +2901,7 @@ export default function HWP2024() {
             <Link
               href="https://www.english-heritage.org.uk/visit/places/poltross-burn-milecastle-hadrians-wall/history/"
               target="_blank"
-              title="Click here to discover more about 
-            Poltross Burn Milecastle"
+              title="Click here to discover more about Poltross Burn Milecastle"
               className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
             >
               {" "}
@@ -3379,7 +3372,7 @@ export default function HWP2024() {
             <Link
               href="https://en.wikipedia.org/wiki/Camboglanna"
               target="_blank"
-              title="Click here to discover more about Campoglanna Roman Fort"
+              title="Click here to discover more about Camboglanna Roman Fort"
               className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold" 
               >
               {" "}
@@ -3724,7 +3717,7 @@ export default function HWP2024() {
                 Monkhill for our final end of trail celebratory meal (<em>Update: Sadly since February 2026, the Drover's Rest at Monkhill has </em>  <Link
               href="https://www.newsandstar.co.uk/news/25873461.popular-pub-drovers-rest-monkhill-close-doors/"
               target="_blank"
-              title="If you hold an upto date TV licence, click on this link to load the programme"
+              title="Click here to see the News and Star article about the closure of The Drover's Rest."
               className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold" 
             >
               {" "}
@@ -3779,7 +3772,7 @@ export default function HWP2024() {
                   was a unique and delightful experience. (<em>Update: Sadly since February 2026, the Drover's Rest at Monkhill has </em>  <Link
               href="https://www.newsandstar.co.uk/news/25873461.popular-pub-drovers-rest-monkhill-close-doors/"
               target="_blank"
-              title="If you hold an upto date TV licence, click on this link to load the programme"
+              title="Click here to see the News and Star article about the closure of The Drover's Rest."
               className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold" 
             >
               {" "}
@@ -4108,10 +4101,9 @@ export default function HWP2024() {
                          <Link
                   href="https://www.theguardian.com/uk-news/2024/sep/27/sycamore-gap-tree-exhibition-opens-to-mark-a-year-since-its-felling"
                   target="_blank"
-                  title="Click here ot open Guardian article re the Sycamore Gap tree exhibition 27th September 2027"
+                  title="Click here to open Guardian article re the Sycamore Gap tree exhibition 27th September 2027"
                   className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
-                > Sycamore Gap Tree Exhibition opens to mark a year since its
-                felling</Link>.
+                > Sycamore Gap Tree Exhibition opens to mark a year since its felling</Link>.
                  {" "}
                   <br />
               <br />             
@@ -4144,7 +4136,7 @@ export default function HWP2024() {
               <br />
               <br />
               <div className="text-white text-semibold">
-              We invite you to join us on our visit to the Sycamore Gap 1 year on Exhibition at The Sill by clicking on the album below and following our narrative by clicking on the added comments.
+              We invite you to join us on our visit to the 'Sycamore Gap: One Year On Exhibition' by the artist Charlie Whinney at The Sill by clicking on the album below and following our narrative by clicking on the added comments.
 
                <Link
                 href="https://photos.app.goo.gl/Tjb8jb5G9Y2Wdx5fA"
