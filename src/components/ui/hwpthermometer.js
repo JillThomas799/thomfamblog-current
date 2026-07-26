@@ -7,16 +7,16 @@ export default function HWPThermometer() {
       <div className="chartWrapper">
         <ul className="chartY">
           <li className="font-bold">100%</li>
-          <li>90%</li>
-          <li>80%</li>
-          <li>70%</li>
-          <li>60%</li>
-          <li>50%</li>
-          <li>40%</li>
-          <li>30%</li>
-          <li>20%</li>
-          <li>10%</li>
-          <li>0%</li>
+          <li className="font-bold">90%</li>
+          <li className="font-bold">80%</li>
+          <li className="font-bold">70%</li>
+          <li className="font-bold">60%</li>
+          <li className="font-bold">50%</li>
+          <li className="font-bold">40%</li>
+          <li className="font-bold">30%</li>
+          <li className="font-bold">20%</li>
+          <li className="font-bold">10%</li>
+          <li className="font-bold">0%</li>
         </ul>
 
         <ul className="chartX">

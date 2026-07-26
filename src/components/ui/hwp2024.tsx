@@ -19,6 +19,7 @@ import ThirlwallElena1 from "/public/imagesresized/ThirlwallElena1.jpg";
 import HousesteadsCawfieldQuarry from "/public/imagesresized/HousesteadsCawfieldQuarry.jpg";
 import RomanArmyMuseumT from "/public/imagesresized/RomanArmyMuseumT.jpg";
 import MithrasTemple from "/public/imagesresized/MithrasTemple.jpg";
+import Birdoswald112024Titled from "/public/imagesresized/Birdoswald112024Titled.jpg";
 import WaltonTearoomNamed from "/public/imagesresized/WaltonTearoomNamed.jpg";
 import KingEdward1 from "/public/imagesresized/KingEdward1.jpg";
 import Day12Album from "/public/imagesresized/Day12Album.jpg";
@@ -114,8 +115,6 @@ export default function HWP2024() {
         </div>{" "}
       </div>{" "}
 </div>
-
-
      
       < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
@@ -430,8 +429,7 @@ export default function HWP2024() {
                   src={NewcastleQuayside}
                   alt=""
                 />
-              </Link>
-         
+              </Link>         
           </div>{" "}
           {/* Closing div SlideshowHostPhotoHwp */}
            <br />
@@ -442,8 +440,6 @@ export default function HWP2024() {
         </div>{" "}
          </div>
 
-
-        <div>
         < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
          < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
@@ -451,9 +447,7 @@ export default function HWP2024() {
               <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]"> Day 2 - Newcastle Gateshead millennium Bridge to Tyne Riverside
             Country Park: 8.7 miles (including a 1 mile detour to Denton Hall
             turret).</div>
-      
-        
-         
+
             <div className="bg-[#66023c] text-white font-bold">DETAILS OF THE WALK </div>
             <div className="font-semibold text-center border-solid mr-1 ml-1 mt-2 mb-2 px-4 py-4 ">            
         <div className="font-normal pt-2 pb-2  text-black text-center">
@@ -798,10 +792,7 @@ export default function HWP2024() {
         {/* Closing tag datenewsDivHwp */}
       </div>
         </div>{" "}
-        </div>
-
-
-         
+ 
         < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
          < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
@@ -3105,6 +3096,67 @@ export default function HWP2024() {
     </div> 
 
 
+
+
+
+
+
+
+
+
+
+
+     < div className="mb-20"> 
+      < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
+         <div div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
+         <div className="font-semibold pt-2 pb-2 mr-[20%] ml-[20%]  text-white text-center bg-[#66023c] p-2">2nd November 2024, Saturday</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]">ADDITIONAL DAY - CATCH-UP VISIT TO BIRDOSWALD FORT <div className="font-semibold">(Added here in the blog as geographically Birdoswald Fort is on the Gilsland to Lanercost section of the walk.{" "}</div></div> 
+            <div className="font-normal text-left bg-[#d19b2f] p-4">
+               When we walked the Birdowswald Fort section of Hadrian's Wall on the 28th July 2024, there was not time to call in and explore the fort more fully, so we promised that sometime over the quieter
+              Winter months we would pay Birdoswald Fort a visit, especially as Harry had never had the opportunity to visit.
+              <br />
+              <br />
+              It was lovely and quiet at the fort, so there was plenty of opportunity and time to study the information boards and findings carefully. It is an interesting fort and well worth a visit if you are in the area! It is probably worthwhile obtaining a copy of the English Heritage guidebook though as it contains some additional
+              helpful information to provide further clarification.
+              <br />
+              <br />
+              
+               <br />
+            <br />
+          </div>{" "}
+          {/*Closing tag for hwpDailyNarrative div */}
+           <br />
+           <br />
+              <div className="text-white font-bold">
+              We invite you to join us on our catch-up visit to Birdoswald Fort by clicking on the album below and following
+              our narrative by clicking on the added comments.
+              <br />
+           <br />
+               <Link
+                href="https://photos.app.goo.gl/kSXHPmTyB2NbWjcg8"
+                target="_blank"
+              >
+                <Image
+                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                  src={Birdoswald112024Titled}
+                  alt=""
+                />
+              </Link>
+             <br />
+            <br />             
+              </div>  
+            </div> 
+      </div> 
+      </div> 
+
+
+
+
+
+
+    
+
+
 < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
          < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
@@ -3325,16 +3377,19 @@ export default function HWP2024() {
             ground around Bleatarn Farm was used by the Romans to gather stone
             for Hadrian's Wall and the mounds created by the debris from the
             quarry activity can still be seen.
+             <br />
             <br />
-            <br />
+          </div>{" "}
+          {/*Closing tag for hwpDailyNarrative div */}
+           <br />
+           <br />
            <div className="text-white text-semibold">Join us on our 10th day of the Hadrian's Wall Path by clicking on the
             album below and following our narrative by clicking on the added
             comments. </div>
             <br />
             <br />
             
-          </div>{" "}
-          {/*Closing tag for hwpDailyNarrative div */}
+          
           <div className="slideshowHostPhotoHwp">
             <figure>
               <Link
@@ -3360,19 +3415,6 @@ export default function HWP2024() {
            <br />
         </div>{" "}
         {/* Closing tag datenewsDivHwp */}
-      
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 < div className="mb-20"> 
@@ -3551,17 +3593,18 @@ export default function HWP2024() {
             statue of Edward I can be seen in the centre of the village and
             there is a monument to King Edward I at the site of his death a
             short distance away on Burgh Marsh.
+           <br />
             <br />
-            <br />
-          
+          </div>{" "}
+          {/*Closing tag for hwpDailyNarrative div */}
+           <br />
+           <br />          
            <div className="text-white text-semibold">Join us on our 11th day of the Hadrian's Wall Path by clicking on the
             album below and following our narrative by clicking on the added
             comments. </div>
             <br />
             <br />
-            
-          </div>{" "}
-          {/*Closing tag for hwpDailyNarrative div */}
+
           <div className="slideshowHostPhotoHwp">
             <figure>
               <Link
@@ -3587,29 +3630,7 @@ export default function HWP2024() {
            <br />
         </div>{" "}
         {/* Closing tag datenewsDivHwp */}
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
          < div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
@@ -3948,16 +3969,17 @@ export default function HWP2024() {
             digging and is thought to date back to the 2nd and 3rd centuries. It
             can be seen today in the Tullie museum at Carlisle.
             <br />
-            <br />     
-          
+            <br />
+          </div>{" "}
+          {/*Closing tag for hwpDailyNarrative div */}
+           <br />
+           <br />          
            <div className="text-white text-semibold">Join us on our 12th day of the Hadrian's Wall Path by clicking on the
             album below and following our narrative by clicking on the added
             comments. </div>
             <br />
             <br />
             
-          </div>{" "}
-          {/*Closing tag for hwpDailyNarrative div */}
           <div className="slideshowHostPhotoHwp">
             <figure>
               <Link
@@ -3984,9 +4006,6 @@ export default function HWP2024() {
         </div>{" "}
         {/* Closing tag datenewsDivHwp */}
 
-
-
-
        < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
          <div div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
@@ -4004,27 +4023,23 @@ export default function HWP2024() {
             usual) and, as we have been 'bitten by the long distance walk bug'
             we need to plan our next trip which will be in 2025. More on that to
             come....
-            <br />
-            <br />
-            <div className="text-center">We hope you have all enjoyed our Hadrian's wall blog.</div>
-             <br />
-            <br />
-             </div>  
+            </div>  
             </div> 
-             
+            
+            <div className="text-center">
+              <br />
+            <br />
+            We hope you have all enjoyed our Hadrian's wall blog.
+            <br />
+            <br />
+            </div>             
              <Image                  
                   src={TheEnd}
                   alt=""
                    className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
                 />
-             
       </div> 
       </div> 
-
-
-
-
-
 
       < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
@@ -4093,12 +4108,8 @@ export default function HWP2024() {
                   alt=""
                 />
               </Link>
-              
-            
              <br />
             <br />
-             
-               
             </div> 
       </div> 
       </div> 
@@ -4106,10 +4117,7 @@ export default function HWP2024() {
 
 
 
-
-
     </div>   
-       
   </div>
   </div>
   )
