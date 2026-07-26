@@ -2607,7 +2607,7 @@ export default function HWP2024() {
  
          < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
-         <div div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
+         <div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
          <div className="font-semibold pt-2 pb-2 mr-[20%] ml-[20%]  text-white text-center bg-[#66023c] p-2">14th July 2024, Sunday</div> {/*End of news date block*/}
               <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]">ADDITIONAL DAY - Visit to the Roman Army Museum and Vindolanda <div className="font-semibold">(Added here in the blog as geographically the Roman Army Museum is in closest proximity to the Cawfields to Gilsland section of the walk.{" "}</div></div> 
             <div className="font-normal text-left bg-[#d19b2f] p-4">
