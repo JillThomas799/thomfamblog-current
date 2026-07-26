@@ -17,10 +17,13 @@ import WhittleChollerford from "/public/imagesresized/WhittleChollerford.jpg";
 import ChollerfordBroccolitia from "/public/imagesresized/ChollerfordBroccolitia.jpg";
 import ThirlwallElena1 from "/public/imagesresized/ThirlwallElena1.jpg";
 import HousesteadsCawfieldQuarry from "/public/imagesresized/HousesteadsCawfieldQuarry.jpg";
+import RomanArmyMuseumT from "/public/imagesresized/RomanArmyMuseumT.jpg";
 import MithrasTemple from "/public/imagesresized/MithrasTemple.jpg";
 import WaltonTearoomNamed from "/public/imagesresized/WaltonTearoomNamed.jpg";
 import KingEdward1 from "/public/imagesresized/KingEdward1.jpg";
 import Day12Album from "/public/imagesresized/Day12Album.jpg";
+import TheEnd from "/public/imagesresized/TheEnd.jpg";
+import SycamoreGapExhibitionTitled from "/public/imagesresized/SycamoreGapExhibitionTitled.jpg";
 
 
 
@@ -2580,8 +2583,125 @@ export default function HWP2024() {
         {/* Closing tag datenewsDivHwp */}
      
          
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         < div className="mb-20"> 
+      < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
+         <div div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
+         <div className="font-semibold pt-2 pb-2 mr-[20%] ml-[20%]  text-white text-center bg-[#66023c] p-2">14th July 2024, Sunday</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]">ADDITIONAL DAY - Visit to the Roman Army Museum and Vindolanda <div className="font-semibold">(Added here in the blog as geographically the Roman Army Museum is in closest proximity to the Cawfields to Gilsland section of the walk.{" "}</div></div> 
+            <div className="font-normal text-left bg-[#d19b2f] p-4">
+              We had walked a long way (12.6 miles) on Saturday, 13th July in
+              poor, wet weather undertaking the Whittle Dene Reservoirs to 
+              Chollerford with Brunton section of the Hadrian's Wall Path(Day 4). 
+              So rather than undertaking another stage of our Hadrian's Wall walk on the Sunday, 
+              given it was forecast for rain again, we decided it was time for a catch-up day in which we would
+              take the opportunity to visit the Roman Army Museum and Vindolanda
+              in a relaxed fashion.
+              <br />
+              <br />
+              <div className="font-bold">The Roman Army Museum:</div> We have visited Vindolanda previously, but
+              not the Roman Army Museum and so had long planned a visit. On arrival at the Roman Army Museum, we
+              commenced the visit by watching the  <Link
+                  href="https://www.youtube.com/watch?v=zTPUFsqlHcs"
+                  target="_blank"
+                  title="Click here to see the trailer for the Vindolanda Edge of Empire The Eagle's Eye film"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >Edge of Empire The Eagle's Eye</Link>
+                 {" "}
+              film. The actual film is 20-30 minutes long and was originally
+              filmed in 3D. We understand that the reason the 3D version can no
+              longer be seen is that the 3D licence had become unaffordable, so
+              now it is shown in 2D. Nonetheless, it is a very impressive film,
+              and the screen it is shown on is a reasonable size. It really
+              brings life on this section of the Wall in Roman times to life.
+              <br />
+              <br />
+              There is also a 10 minute film produced by the Vindolanda Trust,
+              talking about the <Link
+                  href="https://www.youtube.com/watch?v=x0ihofNTSrA"
+                  target="_blank"
+                  title="Click here to see the film about the making of the Edge of Empire The Eagle's Eye film"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                >making of the Edge of Empire The Eagle's Eye
+              film </Link>
+                 {" "} which can be found on You Tube videos. It is a really
+              interesting short film as the filming was undertaken using a
+              combination of an eagle who came from the local Kielder bird of
+              prey centre, and whose name we discovered was Sima and a
+              helicopter. The eagle had a camera strapped to its chest.
+              <br />
+              <br />
+              Both museums are well worth a visit although we would recommend
+              taking a full day for Vindolanda and a separate half-day for the
+              Roman Army Museum. We went on free guided tours at both sites
+              which were very interesting.
+              <br />
+              <br />
+              <div className="text-white text-semibold">
+              We invite you to join us on our visit to the Roman Army and
+              Vindolanda Museums by clicking on the album below and following
+              our narrative by clicking on the added comments.
+
+               <Link
+                href="https://photos.app.goo.gl/7UbS3Bujzjgc79C87"
+                target="_blank"
+              >
+                <Image
+                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                  src={RomanArmyMuseumT}
+                  alt=""
+                />
+              </Link>
+              
+            </div>{" "}
+            {/*Closing tag for hwpDailyNarrative div */}
+             <br />
+            <br />
+             
+              </div>  
+            </div> 
+      </div> 
+      </div> 
 
 
+
+
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
            <div>
         < div className="mb-20"> 
       < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
@@ -3930,7 +4050,122 @@ export default function HWP2024() {
            <br />
         </div>{" "}
         {/* Closing tag datenewsDivHwp */}
-      
+
+
+
+
+       < div className="mb-20"> 
+      < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
+         <div div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
+         <div className="font-semibold pt-2 pb-2 mr-[20%] ml-[20%]  text-white text-center bg-[#66023c] p-2">24th August 2024, Saturday</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]">THE END</div> 
+            <div className="font-normal text-left bg-[#d19b2f] p-4">
+              So on the 24th August 2024 we finished our Hadrian's Wall Path Trail
+            which had started on the 1st June 2024. In total we walked 99.16
+            miles over a total of 12 days of which 91.15 was on the official
+            Hadrian's Wall Path. The longest stretch we walked was 12.6 miles.
+            <br />
+            <br />
+            So now it is time to put our feet up for a while (metaphorically
+            speaking of course, because we will be out walking regularly as
+            usual) and, as we have been 'bitten by the long distance walk bug'
+            we need to plan our next trip which will be in 2025. More on that to
+            come....
+            <br />
+            <br />
+             <div className="text-center">We hope you have all enjoyed our Hadrian's wall blog.</div>
+             <br />
+            <br />
+             <Image                  
+                  src={TheEnd}
+                  alt=""
+                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                />
+              </div>  
+            </div> 
+      </div> 
+      </div> 
+
+
+
+
+
+
+      < div className="mb-20"> 
+      < div className="flex flex-col bg-[#850f55] border-solid border-8 border-gray-600 h-[80%] md:h-[100%]  w-auto leading-1.5 pt-4 md:p-4 lg:p-4">
+         <div div className="text-sm md:text-md md:text-base max-w-full font-normal md:fount-semibold text-[#2b8936] text-center dark:text-black justify-center items-center">
+         <div className="font-semibold pt-2 pb-2 mr-[20%] ml-[20%]  text-white text-center bg-[#66023c] p-2">1st November 2024, Friday</div> {/*End of news date block*/}
+              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-white text-center  bg-[#66023c]"> POSTSCRIPT - ADDITIONAL DAY - VISIT TO THE SYCAMORE GAP EXHIBITION AT THE SILL {" "}</div> 
+            <div className="font-normal text-left bg-[#d19b2f] p-4">
+              We took the time today to go to see the temporary exhibition
+              entitled 'Sycamore Gap: One Year On' by the artist Charlie Whinney
+              which is being hosted at 'The Sill' between the 28th September and
+              the 3rd November 2024. 
+               <br />
+              <br />
+              The Guardian newspaper recently published
+              an article regarding this exhibition which can be read here:{" "}
+                         <Link
+                  href="https://www.theguardian.com/uk-news/2024/sep/27/sycamore-gap-tree-exhibition-opens-to-mark-a-year-since-its-felling"
+                  target="_blank"
+                  title="Click here ot open Guardian article re the Sycamore Gap tree exhibition 27th September 2027"
+                  className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                > Sycamore Gap Tree Exhibition opens to mark a year since its
+                felling</Link>.
+                 {" "}
+                  <br />
+              <br />             
+               The felling of the Sycamore Gap Tree in the early hours of the
+              morning on the 28th September 2023 gained widespread media
+              coverage with people from all over the world adding their
+              contributions as to the significance of this particular tree to
+              their lives and experiences. As a result of this and in order to
+              try and gain something hopeful and positive out of such a
+              destructive event, the artist Charlie Whinney and Creative
+              Communities CIC, have created the Sycamore Gap: One Year On
+              exhibition.
+              <br />
+              <br />
+              This exhibition encourages contemplation of events and features
+              the largest remaining section of the original tree. As part of the
+              exhibition, it seeks the participation of the public with visitors
+              being invited to make promises to nature, which will be
+              incorporated into the second and final phase of the commission,
+              set to open by Easter 2025. It is the first part of a 2 part
+              exhibition in which the second and final part will see the wood
+              installed permanently into The Sill and this will open by Easter
+              2025.
+              <br />
+              <br />
+              As part of the Trees of Hope initiative, all 15 UK National Parks
+              will also receive a sapling that will find new homes in some of
+              the most beautiful landscapes in the UK.
+             
+              <br />
+              <br />
+              <div className="text-white text-semibold">
+              We invite you to join us on our visit to the Sycamore Gap 1 year on Exhibition at The Sill by clicking on the album below and following our narrative by clicking on the added comments.
+
+               <Link
+                href="https://photos.app.goo.gl/Tjb8jb5G9Y2Wdx5fA"
+                target="_blank"
+              >
+                <Image
+                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#bdbeba] border-4 mt-4 mb-6"
+                  src={SycamoreGapExhibitionTitled}
+                  alt=""
+                />
+              </Link>
+              
+            </div>{" "}
+            {/*Closing tag for hwpDailyNarrative div */}
+             <br />
+            <br />
+             
+              </div>  
+            </div> 
+      </div> 
+      </div> 
 
 
 
