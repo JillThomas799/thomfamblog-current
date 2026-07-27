@@ -1,15 +1,15 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./june2025.css";
+import Image from 'next/image'
+import Link from 'next/link'
+
 import GardenCatAnimation10062025 from "/public/imagesresized/GardenCatAnimation10062025.jpg";
 import DoveCottageGrasmere from "/public/imagesresized/DoveCottageGrasmere.jpg";
-import RhodedendraInBloom from "/public/imagesresized/RhodedendraInBloom.JPG";
+import RhodedendraInBloom from "/public/imagesresized/RhodedendraInBloom.jpg";
 import PrettyViewsGrasmere from "/public/imagesresized/PrettyViewsGrasmere.jpg";
-import LoughriggTerrace from "/public/imagesresized/LoughriggTerrace.JPG";
-import FoxglovesGrasmere from "/public/imagesresized/FoxglovesGrasmere.JPG";
+import LoughriggTerrace from "/public/imagesresized/LoughriggTerrace.jpg";
+import FoxglovesGrasmere from "/public/imagesresized/FoxglovesGrasmere.jpg";
 import GrasmereLake1 from "/public/imagesresized/GrasmereLake1.jpg";
-import GrasmereLake2 from "/public/imagesresized/GrasmereLake2.JPG";
-import BandJGrasmere from "/public/imagesresized/BandJGrasmere.JPG";
+import GrasmereLake2 from "/public/imagesresized/GrasmereLake2.jpg";
+import BandJGrasmere from "/public/imagesresized/BandJGrasmere.jpg";
 import HeidisCafeGrasmere from "/public/imagesresized/HeidisCafeGrasmere.jpg";
 import Rain140622025V2 from "/public/imagesresized/Rain140622025V1.jpg";
 import Rain140622025V1 from "/public/imagesresized/Rain140622025V2.jpg";
@@ -24,33 +24,28 @@ import strawberries062025titled from "/public/imagesresized/strawberries062025ti
 export default function June2025() {
   return (
     <div>
-      <div className="june2025Header">
-        {" "}
-        <div className="monthHeaderJune2025">June 2025</div>
-        <button id="backbuttonJune2025">
-          <Link to="/" className="backbuttonLink" style={{ color: "black" }}>
-            Back
-          </Link>
-        </button>
-        <div id="bodyWalkingCatAnimation">
-          <div id="rootWalkingCat">
-            <img
-              src={GardenCatAnimation10062025}
-              alt=""
-              className="headerPhotoJune2025"
-            />
-            <div className="containerWalkingCat move ">
-              <div className="catWalking walkThenSit"></div>
-            </div>
+      <div className=" border-solid border-8 border-[#336600] md:p-4 mb-8 h-[80vh] text-gray-800 text-center font-normal text-l p-3">
+        <div className="bg-[#336600] mr-[7%] ml-[7%] md:mr-[40%] md:ml-[40%] p-1 border-gray-800 border-2 text-white font-semibold">June 2025</div>
+        <br />
+        <br />
+      </div>
+
+      < div className="mb-20">
+        < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-gray-800 border-solid border-2 md:border-2 bg-[#96AD93]">
+          < div className="text-md md:text-lg max-w-full font-normal text-white text-center dark:text-white justify-center items-center">
+            <div className="font-normal text-center border-solid border-black border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#336600]"><div className="font-semibold">Welcome to our June 2025 blog.</div>
+            </div>{" "}
           </div>
         </div>
-        <div className="datenewsDivJune2025">
-          <section className="dateJune2025">1st - 30th June 2025</section>
-          <section className="newsHeaderJune2025">
-            Welcome to our June 2025 blog
-          </section>
-          <section className="newsJune2025">
-            This month's header shows an animated cat (representing either our
+
+
+        < div className="mb-20">
+          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#96AD93]">
+            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+              <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#336600]">1st - 30th June 2025.</div> {/*End of news date block*/}
+              <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]"> Welcome to our June 2025 blog</div>
+              <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#336600]">
+                This month's header shows an animated cat (representing either our
             cat Lennie, or our next door's black cat, who we call 'Blackie '
             walking across our lawn, you can take your pick). Creating this
             header has been good fun but challenging as it has meant learning
@@ -62,8 +57,15 @@ export default function June2025() {
             <br />
             Other than that, it should be a good month because summer is here{" "}
             <em>(Yeah!).....</em>.
-          </section>
-        </div>
+                <br />
+                <br />                
+            </div>
+          </div>
+          </div>
+          </div>
+
+         
+        
         <div className="datenewsDivJune2025">
           <section className="dateJune2025">7th June 2025, Saturday</section>
           <section className="newsHeaderJune2025">
@@ -86,7 +88,7 @@ export default function June2025() {
             There was another driving force behind this trip in that Elena
             wanted to obtain some gingerbread from the well-known{" "}
             <Link
-              to="https://www.grasmeregingerbread.co.uk/"
+              href="https://www.grasmeregingerbread.co.uk/"
               target="_blank"
               className="linkJune2025"
             >
@@ -101,7 +103,7 @@ export default function June2025() {
             his sister Dorothy Wordsworth. For any Wordsworth fans, William and
             Dorothy's erstwhile home{" "}
             <Link
-              to="https://wordsworth.org.uk/"
+              href="https://wordsworth.org.uk/"
               target="_blank"
               className="linkJune2025"
             >
@@ -119,7 +121,7 @@ export default function June2025() {
             As the weather was unpredictable and the mist low over the hills, we
             decided to undertake the lovely
             <Link
-              to="https://www.walklakes.co.uk/walk_75.html"
+              href="https://www.walklakes.co.uk/walk_75.html"
               target="_blank"
               className="linkJune2025"
             >
@@ -134,7 +136,7 @@ export default function June2025() {
         <div className="blogPhotoDivJune2025">
           <figure>
             <section className="blogPhotoJune2025">
-              <img src={BandJGrasmere} alt="" />
+              <Image src={BandJGrasmere} alt="" />
               <div className="june2025FigCaption">
                 <strong>
                   Jill and Bernard leaving Grasmere <br /> at the start of the
@@ -145,7 +147,7 @@ export default function June2025() {
           </figure>
           <figure>
             <section className="blogPhotoJune2025">
-              <img src={PrettyViewsGrasmere} alt="" />
+              <Image src={PrettyViewsGrasmere} alt="" />
               <div className="june2025FigCaption">
                 <strong>
                   Grasmere is considered to be <br /> one of the prettiest{" "}
@@ -156,7 +158,10 @@ export default function June2025() {
           </figure>
           <figure>
             <section className="blogPhotoJune2025">
-              <img src={RhodedendraInBloom} alt="" />
+              <Image src={RhodedendraInBloom} 
+              alt=""
+              className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
+               />
               <div className="june2025FigCaption">
                 <strong>
                   The rhodedendra were in bloom... <br />
@@ -168,7 +173,10 @@ export default function June2025() {
         <div className="blogPhotoDivJune2025">
           <figure>
             <section className="blogPhotoJune2025">
-              <img src={FoxglovesGrasmere} alt="" />
+              <Image src={FoxglovesGrasmere} 
+              alt=""
+              className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
+               />
               <div className="june2025FigCaption">
                 <strong>There were lots of foxgloves...</strong>
               </div>
@@ -176,7 +184,10 @@ export default function June2025() {
           </figure>
           <figure>
             <section className="blogPhotoJune2025">
-              <img src={GrasmereLake1} alt="" />
+              <Image src={GrasmereLake1} 
+              alt=""
+              className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
+               />
               <div className="june2025FigCaption">
                 <strong>and excellent views down to Grasmere village...</strong>
               </div>
@@ -184,7 +195,10 @@ export default function June2025() {
           </figure>
           <figure>
             <section className="blogPhotoJune2025">
-              <img src={GrasmereLake2} alt="" />
+              <Image src={GrasmereLake2} 
+              alt="" 
+              className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
+               />
               <div className="june2025FigCaption">
                 <strong>... and Grasmere Lake</strong>
               </div>
@@ -194,7 +208,10 @@ export default function June2025() {
         <div className="blogPhotoDivJune2025">
           <figure>
             <section className="blogPhotoJune2025">
-              <img src={LoughriggTerrace} alt="" />
+              <Image src={LoughriggTerrace} 
+              alt=""
+              className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
+               />
               <div className="june2025FigCaption">
                 <strong>
                   We climbed up to walk <br /> along Loughrigg Terrace ...
@@ -204,7 +221,10 @@ export default function June2025() {
           </figure>
           <figure>
             <section className="blogPhotoJune2025">
-              <img src={DoveCottageGrasmere} alt="" />
+              <Image src={DoveCottageGrasmere} 
+              alt=""
+              className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
+               />
               <div className="june2025FigCaption">
                 <strong>
                   Dove Cottage Grasmere, <br /> the home of William Wordsworth{" "}
@@ -215,7 +235,7 @@ export default function June2025() {
           </figure>
           <figure>
             <section className="blogPhotoJune2025">
-              <img src={HeidisCafeGrasmere} alt="" />
+              <Image src={HeidisCafeGrasmere} alt="" />
               <div className="june2025FigCaption">
                 <strong>
                   Finally of course, we <br /> had to take advantage of <br />{" "}
@@ -255,11 +275,11 @@ export default function June2025() {
             </strong>
             <br />
             <Link
-              to="https://photos.app.goo.gl/KYKPjs24bNXS8jLJ6"
+              href="https://photos.app.goo.gl/KYKPjs24bNXS8jLJ6"
               target="_blank"
               className="linkJune2025"
             >
-              <img
+              <Image
                 className="slideshowentryJune2025"
                 src={strawberries062025titled}
                 alt=""
@@ -289,7 +309,7 @@ export default function June2025() {
             There was only a limited amount of time available and heavy rain was
             forecast, so we decided to visit the exceptional{" "}
             <Link
-              to="https://burrellcollection.com/"
+              href="https://burrellcollection.com/"
               target="_blank"
               className="linkJune2025"
             >
@@ -297,7 +317,7 @@ export default function June2025() {
             </Link>{" "}
             , together with{" "}
             <Link
-              to="https://burrellcollection.com/visit/pollok-country-park-glasgows-largest-green-space/"
+              href="https://burrellcollection.com/visit/pollok-country-park-glasgows-largest-green-space/"
               target="_blank"
               className="linkJune2025"
             >
@@ -310,7 +330,7 @@ export default function June2025() {
             <br />
             The{" "}
             <Link
-              to="https://burrellcollection.com/"
+              href="https://burrellcollection.com/"
               target="_blank"
               className="linkJune2025"
             >
@@ -325,7 +345,7 @@ export default function June2025() {
             Rodin's 'The Thinker' 1880-1881 which started out as the crowning
             element of{" "}
             <Link
-              to="https://www.musee-rodin.fr/en/musee/collections/oeuvres/gates-hell"
+              href="https://www.musee-rodin.fr/en/musee/collections/oeuvres/gates-hell"
               target="_blank"
               className="linkJune2025"
             >
@@ -361,7 +381,7 @@ export default function June2025() {
             surviving Tudor embroidery. There is also a headboard from bed of
             Henry VIII and Anne of Cleves. Although dating back to 2014, this
             <Link
-              to="https://www.theguardian.com/uk-news/2014/dec/07/headboard-henry-viii-anne-cleves-london-glasgow-scottish-parliament"
+              href="https://www.theguardian.com/uk-news/2014/dec/07/headboard-henry-viii-anne-cleves-london-glasgow-scottish-parliament"
               target="_blank"
               className="linkJune2025"
             >
@@ -372,7 +392,7 @@ export default function June2025() {
             <br />
             <br />
             <Link
-              to="https://burrellcollection.com/visit/pollok-country-park-glasgows-largest-green-space/"
+              href="https://burrellcollection.com/visit/pollok-country-park-glasgows-largest-green-space/"
               target="_blank"
               className="linkJune2025"
             >
@@ -396,7 +416,7 @@ export default function June2025() {
         <div className="blogPhotoDivJune2025">
           <figure>
             <section className="blogPhotoJune2025">
-              <img src={PollokPark14062025} alt="" />
+              <Image src={PollokPark14062025} alt="" />
               <div className="june2025FigCaption">
                 <strong>
                   Pollok Park, Glasgow, a great <br /> place to visit for the 3{" "}
@@ -407,7 +427,7 @@ export default function June2025() {
           </figure>
           <figure>
             <section className="blogPhotoJune2025">
-              <img src={Rain140622025V2} alt="" />
+              <Image src={Rain140622025V2} alt="" />
               <div className="june2025FigCaption">
                 <strong>
                   Eventually, we reached the Burrell <br /> Collection and were
@@ -418,7 +438,7 @@ export default function June2025() {
           </figure>
           <figure>
             <section className="blogPhotoJune2025">
-              <img src={Rain140622025V1} alt="" />
+              <Image src={Rain140622025V1} alt="" />
               <div className="june2025FigCaption">
                 <strong>
                   It was time for some lunch, so <br /> we found a table in the
@@ -429,7 +449,7 @@ export default function June2025() {
           </figure>
           <figure>
             <section className="blogPhotoJune2025">
-              <img src={RestaurantBurrellCollection} alt="" />
+              <Image src={RestaurantBurrellCollection} alt="" />
               <div className="june2025FigCaption">
                 <strong>
                   However, the restaurant was great, <br /> with a good menu and{" "}
@@ -442,7 +462,7 @@ export default function June2025() {
         <div className="blogPhotoDivJune2025">
           <figure>
             <section className="blogPhotoJune2025">
-              <img src={GuidedTourSign} alt="" />
+              <Image src={GuidedTourSign} alt="" />
               <div className="june2025FigCaption">
                 <strong>
                   After lunch we joined a guided tour <br /> of the Burrell
@@ -454,7 +474,7 @@ export default function June2025() {
           </figure>
           <figure>
             <section className="blogPhotoJune2025">
-              <img src={BurrellCollection} alt="" />
+              <Image src={BurrellCollection} alt="" />
               <div className="june2025FigCaption">
                 <strong>
                   By the time we had finished at the museum <br /> it had
@@ -466,7 +486,7 @@ export default function June2025() {
           </figure>
           <figure>
             <section className="blogPhotoJune2025">
-              <img src={PollokHouse14062025} alt="" />
+              <Image src={PollokHouse14062025} alt="" />
               <div className="june2025FigCaption">
                 <strong>
                   ...then we went for a walk <br /> down to Pollok house and
@@ -477,7 +497,7 @@ export default function June2025() {
           </figure>
           <figure>
             <section className="blogPhotoJune2025">
-              <img src={StoneBridgeWilliamandJohnAdam} alt="" />
+              <Image src={StoneBridgeWilliamandJohnAdam} alt="" />
               <div className="june2025FigCaption">
                 <strong>
                   ...which include this stone bridge built in 1750 <br /> by
@@ -495,7 +515,7 @@ export default function June2025() {
           <section className="newsJune2025">
             We went to see the film{" "}
             <Link
-              to="https://www.imdb.com/title/tt27674982/"
+              href="https://www.imdb.com/title/tt27674982/"
               target="_blank"
               className="linkJune2025"
             >
@@ -511,7 +531,7 @@ export default function June2025() {
             <br />
             It has received some{" "}
             <Link
-              to="https://www.theguardian.com/film/2025/may/28/the-ballad-of-wallis-island-review-lottery-folk-tim-key-carey-mulligan"
+              href="https://www.theguardian.com/film/2025/may/28/the-ballad-of-wallis-island-review-lottery-folk-tim-key-carey-mulligan"
               target="_blank"
               className="linkJune2025"
             >
@@ -523,5 +543,10 @@ export default function June2025() {
         </div>
       </div>
     </div>
+
+
+
+  
+
   );
 }
