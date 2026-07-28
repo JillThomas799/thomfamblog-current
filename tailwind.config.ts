@@ -89,7 +89,7 @@ const config: Config = withUt({
 		'RoseTile':"url('/imagesresized/Roses1.jpg')",
 		'HermitageFerry':"url('/images/DoNotDelete/HermitageFerry.jpg')",
 		'HermitageWarkworth':"url('/images/DoNotDelete/HermitageWarkworth.jpg')",
-		'GardenJune2025':"url('/images/GardenJune2025.jpg')",
+		'GardenJune2025':"url('/images/DoNotDelete/GardenJune2025.jpg')",
       },
   	}
   },
