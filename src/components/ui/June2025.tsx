@@ -331,7 +331,7 @@ export default function June2025() {
             < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
               <div className="font-semibold md:font-semibold p-2 m-2 text-[#22311d] text-center  border-gray-800 border-2 bg-[#cbbd93]">21st June 2025, Sunday</div> {/*End of news date block*/}
               <div className="font-semibold md:font-semibold p-2 m-2 text-[#22311d] text-center text-md border-gray border-2  bg-[#cbbd93]">Saw 'The Ballad of Wallis Island' film at the Rheged cinema.</div>
-              <div className="font-semibold md:font-semibold text-center text-[#22311d] border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#cbbd93]">
+              <div className="font-semibold md:font-semibold text-left text-[#22311d] border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#cbbd93]">
                 We went to see the film{" "}
             <Link
               href="https://www.imdb.com/title/tt27674982/"
