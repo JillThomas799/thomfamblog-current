@@ -4,7 +4,7 @@ import Link from 'next/link'
 import GardenCatAnimation10062025 from "/public/imagesresized/GardenCatAnimation10062025.jpg";
 import DoveCottageGrasmere from "/public/imagesresized/DoveCottageGrasmere.jpg";
 import RhodedendraInBloom from "/public/imagesresized/RhodedendraInBloom.jpg";
-import PrettyViewsGrasmere from "/public/imagesresized/PrettyViewsGrasmere.jpg";
+import PrettyViewsGrasmereTitled from "/public/imagesresized/PrettyViewsGrasmereTitled.jpg";
 import LoughriggTerrace from "/public/imagesresized/LoughriggTerrace.jpg";
 import FoxglovesGrasmere from "/public/imagesresized/FoxglovesGrasmere.jpg";
 import GrasmereLake1 from "/public/imagesresized/GrasmereLake1.jpg";
@@ -13,7 +13,7 @@ import BandJGrasmere from "/public/imagesresized/BandJGrasmere.jpg";
 import HeidisCafeGrasmere from "/public/imagesresized/HeidisCafeGrasmere.jpg";
 import Rain140622025V2 from "/public/imagesresized/Rain140622025V1.jpg";
 import Rain140622025V1 from "/public/imagesresized/Rain140622025V2.jpg";
-import PollokPark14062025 from "/public/imagesresized/PollokPark14062025.jpg";
+import PollokPark14062025Titled from "/public/imagesresized/PollokPark14062025Titled.jpg";
 import PollokHouse14062025 from "/public/imagesresized/PollokHouse14062025.jpg";
 import BurrellCollection from "/public/imagesresized/BurrellCollection.jpg";
 import StoneBridgeWilliamandJohnAdam from "/public/imagesresized/StoneBridgeWilliamandJohnAdam.jpg";
@@ -31,20 +31,20 @@ export default function June2025() {
       </div>
 
       < div className="mb-20">
-        < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-gray-800 border-solid border-2 md:border-2 bg-[#96AD93]">
-          < div className="text-md md:text-lg max-w-full font-normal text-white text-center dark:text-white justify-center items-center">
-            <div className="font-normal text-center border-solid border-black border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#336600]"><div className="font-semibold">Welcome to our June 2025 blog.</div>
+        < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-gray-800 border-solid border-2 md:border-2 bg-[#2e6f40]">
+          < div className="text-md md:text-lg max-w-full font-normal text-[#22311d] text-center dark:text- justify-center items-center">
+            <div className="font-normal text-center border-solid border-black border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#cbbd93]"><div className="font-semibold">Welcome to our June 2025 blog.</div>
             </div>{" "}
           </div>
         </div>
 
 
         < div className="mb-20">
-          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#96AD93]">
+          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#2e6f40]">
             < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
-              <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#336600]">1st - 30th June 2025.</div> {/*End of news date block*/}
-              <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#336600]"> Welcome to our June 2025 blog</div>
-              <div className="font-normal md:font-normal text-center text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#336600]">
+              <div className="font-semibold md:font-semibold p-2 m-2 text-[#22311d] text-center  border-gray-800 border-2 bg-[#cbbd93]">1st - 30th June 2025.</div> {/*End of news date block*/}
+              <div className="font-semibold md:font-semibold p-2 m-2 text-[#22311d] text-center text-md border-gray border-2  bg-[#cbbd93]"> Welcome to our June 2025 blog</div>
+              <div className="font-semibold md:font-semibold text-center text-[#22311d] border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#cbbd93]">
                 This month's header shows an animated cat (representing either our
             cat Lennie, or our next door's black cat, who we call 'Blackie '
             walking across our lawn, you can take your pick). Creating this
@@ -64,39 +64,25 @@ export default function June2025() {
           </div>
           </div>
 
-         
-        
-        <div className="datenewsDivJune2025">
-          <section className="dateJune2025">7th June 2025, Saturday</section>
-          <section className="newsHeaderJune2025">
-            Day in Grasmere (long time no see...)
-          </section>
-          <section className="newsJune2025">
-            Today we decided, despite the very poor weather forecast, to head
-            over to Grasmere. Despite living so close to the National Park, we
-            tend not to stop in Grasmere very often because it can be{" "}
-            <em>soooo.......</em> busy. So, it was fortunate today because, due
-            to the poor weather forecast (absolutely pouring with rain until
-            just after lunch), there were plenty people but not so many that it
-            was not enjoyable. Grasmere is one of the smaller lakes of the Lake
-            District National Park and it is after this lake that the village of
-            Grasmere is named. It lies next to Rydal Water. It is also on the
-            section of Wainwright's Coast to Coast (C2C) path lying between
-            Rosthwaite and Patterdale.
-            <br />
-            <br />
-            There was another driving force behind this trip in that Elena
-            wanted to obtain some gingerbread from the well-known{" "}
-            <Link
+          < div className="mb-20">
+            < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#2e6f40]">
+              < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+                <div className="font-semibold md:font-semibold p-2 m-2 text-[#22311d] text-center  border-[#22311d]-800 border-2 bg-[#cbbd93]">7th June 2025, Saturday.</div> {/*End of news date block*/}
+                <div className="font-semibold md:font-semibold p-2 m-2 text-[#22311d] text-center text-md border-[#22311d] border-2  bg-[#cbbd93]">Day in Grasmere (long time no see...)</div>
+                <div className="font-semibold md:font-semibold text-left text-[#22311d] border-solid border-[#22311d] border-2 mr-1 ml-1 mt-2 p-6 mb-10 bg-[#cbbd93]">
+                  Today we decided, despite the very poor weather forecast, to head over to Grasmere. Despite living so close to the National Park, we tend not to stop in Grasmere very often because it can be <em>soooo.......</em> busy. So, it was fortunate today because, due to the poor weather forecast (absolutely pouring with rain until            just after lunch), there were plenty people but not so many that it was not enjoyable. Grasmere is one of the smaller lakes of the Lake District National Park and it is after this lake that the village of
+                  Grasmere is named. It lies next to Rydal Water. It is also on the section of Wainwright's Coast to Coast (C2C) path lying between Rosthwaite and Patterdale.
+                  <br />
+                  <br />
+                  There was another driving force behind this trip in that Elena wanted to obtain some gingerbread from the well-known{" "}             
+                   <Link
               href="https://www.grasmeregingerbread.co.uk/"
               target="_blank"
-              className="linkJune2025"
+             className="text-decoration-underline text-[#f5f5f5] font-semibold md:font-semibold underline"
             >
-              {" "}
               Sarah Nelson's Grasmere Gingerbread shop{" "}
             </Link>{" "}
-            so we called there first, upon our arrival, before the queues built
-            up for the day! .
+            so we called there first, upon our arrival, before the queues built up for the day!.
             <br />
             <br />
             Grasmere is famously associated with the poet William Wordsworth and
@@ -105,7 +91,7 @@ export default function June2025() {
             <Link
               href="https://wordsworth.org.uk/"
               target="_blank"
-              className="linkJune2025"
+              className="text-decoration-underline text-[#f5f5f5] font-semibold md:font-semibold underline"
             >
               {" "}
               Dove Cottage{" "}
@@ -118,12 +104,11 @@ export default function June2025() {
             Grasmere journal.
             <br />
             <br />
-            As the weather was unpredictable and the mist low over the hills, we
-            decided to undertake the lovely
+            As the weather was unpredictable and the mist low over the hills, we decided to undertake the lovely
             <Link
               href="https://www.walklakes.co.uk/walk_75.html"
               target="_blank"
-              className="linkJune2025"
+              className="text-decoration-underline text-[#f5f5f5] font-semibold md:font-semibold underline"
             >
               {" "}
               Circuit of Grasmere{" "}
@@ -131,135 +116,35 @@ export default function June2025() {
             walk which is just under 5 miles in length if you do as we did and
             climb up and walk along Loughrigg Terrace rather than dropping down
             to the lake but you can do either depending on your preference.
-          </section>
-        </div>
-        <div className="blogPhotoDivJune2025">
-          <figure>
-            <section className="blogPhotoJune2025">
-              <Image src={BandJGrasmere} alt="" />
-              <div className="june2025FigCaption">
-                <strong>
-                  Jill and Bernard leaving Grasmere <br /> at the start of the
-                  walk...
-                </strong>
+            </div>
+                  <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#cbbd93] ">Click on the image below to open the album of our visit to Grasmere
+                    <br />
+                    <br />
+                    Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                  </div>
+                  <Link
+                    href="https://photos.app.goo.gl/jSG1zfq2sLnEXKsj7"
+                    target="_blank"
+                  >
+                    <Image
+                      src={PrettyViewsGrasmereTitled}
+                      className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[40%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
+                      alt="Photo of view Grasmere."
+                    />
+                  </Link>
+                </div>{" "}
               </div>
-            </section>
-          </figure>
-          <figure>
-            <section className="blogPhotoJune2025">
-              <Image src={PrettyViewsGrasmere} alt="" />
-              <div className="june2025FigCaption">
-                <strong>
-                  Grasmere is considered to be <br /> one of the prettiest{" "}
-                  <br /> villages in England.
-                </strong>
-              </div>
-            </section>
-          </figure>
-          <figure>
-            <section className="blogPhotoJune2025">
-              <Image src={RhodedendraInBloom} 
-              alt=""
-              className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
-               />
-              <div className="june2025FigCaption">
-                <strong>
-                  The rhodedendra were in bloom... <br />
-                </strong>
-              </div>
-            </section>
-          </figure>
-        </div>
-        <div className="blogPhotoDivJune2025">
-          <figure>
-            <section className="blogPhotoJune2025">
-              <Image src={FoxglovesGrasmere} 
-              alt=""
-              className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
-               />
-              <div className="june2025FigCaption">
-                <strong>There were lots of foxgloves...</strong>
-              </div>
-            </section>
-          </figure>
-          <figure>
-            <section className="blogPhotoJune2025">
-              <Image src={GrasmereLake1} 
-              alt=""
-              className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
-               />
-              <div className="june2025FigCaption">
-                <strong>and excellent views down to Grasmere village...</strong>
-              </div>
-            </section>
-          </figure>
-          <figure>
-            <section className="blogPhotoJune2025">
-              <Image src={GrasmereLake2} 
-              alt="" 
-              className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
-               />
-              <div className="june2025FigCaption">
-                <strong>... and Grasmere Lake</strong>
-              </div>
-            </section>
-          </figure>
-        </div>
-        <div className="blogPhotoDivJune2025">
-          <figure>
-            <section className="blogPhotoJune2025">
-              <Image src={LoughriggTerrace} 
-              alt=""
-              className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
-               />
-              <div className="june2025FigCaption">
-                <strong>
-                  We climbed up to walk <br /> along Loughrigg Terrace ...
-                </strong>
-              </div>
-            </section>
-          </figure>
-          <figure>
-            <section className="blogPhotoJune2025">
-              <Image src={DoveCottageGrasmere} 
-              alt=""
-              className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
-               />
-              <div className="june2025FigCaption">
-                <strong>
-                  Dove Cottage Grasmere, <br /> the home of William Wordsworth{" "}
-                  <br /> and his sister Dorothy.
-                </strong>
-              </div>
-            </section>
-          </figure>
-          <figure>
-            <section className="blogPhotoJune2025">
-              <Image src={HeidisCafeGrasmere} alt="" />
-              <div className="june2025FigCaption">
-                <strong>
-                  Finally of course, we <br /> had to take advantage of <br />{" "}
-                  the many cafés in Grasmere....
-                </strong>
-              </div>
-            </section>
-          </figure>
-        </div>
-        <div className="datenewsDivJune2025">
-          <section className="dateJune2025">12th June 2025, Saturday</section>
-          <section className="newsHeaderJune2025">
-            All about gardens both here and in the South East and it is the time
-            again for lots of ducklings at the tarn.
-          </section>
-        </div>
-        <div className="SlideshowHostPhotoJune2025">
-          <div className="slideshowinstructionsJune2025">
-            {" "}
-            <strong>
-              Click on the image below to open the album of some of our garden
-              photos here in Cumbria this month. <br />
-              Staying on the subject of gardens, Phil and Claire's landscaping
-              project on their garden in the South East has finally reached its
+            </div>
+
+
+          < div className="mb-20">
+            < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#2e6f40]">
+              < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+                <div className="font-semibold md:font-semibold p-2 m-2 text-[#22311d] text-center  border-[#22311d]-800 border-2 bg-[#cbbd93]">12th June 2025, Saturday</div> {/*End of news date block*/}
+                <div className="font-semibold md:font-semibold p-2 m-2 text-[#22311d] text-center text-md border-[#22311d] border-2  bg-[#cbbd93]">All about gardens both here and in the South East and it is the time
+            again for lots of ducklings at the tarn.</div>
+                <div className="font-semibold md:font-semibold text-left text-[#22311d] border-solid border-[#22311d] border-2 mr-1 ml-1 mt-2 p-6 mb-10 bg-[#cbbd93]">
+             Phil and Claire's landscaping project on their garden in the South East has finally reached its
               conclusion and its is lovely to see that all the months of work
               have been well worth it, so we have included a couple of photos of
               their completed garden. It is also that time of year again for all
@@ -271,32 +156,36 @@ export default function June2025() {
               like strawberries and do not see the netting as a deterrent...)
               and blackbird-control as the blackbird managed to find a way under
               the netting. However, we made it in the end and they taste
-              delicious so it has been worth all the hard work.{" "}
-            </strong>
-            <br />
-            <Link
-              href="https://photos.app.goo.gl/KYKPjs24bNXS8jLJ6"
-              target="_blank"
-              className="linkJune2025"
-            >
-              <Image
-                className="slideshowentryJune2025"
-                src={strawberries062025titled}
-                alt=""
-              />
-            </Link>
-          </div>{" "}
-          {/*Closing div slideshowinstructionsJune2025*/}
-        </div>
-        {/*Closing div slideshowHostJune2025*/}
-        <div className="datenewsDivJune2025">
-          <section className="dateJune2025">14th June 2025, Saturday</section>
-          <section className="newsHeaderJune2025">
-            Visit to Glasgow: The Burrell Collection, Pollok House, Park and
-            Gardens.
-          </section>
-          <section className="newsJune2025">
-            We had the opportunity today to finally get up to Glasgow to visit
+              delicious so it has been worth all the hard work.{" "} 
+                  
+            </div>
+                  <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#cbbd93] ">Click on the image below to open the album of our Garden June 2025 including Phil and Claire's completed garden and the ducklings.
+                    <br />
+                    <br />
+                    Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                  </div>
+                  <Link
+                    href="https://photos.app.goo.gl/KYKPjs24bNXS8jLJ6"
+                    target="_blank"
+                  >
+                    <Image
+                      src={strawberries062025titled}
+                      className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[40%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
+                      alt="Photo of view Grasmere."
+                    />
+                  </Link>
+                </div>{" "}
+              </div>
+            </div>
+
+             < div className="mb-20">
+            < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#2e6f40]">
+              < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+                <div className="font-semibold md:font-semibold p-2 m-2 text-[#22311d] text-center  border-[#22311d]-800 border-2 bg-[#cbbd93]">14th June 2025, Saturday</div> {/*End of news date block*/}
+                <div className="font-semibold md:font-semibold p-2 m-2 text-[#22311d] text-center text-md border-[#22311d] border-2  bg-[#cbbd93]"> Visit to Glasgow: The Burrell Collection, Pollok House, Park and
+            Gardens.</div>
+                <div className="font-semibold md:font-semibold text-left text-[#22311d] border-solid border-[#22311d] border-2 mr-1 ml-1 mt-2 p-6 mb-10 bg-[#cbbd93]">
+                   We had the opportunity today to finally get up to Glasgow to visit
             the city as Bernard's brother was there on retreat and we had agreed
             to meet him there. Our intention had originally been to travel up by
             train, but due to a number of adverse experiences with train travel
@@ -311,7 +200,7 @@ export default function June2025() {
             <Link
               href="https://burrellcollection.com/"
               target="_blank"
-              className="linkJune2025"
+             className="text-decoration-underline text-[#f5f5f5] font-semibold md:font-semibold underline"
             >
               Burrell Collection
             </Link>{" "}
@@ -319,7 +208,7 @@ export default function June2025() {
             <Link
               href="https://burrellcollection.com/visit/pollok-country-park-glasgows-largest-green-space/"
               target="_blank"
-              className="linkJune2025"
+              className="text-decoration-underline text-[#f5f5f5] font-semibold md:font-semibold underline"
             >
               Pollok House, Gardens and Park.
             </Link>{" "}
@@ -332,7 +221,7 @@ export default function June2025() {
             <Link
               href="https://burrellcollection.com/"
               target="_blank"
-              className="linkJune2025"
+              className="text-decoration-underline text-[#f5f5f5] font-semibold md:font-semibold underline"
             >
               Burrell Collection
             </Link>{" "}
@@ -347,7 +236,7 @@ export default function June2025() {
             <Link
               href="https://www.musee-rodin.fr/en/musee/collections/oeuvres/gates-hell"
               target="_blank"
-              className="linkJune2025"
+              className="text-decoration-underline text-[#f5f5f5] font-semibold md:font-semibold underline"
             >
               The Gates of Hell
             </Link>{" "}
@@ -383,7 +272,7 @@ export default function June2025() {
             <Link
               href="https://www.theguardian.com/uk-news/2014/dec/07/headboard-henry-viii-anne-cleves-london-glasgow-scottish-parliament"
               target="_blank"
-              className="linkJune2025"
+              className="text-decoration-underline text-[#f5f5f5] font-semibold md:font-semibold underline"
             >
               {" "}
               Guardian newspaper article about the headboard
@@ -394,7 +283,7 @@ export default function June2025() {
             <Link
               href="https://burrellcollection.com/visit/pollok-country-park-glasgows-largest-green-space/"
               target="_blank"
-              className="linkJune2025"
+              className="text-decoration-underline text-[#f5f5f5] font-semibold md:font-semibold underline"
             >
               Pollok House, Gardens and Park
             </Link>{" "}
@@ -411,102 +300,30 @@ export default function June2025() {
             currently. However, it should be a great place to visit when it
             eventually reopen and Pollok Park is meanwhile open for everyone to
             enjoy....
-          </section>
-        </div>
-        <div className="blogPhotoDivJune2025">
-          <figure>
-            <section className="blogPhotoJune2025">
-              <Image src={PollokPark14062025} alt="" />
-              <div className="june2025FigCaption">
-                <strong>
-                  Pollok Park, Glasgow, a great <br /> place to visit for the 3{" "}
-                  <br /> of us, but <em>very</em> rainy today....
-                </strong>
+           
+                  
+            </div>
+                  <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#cbbd93] ">Click on the image below to open the album of our Visit to Glasgow: The Burrell Collection, Pollok House, Park and Gardens.
+                    <br />
+                    <br />
+                    Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                  </div>
+                  <Link
+                    href="https://photos.app.goo.gl/Gf52Z6RFwg87R4L17"
+                    target="_blank"
+                  >
+                    <Image
+                      src={PollokPark14062025Titled}
+                      className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[30%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
+                      alt="Photo of view Grasmere."
+                    />
+                  </Link>
+                </div>{" "}
               </div>
-            </section>
-          </figure>
-          <figure>
-            <section className="blogPhotoJune2025">
-              <Image src={Rain140622025V2} alt="" />
-              <div className="june2025FigCaption">
-                <strong>
-                  Eventually, we reached the Burrell <br /> Collection and were
-                  glad to be <br /> inside out of the rain....
-                </strong>
-              </div>
-            </section>
-          </figure>
-          <figure>
-            <section className="blogPhotoJune2025">
-              <Image src={Rain140622025V1} alt="" />
-              <div className="june2025FigCaption">
-                <strong>
-                  It was time for some lunch, so <br /> we found a table in the
-                  restaurant <br /> and watched the rain from inside ......
-                </strong>
-              </div>
-            </section>
-          </figure>
-          <figure>
-            <section className="blogPhotoJune2025">
-              <Image src={RestaurantBurrellCollection} alt="" />
-              <div className="june2025FigCaption">
-                <strong>
-                  However, the restaurant was great, <br /> with a good menu and{" "}
-                  <br /> plenty of tables...
-                </strong>
-              </div>
-            </section>
-          </figure>
-        </div>
-        <div className="blogPhotoDivJune2025">
-          <figure>
-            <section className="blogPhotoJune2025">
-              <Image src={GuidedTourSign} alt="" />
-              <div className="june2025FigCaption">
-                <strong>
-                  After lunch we joined a guided tour <br /> of the Burrell
-                  Collection which was
-                  <br /> excellent and well-worth doing.{" "}
-                </strong>
-              </div>
-            </section>
-          </figure>
-          <figure>
-            <section className="blogPhotoJune2025">
-              <Image src={BurrellCollection} alt="" />
-              <div className="june2025FigCaption">
-                <strong>
-                  By the time we had finished at the museum <br /> it had
-                  stopped raining so we went outside <br /> for the mandatory
-                  photo.....
-                </strong>
-              </div>
-            </section>
-          </figure>
-          <figure>
-            <section className="blogPhotoJune2025">
-              <Image src={PollokHouse14062025} alt="" />
-              <div className="june2025FigCaption">
-                <strong>
-                  ...then we went for a walk <br /> down to Pollok house and
-                  gardens....
-                </strong>
-              </div>
-            </section>
-          </figure>
-          <figure>
-            <section className="blogPhotoJune2025">
-              <Image src={StoneBridgeWilliamandJohnAdam} alt="" />
-              <div className="june2025FigCaption">
-                <strong>
-                  ...which include this stone bridge built in 1750 <br /> by
-                  William and John Adam.
-                </strong>
-              </div>
-            </section>
-          </figure>
-        </div>
+            </div>
+
+
+       
         <div className="datenewsDivJune2025">
           <section className="dateJune2025">21st June 2025, Sunday</section>
           <section className="newsHeaderJune2025">
