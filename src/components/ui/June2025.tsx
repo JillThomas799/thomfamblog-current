@@ -322,19 +322,17 @@ export default function June2025() {
               </div>
             </div>
 
-
-       
-        <div className="datenewsDivJune2025">
-          <section className="dateJune2025">21st June 2025, Sunday</section>
-          <section className="newsHeaderJune2025">
-            Saw 'The Ballad of Wallis Island' film at the Rheged cinema.
-          </section>
-          <section className="newsJune2025">
-            We went to see the film{" "}
+               < div className="mb-20">
+          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#2e6f40]">
+            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+              <div className="font-semibold md:font-semibold p-2 m-2 text-[#22311d] text-center  border-gray-800 border-2 bg-[#cbbd93]">21st June 2025, Sunday</div> {/*End of news date block*/}
+              <div className="font-semibold md:font-semibold p-2 m-2 text-[#22311d] text-center text-md border-gray border-2  bg-[#cbbd93]">Saw 'The Ballad of Wallis Island' film at the Rheged cinema.</div>
+              <div className="font-semibold md:font-semibold text-center text-[#22311d] border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#cbbd93]">
+                We went to see the film{" "}
             <Link
               href="https://www.imdb.com/title/tt27674982/"
               target="_blank"
-              className="linkJune2025"
+              className="text-decoration-underline text-[#f5f5f5] font-semibold md:font-semibold underline"
             >
               The Ballad of Wallis Island
             </Link>
@@ -350,20 +348,20 @@ export default function June2025() {
             <Link
               href="https://www.theguardian.com/film/2025/may/28/the-ballad-of-wallis-island-review-lottery-folk-tim-key-carey-mulligan"
               target="_blank"
-              className="linkJune2025"
+              className="text-decoration-underline text-[#f5f5f5] font-semibold md:font-semibold underline"
             >
               good reviews
             </Link>{" "}
-            in the press and we enjoyed the film. We would recommend it as worth
-            going to see.
-          </section>
-        </div>
-      </div>
-    </div>
+            in the press and we enjoyed the film. We would recommend it as worth going to see.
+                <br />
+                <br />                
+            </div>
+          </div>
+          </div>
+          </div>
 
 
-
-  
-
+</div>
+</div>
   );
 }
