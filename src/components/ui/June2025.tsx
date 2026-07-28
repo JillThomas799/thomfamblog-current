@@ -24,8 +24,8 @@ import strawberries062025titled from "/public/imagesresized/strawberries062025ti
 export default function June2025() {
   return (
     <div>
-      <div className=" border-solid border-8 border-[#336600] md:p-4 mb-8 h-[80vh] text-gray-800 text-center font-normal text-l p-3">
-        <div className="bg-[#336600] mr-[7%] ml-[7%] md:mr-[40%] md:ml-[40%] p-1 border-gray-800 border-2 text-white font-semibold">June 2025</div>
+      <div className=" bg-GardenJune2025 bg-cover border-solid border-8 border-[#2e6f40] md:p-4 mb-8 h-[80vh] text-gray-800 text-center font-normal text-l p-3">
+        <div className="bg-[#2e6f40] mr-[7%] ml-[7%] md:mr-[40%] md:ml-[40%] p-1 border-gray-800 border-2 text-white font-semibold">June 2025</div>
         <br />
         <br />
       </div>
@@ -44,21 +44,19 @@ export default function June2025() {
             < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
               <div className="font-semibold md:font-semibold p-2 m-2 text-[#22311d] text-center  border-gray-800 border-2 bg-[#cbbd93]">1st - 30th June 2025.</div> {/*End of news date block*/}
               <div className="font-semibold md:font-semibold p-2 m-2 text-[#22311d] text-center text-md border-gray border-2  bg-[#cbbd93]"> Welcome to our June 2025 blog</div>
-              <div className="font-semibold md:font-semibold text-center text-[#22311d] border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#cbbd93]">
-                This month's header shows an animated cat (representing either our
-            cat Lennie, or our next door's black cat, who we call 'Blackie '
-            walking across our lawn, you can take your pick). Creating this
-            header has been good fun but challenging as it has meant learning
-            how to run a more complex animation moving through 'tiles' on a png
-            file in steps. However, it has also meant rather more complexity in
-            scripting the adjustments so it displays as accurately as possible
-            on all devices.
+              <div className="font-semibold md:font-semibold text-left text-[#22311d] border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#cbbd93]">
+                The original June 2025 blog header showed an animated cat (representing either our
+            cat Lennie, or our next door's black cat, who we call 'Blackie' walking across our lawn, you can take your pick). 
+            Creating this header had been good fun but challenging as it had meant learning how to run a more complex animation moving through 'tiles' on a png file in steps. 
+             <br />
+            <br />
+            However, it has unfortunately not been possible to transfer this animation in the previous format to the new blog. 
             <br />
             <br />
-            Other than that, it should be a good month because summer is here{" "}
-            <em>(Yeah!).....</em>.
-                <br />
-                <br />                
+            In its place, we have a lovely photo of our garden in June 2025...
+            <br />
+            <br />
+                          
             </div>
           </div>
           </div>
@@ -70,7 +68,13 @@ export default function June2025() {
                 <div className="font-semibold md:font-semibold p-2 m-2 text-[#22311d] text-center  border-[#22311d]-800 border-2 bg-[#cbbd93]">7th June 2025, Saturday.</div> {/*End of news date block*/}
                 <div className="font-semibold md:font-semibold p-2 m-2 text-[#22311d] text-center text-md border-[#22311d] border-2  bg-[#cbbd93]">Day in Grasmere (long time no see...)</div>
                 <div className="font-semibold md:font-semibold text-left text-[#22311d] border-solid border-[#22311d] border-2 mr-1 ml-1 mt-2 p-6 mb-10 bg-[#cbbd93]">
-                  Today we decided, despite the very poor weather forecast, to head over to Grasmere. Despite living so close to the National Park, we tend not to stop in Grasmere very often because it can be <em>soooo.......</em> busy. So, it was fortunate today because, due to the poor weather forecast (absolutely pouring with rain until            just after lunch), there were plenty people but not so many that it was not enjoyable. Grasmere is one of the smaller lakes of the Lake District National Park and it is after this lake that the village of
+                  Today we decided, despite the very poor weather forecast, to head over to Grasmere. Despite living so close to the National Park, we tend not to stop in Grasmere very often because it can be <em>soooo.......</em> busy. 
+                  <br />
+                  <br />                  
+                  It was fortunate today because, due to the poor weather forecast (absolutely pouring with rain until just after lunch), there were plenty people, but not so many that it was not enjoyable. 
+                  <br />
+                  <br /> 
+                  Grasmere is one of the smaller lakes of the Lake District National Park and it is after this lake that the village of
                   Grasmere is named. It lies next to Rydal Water. It is also on the section of Wainwright's Coast to Coast (C2C) path lying between Rosthwaite and Patterdale.
                   <br />
                   <br />
@@ -115,7 +119,7 @@ export default function June2025() {
             </Link>
             walk which is just under 5 miles in length if you do as we did and
             climb up and walk along Loughrigg Terrace rather than dropping down
-            to the lake but you can do either depending on your preference.
+            to the lake, but you can do either depending on your preference.
             </div>
                   <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#cbbd93] ">Click on the image below to open the album of our visit to Grasmere
                     <br />
