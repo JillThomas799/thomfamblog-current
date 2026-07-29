@@ -54,7 +54,7 @@ const BlogMenuBarMonths2026=()    => {
     </div> 
     
     </div>
-)}
+ )} 
 </div>
   );
 }
