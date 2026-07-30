@@ -25,10 +25,10 @@ export default function May2025() {
 
   < div className="mb-20">
           < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#00bfff]">
-            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#000080] text-center  md:text-center dark:text-white justify-center items-center">
+            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#000080] text-left md:text-center dark:text-white justify-center items-center">
               <div className="font-semibold md:font-semibold p-2 m-2 text-[#000080] text-center  border-gray-800 border-2 bg-[#ffd700]">1st-31st May 2025</div> {/*End of news date block*/}
               
-              <div className="font-normal md:font-normal text-center text-[#000080] border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#ffd700]">
+              <div className="font-normal md:font-normal text-left text-[#000080] border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#ffd700]">
           Welcome to our May 2025 blog. It has been a very busy and quite challenging month. We started off the month with our Camino de Santiago trip, which was quite demanding but we are glad that we decided to do it. Elena and Harry were back home 'holding the fort' and looking after Lennie, so thank you to them both.
           <br />
           <br />
@@ -39,6 +39,72 @@ export default function May2025() {
               </div>{" "}
             </div>
           </div>   
+
+
+          < div className="mb-20">
+          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#00bfff]">
+            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#000080] text-center  md:text-center dark:text-[#000080] justify-center items-center">
+              <div className="font-semibold md:font-semibold p-2 m-2 text-[#000080] text-center  border-gray-800 border-2 bg-[#ffd700]">28th May 2025</div> {/*End of news date block*/}
+              <div className="font-semibold md:font-semibold p-2 m-2 text-[#000080] text-center text-md border-gray border-2  bg-[#ffd700]">Visit to the new and improved Tullie Museum, Carlisle</div>
+              <div className="font-normal md:font-normal text-center text-[#000080] border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#ffd700]">
+                It was a day out today to see the much awaited, new and improved
+          <Link href="https://tullie.org.uk/" target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline">
+            {" "}
+            Tullie Museum
+          </Link>{" "}
+          in Carlisle. Tullie House is Cumbria's largest museum and it recently
+          underwent a major upgrade which was the second phase of a 10-15 year
+          upgrade being completed in phases. The completion of phase 2 of the
+          project has improved the entrance and vastly improved the atrium
+          space. There is a new shop and a ground floor gallery dedicated to
+          Carlisle. The café has also had a major refurbish and upgrade. It is
+          well worth a visit if you are ever in Carlisle.
+          <br />
+          <br />
+          There is a lot to see at the museum so this time we concentrated on
+          the Winifred Nicholson Cumbrian rag rugs exhibition, the ground floor
+          Gallery and the Roman Frontier Gallery downstairs. However, for a
+          single entry adult ticket it was £8.00 but if you buy an annual
+          ticket, with which you gain entry to all exhibitions, it is only
+          £15.00. So armed with annual tickets we will be returning in the
+          forthcoming weeks to see the dinosaur exhibition, which starts on the
+          28th June and runs until the 14th September 2025 and to visit the
+          Costume Collection and Reiver and Viking sections. The British Museum
+          touring exhibition{" "}
+          <Link
+            href="https://www.britishmuseum.org/our-work/national/uk-touring-exhibitions-and-loans/current-tours/gladiators-britain"
+            target="_blank"
+            className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+          >
+            {" "}
+            'Gladiators in Britain'{" "}
+          </Link>{" "}
+          will also be at the Tullie between 7th February and the 19th April
+          2025.
+                <br />
+                <br />
+                </div>
+
+                <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#ea9262] ">Click on the image below to open the album of the 6th day of our Hadrian's Wall Path walk West to East (abridged): Banks East Turret to Gilsland.
+                  <br />
+                  <br />
+                  Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                </div>
+                <Link
+                  href="https://photos.app.goo.gl/2hWBCwaw1fcviKuz8"
+                  target="_blank"
+                >
+                  <Image
+                    src={tullieEntrance1}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#96AD93] border-4 mt-4 mb-6"
+                    alt="Photo of Bernard and Harry by the car at Banks East Turret parking."
+                  />
+                </Link>
+              </div>{" "}
+            </div>
+          </div>
+          
+
       
     
        
