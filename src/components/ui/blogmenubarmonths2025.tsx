@@ -24,7 +24,7 @@ const BlogMenuBarMonths2025=()    => {
       onClick={() => setIsCollapsed(!isCollapsed)}
       className="w-auto h-auto bg-gray-300 md:dark:bg-gray-800 text-gray-800 md:text-gray-800 md:dark:text-gray-200 font-bold text-md items-center gap-x-10 focus:outline-none"
     >
-      BLOGs 2025 <MenuIcon />
+      BLOGS 2025 <MenuIcon />
     </Button>
 
 
