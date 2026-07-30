@@ -34,6 +34,8 @@ export default function May2025() {
           Welcome to our May 2025 blog. It has been a very busy and quite challenging month. We started off the month with our Camino de Santiago trip, which was quite demanding but we are glad that we decided to do it. Elena and Harry were back home 'holding the fort' and looking after Lennie, so thank you to them both.
           <br />
           <br />
+           Since returning home we have had some fantastic news as Harry has been offered and accepted a job with the local council in digital and technology solutions, which is what he has been wanting to do, so we
+          are delighted for him. This means that the whole family will be based in Cumbria for the forthcoming few years at least. So congratulations Harry and we wish him all the best with this new post.               
           </div>
           </div>
           </div>
@@ -46,7 +48,7 @@ export default function May2025() {
               <div className="font-semibold md:font-semibold p-2 m-2 text-[#000080] text-center  border-gray-800 border-2 bg-[#ffd700]">6th-24th May 2025</div> {/*End of news date block*/}
                 <div className="font-semibold md:font-semibold p-2 m-2 text-[#000080] text-center text-md border-gray border-2  bg-[#ffd700]"> Camino de Santiago Pilgrimage</div>
               <div className="font-normal md:font-normal text-left text-[#000080] border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#ffd700]">
-          We are very disappointed to announce that our photo space on our cameras ran out in the early days of the trip and it was so busy, we could not take the photos we wanted to bring back to you. However, we have our memories and we know people often think other people's holiday photos are <em>soooo</em> boring, so we did not think you would be too heart broken....
+          We are very disappointed to announce that our photo space on our cameras ran out in the early days of the trip and it was so busy, we could not take the photos we wanted to bring back to you. However, we have our many memories and we know people often think other people's holiday photos are <em>soooo</em> boring, so we did not think you would be too heart broken....
             <br />
           <br />
            For anyone who may be interested in a little background information and history on the Camino de Santiago, The Spanish Camino de Santiago is one of the world's oldest
@@ -150,15 +152,14 @@ export default function May2025() {
               throughout the world. However whilst each of these pilgrimages had
               their own unique traditions, they also all shared certain
               characteristics involving 3 major criteria:
-              <ol style={{ marginLeft: "2%" }}>
+              <ol className="ml-[2%]">
                 <li className="list-disc">
                   An extended physical journey (usually, but not always, by
                   walking).
                 </li>
-                <li className="bulleted">To an important place.</li>
-                <li className="bulleted">While being in community.</li>
+                <li className="list-disc">To an important place.</li>
+                <li className="list-disc">While being in community.</li>
               </ol>
-              <br />
               <br />
               The symbol of the trail is represented by a scallop shell which
               indicates the joining together of all the routes into one place,
@@ -167,12 +168,9 @@ export default function May2025() {
               well-recognised Camino de Santiago logo and is why we have chosen
               to create a header design for our Camino de Santiago blog based on
               this symbol.
-
-
-          Since returning home we have had some fantastic news as Harry has been offered and accepted a job with the local council in digital and technology solutions, which is what he has been wanting to do, so we
-          are delighted for him. This means that the whole family will be based in Cumbria for the forthcoming few years at least. So congratulations Harry and we wish him all the best with this new post.               
                 <br />
-                <br />                
+                <br />  
+                In summary regarding our trip, the Camino de Santiago pilgrimage as an option is very popular but is <em>very</em> busy. Do not underestimate the distances to be walked each day to day, back to back, with a back pack. We travelled there and back by train. Unfortunately, trains in europe these days are no more reliable than in the UK so expect delays and expect them to be stressful.... We are glad we undertook the trip, but we thinks we will go on a laid-back walking and sight-seeing holiday next year....      
               </div>{" "}
             </div>
         
@@ -209,7 +207,7 @@ export default function May2025() {
           < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#00bfff]">
             < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#000080] text-center  md:text-center dark:text-[#000080] justify-center items-center">
               <div className="font-semibold md:font-semibold p-2 m-2 text-[#000080] text-center  border-gray-800 border-2 bg-[#ffd700]">25th May 2025, Sunday.</div> {/*End of news date block*/}
-              <div className="font-semibold md:font-semibold p-2 m-2 text-[#000080] text-center text-md border-gray border-2  bg-[#ffd700]"> Visit to West Cumbria to assess the feasibility <br /> of walking
+              <div className="font-semibold md:font-semibold p-2 m-2 text-[#000080] text-center text-md border-gray border-2  bg-[#ffd700]"> Visit to West Cumbria to assess the feasibility of walking
             the Coast to Coast walk.</div>
               <div className="font-normal md:font-normal text-left text-[#000080] border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#ffd700]">
                 There has been some debate as to whether, after the success of
@@ -382,18 +380,14 @@ export default function May2025() {
                 </Link>
               </div>{" "}
             </div>
-          </div>   
-    
-       
-        
+          </div>           
        
           < div className="mb-20">
           < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#00bfff]">
             < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#000080] text-center  md:text-center dark:text-[#000080] justify-center items-center">
               <div className="font-semibold md:font-semibold p-2 m-2 text-[#000080] text-center  border-gray-800 border-2 bg-[#ffd700]">31st May 2025, Saturday</div> {/*End of news date block*/}
-              <div className="font-semibold md:font-semibold p-2 m-2 text-[#000080] text-center text-md border-gray border-2  bg-[#ffd700]">Visit to Dodd's Wood and Mirehouse tocheck out the feasibility of the Cumbria Way.</div>
-              <div className="font-normal md:font-normal text-left text-[#000080] border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#ffd700]">
-            
+              <div className="font-semibold md:font-semibold p-2 m-2 text-[#000080] text-center text-md border-gray border-2  bg-[#ffd700]">Visit to Dodd's Wood and Mirehouse to check out the feasibility of the Cumbria Way.</div>
+              <div className="font-normal md:font-normal text-left text-[#000080] border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#ffd700]">            
               Today we decided to explore a different option for a long-distance
               walk, the Cumbrian Way which runs between Carlisle and Ulverston.
               This is a less challenging, more valley-based walk, although there
