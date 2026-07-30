@@ -3,7 +3,7 @@ import { currentUser } from "@clerk/nextjs/server";
 import { getPosts } from '@/actions/post.action';
 import CreatePost from "@/components/ui/CreatePost";
 import PostCard from "@/components/ui/PostCard";
-import May2025 from "@/components/ui/may2025";
+import May2025 from "@/components/ui/May2025";
 import BlogMenuBar from "@/components/ui/blogmenubar";
 
 
