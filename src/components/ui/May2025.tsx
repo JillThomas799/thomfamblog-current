@@ -17,7 +17,7 @@ import mirehouse31052025Titled from "/public/imagesresized/mirehouse31052025Titl
 export default function May2025() {
   return (
      <div>
-      <div className="bg-StBeesMay2025 bg-cover border-solid border-8 border-[#1e90ff] md:p-4 mb-8 h-[100%] text-gray-800 text-center font-normal text-l p-3">
+      <div className="bg-StBeesMay2025 bg-cover border-solid border-8 border-[#1e90ff] md:p-4 mb-8 h-[100vh] text-gray-800 text-center font-normal text-l p-3">
         <div className="bg-[#ffd700] mr-[7%] ml-[7%] md:mr-[40%] md:ml-[40%] p-1 border-gray-800 border-2 text-[#1e90ff] font-bold">May 2025</div>
         <br />
         <br />
@@ -50,7 +50,7 @@ export default function May2025() {
         <section className="newsMay2025">
           {" "}
           It was a day out today to see the much awaited, new and improved
-          <Link href="https://tullie.org.uk/" target="_blank" className="text-decoration-underline text-[#ffbf00] font-semibold md:font-semibold underline">
+          <Link href="https://tullie.org.uk/" target="_blank" className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline">
             {" "}
             Tullie Museum
           </Link>{" "}
@@ -76,7 +76,7 @@ export default function May2025() {
           <Link
             href="https://www.britishmuseum.org/our-work/national/uk-touring-exhibitions-and-loans/current-tours/gladiators-britain"
             target="_blank"
-            className="text-decoration-underline text-[#ffbf00] font-semibold md:font-semibold underline"
+            className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
           >
             {" "}
             'Gladiators in Britain'{" "}
@@ -100,7 +100,7 @@ export default function May2025() {
               <Image src={tullieEntrance2} alt="" />
               <div className="may2025FigCaption">
                 <strong>
-                  Harry, Elena and Bernard by the new, <br /> improved Tullie
+                  Harry, Elena and Bernard by the new, improved Tullie
                   entrance.
                 </strong>
               </div>
@@ -233,7 +233,7 @@ export default function May2025() {
             <Link
               href="https://www.westcumbriariverstrust.org/projects/longlands-lake"
               target="_blank"
-              className="text-decoration-underline text-[#ffbf00] font-semibold md:font-semibold underline"
+              className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
             >
               Longlands Lake
             </Link>
@@ -281,7 +281,7 @@ export default function May2025() {
               <Link
                 href="https://photos.app.goo.gl/NWo1SfZPsQcWFKQr6"
                 target="_blank"
-                className="text-decoration-underline text-[#ffbf00] font-semibold md:font-semibold underline"
+                className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
               >
                 <Image
                   className="slideshowentryMay2025"
@@ -318,7 +318,7 @@ export default function May2025() {
               <Link
                 href="https://www.mirehouse.co.uk/"
                 target="_blank"
-                className="text-decoration-underline text-[#ffbf00] font-semibold md:font-semibold underline"
+                className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
               >
                 Mirehouse Gardens
               </Link>{" "}
@@ -326,7 +326,7 @@ export default function May2025() {
               <Link
                 href="https://www.carlislediocese.org.uk/acny/church/28/"
                 target="_blank"
-                className="text-decoration-underline text-[#ffbf00] font-semibold md:font-semibold underline"
+                className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
               >
                 {" "}
                 St Bega's Church
@@ -356,7 +356,7 @@ export default function May2025() {
               <Link
                 href="https://photos.app.goo.gl/8ghfPpkcKfhpet3Y9"
                 target="_blank"
-               className="text-decoration-underline text-[#ffbf00] font-semibold md:font-semibold underline"
+               className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
               >
                 <Image
                   className="slideshowentryMay2025"
