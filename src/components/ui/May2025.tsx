@@ -2,6 +2,7 @@ import React from "react";
 import Image from 'next/image'
 import Link from 'next/link'
 import "./May2025.css";
+import CaminoDelNorte2011Titled from "/public/imagesresized/CaminoDelNorte2011Titled.jpg";
 import tullieEntrance1 from "/public/imagesresized/tullieEntrance1.jpg";
 import tullieEntrance2 from "/public/imagesresized/tullieEntrance2.jpg";
 import tullieEntrance2Titled from "/public/imagesresized/tullieEntrance2Titled.jpg";
@@ -24,7 +25,7 @@ export default function May2025() {
         <br />
  </div>    
 
-  < div className="mb-20">
+ < div className="mb-20">
           < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#00bfff]">
             < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#000080] text-left md:text-center dark:text-white justify-center items-center">
               <div className="font-semibold md:font-semibold p-2 m-2 text-[#000080] text-center  border-gray-800 border-2 bg-[#ffd700]">1st-31st May 2025</div> {/*End of news date block*/}
@@ -33,6 +34,18 @@ export default function May2025() {
           Welcome to our May 2025 blog. It has been a very busy and quite challenging month. We started off the month with our Camino de Santiago trip, which was quite demanding but we are glad that we decided to do it. Elena and Harry were back home 'holding the fort' and looking after Lennie, so thank you to them both.
           <br />
           <br />
+          </div>
+          </div>
+          </div>
+          </div>
+
+
+  < div className="mb-20">
+          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#00bfff]">
+            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#000080] text-left md:text-center dark:text-white justify-center items-center">
+              <div className="font-semibold md:font-semibold p-2 m-2 text-[#000080] text-center  border-gray-800 border-2 bg-[#ffd700]">6th-24th May 2025</div> {/*End of news date block*/}
+                <div className="font-semibold md:font-semibold p-2 m-2 text-[#000080] text-center text-md border-gray border-2  bg-[#ffd700]"> Camino de Santiago Pilgrimage</div>
+              <div className="font-normal md:font-normal text-left text-[#000080] border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#ffd700]">
           We are very disappointed to announce that our photo space on our cameras ran out in the early days of the trip and it was so busy, we could not take the photos we wanted to bring back to you. However, we have our memories and we know people often think other people's holiday photos are <em>soooo</em> boring, so we did not think you would be too heart broken....
             <br />
           <br />
@@ -63,7 +76,8 @@ export default function May2025() {
               people thinking we too were pilgrims, wishing us 'Buen Camino'.
               <br />
               <br />
-The{" "}
+           
+              The{" "}
               <Link
                 href="https://en.wikipedia.org/wiki/Santiago_de_Compostela"
                 target="_blank"
@@ -137,7 +151,7 @@ The{" "}
               their own unique traditions, they also all shared certain
               characteristics involving 3 major criteria:
               <ol style={{ marginLeft: "2%" }}>
-                <li className="bulleted">
+                <li className="list-disc">
                   An extended physical journey (usually, but not always, by
                   walking).
                 </li>
@@ -161,7 +175,34 @@ The{" "}
                 <br />                
               </div>{" "}
             </div>
-          </div>   
+        
+
+           <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#ffd700] ">Click on the image below to open the album of our walking 
+              the Ainhoa segment of the Camino del Norte in the French Basque country many years ago back in 2011.
+              Here is a link to an article on this walk: 
+              <Link
+                href="https://www.guide-du-paysbasque.com/en/experiences/sport/article-ainhoa-hawthorn-chapel-hike-252.html"
+                target="_blank"
+               className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+              >
+                {" "}
+                Ainhoa : randonnée de la Chapelle de l’Aubépine
+              </Link>
+                  <br />
+                  <br />
+                  Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                </div>
+                <Link
+                  href="https://photos.app.goo.gl/vGooB6M5u9NNBtZQA"
+                  target="_blank"
+                >
+                  <Image
+                    src={CaminoDelNorte2011Titled}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#ffd700] border-4 mt-4 mb-6"
+                    alt="Photo of the waves crashing on to St Bees beach."
+                  />
+                </Link>
+                  </div>   
 
 
           < div className="mb-20">
