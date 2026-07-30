@@ -17,8 +17,8 @@ import mirehouse31052025Titled from "/public/imagesresized/mirehouse31052025Titl
 export default function May2025() {
   return (
      <div>
-      <div className="bg-StBeesMay2025 bg-cover border-solid border-8 border-[#336600] md:p-4 mb-8 h-[80vh] text-gray-800 text-center font-normal text-l p-3">
-        <div className="bg-[#336600] mr-[7%] ml-[7%] md:mr-[40%] md:ml-[40%] p-1 border-gray-800 border-2 text-white font-semibold">May 2025</div>
+      <div className="bg-StBeesMay2025 bg-cover border-solid border-8 border-[#1e90ff] md:p-4 mb-8 h-[80vh] text-gray-800 text-center font-normal text-l p-3">
+        <div className="bg-[#1e90ff] mr-[7%] ml-[7%] md:mr-[40%] md:ml-[40%] p-1 border-gray-800 border-2 text-[#ffd700] font-semibold">May 2025</div>
         <br />
         <br />
  </div>       
