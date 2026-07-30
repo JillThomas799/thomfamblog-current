@@ -21,28 +21,27 @@ export default function May2025() {
         <div className="bg-[#ffd700] mr-[7%] ml-[7%] md:mr-[40%] md:ml-[40%] p-1 text-lg border-gray-800 border-2 text-[#1e90ff] font-bold">May 2025</div>
         <br />
         <br />
- </div>       
+ </div>    
+
+  < div className="mb-20">
+          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#00bfff]">
+            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#000080] text-center  md:text-center dark:text-white justify-center items-center">
+              <div className="font-semibold md:font-semibold p-2 m-2 text-[#000080] text-center  border-gray-800 border-2 bg-[#ffd700]">1st-31st May 2025</div> {/*End of news date block*/}
+              
+              <div className="font-normal md:font-normal text-center text-[#000080] border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#ffd700]">
+          Welcome to our May 2025 blog. It has been a very busy and quite challenging month. We started off the month with our Camino de Santiago trip, which was quite demanding but we are glad that we decided to do it. Elena and Harry were back home 'holding the fort' and looking after Lennie, so thank you to them both.
+          <br />
+          <br />
+          Since returning home we have had some fantastic news as Harry has been offered and accepted a job with the local council in digital and technology solutions, which is what he has been wanting to do, so we
+          are delighted for him. This means that the whole family will be based in Cumbria for the forthcoming few years at least. So congratulations Harry and we wish him all the best with this new post.               
+                <br />
+                <br />                
+              </div>{" "}
+            </div>
+          </div>   
       
-      <div className="datenewsDivMay2025">
-        <section className="dateMay2025">1st-31st May 2025</section>
-        <br />
-        <section className="newsMay2025">
-          Welcome to our May 2025 blog. It has been a very busy and quite
-          challenging month. We started off the month with our Camino de
-          Santiago trip, which was quite demanding but we are glad that we
-          decided to do it. Elena and Harry were back home 'holding the fort'
-          and looking after Lennie, so thank you to them both.
-          <br />
-          <br />
-          Since returning home we have had some fantastic news as Harry has been
-          offered and accepted a job with the local council in digital and
-          technology solutions, which is what he has been wanting to do, so we
-          are delighted for him. This means that the whole family will be based
-          in Cumbria for the forthcoming few years at least. So congratulations
-          Harry and we wish him all the best with this new post.
-          <br />
-          <br />
-        </section>
+    
+       
         <section className="dateMay2025">28th May 2025</section>
         <section className="newsHeaderMay2025">
           Visit to the new and improved Tullie Museum, Carlisle
