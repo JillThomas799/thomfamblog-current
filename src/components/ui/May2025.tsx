@@ -18,7 +18,7 @@ export default function May2025() {
   return (
      <div>
       <div className="bg-StBeesMay2025 bg-cover border-solid border-8 border-[#1e90ff] md:p-4 mb-8 h-[100vh] text-gray-800 text-center font-normal text-l p-3">
-        <div className="bg-[#ffd700] mr-[7%] ml-[7%] md:mr-[40%] md:ml-[40%] p-1 border-gray-800 border-2 text-[#1e90ff] font-bold">May 2025</div>
+        <div className="bg-[#ffd700] mr-[7%] ml-[7%] md:mr-[40%] md:ml-[40%] p-1 text-lg border-gray-800 border-2 text-[#1e90ff] font-bold">May 2025</div>
         <br />
         <br />
  </div>       
