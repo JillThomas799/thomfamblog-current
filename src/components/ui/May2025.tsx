@@ -1,6 +1,3 @@
-
-
-
 import React from "react";
 import Image from 'next/image'
 import Link from 'next/link'
@@ -21,9 +18,7 @@ export default function May2025() {
   return (
     <div>
       <div className="may2025Background">
-        <div className="backgroundMay2025">
         
-        </div>
         <div className="May2025Header"> May 2025 </div>
 
         <svg
@@ -36,6 +31,7 @@ export default function May2025() {
           width="1541.89px"
           height="695.276px"
           xmlSpace="preserve"
+          transform= "scale(0.5)"
         >
           <g id="outboundJourney">
             <g id="lineOutbound">
@@ -269,10 +265,7 @@ export default function May2025() {
           </g>
         </svg>
       </div>
-      <div className="May2025Santiago">
-        {" "}
-        Santiago de <br /> Compostela{" "}
-      </div>
+      
       <div className="datenewsDivMay2025">
         <section className="dateMay2025">1st-31st May 2025</section>
         <br />
