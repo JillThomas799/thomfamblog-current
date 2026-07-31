@@ -163,11 +163,7 @@ export default function May2025() {
               <br />
               The symbol of the trail is represented by a scallop shell which
               indicates the joining together of all the routes into one place,
-              namely Santiago de Compostela. It is due to the symbolism of the
-              scallop shell and what it represents that it is used as the
-              well-recognised Camino de Santiago logo and is why we have chosen
-              to create a header design for our Camino de Santiago blog based on
-              this symbol.
+              namely Santiago de Compostela. 
                 <br />
                 <br />  
                 In summary regarding our trip, the Camino de Santiago pilgrimage as an option is very popular but is <em>very</em> busy. Do not underestimate the distances to be walked each day to day, back to back, with a back pack. We travelled there and back by train. Unfortunately, trains in europe these days are no more reliable than in the UK so expect delays and expect them to be stressful.... We are glad we undertook the trip, but we thinks we will go on a laid-back walking and sight-seeing holiday next year....      
