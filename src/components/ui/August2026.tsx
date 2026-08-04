@@ -18,8 +18,18 @@ export default function August2026() {
       < div className="mb-20">
         < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-gray-800 border-solid border-2 md:border-2 bg-[#ff9933]">
           < div className="text-md md:text-lg max-w-full font-normal text-white text-center dark:text-white justify-center items-center">
-            <div className="font-bold text-center border-solid  border-black border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#477ca5] "><div className="font-bold">Welcome to our August 2026 blog.</div>
-
+            <div className="font-semibold text-center border-solid  border-black border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#477ca5] "><div className="font-bold">Welcome to our August 2026 blog.</div>
+              <br />
+            <div className="text-left">We are into August already, but the sun is shining again and there is plenty of opportunity to sit back and enjoy the garden. 
+             <br />
+                <br />
+            There are 3 significant trips this month: the first is to take the Carlisle-Settle-Leeds railway for the first time and to go to see the 'Genghis Khan: How the Mongols Changed the World' Exhibition at the Leeds Armouries and visit Leeds city by train, the second is the delayed annual father's day outing for Bernard, which is this year to experience life in action on the footplate of the Flying Scotsman steam train. 
+              <br />
+                <br />            
+            Last but not least, Bernard's dad is taking the plunge and coming up to see us in the North of England, visiting relatives en-route, and we are going to take him at the age of 95 (all being well) somewhere he has never been but would very much like to go, to Lindesfarne or Holy Island. Holy Island is associated with the hugely-important monastery founded by St Aidan in 635 as a base for his Christian mission in the north of England. St Cuthbert was prior and then bishop of Lindisfarne in the late 7th century, and his body was placed in a shrine in the church after his death.   
+            <br />
+                <br />
+            </div>
             </div>{" "}
           </div>
         </div>
