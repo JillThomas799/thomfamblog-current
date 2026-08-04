@@ -6,6 +6,8 @@ import PostCard from "@/components/ui/PostCard";
 import August2026 from "@/components/ui/August2026";
 import BlogMenuBar from "@/components/ui/blogmenubar";
 
+
+
 export default async function Home() {
   const user = await currentUser();
   const userId = await getDbUserId();
@@ -13,18 +15,16 @@ export default async function Home() {
   const dbUserId= await getDbUserId();
 
   if (!userId) return;
-  else {
-   
+  else { 
   return (
     <div>
-      
-      <BlogMenuBar /> 
+      <BlogMenuBar />
    <div className="grid grid-cols-1 md:grid-cols-3 gap-1 p-2 bg-[#90AEAD]"> {/*Sets the overall grid layout for the display*/}
+        
     <div className="col-span-1 md:col-span-2 p-2 gap-3 ">
     <div>
     <August2026 />
-    </div>
-    
+       </div>
     </div>
     <div className="md:col-start-3 gap-2"> 
        <div className="col-span-1">
@@ -39,13 +39,7 @@ export default async function Home() {
         
     </div>
     </div>
-   
-      </div>
+    </div>  
   );
 }
 }
-
-
-
-
-

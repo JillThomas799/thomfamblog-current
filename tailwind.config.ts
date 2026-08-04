@@ -91,6 +91,7 @@ const config: Config = withUt({
 		'HermitageWarkworth':"url('/images/DoNotDelete/HermitageWarkworth.jpg')",
 		'GardenJune2025':"url('/images/DoNotDelete/GardenJune2025.jpg')",
 		'StBeesMay2025':"url('/images/DoNotDelete/StBeesMay2025.jpg')",
+		'MoroccanFigures':"url('/images/DoNotDelete/MoroccanFigures.jpg')",
       },
   	}
   },
