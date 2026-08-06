@@ -4,6 +4,7 @@ import Link from 'next/link'
 import BanksEastGilslandTitled from "/public/imagesresized/BanksEastGilslandTitled.jpg";
 import MoroccanFiguresTitled from "/public/imagesresized/MoroccanFiguresTitled.jpg";
 import MongolEmpire from "/public/imagesresized/MongolEmpire.jpg";
+import MongoliaBooks from "/public/imagesresized/MongoliaBooks.jpg";
 
 
 
@@ -46,39 +47,49 @@ export default function August2026() {
               <div className="font-bold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#477ca5]">1st August 2026, Saturday.</div> {/*End of news date block*/}
               <div className="font-bold md:font-bold p-2 m-2 text-white white text-center text-md border-gray border-2  bg-[#477ca5]"> Genghis Khan: How the Mongols Changed the World Exhibition at the Leeds Armouries and the Carlisle-Settle-Leeds Railway.</div>
               <div className="font-semibold md:font-semibold text-left text-white  border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-4 mb-10 bg-[#477ca5]">
-                Many years ago, when Jill was still a young girl at Junior school, she found a book on the school book shelves which fascinated her, all about Genghis Khan and the Mongolian Empire. Not least because she remembers it describing how violent and blood-thirsty Genghis Khan and his warriors were, the extent of their empire and how, were Genghis Khan to have continued, he would have conquered Britain. Since then Mongolia and the Mongolian Empire has always held a fascination. 
+                Many years ago, when Jill was still a young girl at Junior school, she found a book on the school book shelves which fascinated her, all about Genghis Khan and the Mongolian Empire, not least because she remembers it describing how violent and blood-thirsty Genghis Khan and his warriors were, the extent of their empire and how, were Genghis Khan to have continued, he would have conquered Britain (not sure where they got that last bit from though...). Since then Mongolia and the Mongolian Empire has always held a fascination, hence the trip all the way to Leeds today.... 
                 <br />
                 <br />                
                 At its height, the Mongol Empire of the 13th and 14th centuries was the largest contiguous land empire in history. It stretched from the sea of Japan on the east Eurasia all the way to parts of eastern Europe, almost to the gates of Vienna. It stretched from the Arctic down to Indian and the Iranian plateau. 
-                 <Image
-                    src={MongolEmpire}
-                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
-                    alt="Photo of Moroccan Ger and horse made by e-Mongol."
-                  />
-                                
-                This empire was formed by Chinnghis Khan (formerly referred to as Genghis Khan). Under Chinnghis Khan the Mongolian forces were probably one of the most formidable military forces which rode across the surface of the earth. After his death in 1227, when he was preparing to take over the Jin dynasty in China, he was followed by his third son Ogödei  who became Great Khan at the kuriltai of 1229. 
+                   <br />
+                <br />             
+                This empire was formed by Chingghis Khan (formerly referred to as Genghis Khan) in 1206 and after his death in 1227, further developed and expanded by his heirs, his third son Ogödei who completed the conquest of North China and the Jin dynasty, which Chinggis Khan had been planning as he died, and pushed westward into Central Asia and Eastern Europe. By the time of his death in 1241, Mongol armies had reached as far as Hungary, marking the empire's transformation into a vast transcontinental one. Later Chinggis' grandson Kubilai Khan moved the capital of the empire to Dadu (present day Beijing) and in 1271 founded the Yuan dynasty, claiming succession from earlier Chinese dynasties, while maintaining Chinggis Khan's legacy. During his reign, the Mongols conquered the Song dynasty, becoming the first non-Han power to rule all of China.
+                 <br />
+                <br />                 
+                Under Chingghis Khan the Mongolian forces were probably one of the most formidable military forces ever. They could cover 50-60 miles a day at a time when an infantry army could travel 15-18 miles at most a day on good roads, slower if on rough terrain. An army with infantry and cavalry had to rest every 6 or 7 days so the horses could recover. In addition, the Mongol army could travel in Winter, when snow was on the ground.
                 <br />
                 <br />                
-                Ogödei played a key role in building the Mongol Empire as under his leadership, Mongol forces completed the conquest of North China and pushed westward into Central Asia and Eastern Europe. He also introduced administrative reforms that improved governance across newly conquered regions. By the time of his death in 1241, Mongol armies had reached as far as Hungary, marking the empire's transformation into a vast transcontinental power.
-                <br />
-                <br />
-                  Ogödei
-                   <br />
-                <br />
-
-                What the Mongols brought: The Mongols brought the first Postal service, passports, new maps, the development of science, a network of exchange and production on a previously unseen scale, connecting regions from China to the Middle East, Africa and Europe, paper money, a policy of religious tolerance, The first International Law and the transfer of technology across the whole of Eurasia.
+                What the Mongols brought: <ul>
+                  <li>The first Postal service,</li>
+                  <li> Passports,</li>
+                  <li> New maps, </li>
+                  <li>The development of science,</li>
+                  <li> Connecting a network of exchange and production on a previously unseen scale, connecting regions from China to the Middle East, Africa and Europe,</li>
+                  <li> Paper money,</li>
+                   <li> A policy of religious tolerance, </li>
+                   <li>The first International Law and </li>
+                   <li>The transfer of technology across the whole of Eurasia.</li>
+                   </ul>
                  <br />
                 <br />
-                Additional Resouces: <Link href="https://www.bloomsbury.com/uk/empires-of-the-steppes-9781526630445/" target="_blank" className="text-decoration-underline text-[#ff0000] font-semibold md:font-semibold underline">Empires of the Steppes</Link> by Kenneth W. Harl. <Link href="https://www.penguin.co.uk/books/283044/the-secret-history-of-the-mongols-by-none/9780241197912" target="_blank" className="text-decoration-underline text-[#ff0000] font-semibold md:font-semibold underline">The Secret History of the Mongols</Link> by Kenneth W. Harl.
-
-
+                After we had seen the exhibition, in the afternoon we went over to the Tiltyard outdoor area for the horse show featuring Mongolian-style horse archery and mace display, which was good fun. Together with the very scenic train ride it was a great day out and we would recommend it. The exhibition runs until November 2026.
                 <br />
+                <br />
+                Additional Resources: <ul><li><Link href="https://www.bloomsbury.com/uk/empires-of-the-steppes-9781526630445/" target="_blank" className="text-decoration-underline text-[#ff0000] font-semibold md:font-semibold underline">Empires of the Steppes</Link> by Kenneth W. Harl, Chapters 19-23,</li> <li> <Link href="https://www.amazon.co.uk/Secret-History-Mongols-Christopher-Atwood/dp/0241197910" target="_blank" className="text-decoration-underline text-[#ff0000] font-semibold md:font-semibold underline">The Secret History of the Mongols</Link> by Christopher P. Atwood (translator),</li> <li><Link href="https://www.amazon.co.uk/Silk-Roads-New-History-World/dp/1408839970" target="_blank" className="text-decoration-underline text-[#ff0000] font-semibold md:font-semibold underline">The Silk Roads: A New History of the World</Link> by Peter Frankopan, Chapter 9,</li> <li> Dan Snow's History Hit episode <Link href="https://access.historyhit.com/videos/genghis-khan-1" target="_blank" className="text-decoration-underline text-[#ff0000] font-semibold md:font-semibold underline">Genghis Khan </Link> with Kenneth W. Harl.</li>
+                </ul>
+                  <br />
+                 <Image
+                    src={MongoliaBooks}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    alt="Photo of Silk Road and Empire of the Steppes books."
+                  />
                 <br />
                 <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#477ca5] border-gray-800 border-solid border-2 bg-white ">Click on the image below to open the album of our  visit to the Genghis Khan: How the Mongols Changed the World Exhibition at the Leeds Armouries and journey the Carlisle-Settle-Leeds Railway.
                   <br />
                   <br />
                   Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
                 </div>
+                 <br />
                 <Link
                   href="https://photos.app.goo.gl/k8TCZUd4k1XyJW9N6"
                   target="_blank"
