@@ -2258,8 +2258,7 @@ export default function HWP2024() {
             <br />
             <br />
             Todays walk was to include Hotbank Crags, Crag Lough and Highshield
-            Crags, Sycamore Gap, Peel Crags, Steel Rigg, Shield on the Wall,
-            Whinshield Crags, Caw Gap and Cawfield Quarry. It was to be a
+            Crags, Sycamore Gap, Peel Crags, Steel Rigg, Shield on the Wall, Winshield Crags, Caw Gap and Cawfield Quarry. It was to be a
             brilliant day and our best walking day on the wall so far.
             <br />
             <br />
