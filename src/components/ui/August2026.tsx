@@ -109,42 +109,12 @@ export default function August2026() {
           < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#ff9900]">
             < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
               <div className="font-bold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#477ca5]">2nd August 2026, Sunday.</div> {/*End of news date block*/}
-              <div className="font-bold md:font-bold p-2 m-2 text-white white text-center text-md border-gray border-2  bg-[#477ca5]"> Hadrian's Wall Path West to East (abridged): Day 8, Walltown Recreation Park to Cawfields Car Park via Walltown Crags.</div>
+              <div className="font-bold md:font-bold p-2 m-2 text-white white text-center text-md border-gray border-2  bg-[#477ca5]"> Hadrian's Wall Path West to East (abridged): Day 8, Walltown Country Park to Cawfields Car Park via Walltown Crags.</div>
               <div className="font-semibold md:font-semibold text-left text-white  border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-4 mb-10 bg-[#477ca5]">
-            Todays walk started in Walltown Recreation Park (next door to the Roman Army Museum) and ended in Cawfields car park taking in Walltown Quarry, the site of the previous Milecastle 45, Walltown Crags including Turrets 45a and 44b(Mucklebank), past the sites of Turrets 43b and 43a where no visible remains exist, and Aesica (Great Chesters) Roman Fort. On this occasion, as we wanted to keep the distance fairly short today, we took 2 cars.
+            Todays walk started in Walltown Country Park (next door to the Roman Army Museum) and ended in Cawfields car park.
             <br />
-            <br />
-            Aesica Fort, whose modern name is Great Chesters (not to be confused with Chesters Fort at Chollerford) was the ninth fort on Hadrian's Wall. It lies 6.0 miles to the east of Housesteads (Roman name Vercovicium) and 6.5 miles to the west of Birdoswald Fort (Roman name Banna). Its main purpose was to guard the Caw Gap where the
-            Haltwhistle Burn crosses the Wall. It was built relatively late (AD128), over the site of the existing Milecastle 43. There are no visible remains of Milecastle 43's two accompanying turrets: turret 43A and turret 43B either. At 3 acres Aesica Fort was smaller than some of the other forts. More information about Aesica fort can be
-            found{" "}
-            <Link
-              href="https://perlineamvalli.wordpress.com/2015/10/17/the-best-bits-of-hadrians-wall-the-forts-great-chesters/"
-              target="_blank"
-               className="text-decoration-underline text-[#] font-semibold md:font-semibold underline"
-            >
-              {" "}
-              here{" "}
-            </Link>{" "}
-            and{" "}
-            <Link
-              href="https://www.u3ahadrianswall.co.uk/great-chester-roman-fortaesica/"
-              target="_blank"
-               className="text-decoration-underline text-[#ff0000] font-semibold md:font-semibold underline"
-            >
-              {" "}
-              here{" "}
-            </Link>{" "}
-            .
-            <br />
-            <br />
-            There are a number of routes over Walltown Crags and
-            any can be used, but the top route offers the most spectacular views
-            and is well worth the climb, so this was the route we used. It is
-            also the route we suggest to others to use if walking this route (as
-            long as you are up for the climb). We passed the previous site of
-            Milecastle 45 which is located on the top of Walltown Crags. The
-            walls have been robbed, so little remains. We understand however
-            that the site is still{" "}
+            <br />   
+            En route we passed Walltown Quarry, Turret 45a, and the site of the previous Milecastle 45 on the top of Walltown crags. The walls of Milecastle 45 have been robbed, so little remains. We understand however that the site is still{" "}
             <Link
               href="https://en.wikipedia.org/wiki/Milecastle_45"
               target="_blank"
@@ -153,41 +123,19 @@ export default function August2026() {
               {" "}
               visible as earthworks on aerial photographs{" "}
             </Link>{" "}
-            . The last time we walked this route along the crags, we saw 2 Kestrels circling overhead
-            which appeared to be nesting in the walls of the crag. There was no sign of any kestrels today though.
+            . We passed Turret 44b(Mucklebank), the sites of Turrets 43b and 43a where no visible remains exist, and Aesica (Great Chesters) Roman Fort. As we wanted to keep the distance fairly short today, we took 2 cars.
+            <br />
+            <br />           
+            There are a number of routes over Walltown Crags and any can be used, but the top route offers the most spectacular views and is well worth the climb, so this was the route we used. It is also the route we suggest to others to use if walking this route (as long as you are up for the climb). This Walltown Crags section of the Hadrian's Wall National Trail has some of the best remaining sections of the Wall.
+
             <br />
             <br />
-            Turret 44b (Mucklebank) has magnificent views over the surrounding
-            landscape. It is unusual in that it is built into a corner of
-            Hadrian's Wall. Dropping down below Turret 44b(Mucklebank) is the
-            alleged site of King Arthur's Well , although there is no sign of it
-            today. Turret 45a is built high on Walltown Crags. It is thought
-            that the wall and turret were built separately as, whilst the Wall's
-            foundations run through the turret, above ground the wall and turret
-            are separate structures and there are no wing walls and the wall
-            meets the turret at an angle.This suggests they were probably built
-            separately.
-            <br />
-            <br />
-            Finally we dropped down to the Walltown Quarry car park where there
-            is a very pleasant small Visitors Centre, and we were in luck as there was a refreshment van in the car park selling hot drinks and warm sausage rolls, much to Harry's delight. There are picnic tables to sit on by the
-            quarry so we took the opportunity to have some lunch here. There are
-            also a number of walks you can do from this site, for which there
-            are information boards. It is one of the pick up points for the
-            <Link
-              href="https://www.gonortheast.co.uk/ad122"
-              target="_blank"
-              title="Click here to discover more about the AD 122 bus service"
-             className="text-decoration-underline text-[#ff0000] font-semibold md:font-semibold underline">
-              {" "}
-              AD122 bus{" "}
-            </Link>{" "}
-            run by Go North East and in fact the bus arrived whilst we were
-            there.
+            Finally we dropped down to the Cawfields car park where there
+            is a small unmanned Visitors Centre with bathrooms and a drinks-dispensing machine. We were in luck as there was a refreshment van in the car park selling hot drinks and warm sausage rolls, much to Harry's delight. There are picnic tables to sit on by the quarry so we took the opportunity to have some lunch here. 
          
                 <br />
                 <br />
-                <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#477ca5] border-gray-800 border-solid border-2 bg-white ">Click on the image below to open the album of our Hadrian's Wall Path West to East (abridged): Day 8, Walltown Recreation Park to Cawfields Car Park via Walltown Crags.
+                <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#477ca5] border-gray-800 border-solid border-2 bg-white ">Click on the image below to open the album of our Hadrian's Wall Path West to East (abridged): Day 8, Walltown Country Park to Cawfields Car Park via Walltown Crags.
                   <br />
                   <br />
                   Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
