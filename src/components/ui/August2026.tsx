@@ -148,7 +148,7 @@ export default function August2026() {
                   <Image
                     src={HWPD8Titled}
                     className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
-                    alt="Photo of Moroccan Ger and horse made by e-Mongol."
+                    alt="Photo of Jill on Walltown Crags."
                   />
                 </Link>
               </div>{" "}
