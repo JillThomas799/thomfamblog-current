@@ -46,7 +46,7 @@ export default function August2026() {
         < div className="mb-20">
           < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#ff9900]">
             < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
-              <div className="font-bold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#477ca5]">1st August 2026, Saturday.</div> {/*End of news date block*/}
+              <div className="font-bold md:font-bold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#477ca5]">1st August 2026, Saturday.</div> {/*End of news date block*/}
               <div className="font-bold md:font-bold p-2 m-2 text-white white text-center text-md border-gray border-2  bg-[#477ca5]"> Genghis Khan: How the Mongols Changed the World Exhibition at the Leeds Armouries and the Carlisle-Settle-Leeds Railway.</div>
               <div className="font-semibold md:font-semibold text-left text-white  border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-4 mb-10 bg-[#477ca5]">
                 Many years ago, when Jill was still a young girl at Junior school, she found a book on the school book shelves which fascinated her, all about Genghis Khan and the Mongolian Empire, not least because she remembers it describing how violent and blood-thirsty Genghis Khan and his warriors were, the extent of their empire and how, were Genghis Khan to have continued, he would have conquered Britain (not sure where they got that last bit from though...). Since then Mongolia and the Mongolian Empire has always held a fascination, hence the trip all the way to Leeds today.... 
@@ -110,7 +110,7 @@ export default function August2026() {
           < div className="mb-20">
           < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#ff9900]">
             < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
-              <div className="font-bold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#477ca5]">2nd August 2026, Sunday.</div> {/*End of news date block*/}
+              <div className="font-bold md:font-bold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#477ca5]">2nd August 2026, Sunday.</div> {/*End of news date block*/}
               <div className="font-bold md:font-bold p-2 m-2 text-white white text-center text-md border-gray border-2  bg-[#477ca5]"> Hadrian's Wall Path West to East (abridged): Day 8, Walltown Country Park to Cawfields Car Park via Walltown Crags.</div>
               <div className="font-semibold md:font-semibold text-left text-white  border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-4 mb-10 bg-[#477ca5]">
             Todays walk started in Walltown Country Park (next door to the Roman Army Museum) and ended in Cawfields car park.
@@ -160,11 +160,17 @@ export default function August2026() {
           < div className="mb-20">
           < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#ff9900]">
             < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
-              <div className="font-bold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#477ca5]">7th August 2026, Friday.</div> {/*End of news date block*/}
+              <div className="font-bold md:font-bold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#477ca5]">7th August 2026, Friday.</div> {/*End of news date block*/}
               <div className="font-bold md:font-bold p-2 m-2 text-white white text-center text-md border-gray border-2  bg-[#477ca5]">Hadrian's Wall Path West to East (abridged): Day 9, Cawfields Car Park to Steel Riggs Car Park via Winshields summit.</div>
               <div className="font-semibold md:font-semibold text-left text-white  border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-4 mb-10 bg-[#477ca5]">
-           
+                We were back to one car for today's walk, day 9 of our Hadrian's Wall Path West to East (abridged), so a circular route was planned. It included a segment of 2 3/4 miles or so along the National Trail along the Whin Sill and taking in the summit of WInshields Crags, which is the highest point on Hadrian's Wall. Then, at Steel Riggs Car Park to turn back along a small country lane which leads back on the North side of the wall, along Melkridge Common, to rejoin the National Trail at Shield on the Wall. From then on it was to be a case of returning in our footsteps along the ridge back to Cawfields. This route was five and a quarter miles in total and had the advantage of taking us in the land to the north of the wall and giving a totally different perspective, being that of the Picts, who were the people north of the Wall at that time and the challenges they would have faced if trying to take on the Roman forces.
                 <br />
+                <br />
+                It is August and the peak of the holiday season so there were a lot of international visitors including French, German, Austrian, American. It was also a Friday so this increased the number of walkers as depending which direction people are walking the trail, they tend to reach certain segments on particular days of the week. Sunday is often quite a good day for undertaking these central segments as it can be a little quieter.
+                <br />
+                <br />
+                We felt the circular route worked well and enjoyed the walk. Next is to plan how we are going to best approach the next segment, that of Steel Riggs to Housesteads which will include the famous Sycamore Gap.
+                 <br />
                 <br />
                 <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#477ca5] border-gray-800 border-solid border-2 bg-white ">Click on the image below to open the album of our Hadrian's Wall Path West to East (abridged): Day 9, Cawfields Car Park to Steel Riggs Car Park via Winshields summit.
                   <br />
@@ -179,7 +185,7 @@ export default function August2026() {
                   <Image
                     src={WhinsillD9Titled}
                     className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
-                    alt="Photo of Jill on Walltown Crags."
+                    alt="Photo of Harry with Hadrian's Wall on the Whin Sill."
                   />
                 </Link>
               </div>{" "}
