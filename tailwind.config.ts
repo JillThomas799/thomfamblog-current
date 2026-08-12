@@ -93,7 +93,8 @@ const config: Config = withUt({
 		'StBeesMay2025':"url('/images/DoNotDelete/StBeesMay2025.jpg')",
 		'MoroccanFigures':"url('/images/DoNotDelete/MoroccanFigures.jpg')",
 		'HighCupNick':"url('/images/DoNotDelete/HighCupNick.jpg')",
-		'HighPikeApril2025':"url('/images/DoNotDelete/HighPikeApril2025.jpg')",
+		'LambsBernard':"url('/images/DoNotDelete/LambsBernard.jpg')",
+		
       },
   	}
   },

@@ -5,12 +5,15 @@ import ArchieTitled03042025 from "/public/imagesresized/ArchieTitled03042025.jpg
 import Derwentwater06042025Titled from "/public/imagesresized/Derwentwater06042025Titled.jpg";
 import CdSTrainTitled07042025 from "/public/imagesresized/CdSTrainTitled07042025.jpg";
 import HighCupNickTitled from "/public/imagesresized/HighCupNickTitled.jpg";
+import CdSWk11Walk1Titled from "/public/imagesresized/CdSWk11Walk1Titled.jpg";
+import QuarrybeckWoodTitled from "/public/imagesresized/QuarrybeckWoodTitled.jpg";
+import HighPikeLowPike24052025Titled from "/public/imagesresized/HighPikeLowPike24052025Titled.jpg";
 
 
 export default function April2025() {
   return (
      <div>
-      <div className="bg-HighCupNick bg-cover border-solid border-8 border-[#36454f] md:p-4 mb-8 h-[100vh] text-gray-800 text-center font-normal text-l p-3">
+      <div className="bg-LambsBernard bg-cover border-solid border-8 border-[#36454f] md:p-4 mb-8 h-[100vh] text-gray-800 text-center font-normal text-l p-3">
         <div className="bg-[#f6f0a3] mr-[7%] ml-[7%] md:mr-[40%] md:ml-[40%] p-1 text-lg border-gray-800 border-2 text-[#36454f] font-bold">April 2025</div>
         <br />
         <br />
@@ -39,12 +42,7 @@ export default function April2025() {
             <br />
             We are in full Camino training this month so we will be keeping you updated on our progress....
             <br />
-            <br />
-            As it is lambing time again it is a pleasure to resurrect the lambs
-            from last year's April header representing the lambs in the fields
-            near ourselves, to take us into the spirit of Spring...
-            <br />
-            <br />            
+            <br />         
           </div>
           </div>
           </div>
@@ -288,6 +286,7 @@ export default function April2025() {
                  <br />
             <br /> 
               </div>{" "}
+              <div className="bg-[#7C9C84]">
                <div className="bg-[#f6f0a3] text-[#36454f] font-bold">DETAILS OF THE WALK </div>
             <div className="font-semibold text-center border-solid mr-1 ml-1 mt-2 mb-2 px-4 py-4 ">            
         <div className="font-normal pt-2 pb-2  text-black text-center">
@@ -387,7 +386,7 @@ export default function April2025() {
              <div className="bg-[#f6f0a3] text-[#36454f] font-bold text-decoration-underline">HIKE RATING</div>
               <br /> 
           <ul className="list-none">
-              <li className="text-left bg-[#f6f0a3] p-4">
+              <li className="text-center bg-[#f6f0a3] p-4">
                 <div className="text-[#36454f]] text-center font-semibold">10 (out of 10):</div>  A fantastic high level walk
                   which amazing views. Well-worth undertaking. One of our
                   favourite Pennine walks, not least because, unlikely many high
@@ -395,6 +394,7 @@ export default function April2025() {
               </li>
             </ul>
           </div>{" "}
+            </div>
             </div>
             </div>
         
@@ -416,16 +416,292 @@ export default function April2025() {
                 </Link>
                   </div>  
 
+              < div className="mb-20">
+          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#36454f]">
+            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#36454f] text-left md:text-center dark:text-white justify-center items-center">
+              <div className="font-semibold md:font-semibold p-2 m-2 text-[#36454f] text-center  border-gray-800 border-2 bg-[#f6f0a3]">12th April 2025, Saturday{" "}</div> {/*End of news date block*/}
+                <div className="font-semibold md:font-semibold p-2 m-2 text-[#36454f] text-center text-md border-gray border-2  bg-[#f6f0a3]">CAMINO DE SANTIAGO TRAINING WEEK 11 WALK 1: 13.5 miles, 5 hours.
+              Ascent: 471 metres, 1545 feet</div>
+              <div className="font-normal md:font-normal text-left text-[#36454f] border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#f6f0a3]">
+            We are now in week 11 of training for the Camino de Santiago and
+            this week the long walk increases in length to 5 hrs. At the pace we
+            walk (approx 4.4km or 2.73 miles an hour), this works out to 13.65
+            miles in distance or thereabouts which in actual fact seems about
+            correct as the longest distance we will walk in a day on the Camino
+            de Santiago will be 14 miles....
+            <br />
+            <br />
+            The training advice we are following advises, as distances lengthen,
+            starting to integrate regular lower-volume weeks for muscle healing
+            and recovery. This is the reason that this week there is only one
+            long distance walk rather than two....
+            <br />
+            <br />
+            Today's walk is a sandwiching together of sections of 3 walks we
+            have undertaken previously, to create a varied and interesting walk
+            of 13.5 miles, 5 hours.
+                 <br />
+            <br /> 
+              </div>{" "}
+              <div className="bg-[#7C9C84]">
+               <div className="bg-[#f6f0a3] text-[#36454f] font-bold">DETAILS OF THE WALK </div>
+            <div className="font-semibold text-center border-solid mr-1 ml-1 mt-2 mb-2 px-4 py-4 ">            
+        <div className="font-normal pt-2 pb-2  text-black text-center">
+             <ul className="list-none">
+              <li className="text-left bg-[#f6f0a3] p-4">
+                <div className="text-[#36454f]] font-semibold">Parking:</div>
+                 If arriving by car, there are a
+                  number of points where you can park your car and then walk:
+                  Middle Gelt Brudge (under the Viaduct), Castle Carrock
+                  village, Jockey Shield to name just a few.
+              </li>
+             
+              <br />  
+        <br /> 
+         <li className="text-left bg-[#f6f0a3] p-4">
+                <div className="text-[#36454f]] font-semibold">Paths:</div>
+             The route consists for the main part
+                  of clear footpaths. The route becomes rougher underfoot when
+                  ascending up to Talkin Fell. This section can become quite
+                  boggy during the Winter months but was fine today as it was
+                  following a dry spell. We did not ascend the final section on
+                  to the summit of Talkin Fell but a number of people were doing
+                  so. We have visited the summit a number of times in the past
+                  and yes, you get some spectacular views but equally, it can be{" "}
+                  <em>extremely</em> windy.          
+              </li>
+              <br />  
+              <br /> 
+              <li  className="text-left  bg-[#f6f0a3] p-4">
+                <div className="text-[#36454f]]] font-semibold">Distance:</div>
+            13.5 miles in total{" "} <strong> Ascent:</strong>471 metres, 1545 feet.{" "}
+              </li>
+               <br />  
+        <br /> 
+              <li  className="text-left bg-[#f6f0a3] p-4">
+                <div className="text-[#36454f]] font-semibold">Refreshments:</div>
+               The{" "}
+                  <Link
+                    href="https://www.the-dukeofcumberland.co.uk/"
+                    target="_blank"
+                    className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                  >
+                    Duke of Cumberland pub{" "}
+                  </Link>{" "}
+                  in Castle Carrock.
+              </li>
+            </ul>
+             <br />  
+        <br /> 
+            <div className="bg-[#f6f0a3] text-[#36454f]] font-bold text-decoration-underline">GOOD</div>
+             <br />  
+        <br /> 
+        
+            <ul className="list-none">
+                <li className="text-left bg-[#f6f0a3] p-4">
+                   <div className="text-[#36454f] font-semibold">Interest: </div>
+                    This is an interesting and very
+                    varied walk. It commences by walking down towards and
+                    traversing through Gelt Woods by the side of the river Gelt.{" "}                 
+                </li>
+                 <br />  
+        <br /> 
+    
+                <li className="text-left  bg-[#f6f0a3] p-4">
+                  <div className="text-[#36454f] font-semibold">Written Rock of Gelt : </div>
+                    It is just on the
+                    other side of the river Gelt as it flows through Gelt Woods
+                    that the{" "}
+                    <Link
+                      href="https://historicengland.org.uk/listing/the-list/list-entry/1014582?section=official-list-entry"
+                      target="_blank"
+                      className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                    >
+                      Written Rock of Gelt{" "}
+                    </Link>{" "}
+                    lies in a quarry. The Written Rock of Gelt Roman
+                    inscriptions are probably the most important on the
+                    Hadrian’s Wall frontier. They provide insight into the
+                    organisation of the huge construction project of Hadrian’s
+                    Wall, as well as more human touches, such as the caricature
+                    of their commanding officer inscribed by one group of
+                    soldiers. The path down to the inscriptions was until the
+                    1980s accessible to the general public, but at that time the
+                    path collapsed and the inscriptions are no longer
+                    accessible. In 2019, a team from Newcastle University'a
+                    archaeology department abseiled down to the rock as
+                    described in this{" "}
+                    <Link
+                      href="https://www.theguardian.com/uk-news/2019/feb/27/written-rock-gelt-roman-graffiti-cumbria-quarry-wall-to-be-photogrammed"
+                      target="_blank"
+                      className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                    >
+                      Guardian Article 2019
+                    </Link>{" "}
+                    and this{" "}
+                    <Link
+                      href="https://historicengland.org.uk/whats-new/news/roman-graffiti-to-be-recorded-hadrians-wall-quarry/"
+                      target="_blank"
+                      className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                    >
+                      Historic England article on the Written Rock of Gelt
+                    </Link>{" "}
+                    , which also show some photos of the inscriptions.
+                </li>
+                 <br />  
+        <br />                 
+            </ul>
+            <br />
+            <div className="bg-[#f6f0a3] text-[#36454f] font-bold text-decoration-underline">NOT SO GOOD</div>
+             <br />  
+            <ul className="list-none">
+              <li className="text-left  bg-[#f6f0a3] p-4">
+                <div className="text-[#36454f] font-semibold">  Length:{" "}:</div>
+               This is quite a long walk so it is
+                  tiring. However, as we build up stamina over the forthcoming
+                  period, these 5 hour walks should become easier to undertake{" "}
+                  <em>(here's hoping)...</em>{" "}
+                <br />
+              </li>
+               <br />  
+        <br /> 
+            </ul>
+             <div className="bg-[#f6f0a3] text-[#36454f] font-bold text-decoration-underline">HIKE RATING</div>
+              <br /> 
+          <ul className="list-none">
+              <li className="text-center bg-[#f6f0a3] p-4">
+                <div className="text-[#36454f]] text-center font-semibold">10 (out of 10):</div>  Really interesting, varied,
+                  moderately challenging longer walk.
+              </li>
+            </ul>
+          </div>{" "}
+            </div>
+            </div>
+            </div>
+        
 
-                   
+           <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#f6f0a3] "> Click on the image below to open the album of our Week 11 Camino de Santiago training long walk in Gelt Woods, Geltsdale and up Talkin Fell.
+                  <br />
+                  <br />
+                  Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                </div>
+                <Link
+                  href="https://photos.app.goo.gl/FF95G96dkYdkttgJ8"
+                  target="_blank"
+                >
+                  <Image
+                    src={CdSWk11Walk1Titled}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[40%] border-solid border-[#f6f0a3] border-4 mt-4 mb-6"
+                    alt="Photo of Jill on the road descending into Castle Carrock."
+                  />
+                </Link>
+                  </div>  
 
- 
+
+      < div className="mb-20">
+          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#36454f]">
+            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#36454f] text-left md:text-center dark:text-white justify-center items-center">
+              <div className="font-semibold md:font-semibold p-2 m-2 text-[#36454f] text-center  border-gray-800 border-2 bg-[#f6f0a3]">  Saturday 19th and Sunday 20th April 2025</div> {/*End of news date block*/}
+                <div className="font-semibold md:font-semibold p-2 m-2 text-[#36454f] text-center text-md border-gray border-2  bg-[#f6f0a3]">PEAK OF CAMINO DE SANTIAGO TRAINING: WEEK 12 of training, 2 long
+                walks of at least 5 hours.</div>
+              <div className="font-normal md:font-normal text-left text-[#36454f] border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#f6f0a3]">
+           These two days have been very exciting as we have now reached the
+              peak of our Camino de Santiago training; 2 long walks of 5 hours.
+              <br />
+              <br />
+              In the end we actually exceeded this target as on Saturday, 19th
+              April we walked 24 km , 15 miles, a total of 6 hours walking! On
+              Sunday 20th April we walked 21.5lm, 13.5 miles, 5hrs 5 minutes and
+              climbed 446 metres or 1464 feet. Several people locally and on our
+              walks have noticed we are walking a long way and as a results we
+              have got into some interesting conversations, discovering some
+              other people's experiences of long-distance walking....
+              <br />
+              <br />
+              It has also been lovely to see all the plants and trees coming
+              into bloom as we have been out walking, as can be seen from the
+              photos in the album below below: the gorse and the the cherry blossom to name but a
+              few....
+              <br />
+              <br />
+              We feel we are at a point now that we are prepared physically for
+              our trip (or at least, as much as we will ever be) so it is just a
+              case of keeping this up until we go....
+            <br />
+            <br />                  
+              </div>{" "}
+            </div>
+        
+
+           <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#f6f0a3] ">Click on the image below to open the album of our  PEAK OF CAMINO DE SANTIAGO TRAINING: WEEK 12 of training, 2 long walks of at least 5 hours.
+                  <br />
+                  <br />
+                  Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                </div>
+                <Link
+                  href="https://photos.app.goo.gl/76btBSt1xSGuXT4X7"
+                  target="_blank"
+                >
+                  <Image
+                    src={QuarrybeckWoodTitled}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#f6f0a3] border-4 mt-4 mb-6"
+                    alt="Photo of Bernard in Quarrybeck Wood."
+                  />
+                </Link>
+                  </div>   
+
+  < div className="mb-20">
+          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#36454f]">
+            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-[#36454f] text-left md:text-center dark:text-white justify-center items-center">
+              <div className="font-semibold md:font-semibold p-2 m-2 text-[#36454f] text-center  border-gray-800 border-2 bg-[#f6f0a3]">24th April 2025</div> {/*End of news date block*/}
+                <div className="font-semibold md:font-semibold p-2 m-2 text-[#36454f] text-center text-md border-gray border-2  bg-[#f6f0a3]"> High Level Fell Walk: Low Pike and High Pike (Summit at 658 meters,
+            2159 feet) from Ambleside via High Sweden Bridge and Low Sweden
+            Bridge; 7 miles, 3hrs 17mins.</div>
+              <div className="font-normal md:font-normal text-left text-[#36454f] border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#f6f0a3]">
+         Our main Camino de Santiago training programme is now complete,so we
+            decided to work on some additional specific training to develop
+            muscle strength and endurance before we set off on our journey.
+            Hence we opted for a high level hike taking in the 2 Wainwrights on
+            the first section of the Fairfield Horseshoe: Low Pike and High
+            Pike. This is considered to be a challenging route which should be
+            avoided in poor weather. However, today it was predicted to be sunny
+            with some cloud but a 95% chance of clear summits.
+            <br />
+            <br />
+            As this is a well-documented route we would suggest anyone
+            interested in walking it accesses a reliable route description and
+            reads and takes careful note on the relevant advice on this route.
+            In addition we would advise avoiding the 10 foot rocky drop at
+            Sweden Crags by taking the alternative route.
+            <br />
+            <br />                  
+              </div>{" "}
+            </div>
+        
+
+           <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#18392b] border-gray-800 border-solid border-2 bg-[#f6f0a3] ">Click on the image below to open the album of our High Level Fell Walk: Low Pike and High Pike (Summit at 658 meters, 2159 feet) from Ambleside via High Sweden Bridge and Low Sweden
+            Bridge; 7 miles, 3hrs 17mins.
+                  <br />
+                  <br />
+                  Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                </div>
+                <Link
+                  href="https://photos.app.goo.gl/jL7RTDCkcnFyBdAs7"
+                  target="_blank"
+                >
+                  <Image
+                    src={HighPikeLowPike24052025Titled}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[40%] border-solid border-[#f6f0a3] border-4 mt-4 mb-6"
+                    alt="Photo of Bernard in Quarrybeck Wood."
+                  />
+                </Link>
+                  </div>   
 
 
 
-
-
-   
+</div> 
+  </div>  
+     </div>  
         </div>  
         </div>     
       </div>   
