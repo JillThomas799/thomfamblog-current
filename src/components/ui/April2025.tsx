@@ -13,7 +13,7 @@ import HighPikeLowPike24052025Titled from "/public/imagesresized/HighPikeLowPike
 export default function April2025() {
   return (
      <div>
-      <div className="bg-LambsBernard bg-cover border-solid border-8 border-[#36454f] md:p-4 mb-8 h-[100vh] text-gray-800 text-center font-normal text-l p-3">
+      <div className=" bg-LambsBernard bg-cover border-solid border-8 border-[#36454f] md:p-4 mb-8 h-[40vh] md:h-[50vh] w-auto lg:h-[100vh] text-gray-800 text-center font-normal text-l p-3">
         <div className="bg-[#f6f0a3] mr-[7%] ml-[7%] md:mr-[40%] md:ml-[40%] p-1 text-lg border-gray-800 border-2 text-[#36454f] font-bold">April 2025</div>
         <br />
         <br />

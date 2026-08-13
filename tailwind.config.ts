@@ -94,6 +94,7 @@ const config: Config = withUt({
 		'MoroccanFigures':"url('/images/DoNotDelete/MoroccanFigures.jpg')",
 		'HighCupNick':"url('/images/DoNotDelete/HighCupNick.jpg')",
 		'LambsBernard':"url('/images/DoNotDelete/LambsBernard.jpg')",
+		'HighCupNickValley':"url('/images/DoNotDelete/HighCupNickValley.jpg')",
 		
       },
   	}
