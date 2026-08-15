@@ -6,6 +6,7 @@ import BishopsAuckland01032025Titled from "/public/imagesresized/BishopsAuckland
 import SuttonHooTitled from "/public/imagesresized/SuttonHooTitled.jpg";
 import RatForYouTitled from "/public/imagesresized/RatForYouTitled.jpg";
 import CrasterDunstanburgh22052025Titled from "/public/imagesresized/CrasterDunstanburgh22052025Titled.jpg";
+import CdSTrainingLongWk7Titled from "/public/imagesresized/CdSTrainingLongWk7Titled.jpg";
 
 
 
@@ -295,10 +296,121 @@ export default function March2025() {
 
 
 
+ < div className="mb-20">
+          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#36454f]">
+            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-left md:text-center dark:text-white justify-center items-center">
+              <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#816c66]">19th March 2025, Wednesday{" "}</div> {/*End of news date block*/}
+                <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#816c66]"> Camino de Santiago Training, Long Walk Week 7, 9.04 miles.{" "}</div>
+             <br />  
+              <div className="bg-[#edecdf]">
+               <div className="bg-[#816c66] text-white font-bold">DETAILS OF THE WALK </div>
+            <div className="font-semibold text-center border-solid mr-1 ml-1 mt-2 mb-2 px-4 py-4 ">            
+        <div className="font-normal pt-2 pb-2  text-white text-center">
+             <ul className="list-none">
+              <li className="text-left bg-[#816c66] p-4">
+                <div className="text-white font-semibold">Parking:</div>
+                None required as this walk can be undertaken directly from our
+                  home.
+              </li>
+             
+              <br />  
+ 
+         <li className="text-left bg-[#816c66] p-4">
+                <div className="text-white font-semibold">Paths:</div>
+             Mainly
+                  walking on very quiet, tarmacadam rural roads with occasional
+                  stretches across farmland.  
+              </li>
+              <br />  
+             
+              <li  className="text-left  bg-[#816c66] p-4">
+                <div className="text-white font-semibold">Distance:</div>
+           9.04 miles in total.{" "}
+              </li>
+               <br />  
+  
+              <li  className="text-left bg-[#816c66] p-4">
+                <div className="text-white font-semibold">Refreshments:</div>
+               There is a lovely community café and shop after about 6.5
+                  miles where refreshments can be obtained.
+              </li>
+            </ul>
+             <br />  
+        <br /> 
+            <div className="bg-[#816c66] text-white font-bold text-decoration-underline">GOOD</div>
+             <br />  
+                   <ul className="list-none">
+                <li className="text-left bg-[#816c66] p-4">
+                   <div className="text-white font-semibold"> Spectacular coastal scenery and views : </div>
+                 Always a great walk which, because of its rurality and
+                    remoteness is exceptionally quiet.            
+                </li>
+                 <br />  
+      
+                       <li className="text-left  bg-[#816c66] p-4">
+                  <div className="text-white font-semibold">Weather:  </div>
+                    The start of spring felt to be here with a
+                      bright, sunny day.{" "}</li>
+                 <br />  
+   
+         <li className="text-left  bg-[#816c66] p-4">
+                  <div className="text-white font-semibold">Refreshments :</div>
+                  There is a lovely community café and shop after about 6.5
+                    miles where we obtained refreshments. It is also a community
+                    hub where you can read the papers and the Cumbria Life and
+                    where there is news of local events and opportunities and an
+                    opportunity to purchase one of the pictures by local artists
+                    which are displayed.{" "}
+                    </li>
+                 <br />          
+            </ul>
+            <br />
 
+            <div className="bg-[#816c66] text-white font-bold text-decoration-underline">NOT SO GOOD</div>
+             <br />  
+            <ul className="list-none">
+              <li className="text-left  bg-[#816c66] p-4">
+                <div className="text-white font-semibold">  Routine:{" "}:</div>
+              We walk this walk a lot and it is one of our favourites. However for
+                  this reason, it has the disadvantage that it does not pose new
+                  challenges or skills
+                <br />
+              </li>
+               <br />  
+            </ul>
 
+             <div className="bg-[#816c66] text-white font-bold text-decoration-underline">HIKE RATING</div>
+              <br /> 
+          <ul className="list-none">
+              <li className="text-center bg-[#816c66] p-4">
+                <div className="text-white text-center font-semibold">10 (out of 10):</div>  
+                   An excellent walk which is the amalgamation of a couple of our
+                  regular walks from home.
+              </li>
+            </ul>
+          </div>{" "}
+            </div>
+            </div>
+            </div>
+        
 
-
+           <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#816c66] ">  Click on the image below to open the album of our week 7 Camino
+                de Santiago training long walk.
+                  <br />
+                  <br />
+                  Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                </div>
+                <Link
+                  href="https://photos.app.goo.gl/ctFVnc8ZSP73oHD18"
+                  target="_blank"
+                >
+                  <Image
+                    src={CdSTrainingLongWk7Titled}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[40%] border-solid border-white border-4 mt-4 mb-6"
+                    alt="Photo of Jill on the walk."
+                  />
+                </Link>
+                  </div>  
 
  < div className="mb-20">
           < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#36454f]">
@@ -484,12 +596,108 @@ export default function March2025() {
                     alt="Photo of Jill on the road descending into Castle Carrock."
                   />
                 </Link>
-                  </div>  
+                  </div>
+
+
+
+  < div className="mb-20">
+          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#36454f]">
+            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-left md:text-center dark:text-white justify-center items-center">
+              <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#816c66]">26th March 2025, Wednesday</div> {/*End of news date block*/}
+                <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#816c66]">   Day out at Lowther Castle with Friends Robin and Cathy</div>
+              <div className="font-normal md:font-normal text-left text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#816c66]">
+           Had a great day out at Lowther Castle today with our friends Robin and
+          Cathy. For those who remember, in February 2024 Robin and Cathy's 2
+          dogs Wilf and Nell featured as stars in the blog. This time though
+          they were safely being looked after at home, so we have added their
+          pictures from last year to represent them as they were not able to be
+          with us this time.
+          <br />
+          <br />
+          It was an early start because we had decided to call off first at{" "}
+          <Link
+            href="https://larchcottage.co.uk/"
+            target="_blank"
+           className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+          >
+            Larch Cottage Nurseries{" "}
+          </Link>
+          at Melkinthorpe to acquire a couple more trees for the slope in our
+          garden. Larch Cottage Nurseries is a garden centre with a difference
+          as it has an array of interesting statues but also a number of plants.
+          shrubs and trees which are not available at more standard garden
+          centre. As a result, we ended up buying 2 new trees for the garden
+          slope: an acer brilliantissimum and a prunus pink perfection flowering
+          cherry together with some forget me not plants for the garden balcony
+          boxes. The nursery has an italian café called{" "}
+          <Link
+            href="https://larchcottage.co.uk/casa-verde/"
+            target="_blank"
+            className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+          >
+            {" "}
+            La Casa Verde{" "}
+          </Link>{" "}
+          , which also serves coffees so this was a good opportunity for some
+          light refreshment and to meet their resident feline (see photos
+          below).
+          <br />
+          <br />
+          Cathy and Robin had not visited Lowther Castle before and were saying
+          how good it was as an attraction and in terms of location. We
+          discovered Lowther Castle on 1st June 2011 when we spent a short
+          holiday in the nearby village of Helton and wanted to explore further
+          the ruined building and estate we could see across the valley. Looking
+          back we must have been one of the first public visitors as after a £9
+          million pound restoration project the castle and some of the garden
+          were opened to the public on the 22nd April 2011 for the first time
+          since 1938. At that time, Lowther was in the early stages of its
+          renovations with many of the areas of the gardens still overgrown and
+          only a very small café. Newcastle University archives have some
+          interesting further information about Lowther Castle{" "}
+          <Link
+            href="https://co-curate.ncl.ac.uk/lowther-castle/"
+            target="_blank"
+            className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+          >
+            {" "}
+            here{" "}
+          </Link>{" "}
+          . A couple of the photos of Lowther Castle at the time of our 2011
+          visit are included below.
+          <br />
+          <br />
+          The reimagination of the gardens at Lowther has been part of a 20 year
+          plan initiated in 2008 by the gardener designer Dan Pearson More
+          recently, the rose garden has been completed, together with the
+          Japanese garden. There is also the creation of a scented garden.
+                <br />
+                <br />                    
+              </div>{" "}
+            </div>
+
+         <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#816c66] ">Click on the image below to open the album of our visit to Aucklands Palace and Bishops Auckland.
+                  <br />
+                  <br />
+                  Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                </div>
+                <Link
+                  href="https://photos.app.goo.gl/GpNxZCMBHJB2JfmE7"
+                  target="_blank"
+                >
+                  <Image
+                    src={BishopsAuckland01032025Titled}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[40%] border-solid border-[#f5f5f5] border-4 mt-4 mb-6"
+                    alt="Photo of Archie the dog."
+                  />
+                </Link> 
+          </div>
+          </div>  
 
 
 
 
-
+</div>
          </div>
           </div>
 </div> 
