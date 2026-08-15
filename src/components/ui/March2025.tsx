@@ -7,6 +7,8 @@ import SuttonHooTitled from "/public/imagesresized/SuttonHooTitled.jpg";
 import RatForYouTitled from "/public/imagesresized/RatForYouTitled.jpg";
 import CrasterDunstanburgh22052025Titled from "/public/imagesresized/CrasterDunstanburgh22052025Titled.jpg";
 import CdSTrainingLongWk7Titled from "/public/imagesresized/CdSTrainingLongWk7Titled.jpg";
+import Lowther260320257Titled from "/public/imagesresized/Lowther260320257Titled.jpg";
+import JillGelt30032025Titled from "/public/imagesresized/JillGelt30032025Titled.jpg";
 
 
 
@@ -598,8 +600,6 @@ export default function March2025() {
                 </Link>
                   </div>
 
-
-
   < div className="mb-20">
           < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#36454f]">
             < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-left md:text-center dark:text-white justify-center items-center">
@@ -610,7 +610,7 @@ export default function March2025() {
           Cathy. For those who remember, in February 2024 Robin and Cathy's 2
           dogs Wilf and Nell featured as stars in the blog. This time though
           they were safely being looked after at home, so we have added their
-          pictures from last year to represent them as they were not able to be
+          pictures from last year in the album below to represent them as they were not able to be
           with us this time.
           <br />
           <br />
@@ -664,7 +664,7 @@ export default function March2025() {
             here{" "}
           </Link>{" "}
           . A couple of the photos of Lowther Castle at the time of our 2011
-          visit are included below.
+          visit are included in the album below.
           <br />
           <br />
           The reimagination of the gardens at Lowther has been part of a 20 year
@@ -676,19 +676,73 @@ export default function March2025() {
               </div>{" "}
             </div>
 
-         <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#816c66] ">Click on the image below to open the album of our visit to Aucklands Palace and Bishops Auckland.
+         <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#816c66] ">Click on the image below to open the album of our visit to Lowther Castle with Robin and Cathy.
                   <br />
                   <br />
                   Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
                 </div>
                 <Link
-                  href="https://photos.app.goo.gl/GpNxZCMBHJB2JfmE7"
+                  href="https://photos.app.goo.gl/jmLj2AX8EYKB1Mk19"
                   target="_blank"
                 >
                   <Image
-                    src={BishopsAuckland01032025Titled}
+                    src={Lowther260320257Titled}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-[#f5f5f5] border-4 mt-4 mb-6"
+                    alt="Photo of Cathy, Jill, Robin and Bernard at Lowther."
+                  />
+                </Link> 
+          </div>
+          </div>  
+
+
+
+          < div className="mb-20">
+          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#36454f]">
+            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-left md:text-center dark:text-white justify-center items-center">
+              <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#816c66]"> 29th - 30th March 2025, Saturday and Sunday</div> {/*End of news date block*/}
+                <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#816c66]"> Week 9 of Camino Training: Days 1 and 2 sequential long walks plus also Mother's day.
+        </div>
+              <div className="font-normal md:font-normal text-left text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#816c66]">
+           We are now into week 9 of our recommended training program for the
+          Camino de Santiago...that is a slightly scary thought! Over the
+          forthcoming weeks we have to increase steadily the length of our long
+          weekend walks and start undertaking these on consecutive days without
+          a break. This week's target for the longer weekend walks was one walk
+          of 4 hours and one walk of three hours. 
+          <br />
+                <br />            
+          For these we chose a 10 mile
+          walk and a more challenging but slightly shorter 7 miles walks on the
+          Saturday and Sunday respectively. Both were very enjoyable although
+          the second walk, whilst shorter, seemed by far the harder of the two.
+          Even the google fit app agreed and sent us a message saying 'whew,
+          that was intense!'......and we agreed with it! It was a good
+          demonstration though that we need to continue working on and improving
+          our fitness and stamina over the forthcoming weeks.....
+          <br />
+          <br />
+          Also this weekend was mother' day and Elena and Harry had bought some
+          lovely cards and Harry had baked a very impressive chocolate and rum
+          ganache cake as can be seen in the attached photo album....
+                <br />
+                <br />                    
+              </div>{" "}
+            </div>
+
+         <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#816c66] ">Click on the image below to open the album of our increasing
+              intensity Camino training and Harry's mother's day cake...
+                  <br />
+                  <br />
+                  Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                </div>
+                <Link
+                  href="https://photos.app.goo.gl/RsopwWHDUV4w2jEs9"
+                  target="_blank"
+                >
+                  <Image
+                    src={JillGelt30032025Titled}
                     className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[40%] border-solid border-[#f5f5f5] border-4 mt-4 mb-6"
-                    alt="Photo of Archie the dog."
+                    alt="Photo of Cathy, Jill, Robin and Bernard at Lowther."
                   />
                 </Link> 
           </div>
