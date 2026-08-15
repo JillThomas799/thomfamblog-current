@@ -5,6 +5,7 @@ import Pheasant from "./pheasant";
 import BishopsAuckland01032025Titled from "/public/imagesresized/BishopsAuckland01032025Titled.jpg";
 import SuttonHooTitled from "/public/imagesresized/SuttonHooTitled.jpg";
 import RatForYouTitled from "/public/imagesresized/RatForYouTitled.jpg";
+import CrasterDunstanburgh22052025Titled from "/public/imagesresized/CrasterDunstanburgh22052025Titled.jpg";
 
 
 
@@ -286,12 +287,210 @@ export default function March2025() {
                   <Image
                     src={RatForYouTitled}
                     className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[40%] border-solid border-[#f5f5f5] border-4 mt-4 mb-6"
-                    alt="Photo of Archie the dog."
+                    alt="Photo of an 'Are rats right for you?' leaflet."
                   />
                 </Link>      
             </div>
            </div> 
-         
+
+
+
+
+
+
+
+
+ < div className="mb-20">
+          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#36454f]">
+            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-left md:text-center dark:text-white justify-center items-center">
+              <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#816c66]">22nd March 2025, Saturday{" "}</div> {/*End of news date block*/}
+                <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center text-md border-gray border-2  bg-[#816c66]">WALK CRASTER, LONGHOUGHTON, HOWICK and DUNSTANBURGH CASTLE 11.9
+                miles.</div>
+              <div className="font-normal md:font-normal text-left text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-2 mb-10 bg-[#816c66]">
+            First half of the walk 8 miles and 185 metres ascent. The second
+                half of the walk is 4 miles and 115 metres ascent. Both can be
+                found in OS Explorer Map 332, Alnwick and Amble.
+                 <br />
+            <br /> 
+              </div>{" "}
+              <div className="bg-[#edecdf]">
+               <div className="bg-[#816c66] text-white font-bold">DETAILS OF THE WALK </div>
+            <div className="font-semibold text-center border-solid mr-1 ml-1 mt-2 mb-2 px-4 py-4 ">            
+        <div className="font-normal pt-2 pb-2  text-white text-center">
+             <ul className="list-none">
+              <li className="text-left bg-[#816c66] p-4">
+                <div className="text-white font-semibold">Parking:</div>
+                 We parked on the pay and display car park by the tourist centre
+                    (GPS NU 256198) on entering Craster village. Currently it
+                    costs £9.00 for the day but it is important to note that the
+                    machines accept CASH ONLY. This car park can get{" "}
+                    <em>very</em> busy so best to arrive promptly. However given
+                    the weather,today on arrival, it was still fairly quiet....
+              </li>
+             
+              <br />  
+ 
+         <li className="text-left bg-[#816c66] p-4">
+                <div className="text-white font-semibold">Paths:</div>
+             The route consists of an amalgamation of 2 separate walks. The
+                    first is an 8 mile circuit walking south from Craster and
+                    following the English Coastal Path and St Oswalds Way as far
+                    as Longhoughton beach where it is necessary to turn inland
+                    and head towards Longhoughton village before returning to
+                    Craster via Howick Hall and across the fields to South
+                    Craster Farm and Arnold Nature Reserve.
+                    <br />
+                    The second half of the walk is a 4 mile circuit walking over
+                    to Dunstanburgh Castle and heading onwards as far as Dunstan
+                    Steads before cutting back towards Craster village.
+                    <br />
+                    The route and is on clear paths, tracks and lanes. It is
+                    well-signposted.     
+              </li>
+              <br />  
+             
+              <li  className="text-left  bg-[#816c66] p-4">
+                <div className="text-white font-semibold">Distance:</div>
+           Just under 12 miles in total{" "} <strong> Ascent:</strong>
+           300 metres, 984 feet.{" "}
+              </li>
+               <br />  
+  
+              <li  className="text-left bg-[#816c66] p-4">
+                <div className="text-white font-semibold">Refreshments:</div>
+                In Craster village and the{" "}
+                    <Link
+                      href="https://runningfoxbakery.co.uk/"
+                      target="_blank"
+                      className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                    >
+                      Running Fox Artisan Bakery
+                    </Link>{" "}
+                    at Longhoughton
+              </li>
+            </ul>
+             <br />  
+        <br /> 
+            <div className="bg-[#816c66] text-white font-bold text-decoration-underline">GOOD</div>
+             <br />  
+                   <ul className="list-none">
+                <li className="text-left bg-[#816c66] p-4">
+                   <div className="text-white font-semibold"> Spectacular coastal scenery and views : </div>
+                   A very scenic walk along the Northumberland coast and
+                      across rolling farmland before returning via Howick Hall
+                      to Craster. Then onto the stunning scenery of Dunstanburgh
+                      Castle before retuning to the start point. Howick Hall is
+                      the home of Lord Howick a descendant of the 2nd Earl Grey,
+                      who sponsored the Reform Bill and lent his name to the
+                      eponymous bergamot flavoured tea, and who lived in Howick
+                      Hall from 1801 to 1845.               
+                </li>
+                 <br />  
+      
+                       <li className="text-left  bg-[#816c66] p-4">
+                  <div className="text-white font-semibold">Seal-sighting:  </div>
+                    The highlight of the day was spotting a
+                        seal which was looking directly up at us from the beach
+                        below and seemed to be waving!</li>
+                 <br />  
+   
+         <li className="text-left  bg-[#816c66] p-4">
+                  <div className="text-white font-semibold">Hares :</div>
+                  The other highlight of the day was seeing 2 March hares racing
+                      at amazing speed across one of the farm fields...{" "}
+                    </li>
+                 <br />  
+      
+         <li className="text-left  bg-[#816c66] p-4">
+                  <div className="text-white font-semibold">Refreshments :</div>
+                  The{" "}
+                       <Link
+                      href="https://runningfoxbakery.co.uk/"
+                      target="_blank"
+                      className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+                    >
+                      Running Fox Artisan Bakery
+                    </Link>{" "}
+                      at Longhoughton appeared just at a key point in out
+                      journey and the take-away coffees were much appreciated.{" "}
+                    </li>
+                 <br />  
+        
+            </ul>
+            <br />
+            <div className="bg-[#816c66] text-white font-bold text-decoration-underline">NOT SO GOOD</div>
+             <br />  
+            <ul className="list-none">
+              <li className="text-left  bg-[#816c66] p-4">
+                <div className="text-white font-semibold">  Weather:{" "}:</div>
+               As can be seen from the album intro photo, it was very wet when
+                    we arrived. The weather forecast had in fact not been great
+                    with wetter weather towards the east of the country (where
+                    we were today) and slightly better weather in the west
+                    (where we had debated heading towards instead). However
+                    Bernard had decided that we would have to walk whatever the
+                    weather on the Camino de Santiago pilgrimage so the sooner
+                    we got used to all-weather walking the better.........{" "}
+                <br />
+              </li>
+               <br />  
+       
+        <li className="text-left  bg-[#816c66] p-4">
+                <div className="text-white font-semibold">   Popularity of the Running Fox artisan bakery at
+                      Longhoughton:{" "}:</div>
+                      which meant that there were no indoor tables available as we
+                    had not prebooked.....{" "}
+              
+                <br />
+              </li>
+               <br /> 
+                <br /> 
+            </ul>
+             <div className="bg-[#816c66] text-white font-bold text-decoration-underline">HIKE RATING</div>
+              <br /> 
+          <ul className="list-none">
+              <li className="text-center bg-[#816c66] p-4">
+                <div className="text-white text-center font-semibold">10 (out of 10):</div>  
+                    A really superb walk in spectacular countryside with some
+                    fascinating history and culture thrown in. It did not matter
+                    that the weather was poor because as long you have suitable
+                    waterproof clothing the adverse weather just adds to the
+                    atmosphere. That said, for obvious reasons, we would not
+                    recommend walking along the coastal section in gale force
+                    winds....
+              </li>
+            </ul>
+          </div>{" "}
+            </div>
+            </div>
+            </div>
+        
+
+           <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#816c66] ">  Click on the image below to open the album of our walk at 
+                Craster, Longhoughton, Howick and Dunstanburgh Castle
+                which forms the long walk for week 8 of our Camino
+                de Santiago training programme (see photo album).
+                  <br />
+                  <br />
+                  Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                </div>
+                <Link
+                  href="https://photos.app.goo.gl/bJAUtG3ERJAZSRsY6"
+                  target="_blank"
+                >
+                  <Image
+                    src={CrasterDunstanburgh22052025Titled}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[40%] border-solid border-white border-4 mt-4 mb-6"
+                    alt="Photo of Jill on the road descending into Castle Carrock."
+                  />
+                </Link>
+                  </div>  
+
+
+
+
+
+         </div>
           </div>
 </div> 
  
