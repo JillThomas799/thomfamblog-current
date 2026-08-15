@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Pheasant from "./pheasant";
 import BishopsAuckland01032025Titled from "/public/imagesresized/BishopsAuckland01032025Titled.jpg";
 import SuttonHooTitled from "/public/imagesresized/SuttonHooTitled.jpg";
+import RatForYouTitled from "/public/imagesresized/RatForYouTitled.jpg";
 
 
 
@@ -223,12 +224,74 @@ export default function March2025() {
                     className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[40%] border-solid border-[#f5f5f5] border-4 mt-4 mb-6"
                     alt="Photo of Archie the dog."
                   />
-                </Link>
-                 
- 
+                </Link>      
+                 </div>
 
 
+
+
+  < div className="mb-20">
+          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#36454f]">
+            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-left md:text-center dark:text-white justify-center items-center">
+            <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#816c66]">8th March 2025 onwards.</div> {/*End of news date block*/}
+              <div className="font-semibold md:font-semibold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#816c66]"> The Tale of a Rat ..... and other potential pets for Elena.</div> {/*End of news date block*/}
+              
+              <div className="font-normal md:font-normal text-left text-white border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 pt-6 px-4 py-2 mb-10 bg-[#816c66]">
+           Elena has for some time expressed the desire to introduce a pet into
+          her home, it has just been a case of her deciding which pet would be
+          best...
+          <br />
+          <br />
+          As might be imagined, various family members and friends have had
+          their own suggestions to offer including Harry who initially suggested
+          chickens, despite being informed by Jill that these now have to be{" "}
+          <Link
+            href="https://www.gov.uk/guidance/register-as-a-keeper-of-less-than-50-poultry-or-other-captive-birds"
+            target="_blank"
+            className="text-decoration-underline text-[#0000EE] font-semibold md:font-semibold underline"
+          >
+            {" "}
+            registered with Defra{" "}
+          </Link>{" "}
+          and a pheasant (again needs to be registered with Defra). He then
+          moved on to sheep (numerous reasons this is not possible including,
+          but not limited to, it not being permitted in the property deeds, and
+          having to register your premises with the Rural Payments Agency (RPA)
+          and obtain a CPH number.)
+          <br />
+          <br />
+          There is of course also the question of who would be looking after
+          said pet when Elena goes away ..... Jill has refused point black to
+          undertake any rat care but would (possibly) be prepared to mind a cute
+          exotic hamster.... There had been one of the latter in the local pet
+          shop which would jump on its wheel and show off, looking super cute.
+          However, needless to say, this hamster was very quickly sold whilst
+          the rat was still there (say no more).....     
+          <br />
+          <br />       
           </div>
+           </div>
+         
+
+ <div className="p-4 font-semibold md:font-semibold text-center text-md text-white border-gray-800 border-solid border-2 bg-[#816c66] "> Click on the image below to open the album of Elena's plan to
+              acquire a pet...
+                  <br />
+                  <br />
+                  Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                </div>
+                <Link
+                  href="https://photos.app.goo.gl/9BhkhfLErkSsW8yc7"
+                  target="_blank"
+                >
+                  <Image
+                    src={RatForYouTitled}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[40%] border-solid border-[#f5f5f5] border-4 mt-4 mb-6"
+                    alt="Photo of Archie the dog."
+                  />
+                </Link>      
+            </div>
+           </div> 
+         
           </div>
 </div> 
  
