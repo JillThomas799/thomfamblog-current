@@ -37,11 +37,11 @@
 
 @media screen and (max-width: 400px) {
   #pheasant1 {
-    transform: translate(170px, 9%) scale(0.4);
-    -webkit-transform: translate(170px, 9%) scale(0.4);
-    -moz-transform: translate(170px, 9%) scale(0.4);
-    -ms-transform: translate(170px, 9%) scale(0.4);
-    -o-transform: translate(170px, 9%) scale(0.4);
+    transform: translate(190px, 18%) scale(0.35);
+    -webkit-transform: translate(190px, 18%) scale(0.35);
+    -moz-transform: translate(190px, 18%) scale(0.35);
+    -ms-transform: translate(190px, 18%) scale(0.35);
+    -o-transform: translate(190px, 18%) scale(0.35);
   }
 
   #pheasantHeader {
