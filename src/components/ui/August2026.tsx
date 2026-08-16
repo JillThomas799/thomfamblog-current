@@ -6,6 +6,7 @@ import MoroccanFiguresTitled from "/public/imagesresized/MoroccanFiguresTitled.j
 import MongoliaBooks from "/public/imagesresized/MongoliaBooks.jpg";
 import HWPD8Titled from "/public/imagesresized/HWPD8Titled.jpg";
 import WhinsillD9Titled from "/public/imagesresized/WhinsillD9Titled.jpg";
+import FlyingScotsmanTitled from "/public/imagesresized/FlyingScotsmanTitled.jpg";
 
 
 
@@ -193,9 +194,40 @@ export default function August2026() {
           </div>
 
 
+          < div className="mb-20">
+          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#ff9900]">
+            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+              <div className="font-bold md:font-bold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#477ca5]">15th August 2026, day.</div> {/*End of news date block*/}
+              <div className="font-bold md:font-bold p-2 m-2 text-white white text-center text-md border-gray border-2  bg-[#477ca5]">Belated Bernard's 2026 Father's Day surprise trip: - Footplate Experience on the Flying Scotsman Steam Locomotive.</div>
+              <div className="font-semibold md:font-semibold text-left text-white  border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-4 mb-10 bg-[#477ca5]">
+               
+                 <br />
+                <br />
+                <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#477ca5] border-gray-800 border-solid border-2 bg-white ">Click on the image below to open the album of our trip to the Locomotion Museum, Shildon, County Durham and Bernard's Footplate Experience on the Flying Scotsman Steam Locomotive (with video footage).
+                  <br />
+                  <br />
+                  Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                </div>
+                 <br />
+                <Link
+                  href="https://photos.app.goo.gl/d9Nt2Aye11xE4iJQ7"
+                  target="_blank"
+                >
+                  <Image
+                    src={FlyingScotsmanTitled}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    alt="Photo of the new footplate apprentice in action on the Flying Scotsman."
+                  />
+                </Link>
+              </div>{" "}
+            </div>
+          </div>
+
+
+
 
           
-          
+          </div>
            </div>
           </div>
         </div>
