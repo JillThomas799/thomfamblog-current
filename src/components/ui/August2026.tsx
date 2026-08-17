@@ -286,7 +286,7 @@ export default function August2026() {
                     className="block ml-auto mr-auto h-auto w-[100%] md:w-[80%] lg:w-[70%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
                     alt="Photo of Sycamore Gap stump July 2024."
                   /> 
-                   <div class=" text-white text-center mb-6">SYCAMORE GAP TREE STUMP 6TH JULY 2024</div>               
+                   <div className=" text-white text-center mb-6">SYCAMORE GAP TREE STUMP 6TH JULY 2024</div>               
                     <Image
                     src={Sycamore20261}
                     className="block ml-auto mr-auto h-auto w-[100%] md:w-[80%] lg:w-[70%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
