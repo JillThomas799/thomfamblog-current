@@ -8,6 +8,11 @@ import HWPD8Titled from "/public/imagesresized/HWPD8Titled.jpg";
 import WhinsillD9Titled from "/public/imagesresized/WhinsillD9Titled.jpg";
 import FlyingScotsmanTitled from "/public/imagesresized/FlyingScotsmanTitled.jpg";
 import TrainTripGifts from "/public/imagesresized/TrainTripGifts.jpg";
+import ScalingHWTitled from "/public/imagesresized/ScalingHWTitled.jpg";
+import Sycamore20241 from "/public/imagesresized/Sycamore20241.jpg";
+import Sycamore20261 from "/public/imagesresized/Sycamore20261.jpg";
+
+
 
 
 
@@ -100,7 +105,7 @@ export default function August2026() {
                 >
                   <Image
                     src={MoroccanFiguresTitled}
-                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[70%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
                     alt="Photo of Moroccan Ger and horse made by e-Mongol."
                   />
                 </Link>
@@ -151,7 +156,7 @@ export default function August2026() {
                 >
                   <Image
                     src={HWPD8Titled}
-                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[70%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
                     alt="Photo of Jill on Walltown Crags."
                   />
                 </Link>
@@ -186,7 +191,7 @@ export default function August2026() {
                 >
                   <Image
                     src={WhinsillD9Titled}
-                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[70%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
                     alt="Photo of Harry with Hadrian's Wall on the Whin Sill."
                   />
                 </Link>
@@ -237,8 +242,76 @@ export default function August2026() {
                 >
                   <Image
                     src={FlyingScotsmanTitled}
-                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[70%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
                     alt="Photo of the new footplate apprentice in action on the Flying Scotsman."
+                  />
+                </Link>
+              </div>{" "}
+            </div>
+          </div>
+
+
+           < div className="mb-20">
+          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#ff9900]">
+            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+              <div className="font-bold md:font-bold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#477ca5]">16th August 2026, Sunday.</div> {/*End of news date block*/}
+              <div className="font-bold md:font-bold p-2 m-2 text-white white text-center text-md border-gray border-2  bg-[#477ca5]">Hadrian's Wall Path West to East (abridged): Day 10, Steel Riggs Car Park to Housesteads via Sycamore Gap.</div>
+              <div className="font-semibold md:font-semibold text-left text-white  border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-4 mb-10 bg-[#477ca5]">
+                Today we were undertaking what many would agree, (together with the previous section from Cawfield's Car Park to Steel Rigg Car Park), is the best section of walking along Hadrian's Wall. We were undertaking the section between Steel Riggs Car Park and Housesteads Roman Fort and included in this route are Steel Rigg, Peel Crags, Sycamore Gap, Highshield Crags, Crag Lough and Hotbank Crags. 
+                <br />
+                <br />                  
+                After some consideration, it was decided that we take 2 cars so that we could park a car at either end. It is however possible to park at one or other end and walk a loop in a northerly or southerly direction back to the car. The walk is reasonably strenuous as there are repeated ascents and descents along the line of the crags and on this occasion, we wished to make it a half-day rather than full-day walk. The total distance we walked today was 3.52 miles. 
+                <br />
+                <br />    
+                This is without exception the most awesome and stunning section of the Hadrian's Wall Path, as you walk along a series of ridges of the Whin Sill along which this section of the wall was built. Together with the wildness and remoteness of the landscape, which remains to this day largely uninhabited, this is a really impressive walk, along clear and well-maintained paths.   
+                <br />
+                <br /> 
+                This route includes the site of the famous <Link href="https://en.wikipedia.org/wiki/Sycamore_Gap_tree"
+                  target="_blank"
+                  title="Click here to discover more about the Sycamore Gap Tree"
+                   className="text-decoration-underline text-[#FF0000] font-semibold md:font-semibold underline"
+                >
+                  {" "}
+                  Sycamore Gap tree{" "}
+                </Link>{" "} which, as many of you will know, on the morning of 28th September 2023, was maliciously felled. The tree had been described as one of the most photographed trees in the country and an emblem for the North East of England. It derived its alternative name from featuring in a prominent scene in the 1991 film Robin Hood: Prince of Thieves. It was well-known by everyone locally and there has been a huge amount of anger and
+                sadness at its loss.
+                <br />
+                <br /> 
+                Below is top, a picture taken of the Sycamore Gap stump when we were last on site on the 6th July 2024 and below, a photo of the stump now, showing healthy bushy regrowth.
+                 <br />
+                <br /> 
+                <div className="flex flex-col justify-items-center">                  
+                  <Image
+                    src={Sycamore20241}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[80%] lg:w-[70%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    alt="Photo of Sycamore Gap stump July 2024."
+                  /> 
+                   <div class=" text-white text-center mb-6">SYCAMORE GAP TREE STUMP 6TH JULY 2024</div>               
+                    <Image
+                    src={Sycamore20261}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[80%] lg:w-[70%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    alt="Photo of Sycamore Gap stump August 2026, with bushy regrowth."
+                  />
+                   <div class=" text-white text-center mb-6">SYCAMORE GAP TREE STUMP 16TH AUGUST 2026</div>
+                
+                  </div>
+               
+                 <br />
+                <br />
+                <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#477ca5] border-gray-800 border-solid border-2 bg-white ">Click on the image below to open the album of our Hadrian's Wall Path West to East (abridged): Day 10, Steel Riggs Car Park to Housesteads via Sycamore Gap.
+                  <br />
+                  <br />
+                  Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                </div>
+                 <br />
+                <Link
+                  href="https://photos.app.goo.gl/pRdtp6ZY8Q6Qi4x69"
+                  target="_blank"
+                >
+                  <Image
+                    src={ScalingHWTitled}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[70%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    alt="Photo of Bernard and Jill climbing the steepest central section of Hadrian's Wall crags."
                   />
                 </Link>
               </div>{" "}
@@ -248,7 +321,7 @@ export default function August2026() {
 
 
 
-          
+           </div>
           </div>
            </div>
           </div>
