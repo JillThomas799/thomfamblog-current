@@ -7,6 +7,7 @@ import MongoliaBooks from "/public/imagesresized/MongoliaBooks.jpg";
 import HWPD8Titled from "/public/imagesresized/HWPD8Titled.jpg";
 import WhinsillD9Titled from "/public/imagesresized/WhinsillD9Titled.jpg";
 import FlyingScotsmanTitled from "/public/imagesresized/FlyingScotsmanTitled.jpg";
+import TrainTripGifts from "/public/imagesresized/TrainTripGifts.jpg";
 
 
 
@@ -200,9 +201,30 @@ export default function August2026() {
               <div className="font-bold md:font-bold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#477ca5]">15th August 2026, day.</div> {/*End of news date block*/}
               <div className="font-bold md:font-bold p-2 m-2 text-white white text-center text-md border-gray border-2  bg-[#477ca5]">Belated Bernard's 2026 Father's Day surprise trip: - Footplate Experience on the Flying Scotsman Steam Locomotive.</div>
               <div className="font-semibold md:font-semibold text-left text-white  border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-4 mb-10 bg-[#477ca5]">
-               
+              Today it was time for the long-awaited, belated annual magical mystery tour outing arranged by Elena and Harry for Bernard's Father's day outing. Last year, Elena and Harry arranged a surprise trip out for Bernard for a lesson and chance to fly an airbus A320 at the{" "}
+            <Link href="https://theflightexperience.co.uk/"  target="_blank" className="text-decoration-underline text-[#ff0000] font-semibold md:font-semibold underline"> Flight Experience</Link>{" "} simulator in Newcastle, which everyone really enjoyed. 
+             <br />
+                <br />            
+            This year, it was a case of trying to find something that was even better. This took a while..... However, after some research and consideration a plan was formulated and a session for the <Link href="https://www.locomotion.org.uk/whats-on/flying-scotsman-experiences" target="_blank" className="text-decoration-underline text-[#ff0000] font-semibold md:font-semibold underline">Flying Scotsman: The Ultimate Footplate Experience.</Link> booked for when the Flying Scotsman was going to be in Shildon, County Durham. The experience involved climbing aboard the Flying Scotsman’s footplate to see a driver’s eye view and experiencing the sights, sounds and smells of serious steam power. The experience lasted for around 30 minutes, and involved chatting to the driver and fireman for two runs up and down a section of the historic Stockon and Darlington line. We have to say however, that getting tickets for Bernard to ride on the footplate with the driver was almost as challenging as obtaining Glastonbury tickets! It seemed very popular.
                  <br />
                 <br />
+                Last year, Bernard did not know where he was going until we literally drove up outside the simulator! This year, given the nature of the experience and the fact that a little preparatory reading might be helpful together with a need to meet certain health and safety and dress requirements for the experience, Harry let Bernard in onto the secret about 2 weeks ago.
+                 <br />
+                <br />
+                The experience was at the <Link href="https://www.locomotion.org.uk/home" target="_blank" className="text-decoration-underline text-[#ff0000] font-semibold md:font-semibold underline">Locomotion Museum</Link> in Shildon, County Durham. We had not been aware that this museum existed, but it is a member of the Science Museums Group, a consortium consisting of the Science Museum in South Kensington, London, the Science and Industry Museum (SIM) in Manchester, the National Railway Museum (NRM) in York, Locomotion in County Durham, and the National Science and Media Museum (NSMM) in Bradford. 
+                 <br />
+                <br />               
+                We were worried that the day might be cancelled as there was a National alert sent to everyone's phone in England and Wales the previous evening warning that nationally the wildfire risk remained very high and people were not to light anything that could spark a fire, including barbecues, campfires, and fireworks. The steam train driver, who is as it happens in charge of Health and Safety at the York Railway Museum and was a fireman before that, has decided they could safely run the train but had altered the route to a very short distance within the safety of the  station complex and to undertake several shorter runs. This meant that the train could run safely....  We were luck as some steam railways eg. The Aln Valley railway had had to suspend their steam train operation because of the risk.
+                <br />
+                <br /> 
+                In summary, Bernard said he had a 'brilliant' time and everyone seemed to really enjoy it. We bought Bernard a couple of additional gifts to remember his trip by:
+                 <Image
+                    src={TrainTripGifts}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    alt="Photo of Engine Driver's book and mug."
+                  />
+
+
                 <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#477ca5] border-gray-800 border-solid border-2 bg-white ">Click on the image below to open the album of our trip to the Locomotion Museum, Shildon, County Durham and Bernard's Footplate Experience on the Flying Scotsman Steam Locomotive (with video footage).
                   <br />
                   <br />
