@@ -11,7 +11,9 @@ import TrainTripGifts from "/public/imagesresized/TrainTripGifts.jpg";
 import ScalingHWTitled from "/public/imagesresized/ScalingHWTitled.jpg";
 import Sycamore20241 from "/public/imagesresized/Sycamore20241.jpg";
 import Sycamore20261 from "/public/imagesresized/Sycamore20261.jpg";
-
+import Gawain08082026 from "/public/imagesresized/Gawain08082026.jpg";
+import Blackberries14082026 from "/public/imagesresized/Blackberries14082026.jpg";
+import EscapedSheep from "/public/imagesresized/EscapedSheep.jpg";
 
 
 
@@ -199,6 +201,60 @@ export default function August2026() {
             </div>
           </div>
 
+          < div className="mb-20">
+        < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-gray-800 border-solid border-2 md:border-2 bg-[#ff9933]">
+          < div className="text-md md:text-lg max-w-full font-normal text-white text-center dark:text-white justify-center 8items-center">
+          <div className="font-bold md:font-bold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#477ca5]">8th August 2026, day.</div> {/*End of news date block*/}
+              <div className="font-bold md:font-bold p-2 m-2 text-white white text-center text-md border-gray border-2  bg-[#477ca5]">Gawain, Elena and Willow's cat, seems to be softening (slightly) in his old age....</div>
+            <div className="font-semibold md:font-semibold text-left text-white  border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-4 mb-10 bg-[#477ca5]">
+              Elena and Willow's cat Gawain seems to slowly (<em>well ok, very slowly</em>) be getting used to us.... 
+              <br />
+                  <br />              
+                 In the past he would shoot out of the room upstairs at Elena's whenever we appeared. However, today he stayed to keep us company, admittedly hiding under the table and peering out. Eventually he came out to sniff our hands. Admittedly Elena had enticed him with some fresh salami, so that might have had something to do with it.
+                 <br />
+                  <br />
+                  Here he is hiding under the table.
+                   <br />
+                  <br />
+
+              <Image
+                    src={Gawain08082026}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    alt="Photo of Gawain peering out from under the table."
+                  />
+            </div>
+            </div>{" "}
+          </div>
+        </div>
+
+               < div className="mb-20">
+        < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-gray-800 border-solid border-2 md:border-2 bg-[#ff9933]">
+          < div className="text-md md:text-lg max-w-full font-normal text-white text-center dark:text-white justify-center 8items-center">
+          <div className="font-bold md:font-bold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#477ca5]">14th August 2026, day.</div> {/*End of news date block*/}
+              <div className="font-bold md:font-bold p-2 m-2 text-white white text-center text-md border-gray border-2  bg-[#477ca5]">Blackberry-picking time and the incident of the Great Sheep Escape...</div>
+            <div className="font-semibold md:font-semibold text-left text-white  border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-4 mb-10 bg-[#477ca5]">
+              It is blackberry-picking time again for the next few weeks and we have been busy. We have already picked 4 huge tupperwares of blackberries to freeze. Here are two of them....              
+                   <br />
+              <Image
+                    src={Blackberries14082026}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    alt="Photo of mounds of blackberries."
+                  />
+
+                  Today, en route, we paused for a rest and a drink at the local pub and whilst we were there we witnessed the Great Sheep Escape as seen here.......
+                  <Image
+                    src={EscapedSheep}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    alt="Photo of sheep running amok on the village green."
+                  />
+
+                  They were very entertaining....
+            </div>
+            </div>{" "}
+          </div>
+        </div>
+
+
 
           < div className="mb-20">
           < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#ff9900]">
@@ -317,6 +373,8 @@ export default function August2026() {
               </div>{" "}
             </div>
           </div>
+
+
 
 
 
