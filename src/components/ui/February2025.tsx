@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import "./February2026.css"; 
-import Deer from "./deer";
+import DeerStatic from "./deerstatic";
 import GawainArrivalTitled from "/public/imagesresized/GawainArrivalTitled.jpg";
 import TullieGladiatorsTitled from "/public/imagesresized/TullieGladiatorsTitled.jpg";
 import ShroveTuesday from "/public/imagesresized/ShroveTuesday.jpg";
@@ -18,7 +18,7 @@ export default function February2025() {
   return ( <div>
  <div id="snowScene" className=" bg-black border-solid border-4 border-gray-600  p-2 md:p-4  height-[100vh]"> 
  <div className="text-gray-600 bg-[#edeaea] border-solid border-2 mr-auto ml-auto mt-0 p-2 border-gray-600  font-bold text-xl text-center">February 2025</div>  
- <div className="scale-[70%] translate-x-[-10%] translate-y-[-30%] md:scale-[82%] md:translate-x-[-30%] md:translate-y-0 lg:scale-[85%] lg:translate-x-[-20%]"><Deer/> </div>          
+ <div className="scale-[70%] translate-x-[-10%] translate-y-[-30%] md:scale-[82%] md:translate-x-[-30%] md:translate-y-0 lg:scale-[85%] lg:translate-x-[-20%]"><DeerStatic/> </div>          
                   <br />
                   <br />
              </div> 
