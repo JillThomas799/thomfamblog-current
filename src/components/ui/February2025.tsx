@@ -4,22 +4,26 @@ import "./February2026.css";
 import DeerStatic from "./deerstatic";
 import HolyIsland22022025Title from "/public/imagesresized/HolyIsland22022025Title.jpg";
 import Lamb2 from "/public/imagesresized/Lamb2.jpg";
+import HarryBarrowDocksTitled from "/public/imagesresized/HarryBarrowDocksTitled.jpg";
+import ZedelTitled from "/public/imagesresized/ZedelTitled.jpg";
 
 
 
 export default function February2025() {
-  return ( <div>
+  return ( 
+  <div>
  <div id="snowScene" className=" bg-black border-solid border-4 border-gray-600  p-2 md:p-4  height-[100vh]"> 
- <div className="text-black bg-[#786d68] border-solid border-2 mr-auto ml-auto mt-0 p-2 border-[#f5f5f5]  font-bold text-xl text-center">February 2025</div>  
+ <div className="text-black bg-[#c2b280] border-solid border-2 mr-auto ml-auto mt-0 p-2 border-[#f5f5f5]  font-bold text-xl text-center">February 2025</div>  
  <div className="scale-[70%] translate-x-[-10%] translate-y-[-30%] md:scale-[82%] md:translate-x-[-30%] md:translate-y-0 lg:scale-[85%] lg:translate-x-[-20%]"><DeerStatic/> </div>          
                   <br />
                   <br />
              </div> 
+
 < div className="mb-20"> 
       < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-[#f5f5f5] border-solid border-2 md:border-2 bg-[#786d68]">
          < div className="text-md md:text-lg max-w-full font-semibold text-[ #687875] text-center dark:text-[ #687875] justify-center items-center">
         <div className="font-semibold text-center text-black border-solid border-[#f5f5f5] border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#c2b280]">Welcome to our February 2025 blog.</div>
-        <div className="font-semibold text-center text-black border-solid border-[#f5f5f5] border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#c2b280]"> This month we are introducing as part of our header design some new
+        <div className="font-semibold text-center md:text-left text-black border-solid border-[#f5f5f5] border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#c2b280]"> This month we are introducing as part of our header design some new
         animal friends who live near to us. These are the 3 deer who we see most
         days as we walk down to the lake. The design for the deer has been
         undertaken from first principles; analyzing photographic images and then
@@ -32,35 +36,77 @@ export default function February2025() {
           <br />
           </div> 
          </div> 
-          </div> 
+          </div>         
+
+
+                     <div className="mb-20">
+          <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-[#f5f5f5] border-solid border-2 bg-[#786d68]">
+               <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-center text-black border-[#f5f5f5] border-solid border-2 bg-[#c2b280]"> February 4th and 17th 2025</div> {/*End of news date block*/}
+              <div className="font-semibold m-4 pt-2 pb-4 py-2 md:px-4 text-black text-center  border-[#f5f5f5] border-solid border-2 bg-[#c2b280]">Harry explores some opportunities for employment.</div>
+              <div className="text-black text-center font-semibold md:text-left mb-4 p-6 bg-[#c2b280] border-[#f5f5f5] border-solid border-2  "> 
+              Harry has been working very hard to explore further job opportunities
+              now he has successfully completed his PhD. This has involved some
+              reconnaissance activity, so on the 4th of February 2025 he was out near
+              Whitehaven in Cumbria and then on the 17th February at the naval
+              dockyard in Barrow-in-Furness, Cumbria. Applying for a graduate job
+              seems to be a full time job in itself!    
+              </div>
+          
+
+             <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-semibold text-center text-black border-[#f5f5f5] border-solid border-2 bg-[#c2b280] mb-6">Click on the image below to open the album containing some photos of Harry's experience exploring job opportunities.
+                <br />
+                <br />
+                      Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                   </div>
+                  <Link
+                    href="https://photos.app.goo.gl/hdjpfSq6fvLfxyQh9"
+                    target="_blank"
+                  >
+                    <Image
+                      src={HarryBarrowDocksTitled}
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#f5f5f5] border-4 mt-4 mb-6"
+                      alt="Photo of Harry, with Barrow Docks behind."
+                    />
+                  </Link>
+                   </div> 
+         </div> 
+          
+           
+          
 
            <div className="mb-20">
           <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-[#f5f5f5] border-solid border-2 bg-[#786d68]">
                <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-center text-black border-[#f5f5f5] border-solid border-2 bg-[#c2b280]"> February 15th 2025, Saturday</div> {/*End of news date block*/}
               <div className="font-semibold m-4 pt-2 pb-4 py-2 md:px-4 text-black text-center  border-[#f5f5f5] border-solid border-2 bg-[#c2b280]">  Visit to London, Houses of Parliament Tour and lunch at Brasserie Zédel,
         London..... Well OK, with one woman down.</div>
-              <div className="text-black text-center md:text-left mb-4 md:*:pr-6 md:*:pl-6 "> 
-                 This weekend, we had booked a{" "}
+             <div className="text-black text-center font-semibold md:text-left mb-4 p-6 bg-[#c2b280] border-[#f5f5f5] border-solid border-2  "> 
+                 This weekend, we had booked a
         <Link
           href="https://www.parliament.uk/visiting/visiting-and-tours/"
           target="_blank"
           title="Click here to discover more about the Houses of Parliament Tours"
          className="text-decoration-underline text-white font-semibold underline"
-        >tour</Link>
+        > tour </Link>
         of the Houses of Parliament together and invited Bernard's brother
-        Nicholas along as, despite having worked close-by for many years, he had
+        Nicholas along. Despite having worked close-by for many years, he had
         never been to visit inside the building. It seems to so often be the
         case that when you work in an area you never have the time to see the
-        tourist sites on your doorstep! We had never been to see inside the
-        Houses of Parliament, although of course we have seen the debating
-        chamber many times on TV and so had been awaiting this trip with
-        anticipation. There are 2 options for the tour: (1) <Link
-          href="https://www.parliament.uk/visiting/visiting-and-tours/tours-of-parliament/guided-tours-of-parliament/"
+        tourist sites on your doorstep! 
+        <br />
+        <br />        
+        We had never been to see inside the Houses of Parliament, although of course we have seen the debating
+        chamber many times on TV, and so had been awaiting this trip with
+        anticipation. 
+        <br />
+        <br />
+                There were 2 options for the tour: (1) <Link
+          href="https://tickets.parliament.uk/timeslot/uk-parliament-english-guided-tour"
           target="_blank"
           title="Click here to discover more about the guided tours of the Houses of Parliament."
          className="text-decoration-underline text-white font-semibold underline"
-        >A guided tour
+        >A guided tour 
         </Link>
+        {" "}
         and (2) <Link
           href="https://tickets.parliament.uk/timeslot/uk-parliament-multimedia-tour"
           target="_blank"
@@ -76,10 +122,10 @@ export default function February2025() {
           target="_blank"
           title="Click here to discover more about pricing for the the Houses of Parliament Tours"
           className="text-decoration-underline text-white font-semibold underline"
-        >here</Link>.
+        > here</Link>.
         <br />
         <br />
-        Following this, a meal had been booked at
+        Following this, a meal had been booked at {" "}
         <Link
           href="https://www.brasseriezedel.com/"
           target="_blank"
@@ -88,7 +134,7 @@ export default function February2025() {
         >
          
           Brasserie Zédel
-        </Link>
+        </Link>    {" "}
         , a Parisian Brasserie in 1930s style, which had been personally
         recommended to us.
         <br />
@@ -101,7 +147,27 @@ export default function February2025() {
         really enjoyed it and Jill is going to rearrange a visit for herself and
         Bernard later in the year.               
               </div>
-            </div>
+          
+
+            <div className="m-1 pr-2 pl-2 pt-4 pb-4 font-semibold text-center text-black border-[#f5f5f5] border-solid border-2 bg-[#c2b280] mb-6">Click on the image below to open the album of Bernard and Nicholas's visit to  to London, the Houses of Parliament Tour and lunch at Brasserie Zédel,
+        London.
+                <br />
+                <br />
+                      Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                   </div>
+                  <Link
+                    href="https://photos.app.goo.gl/Kc8MjQb24vMJswfc7"
+                    target="_blank"
+                  >
+                    <Image
+                      src={ZedelTitled}
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[40%] border-solid border-[#f5f5f5] border-4 mt-4 mb-6"
+                      alt="Photo of Nicholas having lunch at Brasserie Zedel."
+                    />
+                  </Link>
+                   </div> 
+          </div>
+          
           
 
            <div className="mb-20">
@@ -109,10 +175,10 @@ export default function February2025() {
               <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-black text-center [#f5f5f5] border-solid border-[#f5f5f5] border-2 bg-[#c2b280]"> 22nd February 2025, Saturday</div> {/*End of news date block*/}
               <div className="font-semibold m-4 pt-2 pb-4 py-2 md:px-4 text-black text-center  border-[#f5f5f5] border-solid border-2 bg-[#c2b280]">  Visit to the Holy Island of Lindisfarne in the sunshine with Elena and Harry.</div>
           <div className="font-semibold text-left text-black border-solid border-[#f5f5f5] border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#c2b280]"> 
-                We related in early May how we had driven out to visit the Holy Island
+                We related in early May 2024 how we had driven out to visit the Holy Island
         of Lindisfarne on the Northumbrian coast. At the time we said that when
         the tide times were right at a weekend, we would return with Elena and
-        Harry so they could visit also as it is a site which is well worth
+        Harry so they could visit also, as it is a site which is well worth
         visiting.
         <br />
         <br />
@@ -151,17 +217,20 @@ export default function February2025() {
         owned and managed by English Heritage.
         <br />
         <br />
-        Holy Island of Lindisfarne is one of the most important centres of early
-        English Christianity. St Aidan, an Irish monk sho lived in Iona in
-        Scotland, founded the first monastery on Holy Island in AD 635 and the
-        monastery later became the centre of a major saint's cult celebrating
-        its bishop, Cuthbert.
+        The Holy Island of Lindisfarne is one of the most important centres of early
+        English Christianity. 
         <br />
         <br />
         Christianity first came to Britain in Roman times in the 1st century
         AD/CE, sitting alongside the existing religious cults of worshiping the
-        Pagan gods or Roman gods. From 313 AD onwards, due to the roman emperor
+        Pagan gods or Roman gods. From 313 AD onwards, due to the Roman Emperor
         Constantine Christian worship was tolerated within the Roman Empire.
+        <br />
+        <br />
+        St Aidan, an Irish monk sho lived in Iona in
+        Scotland, founded the first monastery on Holy Island in AD 635 and the
+        monastery later became the centre of a major saint's cult celebrating
+        its bishop, Cuthbert.
         <br />
         <br />
         After the Romans left Britain in around AD/CE 410, the Anglo-Saxons from
@@ -222,7 +291,7 @@ export default function February2025() {
         The information provided by{" "}
         <Link
           href="https://www.english-heritage.org.uk/visit/places/lindisfarne-priory/History/"
-          Target="_blank"
+          target="_blank"
           className="text-decoration-underline text-white font-semibold underline"
         >
           English Heritage
@@ -308,18 +377,12 @@ export default function February2025() {
                     />
                   </Link>
                  
-              </div>
-              
-  </div>
+              </div>              
+  
+  
             
     
-
-
-
-        
-        </div>{" "}
-
-          </div>  
-          
+      </div>
+          </div>            
             );
             }
