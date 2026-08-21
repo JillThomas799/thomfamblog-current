@@ -23,7 +23,7 @@ export default function February2025() {
         < div className="flex flex-col w-auto leading-1.5 p-2 md:p-4 lg:p-4  mb-4 mt-4 border-[#f5f5f5] border-solid border-2 md:border-2 bg-[#786d68]">
           < div className="text-md md:text-lg max-w-full font-semibold text-[ #687875] text-center dark:text-[ #687875] justify-center items-center">
             <div className="font-semibold text-center text-black border-solid border-[#f5f5f5] border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#c2b280]">Welcome to our February 2025 blog.</div>
-            <div className="font-semibold text-center md:text-left text-black border-solid border-[#f5f5f5] border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#c2b280]"> This month we are introducing as part of our header design some new
+            <div className="font-semibold text-left md:text-left text-black border-solid border-[#f5f5f5] border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#c2b280]"> This month we are introducing as part of our header design some new
               animal friends who live near to us. These are the 3 deer who we see most
               days as we walk down to the lake. The design for the deer has been
               undertaken from first principles; analyzing photographic images and then
@@ -41,9 +41,9 @@ export default function February2025() {
 
       <div className="mb-20">
         <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-[#f5f5f5] border-solid border-2 bg-[#786d68]">
-          <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-center text-black border-[#f5f5f5] border-solid border-2 bg-[#c2b280]"> February 4th and 17th 2025</div> {/*End of news date block*/}
-          <div className="font-semibold m-4 pt-2 pb-4 py-2 md:px-4 text-black text-center  border-[#f5f5f5] border-solid border-2 bg-[#c2b280]">Harry explores some opportunities for employment.</div>
-          <div className="text-black text-center font-semibold md:text-left mb-4 p-6 bg-[#c2b280] border-[#f5f5f5] border-solid border-2  ">
+          <div className="font-semibold pt-2 pb-2 mr-[5%] ml-[5%] md:mr-[30%] md:ml-[30%]  mt-2 text-center text-black border-[#f5f5f5] border-solid border-2 bg-[#c2b280]"> February 4th and 17th 2025</div> {/*End of news date block*/}
+          <div className="font-semibold m-2 p-1 md:m-4 pt-2 pb-4 py-2 md:px-4 text-black text-center  border-[#f5f5f5] border-solid border-2 bg-[#c2b280]">Harry explores some opportunities for employment.</div>
+          <div className="text-black text-left font-semibold md:text-left mb-4 p-6 bg-[#c2b280] border-[#f5f5f5] border-solid border-2  ">
             Harry has been working very hard to explore further job opportunities
             now he has successfully completed his PhD. This has involved some
             reconnaissance activity, so on the 4th of February 2025 he was out near
@@ -76,10 +76,10 @@ export default function February2025() {
 
       <div className="mb-20">
         <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-[#f5f5f5] border-solid border-2 bg-[#786d68]">
-          <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-center text-black border-[#f5f5f5] border-solid border-2 bg-[#c2b280]"> February 15th 2025, Saturday</div> {/*End of news date block*/}
-          <div className="font-semibold m-4 pt-2 pb-4 py-2 md:px-4 text-black text-center  border-[#f5f5f5] border-solid border-2 bg-[#c2b280]">  Visit to London, Houses of Parliament Tour and lunch at Brasserie Zédel,
+          <div className="font-semibold pt-2 pb-2 mr-[5%] ml-[5%] md:mr-[30%] md:ml-[30%] mt-2 text-center text-black border-[#f5f5f5] border-solid border-2 bg-[#c2b280]"> February 15th 2025, Saturday</div> {/*End of news date block*/}
+          <div className="font-semibold m-2 pt-2 pb-4 py-2 md:px-4 text-black text-center  border-[#f5f5f5] border-solid border-2 bg-[#c2b280]">  Visit to London, Houses of Parliament Tour and lunch at Brasserie Zédel,
             London..... Well OK, with one woman down.</div>
-          <div className="text-black text-center font-semibold md:text-left mb-4 p-6 bg-[#c2b280] border-[#f5f5f5] border-solid border-2  ">
+          <div className="text-black text-left font-semibold md:text-left mb-4 p-6 bg-[#c2b280] border-[#f5f5f5] border-solid border-2  ">
             This weekend, we had booked a
             <Link
               href="https://www.parliament.uk/visiting/visiting-and-tours/"
@@ -172,9 +172,9 @@ export default function February2025() {
 
       <div className="mb-20">
         <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-[#f5f5f5] border-solid border-2 bg-[#786d68]">
-          <div className="font-semibold pt-2 pb-2 mr-[30%] ml-[30%]  text-black text-center [#f5f5f5] border-solid border-[#f5f5f5] border-2 bg-[#c2b280]"> 22nd February 2025, Saturday</div> {/*End of news date block*/}
-          <div className="font-semibold m-4 pt-2 pb-4 py-2 md:px-4 text-black text-center  border-[#f5f5f5] border-solid border-2 bg-[#c2b280]">  Visit to the Holy Island of Lindisfarne in the sunshine with Elena and Harry.</div>
-          <div className="font-semibold text-left text-black border-solid border-[#f5f5f5] border-2 mr-1 ml-1 mt-2 mb-2 px-4 py-4 bg-[#c2b280]">
+          <div className="font-semibold pt-2 pb-2 mr-[5%] ml-[5%] md:mr-[30%] md:ml-[30%] mt-2 text-black text-center [#f5f5f5] border-solid border-[#f5f5f5] border-2 bg-[#c2b280]"> 22nd February 2025, Saturday</div> {/*End of news date block*/}
+          <div className="font-semibold m-2 pt-2 pb-4 py-2 md:px-4 text-black text-center  border-[#f5f5f5] border-solid border-2 bg-[#c2b280]">  Visit to the Holy Island of Lindisfarne in the sunshine with Elena and Harry.</div>
+          <div className="font-semibold text-left text-black border-solid border-[#f5f5f5] border-2 mt-2 mb-2 px-2 py-2 md:px-4 md:py-4 bg-[#c2b280]">
             We related in early May 2024 how we had driven out to visit the Holy Island
             of Lindisfarne on the Northumbrian coast. At the time we said that when
             the tide times were right at a weekend, we would return with Elena and
@@ -218,8 +218,8 @@ export default function February2025() {
             <br />
             <br />
             <div className="bg-[#8b7f5b]">
-               <div className="bg-[#786d68] text-white text-center font-bold p-6 border-[#f5f5f5] border-solid border-2">HISTORY OF THE HOLY ISLAND OF LINDISFARNE</div>
-           <div className="text-left text-white font-semibold p-6 border-4 border-solid border-[#786d68]"> The Holy Island of Lindisfarne is one of the most important centres of early
+               <div className="bg-[#786d68] text-white text-center font-semibold p-1 md:p-6 border-[#f5f5f5] border-solid border-2">HISTORY OF THE HOLY ISLAND OF LINDISFARNE</div>
+           <div className="text-left md:text-left text-white md:font-semibold  p-1 md:p-6  border-2 md:border-4 border-solid border-[#786d68]"> The Holy Island of Lindisfarne is one of the most important centres of early
             English Christianity.
             <br />
             <br />
@@ -381,7 +381,7 @@ export default function February2025() {
           >
             <Image
               src={HolyIsland22022025Title}
-              className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#f5f5f5] border-4 mt-4 mb-6"
+              className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-[#f5f5f5] border-4 mt-4 mb-6"
               alt="Photo of Holy Island Castle."
             />
           </Link>
