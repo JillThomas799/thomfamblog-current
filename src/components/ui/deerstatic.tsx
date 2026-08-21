@@ -1,5 +1,5 @@
 import React from "react";
-import "./deerStatic.css";
+import "./deerstatic.css";
 
 export default function DeerStatic() {
   return (
