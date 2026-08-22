@@ -14,6 +14,7 @@ import Sycamore20261 from "/public/imagesresized/Sycamore20261.jpg";
 import Gawain08082026 from "/public/imagesresized/Gawain08082026.jpg";
 import Blackberries14082026 from "/public/imagesresized/Blackberries14082026.jpg";
 import EscapedSheep from "/public/imagesresized/EscapedSheep.jpg";
+import BlackCartsTitled from "/public/imagesresized/BlackCartsTitled.jpg";
 
 
 
@@ -375,10 +376,56 @@ export default function August2026() {
           </div>
 
 
+          < div className="mb-20">
+          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#ff9900]">
+            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+              <div className="font-bold md:font-bold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#477ca5]">22nd August 2026, Saturday.</div> {/*End of news date block*/}
+              <div className="font-bold md:font-bold p-2 m-2 text-white white text-center text-md border-gray border-2  bg-[#477ca5]">Hadrian's Wall Path West to East (abridged): Day 11, Carrawburgh Roman Fort to Chollerford, 4.5 miles.</div>
+              <div className="font-semibold md:font-semibold text-left text-white  border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-4 mb-10 bg-[#477ca5]">
+                For the eagle-eyed amongst you, who know the Hadrian's Wall route well, it may appear that today we have skipped a 6.7 mile section of the central body of the Hadrian's Wall Path Route and you would be correct! However rest assured, we will be returning to it over the forthcoming weeks. 
+                  <br />
+                <br />
+                Indeed, the plan today had been to walk the section from Housesteads to Carrawburgh Roman Fort. There is however on that section a farmhouse where the farmer grazes his cattle, including cows with calves and bulls, on the Hadrian's Wall path. Our write up from 2024 makes reference to cows with calves on the route, and other walkers have commented on more than one occasion about a bull. Today, a brief reconnaissance mission whilst parking the cars, revealed cows once again directly across the Hadrian's Wall Path, together with some extremely young calves. 
+                 <br />
+                <br />
+                The decision was made to undertake the subsequent section of the walk today and to return to the missed section in 2 separate day segments using one car. The first segment will involve walking as far as the farmhouse from Housesteads and then returning the same route. The second segment will involve parking at Brocolitia car park and walking back as far as the other side of the farmhouse land and then returning the same way. This way we will miss out the farmhouse segment and adjoining land. It is important to be careful as a man unfortunately died after being attacked by cattle several years ago at Gilsland, although most farmers are helpful now and do not keep cattle in fields transited by the path.
+               
+                 <br />
+                <br />
+                We had a good walk though and all was well because there is a café at Chester's Roman fort, towards the end of the walk. We did not look around the fort itself today as we have explored it in detail on several previous occasions.
+                <br />
+                  <br />
+                <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#477ca5] border-gray-800 border-solid border-2 bg-white ">Click on the image below to open the album of our Hadrian's Wall Path West to East (abridged): Day 11, Carrawburgh Roman Fort to Chollerford.
+                  <br />
+                  <br />
+                  Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                 
+                </div>
+                 <br />
+                <Link
+                  href="https://photos.app.goo.gl/WrdxKBEmqcuizSSH7"
+                  target="_blank"
+                >
+                  <Image
+                    src={BlackCartsTitled}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[70%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    alt="Photo of Bernard and Harry by the BlackCarts section of Hadrian's Wall."
+                  />
+                </Link>
+              </div>{" "}
+            </div>
+          </div>
 
 
 
 
+
+
+
+
+
+
+            </div>
            </div>
           </div>
            </div>
