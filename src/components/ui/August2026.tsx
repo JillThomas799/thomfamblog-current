@@ -108,7 +108,7 @@ export default function August2026() {
                 >
                   <Image
                     src={MoroccanFiguresTitled}
-                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[70%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
                     alt="Photo of Moroccan Ger and horse made by e-Mongol."
                   />
                 </Link>
@@ -159,7 +159,7 @@ export default function August2026() {
                 >
                   <Image
                     src={HWPD8Titled}
-                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[70%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
                     alt="Photo of Jill on Walltown Crags."
                   />
                 </Link>
@@ -194,7 +194,7 @@ export default function August2026() {
                 >
                   <Image
                     src={WhinsillD9Titled}
-                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[70%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
                     alt="Photo of Harry with Hadrian's Wall on the Whin Sill."
                   />
                 </Link>
@@ -299,7 +299,7 @@ export default function August2026() {
                 >
                   <Image
                     src={FlyingScotsmanTitled}
-                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[70%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
                     alt="Photo of the new footplate apprentice in action on the Flying Scotsman."
                   />
                 </Link>
@@ -340,13 +340,13 @@ export default function August2026() {
                 <div className="flex flex-col justify-items-center">                  
                   <Image
                     src={Sycamore20241}
-                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[80%] lg:w-[70%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[80%] lg:w-[60%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
                     alt="Photo of Sycamore Gap stump July 2024."
                   /> 
                    <div className=" text-white text-center mb-6">SYCAMORE GAP TREE STUMP 6TH JULY 2024</div>               
                     <Image
                     src={Sycamore20261}
-                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[80%] lg:w-[70%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[80%] lg:w-[60%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
                     alt="Photo of Sycamore Gap stump August 2026, with bushy regrowth."
                   />
                    <div className=" text-white text-center mb-6">SYCAMORE GAP TREE STUMP 16TH AUGUST 2026</div>
@@ -367,7 +367,7 @@ export default function August2026() {
                 >
                   <Image
                     src={ScalingHWTitled}
-                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[70%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
                     alt="Photo of Bernard and Jill climbing the steepest central section of Hadrian's Wall crags."
                   />
                 </Link>
@@ -388,11 +388,11 @@ export default function August2026() {
                 Indeed, the plan today had been to walk the section from Housesteads to Carrawburgh Roman Fort. There is however on that section a farmhouse where the farmer grazes his cattle, including cows with calves and bulls, on the Hadrian's Wall path. Our write up from 2024 makes reference to cows with calves on the route, and other walkers have commented on more than one occasion about a bull. Today, a brief reconnaissance mission whilst parking the cars, revealed cows once again directly across the Hadrian's Wall Path, together with some extremely young calves. 
                  <br />
                 <br />
-                The decision was made to undertake the subsequent section of the walk today and to return to the missed section in 2 separate day segments using one car. The first segment will involve walking as far as the farmhouse from Housesteads and then returning the same route. The second segment will involve parking at Brocolitia car park and walking back as far as the other side of the farmhouse land and then returning the same way. This way we will miss out the farmhouse segment and adjoining land. It is important to be careful as a man unfortunately died after being attacked by cattle several years ago at Gilsland, although most farmers are helpful now and do not keep cattle in fields transited by the path.
+                The decision was made to undertake the subsequent section of the walk today and to return to the missed section in 2 separate day segments using one car. The first segment will involve walking as far as the farmhouse from Housesteads and then returning the same route. The second segment will involve parking at Brocolitia car park and walking back as far as the other side of the farmhouse land and then returning the same way. This way we will miss out the farmhouse segment and adjoining land. It is important to be careful as a man unfortunately died after being attacked by cows several years ago at Gilsland. Most farmers are helpful now and do not keep cattle in fields transited by the path, but there are several who still do.
                
                  <br />
                 <br />
-                We had a good walk though and all was well because there is a café at Chester's Roman fort, towards the end of the walk. We did not look around the fort itself today as we have explored it in detail on several previous occasions.
+              Despite all that we had a really enjoyable walk and all was well because there is a café at Chester's Roman fort towards the end of the walk, so everyone was happy. We did not look around the fort itself today as we have explored it in detail on several previous occasions.
                 <br />
                   <br />
                 <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#477ca5] border-gray-800 border-solid border-2 bg-white ">Click on the image below to open the album of our Hadrian's Wall Path West to East (abridged): Day 11, Carrawburgh Roman Fort to Chollerford.
@@ -408,7 +408,7 @@ export default function August2026() {
                 >
                   <Image
                     src={BlackCartsTitled}
-                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[70%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
                     alt="Photo of Bernard and Harry by the BlackCarts section of Hadrian's Wall."
                   />
                 </Link>
