@@ -31,6 +31,8 @@ const BlogMenuBarMonths2025=()    => {
 {! isCollapsed && (  
     <div className="flex flex-col md:flex-row md:flex-wrap md:place-content-evenly">
       <div className="text-center h-15 bg-gray-800 border-b border-gray-700 font-semibold p-4 hover:text-blue-300">
+      <Link href="/dashboard/months/january2025" >January 2025</Link></div>
+      <div className="text-center h-15 bg-gray-800 border-b border-gray-700 font-semibold p-4 hover:text-blue-300">
       <Link href="/dashboard/months/february2025" >February 2025</Link></div>
        <div className="text-center h-15 bg-gray-800 border-b border-gray-700 font-semibold p-4 hover:text-blue-300">
       <Link href="/dashboard/months/march2025" >March 2025</Link></div>
