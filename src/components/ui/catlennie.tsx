@@ -170,7 +170,7 @@ export default function CatLennie() {
               ry="25"
               fill="url(#gradBody)"
               stroke="#5c4033"
-              stokeWidth="1"
+              strokeWidth="1"
               transform="rotate(12,187,299)"
             />
             <ellipse
