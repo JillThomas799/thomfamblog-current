@@ -10,7 +10,7 @@ import HarryBarrowDocksTitled from "/public/imagesresized/HarryBarrowDocksTitled
 export default function January2025() {
   return (
     <div>
-      <div id="snowScene" className="bg-linear-to-b- from-black to-white border-solid border-4 border-gray-600  p-2 md:p-4  height-[100vh]">
+      <div className="bg-linear-[180deg, rgb(36, 60, 62) 45%, #f2f3f5 55%] border-solid border-4 border-gray-600  p-2 md:p-4  h-[100vh]">
         <div className="text-black bg-[#c2b280] border-solid border-2 mr-auto ml-auto mt-0 p-2 border-[#f5f5f5]  font-bold text-xl text-center">January 2025</div>
         <div className="scale-[70%] translate-x-[-10%] translate-y-[-30%] md:scale-[82%] md:translate-x-[-30%] md:translate-y-0 lg:scale-[85%] lg:translate-x-[-20%]"><CatLennie /> </div>
         <br />
