@@ -3,6 +3,7 @@ import Link from 'next/link'
 import "./January2025.css";
 import CatLennie from "./catlennie";
 import SnowTalkinFell09012025Title from "/public/imagesresized/SnowTalkinFell09012025Title.jpg";
+import TreeDownTalkinTitled from "/public/imagesresized/TreeDownTalkinTitled.jpg";
 
 
 
@@ -10,7 +11,7 @@ import SnowTalkinFell09012025Title from "/public/imagesresized/SnowTalkinFell090
 export default function January2025() {
   return (
     <div>
-      <div className="bg-gradient-to-b from-black from-0% via-[#243c3e] via-60% to-[#f2f3f5] to-70% order-solid border-4 border-gray-600  p-2 md:p-4  h-[41vh] md:h-[60vh] lg:h-[70vh]">
+      <div className="bg-gradient-to-b from-black from-0% via-[#243c3e] via-60% to-[#f2f0ef] to-70% order-solid border-4 border-gray-600  p-2 md:p-4  h-[41vh] md:h-[60vh] lg:h-[70vh]">
         <div className="text-black bg-[#a4a4ac] border-solid border-2 mr-auto ml-auto mt-0 p-2 border-[#f5f5f5]  font-bold text-xl text-center">January 2025</div>
         <div className="scale-[65%] translate-x-[-21%] translate-y-[-26%] md:scale-[82%] md:translate-x-[-45%] md:translate-y-[5%] lg:scale-[85%] lg:translate-x-[-45%]"><CatLennie /> </div>
         <br />
@@ -129,32 +130,52 @@ export default function January2025() {
           rather unenthusiastic about going to this film but he came out having
           genuinely enjoyed it so it is not just for absolute opera-buffs. It
           was a change also to have a film which was more in the style of the
-          European Arts films which we used to see at the{" "}
-          <Link
-            to="https://homemcr.org/history/cornerhouse/"
-            target="_blank"
-            title="Click here to discover about the Cornerhouse, Manchester"
-            className="LinkJanuary2025"
-          >
-            {" "}
-            Cornerhouse{" "}
-          </Link>{" "}
-          in Manchester, but do not seem to be released as often these days.
+          European Arts films which we used to see at the Cornerhouse cinema in Manchester
+          (when it was still in existence), but do not seem to be released as often these days.
           <br />
           <br />
-          Actually, for anyone who is interested and who cannot make it as far
-          as the Cornerhouse in Manchester, I have just noticed that these days,
-          you can if you wish pay a monthly fee to have a HOME film pass and
-          have access to tickets to view the new releases at the Cornerhouse
-          (excepting occasional ones) at home, any time, as many times as you
-          like. If anyone is interested, details about the{" "}
-          <Link
-            href="https://homemcr.org/visit/filmpass/"
-            target="_blank"
-            className="text-decoration-underline text-[#bdbeba] font-semibold underline"        >
-            HOME film pass
-          </Link>{" "}
-          at the Cornerhouse can be found on the link.
+         
+          </div>
+             </div>
+                </div>
+     
+
+          <div className="mb-20">
+        <div className="flex flex-col max-w-full leading-1.5 p-1 md:p-2 lg:p-4 m-4 border-[#f5f5f5] border-solid border-2 bg-black">
+          <div className="font-semibold pt-2 pb-2 mr-[5%] ml-[5%] md:mr-[30%] md:ml-[30%]  mt-2 text-center text-black border-[#f5f5f5] border-solid border-2 bg-[#a4a4ac]">  January 24th -26th 2025, Thursday</div> {/*End of news date block*/}
+          <div className="font-semibold m-2 p-1 md:m-4 pt-2 pb-4 py-2 md:px-4 text-black text-center  border-[#f5f5f5] border-solid border-2 bg-[#a4a4ac]">STORM ÉOWYN and its aftermath...</div>
+          <div className="text-black text-left font-semibold md:text-left mb-4 p-6 bg-[#a4a4ac] border-[#f5f5f5] border-solid border-2  ">
+           Storm Éowyn hit Cumbria on the 24th January 2024 bringing maximum
+          winds of 84 miles an hour at Brampton weather station and the most
+          prolonged gale force storm we have ever had, hitting gale force 9.
+          Harry had received a red alert on his mobile phone, although Bernard
+          and I did not receive one on ours. We could see the tarn from our
+          house, with what looked like mini tornadoes running across its
+          surface.
+          <br />
+          <br />
+          The main challenge though was that the power lines went down at about
+          10.45am and were not reinstated until after 20.00 in the evening.
+          Fortunately, we have some battery driven lights and a gas hob so were
+          still able to make some food and warm drinks and to use the log burner
+          for heating. The farmer at the rear of our property was rather more
+          ingenious though and had a generator on his tractor which he was using
+          to power the electricity to the farmhouse on an emergency supply.
+          North West Electric had been helpful and set up a number of warm
+          spaces across the county, where warm food and drink could be accessed,
+          the closest one to us being Brampton. Lennie does not like the wind
+          and had been trying to hide in the wardrobe.....
+          <br />
+          <br />
+          The good news was that on review for any structural damage of the
+          property the following morning, there was none noted and Bernard's
+          greenhouse had once again survived the storm. Unfortunately, one of
+          the houses locally has lost all the ridge tiles on the extension.
+          <br />
+          <br />
+          Storm Éowyn has been reported as being one of the strongest storms in
+          a generation, and caused widespread travel problems, power cuts and
+          significant damage to infrastructure. The area worse hit was Ireland.
           <br />
           <br />
           <br />
@@ -168,19 +189,17 @@ export default function January2025() {
             Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
           </div>
           <Link
-            href="https://photos.app.goo.gl/dNwZgxm9gow3NbHcA"
+            href="https://photos.app.goo.gl/bpVKQbbkeToYbwZB7"
             target="_blank"
           >
             <Image
-              src={SnowTalkinFell09012025Title}
+              src={TreeDownTalkinTitled}
               className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-[#f5f5f5] border-4 mt-4 mb-6"
               alt="Photo of Talkin Fell in the snow and sunshine"
             />
           </Link>
         </div>
       </div>  
-
-      
 
 
 

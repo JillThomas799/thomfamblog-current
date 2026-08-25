@@ -247,7 +247,7 @@ export default function CatLennie() {
                 y2="276"
                 stroke="#5c4033"
                 strokeWidth="2"
-                stroke-linecap="round"
+                strokeLinecap="round"
                 opacity="1"
               />
               <line
@@ -258,7 +258,7 @@ export default function CatLennie() {
                 y2="276"
                 stroke="#5c4033"
                 strokeWidth="3"
-                stroke-linecap="round"
+                strokeLinecap="round"
                 opacity="1"
               />
               <line
@@ -269,7 +269,7 @@ export default function CatLennie() {
                 y2="276"
                 stroke="#5c4033"
                 strokeWidth="2"
-                stroke-linecap="round"
+                strokeLinecap="round"
                 opacity="1"
               />
 
@@ -428,7 +428,7 @@ export default function CatLennie() {
                 ry="5"
                 fill="#F19E93"
                 stroke="black"
-                stroke-width="0.5"
+                strokeWidth="0.5"
               />
             </g>
             ;
