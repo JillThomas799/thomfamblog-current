@@ -13,6 +13,7 @@ export default function CatLennie() {
           width="100vw"
           height="60vh"
           viewBox="-80 -90 500 500"
+          
         >
           <g className="lennieCat" xmlns="http://www.w3.org/2000/svg">
             <defs>
