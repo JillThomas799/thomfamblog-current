@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import "./January2025.css";
+import "./January2025.scss";
 import CatLennie from "./catlennie";
 import Snowstorm from "./snowstorm";
 import SnowTalkinFell09012025Title from "/public/imagesresized/SnowTalkinFell09012025Title.jpg";
