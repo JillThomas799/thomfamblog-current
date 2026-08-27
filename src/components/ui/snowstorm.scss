@@ -35,10 +35,10 @@
 @for $i from 1 through 50 {
   .snowflakeV2:nth-child(#{$i}) {
     --size: #{random(5) *
-      0.13}vw; //random(5) returns a random number between 1 and 5.
+      0.15}vw; //random(5) returns a random number between 1 and 5.
     --left-ini: #{random(20) - 10}vw;
     --left-end: #{random(20) - 10}vw;
-    left: #{random(85)}vw;
+    left: #{random(75)}vw;
     animation: snowfallV2 #{5 + random(10)}s linear infinite;
     animation-delay: -#{random(10)}s;
   }
@@ -55,6 +55,30 @@
       animation: snowfallV2 #{7 + random(10)}s linear infinite;
       animation-delay: -#{random(10)}s;
     }
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 960px) {
+  @for $i from 1 through 50 {
+    .snowflakeV2:nth-child(#{$i}) {
+      --size: #{random(5) *
+        0.3}vw; //random(5) returns a random number between 1 and 5.
+      --left-ini: #{random(20) - 10}vw;
+      --left-end: #{random(20) - 10}vw;
+      left: #{random(76)}vw;
+      animation: snowfallV2 #{7 + random(10)}s linear infinite;
+      animation-delay: -#{random(10)}s;
+    }
+  }
+
+  .snowflakeV2 {
+    --size: 1vw;
+    width: var(--size);
+    height: var(--size);
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -15vh;
   }
 }
 
