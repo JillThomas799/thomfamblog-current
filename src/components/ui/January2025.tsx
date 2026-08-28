@@ -13,8 +13,8 @@ export default function January2025() {
   return (
     <div>
       <div className="bg-gradient-to-b from-black from-0% via-[#243c3e] via-60% to-[#f2f0ef] to-70% order-solid border-4 border-gray-600  p-2 md:p-4  h-[41vh] md:h-[60vh] lg:h-[70vh]">
-        <div className="text-black bg-[#a4a4ac] border-solid border-2 mr-auto ml-auto mt-0 p-2 border-[#f5f5f5]  font-bold text-xl text-center">January 2025</div>
-        <div className="scale-[65%] translate-x-[-21%] translate-y-[-26%] md:scale-[82%] md:translate-x-[-45%] md:translate-y-[5%] lg:scale-[85%] lg:translate-x-[-45%]"><Snowstorm /><CatLennie /> </div>
+        <div className="text-black bg-[#a4a4ac] border-solid border-2 mr-auto ml-auto mt-0 p-2 border-[#f5f5f5]  font-bold text-xl text-center">January 2025</div>  
+        <div className="scale-[65%] translate-x-[-21%] translate-y-[-26%] md:scale-[82%] md:translate-x-[-45%] md:translate-y-[5%] lg:scale-[85%] lg:translate-x-[-45%]"><Snowstorm /><CatLennie /></div>
         <br />
         <br />
       </div>
