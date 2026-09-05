@@ -417,19 +417,28 @@ export default function August2026() {
           </div>
 
 
+          < div className="mb-20">
+          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#ff9900]">
+            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+              <div className="font-bold md:font-bold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#477ca5]">30th August 2026, Sunday to 3rd September, Thursday.</div> {/*End of news date block*/}
+              <div className="font-bold md:font-bold p-2 m-2 text-white white text-center text-md border-gray border-2  bg-[#477ca5]">Bernard's dad comes to stay.</div>
+              <div className="font-semibold md:font-semibold text-left text-white  border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-4 mb-10 bg-[#477ca5]">
+              
+                  <br />
+            </div>
+
+            </div>
+           </div>
+          </div>
+      
 
 
-
-
-
-
-
+        </div>
 
             </div>
            </div>
           </div>
            </div>
-          </div>
         </div>
       </div>
     </div>
