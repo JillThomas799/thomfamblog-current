@@ -15,6 +15,7 @@ import Gawain08082026 from "/public/imagesresized/Gawain08082026.jpg";
 import Blackberries14082026 from "/public/imagesresized/Blackberries14082026.jpg";
 import EscapedSheep from "/public/imagesresized/EscapedSheep.jpg";
 import BlackCartsTitled from "/public/imagesresized/BlackCartsTitled.jpg";
+import LanercostAlanTitled from "/public/imagesresized/LanercostAlanTitled.jpg";
 
 
 
@@ -421,20 +422,98 @@ export default function August2026() {
           < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#ff9900]">
             < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
               <div className="font-bold md:font-bold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#477ca5]">30th August 2026, Sunday to 3rd September, Thursday.</div> {/*End of news date block*/}
-              <div className="font-bold md:font-bold p-2 m-2 text-white white text-center text-md border-gray border-2  bg-[#477ca5]">Bernard's dad comes to stay.</div>
+              <div className="font-bold md:font-bold p-2 m-2 text-white white text-center text-md border-gray border-2  bg-[#477ca5]">Bernard's dad heads North to come to stay, a.k.a 'Operation Holy Island'.</div>
               <div className="font-semibold md:font-semibold text-left text-white  border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-4 mb-10 bg-[#477ca5]">
-              
+              The time had arrived for <em>Operation Holy Island</em> to be put into motion as Bernard's dad was coming to stay for a few days.
                   <br />
+                  <br />
+                  'What is <em>Operation Holy Island</em>?' I hear you ask. Well, it is the name we had given to our plans to ensure Bernard's dad's visit went as smoothly as possible, in a similar manner to those plans put in place during times of military conflict to try to ensure nothing goes amiss with a mission to be accomplished. Think Tom Cruise movie etc....
+                   <br />
+                  <br />
+                  <em>Operation Holy Island</em> had been long in the planning. It involved Bernard heading down South to collect his dad from his home and then returning back North the following day, breaking the return journey en route by calling to visit Bernard's Mum's sister and her family in Lancashire for lunch.
+                   <br />
+                  <br />                  
+                  Then, a draft schedule of activities had been arranged with the flexibility to rearrange things as we progressed, depending on how everyone felt and how things went: 
+                  <br />
+                  <ul className="list-disc ml-6">
+                    <li>Day 1: Lanercost Priory for lunch and a visit to Lanercost Church, with Elena.</li>
+                    <li>Day 2: Visit to the Holy Island of Lindisfarne in Cumbria, driving out along the wilds of Hadrian's Wall and the old Stanegate Road as far as Chollerford and then heading North via Colwell, Little Bavington, Wallington and Rothley Castle before joining the A1 south of Alnwick to run up to the Holy Island Causeway. </li>
+                    <li>Day 3: Visit to Carlisle Cathedral and Carlisle driving via Brampton town, with lunch at the Tullie Museum café in Carlisle.</li>
+                    <li>Day 4: Return home, first calling to see Talkin Tarn and for a short walk before undertaking a driving tour around the local fells and countryside prior to leaving, morning drinks and scone at Cranston's St Oswald's café, Penrith and Elena's house to see Gawain and say goodbye. Calling en route at Bernard's dad's sister who also lives in Lancashire en route for lunch on the way back to his home.</li>
+
+                  </ul>
+
             </div>
 
             </div>
            </div>
           </div>
       
+      < div className="mb-20">
+          < div className="flex flex-col w-auto leading-1.5 pt-4 mt-4 md:p-4 lg:p-4  border-gray-800 border-solid border-2 md:border-2 bg-[#ff9900]">
+            < div className="text-md md:text-base max-w-full font-normal md:font-semibold text-white text-center  md:text-center dark:text-white justify-center items-center">
+              <div className="font-bold md:font-bold p-2 m-2 text-white text-center  border-gray-800 border-2 bg-[#477ca5]">31st August 2026, Late August Bank Holiday Monday .</div> {/*End of news date block*/}
+              <div className="font-bold md:font-bold p-2 m-2 text-white white text-center text-md border-gray border-2  bg-[#477ca5]">Day out at Lanercost Priory Tea Rooms and Church</div>
+              <div className="font-semibold md:font-semibold text-left text-white  border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-4 mb-10 bg-[#477ca5]">Bernard and his father had a long journey by car to the North of England yesterday, so today we stayed fairly local and drove to see Lanercost Priory.
+                <br />
+                  <br />
+                  Lanercost Priory is quite local to us and stands just a mile from Hadrian's Wall. In fact much of the stone used to build the Priory was taken from Hadrian's Wall. It has been in ruins since its destruction in 1537 during Henry VIIIs Reformation, but today is a very peaceful place. It does however have an important and turbulent history.
+                   <br />
+                  <br />
+                  The Priory was founded by Robert de Vaux in about 1169, whose family had been granted the barony of Gilsland, on the border with Scotland, as reward for their part in the Norman Conquest. The area had only come under English rule in 1157 and this area was border country periodically disputed between the Kingdoms of Scotland and England. The founding of a priory was a symbol of Robert’s permanence in the area and of his wealth, as well as an act of piety. He gave the priory considerable lands and churches nearby.  It had a community of Augustinian Canons who were allowed by Robert de Vaux the freedom to elect their own lord prior. The Canons built a church aligned East to West, with monastic buildings around a cloister against the church's South Wall. 
+                   <br />
+                  <br />
+                  For the first 120 years of the priory’s existence the border with Scotland was relatively peaceful and the priory flourished.
+                  <br />
+                  <br />
+                  The ambitions of King Edward I (reigned 1272–1307) to rule over Scotland were brought to a head when a Scottish alliance with France led to war in 1296. Monasteries on both sides of the border were exposed to attack. Lanercost suffered initially in April 1296, when the Scots encamped there and set fire to some of the monastic buildings. Late the following year the Scottish army led by William Wallace led raids into northern England and the priory was attacked again. 
+                  <br />
+                  <br />
+                  There was worse to come. In 1311 a force led by Robert Bruce, King of Scotland (r.1306–29), descended on the priory and stayed for three days, ‘doing an infinity of injury’ and imprisoning the canons. The priory lands were repeatedly devastated during such incursions, and in 1318 the estates, once valued at nearly £75 a year, were found to be worthless and totally destroyed.
+                  <br />
+                  <br />
+                  The priory was besieged again and ransacked in October 1346 by the Scottish army of King David II (r.1329–71). ‘They entered arrogantly into the sanctuary, threw out the vessels of the temple, plundered the treasury, shattered the bones, stole the jewels and destroyed as much as they could’, a contemporary chronicler wrote. These raids left Lanercost Priory with buildings to repair, valuable items to replace, stores pillaged and lands ravaged. 
+<br />
+                  <br />
+                  Over five months in 1306–7, Lanercost temporarily became a royal residence and centre of national affairs. The elderly and unwell Edward I could no longer lead his army against the Scots, but was following them closely. In September 1306, unable to ride, he was carried on a litter from Newcastle, intending to hold a parliament at Carlisle. Resting at Lanercost, he became gravely ill and was forced to stay the winter at the priory.
+                   <br />
+                  <br />
+                  The king had arrived with his retinue of around 200 people, including Queen Margaret, his eldest son, Prince Edward, and various nobles, servants, doctors and bodyguards. All had to be accommodated by the impoverished priory. Many lived in tents within the precinct, but buildings were quickly erected to provide accommodation for the royal party, including a separate chapel and bathhouse for the queen. Agents of the king were constantly arriving with messages, food and medicine, and paupers flocked to the priory gate in the hope of receiving alms. On one occasion, soldiers brought the severed heads of Scottish rebels to the king. 
+                  The crowding, disruption and noise would have been a huge imposition on the canons, who must have been greatly relieved when the king finally departed in March 1307. 
+                   <br />
+                  <br />
+                  
+                  It later became home to a branch of the Dacre family.  
+                
+                 
+                <br />
+                  <br />
+                <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#477ca5] border-gray-800 border-solid border-2 bg-white ">Click on the image below to open the album of our visit to Lanercost Priory Tea Rooms and Church
+                  <br />
+                  <br />
+                  Please make sure to click on the <em>'i'</em> icon, in the top right-hand corner of each photo, as we have included a lot of additional information about the photo in that space.
+                 
+                </div>
+                 <br />
+                <Link
+                  href="https://photos.app.goo.gl/3r4sx4D4buCB6TUS6"
+                  target="_blank"
+                >
+                  <Image
+                    src={LanercostAlanTitled}
+                    className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-[#ff9900] border-4 mt-4 mb-6"
+                    alt="Photo of the family with Bernard's dad at Lanercost Tea Rooms."
+                  />
+                </Link>
+              </div>{" "}
+            </div>
+          </div>
+
+
 
 
         </div>
-
+        </div>
             </div>
            </div>
           </div>
