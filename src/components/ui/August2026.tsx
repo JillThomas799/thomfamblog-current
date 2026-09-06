@@ -515,6 +515,12 @@ export default function August2026() {
                   There were few family burials in the later 16th to 18th centuries but the Howard family, who purchased Lanercost from the Crown in 1869, revived the tradition. George Howard, 9th Earl of Carlisle, had his parents, Charles and Mary, buried here, as well as his son Christopher and infant daughter Elizabeth, who died in 1883. She is commemorated by a terracotta sculpture of a sleeping infant by Sir Edgar Boehm. The gravestones of George himself and his wife, Rosalind, are set in the floor.
                    <br />
                   <br />
+                  With all that history out of the way, we could now concentrate on lunch, which the lady in charge of the café had kindly reserved us a table for as it was August Bank Holiday and in their own words 'was going to be chaos...'. Lunch was very pleasant and afterwards we went round to the church  to have a look in there. There were a number of international visitors in the church including some people from Canada and Israel. Subsequently, we took the path around the side through the graveyard from where some of the priory ruins can be seen. Access into the Priory ruins itself was not possible due to access issues.
+                  <br />
+                  <br />
+                  We then drove a few miles up the road to Banks East Turret (52A) on Hadrian's Wall where Bernard's dad was able to see a section of Hadrian's Wall at that point, admire the view and explore the turret. 
+                  <br />
+                  <br />
 
                 <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#477ca5] border-gray-800 border-solid border-2 bg-white ">Click on the image below to open the album of our visit to Lanercost Priory Tea Rooms and Church
                   <br />
