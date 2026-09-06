@@ -457,7 +457,7 @@ export default function August2026() {
               <div className="font-semibold md:font-semibold text-left text-white  border-solid border-gray-800 border-2 mr-1 ml-1 mt-2 px-4 py-4 mb-10 bg-[#477ca5]">Bernard and his father had a long journey by car to the North of England yesterday, so today we stayed fairly local and drove to see Lanercost Priory.
                 <br />
                   <br />
-                  Lanercost Priory is quite local to us and stands just a mile from Hadrian's Wall. In fact much of the stone used to build the Priory was taken from Hadrian's Wall. It has been in ruins since its destruction in 1537 during Henry VIIIs Reformation, but today is a very peaceful place. It does however have an important and turbulent history.
+                  Lanercost Priory is quite local to us and stands just a mile from Hadrian's Wall. In fact much of the stone used to build the Priory was taken from Hadrian's Wall. It has been in ruins since its destruction in 1537 during Henry VIIIs Reformation, but today is a very peaceful place. It does however have an important and turbulent history, a summary of whichs below is taken from the <Link href="https://www.english-heritage.org.uk/visit/places/lanercost-priory/history/" target="_blank" className="text-decoration-underline text-[#ff0000] font-semibold md:font-semibold underline">English Heritage Website dedicated to the history of Lanercost Priory</Link>
                    <br />
                   <br />
                   The Priory was founded by Robert de Vaux in about 1169, whose family had been granted the barony of Gilsland, on the border with Scotland, as reward for their part in the Norman Conquest. The area had only come under English rule in 1157 and this area was border country periodically disputed between the Kingdoms of Scotland and England. The founding of a priory was a symbol of Robert’s permanence in the area and of his wealth, as well as an act of piety. He gave the priory considerable lands and churches nearby.  It had a community of Augustinian Canons who were allowed by Robert de Vaux the freedom to elect their own lord prior. The Canons built a church aligned East to West, with monastic buildings around a cloister against the church's South Wall. 
@@ -469,25 +469,53 @@ export default function August2026() {
                   The ambitions of King Edward I (reigned 1272–1307) to rule over Scotland were brought to a head when a Scottish alliance with France led to war in 1296. Monasteries on both sides of the border were exposed to attack. Lanercost suffered initially in April 1296, when the Scots encamped there and set fire to some of the monastic buildings. Late the following year the Scottish army led by William Wallace led raids into northern England and the priory was attacked again. 
                   <br />
                   <br />
-                  There was worse to come. In 1311 a force led by Robert Bruce, King of Scotland (r.1306–29), descended on the priory and stayed for three days, ‘doing an infinity of injury’ and imprisoning the canons. The priory lands were repeatedly devastated during such incursions, and in 1318 the estates, once valued at nearly £75 a year, were found to be worthless and totally destroyed.
-                  <br />
-                  <br />
-                  The priory was besieged again and ransacked in October 1346 by the Scottish army of King David II (r.1329–71). ‘They entered arrogantly into the sanctuary, threw out the vessels of the temple, plundered the treasury, shattered the bones, stole the jewels and destroyed as much as they could’, a contemporary chronicler wrote. These raids left Lanercost Priory with buildings to repair, valuable items to replace, stores pillaged and lands ravaged. 
-<br />
-                  <br />
-                  Over five months in 1306–7, Lanercost temporarily became a royal residence and centre of national affairs. The elderly and unwell Edward I could no longer lead his army against the Scots, but was following them closely. In September 1306, unable to ride, he was carried on a litter from Newcastle, intending to hold a parliament at Carlisle. Resting at Lanercost, he became gravely ill and was forced to stay the winter at the priory.
+                   Over five months in 1306–7, Lanercost temporarily became a royal residence and centre of national affairs. The elderly and unwell Edward I could no longer lead his army against the Scots, but was following them closely. In September 1306, unable to ride, he was carried on a litter from Newcastle, intending to hold a parliament at Carlisle. Resting at Lanercost, he became gravely ill and was forced to stay the winter at the priory.
                    <br />
                   <br />
                   The king had arrived with his retinue of around 200 people, including Queen Margaret, his eldest son, Prince Edward, and various nobles, servants, doctors and bodyguards. All had to be accommodated by the impoverished priory. Many lived in tents within the precinct, but buildings were quickly erected to provide accommodation for the royal party, including a separate chapel and bathhouse for the queen. Agents of the king were constantly arriving with messages, food and medicine, and paupers flocked to the priory gate in the hope of receiving alms. On one occasion, soldiers brought the severed heads of Scottish rebels to the king. 
-                  The crowding, disruption and noise would have been a huge imposition on the canons, who must have been greatly relieved when the king finally departed in March 1307. 
+                  The crowding, disruption and noise would have been a huge imposition on the canons, who must have been greatly relieved when the king finally departed in March 1307. King Edward 1 subsequently died a short time later on the 7th July 1307 at Burgh-by-Sands, Cumbria.
                    <br />
                   <br />
-                  
-                  It later became home to a branch of the Dacre family.  
-                
-                 
+                  In 1311 a force led by Robert Bruce, King of Scotland (r.1306–29), descended on the priory and stayed for three days, ‘doing an infinity of injury’ and imprisoning the canons. The priory lands were repeatedly devastated during such incursions, and in 1318 the estates, once valued at nearly £75 a year, were found to be worthless and totally destroyed.
+                  <br />
+                  <br />
+                  The priory was besieged again and ransacked in October 1346 by the Scottish army of King David II (r.1329–71). ‘They entered arrogantly into the sanctuary, threw out the vessels of the temple, plundered the treasury, shattered the bones, stole the jewels and destroyed as much as they could’, a contemporary chronicler wrote. These raids left Lanercost Priory with buildings to repair, valuable items to replace, stores pillaged and lands ravaged. 
+                  <br />
+                  <br />
+                  The royal visit and repeated Scottish raids had left the priory greatly impoverished. Despite the king granting them the revenues from two additional churches, the priory was destitute and had to sell off much of its land. A tax return in 1379 recorded only a prior and four canons living there (there had originally been 15) – probably all that its revenues could support – and in 1409 the priory appealed for help as the canons were ‘reduced to a low state and almost utter want’.
+                  <br />
+                  <br />
+                  Help eventually came from their patrons, the Dacres. In 1487 Sir Thomas Dacre (1467–1525) married Elizabeth Greystoke, heiress to the barony of Greystoke and to many other estates in northern England. This marriage made him rich, enabling him to support the priory, which was close to the family home at Naworth Castle, with lands and money. 
+                  <br />
+                  <br />
+                  Even so, the priory remained poor. By the time of the Dissolution of the Monasteries – the process whereby Henry VIII and his ministers closed down religious houses and seized their assets – its income was only £80 a year. As one of the smaller religious houses it was one of the first to be targeted, and it was closed in March 1537. At this time it was staffed by eight canons under the prior, together with the curate of the parish church and 40 lay staff. The cloister and refectory were stripped of their roofs, and the monastic buildings were mostly left to ruin. 
+                   <br />
+                  <br />
+                  After service at the Battle of Solway Moss in 1542, Thomas Dacre, an illegitimate son of Sir Thomas, was rewarded by Henry VIII with the priory and lands at Lanercost. He decided to convert the west cloister range into a private dwelling. On the first floor he built a 30-metre-long great hall with large windows and a magnificent fireplace, now known as Dacre Hall.Around 1560 Thomas commissioned some fine wall paintings to decorate his new family home. A huge coat of arms dominated the north wall of the  great hall, and in the room adjoining is an early 17th-century plaster frieze with heraldic shields painted with silver scallops, the arms of the Dacre family. The east window of the church now contains some fragments of 16th-century glass which were removed from Dacre Hall. One of them carries a Latin inscription recording work there by Sir Thomas Dacre in 1559. Dacre Hall is not generally open to the public, but is accessible during community events.                
                 <br />
                   <br />
+                  During the Civil War in the 1640s the Royalist Dacre family suffered financially. When James, the last of the family line, died in 1716, he had large debts and the property was returned to the Crown. 
+                  <br />
+                  <br />                  
+                  By this time the estates of the main branch of the Dacre family had descended to the Howards by marriage. Charles Howard, 3rd Earl of Carlisle, encouraged the restoration of the church, which was completed by 1747. This work was done cheaply, however, and only 100 years later the church was again in a state of decay. After the roof collapsed, the architect Anthony Salvin, who was already working at Naworth Castle, was brought in to oversee restoration work, financed by the Crown, and the church reopened in 1849. 
+                  <br />
+                  <br />
+                  In 1869 George Howard, 9th Earl of Carlisle, bought the priory buildings from the Crown and carried out further works, installing the barrel-vaulted ceiling and a new organ in the church. George was a talented painter and had many artistic friends, who contributed to the restoration. Edward Burne-Jones made a bronze relief of the nativity, and William Morris designed the ‘dossal’ – an embroidered cloth panel to hang behind the altar. The two artists collaborated on stained glass windows. 
+                  <br />
+                  <br />
+                  By the early 20th century the cost of maintaining the priory ruins had become a burden to the Howard family, who entrusted them to the Office of Works in 1930, a precursor to English Heritage. An extended campaign of conservation and excavation followed, during which the remains of the first chapter house were revealed. In 1952 the family gave Dacre Hall to the local community, while the priory church of St Mary Magdalene remains in use as the parish church.
+                   <br />
+                  <br />
+                  There are a number of family tombs at Lanercost. Like most monasteries, Lanercost served as a mausoleum for its founders and their successors – members of the Vaux, Multon, Dacre and Howard families. Many of their tombs still stand in the roofless eastern end of the church. 
+                   <br />
+                  <br />
+                  The oldest known tomb, with fragments of an effigy, belongs to Roland de Vaux, illegitimate son of the nephew of Robert, the priory’s founder, who died in 1199. In the south transept is the elaborate early 16th-century tomb of Sir Thomas Dacre and his wife, Elizabeth Greystoke. In the north transept chapel is the tomb of his parents, Humphrey Dacre and Mabel Parr, carved with heraldry displaying the arms of their respective families. 
+                   <br />
+                  <br />
+                  There were few family burials in the later 16th to 18th centuries but the Howard family, who purchased Lanercost from the Crown in 1869, revived the tradition. George Howard, 9th Earl of Carlisle, had his parents, Charles and Mary, buried here, as well as his son Christopher and infant daughter Elizabeth, who died in 1883. She is commemorated by a terracotta sculpture of a sleeping infant by Sir Edgar Boehm. The gravestones of George himself and his wife, Rosalind, are set in the floor.
+                   <br />
+                  <br />
+
                 <div className="p-4 font-semibold md:font-semibold text-center text-md text-[#477ca5] border-gray-800 border-solid border-2 bg-white ">Click on the image below to open the album of our visit to Lanercost Priory Tea Rooms and Church
                   <br />
                   <br />
