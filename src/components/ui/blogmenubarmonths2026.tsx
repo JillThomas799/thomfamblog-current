@@ -55,6 +55,9 @@ const BlogMenuBarMonths2026=()    => {
     <div className="text-center h-15 bg-gray-800 border-b border-gray-700 font-semibold p-4 hover:text-blue-300">
       <Link href="/dashboard/months/august2026" >August 2026</Link>
     </div>
+      <div className="text-center h-15 bg-gray-800 border-b border-gray-700 font-semibold p-4 hover:text-blue-300">
+      <Link href="/dashboard/months/september2026" >September 2026</Link>
+    </div>
     </div>
  )} 
 </div>
