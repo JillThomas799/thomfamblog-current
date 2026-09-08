@@ -8,7 +8,7 @@ export default function September2026() {
 
   return (   
  <div> 
-       <div className=" bg-HolyIslandCastle01092026 bg-cover h-[80vh] w-auto border-solid border-[#436A6b] border-8 pb-28"> {/*September block background*/}
+       <div className=" bg-HolyIslandCastle01092026 bg-cover h-[40vh] md:h-[60vh] lg:h-[80vh] w-auto border-solid border-[#436A6b] border-8 pb-28"> {/*September block background*/}
         <div className="text-[#E7E1F0] text-center font-semibold text-xl p-3 bg-[#8d6fb0] border-solid border-4 border-[#436A6b] m-2">September 2026</div>
           </div>
        
