@@ -204,6 +204,10 @@ export default function September2026() {
             We then had a pleasant lunch at the Crown and Anchor pub, before wandering over as far as the entrance to the castle, although we were unable to go inside the castle as disabled access is poor within the castle building itself. We had an enjoyable day and returned via the A1 and A69 back home.
             <br/>
             <br/>
+            We had a very enjoyable day, however it was <em>extremely</em> busy on Holy Island. Hopefully, when we next return, 
+            it will be in the quieter season and ideally we may be able to spend some time here when the day-trippers (like ourselves) have returned to the mainland and the tide is in....
+              <br/>
+            <br/>
            
             <div className="flex flex-col border-solid border-4 border-[#436A6b] bg-[#8d6fb0] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white  bg-[#8d6fb0]">
