@@ -14,10 +14,10 @@ export default function September2026() {
        
       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-[#436A6b] border-solid border-4 bg-[#c3b7bb]">
          <div className="text-md md:text-lg max-w-full font-bold text-[#E7E1F0]  text-center dark:text-[#244845] justify-center items-center">
-        <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 px-2 py-2 text-[#E7E1F0]  bg-[#8d6fb0]">1st - 30th September 2026.</div> 
+        <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 mt-4 px-2 py-2 text-[#E7E1F0]  bg-[#8d6fb0]">1st - 30th September 2026.</div> 
           <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-2 px-4 py-2 text-[#E7E1F0] bg-[#8d6fb0]">Welcome to our September 2026 blog.</div> 
         
-           <div className="pr-1 pl-1 pb-2 md:pr-1 md:pl-1 font-semibold text-left text-white dark:text-white">
+           <div className="pr-1 pl-1 pb-2 md:pr-1 md:pl-1 font-semibold md:text-left text-white dark:text-white">
             We start the month with Bernard's dad still being with us, so join us for our adventures with him to the Holy Island of Lindesfarne and Carlisle Cathedral.
            </div>       
            </div>          
@@ -27,7 +27,7 @@ export default function September2026() {
 
             <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-[#436A6b] border-solid border-4 bg-[#c3b7bb]">
          <div className="text-md md:text-lg max-w-full font-semibold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
-        <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 px-2 py-2 text-[#E7E1F0]  bg-[#8d6fb0]">1st September 2026.</div> 
+        <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 mt-4 px-2 py-2 text-[#E7E1F0]  bg-[#8d6fb0]">1st September 2026.</div> 
         <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 px-2 py-2 text-[#E7E1F0] bg-[#8d6fb0]">Whistle-stop tour of Northumberland and visit to the Holy Island of Lindisfarne.</div> 
         
            <div className="pr-1 pl-1 pb-2 md:pr-1 md:pl-1 font-semibold text-left text-[#E7E1F0] dark:text-[#E7E1F0]">
