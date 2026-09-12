@@ -35,6 +35,8 @@ const BlogMenuBar=()    => {
       <div className="text-center h-15 bg-gray-800 border-b border-gray-700 font-semibold p-4 hover:text-blue-300">
       <Link href="/dashboard/months/hwp2024" >Hadrian's Wall Path 2024</Link></div>
        <div className="text-center h-15 bg-gray-800 border-b border-gray-700 font-semibold p-4 hover:text-blue-300">
+      <Link href="/dashboard/menubars/blogmenubar2024" >2024 Blogs</Link></div>
+       <div className="text-center h-15 bg-gray-800 border-b border-gray-700 font-semibold p-4 hover:text-blue-300">
       <Link href="/dashboard/menubars/blogmenubar2025" >2025 Blogs</Link></div>
        <div className="text-center h-15 bg-gray-800 border-b border-gray-700 font-semibold p-4 hover:text-blue-300">
       <Link href="/dashboard/menubars/blogmenubar2026" >2026 Blogs</Link></div>
