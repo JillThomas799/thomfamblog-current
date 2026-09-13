@@ -17,7 +17,7 @@ export default function August2024() {
    
 <div>
     <div className=" bg-[#5A7833] border-solid border-2 border-[#22311d] mb-28"> {/*August block background*/}
-        <div className="text-[#9B5F38] text-center font-bold text-2xl p-3 bg-[#A5AE92] border-solid border-2 border-[#22311d] mt-8 mb-0 mr-4 ml-4">August 2025
+        <div className="text-[#9B5F38] text-center font-bold text-2xl p-3 bg-[#A5AE92] border-solid border-2 border-[#22311d] mt-8 mb-0 mr-4 ml-4">August 2024
         </div> {/*End of August month block*/}
        <div className="mb-[50vh] md:scale-125"><AugustCyclist /> </div>
        
@@ -27,7 +27,8 @@ export default function August2024() {
          <div className="text-md md:text-lg max-w-full font-bold bg-[#c6b363] text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12 mt-4"> 3rd August 2024, Saturday</div>
         <div className="font-bold border-solid border-[#5A7833] border-4 rounded-md mt-4 ml-6 mr-6 mb-4 py-4 bg-[#A5AE92]">   Stage 2 of our Hadrian's Wall Path Expedition successfully completed </div>
-        <div className="pr-3 pl-3 md:pr-10 md:pl-10 font-semibold text-center"> Today we successfully completed Stage 2 of our Hadrian's Wall Path
+        <div className="pr-3 pl-3 md:pr-10 md:pl-10 font-semibold text-center"> 
+            Today we successfully completed Stage 2 of our Hadrian's Wall Path
             Expedition, Newcastle Gateshead millennium Bridge to Tyne Riverside
             Country Park (1b): 8.7 miles (including a 1 mile detour to Denton
             Hall turret).
