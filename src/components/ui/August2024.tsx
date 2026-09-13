@@ -3,9 +3,10 @@ import Image from 'next/image'
 import blog2024 from '/public/imagesresized/blog2024.png';
 import WestminsterAbbeyTitled from '/public/imagesresized/WestminsterAbbeyTitled.jpg'; 
 import dinosaurrEvolutionTitled from '/public/imagesresized/dinosaurrEvolutionTitled.jpg';
-import Muncaster23082025Titled from '/public/imagesresized/Muncaster23082025Titled.jpg';
+import KitchenFloorAfterTitled from '/public/imagesresized/KitchenFloorAfterTitled.jpg';
 import HMSVictoryTitled from '/public/imagesresized/HMSVictoryTitled.jpg';
 import StonehengeTitled from '/public/imagesresized/StonehengeTitled.jpg'
+import Internment from '/public/imagesresized/Internment.jpg'
 import Link from 'next/link'
 
 
@@ -47,7 +48,7 @@ export default function August2024() {
          <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold py-2 px-12"> 5th August 2024, Saturday</div>
         <div className="font-bold border-solid border-[#5A7833] border-4 rounded-md mt-4 ml-6 mr-6 mb-4 py-4 bg-[#A5AE92]"> The kitchen tiling project reaches its conclusion...</div>
-        <div className="pr-3 pl-3 md:pr-10 md:pl-10 font-semibold text-center">
+        <div className="pr-3 pl-3 md:pr-10 md:pl-10 font-semibold text-left">
             For the past week we have been having the kitchen, associated
             utility and ensuite bathroom tiled. This was to have been one of
             next year's projects, but in order to ensure the desired tiles
@@ -70,68 +71,51 @@ export default function August2024() {
             <br />
             Today thankfully the tilers were completing the finishing touches
             and it is looking much better, so it has all been worth the effort.
-            Here are some of the before and after photos...
-           </div>
-          
-           <div className="flex flex-col border-solid border-4 border-[#5A7833] bg-[#A5AE92] pb-2 pt-2 mr-[12%] ml-[12%] mt-8 mb-12 justify-center text-center">
+                       
+            <div className="flex flex-col border-solid border-4 border-[#5A7833] bg-[#A5AE92] pb-2 pt-2 mr-[12%] ml-[12%] mt-8 mb-12 justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-bold block text-[#22311d] bg-[#A5AE92]">
               {" "}
-                <div className="m-1 p-1 font-bold  border-[#5A7833] border-solid border-4 bg-[#c6b363]">Click on the image below <br /> to open the album <br /> of our visit to Dinosaur rEvolution.</div>
+               <div className="m-1 p-1 font-bold  border-[#5A7833] border-solid border-4 bg-[#c6b363]">Click on the image below to open the album of some of our before and after photos...</div>
                 <br />
               <br />
               <Link
-                href="https://photos.app.goo.gl/V4FwmKFinH8QFXgFA"
+                href="https://photos.app.goo.gl/5wRG18JaeNLAmiWE7"
                 target="_blank"
               >
                 <Image
-                  src={ dinosaurrEvolutionTitled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[90%] lg:w-[55%] border-solid border-[#5A7833] border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of a dinosaur"
+                  src={ KitchenFloorAfterTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[90%] lg:w-[80%] border-solid border-[#5A7833] border-4 mt-1 mb-11"
+                  alt="Photo of Re-tiled Kitchen Floor."
                 />
               </Link>
             </div>{" "}
+           </div>
+           </div>
+          
+         
            </div>{/*End of individual dated entry photo album block*/} 
            </div>{/*End of individual dated entry design and color template block*/}
            </div>{/*End of individual dated entry block*/} 
-
-  <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2  bg-[#c6b363]">    
-         <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
-        <div className="font-bold py-2 px-12"> 23rd August 2025</div>
-        <div className="font-bold border-solid border-[#5A7833] border-4 rounded-md mt-4 ml-6 mr-6 mb-4 py-4 bg-[#A5AE92]">  Visit to Muncaster Castle, Cumbria</div>
-        <div className="pr-3 pl-3 md:pr-10 md:pl-10 font-semibold text-center">
-         
-           </div>
-         
-         
-           <div className="flex flex-col border-solid border-4 border-[#5A7833] bg-[#A5AE92] pb-2 pt-2 mr-[12%] ml-[12%] mt-8 mb-12 justify-center text-center">
-            <div className="mt-1 mb-1 sm:m-2 text-md font-bold block text-[#22311d] bg-[#A5AE92]">
-              {" "}
-               <div className="m-1 p-1 font-bold  border-[#5A7833] border-solid border-4 bg-[#c6b363]">Click on the image below to open the album of our visit to Muncaster Castle.</div>
-                <br />
-              <br />
-              <Link
-                href="https://photos.app.goo.gl/FR3yamUJ5JP7wwyC7"
-                target="_blank"
-              >
-                <Image
-                  src={ Muncaster23082025Titled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[90%] lg:w-[65%] border-solid border-[#5A7833] border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of Muncaster Castle"
-                />
-              </Link>
-            </div>{" "}
-      
-           </div> {/*End of individual dated entry photo album block*/}     
-     </div>  {/*End of individual dated entry design and color template block*/}
-     </div>  {/*End of individual dated entry block*/}
-
-
-
+ 
 
 <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2  bg-[#c6b363]">
          <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
-        <div className="font-bold py-2 px-12"> 29th August - 3rd September 2025</div>
-        <div className="font-bold border-solid border-[#5A7833] border-4 rounded-md mt-4 ml-6 mr-6 mb-4 pr-4 pl-4 py-4 bg-[#A5AE92]">Holiday in Portsmouth: 5 nights in Southsea to visit Portsmouth Historic Dockyard, Stonehenge and Winchester.</div>
+        <div className="font-bold py-2 px-12"> 5th - 7th August 2024, Monday - Wednesday</div>
+        <div className="font-bold border-solid border-[#5A7833] border-4 rounded-md mt-4 ml-6 mr-6 mb-4 pr-4 pl-4 py-4 bg-[#A5AE92]"> Journey down South to attend to some matters of importance and to
+          visit relatives</div>           
+             <div className="pr-3 pl-3 md:pr-10 md:pl-10 font-semibold text-left">
+            We had to go down South today as there were some matters which
+            needed attending to down there. However, it was a good opportunity
+            to visit and meet with a number of relatives on both sides of the
+            family.</div>
+            <br />
+            <br />
+             <Image
+                  src={ Internment }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[90%] lg:w-[80%] border-solid border-[#5A7833] border-4 mt-1 mb-11"
+                  alt="Photo of Bernard's mum's internment."
+                />
+
         </div> {/*End of individual dated entry design and color template block*/}
         </div> {/*End of individual dated entry block*/}
 
@@ -201,15 +185,10 @@ export default function August2024() {
             </div>{" "}
          </div>  {/*End of news content block*/}  
          </div> {/*End of individual dated entry design and color template block*/}
-         </div> {/*End of individual dated entry block*/}
-
-            
-
-     
-
-
+         </div> {/*End of individual dated entry block*/}  
   
-     </div> {/*End of August block*/}
+     
+     
      
       </div>
        </div>
