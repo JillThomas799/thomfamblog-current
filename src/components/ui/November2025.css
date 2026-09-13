@@ -18,7 +18,10 @@
   display: flex;
   flex-direction: column;
   font-size: 1.2rem;
-  font-family: Calibri, Trebuchet MS, sans-serif;
+  font-family:
+    Calibri,
+    Trebuchet MS,
+    sans-serif;
   overflow: hidden;
   border: #b55b4b 12px solid;
 }
@@ -29,16 +32,62 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  box-shadow: 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
-    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
-    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
-    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
-    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
-    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
-    0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff,
-    0 0 #fff, 0 0 #fff, 0 0 #fff;
-  animation: 1s bang ease-out infinite backwards,
-    1s gravity ease-in infinite backwards, 5s position linear infinite backwards;
+  box-shadow:
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff,
+    0 0 #fff;
+  animation:
+    1s bang ease-out infinite backwards,
+    1s gravity ease-in infinite backwards,
+    5s position linear infinite backwards;
 }
 .FireworkContainer .pyro > .after {
   animation-delay: 1.25s, 1.25s, 1.25s;
@@ -46,7 +95,8 @@
 }
 @keyframes bang {
   to {
-    box-shadow: -241px -137.6666666667px hsl(195, 100%, 50%),
+    box-shadow:
+      -241px -137.6666666667px hsl(195, 100%, 50%),
       -171px 71.3333333333px hsl(162, 100%, 50%),
       195px -271.6666666667px hsl(47, 100%, 50%),
       -173px -260.6666666667px hsl(51, 100%, 50%),
