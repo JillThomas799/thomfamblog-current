@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import BernardWheelchairTitled from '/public/imagesresized/BernardWheelchairTitled.jpg';
+import CarlisleCathedralEastWindowTitled from '/public/imagesresized/CarlisleCathedralEastWindowTitled.jpg';
 
 
 
@@ -229,6 +230,72 @@ export default function September2026() {
             </div>
            </div>       
            </div>          
+           </div>
+
+
+
+
+           <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-[#436A6b] border-solid border-4 bg-[#afa488]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+        <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 mt-4 px-2 py-2 text-[#E7E1F0]  bg-[#8d6fb0]">2nd September 2026.</div> 
+        <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 px-2 py-2 text-[#E7E1F0] bg-[#8d6fb0]">Bernard's dad has the opportunity to discover Carlisle, including the cathedral.</div> 
+        
+           <div className="pr-1 pl-1 pb-2 md:pr-1 md:pl-1 font-semibold text-left text-white dark:text-white">
+            <div className="text-left">
+              Bernard's dad had never had the opportunity to visit Carlisle, so today we headed over to one of our favourite places for taking visitors, Carlisle cathedral.
+              <br/>
+            <br/>
+             <div className="bg-[#8EA6A6]">
+               <div className="bg-[rgb(67,106,107)] text-white text-center font-semibold p-1 md:p-6 border-[#f5f5f5] border-solid border-2">HISTORY OF CARLISLE CATHEDRAL</div>
+               <div className="text-left md:text-left text-white md:font-semibold  p-1 md:p-6  border-2 md:border-4 border-solid border-[#786d68]">
+           Carlisle Cathedral is England’s only medieval Augustinian cathedral. It has a long and turbulent history. It started life as a Norman Priory Church in 1122, during the reign of King Henry I, as a community of Canons Regular. Initially it was a monastic church, built possibly on the foundations of an earlier church, in the Norman architectural style – ie. with solid masonry, large round piers, round arches and smallish round-headed windows.
+            <br/>
+            <br/>
+            These features may still be seen in the south transept and the remaining two bays of the nave, which are now used as the Chapel of the Duke of Lancaster’s Regiment. Many large churches of Augustinian foundation were built in England during this period as the Archbishop of Canterbury, William de Corbeil, was a member of the order. Carlisle was the only Augustinian Priory that also served as a Cathedral before the Reformation.
+            <br/>
+            <br/>
+            The Canons followed a strict form of the canonical life, influenced by the ascetic practices of the Cistercians. Moderation in all things but strong sense of fraternity and community – values that endure within the Chapter to this day.
+            </div>
+            </div>
+            <br/>
+            <br/>
+                      
+           The cathedral has a number of highlights. Below are just a few:
+           <ul>
+              <li className="list-disc text-left ml-[40%]">East Window</li>
+                <li className="list-disc text-left ml-[40%]">Cathedral Ceiling</li>
+                  <li className="list-disc text-left ml-[40%]">Brougham Triptych</li>
+                    <li className="list-disc text-left ml-[40%]">Medieval Painted Panels</li>
+                    <li className="list-disc text-left ml-[40%]">Regimental Chapel</li>
+                    <li className="list-disc text-left ml-[40%]">Salkeld Screen</li>
+                    <li className="list-disc text-left ml-[40%]">Runic Inscriptions</li>
+                    <li className="list-disc text-left ml-[40%]">The Treasury</li>
+                        <li className="list-disc text-left ml-[40%]">The Cathedral Library</li>
+                              </ul>
+            <br/>
+            <br/>
+           
+            <div className="flex flex-col border-solid border-4 border-[#436A6b] bg-[#8d6fb0] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white  bg-[#8d6fb0]">
+              {" "}
+                <div className="m-1 p-1 font-semibold  border-[#436A6b] border-solid border-4 bg-[#c4b5d8]">To discover more about Carlisle cathedral and its treasure and to see how we got on, please open the album of our visit to Carlisle and Carlisle cathedral with Bernard's dad by clicking on the image below.</div>
+                <br />
+              <br />
+              <Link
+                href="https://photos.app.goo.gl/KfXp8dJ5rNGD724q6"
+                target="_blank"
+              >
+                <Image
+                  src={ CarlisleCathedralEastWindowTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[70%] border-solid border-[#436A6b] border-4 mt-1 mb-11 "
+                  alt="Photo of East WIndow of Carlisle Cathedral."
+                />
+              </Link>
+            </div>
+            </div>
+           </div>       
+           </div>          
+           </div>
            </div>
           
             </div> 
