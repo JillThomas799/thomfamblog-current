@@ -6,7 +6,7 @@ export default function Cyclistaugustheader() {
     <div>
       <div id="AugustHeader">
         <span id="AugustTitle">August 2024</span>
-        <div class="bikeRiding">
+        <div className="bikeRiding">
           <div className="clouds"></div>
           <div className="shadow"></div>
           <div className="cyclist">

@@ -1,31 +1,34 @@
+'use client'
+import Image from 'next/image'
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import Link from 'next/link'
 import "./August2024.css";
 import Cyclistaugustheader from "./cyclistaugustheader";
 import Caerleon13082024 from "/public/imagesresized/Caerleon13082024.jpg";
 import LennieAtHome from "/public/imagesresized/LennieAtHome.jpg";
 import JillPenarthPier from "/public/imagesresized/JillPenarthPier.jpg";
 import BernardHarryPenarthPier from "/public/imagesresized/BernardHarryPenarthPier.jpg";
-import AneurinBevan from "./imagesresized/AneurinBevan.jpg";
-import PenarthPier from "./imagesresized/PenarthPier.jpg";
-import MumblesCastellCoch from "./imagesresized/MumblesCastellCoch.jpg";
-import KitchenFloorBefore from "./imagesresized/KitchenFloorBefore.jpg";
-import KitchenFloor2 from "./imagesresized/KitchenFloor2.jpg";
-import KitchenWallNew from "./imagesresized/KitchenWallNew.jpg";
-import KitchenFloorAfter from "./imagesresized/KitchenFloorAfter.jpg";
-import Internment from "./imagesresized/Internment.jpg";
-import ElenaGarden1 from "./imagesresized/ElenaGarden1.jpg";
-import ElenaGarden4 from "./imagesresized/ElenaGarden4.jpg";
-import ElenaGarden5 from "./imagesresized/ElenaGarden5.jpg";
-import ElenaGarden7 from "./imagesresized/ElenaGarden7.jpg";
-import MoorDivockPooleyBridge from "./imagesresized/MoorDivockPooleyBridge.jpg";
-import SummitLoadPotJill from "./imagesresized/SummitLoadPotJill.jpg";
-import LoneRangerLoadPot from "./imagesresized/LoneRangerLoadPot.jpg";
-import EHRomanHighStreet from "./imagesresized/EHRomanHighStreet.jpg";
-import FinalAscent from "./imagesresized/FinalAscent.jpg";
-import AscentFusedale from "./imagesresized/AscentFusedale.jpg";
-import PooleyJetty from "./imagesresized/PooleyJetty.jpg";
-import LunchFusedale from "./imagesresized/LunchFusedale.jpg";
+import AneurinBevan from "/public/imagesresized/AneurinBevan.jpg";
+import PenarthPier from "/public/imagesresized/PenarthPier.jpg";
+import MumblesCastellCoch from "/public/imagesresized/MumblesCastellCoch.jpg";
+import KitchenFloorBefore from "/public/imagesresized/KitchenFloorBefore.jpg";
+import KitchenFloor2 from "/public/imagesresized/KitchenFloor2.jpg";
+import KitchenWallNew from "/public/imagesresized/KitchenWallNew.jpg";
+import KitchenFloorAfter from "/public/imagesresized/KitchenFloorAfter.jpg";
+import Internment from "/public/imagesresized/Internment.jpg";
+import ElenaGarden1 from "/public/imagesresized/ElenaGarden1.jpg";
+import ElenaGarden4 from "/public/imagesresized/ElenaGarden4.jpg";
+import ElenaGarden5 from "/public/imagesresized/ElenaGarden5.jpg";
+import ElenaGarden7 from "/public/imagesresized/ElenaGarden7.jpg";
+import MoorDivockPooleyBridge from "/public/imagesresized/MoorDivockPooleyBridge.jpg";
+import SummitLoadPotJill from "/public/imagesresized/SummitLoadPotJill.jpg";
+import LoneRangerLoadPot from "/public/imagesresized/LoneRangerLoadPot.jpg";
+import EHRomanHighStreet from "/public/imagesresized/EHRomanHighStreet.jpg";
+import FinalAscent from "/public/imagesresized/FinalAscent.jpg";
+import AscentFusedale from "/public/imagesresized/AscentFusedale.jpg";
+import PooleyJetty from "/public/imagesresized/PooleyJetty.jpg";
+import LunchFusedale from "/public/imagesresized/LunchFusedale.jpg";
 
 export default function August2024() {
   return (
@@ -42,11 +45,11 @@ export default function August2024() {
         <div className="cloudCyclist"></div>
       </div>
       <div id="AugustHeader">
-        <button id="backbuttonAugust">
-          <Link to="/" className="backbuttonLink" style={{ color: "black" }}>
+        {/* <button id="backbuttonAugust">
+          <Link href="/" className="backbuttonLink" style={{ color: "black" }}>
             Back
           </Link>
-        </button>
+        </button> */}
         <Cyclistaugustheader />
       </div>
       <div className="datenewsDivAugust">
@@ -67,7 +70,7 @@ export default function August2024() {
             For all the information about this trip for today and for the
             previous and remaining stages over the forthcoming weeks and months,
             please come and join us at our
-            <Link to="/hwp2024" className="LinkAugust">
+            <Link href="./hwp2024" className="LinkAugust">
               {" "}
               Hadrian's Wall Path Expedition page{" "}
             </Link>{" "}
@@ -110,7 +113,7 @@ export default function August2024() {
             <div className="blogPhotoDivAugust">
               <figure>
                 <section className="blogPhotoAugust">
-                  <img src={KitchenFloorBefore} alt="" />
+                  <Image src={KitchenFloorBefore} alt="" />
                   <figcaption className="augustFigCaption">
                     <strong>Kitchen floor and wall tiles - BEFORE</strong>
                   </figcaption>
@@ -118,7 +121,7 @@ export default function August2024() {
               </figure>
               <figure>
                 <section className="blogPhotoAugust">
-                  <img src={KitchenFloor2} alt="" />
+                  <Image src={KitchenFloor2} alt="" />
                   <figcaption className="augustFigCaption">
                     <strong>
                       Kitchen floor with the <br /> old tiles removed and <br />{" "}
@@ -129,7 +132,7 @@ export default function August2024() {
               </figure>
               <figure>
                 <section className="blogPhotoAugust">
-                  <img src={KitchenWallNew} alt="" />
+                  <Image src={KitchenWallNew} alt="" />
                   <figcaption className="augustFigCaption">
                     <strong>
                       Kitchen wall tiles - in the <br /> process of being laid
@@ -139,7 +142,7 @@ export default function August2024() {
               </figure>
               <figure>
                 <section className="blogPhotoAugust">
-                  <img src={KitchenFloorAfter} alt="" />
+                  <Image src={KitchenFloorAfter} alt="" />
                   <figcaption className="augustFigCaption">
                     <strong>Kitchen floor and wall tiles - AFTER</strong>
                   </figcaption>
@@ -169,7 +172,7 @@ export default function August2024() {
             <br />
             <figure>
               <section className="blogPhoto1August">
-                <img src={Internment} alt="" />
+                <Image src={Internment} alt="" />
                 <figcaption className="augustFigCaption">
                   <strong style={{ color: "black" }}>
                     The Thomas family plus one <br /> additional non-family
@@ -206,7 +209,7 @@ export default function August2024() {
             <div className="blogPhotoDivAugust">
               <figure>
                 <section className="blogPhotoAugust">
-                  <img src={ElenaGarden1} alt="" />
+                  <Image src={ElenaGarden1} alt="" />
                   <figcaption className="augustFigCaption">
                     <strong>Elena's raised beds(1)</strong>
                   </figcaption>
@@ -214,7 +217,7 @@ export default function August2024() {
               </figure>
               <figure>
                 <section className="blogPhotoAugust">
-                  <img src={ElenaGarden4} alt="" />
+                  <Image src={ElenaGarden4} alt="" />
                   <figcaption className="augustFigCaption">
                     <strong>Elena's raised beds(2)</strong>
                   </figcaption>
@@ -222,7 +225,7 @@ export default function August2024() {
               </figure>
               <figure>
                 <section className="blogPhotoAugust">
-                  <img src={ElenaGarden5} alt="" />
+                  <Image src={ElenaGarden5} alt="" />
                   <figcaption className="augustFigCaption">
                     <strong></strong>Elena's Raised beds (3)
                   </figcaption>
@@ -230,7 +233,7 @@ export default function August2024() {
               </figure>
               <figure>
                 <section className="blogPhotoAugust">
-                  <img src={ElenaGarden7} alt="" />
+                  <Image src={ElenaGarden7} alt="" />
                   <figcaption className="augustFigCaption">
                     <strong></strong>Elena's Raised beds (4)
                   </figcaption>
@@ -257,7 +260,7 @@ export default function August2024() {
             For all the information about this trip for today and for the
             previous and remaining stages over the forthcoming weeks and months,
             please come and join us at our
-            <Link to="/hwp2024" className="LinkAugust">
+            <Link href="/hwp2024" className="LinkAugust">
               {" "}
               Hadrian's Wall Path Expedition page{" "}
             </Link>{" "}
@@ -291,7 +294,7 @@ export default function August2024() {
               before the busy week to come. <br /> <br />
               <figure>
                 <section className="blogPhoto1August">
-                  <img src={LennieAtHome} alt="" />
+                  <Image src={LennieAtHome} alt="" />
                   <figcaption className="augustFigCaption">
                     <strong style={{ color: "black" }}>
                       Lennie, happy at home back in Cumbria
@@ -307,7 +310,7 @@ export default function August2024() {
               </li>{" "}
               Today we set off for Caerleon, near Newport, to go and visit the{" "}
               <Link
-                to="https://museum.wales/roman/"
+                href="https://museum.wales/roman/"
                 target="_blank"
                 className="LinkAugust"
               >
@@ -315,7 +318,7 @@ export default function August2024() {
               </Link>{" "}
               ,{" "}
               <Link
-                to="https://cadw.gov.wales/visit/places-to-visit/caerleon-roman-fortress-and-baths"
+                href="https://cadw.gov.wales/visit/places-to-visit/caerleon-roman-fortress-and-baths"
                 target="_blank"
                 className="LinkAugust"
               >
@@ -323,7 +326,7 @@ export default function August2024() {
               </Link>{" "}
               and{" "}
               <Link
-                to="https://cadw.gov.wales/visit/places-to-visit/caerleon-amphitheatre"
+                href="https://cadw.gov.wales/visit/places-to-visit/caerleon-amphitheatre"
                 target="_blank"
                 className="LinkAugust"
               >
@@ -369,7 +372,7 @@ export default function August2024() {
               In the afternoon, it was a short drive down to the coast at
               Newport to see the{" "}
               <Link
-                to="https://naturalresources.wales/days-out/places-to-visit/south-east-wales/newport-wetlands-national-nature-reserve/?lang=en"
+                href="https://naturalresources.wales/days-out/places-to-visit/south-east-wales/newport-wetlands-national-nature-reserve/?lang=en"
                 target="_blank"
                 className="LinkAugust"
               >
@@ -408,10 +411,10 @@ export default function August2024() {
               photos of day 2 of the holiday.
               <figure>
                 <Link
-                  to="https://photos.app.goo.gl/wbuncLw4Lh6Hx3Js5"
+                  href="https://photos.app.goo.gl/wbuncLw4Lh6Hx3Js5"
                   target="_blank"
                 >
-                  <img
+                  <Image
                     className="slideshowentryAugust"
                     src={Caerleon13082024}
                     alt=""
@@ -431,7 +434,7 @@ export default function August2024() {
               <div className="blogPhotoDivAugust">
                 <figure>
                   <section className="blogPhotoAugust">
-                    <img src={JillPenarthPier} alt="" />
+                    <Image src={JillPenarthPier} alt="" />
                     <figcaption className="augustFigCaption">
                       <strong>Jill on Penarth pier...</strong>
                     </figcaption>
@@ -439,7 +442,7 @@ export default function August2024() {
                 </figure>
                 <figure>
                   <section className="blogPhotoAugust">
-                    <img src={BernardHarryPenarthPier} alt="" />
+                    <Image src={BernardHarryPenarthPier} alt="" />
                     <figcaption className="augustFigCaption">
                       ...and also Harry <br /> and Bernard.<strong></strong>
                     </figcaption>
@@ -447,7 +450,7 @@ export default function August2024() {
                 </figure>
                 <figure>
                   <section className="blogPhotoAugust">
-                    <img src={PenarthPier} alt="" />
+                    <Image src={PenarthPier} alt="" />
                     <figcaption className="augustFigCaption">
                       <strong>
                         The pier was very quiet as the weather was not great,
@@ -458,7 +461,7 @@ export default function August2024() {
                 </figure>
                 <figure>
                   <section className="blogPhotoAugust">
-                    <img src={AneurinBevan} alt="" />
+                    <Image src={AneurinBevan} alt="" />
                     <figcaption className="augustFigCaption">
                       <strong>
                         Then into Cardiff in the afternoon to say hello to{" "}
@@ -478,7 +481,7 @@ export default function August2024() {
               journey, so we decided to revisit the Mumbles near Swansea in the
               morning and then to drive over to visit{" "}
               <Link
-                to="https://cadw.gov.wales/visit/places-to-visit/castell-coch"
+                href="https://cadw.gov.wales/visit/places-to-visit/castell-coch"
                 target="_blank"
                 title="Click here to discover more about Coch Castle"
                 className="LinkAugust"
@@ -501,7 +504,7 @@ export default function August2024() {
               accessed at low tide. However, people often get into problems when
               choosing to access these islands as this{" "}
               <Link
-                to="https://rnli.org/news-and-media/2024/august/12/float-to-live-helps-save-man-at-mumbles-lighthouse"
+                href="https://rnli.org/news-and-media/2024/august/12/float-to-live-helps-save-man-at-mumbles-lighthouse"
                 target="_blank"
                 className="LinkAugust"
               >
@@ -521,7 +524,7 @@ export default function August2024() {
               <br />
               There are also numerous places to eat. We chose{" "}
               <Link
-                to="https://www.verdis-cafe.co.uk/"
+                href="https://www.verdis-cafe.co.uk/"
                 target="_blank"
                 className="LinkAugust"
               >
@@ -543,7 +546,7 @@ export default function August2024() {
               wealthy Marquess of Bute who had inherited a fortune made from the
               industrial growth of South Wales, commissioned{" "}
               <Link
-                to="https://en.wikipedia.org/wiki/William_Burges"
+                href="https://en.wikipedia.org/wiki/William_Burges"
                 target="_blank"
                 className="LinkAugust"
               >
@@ -565,10 +568,10 @@ export default function August2024() {
               selected photos of day 4 of the holiday.
               <figure>
                 <Link
-                  to="https://photos.app.goo.gl/wfxJEfiXTYWePDxk7"
+                  href="https://photos.app.goo.gl/wfxJEfiXTYWePDxk7"
                   target="_blank"
                 >
-                  <img
+                  <Image
                     className="slideshowentryAugust"
                     src={MumblesCastellCoch}
                     alt=""
@@ -599,7 +602,7 @@ export default function August2024() {
             {" "}
             IMPORTANT DAY TODAY! - Harry's scientific paper is published in the{" "}
             <Link
-              to="https://www.rsc.org/journals-books-databases/about-journals/catalysis-science-technology/"
+              href="https://www.rsc.org/journals-books-databases/about-journals/catalysis-science-technology/"
               target="_blank"
               title="Click here to read more about the Catalysis Science and Technology Journal"
               className="LinkAugust"
@@ -619,7 +622,7 @@ export default function August2024() {
               A really special and important day today as Harry heard that the
               scientific paper he has been working on has been published in the{" "}
               <Link
-                to="https://www.rsc.org/journals-books-databases/about-journals/catalysis-science-technology/"
+                href="https://www.rsc.org/journals-books-databases/about-journals/catalysis-science-technology/"
                 target="_blank"
                 title="Click here to read more about the Catalysis Science and Technology Journal"
                 className="LinkAugust"
@@ -631,7 +634,7 @@ export default function August2024() {
               this repute is no small achievement. Harry is the first named
               author and the paper can be accessed by clicking on this link{" "}
               <Link
-                to="https://pubs.rsc.org/en/content/articlelanding/2024/cy/d4cy00284a"
+                href="https://pubs.rsc.org/en/content/articlelanding/2024/cy/d4cy00284a"
                 target="_blank"
                 className="LinkAugust"
               >
@@ -664,7 +667,7 @@ export default function August2024() {
               For all the information about this trip for today and for the
               previous and remaining stages over the forthcoming weeks and
               months, please come and join us at our
-              <Link to="/hwp2024" className="LinkAugust">
+              <Link href="/hwp2024" className="LinkAugust">
                 {" "}
                 Hadrian's Wall Path Expedition page{" "}
               </Link>{" "}
@@ -693,7 +696,7 @@ export default function August2024() {
               For all the information about this trip for today and for the
               previous and remaining stages over the forthcoming weeks and
               months, please come and join us at our
-              <Link to="/hwp2024" className="LinkAugust">
+              <Link href="/hwp2024" className="LinkAugust">
                 {" "}
                 Hadrian's Wall Path Expedition page{" "}
               </Link>{" "}
@@ -796,7 +799,7 @@ export default function August2024() {
           <div className="blogPhotoDivAugustColumn">
             <figure>
               <section className="blogPhotoAugust">
-                <img src={PooleyJetty} alt="" />
+                <Image src={PooleyJetty} alt="" />
                 <figcaption className="augustFigCaption">
                   <strong>
                     Safely arrived at Pooley Bridge Jetty <br /> ....waiting for
@@ -807,7 +810,7 @@ export default function August2024() {
             </figure>
             <figure>
               <section className="blogPhotoAugust">
-                <img src={AscentFusedale} alt="" />
+                <Image src={AscentFusedale} alt="" />
                 <figcaption className="augustFigCaption">
                   <strong>
                     Ascending Fusedale above the beck, <br /> even Harry is
@@ -818,7 +821,7 @@ export default function August2024() {
             </figure>
             <figure>
               <section className="blogPhotoAugust">
-                <img src={LunchFusedale} alt="" />
+                <Image src={LunchFusedale} alt="" />
                 <figcaption className="augustFigCaption">
                   Decided to have lunch just before we reached the summit
                   ridge...
@@ -829,7 +832,7 @@ export default function August2024() {
             </figure>
             <figure>
               <section className="blogPhotoAugust">
-                <img src={FinalAscent} alt="" />
+                <Image src={FinalAscent} alt="" />
                 <figcaption className="augustFigCaption">
                   The final steep ascent from Fusedale <br /> up on to High
                   Street Roman Road, <br /> need I say more....
@@ -841,7 +844,7 @@ export default function August2024() {
           <div className="blogPhotoDivAugustColumn">
             <figure>
               <section className="blogPhotoAugust">
-                <img src={EHRomanHighStreet} alt="" />
+                <Image src={EHRomanHighStreet} alt="" />
                 <figcaption className="augustFigCaption">
                   <strong>
                     Elena and Harry now successfully <br /> up on High Street
@@ -852,7 +855,7 @@ export default function August2024() {
             </figure>
             <figure>
               <section className="blogPhotoAugust">
-                <img src={LoneRangerLoadPot} alt="" />
+                <Image src={LoneRangerLoadPot} alt="" />
                 <figcaption className="augustFigCaption">
                   <strong>
                     The Lone Ranger or Last Man Standing.....
@@ -863,7 +866,7 @@ export default function August2024() {
             </figure>
             <figure>
               <section className="blogPhotoAugust">
-                <img src={SummitLoadPotJill} alt="" />
+                <Image src={SummitLoadPotJill} alt="" />
                 <figcaption className="augustFigCaption">
                   <strong>
                     Jill has made it to the summit of Load Pot Hill....
@@ -873,7 +876,7 @@ export default function August2024() {
             </figure>
             <figure>
               <section className="blogPhotoAugust">
-                <img src={MoorDivockPooleyBridge} alt="" />
+                <Image src={MoorDivockPooleyBridge} alt="" />
                 <figcaption className="augustFigCaption">
                   <strong>
                     After many miles walking, Jill still smiling <br /> on the
