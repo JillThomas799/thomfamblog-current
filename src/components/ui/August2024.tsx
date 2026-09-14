@@ -44,7 +44,7 @@ export default function August2024() {
         <div className="cloudCyclist"></div>
         <div className="cloudCyclist"></div>
       </div>
-      <div id="AugustHeader">
+      <div>
         {/* <button id="backbuttonAugust">
           <Link href="/" className="backbuttonLink" style={{ color: "black" }}>
             Back

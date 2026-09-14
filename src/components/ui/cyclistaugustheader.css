@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100vw;
+  width: 50vw;
   top: 0px;
   background-image: radial-gradient(
     circle closest-corner at 10% 30%,
@@ -24,8 +24,8 @@
   font-weight: bold;
   color: gray;
   font-size: 1.75rem;
-  position: absolute;
-  top: 30%;
+  position: relative;
+  /* top: 30%; */
 }
 
 .bikeRiding {
@@ -182,11 +182,11 @@
 
 .shadow {
   position: absolute;
-  width: 1520px;
+  width: 50vw;
   height: 20px;
   background-color: rgba(90, 83, 72);
   top: 485px;
-  left: -600px;
+  left: -300px;
   border-radius: 10px;
   -webkit-animation: scale 2s linear reverse infinite;
   animation: scale 2s linear reverse infinite;
@@ -742,7 +742,7 @@
 
   .shadow {
     position: absolute;
-    width: 300px;
+    width: 600px;
     height: 20px;
     background-color: rgba(90, 83, 72);
     top: 490px;

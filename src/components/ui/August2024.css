@@ -1,42 +1,3 @@
-.August2024header {
-  display: block;
-  text-align: center;
-  font-size: 1.75em;
-  font-weight: bold;
-  width: 100vw;
-  height: auto;
-  position: absolute;
-}
-
-.LinkAugust2024 {
-  color: blueviolet;
-}
-
-#backbuttonAugust {
-  display: block;
-  position: absolute;
-  height: 50px;
-  width: 15%;
-  background-color: #ffd437;
-  border: grey 2px solid;
-  text-align: center;
-  font-size: large;
-  font-weight: bold;
-  color: white;
-  top: 10%;
-  text-decoration: underline;
-  margin: 5% 25% 5% 75%;
-  -webkit-border-radius: 15%;
-  -moz-border-radius: 15%;
-  -ms-border-radius: 15%;
-  -o-border-radius: 15%;
-  border-radius: 15%;
-}
-
-.backbuttonLink {
-  color: white;
-}
-
 h2 {
   text-align: center;
 }
@@ -210,6 +171,7 @@ ul li {
   margin-bottom: 0vh;
   padding-top: 10vh;
   padding-bottom: 5vh;
+  color: black;
 }
 
 .blogPhoto1August img {
@@ -410,7 +372,7 @@ ul li {
     -moz-transform: translate(500px, 0);
     -ms-transform: translate(500px, 0);
     -o-transform: translate(500px, 0);
-    transform: translate(500px, 0);
+    transform: translate(300px, 0);
   }
 }
 .allcloudCyclist {
