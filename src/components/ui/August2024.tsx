@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./August2024.css";
-import Cyclistaugustheader from "components/cyclistaugustheader";
-import Caerleon13082024 from "./imagesresized/Caerleon13082024.jpg";
-import LennieAtHome from "./imagesresized/LennieAtHome.jpg";
-import JillPenarthPier from "./imagesresized/JillPenarthPier.jpg";
-import BernardHarryPenarthPier from "./imagesresized/BernardHarryPenarthPier.jpg";
+import Cyclistaugustheader from "./cyclistaugustheader";
+import Caerleon13082024 from "/public/imagesresized/Caerleon13082024.jpg";
+import LennieAtHome from "/public/imagesresized/LennieAtHome.jpg";
+import JillPenarthPier from "/public/imagesresized/JillPenarthPier.jpg";
+import BernardHarryPenarthPier from "/public/imagesresized/BernardHarryPenarthPier.jpg";
 import AneurinBevan from "./imagesresized/AneurinBevan.jpg";
 import PenarthPier from "./imagesresized/PenarthPier.jpg";
 import MumblesCastellCoch from "./imagesresized/MumblesCastellCoch.jpg";
