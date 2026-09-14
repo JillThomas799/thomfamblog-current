@@ -1,33 +1,63 @@
-import AugustCyclist from '@/components/ui/augustcyclist'
-import Image from 'next/image'
-import blog2024 from '/public/imagesresized/blog2024.png';
-import WestminsterAbbeyTitled from '/public/imagesresized/WestminsterAbbeyTitled.jpg'; 
-import dinosaurrEvolutionTitled from '/public/imagesresized/dinosaurrEvolutionTitled.jpg';
-import KitchenFloorAfterTitled from '/public/imagesresized/KitchenFloorAfterTitled.jpg';
-import HMSVictoryTitled from '/public/imagesresized/HMSVictoryTitled.jpg';
-import StonehengeTitled from '/public/imagesresized/StonehengeTitled.jpg'
-import Internment from '/public/imagesresized/Internment.jpg'
-import Link from 'next/link'
-
-
+import React from "react";
+import { Link } from "react-router-dom";
+import "./August2024.css";
+import Cyclistaugustheader from "components/cyclistaugustheader";
+import Caerleon13082024 from "./imagesresized/Caerleon13082024.jpg";
+import LennieAtHome from "./imagesresized/LennieAtHome.jpg";
+import JillPenarthPier from "./imagesresized/JillPenarthPier.jpg";
+import BernardHarryPenarthPier from "./imagesresized/BernardHarryPenarthPier.jpg";
+import AneurinBevan from "./imagesresized/AneurinBevan.jpg";
+import PenarthPier from "./imagesresized/PenarthPier.jpg";
+import MumblesCastellCoch from "./imagesresized/MumblesCastellCoch.jpg";
+import KitchenFloorBefore from "./imagesresized/KitchenFloorBefore.jpg";
+import KitchenFloor2 from "./imagesresized/KitchenFloor2.jpg";
+import KitchenWallNew from "./imagesresized/KitchenWallNew.jpg";
+import KitchenFloorAfter from "./imagesresized/KitchenFloorAfter.jpg";
+import Internment from "./imagesresized/Internment.jpg";
+import ElenaGarden1 from "./imagesresized/ElenaGarden1.jpg";
+import ElenaGarden4 from "./imagesresized/ElenaGarden4.jpg";
+import ElenaGarden5 from "./imagesresized/ElenaGarden5.jpg";
+import ElenaGarden7 from "./imagesresized/ElenaGarden7.jpg";
+import MoorDivockPooleyBridge from "./imagesresized/MoorDivockPooleyBridge.jpg";
+import SummitLoadPotJill from "./imagesresized/SummitLoadPotJill.jpg";
+import LoneRangerLoadPot from "./imagesresized/LoneRangerLoadPot.jpg";
+import EHRomanHighStreet from "./imagesresized/EHRomanHighStreet.jpg";
+import FinalAscent from "./imagesresized/FinalAscent.jpg";
+import AscentFusedale from "./imagesresized/AscentFusedale.jpg";
+import PooleyJetty from "./imagesresized/PooleyJetty.jpg";
+import LunchFusedale from "./imagesresized/LunchFusedale.jpg";
 
 export default function August2024() {
-
   return (
-   
-<div>
-    <div className=" bg-[#5A7833] border-solid border-2 border-[#22311d] mb-28"> {/*August block background*/}
-        <div className="text-[#9B5F38] text-center font-bold text-2xl p-3 bg-[#A5AE92] border-solid border-2 border-[#22311d] mt-8 mb-0 mr-4 ml-4">August 2024
-        </div> {/*End of August month block*/}
-       <div className="mb-[50vh] md:scale-125"><AugustCyclist /> </div>
-       
-
- <div className="mb-20">
-      <div className="flex flex-col max-w-full leading-1.5  sm:p-2 md:p-2 lg:p-2 m-4 bg-[#c6b363]]">
-         <div className="text-md md:text-lg max-w-full font-bold bg-[#c6b363] text-[#244845] text-center dark:text-[#244845] justify-center items-center">
-        <div className="font-bold py-2 px-12 mt-4"> 3rd August 2024, Saturday</div>
-        <div className="font-bold border-solid border-[#5A7833] border-4 rounded-md mt-4 ml-6 mr-6 mb-4 py-4 bg-[#A5AE92]">   Stage 2 of our Hadrian's Wall Path Expedition successfully completed </div>
-        <div className="pr-3 pl-3 md:pr-10 md:pl-10 font-semibold text-center"> 
+    <div>
+      <div className="allcloudCyclist">
+        <div className="cloudCyclist"></div>
+        <div className="cloudCyclist"></div>
+        <div className="cloudCyclist"></div>
+        <div className="cloudCyclist"></div>
+        <div className="cloudCyclist"></div>
+        <div className="cloudCyclist"></div>
+        <div className="cloudCyclist"></div>
+        <div className="cloudCyclist"></div>
+        <div className="cloudCyclist"></div>
+      </div>
+      <div id="AugustHeader">
+        <button id="backbuttonAugust">
+          <Link to="/" className="backbuttonLink" style={{ color: "black" }}>
+            Back
+          </Link>
+        </button>
+        <Cyclistaugustheader />
+      </div>
+      <div className="datenewsDivAugust">
+        <section className="dateAugust">3rd August 2024, Saturday</section>
+        <section className="newsheaderAugust">
+          {" "}
+          Stage 2 of our Hadrian's Wall Path Expedition successfully completed
+        </section>
+        <br />
+        <div className="news">
+          <section className="newsAugust">
             Today we successfully completed Stage 2 of our Hadrian's Wall Path
             Expedition, Newcastle Gateshead millennium Bridge to Tyne Riverside
             Country Park (1b): 8.7 miles (including a 1 mile detour to Denton
@@ -36,20 +66,24 @@ export default function August2024() {
             <br />
             For all the information about this trip for today and for the
             previous and remaining stages over the forthcoming weeks and months,
-            please come and join us at our<Link href="/hwp2024" target="_blank" className="underline decoration-blue-700 text-[#9B5F38] font-bold" > {" "}
-              Hadrian's Wall Path Expedition page{" "}</Link>  
-          <br />
-          <br />
-           </div>
-            </div>
-           
-          
-   
-       <div className="flex flex-col max-w-full leading-1.5  sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2  bg-[#c6b363]">
-         <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
-        <div className="font-bold py-2 px-12"> 5th August 2024, Saturday</div>
-        <div className="font-bold border-solid border-[#5A7833] border-4 rounded-md mt-4 ml-6 mr-6 mb-4 py-4 bg-[#A5AE92]"> The kitchen tiling project reaches its conclusion...</div>
-        <div className="pr-3 pl-3 md:pr-10 md:pl-10 font-semibold text-left">
+            please come and join us at our
+            <Link to="/hwp2024" className="LinkAugust">
+              {" "}
+              Hadrian's Wall Path Expedition page{" "}
+            </Link>{" "}
+            .
+          </section>
+        </div>
+      </div>
+      <div className="datenewsDivAugust">
+        <section className="dateAugust">5th August 2024, Saturday</section>
+        <section className="newsheaderAugust">
+          {" "}
+          The kitchen tiling project reaches its conclusion...
+        </section>
+        <br />
+        <div className="news">
+          <section className="newsAugust">
             For the past week we have been having the kitchen, associated
             utility and ensuite bathroom tiled. This was to have been one of
             next year's projects, but in order to ensure the desired tiles
@@ -72,128 +106,785 @@ export default function August2024() {
             <br />
             Today thankfully the tilers were completing the finishing touches
             and it is looking much better, so it has all been worth the effort.
-                       
-            <div className="flex flex-col border-solid border-4 border-[#5A7833] bg-[#A5AE92] pb-2 pt-2 mr-[12%] ml-[12%] mt-8 mb-12 justify-center text-center">
-            <div className="mt-1 mb-1 sm:m-2 text-md font-bold block text-[#22311d] bg-[#A5AE92]">
-              {" "}
-               <div className="m-1 p-1 font-bold  border-[#5A7833] border-solid border-4 bg-[#c6b363]">Click on the image below to open the album of some of our before and after photos...</div>
-                <br />
-              <br />
-              <Link
-                href="https://photos.app.goo.gl/5wRG18JaeNLAmiWE7"
-                target="_blank"
-              >
-                <Image
-                  src={ KitchenFloorAfterTitled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[90%] lg:w-[80%] border-solid border-[#5A7833] border-4 mt-1 mb-11"
-                  alt="Photo of Re-tiled Kitchen Floor."
-                />
-              </Link>
-            </div>{" "}
-           </div>
-           </div>
-          
-         
-           </div>{/*End of individual dated entry photo album block*/} 
-           </div>{/*End of individual dated entry design and color template block*/}
-           </div>{/*End of individual dated entry block*/} 
- 
-
-<div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2  bg-[#c6b363]">
-         <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
-        <div className="font-bold py-2 px-12"> 5th - 7th August 2024, Monday - Wednesday</div>
-        <div className="font-bold border-solid border-[#5A7833] border-4 rounded-md mt-4 ml-6 mr-6 mb-4 pr-4 pl-4 py-4 bg-[#A5AE92]"> Journey down South to attend to some matters of importance and to
-          visit relatives</div>           
-             <div className="pr-3 pl-3 md:pr-10 md:pl-10 font-semibold text-left">
+            Here are some of the before and after photos...
+            <div className="blogPhotoDivAugust">
+              <figure>
+                <section className="blogPhotoAugust">
+                  <img src={KitchenFloorBefore} alt="" />
+                  <figcaption className="augustFigCaption">
+                    <strong>Kitchen floor and wall tiles - BEFORE</strong>
+                  </figcaption>
+                </section>
+              </figure>
+              <figure>
+                <section className="blogPhotoAugust">
+                  <img src={KitchenFloor2} alt="" />
+                  <figcaption className="augustFigCaption">
+                    <strong>
+                      Kitchen floor with the <br /> old tiles removed and <br />{" "}
+                      matting laid down
+                    </strong>
+                  </figcaption>
+                </section>
+              </figure>
+              <figure>
+                <section className="blogPhotoAugust">
+                  <img src={KitchenWallNew} alt="" />
+                  <figcaption className="augustFigCaption">
+                    <strong>
+                      Kitchen wall tiles - in the <br /> process of being laid
+                    </strong>
+                  </figcaption>
+                </section>
+              </figure>
+              <figure>
+                <section className="blogPhotoAugust">
+                  <img src={KitchenFloorAfter} alt="" />
+                  <figcaption className="augustFigCaption">
+                    <strong>Kitchen floor and wall tiles - AFTER</strong>
+                  </figcaption>
+                </section>
+              </figure>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div className="datenewsDivAugust">
+        <section className="dateAugust">
+          5th - 7th August 2024, Monday - Wednesday
+        </section>
+        <section className="newsheaderAugust">
+          {" "}
+          Journey down South to attend to some matters of importance and to
+          visit relatives
+        </section>
+        <br />
+        <div className="news">
+          <section className="newsAugust">
             We had to go down South today as there were some matters which
             needed attending to down there. However, it was a good opportunity
             to visit and meet with a number of relatives on both sides of the
-            family.</div>
+            family.
             <br />
             <br />
-             <Image
-                  src={ Internment }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[90%] lg:w-[80%] border-solid border-[#5A7833] border-4 mt-1 mb-11"
-                  alt="Photo of Bernard's mum's internment."
-                />
-
-        </div> {/*End of individual dated entry design and color template block*/}
-        </div> {/*End of individual dated entry block*/}
-
-
-
-        <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2  bg-[#c6b363]">    
-         <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
-        <div className="font-bold py-2 px-12"> 30th August 2025</div>
-        <div className="font-bold border-solid border-[#5A7833] border-4 rounded-md mt-4 ml-6 mr-6 mb-4 py-4 bg-[#A5AE92]"> 
-          
-          
-          <div className="flex flex-col border-solid border-4 border-[#5A7833] bg-[#A5AE92] pb-2 pt-2 mr-[2%] ml-[2%] mt-8 mb-12 justify-center text-center">
-            <div className="mt-1 mb-1 sm:m-2 text-md font-bold block text-[#22311d] bg-[#A5AE92]">
-              {" "}
-                <div className="m-1 p-1 font-bold  border-[#5A7833] border-solid border-4 bg-[#c6b363]">Click on the image below to open the album of our Day 1 visit to Portsmouth Historic: - Mary Rose Exhibition and HMS Victory.</div>
-                <br />
-              <br />
-              <Link
-                href="https://photos.app.goo.gl/S2AUNic8V9jDNx3w8"
-                target="_blank"
-              >
-                <Image
-                  src={ HMSVictoryTitled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[90%] lg:w-[65%] border-solid border-[#5A7833] border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of HMS Victory"
-                />
-              </Link>
-            </div>{" "}           
-      </div>
-          <br />
-       
-      <br />
-      <br />
-
-           </div> {/*End of news content block*/}            
-           </div> {/*End of individual dated entry design and color template block*/}
-           </div>  {/*End of individual dated entry block*/}
-
-
-
-
-       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2  bg-[#c6b363]">    
-         <div className="text-md md:text-lg max-w-full font-bold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
-        <div className="font-bold py-2 px-12"> 31st August 2025</div>
-        <div className="font-bold border-solid border-[#5A7833] border-4 rounded-md mt-4 ml-6 mr-6 mb-4 py-4 bg-[#A5AE92]">  Visit to Stonehenge, Wiltshire</div>
-         <div className="pr-4 pl-4 md:pr-10 md:pl-10 font-semibold text-left">
-           
-          
-         </div> {/*End of news content block*/} 
-
-         <div className="flex flex-col border-solid border-4 border-[#5A7833] bg-[#A5AE92] pb-2 pt-2 mr-[12%] ml-[12%] mt-8 mb-12 justify-center text-center">
-            <div className="mt-1 mb-1 sm:m-2 text-md font-bold block text-[#22311d] bg-[#A5AE92]">
-              {" "}
-                <div className="m-1 p-1 font-bold  border-[#5A7833] border-solid border-4 bg-[#c6b363]">Click on the image below to join us on our visit to Stonehenge and Japanese dinner at Sakura.</div>
-                <br />
-              <br />
-              <Link
-                href="https://photos.app.goo.gl/XktDf5smR5ZYgy6M7"
-                target="_blank"
-              >
-                <Image
-                  src={ StonehengeTitled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[90%] lg:w-[65%] border-solid border-[#5A7833] border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of Stonehenge"
-                />
-              </Link>
-            </div>{" "}
-         </div>  {/*End of news content block*/}  
-         </div> {/*End of individual dated entry design and color template block*/}
-         </div> {/*End of individual dated entry block*/}  
-  
-     
-     
-     
-      </div>
-       </div>
+            <figure>
+              <section className="blogPhoto1August">
+                <img src={Internment} alt="" />
+                <figcaption className="augustFigCaption">
+                  <strong style={{ color: "black" }}>
+                    The Thomas family plus one <br /> additional non-family
+                    member. Can <br /> you spot who they are <br /> and what
+                    their role is?....
+                  </strong>
+                </figcaption>
+              </section>
+            </figure>
+          </section>
         </div>
-    
-);
+      </div>
+      <div className="datenewsDivAugust">
+        <section className="dateAugust">7th August 2024, Saturday</section>
+        <section className="newsheaderAugust">
+          {" "}
+          Update on Elena's garden
+        </section>
+        <br />
+        <br />
+        <div className="news">
+          <section className="newsAugust">
+            Earlier in the late Spring/ early Summer, Bernard helped Elena
+            create some raised beds for her garden . Elena took a number of the
+            excess bedding plants we had grown and planted them to try and
+            introduce some colourful flower borders throughout the Summer
+            months.
+            <br />
+            <br />
+            Needless to say, it has not been the best nor warmest of summers so
+            far, so they have been quite slow to grow and flower. However, they
+            are looking better now after some slightly warmer days and they are
+            starting to brighten the garden up. Here are some of the photos...
+            <div className="blogPhotoDivAugust">
+              <figure>
+                <section className="blogPhotoAugust">
+                  <img src={ElenaGarden1} alt="" />
+                  <figcaption className="augustFigCaption">
+                    <strong>Elena's raised beds(1)</strong>
+                  </figcaption>
+                </section>
+              </figure>
+              <figure>
+                <section className="blogPhotoAugust">
+                  <img src={ElenaGarden4} alt="" />
+                  <figcaption className="augustFigCaption">
+                    <strong>Elena's raised beds(2)</strong>
+                  </figcaption>
+                </section>
+              </figure>
+              <figure>
+                <section className="blogPhotoAugust">
+                  <img src={ElenaGarden5} alt="" />
+                  <figcaption className="augustFigCaption">
+                    <strong></strong>Elena's Raised beds (3)
+                  </figcaption>
+                </section>
+              </figure>
+              <figure>
+                <section className="blogPhotoAugust">
+                  <img src={ElenaGarden7} alt="" />
+                  <figcaption className="augustFigCaption">
+                    <strong></strong>Elena's Raised beds (4)
+                  </figcaption>
+                </section>
+              </figure>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div className="datenewsDivAugust">
+        <section className="dateAugust">10th August 2024, Saturday</section>
+        <section className="newsheaderAugust">
+          {" "}
+          Stage 10 of our Hadrian's Wall Path Expedition successfully completed
+        </section>
+        <br />
+        <div className="news">
+          <section className="newsAugust">
+            Today we successfully completed Stage 10 of our Hadrian's Wall Path
+            Expedition, Lanercost to Low Crosby, 5a-5d inclusive, 8.75 miles on
+            the Hadrian's Wall Path, 9.75 miles in total.
+            <br />
+            <br />
+            For all the information about this trip for today and for the
+            previous and remaining stages over the forthcoming weeks and months,
+            please come and join us at our
+            <Link to="/hwp2024" className="LinkAugust">
+              {" "}
+              Hadrian's Wall Path Expedition page{" "}
+            </Link>{" "}
+            .
+          </section>
+        </div>
+      </div>
+      <div className="datenewsDivAugust">
+        <section className="dateAugust">
+          12th - 16th August 2024, Monday - Friday
+        </section>
+        <section className="newsheaderAugust">
+          {" "}
+          Short Break on holiday in Pencoed, Near Bridgend, South Wales.
+        </section>
+        <br />
+        <section className="news">
+          <ul className="ulAugust">
+            <div className="newsAugust">
+              <li className="liAugust">
+                <strong>Monday, 12th August 2024 :</strong>
+              </li>{" "}
+              Today we set off on our journey to Pencoed in South Wales for a 4
+              day mini-break. Lennie was happy, as he was safe back at home in
+              Cumbria with Elena. <br /> <br /> It has been many years now since
+              we traveled long distance during the main school summer holiday
+              period and had forgotten just how busy it can be! There were even
+              cars queuing back on to the motorway at some service stations...{" "}
+              <br /> <br /> Finally, we arrived and the accommodation was
+              lovely, so that was great, and it was time for a well-earned rest
+              before the busy week to come. <br /> <br />
+              <figure>
+                <section className="blogPhoto1August">
+                  <img src={LennieAtHome} alt="" />
+                  <figcaption className="augustFigCaption">
+                    <strong style={{ color: "black" }}>
+                      Lennie, happy at home back in Cumbria
+                    </strong>
+                  </figcaption>
+                </section>
+              </figure>
+            </div>
+
+            <div className="newsAugust">
+              <li className="liAugust">
+                <strong>Tuesday, 13th August 2024 :</strong>
+              </li>{" "}
+              Today we set off for Caerleon, near Newport, to go and visit the{" "}
+              <Link
+                to="https://museum.wales/roman/"
+                target="_blank"
+                className="LinkAugust"
+              >
+                National Roman Legion Museum
+              </Link>{" "}
+              ,{" "}
+              <Link
+                to="https://cadw.gov.wales/visit/places-to-visit/caerleon-roman-fortress-and-baths"
+                target="_blank"
+                className="LinkAugust"
+              >
+                Roman Baths
+              </Link>{" "}
+              and{" "}
+              <Link
+                to="https://cadw.gov.wales/visit/places-to-visit/caerleon-amphitheatre"
+                target="_blank"
+                className="LinkAugust"
+              >
+                Roman Amphitheatre
+              </Link>
+              .
+              <br />
+              <br /> Up until AD 75 the invading Roman army had not been able to
+              conquer the area which is now known as Wales due to fierce
+              resistance from the native Silures tribe. In AD75 however, a new
+              governor of Britain, by the name of Frontinus, decided on a new
+              strategy to build a fortress at modern-day Caerleon, inside the
+              territory of the Silures tribe and this fortress was to be known
+              as Isca and became one of only 3 long-term forts ever built in
+              Britain (the other 2 being at York and Chester).
+              <br />
+              <br />
+              Isca was a garrison measuring 20 hectares for 5,500 men who served
+              in the second Augustan Legion (Legio II Augusta). Work commenced
+              on the main fortress, built in turf, soil and timber, in AD75.
+              This was followed by the fortress baths in stone. The baths lasted
+              longer than the Roman period and in fact lasted into medieval
+              times, when the stone was used to build modern-day Carleon. Over
+              time the fortress itself was converted into stone.
+              <br />
+              <br />
+              By AD90, the threat from the Silures had gone, and a stone
+              amphitheatre could be built outside the city walls, the remains of
+              which can be seen today. Citizen soldiers of the Legions expected
+              to be provided with the amenities of Rome, so in the amphitheatre,
+              which could hold 6000 spectators on wooden, tiered seating,
+              gladitorial games could be held and in the baths exercise could be
+              undertaken in the swimming pool or the basilica, the large
+              gym-like exercise hall.
+              <br /> <br />
+              Both the National Roman Legion Museum and the Amphitheatre are
+              free to enter, but there is a small charge for entry to the Roman
+              Baths. We felt that it was well worth paying the charge for the
+              Roman Baths though as they are really well done with lighting,
+              film effects and sound all helping recreate the experience of the
+              Romans swimming in the pool.
+              <br /> <br />
+              In the afternoon, it was a short drive down to the coast at
+              Newport to see the{" "}
+              <Link
+                to="https://naturalresources.wales/days-out/places-to-visit/south-east-wales/newport-wetlands-national-nature-reserve/?lang=en"
+                target="_blank"
+                className="LinkAugust"
+              >
+                RSPB Newport Wetlands
+              </Link>{" "}
+              which is a partnership between Natural Resources Wales, Newport
+              City Council and the RSPB.
+              <br />
+              <br />
+              It is situated only a short drive from the city of Newport, the
+              RSPB Newport Wetlands is part of the Gwent Levels and consists of
+              a diverse range of habitats including wet grassland, reedbeds,
+              saltmarsh and saline lagoons. There is a seven kilometre network
+              of re-surfaced paths around the Uskmouth reedbeds, viewing screens
+              across the deepwater channels, and a raised viewing platform and
+              bird hide. It also contains the East Usk Lighthouse which is over
+              120 years old.
+              <br />
+              <br />
+              There are a number of walking trails including the Orchid Trail (1
+              mile) for looking out for orchids in late spring and early summer,
+              Sculpture Trail (1 mile) which involves going through reedbridges,
+              over a floating bridge and past the East Usk lighthouse, Woodland
+              and Estuary Trail (1.5 miles) which involves going through
+              reedbeds, woodland, past open water and the estuary, the Wetlands
+              Experience (2.5 miles) which combines the orchid, the woodland and
+              estuary trail and part of the Wales Coast Path and lastly the
+              Green Lanes and Coast Walk (3.75 miles) which includes include the
+              East Usk Lighthouse, views over the Severn Estuary as far as
+              Exmoor, bird-hide, and green lanes.
+              <br /> <br />
+              We opted for the Wetlands Experience as we had already done a
+              reasonable amount of walking around Caerleon in the morning.
+              <br /> <br />
+              Click on the Caerleon and RSPB holiday album below to see selected
+              photos of day 2 of the holiday.
+              <figure>
+                <Link
+                  to="https://photos.app.goo.gl/wbuncLw4Lh6Hx3Js5"
+                  target="_blank"
+                >
+                  <img
+                    className="slideshowentryAugust"
+                    src={Caerleon13082024}
+                    alt=""
+                  />
+                </Link>
+              </figure>
+            </div>
+
+            <div className="newsAugust">
+              <li className="liAugust">
+                <strong>Wednesday, 14th August 2024 :</strong>
+              </li>{" "}
+              Today, Harry needed to be in Cardiff, so we combined the visit to
+              Cardiff in the afternoon with a preceding visit to Penarth in the
+              morning. The old haunts were visited including the Danish pastry
+              shop and the café on the pier...
+              <div className="blogPhotoDivAugust">
+                <figure>
+                  <section className="blogPhotoAugust">
+                    <img src={JillPenarthPier} alt="" />
+                    <figcaption className="augustFigCaption">
+                      <strong>Jill on Penarth pier...</strong>
+                    </figcaption>
+                  </section>
+                </figure>
+                <figure>
+                  <section className="blogPhotoAugust">
+                    <img src={BernardHarryPenarthPier} alt="" />
+                    <figcaption className="augustFigCaption">
+                      ...and also Harry <br /> and Bernard.<strong></strong>
+                    </figcaption>
+                  </section>
+                </figure>
+                <figure>
+                  <section className="blogPhotoAugust">
+                    <img src={PenarthPier} alt="" />
+                    <figcaption className="augustFigCaption">
+                      <strong>
+                        The pier was very quiet as the weather was not great,
+                        but it was still very pleasant.
+                      </strong>
+                    </figcaption>
+                  </section>
+                </figure>
+                <figure>
+                  <section className="blogPhotoAugust">
+                    <img src={AneurinBevan} alt="" />
+                    <figcaption className="augustFigCaption">
+                      <strong>
+                        Then into Cardiff in the afternoon to say hello to{" "}
+                        <br /> the founder of the NHS, <br /> Aneurin Bevan.
+                      </strong>
+                    </figcaption>
+                  </section>
+                </figure>
+              </div>{" "}
+            </div>
+
+            <div className="newsAugust">
+              <li className="liAugust">
+                <strong>Thursday, 15th August 2024 :</strong>
+              </li>
+              Today was our last full day away on holiday before our return
+              journey, so we decided to revisit the Mumbles near Swansea in the
+              morning and then to drive over to visit{" "}
+              <Link
+                to="https://cadw.gov.wales/visit/places-to-visit/castell-coch"
+                target="_blank"
+                title="Click here to discover more about Coch Castle"
+                className="LinkAugust"
+              >
+                {" "}
+                Castell Coch{" "}
+              </Link>{" "}
+              , near Cardiff in the afternoon. We had passed Castell Coch from
+              afar many times over the past few years when traveling to and from
+              Cardiff, but had never got round to visiting, so it was great to
+              be able to go to see it at last. The Castle is run by CADW so
+              English Heritage members can enter either for free (if repeat
+              members) or half-price (if first-year members).
+              <br />
+              <br />
+              Mumbles is located on Swansea Bay, and marks the start of the
+              Gower Peninsula which was the UK’s first designated Area of
+              Outstanding Natural Beauty. Just off Mumbles Head are 2 islands
+              which can , with care and close attention to the tides, be
+              accessed at low tide. However, people often get into problems when
+              choosing to access these islands as this{" "}
+              <Link
+                to="https://rnli.org/news-and-media/2024/august/12/float-to-live-helps-save-man-at-mumbles-lighthouse"
+                target="_blank"
+                className="LinkAugust"
+              >
+                RNLI member explains{" "}
+              </Link>{" "}
+              when he talks about the risks of this stretch of beach and water
+              and a recent rescue they had undertaken.
+              <br />
+              <br />
+              There is a great walk (or cycle) all along the front from the
+              Mumbles Head to Swansea. This will be even better when the
+              contractors have finished upgrading and refurbishing the Mumbles
+              coastal sea defences. The work aims to reduce the risk of flooding
+              to homes and businesses that are increasingly threatened by rising
+              sea levels brought about by climate change.
+              <br />
+              <br />
+              There are also numerous places to eat. We chose{" "}
+              <Link
+                to="https://www.verdis-cafe.co.uk/"
+                target="_blank"
+                className="LinkAugust"
+              >
+                {" "}
+                Verdi's Italian Café{" "}
+              </Link>
+              which is very busy and popular, the service is great and there is
+              a good choice of menu. It also has pretty awesome views across the
+              bay. Just a word of warning, the portion sizes are <em>huge</em>,
+              so just be prepared for that if you are visiting.
+              <br />
+              <br />
+              Castell Coch on the other hand is situated high on the outskirts
+              of Cardiff, high on a hillside. It is built on the site of a
+              medieval castle which dates back to the 11th, 12th and 13th
+              centuries. The basement, which you can go inside is part of the
+              original medieval castle. By the early 14th century the castle
+              seems to have fallen into ruin. However 550 years later, the very
+              wealthy Marquess of Bute who had inherited a fortune made from the
+              industrial growth of South Wales, commissioned{" "}
+              <Link
+                to="https://en.wikipedia.org/wiki/William_Burges"
+                target="_blank"
+                className="LinkAugust"
+              >
+                {" "}
+                William Burges{" "}
+              </Link>
+              to recreate a vision of the Middle Ages and build a new castle on
+              the site of the old. The two already knew each other as they had
+              worked together developing Cardiff Castle.
+              <br />
+              <br />
+              Castell Coch was actually a lot more interesting and fun than we
+              had anticipated. There are several forest walks up the hillside
+              behind the castle which are also worthwhile and one of which we
+              undertook.
+              <br />
+              <br />
+              Click on the Mumbles and Castell Coch holiday album below to see
+              selected photos of day 4 of the holiday.
+              <figure>
+                <Link
+                  to="https://photos.app.goo.gl/wfxJEfiXTYWePDxk7"
+                  target="_blank"
+                >
+                  <img
+                    className="slideshowentryAugust"
+                    src={MumblesCastellCoch}
+                    alt=""
+                  />
+                </Link>
+              </figure>
+            </div>
+
+            <div className="newsAugust">
+              <li className="liAugust">
+                <strong>Friday, 16th August 2024 :</strong>
+              </li>{" "}
+              It was time to return to Cumbria today. Well, what can I say? It
+              was summer holidays, on a Friday and a beautiful sunny day so the
+              traffic was <em>extremely</em> busy with a number of hold ups. it
+              was a <em>long, long </em> journey! However eventually we were
+              safely home again and it was time for a rest.... It had been a
+              very busy two weeks.{" "}
+            </div>
+          </ul>
+          <br />
+          <br />
+        </section>
+
+        <div className="datenewsDivAugust">
+          <section className="dateAugust">15th August 2024, Thursday</section>
+          <section className="newsheaderAugust">
+            {" "}
+            IMPORTANT DAY TODAY! - Harry's scientific paper is published in the{" "}
+            <Link
+              to="https://www.rsc.org/journals-books-databases/about-journals/catalysis-science-technology/"
+              target="_blank"
+              title="Click here to read more about the Catalysis Science and Technology Journal"
+              className="LinkAugust"
+            >
+              Catalysis Science and Technology Journal
+            </Link>{" "}
+            . Congratulations Harry and well-deserved after all your hard work!{" "}
+          </section>
+          <br />
+          <div className="newsCongrats">
+            <div className="CongratsMessage">
+              CONGRATULATIONS ON YOUR PUBLICATION HARRY!
+            </div>
+            <br />
+            <section className="newsAugust">
+              {" "}
+              A really special and important day today as Harry heard that the
+              scientific paper he has been working on has been published in the{" "}
+              <Link
+                to="https://www.rsc.org/journals-books-databases/about-journals/catalysis-science-technology/"
+                target="_blank"
+                title="Click here to read more about the Catalysis Science and Technology Journal"
+                className="LinkAugust"
+              >
+                Catalysis Science and Technology Journal
+              </Link>
+              . As anyone working in the field of scientific research will know,
+              to succeed in getting a paper published in a scientific journal of
+              this repute is no small achievement. Harry is the first named
+              author and the paper can be accessed by clicking on this link{" "}
+              <Link
+                to="https://pubs.rsc.org/en/content/articlelanding/2024/cy/d4cy00284a"
+                target="_blank"
+                className="LinkAugust"
+              >
+                First principles investigation of manganese catalyst structure
+                and coordination in the p-xylene oxidation process
+              </Link>
+              .
+            </section>
+          </div>
+        </div>
+
+        <br />
+        <br />
+
+        <div className="datenewsDivAugust">
+          <section className="dateAugust">18th August 2024, Sunday</section>
+          <section className="newsheaderAugust">
+            {" "}
+            Stage 11 of our Hadrian's Wall Path Expedition successfully
+            completed
+          </section>
+          <br />
+          <div className="news">
+            <section className="newsAugust">
+              Today we successfully completed Stage 11 of our Hadrian's Wall
+              Path Expedition, Low Crosby to Burgh-By-Sands, 5e to 6b and part
+              of 6c, 11.8 miles.
+              <br />
+              <br />
+              For all the information about this trip for today and for the
+              previous and remaining stages over the forthcoming weeks and
+              months, please come and join us at our
+              <Link to="/hwp2024" className="LinkAugust">
+                {" "}
+                Hadrian's Wall Path Expedition page{" "}
+              </Link>{" "}
+              .
+            </section>
+          </div>
+        </div>
+
+        <br />
+        <br />
+        <div className="datenewsDivAugust">
+          <section className="dateAugust">24th August 2024, Sunday</section>
+          <section className="newsheaderAugust">
+            {" "}
+            Stage 12 and final stage of our Hadrian's Wall Path Expedition
+            successfully completed
+          </section>
+          <br />
+          <div className="news">
+            <section className="newsAugust">
+              Today we successfully completed Stage 12, which is the final stage
+              of our Hadrian's Wall Path Expedition, Burgh-By-Sands to
+              Bowness-on-Solway, part of 6c, 6d and 6e inclusive, 8.5 miles.
+              <br />
+              <br />
+              For all the information about this trip for today and for the
+              previous and remaining stages over the forthcoming weeks and
+              months, please come and join us at our
+              <Link to="/hwp2024" className="LinkAugust">
+                {" "}
+                Hadrian's Wall Path Expedition page{" "}
+              </Link>{" "}
+              .
+            </section>
+          </div>
+        </div>
+      </div>{" "}
+      {/*Closing tag for hwpDailyNarrative div */}
+      <div className="datenewsDivAugust">
+        <section className="dateAugust">31st August 2024, Saturday</section>
+        <section className="newsheaderAugust">
+          {" "}
+          Lake District National Park: Walk Loadpot Hill from Howtown via <br />{" "}
+          the Ullswater steamer from Pooley Bridge to Howtown and ascent up the
+          Fusedale Valley, 9 miles, 560 metres (1,837 feet) of ascent
+        </section>
+        <br />
+        <br />
+        <div className="newsAugust">
+          <strong className="headTitlesAugust">Details of the Walk </strong>
+          <ul className="AugustIntroList">
+            <li>
+              <strong className="titlesAugust">Parking:</strong> There is plenty
+              of paid parking at Pooley Bridge, as long as you are there
+              promptly. Just a note that the closer you park to Pooley Bridge
+              village, the more expensive it becomes to park! Also, check first
+              as some car parks are payable on a phone app only and some payable
+              by cash only.
+            </li>
+            <li>
+              <strong className="titlesAugust">Distance:</strong> 9 miles, 560
+              metres (1,837 feet) of ascent.{" "}
+            </li>
+            <li>
+              <strong className="titlesAugust">Refreshments:</strong> There is a
+              café at the Howtown jetty at the start and then subsequently on
+              your return into Pooley Bridge where there are a number of pubs
+              and cafés.{" "}
+            </li>
+          </ul>
+          <br />
+          <br />
+          <strong className="headTitlesAugust">Good</strong>
+          <ul className="AugustIntroList" style={{ fontWeight: "normal" }}>
+            <div className="listItemsAlign" style={{ fontWeight: "bold" }}>
+              <li>
+                <strong className="titlesAugust">Steamer ride:</strong> It was
+                some years since we had taken the Ullswater steamer and it was a
+                beautiful day for it. It cost us £10.00 each for a single ticket
+                to Howtown, which is the first stop. These tickets can be
+                purchase on-line in advance or from the ticket office at the
+                jetty on the day.
+              </li>
+              <li>
+                <strong className="titlesAugust">The challenge :</strong> This
+                is a brilliant walk for a good day. It has the advantage of
+                being not one of the highly popular high-level routes such as
+                Helvellyn so it is not as busy. Nonetheless it is still quite a
+                challenging walk, particularly the last section of steep ascent
+                out of the Fusedale Valley and up on to the Roman road.
+              </li>
+              <li>
+                <strong className="titlesAugust">Views: </strong> There are some
+                spectacular views (see the selection of photos below.)
+              </li>
+              <li>
+                <strong className="titlesAugust">Weather:</strong>This was
+                lovely, sunny and pleasantly warm but not boiling hot, the
+                latter never being good for hiking.
+              </li>
+            </div>
+          </ul>
+          <br />
+          <br />
+          <strong className="headTitlesAugust">Not so good</strong>
+          <ul className="AugustIntroList">
+            <li style={{ textAlign: "center" }}>
+              There was nothing bad about this walk really. It was a brilliant
+              day out.
+              <br />
+              Just one quick word of warning, a number of people who have walked
+              this route when it has been misty on the summit have reported
+              getting lost as there are a number of routes off the Load Pot Hill
+              summit, some leading down towards Haweswater Reservoir rather than
+              Ullswater and Pooley Bridge. It is for this reason best avoided in
+              misty weather.
+            </li>
+          </ul>
+          <br />
+          <br />
+          <strong className="headTitlesAugust">Hike Rating</strong>
+          <div style={{ textAlign: "center" }}>9 (out of 10)</div>
+        </div>{" "}
+        {/* Closing tag ComponentWalkDetails Class*/}
+        <br />
+      </div>
+      <div className="news">
+        <section className="newsAugust">
+          <div className="blogPhotoDivAugustColumn">
+            <figure>
+              <section className="blogPhotoAugust">
+                <img src={PooleyJetty} alt="" />
+                <figcaption className="augustFigCaption">
+                  <strong>
+                    Safely arrived at Pooley Bridge Jetty <br /> ....waiting for
+                    the steamer to take us to Howtown.
+                  </strong>
+                </figcaption>
+              </section>
+            </figure>
+            <figure>
+              <section className="blogPhotoAugust">
+                <img src={AscentFusedale} alt="" />
+                <figcaption className="augustFigCaption">
+                  <strong>
+                    Ascending Fusedale above the beck, <br /> even Harry is
+                    tired ...
+                  </strong>
+                </figcaption>
+              </section>
+            </figure>
+            <figure>
+              <section className="blogPhotoAugust">
+                <img src={LunchFusedale} alt="" />
+                <figcaption className="augustFigCaption">
+                  Decided to have lunch just before we reached the summit
+                  ridge...
+                  <br /> a good plan as it was very windy on the top and there
+                  are some <br /> superb views from here...<strong></strong>
+                </figcaption>
+              </section>
+            </figure>
+            <figure>
+              <section className="blogPhotoAugust">
+                <img src={FinalAscent} alt="" />
+                <figcaption className="augustFigCaption">
+                  The final steep ascent from Fusedale <br /> up on to High
+                  Street Roman Road, <br /> need I say more....
+                </figcaption>
+              </section>
+            </figure>
+          </div>
+
+          <div className="blogPhotoDivAugustColumn">
+            <figure>
+              <section className="blogPhotoAugust">
+                <img src={EHRomanHighStreet} alt="" />
+                <figcaption className="augustFigCaption">
+                  <strong>
+                    Elena and Harry now successfully <br /> up on High Street
+                    Roman Road....
+                  </strong>
+                </figcaption>
+              </section>
+            </figure>
+            <figure>
+              <section className="blogPhotoAugust">
+                <img src={LoneRangerLoadPot} alt="" />
+                <figcaption className="augustFigCaption">
+                  <strong>
+                    The Lone Ranger or Last Man Standing.....
+                    <br /> a.k.a Bernard on High Street Roman Road....
+                  </strong>
+                </figcaption>
+              </section>
+            </figure>
+            <figure>
+              <section className="blogPhotoAugust">
+                <img src={SummitLoadPotJill} alt="" />
+                <figcaption className="augustFigCaption">
+                  <strong>
+                    Jill has made it to the summit of Load Pot Hill....
+                  </strong>
+                </figcaption>
+              </section>
+            </figure>
+            <figure>
+              <section className="blogPhotoAugust">
+                <img src={MoorDivockPooleyBridge} alt="" />
+                <figcaption className="augustFigCaption">
+                  <strong>
+                    After many miles walking, Jill still smiling <br /> on the
+                    final descent from Moor Divock <br /> into Pooley Bridge.
+                  </strong>
+                </figcaption>
+              </section>
+            </figure>
+          </div>
+        </section>
+      </div>
+    </div>
+  );
 }
