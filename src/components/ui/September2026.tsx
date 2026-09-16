@@ -5,6 +5,7 @@ import CarlisleCathedralEastWindowTitled from '/public/imagesresized/CarlisleCat
 
 
 
+
 export default function September2026() {
 
   return (   
@@ -255,23 +256,47 @@ export default function September2026() {
             <br/>
             <br/>
             The Canons followed a strict form of the canonical life, influenced by the ascetic practices of the Cistercians. Moderation in all things but strong sense of fraternity and community – values that endure within the Chapter to this day.
-            </div>
-            </div>
             <br/>
             <br/>
-                      
-           The cathedral has a number of highlights. Below are just a few:
+            For an outline history of Carlisle cathedral's turbulent 900 year history, click on this link to the <Link  href="
+            https://carlislecathedral.org.uk/history/" target="_blank" className="text-decoration-underline text-[#FFC000] font-semibold underline">History of Carlisle Cathedral.</Link>
+            <br/>
+            <br/>
+
+            The cathedral has a number of highlights. Below are just a few:
            <ul>
-              <li className="list-disc text-left ml-[40%]">East Window</li>
-                <li className="list-disc text-left ml-[40%]">Cathedral Ceiling</li>
-                  <li className="list-disc text-left ml-[40%]">Brougham Triptych</li>
-                    <li className="list-disc text-left ml-[40%]">Medieval Painted Panels</li>
-                    <li className="list-disc text-left ml-[40%]">Regimental Chapel</li>
-                    <li className="list-disc text-left ml-[40%]">Salkeld Screen</li>
-                    <li className="list-disc text-left ml-[40%]">Runic Inscriptions</li>
-                    <li className="list-disc text-left ml-[40%]">The Treasury</li>
-                        <li className="list-disc text-left ml-[40%]">The Cathedral Library</li>
+              <li className="list-disc text-left ml-[10%]">East Window: The East Window is one of the largest and most complex examples of flowing decorated Gothic tracery in England. The medieval upper lights date back to the 1350s as part of lengthy rebuilding works following a fire in 1292. The lower lights were re-glazed in 1861 by Hardman & Co. of Birmingham, depicting scenes in vivid colours from the Life of Christ.</li>
+              <br/>
+            <br/>
+                <li className="list-disc text-left ml-[10%]">Cathedral Ceiling: This famous ceiling, with its gilded stars and angels, was designed by Owen Jones (1809-74), the most influential design theorist of the 19th century. Each blue panel contains 16 gold stars and a central aureate sun, except for one panel. </li>
+                <br/>
+            <br/>
+                  <li className="list-disc text-left ml-[10%]">Brougham Triptych: Dating back to c.1515, the Brougham Triptych is one of Cumbria’s greatest treasures. It originates from Antwerp and bears the trademark of the Antwerp Guild of Woodcarvers. The altarpiece portrays the birth and Passion of Christ in intimate detail.</li>
+                  <br/>
+            <br/>
+                    <li className="list-disc text-left ml-[10%]">Medieval Painted Panels: Four sets of painted 15th-century panels on the back of the choir stalls are a remarkable survival depicting the Apostles and lives of St Anthony, St Augustine and St Cuthbert.</li>
+                    <br/>
+            <br/>
+                    <li className="list-disc text-left ml-[10%]">Regimental Chapel: The Border Regiment has had a long relationship with the Cathedral, and the truncated nave serves as a chapel for the regiment. Military standards date back to 1745 and memorial books of the First and Second World Wars onwards are on display.
+                    </li>
+                    <br/>
+            <br/>
+                    <li className="list-disc text-left ml-[10%]">Salkeld Screen: The Salkeld Screen is so-called because it bears the initials of Lancelot Salkeld, the last prior of the Augustinian priory and the first Dean of the new foundation. The screen stands out in style as distinctly Renaissance in a predominantly Romanesque and Gothic building. It appears to celebrate the birth of Prince Edward, Henry VIII’s long-awaiting heir.</li>
+                    <br/>
+            <br/>
+                    <li className="list-disc text-left ml-[10%]">Runic Inscriptions: Two rare Anglo-Saxon runic inscriptions on stone survive within the Cathedral and highlight Carlisle’s turbulent past. One, bearing the name ‘Reginald’, is in Triforium (not accessible to the public). The other is just inside the main entrance and has been translated as ‘Dolfin wrote these runes on this stone’.</li>
+                    <br/>
+            <br/>
+                    <li className="list-disc text-left ml-[10%]">The Treasury: The Cathedral has long been a repository of the treasures of the Diocese, showcased in the Treasury alongside coins and artefacts discovered during archaeological work inside the precinct. Highlights include a 13th-century jet cross, a Tudor helmet and Cartmel Fell’s pre-Reformation figure of Christ.</li>
+                    <br/>
+            <br/>
+                        <li className="list-disc text-left ml-[10%]">The Cathedral Library: The Cathedral Library was re-founded after the Restoration, following the sacking of the earlier library collections at the Dissolution and again during the Commonwealth. The present collection contains over 8,000 volumes and is based on three distinctive 17th-century private collections. Among English cathedral libraries, only Canterbury and York have larger holdings of published works in English for the period 1641-1700.</li>
                               </ul>
+            </div>
+            </div>
+              <br/>
+            <br/>
+            The Verger at the cathedral was very helpful, coming to demonstrate the use of the chairlift down to the treasury and we all had an enjoyable and interesting visit. By this time it was lunchtime, so we made our way across to the Tullie Museum café for lunch.
             <br/>
             <br/>
            
