@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BernardWheelchairTitled from '/public/imagesresized/BernardWheelchairTitled.jpg';
 import CarlisleCathedralEastWindowTitled from '/public/imagesresized/CarlisleCathedralEastWindowTitled.jpg';
+import CorbridgeRomanMuseumTitled from '/public/imagesresized/CorbridgeRomanMuseumTitled.jpg';
 
 
 
@@ -339,6 +340,113 @@ export default function September2026() {
            </div>       
            </div>          
            </div>
+
+
+<div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-[#436A6b] border-solid border-4 bg-[#afa488]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+        <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 mt-4 px-2 py-2 text-[#E7E1F0]  bg-[#8d6fb0]">11th September 2026.</div> 
+        <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 px-2 py-2 text-[#E7E1F0] bg-[#8d6fb0]">Visit to Corbridge and the Corbridge Roman Museum.</div> 
+        
+           <div className="pr-1 pl-1 pb-2 md:pr-1 md:pl-1 font-semibold text-left text-white dark:text-white">
+            <div className="text-left">Corbridge first came into being in Roman times. We had intended to visit the town and most importantly the Roman Fort just outside modern-day Corbridge when we were walking the Hadrian's Wall Path in 2024, but unfortunately on that occasion there was not time. As a result, we had put it down for a separate visit at some point and today was to be that day.......  
+              <br/>
+            <br/>
+            It has to be said that the day did not start well. The journey over to Corbridge had taken much longer than anticipated, as there had been a recent major accident on the A69 and both sides of the road were closed with the air ambulance in attendance. All traffic was being diverted through Haltwhistle and anyone who knows Haltwhistle will understand what this means.........   As a result we ended up having to take a diversion back on ourselves to pick up the B6318 Military Road over to Corbridge.
+            <br/>
+            <br/>
+            Harry had been driving and it was lunch time by the time we arrived, so we headed to a small café in Corbridge which we have been to before called 'Massey's Tea Room' for some lunch.
+            <br/>
+            <br/>
+            After lunch we headed over to the Roman Museum which is managed by English Heritage. We had never visited before and it was much bigger than we had anticipated with a really interesting museum. In the museum are some extraordinary Roman artefacts including: The Corbridge Hoard, the Corbridge Lion, The tombstone of Vellibia Erola and the rare Roman gladiator knife handle for someone who is left-handed, amongst many other items.             
+            <br/>
+            <br/>
+            Before we take you through the museum though,  it is time to learn a little about the history of Corbridge in Roman times.....
+             <br/>
+            <br/>
+            <div className="bg-[#8EA6A6]">
+               <div className="bg-[rgb(67,106,107)] text-white text-center font-semibold p-1 md:p-6 border-[#f5f5f5] border-solid border-2">HISTORY OF CORBRIDGE TOWN AND ROMAN FORT</div>
+           <div className="text-left md:text-left text-white md:font-semibold  p-1 md:p-6  border-2 md:border-4 border-solid border-[#786d68]"> 
+             Corbridge was known to the Romans as something like Corstopitum and wooden writing tablets found at the Roman fort of Vindolanda nearby suggest it was probably locally called Coria (meaning a tribal centre). It was established between AD 77 and AD 83, well before AD 122, when Emperor Hadrian started building his wall "to separate Romans from barbarians".
+              <br />
+            <br />
+             Coria was the most northerly town in the Roman Empire, lying at an important strategic crossing point over the Tyne and at the junction of two important Roman roads - Dere Street (running North-South) and Stanegate (linking the East - West forts along the Tyne valley). 
+              <br/>
+            <br/>             
+            Let us first though go back a few years prior when in AD 69, anti-Roman forces took over from the pro-Roman regime of Queen Cartimandua, ruler of the northern Brigantes. As a result, the Romans resumed their march northwards under the Emperor Vespasian who ruled from AD 69 - 79. The Roman army first penetrated Northumberland in the AD 70s, a generation after Claudius invaded southern Britain in AD 43. In AD 79 the governor Julius Agricola (in Britain AD 77 - 83) set out to invade Scotland and complete the conquest of the island. It was this that led to the first Roman military activity at Corbridge, a key position on the invasion route east of the Pennines.
+              <br />
+            <br />
+            The first fort at Corbridge was built in about AD 86, probably at the Red House base. Correspondence on the Vindolanda tablets  show that Corbridge was an important centre in the AD 90s: soldiers from Vindolanda were detached here and came here on leave; the commanding officer at Vindolanda, for example the prefect Flavius Genialis, was invited here to visit his colleague Haterius Nepos, probably commander of the ala Petriana.
+                <br />
+            <br />
+            In AD 105 Corbridge was burnt down, possibly by enemy action as there were several military setbacks in the North at about this time. A second fort was built to replace the first as part of a new frontier line ('the Stanegate frontier').
+              <br />
+            <br />
+            In AD 122 Emperor Hadrian decided to strengthen and supplement the Stanegate frontier on the Tyne-Solway isthmus with his great wall, 2.5 miles North of Corbridge. It was once thought that Corbridge was abandoned at that time in about AD 124 when the new forts along Hadrian's Wall were built. In fact there is no evidence for this.      
+            Corbridge was just modified at this time with the Principia being given its stone shrine or aedes and the granaries being moved to the east side of the fort and barracks rebuilt. What military unit was present at the time is not known. The construction of the wall brought enormous quantities of men, goods and money to the area, much of it passing through the settlement.
+              <br />
+            <br />
+            In the early AD 160s the function of Corbridge suddenly changed to that as a base for legionaries. The auxiliary unit Cohors 1 Vardullorum was transferred elsewhere. 2 important inscriptions show that Corbridge was now home to detachments from the 20th Legion (Legio XX Valeria Victrix) whose main base was at Chester and the 6th Legion (Legio V1 Victrix) from York. 
+              <br />
+            <br />
+            The Legionary detachments had more wide-ranging duties than their auxiliary predecessors. They sent troops from their Corbridge base to help man a chain of outpost forts that lay beyond Hadrian's Wall along Dere Street as far as Newstead on the River Tweed. They also oversaw Corbridge as a supply depot and market for the Northern frontier.
+              <br />
+            <br />
+            In AD 180 - 181 the historian Cassius Dio records a serious breach of Hadrian's Wall by invaders from the north, which led to the 'greatest war of Commodus' reign' taking place in Britain. It is possible that it was during this raid that Corbridge was burnt. Many of the timber buildings destroyed in the fire may have belonged to traders and merchants attached to the legionary base at Corbridge and forming part of its Civilian community. Corbridge was already acquiring the character of a town at this time and may even have been given official status as a civitas capital (a regional capital).
+               <br />
+            <br />
+            In the early 3rd century, after Emperor Septimus Severus (ruled AD 192 - 211) had restored stability to the province and its northern frontier, Corbridge remained a legionary base.
+               <br />
+            <br />
+            The visible remains of the fort today reflect the layout of this time, with the building of 2 special walled compounds for 2 legionary units drawn from: 2nd Legion (Legio 11 Augustus) from Caerleon in South Wales, either the 6th Legion or more probably the 20th Legion. It was at this time of Severus that the granaries were completed.
+             <br />
+            <br />
+            By late 3rd century, the Empire had become less stable, with internal revolt affecting supply lines, communications and a sense of connection. Unifying central messages are beginning to fragment and are less easily enforced as the population of Corbridge operates at arms length from the wider empire.
+               <br />
+            <br />
+            In AD 313 the Roman military finally release their hold on the town of Corbridge. For the people of Corbridge, there is no longer a stable influence at the centre of their lives. A new hierarchy must be agreed and new types of administration and authority negotiated. Central instruction and leadership from Rome are becoming a more distant memory.
+              <br />
+            <br />
+            By AD 340, Corbridge has become almost solely an industrial settlement. Public buildings, statements of loyalty, service and faith are swept away or re-used without sentimentality.The people of Corbridge become entrepreneurs, striving to make ends meet.
+              <br />
+            <br />
+            In AD 411 official Roman rule ended in Britain, though contact with the wider empire had been in flux for decades. Within 100 years the centre of the town had been reused for Anglican burials. The main urban centre had shifted east, to become the origins of the present day town.
+              <br />
+            <br />  
+
+          </div>
+          </div>          
+</div>
+            <br/> 
+            We returned to the town by walking along the River Tyne, a lovely and popular walk. The whole circular walk, from Corbridge town to the Roman Museum and back along the River Tyne is about 3 miles on good paths.
+            <br/>
+            <br/>          
+            So, it had been a busy day with the long and stressful drive on the outward journey. However, Corbridge Roman Museum and the town should not be missed. They are historically extremely important and Corbridge is also a very beautiful location (reflected, needless to say by the cost of housing in this location!). 
+            
+              <br/>
+            <br/>
+           
+            <div className="flex flex-col border-solid border-4 border-[#436A6b] bg-[#8d6fb0] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white  bg-[#8d6fb0]">
+              {" "}
+                <div className="m-1 p-1 font-semibold  border-[#436A6b] border-solid border-4 bg-[#c4b5d8]">To open the album of our visit to Corbridge and Corbridge Roman Museum, click on the image below.</div>
+                <br />
+              <br />
+              <Link
+                href="https://photos.app.goo.gl/iTCw2k7sySQj3VBNA"
+                target="_blank"
+              >
+                <Image
+                  src={ CorbridgeRomanMuseumTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[70%] border-solid border-[#436A6b] border-4 mt-1 mb-11 "
+                  alt="Photo of Bernard at Corbridge Roman Museum."
+                />
+              </Link>
+            </div>
+            </div>
+           </div>       
+           </div>          
+           </div>
+
           
             </div> 
            
