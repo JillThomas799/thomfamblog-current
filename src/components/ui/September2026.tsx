@@ -23,9 +23,7 @@ export default function September2026() {
             We start the month with Bernard's dad still being with us, so join us for our adventures with him to the Holy Island of Lindesfarne and Carlisle Cathedral.
            </div>       
            </div>          
-           </div>
-         
-
+           </div>    
 
             <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-[#436A6b] border-solid border-4 bg-[#afa488]">
          <div className="text-md md:text-lg max-w-full font-semibold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
@@ -313,7 +311,7 @@ export default function September2026() {
                 <Image
                   src={ CarlisleCathedralEastWindowTitled }
                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[70%] border-solid border-[#436A6b] border-4 mt-1 mb-11 "
-                  alt="Photo of East WIndow of Carlisle Cathedral."
+                  alt="Photo of East Window of Carlisle Cathedral."
                 />
               </Link>
             </div>
@@ -321,6 +319,25 @@ export default function September2026() {
            </div>       
            </div>          
            </div>
+           </div>
+
+            <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-[#436A6b] border-solid border-4 bg-[#afa488]">
+         <div className="text-md md:text-lg max-w-full font-bold text-[#E7E1F0]  text-center dark:text-[#244845] justify-center items-center">
+        <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 mt-4 px-2 py-2 text-[#E7E1F0]  bg-[#8d6fb0]">3rd September 2026.</div> 
+          <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-2 px-4 py-2 text-[#E7E1F0] bg-[#8d6fb0]">Bernard's dad returns home.</div> 
+        
+           <div className="pr-1 pl-1 pb-2 md:pr-1 md:pl-1 font-semibold md:text-left text-white dark:text-white">
+           Today, it was time for Bernard's dad to return on the long journey home. First though, there was time to go down to visit the local glacial tarn and admire the ducks before calling into to Cranston's Oswald's café in Penrith and to see and say goodbye to Elena en route before heading South.
+            <br/>
+            <br/>
+            As for the outward journey, there was the opportunity to break for lunch, going to see Bernard's dad's sister in Lancashire.
+             <br/>
+            <br/>
+            Bernard's dad had really enjoyed his few days away and we had enjoyed having him to stay. We are all hoping to be able to arrange a return visit before long. 
+             <br/>
+            <br/>
+           </div>       
+           </div>          
            </div>
           
             </div> 
