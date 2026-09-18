@@ -2,7 +2,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BernardWheelchairTitled from '/public/imagesresized/BernardWheelchairTitled.jpg';
 import CarlisleCathedralEastWindowTitled from '/public/imagesresized/CarlisleCathedralEastWindowTitled.jpg';
+import ChocolatesYorkTitled from '/public/imagesresized/ChocolatesYorkTitled.jpg';
 import CorbridgeRomanMuseumTitled from '/public/imagesresized/CorbridgeRomanMuseumTitled.jpg';
+
 
 
 
@@ -446,6 +448,43 @@ export default function September2026() {
            </div>       
            </div>          
            </div>
+
+
+
+           <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-[#436A6b] border-solid border-4 bg-[#afa488]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+        <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 mt-4 px-2 py-2 text-[#E7E1F0]  bg-[#8d6fb0]">15th September 2026.</div> 
+        <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 px-2 py-2 text-[#E7E1F0] bg-[#8d6fb0]"> Visit to York for the day by train.</div> 
+        
+           <div className="pr-1 pl-1 pb-2 md:pr-1 md:pl-1 font-semibold text-left text-white dark:text-white">
+            <div className="text-left">Yes, I know,I know, we were in York for a few days not so long ago in July but here we are again, not least because we discovered that York city is achievable for the day by train, going via Newcastle, and we wanted to try it out....    Besides, we like York city and there was still plenty to see which we had not visited last time including the well-known York Castle Museum.      <br/>
+            <br/>
+            
+           
+            <div className="flex flex-col border-solid border-4 border-[#436A6b] bg-[#8d6fb0] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white  bg-[#8d6fb0]">
+              {" "}
+                <div className="m-1 p-1 font-semibold  border-[#436A6b] border-solid border-4 bg-[#c4b5d8]">To open the album of our visit to York for the day by train, click on the image below.</div>
+                <br />
+              <br />
+              <Link
+                href="https://photos.app.goo.gl/X31guej5zsRMXKrw8"
+                target="_blank"
+              >
+                <Image
+                  src={ ChocolatesYorkTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[70%] border-solid border-[#436A6b] border-4 mt-1 mb-11 "
+                  alt="Photo of Bernard in Monk's Bar Chocolate shop, York."
+                />
+              </Link>
+            </div>
+            </div>
+           </div>       
+           </div>          
+           </div>
+            </div>
+              
+
 
           
             </div> 
