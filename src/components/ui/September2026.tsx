@@ -356,7 +356,8 @@ export default function September2026() {
             It has to be said that the day did not start well. The journey over to Corbridge had taken much longer than anticipated, as there had been a recent major accident on the A69 and both sides of the road were closed with the air ambulance in attendance. All traffic was being diverted through Haltwhistle and anyone who knows Haltwhistle will understand what this means.........   As a result we ended up having to take a diversion back on ourselves to pick up the B6318 Military Road over to Corbridge.
             <br/>
             <br/>
-            Harry had been driving and it was lunch time by the time we arrived, so we headed to a small café in Corbridge which we have been to before called 'Massey's Tea Room' for some lunch.
+            Harry had been driving and it was lunch time by the time we arrived, so we headed to a small café in Corbridge which we have been to before called  <Link  href="
+            https://www.visitcorbridge.co.uk/business/cafes/masseys-team-room/" target="_blank" className="text-decoration-underline text-[#FFC000] font-semibold underline">"Massey's Tea Room"</Link> for some lunch.
             <br/>
             <br/>
             After lunch we headed over to the Roman Museum which is managed by English Heritage. We had never visited before and it was much bigger than we had anticipated with a really interesting museum. In the museum are some extraordinary Roman artefacts including: The Corbridge Hoard, the Corbridge Lion, The tombstone of Vellibia Erola and the rare Roman gladiator knife handle for someone who is left-handed, amongst many other items.             
@@ -423,8 +424,7 @@ export default function September2026() {
             <br/>
             <br/>          
             So, it had been a busy day with the long and stressful drive on the outward journey. However, Corbridge Roman Museum and the town should not be missed. They are historically extremely important and Corbridge is also a very beautiful location (reflected, needless to say by the cost of housing in this location!). 
-            
-              <br/>
+                          <br/>
             <br/>
            
             <div className="flex flex-col border-solid border-4 border-[#436A6b] bg-[#8d6fb0] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
@@ -457,9 +457,32 @@ export default function September2026() {
         <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 px-2 py-2 text-[#E7E1F0] bg-[#8d6fb0]"> Visit to York for the day by train.</div> 
         
            <div className="pr-1 pl-1 pb-2 md:pr-1 md:pl-1 font-semibold text-left text-white dark:text-white">
-            <div className="text-left">Yes, I know,I know, we were in York for a few days not so long ago in July but here we are again, not least because we discovered that York city is achievable for the day by train, going via Newcastle, and we wanted to try it out....    Besides, we like York city and there was still plenty to see which we had not visited last time including the well-known York Castle Museum.      <br/>
+            <div className="text-left">Yes, I know,I know, we were in York for a few days not so long ago in July, but here we are again, not least because we discovered that York city is achievable for the day by train, going via Newcastle, and we wanted to try it out....    
+              <br/>
             <br/>
-            
+              Besides, we like York city and there was still plenty to see which we had not visited last time, including the well-known York Castle Museum. There was an additional purpose to our visit, as requested by Harry, which was to visit what is as far as Harry is concerned the best artisan chocolate shop in the UK, <Link  href="
+           https://monkbar.com/" target="_blank" className="text-decoration-underline text-[#FFC000] font-semibold underline">"Monk Bar Chocolatiers of York"</Link> for supplies...
+           <br/>
+            <br/>
+            The rail route we were taking was initially west to east in the direction Carlisle to Newcastle. Then a change at Newcastle to pick up the intercity Edinburgh to London Kings Cross line, which stops at York. We discovered this route recently, which would actually work better for going down to London and/or Bernard's dad by rail, as long as we were travelling in the week, as it does not appear to be an option on a Saturday at the times required.
+           <br/>
+            <br/>
+            It was certainly pleasanter weather for looking around York than when we were here last, being cooler - 19 degrees c as opposed to in the high 20s. The schools have also returned and it is early autumn, so it was quieter.
+           <br/>
+            <br/>
+            We started at the most important place, the <Link  href="
+           https://monkbar.com/" target="_blank" className="text-decoration-underline text-[#FFC000] font-semibold underline">Monk Bar Chocolatiers of York</Link> artisan chocolate shop on the Shambles before going for much-needed coffees. Afterwards we had the opportunity to look inside 2 shops we had been too busy to investigate last time, <Link  href="
+           https://www.minstergatebooks.co.uk/" target="_blank" className="text-decoration-underline text-[#FFC000] font-semibold underline">Minster Gate bookshop"</Link>, which sells antiquatian and second-hand books and <Link  href="
+           https://www.toppingbooks.co.uk/" target="_blank" className="text-decoration-underline text-[#FFC000] font-semibold underline">Topping and Company booksellers</Link>, a superb indepent book shop which also has branches in Bath, Edinburgh, Ely and St Andrews.
+                <br/>
+            <br/>
+            After lunch in the small cafe at <Link  href="
+           https://www.yorkcastlemuseum.org.uk/" target="_blank" className="text-decoration-underline text-[#FFC000] font-semibold underline">York Castle Museum</Link>, we spent the afternoon exploring the Castle Museum which is very interesting and well laid out.
+            <br/>
+            <br/>
+            The return train journey passed without incident and we made it home safely at the expected time. It was a long day and we were tired when we returned home but it is perfectly workable and we had enjoyed it as York is always a great place to visit.
+            <br/>
+            <br/>
            
             <div className="flex flex-col border-solid border-4 border-[#436A6b] bg-[#8d6fb0] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white  bg-[#8d6fb0]">
