@@ -27,7 +27,7 @@ export default function December2024() {
           {" "}
           WELCOME TO OUR CHRISTMAS AND DECEMBER BLOG
         </section>
-        <section className="newsDecember" style={{ textAlign: "center" }}>
+        <section className="newsDecember" style={{ textAlign: "left" }}>
           Welcome to our December blog. This year we have developed the
           animation for the header one step further to create a snow-globe,
           which if you click on it with your mouse will raise and the globe will
@@ -54,8 +54,7 @@ export default function December2024() {
           South East of England.
           <br />
           <br />
-          <div className="dateNewsDecember">Wednesday, December 11th 2024:</div>
-          <br />
+          <div className="dateNewsDecember" style={{ textAlign: "center" }}>Wednesday, December 11th 2024:</div>
           We had a very enjoyable visit and Christmas lunch out at{" "}
           <Link
             href="https://www.rhs.org.uk/gardens/hyde-hall"
@@ -93,15 +92,13 @@ export default function December2024() {
           </li>
           <br />
           <br />
-          <div className="dateNewsDecember">Thursday, December 12th 2024:</div>
-          <br />
+          <div className="dateNewsDecember" style={{ textAlign: "center" }}>Thursday, December 12th 2024:</div>
           We went over to visit Bernard's father and to cook him 'Christmas'
           lunch. I know it was not Christmas day, but it was near enough. There
           was also Christmas pudding which we had made.
           <br />
           <br />
-          <div className="dateNewsDecember">Friday, December 13th 2024:</div>
-          <br />
+          <div className="dateNewsDecember" style={{ textAlign: "center" }}>Friday, December 13th 2024:</div>
           We went into London on the train and met up with Bernard's brother for
           the day. We had the chance to visit the Victoria and Albert Museum,
           where we also had lunch, and the Natural History Museum in South
