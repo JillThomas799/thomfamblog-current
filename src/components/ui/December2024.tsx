@@ -14,7 +14,7 @@ export default function December2024() {
     <div>      
        <div className=" bg-black border-solid border-4 border- border-[#165b33]  mb-28"> {/*December block background*/}
           <div>
-             <div className="text-white text-center font-semibold text-2xl p-3 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">December 2025 </div> 
+             <div className="text-white text-center font-semibold text-2xl p-3 bg-[#bb252b] border-solid border-2 border-[#165b33] m-2">December 2024 </div> 
               <div className="block relative mt-[70%] mb-[135%] md:mt-[50%] md:scale-[65%]  md:mb-[100%] lg:scale-80 text-center 
               text-[1.75em] font-bold width-full height-full ">
                   <SnowmanShakerDisplay /></div>
@@ -111,11 +111,6 @@ export default function December2024() {
         </section>
 
         <div className="SlideshowHostPhotoDecember">
-          <Link
-            href="https://photos.app.goo.gl/j4Xmhghp8sc9uLKb9"
-            target="_blank"
-            title="Click on the link and read the full comments on each photo to accompany us on our trip to London and the South East."
-          >
             <strong>
               <div className="slideshowinstructionsDecember">
                 {" "}
@@ -126,13 +121,18 @@ export default function December2024() {
                 full story of our trip.
               </div>{" "}
               {/*Closing div slideshowinstructionsDecember*/}
+              <Link             
+                    href=" https://photos.app.goo.gl/qAZBqBz9bQwd1eSd9"
+                    target="_blank"
+                  >
               <Image
                 className="slideshowentryDecember"
                 src={Dinosaur1224Titled}
                 alt=""
               />
+              </Link>
             </strong>
-          </Link>
+          
         </div>
         {/*Closing div SlideshowHostPhotoDecember*/}
 
@@ -162,7 +162,7 @@ export default function December2024() {
 
         <div className="SlideshowHostPhotoDecember">
           <Link
-            href="https://photos.app.goo.gl/BSWeChYShX1Axteo7"
+            href="https://photos.app.goo.gl/H2HovpX7S9npSnodA"
             target="_blank"
             title="Click on the link and read the full comments on each photo to join us in our Christmas 2024 celebrations."
           >
@@ -200,7 +200,7 @@ export default function December2024() {
 
         <div className="SlideshowHostPhotoDecember">
           <Link
-            href="https://photos.app.goo.gl/U3EsSzVtSeFFzWdM8"
+            href="https://photos.app.goo.gl/F1WR3VV6uTKK1fbk7"
             target="_blank"
             title="Click on the link and read the full comments on each photo to see the best and worst of Lennie 2024."
           >
