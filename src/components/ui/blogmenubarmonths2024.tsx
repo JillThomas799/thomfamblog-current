@@ -38,10 +38,10 @@ const BlogMenuBarMonths2024 = () => {
     </div>
     <div className="text-center h-15 bg-gray-800 border-b border-gray-700 font-semibold p-4 hover:text-blue-300">
       <Link href="/dashboard/months/october2024" >October 2024</Link>
-    </div>
+    </div> */}
     <div className="text-center h-15 bg-gray-800 border-b border-gray-700 font-semibold p-4 hover:text-blue-300">
       <Link href="/dashboard/months/november2024" >November 2024</Link>
-    </div> */}
+    </div>
           <div className="text-center h-15 bg-gray-800 border-b border-gray-700 font-semibold p-4 hover:text-blue-300">
             <Link href="/dashboard/months/december2024" >December 2024</Link>
           </div>
