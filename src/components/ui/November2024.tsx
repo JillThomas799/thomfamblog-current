@@ -2,20 +2,24 @@ import Image from 'next/image'
 import Link from 'next/link'
 import NovemberBonfire from "./novemberbonfire"; 
 import "./November2024.css"; 
-import MG4Electric from '/public/imagesresized/MG4Electric.jpg'
-import TullieColorTitled from '/public/imagesresized/TullieColorTitled.jpg'
-import JillGlasgowTramTitled from '/public/imagesresized/JillGlasgowTramTitled.jpg'
-import TheatreRoyalTitled from '/public/imagesresized/TheatreRoyalTitled.jpg'
-import KelvingroveOrganTitled from '/public/imagesresized/KelvingroveOrganTitled.jpg'
-import GlasgowCathedralTitled from '/public/imagesresized/GlasgowCathedralTitled.jpg'
-import DumbartonCastleTitled from '/public/imagesresized/DumbartonCastleTitled.jpg'
+import SycamoreExhibition1 from '/public/imagesresized/SycamoreExhibition1.jpg'
+import "./November2024.css"; 
+import SycamoreExhibition2 from '/public/imagesresized/SycamoreExhibition1.jpg'
+import "./November2024.css"; 
+import SycamoreExhibition3 from '/public/imagesresized/SycamoreExhibition1.jpg'
+import "./November2024.css"; 
+import SycamoreExhibition4 from '/public/imagesresized/SycamoreExhibition1.jpg'
+import Birdoswald1Nov2nd2024 from '/public/imagesresized/Birdoswald1Nov2nd2024.jpg'
+import Birdoswald2Nov2nd2024 from '/public/imagesresized/Birdoswald1Nov2nd2024.jpg'
+import Birdoswald3Nov2nd2024 from '/public/imagesresized/Birdoswald1Nov2nd2024.jpg'
+import Birdoswald4Nov2nd2024 from '/public/imagesresized/Birdoswald1Nov2nd2024.jpg'
 
 export default function November2024() {
 
   return (   
  <div className=" bg-black border-solid border-2 border-black mb-28"> {/*November block background*/}
     <div>
-       <div className="text-white text-center font-semibold text-2xl p-3 bg-[#41231c] border-solid border-2 border-[#b55b4b] m-2">November 2025
+       <div className="text-white text-center font-semibold text-2xl p-3 bg-[#41231c] border-solid border-2 border-[#b55b4b] m-2">November 2024
         </div>
         <div className="FireworkContainer">
          <div className="pyro">
@@ -31,336 +35,238 @@ export default function November2024() {
         <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 pr-3 pl-3 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b] ">
          <div className="text-md md:text-lg max-w-full font-normal text-white text-center dark:text-white justify-center items-center">
+           <div className="font-semibold py-2 px-12 text-white text-center dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 bg-[#773f3f]"> 1st - 30th November 2024</div> {/*End of news date block*/} 
+           <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">WELCOME TO OUR GUY FAWKE'S BONFIRE AND FIREWORKS PARTY!</div> {/*End of news header block*/}
         <div className="text-center text-white font-normal border-black border-solid border-2 mr-1 ml-1 mb-4 mt-4 px-4 py-4 bg-[#773f3f]">
-          Welcome to our November 2025 blog. The days are getting colder (although not yet cold enough to need to light the log fire). This month includes bonfire night and so this month's display is topical, being that of a bonfire and fireworks animation. It is also time for Pets' Classics on ClassicFM radio, Lennie's favourite programme.
+          Welcome to our November blog. This month we have created a virtual,
+          animated bonfire and firework display for our Guy Fawke's party. This
+          way, Lennie can be included too as he hates the noise of real
+          fireworks. He has already organised for us to put on{" "}
+          <Link
+            href="https://www.classicfm.com/radio/shows-presenters/pet-classics/"
+            target="_blank"
+            title="Click here to discover more about the annual Pet's Classics programme on Classic FM"
+           className="underline decoration-[#D99E49]  text-[#D99E49] font-semibold"
+          >
+            Pet's Classics on Classic FM{" "}
+          </Link>
+          at 17.00 on the 2nd and 5th of November 2024, to help keep him
+          relaxed. He loves this programme.
           <br />
           <br />
-          Harry has settled very well into his new job and is really enjoying it, so congratulations to Harry. Elena is keeping well and working hard. She is looking forward to welcoming her partner up to Cumbria later this month, as are we all.
+          For the winter months we have also included a colour scheme taken once
+          again from an autumnal russet pallet in hex color coding. The display
+          is created by amalgamating 3 separate container elements: the burning
+          bonfire animation, the animated firework display, and the earth which
+          forms the ground. We hope you enjoy it...
           <br />
           <br />
-          Otherwise, following the climate change exhibition at Hexham cathedral, we have taken the plunge and bought ourselves our first electric car. So that has been quite exciting. We have included some photos with this month's blog.
-          <br />
-          <br />
-          Bernard and Jill are off to Glasgow this month for a short break, so we will be adding some photos and information regarding this trip as part of this month's blog. Otherwise, we hope everyone else is also well and enjoying November.
           </div>{" "}
       </div>{/*End of individual dated entry photo album block*/} 
            </div> {/*End of news content block*/}
            </div> {/*End of individual dated entry design and color template block*/}  
 
-                <div className="mb-20"> 
+      < div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
          <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
-        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 1st November 2025</div> {/*End of news date block*/} 
-        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">Sizergh Castle, Kendal in the electric car</div> {/*End of news header block*/}
+        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 bg-[#773f3f]"> 1st November 2024</div> {/*End of news date block*/} 
+        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">VISIT TO THE SYCAMORE GAP EXHIBITION AT THE SILL</div> {/*End of news header block*/}
         
         <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
-         Today we decided to take the new electric car on a longer drive of 132 miles to test it out, so we headed off as a family to Sizergh Castle, Kendal for the day. 
-         <br />
-         <br />
-         The car is an MG4 Turbo extended range. It has a good range from its 77kwh battery so we easily managed to reach Sizergh and back on one charge with still 45% battery remaining. It drives really well and is easy to manoeuvre making it feel both light and agile. It is an automatic, which seems strange at first, after driving a manual car but you soon get used to it.
-         <br />
-         <br />
-         There were some minor teething problems such as the speed limit detection system, which had been working fine on the first day, not seeming to be working, . We soon discovered however, that this was due to rain water partially obscuring the cameras. A quick wipe with a cloth and all was fine! We are looking forward during the forthcoming months to hopefully reducing our carbon footprint a little by using this vehicle. 
+          We took the time today to go to see the temporary exhibition entitled
+          'Sycamore Gap: One Year On' by the artist Charlie Whinney which is
+          being hosted at 'The Sill' between the 28th September and the 3rd
+          November 2024. The Guardian newspaper recently published an article
+          regarding this exhibition which can be read here:{" "}
+          <Link
+            href="https://www.theguardian.com/uk-news/2024/sep/27/sycamore-gap-tree-exhibition-opens-to-mark-a-year-since-its-felling"
+            target="_black"
+            title="Click here ot open Guardian article re the Sycamore Gap tree exhibition 27th September 2027"
+            className="underline decoration-[#D99E49]  text-[#D99E49] font-semibold"
+          >
+            Sycamore Gap Tree Exhibition opens to mark a year since its felling
+          </Link>
+          .
+          <br />
+          <br />
+          The felling of the Sycamore Gap Tree in the early hours of the morning
+          on the 28th September 2023 gained widespread media coverage with
+          people from all over the world adding their contributions as to the
+          significance of this particular tree to their lives and experiences.
+          As a result of this and in order to try and gain something hopeful and
+          positive out of such a destructive event, the artist Charlie Whinney
+          and Creative Communities CIC, have created the Sycamore Gap: One Year
+          On exhibition.
+          <br />
+          <br />
+          This exhibition encourages contemplation of events and features the
+          largest remaining section of the original tree. As part of the
+          exhibition, it seeks the participation of the public with visitors
+          being invited to make promises to nature, which will be incorporated
+          into the second and final phase of the commission, set to open by
+          Easter 2025. It is the first part of a 2 part exhibition in which the
+          second and final part will see the wood installed permanently into The
+          Sill and this will open by Easter 2025.
+          <br />
+          <br />
+          As part of the Trees of Hope initiative, all 15 UK National Parks will
+          also receive a sapling that will find new homes in some of the most
+          beautiful landscapes in the UK.
+          <br />
+          <br />
+          For all the information about our Hadrian's Wall Path trek this
+          Summer, please come and join us at our
+          <Link href="/hwp2024" className="underline decoration-[#D99E49]  text-[#D99E49] font-semibold">
+            {" "}
+            Hadrian's Wall Path Expedition page.{" "}
+          </Link>
          <br />
          <br />  
+         
          <Image
-                  src={ MG4Electric }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of MG4 electric"
+                  src={ SycamoreExhibition1 }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of of the original tree’s wood forming the exhibition centre piece "
                 />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal">
+                  The largest section of the original <br /> tree’s wood forms
+                  the centre piece <br /> of the exhibition display, as can{" "}
+                  <br /> be seen above.
+                </div>
+              </figcaption>
+              <br />
+                <Image
+                  src={ SycamoreExhibition2 }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of of the original tree’s wood forming the exhibition centre piece "
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal">
+                   It is framed by the artwork <br /> of the wood behind....
+                </div>
+              </figcaption>
+              <br />
+               <Image
+                  src={ SycamoreExhibition3 }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of of the original tree’s wood forming the exhibition centre piece "
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal">
+                   There are additional alcoves to the exhibition <br />{" "}
+                  containing galleries where people have sent in <br /> their
+                  own pictures of the Sycamore Gap tree
+                </div>
+              </figcaption>
+              <br />
+              <Image
+                  src={ SycamoreExhibition4 }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of of the original tree’s wood forming the exhibition centre piece "
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal">
+                    As well as the pictures shown here, <br /> there are also
+                  books of people's <br /> descriptions of what they were doing{" "}
+                  <br /> when they heard about the tree's <br /> abrupt and
+                  unexpected demise.
+                </div>
+              </figcaption>
+               <br />
+ <br />              
            </div>           {/*  End of individual dated entry design and color template block */}
-           </div> {/*End of individual dated entry block*/}</div>   
-
-           <div className="mb-20"> 
-      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
-         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
-        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 7th November 2025</div> {/*End of news date block*/} 
-        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">Visit to the Colour Exhibition at the Tullie Museum, Carlisle</div> {/*End of news header block*/}
-        
-        <div className="text-left pr-3 pl-3 md:pr-3 md:pl-3 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
-         Today we went to see the <Link href="https://tullie.org.uk/2025/09/colour-exhibition-opens-this-saturday/" target="_blank" className="underline decoration-black text-black font-semibold">'Colour' exhibition at the Tullie Museum</Link>, Carlisle which is running from the 27th September 2025 to the 25th January 2026. It is a <Link href="https://www.museumsassociation.org/museums-journal/news/2023/05/funding-for-three-touring-exhibitions-as-part-of-network/#" target="_blank" className="underline decoration-black text-black font-semibold" >MAGNET partnership exhibition</Link>, receiving support from the Art Fund and public funding from the National Lottery through Arts Council England.
-         <br />
-         <br /> 
-         The exhibition explores questions of:
-         <ul className="list-disc pl-10 text-left">
-          <li>What is colour?</li> 
-          <li>Why does it mean different things in different cultures and times?</li> 
-          <li>How has colour been linked to power, values and even prejudice?</li> 
-         </ul>
-          <br />
-         The exhibition uses objects, paintings, interactive displays, and some interesting and thought-provoking exhibits to answer the above questions. It includes works by Wassily Kandinsky, Andy Warhol and Hokusai. Artists have long known how to use colour to create effect. 
-         <br />
-         <br />
-         It may not be initially apparent but in this blog much thought and research goes into the use of colour to represent concepts,ideas and feelings. For example the colours used for each month are carefully chosen to reflect colours and hues in the sky, sea and countryside at those particular months. Appropriate use of light and dark, primary and secondary colours is important in responsive design for example taking into consideration people with visual impairment and colour blindness. 
-         <br />
-         <br />
-         This exhibition is well worth a visit. To find out more about our visit, click on the photo below.
-         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#b55b4b] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
-            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#b55b4b]">
-              {" "}
-         <div className="m-1 p-1 font-normal  border-gray-800 border-solid border-2 bg-[#773f3f] mb-6">Click on the image below to open the album <br /> of our visit to the Colour Exhibition at the Tullie Museum, Carlisle</div>
-          <Link
-                href="https://photos.app.goo.gl/ZYW5Q8QV2y8KGds68"
-                target="_blank"
-              >
-         <Image
-                  src={ TullieColorTitled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of Bernard outside the Tullie Museum"
-                />
-                </Link>
-           
-            </div>{" "}
-      </div>{/*End of individual dated entry photo album block*/} 
-      </div>           {/*  End of individual dated entry design and color template block */}
-           </div> {/*End of individual dated entry block*/}</div>    
-          
-                     <div className="mb-20"> 
-      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
-         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
-        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 12th November 2025, Wednesday.</div> {/*End of news date block*/} 
-        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">Glasgow City Break Day 1: The Riverside Museum and the Tall Ship Glenlee</div> {/*End of news header block*/}
-        
-        <div className="text-left pr-3 pl-3 md:pr-3 md:pl-3 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
-          The Riverside Museum, Glasgow is an award-winning transport and technology museum which replaced the preceding Glasgow Museum of Transport.  It was opened in June 2011, being the first purpose-built museum created by Glasgow Life in the 21st century.    
-          <br />
-          <br />
-          It fronts on to the River Clyde at Pointhouse Quay in a building designed by  Zaha Hadid Architects and connects via a pedestrian and cycle path over the Govan–Partick Bridge to Govan. It forms part of the Glasgow Harbour regeneration project, winning the 2013 European Museum of the Year Award. It houses many exhibits of national and international importance.
-          <br />
-          <br />
-          The museum houses a collection of transport and technology of over 3,000 objects, acquired over the centuries and which are used to highlight Glasgow's globally important role through its contributions to heavy industries like shipbuilding, train manufacturing and engineering.
-          <br />
-          <br />
-          Taking the Govan Walkway over the bridge brought us to Govan which is a very old district, far older than Glasgow itself, with roots dating right back to the 5th century. The site of Viking grave burials ( the Govan Stones), and the seat of the ancient rulers of Strathclyde, it was a political and spiritual hub right back in early medieval times. 
-          We had intended to see the Govan Stones which are Viking hogback gravestones which visiting chieftains used to cover their dead of high status and Govan church has a very good collection. However, unfortunately the stones are not open for viewing between 1st November and 31st March. so that will have to wait until another time.
-           <br />
-           <br />
-           We had a great day at the Riverside museum. It is well worth a visit and, together with our visit to the tall ship Glenlee, which is moored outside the museum, we spent over 4 hours there. There is a large car park right outside the museum which you have to pay for but currently entrance to the museum itself is free. There is a café in the museum. Entrance to the Glenlee tall ship outside is currently £4.50 per adult but there is lots to see in the ship of interest.
-
-         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#b55b4b] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
-            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#b55b4b]">
-              {" "}
-         <div className="m-1 p-1 font-normal  border-gray-800 border-solid border-2 bg-[#773f3f] mb-6">Click on the image below to open the album <br /> of our visit to the Riverside Museum and Tall Ship</div>
-          <Link
-                href="https://photos.app.goo.gl/otNBGk6Xh4w5LRT16"
-                target="_blank"
-              >
-         <Image
-                  src={ JillGlasgowTramTitled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of Jill about to board one t=of the early Glasgow trams"
-                />
-                </Link>
-           
-            </div>{" "}
-      </div>{/*End of individual dated entry photo album block*/} 
-      </div>           {/*  End of individual dated entry design and color template block */}
-           </div> {/*End of individual dated entry block*/}</div>    
-     
-          <div className="mb-20"> 
-      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
-         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
-        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 13th November 2025, Thursday.</div> {/*End of news date block*/} 
-        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">Glasgow City Break Day 2: Exploring Glasgow Centre and the Merchant City Mile, Hamilton at the Theatre Royal.</div> {/*End of news header block*/}
-        
-        <div className="text-left pr-3 pl-3 md:pr-3 md:pl-3 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
-         This morning we headed off on foot in the pouring rain into the city centre along Argyle and St Vincent streets. First port of call was a very good Waterstones bookshop near Central Station which...surprise, surprise...had a café where we could grab some coffees.
-          <br />
-          <br />
-          Suitably refreshed, it was time to explore the Merchant City. By the latter 18th Century around half of all tobacco imported into Britain came through Glasgow. It created huge profits that have made a mark on the urban landscape. This wealth continued into the 19th century when shipbuilding and textiles kept the industrialists prosperous. Many of the  buildings created by this wealth are still in use today but have been refashioned to alternative uses. For example, the Royal Exchange has become the Gallery of Modern Art. It is outside this gallery that the statue of the Duke of Wellington on horseback can be seen with a traffic cone on his head.
-          <br />
-          <br />
-          Next was 42, Miller Street, The Tobacco Merchant's House. This house was featured on the historian David Olusoga's series 'Union' for the BBC. The mansions of  Miller Street, Glasgow were the home of the 'Tobacco-Lords' of Glasgow, a very tight-knit community, a small number of families, who often inter-married, and they shared information and dominated the trade in tobacco. Number 42, Miller Street was home to one of them, Robert Findlay, who had grown rich on his connections with tobacco growers in Virginia and Maryland. He bought it in 1782.The Tobacco Mechant's House, is remarkable for several reasons, not least of which is the fact that it survived the enormous industrialisation and commercialisation of Glasgow over the last two centuries.
-           <br />
-          <br />
-          The main square of this district is George Square but unfortunately we were not able to fully see all its 19th century grandiose buildings, including the City Chambers, as the square is currently undergoing a major refurbishment and is all cordoned off. We were able to see however Sir Walter Scott's statue on the Doric column at the centre of the square, with Bernard quoting sections from Ivanhoe, which he has been reading recently.
-          <br />
-          <br />
-          In the afternoon it was the highlight of the day as we went to see Hamilton live at the Theatre Royal, Glasgow. It was a fantastic show and very well-performed, especially the rap. We really enjoyed it, as did all the Glaswegians who were there. 
-
-         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#b55b4b] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
-            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#b55b4b]">
-              {" "}
-         <div className="m-1 p-1 font-normal  border-gray-800 border-solid border-2 bg-[#773f3f] mb-6">Click on the image below to open the album <br /> of our day on the Merchant City Mile and to the theatre to see Hamilton.</div>
-          <Link
-                href="https://photos.app.goo.gl/Wtu7e8L6UzMPThdX6"
-                target="_blank"
-              >
-         <Image
-                  src={ TheatreRoyalTitled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of Jill in the auditorium at the Theatre Royal, Glasgow."
-                />
-                </Link>
-           
-            </div>{" "}
-      </div>{/*End of individual dated entry photo album block*/} 
-      </div>           {/*  End of individual dated entry design and color template block */}
            </div> {/*End of individual dated entry block*/}</div>  
-     
-     <div className="mb-20"> 
+     </div> {/*End of November block*/}
+    
+    < div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
          <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
-        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 14th November 2025, Friday.</div> {/*End of news date block*/} 
-        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">Glasgow City Break Day 3: A day in Glasgow's West End: Glasgow Botanic Gardens, Glasgow University and  Kelvingrove Art Gallery and Museum.</div> {/*End of news header block*/}
-        
-        <div className="text-left pr-3 pl-3 md:pr-3 md:pl-3 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
-         We were staying 1 minute around the corner from the Kelvingrove art Gallery and Museum and Glasgow University in the West end of the city, so today we decided to explore the West end. Firstly we headed over to the Botanic Gardens which came into being in 1817 when about eight acres of land were laid out at Sandyford, near Sauchiehall Street, Glasgow, and run by the Royal Botanic Institution of Glasgow . They were intended to supply the University of Glasgow. William Hooker was regius professor of botany at Glasgow University, and contributed to the development of the Botanic Gardens before his appointment to the directorship of Kew Gardens in London. The Gardens moved to its current location in 1842. 
-          <br />
-          <br />
-          After some refreshment at one a number of very nice cafés in the surrounding streets, we headed back through the Victorian university towards the Kelvingrove Art Gallery and Museum. Kelvingrove was one of the last great museums of the Victorian era, opening in 1901, as part of Glasgow's International Exhibition of that year. In 1902 it became Glasgow’s civic art gallery and museum. The city's residents regularly vote it their favourite building. The collections range from fine art and design - including examples of French Impressionism and the Scottish Colourists - to natural history including Sir Roger the elephant, plus arms and armour, human history and Ancient Egypt.
-          <br />
-          <br />
-          The Kelvingrove Art Gallery and Museum is also famous for its lunchtime organ recitals and we were fortunate enough to be able to listen to one of these recitals today. As with many museums in Scotland, entry was free. There are also areas for people to eat their own packed lunches which is really good for people who cannot afford the café or that is just their preference, especially families. So many museums in England now do not offer this possibility anymore and it is sadly missed.
-          <br />
-          <br />
-          Glasgow is a fantastic city, in many ways quite similar to Liverpool, probably due to its strong maritime history, rapid expansion during the 18th and 19th centuries and strong connections to the transatlantic trade and whilst it may be not on everyone's 'bucket list' destinations we would suggest consideration that perhaps it should be. Sure, it is 'edgy' , but so is any industrial city and Glaswegians are canny and super-friendly. It is a very relaxed city and we did not feel any less safe here than we do in London, in fact probably more so.
-
-         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#b55b4b] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
-            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#b55b4b]">
-              {" "}
-         <div className="m-1 p-1 font-normal  border-gray-800 border-solid border-2 bg-[#773f3f] mb-6">Click on the image below to open the album <br /> of our day in Glasgow's West End: Glasgow Botanic Gardens, Glasgow University and  Kelvingrove Art Gallery and Museum.</div>
-          <Link
-                href="https://photos.app.goo.gl/pmZpn6tnTr9xdj4B8"
-                target="_blank"
-              >
-         <Image
-                  src={ KelvingroveOrganTitled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of KelvingroveOrganRecital."
-                />
-                </Link>
-           
-             </div>{" "}
-      </div>{/*End of individual dated entry photo album block*/} 
-      </div>           {/*  End of individual dated entry design and color template block */}
-           </div> {/*End of individual dated entry block*/}
-           </div>  
-
-
-
-
-<div className="mb-20"> 
-      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4  border-gray-800 border-solid border-2 bg-[#b55b4b]">
-         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
-        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 15th November 2025, Saturday.</div> {/*End of news date block*/} 
-        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">Glasgow City Break Day 4: Glasgow Cathedral,  St. Mungo Museum Of Religious Life & Art and the Rest is Politics Live at Glasgow SEC Armadillo.</div> {/*End of news header block*/}
-        
-        <div className="text-left pr-3 pl-3 md:pr-3 md:pl-3 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
-        It was our final day in Glasgow today and we still had not seen one of Scotland's most significant medieval buildings, <Link href="https://glasgowcathedral.org/" target="_blank" className="underline decoration-[#D99E49]  text-[#D99E49] font-semibold">Glasgow Cathedral</Link>. After some debate as to the best method of transport, we set off on the 2.2 mile walk from the flat over to the east side of the city to visit this important site.
-        <br />
-        <br />
-        The building of Glasgow Cathedral began in 1136 and took about 350 years to finish. It is dedicated to St Kentigern, or St Mungo as he is otherwise known, the first bishop of the ancient kingdom of Strathclyde, who was widely believed to have been buried on the site around 612. It was built to be a more appropriate shrine to St Kentigern, for the use of the many pilgrims who visited his tomb. Glasgow Cathedral also has an interesting history behind its stained glass. More about the <Link href="https://blog.historicenvironment.scot/2025/08/the-story-of-glasgow-cathedrals-stained-glass/" target="_blank" className="underline decoration-[#D99E49]  text-[#D99E49] font-semibold">Glasgow Cathedral Stained Glass</Link> can be found via this link.  It is possible from the site of the cathedral to see how Glasgow city sprang up between the Cathedral on the hill and the River Clyde to the South.
-        <br />
-        <br />
-        The cathedral is well worth a visit and the staff within very helpful. Together with the Necropolis on the hill, it appeared to be the star attraction for a large group of French and other international visitors. 
-         <br />
-        <br />
-        Following our visit to the cathedral, we crossed the road to visit the <Link href="https://www.glasgowlife.org.uk/museums/venues/st-mungo-museum-of-religious-life-and-art" target="_blank" className="underline decoration-[#D99E49]  text-[#D99E49] font-semibold">St Mungo Museum of Religious Life and Art</Link>. St Mungo Museum is named after the city's patron saint who brought the Christian faith to Glasgow in the 6th century. It is built on the site of the medieval Bishops’ Castle and is designed in its style. It aims to promote understanding and respect between people of different faiths and those of none and offers something for everyone. 
-        <br />
-        <br />
-        This was the great gift of this museum which is quite delightful despite it having some uncomfortable and tragic displays. At first entry it can seem a little underwhelming, but we would suggest persevering as it lies over 3 floors and has some very thoughtful and meaningful displays regarding a wide range of faiths.
-        <br />
-        <br />
-        The evening saw us at the SEC Armadillo, set on Scotland's Exhibition Centre campus, to see Alistair Campbell and Rory Stewart live at <Link href="https://open.spotify.com/show/1Ysx8g1Iw42gESAtegrFaH" target="_blank" className="underline decoration-[#D99E49]  text-[#D99E49]  font-semibold">Rest is Politics</Link>. The Rest Is Politics is a British podcast and television series hosted by Alastair Campbell and Rory Stewart which launched in March 2022. It has since become one of the leading political podcasts in the United Kingdom.Campbell and Stewart generally discuss contemporary news and politics, with a strong focus on UK politics, but also international developments, such as foreign elections and humanitarian catastrophes. 
-         <br />
-        <br />
-        Rory Stewart was conservative MP for our constituency area Penrith and the Borders between 2010-2019 , a constituency which unfortunately no longer exists in the same format. He has recently published a book <Link href="https://www.amazon.co.uk/Middleland-Times-bestselling-co-host-podcast-Politics/dp/1787336247" target="_blank" className="underline decoration-[#D99E49]  text-[#D99E49]  font-semibold">Middlelands</Link> based on pieces he originally wrote for the Cumberland and Westmoreland Gazette. It is well worth a read, though takes a little getting in to. It is a snapshot of our area of rural Britain today with well-researched discussion of its history, people and landscape (even we discovered things we had not previously known). Rory Stewart was an MP for Penrith and the borders during the time we first came to live in the Eden Valley and so we identify closely with what he talks about in this book and the changes he experienced in the area over that period both for good and for bad. 
-        <br />
-        <br />
-        This is the 2nd live Rest is Politics show we have been to, the first being at Manchester's Apollo theatre last year. We had a very enjoyable evening with Alistair taking us out by playing his bagpipes (see album for video extract) to the sound of a large proportion of the audience singing along in Scottish gaelic. 
-
-         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#b55b4b] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
-            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#b55b4b]">
-              {" "}
-         <div className="m-1 p-1 font-normal  border-gray-800 border-solid border-2 bg-[#773f3f] mb-6">Click on the image below to open the album <br /> of our day at Glasgow Cathedral,  St. Mungo Museum Of Religious Life & Art and the Rest is Politics Live at Glasgow SEC Armadillo.</div>
-          <Link
-                href="https://photos.app.goo.gl/ADnEdkB8kFyoqiZf8"
-                target="_blank"
-              >
-         <Image
-                  src={ GlasgowCathedralTitled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of Glasgow Cathedral."
-                />
-                </Link>
-           
-             </div>{" "}
-      </div>{/*End of individual dated entry photo album block*/} 
-      </div>           {/*  End of individual dated entry design and color template block */}
-           </div> {/*End of individual dated entry block*/}
-           </div>
-           </div>
-
-
-<div className="mb-20"> 
-      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4  border-gray-800 border-solid border-2 bg-[#b55b4b]">
-         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
-        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 16th November 2025, Sunday.</div> {/*End of news date block*/} 
-        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">Glasgow City Break Day 5: Dumbarton Rock and Castle and return home.</div> {/*End of news header block*/}
-        
-        <div className="text-left pr-3 pl-3 md:pr-3 md:pl-3 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">It was our final day in Scotland today and time to go home. It had been a really busy few days and we had packed lots of things in, but before we headed off home we first wanted to take a slight detour further west of the city to see a very important historic location Dumbarton Rock and Castle or 'Alt Clud', the capital of the ancient Kingdom of Strathclyde between the 5th and 11th centuries.
-          <br />
-          <br />
-          We were very lucky because it was an absolutely beautiful day, sunny but cold and clear meaning the views from the top of the Rock were amazing. It was easy to see why it had been such an important and popular stronghold for past Kingdoms and their rulers. 
-           <br />
-          <br />
-          We were also very fortunate as we were one of the first visitors there and as we were climbing the Rock met a volunteer who goes there every day and he got chatting to us. We learnt a tremendous amount as he lives locally and is very knowledgeable about the local history. He was in the navy for many years and was a submariner for a period so he had some interesting stories. He told us much about the Clyde and the shipyards, the types of boat out on that day and what their roles were, together with a very detailed description of the history of Dumbarton Rock and its buildings.
-           <br />
-          <br />
-          We had had a really busy, interesting and enjoyable trip to Glasgow, with still things to see and do here which on this occasion we did not have the opportunity for. I have no doubt this will mean a return trip in the future. It is well worth a visit.        
-         <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#b55b4b] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
-            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#b55b4b]">
-              {" "}
-         <div className="m-1 p-1 font-normal  border-gray-800 border-solid border-2 bg-[#773f3f] mb-6">Click on the image below to open the album <br /> of our day at Dumbarton Rock and Castle.</div>
-          <Link
-                href="https://photos.app.goo.gl/xEiPNdRy5Gen7VfP6"
-                target="_blank"
-              >
-         <Image
-                  src={ DumbartonCastleTitled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of Governor's House Dumbarton."
-                />
-                </Link>
-           
-             </div>{" "}
-      </div>{/*End of individual dated entry photo album block*/} 
-      </div>           {/*  End of individual dated entry design and color template block */}
-           </div> {/*End of individual dated entry block*/}
-           </div>
-           </div>
-
-           <div className="mb-20"> 
-      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
-         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
-        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 18th November 2025, Tuesday.</div> {/*End of news date block*/} 
-        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">Visit to Rheged Centre cinema to see the film 'The Choral' starring Ralph Fiennes.</div> {/*End of news header block*/}
+        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 bg-[#773f3f]"> 2nd November 2024, Saturday</div> {/*End of news date block*/} 
+        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">ADDITIONAL DAY - CATCH-UP VISIT TO BIRDOSWALD FORT</div> {/*End of news header block*/}
         
         <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
-         Today we went to see the film  <Link href="https://www.theguardian.com/film/2025/nov/06/the-choral-review-alan-bennett-ralph-fiennes" target="_blank" className="underline decoration-[#D99E49]  text-[#D99E49]  font-semibold">The Choral</Link> at <Link href="https://rheged.com/cinema/" target="_blank" className="underline decoration-[#D99E49]  text-[#D99E49]  font-semibold">The Rheged Centre cinema, Penrith.</Link>
+          When we walked the Birdowswald Fort section of Hadrian's Wall on the
+          28th July 2024, there was not time to call in and explore the fort
+          more fully, so we promised that sometime over the quieter Winter
+          months we would pay Birdoswald Fort a visit, especially as Harry had
+          never had the opportunity to visit.
           <br />
           <br />
-         The film stars Ralph Fiennes and is set in 1916. It is directed by BAFTA, Olivier and Tony Award winner NICHOLAS HYTNER (The Crucible) and written by BAFTA, Olivier and Tony Award winner ALAN BENNETT, The Choral marks their fourth writer-director collaboration following the acclaimed films The Madness of King George, The History Boys, and The Lady in The Van. 
+          It was lovely and quiet at the fort, so there was plenty of
+          opportunity and time to study the information boards and findings
+          carefully. It is an interesting fort and well worth a visit if you are
+          in the area! It is probably worthwhile obtaining a copy of the English
+          Heritage guidebook though as it contains some additional helpful
+          information to provide further clarification.
           <br />
           <br />
-         The promotional description at the Rheged Centre describes the synopsis as follows: "As war rages on the Western Front, the Choral Society in Ramsden, Yorkshire has lost most of its men to the army. The Choral’s ambitious committee, determined to press ahead, decides to recruit local young males to swell their ranks. They must also engage a new chorus master, and despite their suspicions that he has something to hide, their best bet seems to be Dr. Henry Guthrie (Ralph Fiennes) – driven, uncompromising, and recently returned from a career in Germany. As conscription papers start to arrive, the whole community discovers that the best response to the chaos that is laying waste to their lives is to make music together."
+          For all the information about our Hadrian's Wall Path trek this
+          Summer, please come and join us at our
+          <Link href="/hwp2024" className="underline decoration-[#D99E49]  text-[#D99E49] font-semibold">
+            {" "}
+            Hadrian's Wall Path Expedition page.{" "}
+          </Link>
          <br />
-          <br />
-          For those who know Alan Bennett's previous works, it certainly has discernible hallmarks of his writing. Ralph Fiennes, as always in these types of roles, is the master of nuance. We very much enjoyed the film. 
+         <br />  
+         
+         <Image
+                  src={ Birdoswald1Nov2nd2024 }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of Birdoswald Farmhouse. "
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal">
+                   Birdoswald Farmhouse, which <br /> stands on the site of the
+                  old Roman Fort Banna.
+                </div>
+              </figcaption>
+              <br />
+                <Image
+                  src={ Birdoswald2Nov2nd2024 }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of the Via Principalis at the entry to the West Gate. "
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal">
+                   We are standing here on the Via Principalis, <br /> about to
+                  enter what was the West Gate.
+                </div>
+              </figcaption>
+              <br />
+               <Image
+                  src={ Birdoswald3Nov2nd2024 }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of one of the information boards. "
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal">
+                   There are helpful information boards, <br /> this one
+                  concerning the West Gate.
+                </div>
+              </figcaption>
+              <br />
+              <Image
+                  src={ Birdoswald4Nov2nd2024 }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of the English Heritage Birdoswald guidebook. "
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal">
+                     It is well worth purchasing this <br /> English Heritage
+                  guidebook <br /> about the fort as it provides <br /> more
+                  detailed information.
+                </div>
+              </figcaption>
+               <br />
+ <br />              
            </div>           {/*  End of individual dated entry design and color template block */}
-           </div> {/*End of individual dated entry block*/}
-           </div> 
-            </div>  
+           </div> {/*End of individual dated entry block*/}</div>  
+</div> {/*End of November block*/}    
 
 
 
-      </div> {/*End of November block*/}
-      </div> {/*End of November block background*/}
-     </div>
-     </div>
-      </div>
-      </div>
+    </div>
       </div>
   );
 }
