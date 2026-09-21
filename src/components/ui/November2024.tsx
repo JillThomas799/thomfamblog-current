@@ -13,6 +13,10 @@ import Birdoswald1Nov2nd2024 from '/public/imagesresized/Birdoswald1Nov2nd2024.j
 import Birdoswald2Nov2nd2024 from '/public/imagesresized/Birdoswald1Nov2nd2024.jpg'
 import Birdoswald3Nov2nd2024 from '/public/imagesresized/Birdoswald1Nov2nd2024.jpg'
 import Birdoswald4Nov2nd2024 from '/public/imagesresized/Birdoswald1Nov2nd2024.jpg'
+import BlacksmithsMeal1Nov4th2024 from '/public/imagesresized/BlacksmithsMeal1Nov4th2024.jpg'
+import BlacksmithsMeal2Nov4th2024 from '/public/imagesresized/BlacksmithsMeal1Nov4th2024.jpg'
+import BlacksmithsEandH4112024 from '/public/imagesresized/BlacksmithsEandH4112024.jpg'
+import BlacksmithsBernard4112024 from '/public/imagesresized/BlacksmithsBernard4112024.jpg'
 
 export default function November2024() {
 
@@ -265,6 +269,138 @@ export default function November2024() {
 </div> {/*End of November block*/}    
 
 
+< div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
+        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 bg-[#773f3f]"> November 4th 2024, Monday</div> {/*End of news date block*/} 
+        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]"> BLACKSMITH'S ARMS FOR DINNER</div> {/*End of news header block*/}
+        
+        <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
+          The whole family met up today to go out for dinner at the Blacksmith's
+          Arms. It was lovely, being relatively quiet and there was an open
+          fire. The food was great also and reasonably priced. <br /> A great
+          time was had by all.
+         <br />
+         <br />  
+         
+         <Image
+                  src={ BlacksmithsMeal1Nov4th2024 }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of cumbeerland sausage and mash. "
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal">
+                  Cumberland Sausage and mash.
+                </div>
+              </figcaption>
+              <br />
+                <Image
+                  src={ BlacksmithsMeal2Nov4th2024 }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of Trout, new potatoes and vegetables. "
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal">
+                   Trout, new potatoes and vegetables.
+                </div>
+              </figcaption>
+              <br />
+               <Image
+                  src={ BlacksmithsEandH4112024 }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of the 'A' team - Elena and Harry. "
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal">
+                   The 'A' team - Elena and Harry.
+                </div>
+              </figcaption>
+              <br />
+              <Image
+                  src={ BlacksmithsBernard4112024 }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of Bernard drinking beer. "
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal">
+                     Bernard enjoying the most important <br /> thing .... the
+                  beer.
+                </div>
+              </figcaption>
+               <br />
+ <br />              
+           </div>           {/*  End of individual dated entry design and color template block */}
+           </div> {/*End of individual dated entry block*/}</div>  
+</div> {/*End of November block*/}    
+
+
+< div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
+        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 bg-[#773f3f]"> November 14th 2024, Thursday</div> {/*End of news date block*/} 
+        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">HALTWHISTLE MYSTERY TOUR WALK , 5.25 miles: <br /> Haltwhistle,
+          Haltwhistle Burn, Cawfields Quarry and return.</div> {/*End of news header block*/}
+        
+        <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
+          We went over to Haltwhistle today to undertake a walk which actually
+          forms part of the optional 'Haltwhistle Detour' of the Hadrian's Wall
+          Path, usually used by people walking Hadrian's Wall who have overnight
+          accommodation booked in Haltwhistle. This is one of the additional,
+          optional add-ons to our Hadrian's Wall walk in the Summer, which we
+          did not have chance to complete at the time, so what better time to do
+          it than now? Whilst it was misty, when the sun periodically broke
+          through, it turned into a lovely day. It also made it appropriately
+          spooky, given it had just been halloween a few days previously....
+          <br />
+          <br />
+          There is free parking available on Fair Hill, behind Sainsbury's
+          supermarket. On arrival, as it was still quite misty, we called in at
+          <Link
+            href="https://www.tripadvisor.com/ShowUserReviews-g616269-d25569987-r955107966-Bonnie_s-Haltwhistle_Northumberland_England.html"
+            target="_blank"
+            title="Click here to discover more about 'Bonnie's'"
+            className="underline decoration-[#D99E49]  text-[#D99E49] font-semibold"
+          >
+            {" "}
+            Bonnie's Café{" "}
+          </Link>{" "}
+          to have some coffees prior to starting our walk.
+          <Link
+            href="https://www.tripadvisor.com/ShowUserReviews-g616269-d25569987-r955107966-Bonnie_s-Haltwhistle_Northumberland_England.html"
+            target="_blank"
+            title="Click here to discover more about 'Bonnie's'"
+            className="underline decoration-[#D99E49]  text-[#D99E49] font-semibold"
+          >
+            {" "}
+            Bonnie's
+          </Link>{" "}
+          is a quirky, friendly, reasonably-priced café on Haltwhistle Main
+          Street. It seemed to be popular with local people, which is always a
+          good sign. Coffees complete, we set off on our walk up Haltwhistle
+          Burn towards Cawfield's Quarry, which sits on the Hadrian's Wall Path.
+          <br />
+          <br />
+          Haltwhistle Burn Gorge was formed millions of years ago. It contains
+          large cliffs containing sandstone. It was an important source of coal,
+          which was mined, and limestone, which was burnt to form lime, used in
+          buildings and had an important role in improving the acid soil of the
+          upland farms. The remains of 2 lime kilns are still visible as you
+          climb the path. The footpath you walk on was, during the early 20th
+          century, the narrow-gauge railway tank which transported road-stone
+          from Cawfields Quarry on Hadrian's Wall, where we were walking today,
+          to the railway sidings at Town Foot. Earlier, in the 18th century,
+          there were 2 mills in the gorge which had been set up by the Quakers
+          to created jobs for local people and which were used to produce wool.
+          The gorge looks very peaceful today but it was once the industrial
+          centre of Haltwhistle producing woollen fabric, coal, stone, lime and
+          ceramics.
+         
+         <br />
+         <br />  
+         </div>
+         </div>
+         </div>
+         </div>
 
     </div>
       </div>
