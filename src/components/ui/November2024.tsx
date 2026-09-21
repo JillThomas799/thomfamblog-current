@@ -14,10 +14,12 @@ import Birdoswald2Nov2nd2024 from '/public/imagesresized/Birdoswald1Nov2nd2024.j
 import Birdoswald3Nov2nd2024 from '/public/imagesresized/Birdoswald1Nov2nd2024.jpg'
 import Birdoswald4Nov2nd2024 from '/public/imagesresized/Birdoswald1Nov2nd2024.jpg'
 import BlacksmithsMeal1Nov4th2024 from '/public/imagesresized/BlacksmithsMeal1Nov4th2024.jpg'
-import BlacksmithsMeal2Nov4th2024 from '/public/imagesresized/BlacksmithsMeal1Nov4th2024.jpg'
+import BlacksmithsMeal2Nov4th2024 from '/public/imagesresized/BlacksmithsMeal2Nov4th2024.jpg'
 import BlacksmithsEandH4112024 from '/public/imagesresized/BlacksmithsEandH4112024.jpg'
 import BlacksmithsBernard4112024 from '/public/imagesresized/BlacksmithsBernard4112024.jpg'
-import CawfieldsNov14th2024Titled from '/public/imagesresized/CawfieldsNov14th2024Titled.jpg;'
+import CawfieldsNov14th2024Titled from '/public/imagesresized/CawfieldsNov14th2024Titled.jpg'
+import RidgewoodHarry16112024Titled from '/public/imagesresized/RidgewoodHarry16112024Titled.jpg'
+
 
 export default function November2024() {
 
@@ -121,7 +123,7 @@ export default function November2024() {
           <br />
           For all the information about our Hadrian's Wall Path trek this
           Summer, please come and join us at our
-          <Link href="/hwp2024" className="underline decoration-[#D99E49]  text-[#D99E49] font-semibold">
+          <Link href="./hwp2024" className="underline decoration-[#D99E49]  text-[#D99E49] font-semibold">
             {" "}
             Hadrian's Wall Path Expedition page.{" "}
           </Link>
@@ -130,7 +132,7 @@ export default function November2024() {
          
          <Image
                   src={ SycamoreExhibition1 }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of of the original tree’s wood forming the exhibition centre piece "
                 />
                   <figcaption className="novemberFigCaption">
@@ -143,7 +145,7 @@ export default function November2024() {
               <br />
                 <Image
                   src={ SycamoreExhibition2 }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of of the original tree’s wood forming the exhibition centre piece "
                 />
                   <figcaption className="novemberFigCaption">
@@ -154,28 +156,27 @@ export default function November2024() {
               <br />
                <Image
                   src={ SycamoreExhibition3 }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of of the original tree’s wood forming the exhibition centre piece "
                 />
                   <figcaption className="novemberFigCaption">
                 <div className="font-normal">
                    There are additional alcoves to the exhibition <br />{" "}
                   containing galleries where people have sent in <br /> their
-                  own pictures of the Sycamore Gap tree
+                  own pictures of the Sycamore Gap tree.
                 </div>
               </figcaption>
               <br />
               <Image
                   src={ SycamoreExhibition4 }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of of the original tree’s wood forming the exhibition centre piece "
                 />
                   <figcaption className="novemberFigCaption">
                 <div className="font-normal">
-                    As well as the pictures shown here, <br /> there are also
-                  books of people's <br /> descriptions of what they were doing{" "}
-                  <br /> when they heard about the tree's <br /> abrupt and
-                  unexpected demise.
+                    As well as the pictures shown here, there are also
+                  books <br /> of people's descriptions of what they were doing when
+                 <br /> they heard about the tree's abrupt and unexpected demise.
                 </div>
               </figcaption>
                <br />
@@ -208,7 +209,7 @@ export default function November2024() {
           <br />
           For all the information about our Hadrian's Wall Path trek this
           Summer, please come and join us at our
-          <Link href="/hwp2024" className="underline decoration-[#D99E49]  text-[#D99E49] font-semibold">
+          <Link href="./hwp2024" className="underline decoration-[#D99E49]  text-[#D99E49] font-semibold">
             {" "}
             Hadrian's Wall Path Expedition page.{" "}
           </Link>
@@ -217,7 +218,7 @@ export default function November2024() {
          
          <Image
                   src={ Birdoswald1Nov2nd2024 }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of Birdoswald Farmhouse. "
                 />
                   <figcaption className="novemberFigCaption">
@@ -229,7 +230,7 @@ export default function November2024() {
               <br />
                 <Image
                   src={ Birdoswald2Nov2nd2024 }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of the Via Principalis at the entry to the West Gate. "
                 />
                   <figcaption className="novemberFigCaption">
@@ -241,7 +242,7 @@ export default function November2024() {
               <br />
                <Image
                   src={ Birdoswald3Nov2nd2024 }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of one of the information boards. "
                 />
                   <figcaption className="novemberFigCaption">
@@ -253,7 +254,7 @@ export default function November2024() {
               <br />
               <Image
                   src={ Birdoswald4Nov2nd2024 }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of the English Heritage Birdoswald guidebook. "
                 />
                   <figcaption className="novemberFigCaption">
@@ -286,7 +287,7 @@ export default function November2024() {
          
          <Image
                   src={ BlacksmithsMeal1Nov4th2024 }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of cumbeerland sausage and mash. "
                 />
                   <figcaption className="novemberFigCaption">
@@ -297,7 +298,7 @@ export default function November2024() {
               <br />
                 <Image
                   src={ BlacksmithsMeal2Nov4th2024 }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of Trout, new potatoes and vegetables. "
                 />
                   <figcaption className="novemberFigCaption">
@@ -308,7 +309,7 @@ export default function November2024() {
               <br />
                <Image
                   src={ BlacksmithsEandH4112024 }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of the 'A' team - Elena and Harry. "
                 />
                   <figcaption className="novemberFigCaption">
@@ -319,7 +320,7 @@ export default function November2024() {
               <br />
               <Image
                   src={ BlacksmithsBernard4112024 }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of Bernard drinking beer. "
                 />
                   <figcaption className="novemberFigCaption">
@@ -395,10 +396,14 @@ export default function November2024() {
           The gorge looks very peaceful today but it was once the industrial
           centre of Haltwhistle producing woollen fabric, coal, stone, lime and
           ceramics.
-         
+          </div>
          <br />
          <br />  
-         <div className="m-1 p-1 font-normal  border-gray-800 border-solid border-2 bg-[#773f3f] mb-6">Click on the image below to open the album <br /> of our day at on the Haltwhistle Mystery Tour Walk.</div>
+         <div className="m-1 p-1 font-normal  bg-[#773f3f] border-solid border-black border-2 mb-6">
+          <br />         
+          Click on the image below to open the album <br /> of our day on the Haltwhistle Mystery Tour Walk.
+         <br />
+         <br /> 
           <Link
                 href="https://photos.app.goo.gl/yAGdp3P23DrUq6U76"
                 target="_blank"
@@ -406,15 +411,119 @@ export default function November2024() {
          <Image
                   src={ CawfieldsNov14th2024Titled }
                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of Governor's House Dumbarton."
+                  alt="Photo of the road entering Cawfield's car park."
                 />
                 </Link>
                  <br />
          <br />  
+        </div>
          </div>
          </div>
          </div>
+
+
+      < div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
+        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 bg-[#773f3f]"> November 16th 2024, Saturday</div> {/*End of news date block*/} 
+        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]"> Miltonrigg Wood, Lanercost, Quarry Beck, Ridgewood and Brampton
+          Circular Walk, 15.11km = 9.45 miles, 3hr 24, elevation gained 253
+          metres.</div> {/*End of news header block*/}
+        
+        <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
+           Today, was the first of a series of longer range walks which we will
+          be undertaking over the forthcoming months. The aim is to increase our
+          fitness and resilience so that we can comfortably walk 10-15 miles a
+          day over successive days. The challenges of this over the winter
+          period of course are the shorter daylight hours and risk of inclement
+          weather, so a prompt start and flexibility in consideration of the
+          best routes will be important. The walk today was just under 10 miles,
+          on mixed terrain, along small country roads, and through several
+          woods.
+          <br />
+          <br />
+           Some highlights of the walk included:
+            <br />
+          <br />
+          <ul
+            style={{ textAlign: "center", marginLeft: "5%", marginRight: "5%"}}
+          >
+            <li style={{ textDecoration: "underline", fontWeight:"bold"}}>Milton Rigg Wood:</li>{" "}
+            <div className="leftAlignli">
+              Owned and managed by the Woodland Trust and containing a variety
+              of interesting trees including many oak and birch, many of which
+              date back over 100 years. Oak from this wood was used in
+              rebuilding the roof of York Minster after it was destroyed by fire
+              in 1984. The wildlife pond was created in 1990 as a habitat for
+              toads, newts and dragonflies. There are birds such as wood warbler
+              and willow tit which can be spotted.
+            </div>
+            <br />
+            <li style={{ textDecoration: "underline", fontWeight:"bold" }}>Naworth Castle:</li>
+            <div className="leftAlignli">
+              Naworth Castle, belonging to the Dacre and Howard families, was
+              built in 1335 to defend England’s borderlands against the Scots
+              and Border Reivers. It is a private home, which is only available
+              for private hire, and so it is not open to the general public.
+              Nevertheless, it forms an impressive site as you descend the hill
+              and it is easy to see why it was chosen for this location during
+              the time of the borderland conflicts.
+            </div>
+            <br />
+            <li style={{ textDecoration: "underline", fontWeight:"bold" }}>Lanercost tea room:</li>
+            <div className="leftAlignli">
+              Lanercost tea room is adjacent to the fascinating 12th century
+              Lanercost Priory and lies only 0.5 mile from the World Heritage
+              Site of Hadrian’s Wall. They serve a good range of
+              freshly-prepared food. As you may have realised by now, for those
+              of you who follow the blog, it is a favourite location of ours....
+            </div>
+            <br />
+            <li style={{ textDecoration: "underline", fontWeight:"bold" }}>Quarrybeck:</li>
+            <div className="leftAlignli">
+              A stream and falls running through woodland down towards
+              Lanercost. This is an extremely pleasant walk, especially in the
+              month of May when the bluebells are out. It can be very muddy
+              underfoot though, so adequate footwear is necessary. Our May 2024
+              header features the bluebells in Quarrybeck wood.....
+            </div>
+            <br />
+            <li style={{ textDecoration: "underline", fontWeight:"bold" }}>Ridgewood:</li>
+            <div className="leftAlignli">
+              This also is an area of woodland owned and managed by the Woodland
+              Trust. It has lots of wildlife including roe deer, red squirrel
+              and foxes being seen. There is a large ancient beech with a girth
+              of 4.2m can be found to the east together with other species such
+              as sycamore and lime. There are some lovely views from up here.
+            </div>
+          </ul>
+          <br />
+         
+          </div>
+         <br />
+         <br />  
+         <div className="m-1 p-1 font-normal  bg-[#773f3f] border-solid border-black border-2 mb-6">
+          <br />         
+          Click on the image below to open the album <br /> of some of our highlights of the walk.
+         <br />
+         <br /> 
+          <Link
+                href="https://photos.app.goo.gl/qcSyd3XWHYTgzbq58"
+                target="_blank"
+              >
+         <Image
+                  src={ RidgewoodHarry16112024Titled}
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of the road entering Cawfield's car park."
+                />
+                </Link>
+                 <br />
+         <br />  
+        </div>
          </div>
+         </div>
+         </div>
+
 
     </div>
       </div>
