@@ -17,6 +17,7 @@ import BlacksmithsMeal1Nov4th2024 from '/public/imagesresized/BlacksmithsMeal1No
 import BlacksmithsMeal2Nov4th2024 from '/public/imagesresized/BlacksmithsMeal1Nov4th2024.jpg'
 import BlacksmithsEandH4112024 from '/public/imagesresized/BlacksmithsEandH4112024.jpg'
 import BlacksmithsBernard4112024 from '/public/imagesresized/BlacksmithsBernard4112024.jpg'
+import CawfieldsNov14th2024Titled from '/public/imagesresized/CawfieldsNov14th2024Titled.jpg;'
 
 export default function November2024() {
 
@@ -396,6 +397,19 @@ export default function November2024() {
           ceramics.
          
          <br />
+         <br />  
+         <div className="m-1 p-1 font-normal  border-gray-800 border-solid border-2 bg-[#773f3f] mb-6">Click on the image below to open the album <br /> of our day at on the Haltwhistle Mystery Tour Walk.</div>
+          <Link
+                href="https://photos.app.goo.gl/yAGdp3P23DrUq6U76"
+                target="_blank"
+              >
+         <Image
+                  src={ CawfieldsNov14th2024Titled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Governor's House Dumbarton."
+                />
+                </Link>
+                 <br />
          <br />  
          </div>
          </div>
