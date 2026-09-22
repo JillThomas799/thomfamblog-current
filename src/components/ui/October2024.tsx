@@ -55,10 +55,11 @@ export default function October2024() {
       </div>{/*End of individual dated entry photo album block*/} 
            </div> {/*End of news content block*/}
            </div> {/*End of individual dated entry design and color template block*/}  
+          
 
                 <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-[#858c88] border-solid border-2 bg-[#22311d]">
-         <div className="text-md md:text-lg max-w-full font-semibold  text-white text-center dark: text-white justify-center items-center">
+         <div className="text-md md:text-lg max-w-full font-semibold  text-white text-center dark:text-white justify-center items-center">
         <div className="font-semibold bg-[#5b7248] py-2 px-12 mb-4 text-center dark:text-white"> 1st October 2024</div> {/*End of news date block*/} 
           <div className="font-semibold bg-[#5b7248] py-2 px-12 border-[#858c88] border-2 mb-4  text-white text-center dark:text-white">Trip to London on the train to see The Silk Roads Exhibition at the
             British Museum</div> 
@@ -150,10 +151,8 @@ export default function October2024() {
             <br />
             <br />
             All in all, we had a great day, and would definitely go again.
-         <br />
-         <br />  
-        
-           
+             <br />
+            <br />    
       </div>{/*End of individual dated entry photo album block*/} 
 
       <div className="flex flex-col border-solid border-2 border-[#757c88] bg-[#5b7248] pb-2 pt-2 mr-[0%] ml-[0%] mt-5 mb-4  justify-center text-center">
@@ -181,10 +180,9 @@ export default function October2024() {
            </div> {/*End of individual dated entry design and color template block*/}
            </div> {/*End of individual dated entry block*/}    
 
-
-       <div className="mb-20"> 
+       <div className="mb-10"> 
       <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-[#858c88] border-solid border-2 bg-[#22311d]">
-         <div className="text-md md:text-lg max-w-full font-semibold  text-white text-center dark: text-white justify-center items-center">
+         <div className="text-md md:text-lg max-w-full font-semibold  text-white text-center dark:text-white justify-center items-center">
         <div className="font-semibold bg-[#5b7248] py-2 px-12 mb-4 text-center dark:text-white"> 10th - 26th October 2024</div> {/*End of news date block*/} 
           <div className="font-semibold bg-[#5b7248] py-2 px-12 border-[#858c88] border-2 mb-4  text-white text-center dark:text-white">Friends and relatives come to visit... </div>
           <div className="font-normal text-left border-solid border-[#757c88] border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#5b7248]"> A big thank you to all our friends and relatives who have taken the
@@ -192,15 +190,15 @@ export default function October2024() {
             Kamla on the 10th October, Tom on the 22nd October and Phil and
             Claire on the 23rd - 26th October. It has been great to see
             everyone, we really enjoyed it together with catching up on the
-            news.</div>
+            news.
+            </div>
             </div>
             </div>
              </div>
 
-
                     <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-[#858c88] border-solid border-2 bg-[#22311d]">
-         <div className="text-md md:text-lg max-w-full font-semibold  text-white text-center dark: text-white justify-center items-center">
+         <div className="text-md md:text-lg max-w-full font-semibold  text-white text-center dark:text-white justify-center items-center">
         <div className="font-semibold bg-[#5b7248] py-2 px-12 mb-4 text-center dark:text-white"> 11th October 2024, Friday</div> {/*End of news date block*/} 
           <div className="font-semibold bg-[#5b7248] py-2 px-12 border-[#858c88] border-2 mb-4  text-white text-center dark:text-white">Trip with friends to see REST IS POLITICS LIVE at the O2 Apollo
             Theatre, Manchester. </div>
@@ -244,8 +242,7 @@ export default function October2024() {
             It was a brilliant day out which everyone thoroughly enjoyed. It was
             a long drive back home in the evening, but it had been well worth
             the effort.
-             <br />
-         <br />  
+             <br /> 
          
          <Image
                   src={ AspleyCottageTRIPLive }
@@ -351,9 +348,7 @@ export default function October2024() {
                  <br />
                </div>
                  </div>
-                  </div>
-              <br />
- <br />     
+                  </div>  
 
   <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-[#858c88] border-solid border-2 bg-[#22311d]">
@@ -388,7 +383,6 @@ export default function October2024() {
             so once this had been identified, repair was soon underway and
             before long the water supply reestablished.
              <br />
-         <br />  
          
          <Image
                   src={ LaFuga }
@@ -445,9 +439,6 @@ export default function October2024() {
              </div>
               </div>
 
-
-
-
  <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-[#858c88] border-solid border-2 bg-[#22311d]">
          <div className="text-md md:text-lg max-w-full font-semibold  text-white text-center dark:text-white justify-center items-center">
@@ -456,7 +447,6 @@ export default function October2024() {
           < div className="font-normal text-left border-solid border-[#757c88] border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#5b7248]"> We have realised that Lennie has not featured much recently, so we
             thought we would add a brief update of what he has been up to.....
              <br />
-         <br />  
          
          <Image
                   src={ LennieBed }
@@ -516,12 +506,9 @@ export default function October2024() {
              </div>
               </div>
 
-
-
-
               <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-[#858c88] border-solid border-2 bg-[#22311d]">
-         <div className="text-md md:text-lg max-w-full font-semibold  text-white text-center dark: text-white justify-center items-center">
+         <div className="text-md md:text-lg max-w-full font-semibold  text-white text-center dark:text-white justify-center items-center">
         <div className="font-semibold bg-[#5b7248] py-2 px-12 mb-4 text-center dark:text-white"> 26th October 2024, Saturday</div> {/*End of news date block*/} 
           <div className="font-semibold bg-[#5b7248] py-2 px-12 border-[#858c88] border-2 mb-4  text-white text-center dark:text-white"> Winter Droving, Penrith, in which Paddington Bear also makes an
             appearance....</div> 
@@ -566,9 +553,7 @@ export default function October2024() {
             on November 8 2024. See whether you can spot Paddington in our
             Winter Droving album?
          <br />
-         <br />  
         
-           
       </div>{/*End of individual dated entry photo album block*/} 
 
       <div className="flex flex-col border-solid border-2 border-[#757c88] bg-[#5b7248] pb-2 pt-2 mr-[0%] ml-[0%] mt-5 mb-4  justify-center text-center">
@@ -597,6 +582,7 @@ export default function October2024() {
            </div> {/*End of individual dated entry block*/}    
             </div>
 
+<br />
 
               </div>
                </div>
