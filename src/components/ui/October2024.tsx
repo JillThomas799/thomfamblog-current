@@ -55,7 +55,7 @@ export default function October2024() {
       </div>{/*End of individual dated entry photo album block*/} 
            </div> {/*End of news content block*/}
            </div> {/*End of individual dated entry design and color template block*/}  
-          
+          <br />
 
                 <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-[#858c88] border-solid border-2 bg-[#22311d]">
@@ -175,12 +175,13 @@ export default function October2024() {
                   alt="Photo of Penrith Station"
                 />
               </Link>
-            </div>{" "}
+            </div>
            </div> {/*End of news content block*/}
            </div> {/*End of individual dated entry design and color template block*/}
-           </div> {/*End of individual dated entry block*/}    
+           </div> {/*End of individual dated entry block*/}   
+           <br /> 
 
-       <div className="mb-10"> 
+       <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-[#858c88] border-solid border-2 bg-[#22311d]">
          <div className="text-md md:text-lg max-w-full font-semibold  text-white text-center dark:text-white justify-center items-center">
         <div className="font-semibold bg-[#5b7248] py-2 px-12 mb-4 text-center dark:text-white"> 10th - 26th October 2024</div> {/*End of news date block*/} 
@@ -247,12 +248,12 @@ export default function October2024() {
          <Image
                   src={ AspleyCottageTRIPLive }
                   className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
-                  alt="Photo of of the original tree’s wood forming the exhibition centre piece "
+                  alt="Photo of the Apsley pub, Manchester.S"
                 />
                   <figcaption className="novemberFigCaption">
                 <div className="font-normal text-center">
                    We arrived and Robin disappeared immediately <br /> into the
-                    Aspley Cottage pub to check out <br /> his old haunt from
+                    Apsley Cottage pub to check out <br /> his old haunt from
                     student days.
                 </div>
               </figcaption>
@@ -349,6 +350,7 @@ export default function October2024() {
                </div>
                  </div>
                   </div>  
+                  <br />
 
   <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-[#858c88] border-solid border-2 bg-[#22311d]">
@@ -432,12 +434,11 @@ export default function October2024() {
                 </div>
               </figcaption>
                <br />
-         
-              <br />
- <br />                       
+                               
              </div>
              </div>
               </div>
+<br />
 
  <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-[#858c88] border-solid border-2 bg-[#22311d]">
@@ -505,6 +506,8 @@ export default function October2024() {
              </div>
              </div>
               </div>
+                 <br />
+              
 
               <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-[#858c88] border-solid border-2 bg-[#22311d]">
