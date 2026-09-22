@@ -130,6 +130,8 @@ export default function October2024() {
             such a good idea as it was absolutely pouring with rain, and despite
             having umbrellas we got very wet. We were quite glad therefore to
             finally arrive back at Euston station for our return journey home.
+           <br />
+            <br />           
             Our return journey as predicted, did not run as smoothly as the
             outward journey. Avanti West Coast were undertaking what would
             appear to be their not uncommon approach of cancelling trains at
@@ -157,7 +159,7 @@ export default function October2024() {
       <div className="flex flex-col border-solid border-2 border-[#757c88] bg-[#5b7248] pb-2 pt-2 mr-[0%] ml-[0%] mt-5 mb-4  justify-center text-center">
             <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#5b7248]">
               {" "}
-                <div className="m-1 p-2 font-normal  border-[#757c88] border-solid border-2 bg-[#22311d]">Click on the image below to open the photo album of our trip
+                <div className="m-1 p-2 font-normal">Click on the image below to open the photo album of our trip
                   to London and the Silk Roads Exhibition.
                   <br /> <br />
                   The individual comments on the photos will take you through
@@ -180,8 +182,425 @@ export default function October2024() {
            </div> {/*End of individual dated entry block*/}    
 
 
-      
+       <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-[#858c88] border-solid border-2 bg-[#22311d]">
+         <div className="text-md md:text-lg max-w-full font-semibold  text-white text-center dark: text-white justify-center items-center">
+        <div className="font-semibold bg-[#5b7248] py-2 px-12 mb-4 text-center dark:text-white"> 10th - 26th October 2024</div> {/*End of news date block*/} 
+          <div className="font-semibold bg-[#5b7248] py-2 px-12 border-[#858c88] border-2 mb-4  text-white text-center dark:text-white">Friends and relatives come to visit... </div>
+          <div className="font-normal text-left border-solid border-[#757c88] border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#5b7248]"> A big thank you to all our friends and relatives who have taken the
+            time to call in to see us during this period including: Paul and
+            Kamla on the 10th October, Tom on the 22nd October and Phil and
+            Claire on the 23rd - 26th October. It has been great to see
+            everyone, we really enjoyed it together with catching up on the
+            news.</div>
+            </div>
+            </div>
+             </div>
 
+
+                    <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-[#858c88] border-solid border-2 bg-[#22311d]">
+         <div className="text-md md:text-lg max-w-full font-semibold  text-white text-center dark: text-white justify-center items-center">
+        <div className="font-semibold bg-[#5b7248] py-2 px-12 mb-4 text-center dark:text-white"> 11th October 2024, Friday</div> {/*End of news date block*/} 
+          <div className="font-semibold bg-[#5b7248] py-2 px-12 border-[#858c88] border-2 mb-4  text-white text-center dark:text-white">Trip with friends to see REST IS POLITICS LIVE at the O2 Apollo
+            Theatre, Manchester. </div>
+          <div className="font-normal text-left border-solid border-[#757c88] border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#5b7248]"> Today it was time for our long awaited trip with friends to see the
+            Rest of Politics Live Show with Alistair Campbell and Rory Stewart,
+            and also Katty Kay and Anthony Scaramucci (former White House
+            Director of Communications for Donald Trump) who host The Rest is
+            Politics: US Edition, at the O2 Apollo Theatre, Manchester.
+            <br />
+            <br />
+            We had an early start to pick up Elena and then to drive down to
+            meet and have a lovely lunch at our friends' house. We then headed
+            off into Manchester to try and find some parking near the O2 Apollo
+            Theatre. It was recommended that we only park on the official O2 car
+            parks, as there are some alternative car parks where there have been
+            reports of scams. Thankfully, as it was relatively small, we managed
+            to get onto one of the official O2 car parks where we were shown to
+            our place by an extremely entertaining and amusing car park
+            attendant.
+            <br />
+            <br />
+            We were met by an amazing view of a queue of people stretching
+            indefinitely, waiting to enter the theatre, which just did not seem
+            to decrease as people moved into the theatre. It was a phenomenal
+            sight as, whilst we had expected it to be busy, we had not expected
+            the sort of turn out you would expect for someone with pop start
+            status!
+            <br />
+            <br />
+            Meanwhile Robin had spotted the Apsley Cottage pub, where he used to
+            go drinking as a student.... So of course, it needed checking out
+            for old times sake. By the time we finally entered the Apollo
+            Theatre, it was almost time for the show to start. We were pleased
+            to see we had good seats with a great view. The first half was
+            Alistair and Rory, then there was an interval and for the second
+            half they were joined by Katty Kay and Anthony Scaramucci (former
+            White House Director of Communications for Donald Trump), hosts of
+            The Rest is Politics: US Edition for a question and answer session.
+            <br />
+            <br />
+            It was a brilliant day out which everyone thoroughly enjoyed. It was
+            a long drive back home in the evening, but it had been well worth
+            the effort.
+             <br />
+         <br />  
+         
+         <Image
+                  src={ AspleyCottageTRIPLive }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of of the original tree’s wood forming the exhibition centre piece "
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal text-center">
+                   We arrived and Robin disappeared immediately <br /> into the
+                    Aspley Cottage pub to check out <br /> his old haunt from
+                    student days.
+                </div>
+              </figcaption>
+              <br />
+                <Image
+                  src={ FullAuditorium }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of of the original tree’s wood forming the exhibition centre piece "
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal text-center">
+                  The auditorium was packed full, <br /> even though there was
+                    another show <br /> after this one...
+                </div>
+              </figcaption>
+              <br />
+               <Image
+                  src={ AcRsInAction }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of of the original tree’s wood forming the exhibition centre piece "
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal text-center">
+                  Alistair Campbell and Rory Stewart <br /> in action...
+                </div>
+              </figcaption>
+              <br />
+              <Image
+                  src={ AcRs }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of of the original tree’s wood forming the exhibition centre piece "
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal text-center">
+                    We think Rory seems to really be enjoying <br /> these live
+                    shows. Here he is in his <br /> drainpipe trousers,
+                    modelling <br /> himself on one of the Beatles...
+                </div>
+              </figcaption>
+               <br />
+               <Image
+                  src={ PreparingPart2 }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of the place-holder screen behind the stage."
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal text-center">
+                  The 2 halves were separated by an interval, <br />
+                    after which there was a question and answer <br /> session.
+                    You could send in your questions...
+                </div>
+              </figcaption>
+              <br />
+              <Image
+                  src={ ElenaTripLive }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of Elena."
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal text-center">
+                    Elena at the interval. We had <br /> really good seats which
+                    was great.
+                </div>
+              </figcaption>
+              <br />
+              <Image
+                  src={ AcKkAsRs }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of  Alistair Campbell, Katty Kay, Anthony Scaramucci and
+                    Rory Stewart in action."
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal text-center">
+                   Alistair Campbell, Katty Kay, Anthony <br /> Scaramucci and
+                    Rory Stewart in action <br /> in question and answers in the
+                    second half.
+                </div>
+              </figcaption>
+              <br />
+              <Image
+                  src={ Alistairbagpipes }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of Alistair playing the bagpipes."
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal text-center">
+                    Alistair always ends by playing his bagpipes, so <br /> the
+                    show ended to the sound of 'Happy Birthday' <br /> being
+                    played on the bagpipes to celebrate the <br /> birthday of a
+                    member of the audience..
+                </div>
+                 </figcaption>
+                 <br />
+               </div>
+                 </div>
+                  </div>
+              <br />
+ <br />     
+
+  <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-[#858c88] border-solid border-2 bg-[#22311d]">
+         <div className="text-md md:text-lg max-w-full font-semibold  text-white text-center dark:text-white justify-center items-center">
+        <div className="font-semibold bg-[#5b7248] py-2 px-12 mb-4 text-center dark:text-white">  16th October 2024, Wednesday</div> {/*End of news date block*/} 
+          <div className="font-semibold bg-[#5b7248] py-2 px-12 border-[#858c88] border-2 mb-4  text-white text-center dark:text-white">THE DAY OF NO WATER......! </div>
+          < div className="font-normal text-left border-solid border-[#757c88] border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#5b7248]"> We woke this morning and went to turn on the shower only to
+            discover.....there was no water!
+            <br /> <br />
+            We went to explore what the problem might be and soon identified the
+            source, as overnight we appeared to have developed a new garden
+            feature .... a spring, so it was time to identify who was
+            responsible for the maintenance and repair of the affected part of
+            the network and a number of urgent telephone calls ensued.
+            <br />
+            <br />
+            We discovered that it was the water company, United Utilities who
+            needed to come out to assess and undertake the repair. With all due
+            respect to United Utilities it was a reasonably efficient process
+            with us being updated by text every step of the way.
+            <br />
+            <br />
+            They have 3 teams; the first to come and assess the problem, the
+            second team to undertake the repair and the third team to undertake
+            the back-fill and tidying of the site to how it was before. Teams 1
+            and 2 came out very promptly that day, not least because our supply
+            appeared to be a high-pressure supply , suitable for manning a
+            fire-hydrant should there be a fire at the farm at our rear or at
+            our 4 properties on the hill. This meant that United Utilities were
+            losing a significant amount of water per minute from their supply.
+            Apparently the problem was that a stopcock had sheared and broken,
+            so once this had been identified, repair was soon underway and
+            before long the water supply reestablished.
+             <br />
+         <br />  
+         
+         <Image
+                  src={ LaFuga }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of the water leak in the garden."
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal text-center">
+                    Our new garden feature of a spring, <br /> otherwise known
+                    as 'the leak'.
+                </div>
+              </figcaption>
+              <br />
+                <Image
+                  src={ UUHardatwork }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of United Utilities, hard at work in the rain. "
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal text-center">
+                  The men from United Utilities, hard <br /> at work in the
+                    rain to stop the flood.
+                </div>
+              </figcaption>
+              <br />
+               <Image
+                  src={ AnatomyHole }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[50%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of the hole which has been dug in the garden, to repair the leak. "
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal text-center">
+                   The anatomy of the hole, <br /> with the stopcock now
+                    replaced.
+                </div>
+              </figcaption>
+              <br />
+              <Image
+                  src={ Repairsite }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of fenced-off hole"
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal text-center">
+                     All secure. The 3rd team now just <br /> need to attend to
+                    undertake the back-fill.
+                </div>
+              </figcaption>
+               <br />
+         
+              <br />
+ <br />                       
+             </div>
+             </div>
+              </div>
+
+
+
+
+ <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-[#858c88] border-solid border-2 bg-[#22311d]">
+         <div className="text-md md:text-lg max-w-full font-semibold  text-white text-center dark:text-white justify-center items-center">
+        <div className="font-semibold bg-[#5b7248] py-2 px-12 mb-4 text-center dark:text-white">17th October 2024, Thursday</div> {/*End of news date block*/} 
+          <div className="font-semibold bg-[#5b7248] py-2 px-12 border-[#858c88] border-2 mb-4  text-white text-center dark:text-white">Time for a Lennie update....</div>
+          < div className="font-normal text-left border-solid border-[#757c88] border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#5b7248]"> We have realised that Lennie has not featured much recently, so we
+            thought we would add a brief update of what he has been up to.....
+             <br />
+         <br />  
+         
+         <Image
+                  src={ LennieBed }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of Lennie lying on the bed."
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal text-center">
+                   Lennie is always trying to sneak on to the beds. <br />{" "}
+                    Usually he does not succeed, but here he is <br /> on
+                    Elena's bed, having been successful.
+                </div>
+              </figcaption>
+              <br />
+                <Image
+                  src={ LennieFire16102024 }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of Lennie in front of log fire. "
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal text-center">
+                 Lennie has been trying to get us <br /> to light the log
+                    fire for ages, ...here he is <br /> last night, having been
+                    successful <br /> for the first time this Autumn.
+                </div>
+              </figcaption>
+              <br />
+               <Image
+                  src={ LenniePlaystation }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of Lennie on the play station. "
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal text-center">
+                    Lennie does not like to feel left out. <br /> Here he is
+                    playing on the <br /> play station game ....
+                </div>
+              </figcaption>
+              <br />
+              <Image
+                  src={ LennieStudying }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of Lennie sitting on the papers."
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal text-center">
+                     Lennie is studying hard, <br /> the 'Terms and Conditions{" "}
+                    <br /> for cat owners.'... He thinks <br /> they may need
+                    some revision.
+                </div>
+              </figcaption>
+               <br />
+         
+              <br />
+ <br />                       
+             </div>
+             </div>
+              </div>
+
+
+
+
+              <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-[#858c88] border-solid border-2 bg-[#22311d]">
+         <div className="text-md md:text-lg max-w-full font-semibold  text-white text-center dark: text-white justify-center items-center">
+        <div className="font-semibold bg-[#5b7248] py-2 px-12 mb-4 text-center dark:text-white"> 26th October 2024, Saturday</div> {/*End of news date block*/} 
+          <div className="font-semibold bg-[#5b7248] py-2 px-12 border-[#858c88] border-2 mb-4  text-white text-center dark:text-white"> Winter Droving, Penrith, in which Paddington Bear also makes an
+            appearance....</div> 
+        
+        <div className="pr-1 pl-1 md:p-4 font-normal text-left bg-[#5b7248] border-[#858c88] border-solid border-2  text-white dark:text-white">
+           Winter Droving in Penrith, Cumbria is an annual cultural event
+            created by Eden Arts which is usually held in the last week of
+            October and which started in 2012. It has grown in popularity each
+            year and these days can see around 20,000 people attending annually.
+            The motto of the festival is “turn your clocks back 400 years” and
+            it marks the end of the harvest season and the beginning of the
+            "darker half" of the year in a celebration of light, fire and rural
+            life. There are torch-led processions and people wear animal
+            effigies and masks.
+            <br />
+            <br />
+            During Winter Droving, the centre of the town is closed to traffic
+            and there are stalls selling traditional mulled wine and hot
+            chestnuts, alongside local produce including world foods, vegan and
+            vegetarian cuisine, giftware, local artists’ works, quirky clothing
+            and charity stalls. The day begins with a fancy dress competition
+            for dogs, and there are live musicians, street performances,
+            drumming bands, carnival street shows and tug of war before the
+            torch-led parade once it goes dark in the evening.
+            <br />
+            <br />
+            This year was even better as Paddington Bear was visiting town! 23
+            Paddington Bear statues have been installed on benches throughout
+            the UK from John O’Groats to Land's End, and Penrith has been very
+            lucky as it is the only place in Cumbria to host a statue. Other
+            locations Paddington will be visiting include: Ashby • Birmingham •
+            Bury St Edmunds • Cardiff • Chester • County Mayo • Edinburgh • John
+            O’ Groats • Lanark • Land’s End • Liverpool • London Paddington •
+            London Westfield • Manchester • Newbury • Newtownards • Penrith •
+            Peterborough • Reading • Salisbury • Southampton • Sunderland •
+            York.
+            <br />
+            <br />
+            The Paddington Visits have been launched by the film company
+            STUDIOCANAL ahead of Paddington bear’s latest cinematic outing,
+            Paddington in Peru, which will be released in UK and Ireland cinemas
+            on November 8 2024. See whether you can spot Paddington in our
+            Winter Droving album?
+         <br />
+         <br />  
+        
+           
+      </div>{/*End of individual dated entry photo album block*/} 
+
+      <div className="flex flex-col border-solid border-2 border-[#757c88] bg-[#5b7248] pb-2 pt-2 mr-[0%] ml-[0%] mt-5 mb-4  justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#5b7248]">
+              {" "}
+                 Click on the image below to open the photo album of Winter
+                  Droving, Penrith.
+                  <br /> <br />
+                  The individual comments on the photos will take you through
+                  the full story of our experience.
+                <br />
+              <br />
+              <Link
+                href="https://photos.app.goo.gl/RjfKkHNuGn6WZyAx9"
+                target="_blank"
+              >
+                <Image
+                  src={ WinterDroving2024Title }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[60%] border-solid border-[#757c88] border-2 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Winter Droving, Penrith"
+                />
+              </Link>
+            </div>{" "}
+           </div> {/*End of news content block*/}
+           </div> {/*End of individual dated entry design and color template block*/}
+           </div> {/*End of individual dated entry block*/}    
+            </div>
+
+
+              </div>
+               </div>
+                </div>
       </div> {/*End of October block*/}
       </div> {/*End of October block background*/}
 </div>
