@@ -1,127 +1,186 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Gaia from "/public/imagesresized/Gaia.jpg";
-import GaiaTitled from "/public/imagesresized/GaiaTitled.jpg";
-import ArchimedesScrewTitled from "/public/imagesresized/ArchimedesScrewTitled.jpg";
 import FallingLeaves from "./fallingleaves";  
+import PenrithStationTitled from "/public/imagesresized/PenrithStationTitled.jpg";
+import AspleyCottageTRIPLive from "/public/imagesresized/AspleyCottageTRIPLive.jpg";
+import FullAuditorium from "/public/imagesresized/FullAuditorium.jpg";
+import AcRsInAction from "/public/imagesresized/AcRsInAction.jpg";
+import AcRs from "/public/imagesresized/AcRs.jpg";
+import PreparingPart2 from "/public/imagesresized/PreparingPart2.jpg";
+import ElenaTripLive from "/public/imagesresized/ElenaTripLive.jpg";
+import AcKkAsRs from "/public/imagesresized/AcKkAsRs.jpg";
+import Alistairbagpipes from "/public/imagesresized/Alistairbagpipes.jpg";
+import LaFuga from "/public/imagesresized/LaFuga.jpg";
+import UUHardatwork from "/public/imagesresized/UUHardatwork.jpg";
+import AnatomyHole from "/public/imagesresized/AnatomyHole.jpg";
+import Repairsite from "/public/imagesresized/Repairsite.jpg";
+import LennieBed from "/public/imagesresized/LennieBed.jpg";
+import LennieFire16102024 from "/public/imagesresized/LennieFire16102024.jpg";
+import LenniePlaystation from "/public/imagesresized/LenniePlaystation.jpg";
+import LennieStudying from "/public/imagesresized/LennieStudying.jpg";
+import WinterDroving2024Title from "/public/imagesresized/WinterDroving2024Title.jpg";
 
-
-export default function October2025() {
+export default function October2024() {
 
   return (   
  <div className=" bg-[#383f17] border-solid border-2 border-[#22311d] mb-28"> {/*October block background*/}
     <div>
-       <div className="text-[#FBE9d0] text-center font-semibold text-2xl p-3 bg-[#2F4D49] border-solid border-2 border-[#22311d] m-2">October 2025
+       <div className=" text-white text-center font-semibold text-2xl p-3 bg-[#2F4D49] border-solid border-2 border-[#22311d] m-2">October 2024
         </div>
         <FallingLeaves />
 
         <div className="mb-20"> 
-      <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-4 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
-         <div className="text-md md:text-lg max-w-full font-semibold text-[#D99E49] text-center dark:text-[#D99E49] justify-center items-center">
-        <div className="font-semibold text-left border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#61603c]">Welcome to our October 2025 blog. Some great news as Harry started his new job in data analytics on the 19th September and has been really enjoying it and settling in well, so congratulations Harry. Elena also has some good news as her long-term partner is moving up to Cumbria in the forthcoming months, so we are wishing them all the best with their move and looking forward to welcoming them both as a couple up here in Cumbria. We are also having friends to visit which will be lovely, to catch up on news.
+      <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-4 lg:p-4 m-4 border-[#858c88] border-solid border-2 bg-[#1f3613]">
+         <div className="text-md md:text-lg max-w-full font-semibold  text-white text-center dark: text-whitejustify-center items-center">
+          <div className="font-semibold bg-[#5b7248] py-2 px-12 border-[#858c88] border-2 mb-4  text-white text-center dark:text-white">  Welcome to our October 2024 blog</div> {/*End of news date block*/} 
+        <div className="font-normal text-left border-solid border-[#757c88] border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#5b7248]"> Welcome to our October 2024 blog. It is now well and truly autumn and so
+            for this month's display we have returned to using Scalable Vector
+            Graphics (SVG) to create a visual display of the trees around here
+            shedding their leaves. We have also selected a range of autumnal hex
+            colour codes to create the display.
+            <br />
+            <br />
+            It is always a bit of a sad time of a year when we reach autumn, but
+            there are some gorgeous colours and the colour of the trees around
+            the tarn are beautiful.
+            <br />
+            <br />
+            Anyway, it is a busy month this month as we have a number of
+            visitors coming up to Cumbria and we are looking forward to meeting
+            with friends in Manchester to go to see Rest is Politics live at the
+            Manchester O2 arena. We also have our Penrith train tickets booked
+            to go to London for the day to see The Silk Roads Exhibition at the
+            British Museum.
             </div>{" "}
       </div>{/*End of individual dated entry photo album block*/} 
            </div> {/*End of news content block*/}
            </div> {/*End of individual dated entry design and color template block*/}  
 
                 <div className="mb-20"> 
-      <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
-         <div className="text-md md:text-lg max-w-full font-semibold text-[#D99E49] text-center dark:text-[#D99E49] justify-center items-center">
-        <div className="font-bold py-2 px-12 text-[#22311d] text-center dark:text-[#22311d]"> 17th October 2025</div> {/*End of news date block*/} 
-        <div className="font-semibold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#61603c]">Hexham Abbey, the Gaia Exhibition and Exhibition on Climate Change - well worth a visit!</div> {/*End of news header block*/}
+      <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-[#858c88] border-solid border-2 bg-[#22311d]">
+         <div className="text-md md:text-lg max-w-full font-semibold  text-white text-center dark: text-white justify-center items-center">
+        <div className="font-semibold bg-[#5b7248] py-2 px-12 mb-4 text-center dark:text-white"> 1st October 2024</div> {/*End of news date block*/} 
+          <div className="font-semibold bg-[#5b7248] py-2 px-12 border-[#858c88] border-2 mb-4  text-white text-center dark:text-white">Trip to London on the train to see The Silk Roads Exhibition at the
+            British Museum</div> 
         
-        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-semibold text-left text-[#22311d] dark:text-[#22311d]">
-          On the 17th October 2025, we headed over to Hexham Abbey which is always worth a visit as it is very interesting historically. Our intention was to visit the Abbey but also to see the Gaia exhibition and an exhibition on climate change created by Elena's friend Mike Domingue, a Green Party Councillor for Hexham and Paul Digby, a Leeds-based artist with support from Joe Coroneo-Seaman, an environmental journalist and writer at Edinburgh Castle Change Institute, John Seaman, a retired science teacher and education adviser; and David Dixon, a retired head teacher, the Tynedale bicycle mayor and a sustainability consultant for schools in the North East.  
-          <br />
-          <br />
-          Hexham Abbey was built in 674 AD by St Wilfrid, the Bishop of York, on the site of an earlier church. The Abbey has a fascinating history and has been through many changes over the centuries, including being damaged during the Dissolution of the Monasteries in the 16th century. The Abbey is known for its beautiful architecture, including its Romanesque nave and Gothic choir, as well as its stunning stained glass windows. It also houses a museum 'The Big Story Exhibition' with artefacts from its long history.
-          <br />
-          <br />
-          GAIA is an impressive, large-scale sculpture measuring 6 metres in diameter by the artist Luke Jerram, with the intention to remind us of the beauty, fragility and interconnectedness of the earth. It is based on the idea put forward in the 1970s by Jim Lovelock that the Earth functions as a single organism. He argued that, in contrast to conventional belief that life is passive in the face of threats to its existence, that the Earth's living matter influences air, ocean, and rock to form a complex, self-regulating system that has the capacity to keep the Earth a fit place for life. 
-          <br />
-          <br />
-          We also really enjoyed the climate change exhibition which uses a series of 9 sculptures of the Earth and accompanying clear explanations to help represent the  effects of climate change on the Earth and what needs to be done. It is a very helpful and clear exhibition and encourages us all to take action! 
+        <div className="pr-1 pl-1 md:p-4 font-normal text-left bg-[#5b7248] border-[#858c88] border-solid border-2  text-white dark:text-white">
+            Today was our long-awaited trip to try traveling down to London and
+            back for the day via train to see the{" "}
+            <Link
+              href="https://www.britishmuseum.org/exhibitions/silk-roads"
+              target="_blank"
+              title="Click here to discover more about the Silk Roads Exhibition at the British Museum"
+              className="underline decoration-[#D99E49]  text-[#D99E49] font-semibold"
+            >
+              Silk Roads Exhibition
+            </Link>{" "}
+            at the British Museum. This meant a <em>very</em> early start from
+            home to be safely parked and on the platform at Penrith station for
+            the 7.02 fast, direct train into London Euston station. The outward
+            journey went without incident and we arrived safely in London with
+            just 10 minutes delay at 10.20am. We had chosen a quiet carriage,
+            which lived up to expectations as it was being used by people
+            traveling with work, so it was lovely and peaceful and there was
+            plenty of time to read a number of chapters of Peter Frankopan's
+            book{" "}
+            <Link
+              href="https://www.amazon.co.uk/Silk-Roads-New-History-World-ebook/dp/B00XN8UG3C/ref=sr_1_3?crid=36BQTJ2JO6U77&dib=eyJ2IjoiMSJ9.eNYkQIU_YOMC2oj8GPXFA5f4g_V9_38XUTCynUbULm-itFUmkQPgkw4clMPRW77IOrXo0lBQHBxDZcP8AR8v-sK0TIvrVypO2q-f9sotTWB-SlPEnrBfvkwpfB-XqGlUf4l71oQdjZDY8Z7KMWelA_-_wJPfoDbb-hEPv5QY9WEQTEN1gCgqx_W_JFnmB15gdvGx3SnvjzLVvPqt4cu7KBSsoSeXL1ntXUZYL9sHz_I.uOv5D7-1cCLEM4UHgjNEXT6-730kyGOjCr6R1WaTDU4&dib_tag=se&keywords=silk+roads&nsdOptOutParam=true&qid=1728051135&sprefix=silk+roads%2Caps%2C277&sr=8-3"
+              target="_blank"
+              title="Click here to discover more about Peter Frankopan's 'The Silk Roads A New History of the World'"
+              className="underline decoration-[#D99E49]  text-[#D99E49] font-semibold"
+            >
+              The Silk Roads A New History of the World
+            </Link>{" "}
+            , which subsequently proved very useful when going around the
+            exhibition.
+            <br />
+            <br />
+            As we are current members of the British Museum, which includes
+            entry to special exhibitions, we had the advantage of not needing to
+            book or queue outside and we also made use of our access (on
+            weekdays) to the very pleasant members' room upstairs which has its
+            own café and is more spacious and quieter than the general café
+            areas within the complex. It also gives us a 10% discount off
+            purchases in the shops and cafés and restaurants at the museum, so
+            what better reason for buying further books in the shop!
+            <br />
+            <br />
+            The exhibition itself was very well done and presented. Our prior
+            reading also really helped us understand the history better. The
+            exhibition itself, as usual with popular British Museum exhibitions,
+            was busy and quite slow moving so it is worth allowing sufficient
+            time and being prepared for that. Some of the photos from the
+            exhibition are included in the album below. Once we had finished the
+            exhibition we had lunch at the
+            <Link
+              href="https://www.britishmuseum.org/visit/food-and-drink/great-court-restaurant"
+              target="_blank"
+              title="Click here to discover more about the Great Court Restaurant"
+              className="underline decoration-[#D99E49]  text-[#D99E49] font-semibold"
+            >
+              {" "}
+              Great Court Restaurant
+            </Link>{" "}
+            at the museum, which was very pleasant. It is best to book a table
+            in advance as we did, as it is busy.
+            <br />
+            <br />
+            In the afternoon, we decided to have a change from museum-visiting
+            and walk over to Covent garden, which in retrospect was maybe not
+            such a good idea as it was absolutely pouring with rain, and despite
+            having umbrellas we got very wet. We were quite glad therefore to
+            finally arrive back at Euston station for our return journey home.
+            Our return journey as predicted, did not run as smoothly as the
+            outward journey. Avanti West Coast were undertaking what would
+            appear to be their not uncommon approach of cancelling trains at
+            short notice and then suddenly reinstating them with about 3 minutes
+            to spare. Whilst it must be very difficult to keep all the trains
+            and networks running to time and linking up throughout the day, as
+            incidents crop up en route (in this case a broken rail earlier in
+            the day), it did seem that the way this was handled at the
+            management level was may be not the most productive for everyone
+            concerned. However, in all fairness to Avanti West Coast, despite
+            the final delay being over an hour, the process of claiming a delay
+            repayment has proved straightforward and the repayment sum
+            reasonable. The staff also worked hard to make sure everyone was
+            aware of their onward connection arrangements for returning home
+            safely that evening.
+            <br />
+            <br />
+            All in all, we had a great day, and would definitely go again.
          <br />
          <br />  
-         <Image
-                  src={ Gaia }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[60%] lg:w-[50%] border-solid border-[#22311d] border-2 mt-1 mb-11 hover:scale-150 "
-                  alt="Photo of the Gaia Sculpture, Hexham Abbey"
-                />  
-          <br />
-         <br /> 
+        
+           
+      </div>{/*End of individual dated entry photo album block*/} 
 
-           <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#61603c] pb-2 pt-2 mr-[0%] ml-[0%] mt-5 mb-4  justify-center text-center">
-            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#61603c]">
+      <div className="flex flex-col border-solid border-2 border-[#757c88] bg-[#5b7248] pb-2 pt-2 mr-[0%] ml-[0%] mt-5 mb-4  justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white bg-[#5b7248]">
               {" "}
-                <div className="m-1 p-2 font-semibold  border-gray-800 border-solid border-2 bg-[#b55b4b]">Click on the image below to open the album <br /> of our visit to Hexham Abbey, the Gaia Exhibition and to visit the Climate Change Exhibition for yourself</div>
+                <div className="m-1 p-2 font-normal  border-[#757c88] border-solid border-2 bg-[#22311d]">Click on the image below to open the photo album of our trip
+                  to London and the Silk Roads Exhibition.
+                  <br /> <br />
+                  The individual comments on the photos will take you through
+                  the full story of our trip.</div>
                 <br />
               <br />
               <Link
-                href="https://photos.app.goo.gl/9Y9ydZbHXfyR27Ty8"
+                href="https://photos.app.goo.gl/eQEyb8SXtL8va81s6"
                 target="_blank"
               >
                 <Image
-                  src={ GaiaTitled }
-                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[60%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of Durham Cathedral"
+                  src={ PenrithStationTitled }
+                  className="block ml-auto mr-auto h-auto w-[70%] md:w-[70%] lg:w-[60%] border-solid border-[#757c88] border-2 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Penrith Station"
                 />
               </Link>
             </div>{" "}
-      </div>{/*End of individual dated entry photo album block*/} 
            </div> {/*End of news content block*/}
            </div> {/*End of individual dated entry design and color template block*/}
            </div> {/*End of individual dated entry block*/}    
 
 
-      <div className="mb-20"> 
-      <div className="flex flex-col p-6 max-w-full leading-1.5 sm:p-2 md:p-4 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
-         <div className="text-md md:text-lg max-w-full font-semibold text-[#D99E49] text-center dark:text-[#D99E49] justify-center items-center">
-        <div className="font-bold py-2 px-12 text-[#22311d] text-center dark:text-[#22311d]"> 25th October 2025</div> {/*End of news date block*/} 
-        <div className="font-semibold border-solid border-black border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#61603c]">Visit to Cragside House, Rothbury: The home created in 1863 by and for the late William Armstrong and his wife.</div> {/*End of news header block*/}
-        <div className="pr-1 pl-1 md:pr-1 md: pl-1 font-semibold text-left text-[#22311d] dark:text-[#22311d]">
-          <div >Who was William Armstrong? He was: </div>
-            <ul>
-           <li className="font-semibold list-disc ml-4">A visionary Victorian engineer, scientist and businessman. </li>
-           <li className="font-semibold list-disc ml-4">‘The inventor of modern artillery’ and the world's first international arms dealer.</li>
-           <li className="font-semibold list-disc ml-4">Together with the architect Richard Norman Shaw, the builder of Cragside in Northumberland, the first house in the world to be lit by hydroelectricity.  </li>
-            <li className="font-semibold list-disc ml-4">The creator of the mechanisms that operate London’s Tower Bridge and Newcastle’s Swing Bridge.</li>
-             <li className="font-semibold list-disc ml-4">Responsible for the plans to restore Bamburgh castle, one of England’s finest castles, on the Northumberland coast.</li>
-             <li className="font-semibold list-disc ml-4">The employer of more than 25,000 people at his Elswick Works on the Tyne, in the production of hydraulic machinery, ships and armaments.</li>
-             <li className="font-semibold list-disc ml-4">A philanthropist, a lifelong champion of all forms of education and the main founder of the College of Science, which would evolve into Newcastle University.</li>
-            </ul>
-          <br />
-         <br />  
-          William George Armstrong was born on 26th November 1810 in Newcastle upon Tyne at 9 Pleasant Row, Shieldfield. This <Link href="https://heatonhistorygroup.org/2018/03/27/lord-armstrong-1810-1900-his-science-and-his-legacy/" target="_blank" className="underline decoration-blue-700 text-blue-700 font-semibold" >article by Heaton History Group</Link>  tells how William Armstrong was born just as the Industrial Revolution on Tyneside was really taking off. The Northumberland and Durham coalfield was expanding, William Hedley, Jonathan Forster and Timothy Hackworth would soon be working on their famous ‘Puffing Billy’ locomotive at Wylam and soon after George Stephenson would be working on his own ‘Rocket‘ locomotive. With the Literary and Philosophical Society established in 1793, Tyneside was in terms of both scientific achievements and progressive ideas about society, becoming a world leader. 
-             <br /> 
-              <br />    
-          As a boy, his family visited Rothbury regularly (which is where he later built Cragside in 1863), in order to escape the dirt and grime of Newcastle and he had many happy memories of fishing in the River Coquet there. He started life training to be a lawyer, at his father's wish, but it was engineering and mechanics which always interested him and it was these that he later pursued and led to his success, eventually become the first scientific engineer to become a Lord. He had a particular love of electrical experimentation.
-         <br />
-         <br /> 
-         The house and grounds are well worth a visit should you ever be within reach of this area of Nortumberland. 
-         
-           <div className="flex flex-col border-solid border-2 border-[#22311d] bg-[#61603c] pb-2 pt-2 mr-[0%] ml-[0%] mt-5 mb-4  justify-center text-center">
-            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-[#22311d] bg-[#61603c]">
-              {" "}
-                <div className="m-1 p-2 font-semibold  border-gray-800 border-solid border-2 bg-[#b55b4b]">Click on the image below to open the album <br /> of our visit to William Armstrong's Cragside, Rothbury to see the house and undertake the carriage drive all around the estate.</div>
-                <br />
-              <br />
-              <Link
-                href="https://photos.app.goo.gl/MBPTWaMWcHBFLhKi6"
-                target="_blank"
-              >
-                <Image
-                  src={ ArchimedesScrewTitled }
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[80%] lg:w-[60%] border-solid border-[#22311d] border-2 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of the Archimedes Screw for the hydroelectric power system, Cragside."
-                />
-              </Link>
-            </div>{" "}
-      </div>{/*End of individual dated entry photo album block*/}
-           </div> {/*End of news content block*/}
-           </div> {/*End of individual dated entry design and color template block*/}
-           </div> {/*End of individual dated entry block*/}
-             </div>
+      
 
       </div> {/*End of October block*/}
       </div> {/*End of October block background*/}
