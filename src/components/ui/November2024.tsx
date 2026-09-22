@@ -20,6 +20,7 @@ import BlacksmithsBernard4112024 from '/public/imagesresized/BlacksmithsBernard4
 import CawfieldsNov14th2024Titled from '/public/imagesresized/CawfieldsNov14th2024Titled.jpg'
 import RidgewoodHarry16112024Titled from '/public/imagesresized/RidgewoodHarry16112024Titled.jpg'
 import EamontWay22112024Title from '/public/imagesresized/EamontWay22112024Title.jpg'
+import NaworthRear29112024Titled from '/public/imagesresized/NaworthRear29112024Titled.jpg'
 
 
 export default function November2024() {
@@ -560,7 +561,7 @@ export default function November2024() {
               <li className="text-left text-white bg-[#773f3f] p-4">
                   <div className="text-white font-semibold text-left bg-[#773f3f]">Distance:</div>
               13.5 miles from Elena's house. 11 miles if starting at
-              Penrith station. <strong> Ascent: 253 metres, 830 feet.</strong> 
+              Penrith station. Ascent: 253 metres, 830 feet.
               </li>
                <br />  
         <br /> 
@@ -814,6 +815,157 @@ export default function November2024() {
               >
          <Image
                   src={ EamontWay22112024Title}
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Eleanor and Harry on the Eamont Way walk."
+                />
+                </Link>
+                 <br />
+         <br />  
+        </div>
+         </div>
+         </div>
+         </div>
+
+
+ < div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
+        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 bg-[#773f3f]"> 29th November 2024, Friday</div> {/*End of news date block*/} 
+        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">Walk Walton Village via Miltonrigg Wood and Lanercost: distance 14.4
+          miles; ascent 333 metres, 1092.52 feet.{" "}</div> {/*End of news header block*/}
+        
+        <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white mr-1 ml-1 mb-2 mt-2 px-2 py-4 bg-[#D6C5C5] border-2 border-black">
+      <div className=" m-4">
+               <div className="bg-[#773f3f] text-white font-semibold">DETAILS OF THE WALK </div>
+            <div className="font-semibold text-center  mt-2 mb-2 px-4 py-4 ">            
+        <div className="font-normal pt-2 pb-2  text-black text-center">
+             <ul className="list-none">
+              <li className="text-left text-white bg-[#773f3f] p-4">
+                <div className="font-semibold text-white">Parking:</div>
+                We did not need to take the car for this walk.
+              </li>
+             
+              <br />  
+        <br /> 
+         <li className="text-left text-white bg-[#773f3f] p-4">
+                  <div className="text-white font-semibold text-left bg-[#773f3f]">Paths:</div>
+                  Good, clear, paths. A mixture of quiet, minor country roads. 
+              </li>
+              <br />  
+              <br /> 
+              <li className="text-left text-white bg-[#773f3f] p-4">
+                  <div className="text-white font-semibold text-left bg-[#773f3f]">Distance:</div>
+             14.4 miles,  Ascent 333 metres, 1092.52.
+              </li>
+               <br />  
+        <br /> 
+              <li  className="text-left  text-white bg-[#773f3f] p-4">
+                <div className="text-white font-semibold">Refreshments:</div>
+               Lanercost Tea room.{" "}
+              </li>
+            </ul>
+             <br />  
+        <br /> 
+            <div className="bg-[#773f3f]  text-white font-semibold text-decoration-underline">GOOD</div> 
+        <br /> 
+        
+            <ul className="list-none">
+                <li className="text-left  text-white bg-[#773f3f] p-4">
+                   <div className="text-white font-semibold">All-weather :  </div>
+                    This is a walk which can be undertaken in almost all weathers and
+                seasons.
+                <br />{" "}               
+                </li>
+                 <br />  
+        <br /> 
+    
+                <li className="text-left  text-white bg-[#773f3f] p-4">
+                  <div className="text-white font-semibold">Walk : </div>
+                     This is a great longer distance walk which again, forms a
+                good staging post for training for longer distance treks where
+                this kind of distance needs to be walked day after day.
+                </li>
+                 <br />  
+        <br /> 
+         <li className="text-left  text-white  bg-[#773f3f] p-4">
+                  <div className="text-white bg-[#773f3f] font-semibold text-left">Refreshments: </div>
+              There were refreshments available at Lanercost Tea room.
+                </li>
+                 <br />  
+        <br /> 
+        <li className="text-left text-white bg-[#773f3f] p-4">
+                  <div className="text-white font-semibold text-left bg-[#773f3f]">Environmentally-friendly:</div>
+                 We did not need to use the car at all for the walk today.
+                </li>                
+            </ul>
+            <br />
+            <br />  
+       
+            <div className="bg-[#773f3f] text-white font-semibold text-decoration-underline">NOT SO GOOD</div>
+             <br />  
+            <ul className="list-none">
+              <li className="text-left text-white bg-[#773f3f] p-4">
+                <div className="text-white font-semibold">  Walton Tea room was closed for December:</div>
+               We had been looking forward to having our lunch at Walton Tea room
+              which, according to the website and the sign board on Walton Green
+              was open for business. Unfortunately, when we arrived, we learnt
+              they were closed until the end of December. Luckily, in case of
+              encountering such an eventuality, we had packed some back-up
+              sandwiches and snacks, which kept us going until we reached
+              Lanercost Tea room, which fortunately was open for lunch.
+                <br />
+              </li>
+               <br />  
+        <br /> 
+            </ul>
+             <div className="bg-[#773f3f] text-white font-semibold text-decoration-underline">HIKE RATING</div>
+              <br /> 
+          <ul className="list-none">
+              <li className="text-center text-white bg-[#773f3f] p-4">
+                <div className="text-white text-center font-semibold">9.6 (out of 10):</div>  
+                 An enjoyable days walking.
+              </li>
+            </ul>
+          </div>{" "}
+<br />  
+        <br /> 
+         <div className="bg-[#773f3f] text-white font-normal p-4 text-left ">
+          Today's walk to Walton Village and back via Miltonrigg wood and
+          Lanercost was the third of a series of longer range walks which we we
+          are undertaking over the forthcoming months.
+          <br />
+           <br />
+          There are good, clear, paths with a mixture of quiet, minor country
+          roads and footpaths. Whilst the country roads were very quiet, it is
+          very important to keep a watch out as whilst there is only an
+          occasional vehicle they can be traveling very quickly and not be
+          expecting to meet anyone en route!
+          <br />
+          <br />
+          
+          </div>
+            </div>
+            </div>         
+          </div>
+         <br />
+         <br />  
+         <div className="m-1 p-1 font-normal  bg-[#773f3f] border-solid border-black border-2 mb-6">
+          <br />         
+          {" "}
+                Click on the image below to open the photo album of our walk
+                over to Walton Village and back via Miltonrigg wood and
+                Lanercost.
+                <br /> <br />
+                The individual comments on the photos will take you through the
+                full story of our walk.
+         <br />
+         <br /> 
+          <Link
+                href="https://photos.app.goo.gl/LM9jMHMHjW1Ys6RV9"
+                target="_blank"
+              >
+         <Image
+                  src={ NaworthRear29112024Titled}
                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of Eleanor and Harry on the Eamont Way walk."
                 />
