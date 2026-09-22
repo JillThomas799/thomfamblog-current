@@ -4,21 +4,22 @@ import NovemberBonfire from "./novemberbonfire";
 import "./November2024.css"; 
 import SycamoreExhibition1 from '/public/imagesresized/SycamoreExhibition1.jpg'
 import "./November2024.css"; 
-import SycamoreExhibition2 from '/public/imagesresized/SycamoreExhibition1.jpg'
+import SycamoreExhibition2 from '/public/imagesresized/SycamoreExhibition2.jpg'
 import "./November2024.css"; 
-import SycamoreExhibition3 from '/public/imagesresized/SycamoreExhibition1.jpg'
+import SycamoreExhibition3 from '/public/imagesresized/SycamoreExhibition3.jpg'
 import "./November2024.css"; 
-import SycamoreExhibition4 from '/public/imagesresized/SycamoreExhibition1.jpg'
+import SycamoreExhibition4 from '/public/imagesresized/SycamoreExhibition4.jpg'
 import Birdoswald1Nov2nd2024 from '/public/imagesresized/Birdoswald1Nov2nd2024.jpg'
-import Birdoswald2Nov2nd2024 from '/public/imagesresized/Birdoswald1Nov2nd2024.jpg'
-import Birdoswald3Nov2nd2024 from '/public/imagesresized/Birdoswald1Nov2nd2024.jpg'
-import Birdoswald4Nov2nd2024 from '/public/imagesresized/Birdoswald1Nov2nd2024.jpg'
+import Birdoswald2Nov2nd2024 from '/public/imagesresized/Birdoswald2Nov2nd2024.jpg'
+import Birdoswald3Nov2nd2024 from '/public/imagesresized/Birdoswald3Nov2nd2024.jpg'
+import Birdoswald4Nov2nd2024 from '/public/imagesresized/Birdoswald4Nov2nd2024.jpg'
 import BlacksmithsMeal1Nov4th2024 from '/public/imagesresized/BlacksmithsMeal1Nov4th2024.jpg'
 import BlacksmithsMeal2Nov4th2024 from '/public/imagesresized/BlacksmithsMeal2Nov4th2024.jpg'
 import BlacksmithsEandH4112024 from '/public/imagesresized/BlacksmithsEandH4112024.jpg'
 import BlacksmithsBernard4112024 from '/public/imagesresized/BlacksmithsBernard4112024.jpg'
 import CawfieldsNov14th2024Titled from '/public/imagesresized/CawfieldsNov14th2024Titled.jpg'
 import RidgewoodHarry16112024Titled from '/public/imagesresized/RidgewoodHarry16112024Titled.jpg'
+import EamontWay22112024Title from '/public/imagesresized/EamontWay22112024Title.jpg'
 
 
 export default function November2024() {
@@ -132,7 +133,7 @@ export default function November2024() {
          
          <Image
                   src={ SycamoreExhibition1 }
-                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of of the original tree’s wood forming the exhibition centre piece "
                 />
                   <figcaption className="novemberFigCaption">
@@ -145,7 +146,7 @@ export default function November2024() {
               <br />
                 <Image
                   src={ SycamoreExhibition2 }
-                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of of the original tree’s wood forming the exhibition centre piece "
                 />
                   <figcaption className="novemberFigCaption">
@@ -156,7 +157,7 @@ export default function November2024() {
               <br />
                <Image
                   src={ SycamoreExhibition3 }
-                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of of the original tree’s wood forming the exhibition centre piece "
                 />
                   <figcaption className="novemberFigCaption">
@@ -169,7 +170,7 @@ export default function November2024() {
               <br />
               <Image
                   src={ SycamoreExhibition4 }
-                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of of the original tree’s wood forming the exhibition centre piece "
                 />
                   <figcaption className="novemberFigCaption">
@@ -218,7 +219,7 @@ export default function November2024() {
          
          <Image
                   src={ Birdoswald1Nov2nd2024 }
-                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of Birdoswald Farmhouse. "
                 />
                   <figcaption className="novemberFigCaption">
@@ -230,7 +231,7 @@ export default function November2024() {
               <br />
                 <Image
                   src={ Birdoswald2Nov2nd2024 }
-                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of the Via Principalis at the entry to the West Gate. "
                 />
                   <figcaption className="novemberFigCaption">
@@ -242,7 +243,7 @@ export default function November2024() {
               <br />
                <Image
                   src={ Birdoswald3Nov2nd2024 }
-                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of one of the information boards. "
                 />
                   <figcaption className="novemberFigCaption">
@@ -254,7 +255,7 @@ export default function November2024() {
               <br />
               <Image
                   src={ Birdoswald4Nov2nd2024 }
-                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[35%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[50%]"
                   alt="Photo of the English Heritage Birdoswald guidebook. "
                 />
                   <figcaption className="novemberFigCaption">
@@ -287,7 +288,7 @@ export default function November2024() {
          
          <Image
                   src={ BlacksmithsMeal1Nov4th2024 }
-                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of cumbeerland sausage and mash. "
                 />
                   <figcaption className="novemberFigCaption">
@@ -298,7 +299,7 @@ export default function November2024() {
               <br />
                 <Image
                   src={ BlacksmithsMeal2Nov4th2024 }
-                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of Trout, new potatoes and vegetables. "
                 />
                   <figcaption className="novemberFigCaption">
@@ -309,7 +310,7 @@ export default function November2024() {
               <br />
                <Image
                   src={ BlacksmithsEandH4112024 }
-                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of the 'A' team - Elena and Harry. "
                 />
                   <figcaption className="novemberFigCaption">
@@ -320,7 +321,7 @@ export default function November2024() {
               <br />
               <Image
                   src={ BlacksmithsBernard4112024 }
-                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 md:border-4 mt-6 mb-1 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
                   alt="Photo of Bernard drinking beer. "
                 />
                   <figcaption className="novemberFigCaption">
@@ -534,13 +535,13 @@ export default function November2024() {
         <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]"> Walk Eamont Bridge and Penrith: distance 13.5 miles; ascent 253
           metres, 830 feet.{" "}</div> {/*End of news header block*/}
         
-        <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
-      <div className="bg-[#821210]">
-               <div className="bg-[#b55b4b] text-white border-solid border-black border-2 font-bold">DETAILS OF THE WALK </div>
-            <div className="font-semibold text-center  mr-1 ml-1 mt-2 mb-2 px-4 py-4 ">            
+        <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white mr-1 ml-1 mb-2 mt-2 px-2 py-4 bg-[#D6C5C5] border-2 border-black">
+      <div className=" m-4">
+               <div className="bg-[#773f3f] text-white font-semibold">DETAILS OF THE WALK </div>
+            <div className="font-semibold text-center  mt-2 mb-2 px-4 py-4 ">            
         <div className="font-normal pt-2 pb-2  text-black text-center">
-             <ul className="list-none border-solid border-black border-2">
-              <li className="text-left text-white bg-[#b55b4b] p-4">
+             <ul className="list-none">
+              <li className="text-left text-white bg-[#773f3f] p-4">
                 <div className="font-semibold text-white">Parking:</div>
                 We parked at Elena's house and walked from there. This added about
               2.5 miles on to the walk in total. If going from Penrith station,
@@ -549,21 +550,21 @@ export default function November2024() {
              
               <br />  
         <br /> 
-         <li className="text-left text-white bg-[#b55b4b] p-4">
-                  <div className="text-white font-semibold text-left bg-#b55b4b]">Paths:</div>
+         <li className="text-left text-white bg-[#773f3f] p-4">
+                  <div className="text-white font-semibold text-left bg-[#773f3f]">Paths:</div>
               Good, clear, well-signposted paths. A mixture of pavement,
               country bridleway and footpaths and field walking.{" "}          
               </li>
               <br />  
               <br /> 
-              <li className="text-left text-white bg-[#b55b4b] p-4">
-                  <div className="text-white font-semibold text-left bg-#b55b4b]">Distance:</div>
+              <li className="text-left text-white bg-[#773f3f] p-4">
+                  <div className="text-white font-semibold text-left bg-[#773f3f]">Distance:</div>
               13.5 miles from Elena's house. 11 miles if starting at
               Penrith station. <strong> Ascent: 253 metres, 830 feet.</strong> 
               </li>
                <br />  
         <br /> 
-              <li  className="text-left bg-[#b55b4b] p-4">
+              <li  className="text-left  text-white bg-[#773f3f] p-4">
                 <div className="text-white font-semibold">Refreshments:</div>
                 There are plenty of pubs and cafés at Pooley Bridge, so
               take your pick. We chose one of our favourites, which is Granny
@@ -572,12 +573,11 @@ export default function November2024() {
             </ul>
              <br />  
         <br /> 
-            <div className="bg-[#b55b4b] text-[#36454f]] font-bold text-decoration-underline">GOOD</div>
-             <br />  
+            <div className="bg-[#773f3f]  text-white font-semibold text-decoration-underline">GOOD</div> 
         <br /> 
         
             <ul className="list-none">
-                <li className="text-left bg-[#b55b4b] p-4">
+                <li className="text-left  text-white bg-[#773f3f] p-4">
                    <div className="text-white font-semibold">Variety :  </div>
                     This is a walk with lots of variety both in the types of foot path, the
                 historical features to see en route and the beautiful
@@ -587,7 +587,7 @@ export default function November2024() {
                  <br />  
         <br /> 
     
-                <li className="text-left  bg-[#b55b4b] p-4">
+                <li className="text-left  text-white bg-[#773f3f] p-4">
                   <div className="text-white font-semibold">Walk : </div>
                     This is a great longer distance walk which forms a good
                 staging post for training for longer distance treks where this
@@ -596,7 +596,7 @@ export default function November2024() {
                 <Link
                   href="https://www.ullswater.org/the-ullswater-way/"
                   target="_blank"
-                  className="underline decoration-[#D99E49]  text-[#D99E49] font-semibold"
+                  className="underline decoration-[#283618]  text-[#D99E49] font-semibold"
                 >
                   Ullswater Way
                 </Link>
@@ -604,7 +604,7 @@ export default function November2024() {
                 </li>
                  <br />  
         <br /> 
-        <li className="text-left  bg-[#b55b4b] p-4">
+        <li className="text-left  text-white  bg-[#773f3f] p-4">
                   <div className="text-white font-semibold">Environmentally-friendly: </div>
                   One of the reasons this walk has been developed has been
                 a means of connecting Penrith station to Ullswater Lake on foot,
@@ -616,25 +616,25 @@ export default function November2024() {
                 </li>
                  <br />  
         <br /> 
-         <li className="text-left  bg-#b55b4b] p-4">
-                  <div className="text-white  bg-[#b55b4b] font-semibold text-left p-4">Refreshments: </div>
-                   <br /> There was plenty of opportunity for refreshments in
+         <li className="text-left  text-white  bg-[#773f3f] p-4">
+                  <div className="text-white bg-[#773f3f] font-semibold text-left">Refreshments: </div>
+                There was plenty of opportunity for refreshments in
                 Pooley Bridge and Penrith.
                 </li>
                  <br />  
         <br /> 
-        <li className="text-left text-white bg-[#b55b4b] p-4">
-                  <div className="text-white font-semibold text-left bg-#b55b4b]">Weather:</div>
+        <li className="text-left text-white bg-[#773f3f] p-4">
+                  <div className="text-white font-semibold text-left bg-[#773f3f]">Weather:</div>
                   Good weather, icy in parts.
                 </li>                
             </ul>
             <br />
             <br />  
        
-            <div className="bg-[#b55b4b] text-white font-bold text-decoration-underline">NOT SO GOOD</div>
+            <div className="bg-[#773f3f] text-white font-semibold text-decoration-underline">NOT SO GOOD</div>
              <br />  
             <ul className="list-none">
-              <li className="text-left  bg-[#b55b4b] p-4">
+              <li className="text-left text-white bg-[#773f3f] p-4">
                 <div className="text-white font-semibold">  Depends what you are looking for :</div>
                This is a longish but fairly straightforward low-level walk with
               plenty of interest and variety along the way. For some people,
@@ -648,17 +648,19 @@ export default function November2024() {
                <br />  
         <br /> 
             </ul>
-             <div className="bg-[#b55b4b] text-white font-bold text-decoration-underline">HIKE RATING</div>
+             <div className="bg-[#773f3f] text-white font-semibold text-decoration-underline">HIKE RATING</div>
               <br /> 
           <ul className="list-none">
-              <li className="text-center bg-[#b55b4b] p-4">
+              <li className="text-center text-white bg-[#773f3f] p-4">
                 <div className="text-white text-center font-semibold">9.6 (out of 10):</div>  
                   An enjoyable days walking which, despite the length, did not seem too
               challenging.
               </li>
             </ul>
           </div>{" "}
-
+<br />  
+        <br /> 
+         <div className="bg-[#773f3f] text-white font-normal p-4 text-left ">
           Today's walk was the second of a series of longer range walks which we
           will be undertaking over the forthcoming months. The Eamont Way was
           opened on the 14th April 2023 and is a 5.5 mile walk linking Penrith
@@ -695,11 +697,13 @@ export default function November2024() {
               href="https://www.ullswaterheritage.org/eamont-way/penrith-station"
               target="_blank"
               title="Click here to discover more about the history of Penrith station"
-              className="underline decoration-[#D99E49]  text-[#D99E49] font-semibol"
+              className="underline decoration-[#D99E49]   text-[#D99E49]  font-semibol"
             >
               Friends of the Ullswater Way website-Penrith station.
             </Link>
             <br />
+             <br />
+            
             <li style={{ textDecoration: "underline" }}>Penrith Castle:</li>
             <div className="leftAlignli">
               Lying almost opposite Penrith station, although not so much
@@ -790,12 +794,12 @@ export default function November2024() {
               We also passed a barn conversion named Wordsworth Cottage which
               was apparently formerly part of the estate once owned by
               Wordsworth’s grandfather.{" "}
+              
             </div>
           </ul>
+          </div>
             </div>
-            </div>
-           
-         
+            </div>         
           </div>
          <br />
          <br />  
@@ -805,13 +809,13 @@ export default function November2024() {
          <br />
          <br /> 
           <Link
-                href="https://photos.app.goo.gl/qcSyd3XWHYTgzbq58"
+                href="https://photos.app.goo.gl/eZSXChQ1bjUqGC489"
                 target="_blank"
               >
          <Image
-                  src={ RidgewoodHarry16112024Titled}
+                  src={ EamontWay22112024Title}
                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
-                  alt="Photo of the road entering Cawfield's car park."
+                  alt="Photo of Eleanor and Harry on the Eamont Way walk."
                 />
                 </Link>
                  <br />
