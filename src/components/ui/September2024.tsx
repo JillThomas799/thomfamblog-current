@@ -21,6 +21,7 @@ import GreatAshbyScar from "/public/imagesresized/GreatAshbyScar.jpg";
 
 
 
+
 export default function September2024() {
 
   return (   
@@ -407,11 +408,244 @@ export default function September2024() {
               </figcaption>
               <br />
                </div>{" "}
-               </div>{/*End of individual dated entry photo album block*/}
-      </div> {/*End of news content block*/}
+               </div>
+                </div>
+
+
+
+       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#585123]">
+       <div className="max-w-full font-semibold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+        <div className="font-semibold py-2 px-12 text-black text-center dark:text-black border-solid border-[#757c88] border-2 bg-[#ff9136] mb-4">5th September 2024, Sunday</div> {/*End of news date block*/} {/*End of news date block*/} 
+         <div className="font-semibold py-2 px-12 text-black text-center dark:text-black border-solid border-[#757c88] border-2 bg-[#ff9136] mb-4"> ADDITIONAL DAY - Visit to the Great North Museum, Newcastle upon Tyne</div>
+        <div className="font-normal text-left text-black border-solid border-[#757c88] border-2 mr-1 ml-1 mb-4 px-4 py-4 bg-[#ff9136]">Today, we took the opportunity to take the train into Newcastle upon
+          Tyne and to go and visit the Hadrian's Wall Gallery at the Great North
+          Museum. There are some very interesting exhibits. Especially
+          impressive is the reproduction model of the entire wall, forts and
+          milecastles which gives a real sense of the geography and scale of the
+          endeavour. The overhead drone footage of the remaining wall sites in
+          Newcastle itself was also a really helpful tool as it is possible to
+          obtain a much clearer and informative view from an aerial photograph.
+          <br />
+          <br />
+          For all the information about this trip today, please come and join us
+          at our
+          <Link href="./hwp2024" className="underline decoration-[#4c4cff]  text-[#4c4cff] font-semibold">
+            {" "}
+            Hadrian's Wall Path Expedition page{" "}
+          </Link>
+            </div>{" "}
+      </div>
+      </div>
       </div>
       
+      
+            <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#585123]">
+         <div className="max-w-full font-semibold text-black text-center dark:text-black justify-center items-center">
+        <div className="font-semibold py-2 px-12 text-black text-center dark:text-black border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 bg-[#ff9136]"> 7th September 2024, Saturday</div> {/*End of news date block*/} 
+        <div className="font-semibold text-black border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#ff9136]"> Dodd Summit, Wood and Mirehouse, Bassenthwaite.
+         {" "}</div> {/*End of news header block*/}
+        
+        <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white mr-1 ml-1 mb-2 mt-2 px-2 py-4 bg-[#aba891] border-2 border-black">
+      <div className=" m-4">
+               <div className="bg-[#ff9136] text-black  font-semibold border-solid border-black border-2">DETAILS OF THE WALK </div>
+            <div className="font-semibold text-center  mt-2 mb-2 px-4 py-4 ">            
+        <div className="font-normal pt-2 pb-2  text-black text-center">
+             <ul className="list-none">
+              <li className="text-left texttext-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                <div className="font-semibold text-black">Parking:</div>
+                The Forestry Commission car park by the Old Sawmill Tearoom,
+                across the road from Mirehouse house and gardens. This cost
+                £8.50 for our stay.
+              </li>
+             
+              <br />  
+        <br /> 
+         <li className="text-left text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold text-left bg-[#ff9136]">Paths:</div>
+             The paths are clear, well-maintained and well-signposted.{" "}         
+              </li>
+              <br />  
+              <br /> 
+              <li className="text-left text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold text-left bg-[#ff9136]">Distance:</div>
+             7.2 miles in total <strong> Ascent:</strong> 530 metres,
+                1,740 feet.{" "}
+              </li>
+               <br />  
+        <br /> 
+              <li  className="text-left  text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                <div className="text-black font-semibold">Refreshments:</div>
+                 <Link
+                  href="https://www.mirehouse.co.uk/plan-your-visit/the-old-sawmill-tearoom/"
+                  target="_blank"
+                  title="Click here to look at the opening times for the Old Sawmill Tearoom"
+                  className="underline decoration-[#4c4cff]  text-[#4c4cff] font-semibold"
+                >
+                  Old Sawmill Tearoom
+                    </Link>
+              </li>
+            </ul>
+             <br />  
+        <br /> 
+            <div className="bg-[#ff9136]  text-black font-semibold text-decoration-underline border-solid border-black border-2">GOOD</div> 
+        <br /> 
+        
+            <ul className="list-none">
+               
+                <li className="text-left  text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold">Walk : </div>
+                    Really enjoyable walk with over 500 metres in ascent so
+                  a steady climb, and not dissimilar to Haystacks at Buttermere
+                  in actual fact. Really interesting combination of a moderately
+                  energetic climb, spectacular views once out of the wood and
+                  then the lovely and interesting Mirehouse gardens and Lakeside
+                  walk across the road.{" "}
+                </li>
+                 <br />  
+        <br /> 
+        <li className="text-left  text-black  bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold">Mirehouse Gardens: </div>
+                  <Link
+                    href="https://www.mirehouse.co.uk/"
+                    target="_blank"
+                    title="Click here to discover more about Mirehouse"
+                     className="underline decoration-[#4c4cff]  text-[#4c4cff] font-semibold">
+                    Mirehouse house and gardens
+                  </Link>{" "}
+                  are situated by Lake Bassenthwaite. As the{" "}
+                  <Link
+                    href="https://www.mirehouse.co.uk/"
+                    target="_blank"
+                    title="Click here to discover more about Mirehouse"
+                    className="underline decoration-[#4c4cff]  text-[#4c4cff] font-semibold"
+                  >
+                    Mirehouse website{" "}
+                  </Link>{" "}
+                  explains, the present house was built in 1666 by the 8th Earl
+                  of Derby for visits to his Cumbrian estates. In 1688 he sold
+                  it to his agent Roger Gregg. The Greggs and their kinsmen, the
+                  Storys owned it until Thomas Story left it to John Spedding of
+                  Armathwaite Hall in 1802. Mirehouse has had fascinating links
+                  to significant literary figures over the years including
+                  Alfred Lord Tennyson who was a close friend of James Spedding
+                  and visited Mirehouse twice, bringing his wife Emily here on
+                  their honeymoon. He met Edward Fitzgerald at Mirehouse. James
+                  Spedding was Francis Bacon’s editor and biographer and as a
+                  result manuscripts and books from Bacon’s time are found in
+                  the house.
+                  <br />
+                  <br />
+                  The house itself is open a couple of days a week in season,
+                  but the gardens are open every day in season. There is a fee
+                  for entry to both, but for ourselves it is included in our{" "}
+                  <Link
+                    href="https://www.historichouses.org/become-a-member/"
+                    target="_blank"
+                    title="Click here to discover more about Historic Houses membership"
+                     className="underline decoration-[#4c4cff]  text-[#4c4cff] font-semibold"
+                  >
+                    Historic Houses Membership.
+                  </Link>{" "}
+                
+                
+                </li>
+                 <br />  
+        <br /> 
+         <li className="text-left  text-black  bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black bg-[#ff9136] font-semibold text-left">Refreshments: </div>
+                The Old Sawmill Tearoom, Mirehouse provides great drinks,
+                  cakes and lunches. It is open 10am to 16.30 during the season.
+                  Check website for details{" "}
+                  <Link
+                    href="https://www.mirehouse.co.uk/plan-your-visit/the-old-sawmill-tearoom/"
+                    target="_blank"
+                    title="Click here to look at the opening times for the Old Sawmill Tearoom"
+                   className="underline decoration-[#4c4cff]  text-[#4c4cff] font-semibold"
+                  >
+                    Old Sawmill Tearoom
+                  </Link>
+                </li>
+                 <br />  
+        <br /> 
+        <li className="text-left text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold text-left bg-[#ff9136]">Weather:</div>
+                   It was a lovely day, beautifully sunny and warm but not too
+                  hot. As with all summits, it was quite breezy on the top!
+                </li>                
+            </ul>
+            <br />
+            <br />  
+       
+            <div className="bg-[#ff9136] text-black font-semibold text-decoration-underline border-solid border-black border-2">NOT SO GOOD</div>
+             <br />  
+            <ul className="list-none">
+              <li className="text-left text-text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                <div className="text-text-black font-semibold">  Moderately busy:</div>
+               Although the schools have returned now, September remains a very
+                popular month for visitors to the national park so it was
+                reasonably busy, without being overly so. Certainly, the number
+                of visitors did not detract from the enjoyment. It did get
+                busier as the day went on, so an early start is quite beneficial
+                and also means it is easier to obtain a place on the car park.
+                <br />
+              </li>
+               <br />  
+        <br /> 
+            </ul>
+             <div className="bg-[#ff9136] text-black font-semibold text-decoration-underline border-solid border-black border-2">HIKE RATING</div>
+              <br /> 
+          <ul className="list-none">
+              <li className="text-center text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                <div className="text-black text-center font-semibold">9.5 (out of 10):</div>  
+                   An enjoyable days walking and climbing in a beautiful location with
+                some spectacular views. Mirehouse itself is also very
+                interesting and the Lakeside walk takes you down by
+                Bassenthwaite lake.
+              </li>
+            </ul>
+          </div>{" "}
+<br />  
+        <br /> 
+         <div className="bg-[#ff9136] text-black font-normal p-4 text-left border-solid border-black border-2">
+            Today we walked up to Dodd summit through Dodd Wood, Bassenthwaite
+            and afterwards into Mirehouse Gardens to walk the Lakeside walk..
+                  <br />
+                <br />
+                
+          </div>
+            </div>
+            </div>         
+          </div>
+         <br />
+         <br />  
+         <div className="m-1 p-1 font-normal  bg-[#ff9136] border-solid border-black border-2 mb-6">
+          <br />         
+           Join us on our day out to Dodd Summit, Wood and Mirehouse by
+            clicking on the album below and following our narrative by clicking
+            on the added comments.
+         <br />
+         <br /> 
+          <Link
+                href="https://photos.app.goo.gl/f7MDuHTZJry8q4x67"
+                target="_blank"
+              >
+         <Image
+                  src={ DoddSummitTitled}
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Jill, Bernard and Harry on Dodd Summit."
+                />
+                </Link>
+                 <br />
+         <br />  
+        </div>
+         </div>
+          </div>
+         </div>
 
+
+
+ 
      </div>
 );
 }
