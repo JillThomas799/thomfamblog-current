@@ -632,7 +632,7 @@ export default function September2024() {
               >
          <Image
                   src={ DoddSummitTitled}
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of Jill, Bernard and Harry on Dodd Summit."
                 />
                 </Link>
@@ -642,6 +642,413 @@ export default function September2024() {
          </div>
           </div>
          </div>
+
+
+         <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#585123]">
+         <div className="max-w-full font-semibold text-black text-center dark:text-black justify-center items-center">
+        <div className="font-semibold py-2 px-12 text-black text-center dark:text-black border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 bg-[#ff9136]"> 13th September 2024, Friday</div> {/*End of news date block*/} 
+        <div className="font-semibold text-black border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#ff9136]">  Ascent up to the boggy, treacherous summit of Cold Fell, Geltsdale
+            and beyond.
+         {" "}</div> {/*End of news header block*/}
+        
+        <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white mr-1 ml-1 mb-2 mt-2 px-2 py-4 bg-[#aba891] border-2 border-black">
+      <div className=" m-4">
+               <div className="bg-[#ff9136] text-black  font-semibold border-solid border-black border-2">DETAILS OF THE WALK </div>
+            <div className="font-semibold text-center  mt-2 mb-2 px-4 py-4 ">            
+        <div className="font-normal pt-2 pb-2  text-black text-center">
+             <ul className="list-none">
+              <li className="text-left texttext-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                <div className="font-semibold text-black">Parking:</div>
+                There is free parking at the RSPB Geltsdale road-end car park
+                beyond Clesketts (NY 589 585). To get to the car park, from
+                Hallbankgate on the A689, branch off at the Belted Will Inn and
+                follow Crossgates Road via Park Terrace to reach the car park.
+              </li>
+             
+              <br />  
+        <br /> 
+         <li className="text-left text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold text-left bg-[#ff9136]">Paths:</div>
+             There is a 70% discernible path on the ascent, which
+                apparently was formerly a track created to support grouse
+                management and shooting parties. Initially after leaving the
+                summit to commence the descent, there is a similarly discernible
+                heading north west, which fades away at the point the fence line
+                takes a sharp right and you commence the slow descent towards
+                Brown Fell, making this segment of descent very tricky and
+                slow-going.{" "}       
+              </li>
+              <br />  
+              <br /> 
+              <li className="text-left text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold text-left bg-[#ff9136]">Distance:</div>
+           6.6 miles in total <strong> Ascent:</strong> 621 metres,
+                2,037 feet.{" "}
+                1,740 feet.{" "}
+              </li>
+               <br />  
+        <br /> 
+              <li  className="text-left  text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                <div className="text-black font-semibold">Refreshments:</div>
+                If you are down in time, refreshments are available at
+                the Community Hub, Hallbankgate (closes at 16.00)
+              </li>
+            </ul>
+             <br />  
+        <br /> 
+            <div className="bg-[#ff9136]  text-black font-semibold text-decoration-underline border-solid border-black border-2">GOOD</div> 
+        <br /> 
+        
+            <ul className="list-none">
+               
+                <li className="text-left  text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold">Spectacular and far-reaching views : </div>
+                    This climb, albeit very tough underfoot with paths
+                  which are at times indistinct and frankly absent, has the most
+                  spectacular and extensive views in all directions, including
+                  the high fells of the Lake District National Park, along the
+                  Pennine Ridge towards the Hartside pass and Cross Fell, across
+                  over Hadrian's Wall to the Cheviot Hills in Scotland and out
+                  towards the Solway Firth and across the border to Criffel in
+                  Scotland.{" "}
+                </li>
+                 <br />  
+        <br /> 
+        <li className="text-left  text-black  bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold">Peace and tranquillity: </div>
+                  Whilst it is usually steadily busy at the RSPB
+                  Geltsdale car park (there are 8 spaces), after departing from
+                  there we did not see any other people for the whole day's
+                  hike.
+                </li>
+                 <br />  
+        <br /> 
+         <li className="text-left  text-black  bg-[#ff9136] p-4 border-solid border-black border-2">
+                All this area was a site in which there is much evidence of
+                  prehistoric settlement. For example, when walking up the path
+                  away from the RSPB Geltsdale car park, after passing the white
+                  cottage named Tortie cottage on the left, can be seen a large
+                  boulder in the field to the left which is the 'Tortie Stone'
+                  and which bears small cup marks, prehistoric rock art which is
+                  very prevalent in Northumberland but rarer in Cumbria.
+                  <br />
+                  <br />
+                  In addition, the modern cairn at the summit of Cold Fell is
+                  stood on the stones of an ancient bronze-age memorial thought
+                  to be that of an important chieftain. We were wondering how
+                  they managed to navigate the boggy ground, but decided they
+                  would probably have had long wooden poles to test the ground,
+                  a little like us with our sticks!....
+                  <br />
+                  <br />
+                  There is also all the historical interest of the whole Tindale
+                  area and its mining history during the industrial revolution,
+                  which is tied in with George Stephenson. This{" "}
+                  <Link
+                    href="https://www.bookscumbria.com/product/uk-books/countryside-and-nature/tindale/"
+                    target="_blank"
+                    title="Click here to discover more 
+                about this local book on the Tindale area"
+                    className="underline decoration-[#4c4cff]  text-[#4c4cff] font-semibold"
+                  >
+                    Tindale book
+                  </Link>{" "}
+                  by Nancy Priest has some very interesting detail of the
+                  history of all this area.
+                </li>
+                <br />
+                <br />
+        <li className="text-left text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold text-left bg-[#ff9136]">Weather:</div>
+                  It was a beautifully sunny, and thankfully not too windy
+                  (although as always, the summit was a bit breezy!). As a note,
+                  this is relatively unusual for Cold Fell, as it can be{" "}
+                  <em>very</em> windy!
+                </li>                
+            </ul>
+            <br />
+            <br />  
+       
+            <div className="bg-[#ff9136] text-black font-semibold text-decoration-underline border-solid border-black border-2">NOT SO GOOD</div>
+             <br />  
+            <ul className="list-none">
+              <li className="text-left text-text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                <div className="text-text-black font-semibold">  Lack of clear paths, particularly on the descent:</div>
+              Initially on leaving the summit, the path remains clear
+                enough to make it out, although it is very hard going underfoot.
+                Once you reach the point at which the fence swings sharply right
+                (taking care not to head left, as the alternative fence leads
+                over Tarnmonath Fell), and you have crossed the fence at the
+                junction then there is initially a quad bike track which is to
+                be followed but after that the path deteriorates and disappears
+                totally.
+                <br />
+                <br />
+                Our advice in retrospect and reading what other intrepid
+                explorers have done, we would suggest sticking to a descent with
+                the fence nearby to the right of you down on to Brown Fell and
+                subsequently to the path which runs along the disused Gairs
+                Colliery Railway track.{" "}
+                <br />
+              </li>
+               <br />  
+        <br /> 
+         <li className="text-left text-text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                <div className="text-text-black font-semibold">  Terrains:</div>
+              It is very hard going underfoot. There are some very
+                boggy patches which can be quite treacherous. In one of the You
+                tube videos of walking on Cold Fell, an experienced walker still
+                managed to sink in up to at least his thighs!. We found walking
+                poles really useful in this sense, as the principal reason we
+                use them is to test ground and mud depth!{" "}
+                <br />
+              </li>
+               <br />  
+        <br /> 
+            </ul>
+             <div className="bg-[#ff9136] text-black font-semibold text-decoration-underline border-solid border-black border-2">HIKE RATING</div>
+              <br /> 
+          <ul className="list-none">
+              <li className="text-center text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                <div className="text-black text-center font-semibold">6 (out of 10):</div>  
+                    This is a tough walk, which is classified as{" "}
+                <em>'hard - steep, boggy in places'</em>
+              </li>
+            </ul>
+          </div>{" "}
+<br />  
+        <br /> 
+         <div className="bg-[#ff9136] text-black font-normal p-4 text-left border-solid border-black border-2">
+                Today we ascended Cold Fell, the northermost fell of the Pennine
+            chain. We had been discussing undertaking this walk for some time,
+            as Cold Fell is the northermost fell of the Pennine chain and at 621
+            metres (just over 2000 feet) is a prominent site on the skyline for
+            miles around. It was set to be a beautiful day, so we set off early,
+            armed with some sandwiches and most importantly leg gaters, walking
+            poles and the OS maps app on our mobile phone together with a decent
+            battery bank. We had been advised that it would be <em>
+              very
+            </em>{" "}
+            boggy underfoot.
+            <br />
+            <br />
+            We will not include a full description of the walk route here, but
+            for anyone who is in the area and may be interested in undertaking
+            this challenge, then this{" "}
+            <Link
+              href="https://northpennines.org.uk/location/cold-fell-walk/"
+              target="_blank"
+              title="Click here to access leaflet on Cold Fell Walk"
+             className="underline decoration-[#4c4cff]  text-[#4c4cff] font-semibold"
+            >
+              North Pennines National Landscape Cold Fell High Level walk
+              leaflet
+            </Link>{" "}
+            provides all the details. The walk follows paths over moorland which
+            is tussocky and crosses wet peat bogs in places. There are steep
+            sections to the walk. The recommendation is to allow 4 hours, but
+            including stops for lunch and the very slow progress of our descent,
+            as we had to pick our way carefully down the hillside, we would
+            advise to allow 5 hours to 5 hours 30.
+            <br />
+            <br />
+                
+          </div>
+            </div>
+            </div>         
+          </div>
+         <br />
+         <br />  
+         <div className="m-1 p-1 font-normal  bg-[#ff9136] border-solid border-black border-2 mb-6">
+          <br />         
+           Join us on our day out to Dodd Summit, Wood and Mirehouse by
+            clicking on the album below and following our narrative by clicking
+            on the added comments.
+         <br />
+         <br /> 
+          <Link
+                href="https://photos.app.goo.gl/V3BASU93ihG4MstZ8"
+                target="_blank"
+              >
+         <Image
+                  src={ SummitColdFell}
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[40%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Jill on the summit of Cold Fell."
+                />
+                </Link>
+                 <br />
+         <br />  
+        </div>
+         </div>
+          </div>
+         </div>
+
+
+
+          <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#585123]">
+         <div className="max-w-full font-semibold text-black text-center dark:text-black justify-center items-center">
+        <div className="font-semibold py-2 px-12 text-black text-center dark:text-black border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 bg-[#ff9136]"> 16th September 2024, Monday</div> {/*End of news date block*/} 
+        <div className="font-semibold text-black border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#ff9136]">Walk Croglin and Newbiggin, 5 miles.
+         {" "}</div> {/*End of news header block*/}
+        
+        <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white mr-1 ml-1 mb-2 mt-2 px-2 py-4 bg-[#aba891] border-2 border-black">
+      <div className=" m-4">
+               <div className="bg-[#ff9136] text-black  font-semibold border-solid border-black border-2">DETAILS OF THE WALK </div>
+            <div className="font-semibold text-center  mt-2 mb-2 px-4 py-4 ">            
+        <div className="font-normal pt-2 pb-2  text-black text-center">
+             <ul className="list-none">
+              <li className="text-left texttext-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                <div className="font-semibold text-black">Parking:</div>
+                There is free parking on the roadside verge at the far end
+                (fellside) of the village of Newbiggin NY557491, the main part
+                of which is located along a side road off the B6413.
+              </li>
+             
+              <br />  
+        <br /> 
+         <li className="text-left text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold text-left bg-[#ff9136]">Paths:</div>
+             This is a walk along well-established bridleways and
+                minor country roads throughout.{" "}  
+              </li>
+              <br />  
+              <br /> 
+              <li className="text-left text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold text-left bg-[#ff9136]">Distance:</div>
+           5 miles in total <strong>, Ascent:</strong> 220 metres,
+                720 feet.{" "}
+              </li>
+               <br />  
+        <br /> 
+              <li  className="text-left  text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                <div className="text-black font-semibold">Refreshments:</div>
+                There are pubs in both Croglin (The Robin Hood Inn) and
+                Newbiggin(The Sun Inn). The opening times of both these
+                establishments can vary, so it is probably best to take some
+                additional refreshment supplies of your own.{" "}
+              </li>
+            </ul>
+             <br />  
+        <br /> 
+            <div className="bg-[#ff9136]  text-black font-semibold text-decoration-underline border-solid border-black border-2">GOOD</div> 
+        <br /> 
+        
+            <ul className="list-none">
+               
+                <li className="text-left  text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold">Spectacular and far-reaching views : </div>
+                    There are some particularly spectacular views of the
+                  North Lakes fells including Blencathra from this walk and over
+                  towards Croglin fell and the Pennine ridge.{" "}
+                </li>
+                 <br />  
+        <br /> 
+        <li className="text-left  text-black  bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold">Peace and tranquillity: </div>
+                   This area is always beautifully peaceful, perhaps
+                  because these are both very small, self-contained villages
+                  which are at some distance from the nearest larger villages
+                  and towns.
+                </li>
+                 <br />  
+        <br /> 
+             <li className="text-left  text-black  bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold">Weather: </div>
+                 It was a beautifully sunny day with clear skies.
+                </li>
+                    
+            </ul>
+            <br />
+            <br />  
+       
+            <div className="bg-[#ff9136] text-black font-semibold text-decoration-underline border-solid border-black border-2">NOT SO GOOD</div>
+             <br />  
+            <ul className="list-none">
+              <li className="text-left text-text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                <div className="text-text-black font-semibold">   Everything was great.:</div>
+             
+              </li>
+               <br />  
+        <br /> 
+         <li className="text-left text-text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                <div className="text-text-black font-semibold">  Terrains:</div>
+              It is very hard going underfoot. There are some very
+                boggy patches which can be quite treacherous. In one of the You
+                tube videos of walking on Cold Fell, an experienced walker still
+                managed to sink in up to at least his thighs!. We found walking
+                poles really useful in this sense, as the principal reason we
+                use them is to test ground and mud depth!{" "}
+                <br />
+              </li>
+               <br />  
+        <br /> 
+            </ul>
+             <div className="bg-[#ff9136] text-black font-semibold text-decoration-underline border-solid border-black border-2">HIKE RATING</div>
+              <br /> 
+          <ul className="list-none">
+              <li className="text-center text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                <div className="text-black text-center font-semibold">10 (out of 10):</div> 
+              </li>
+            </ul>
+          </div>{" "}
+<br />  
+        <br /> 
+         <div className="bg-[#ff9136] text-black font-normal p-4 text-left border-solid border-black border-2">
+                            We have walked this route, which can be found on OS map OL5 and also
+            is walk number 23 in{" "}
+            <Link
+              href="https://www.bookscumbria.com/product/cumbrian-books/cumbrian-outdoors/walking/hadrians-wall-the-borders/walking-in-cumbria-s-eden-valley/"
+              target="_blank"
+              className="underline decoration-[#4c4cff]  text-[#4c4cff] font-semibold"
+            >
+              Cicerone's 'Walking in Cumbria's Eden Valley'{" "}
+            </Link>{" "}
+            book many times in the past but of more recent times have not had
+            the opportunity to visit here quite so much, which is a great shame
+            as it is one of our favourite parts of Cumbria and this is a
+            manageable and highly enjoyable walk.
+            <br />
+            <br />
+            The weather was beautiful today but we have undertaken this walk in
+            many different weather conditions, from rain to cloud, mist, ice and
+            snow. We have taken the liberty of including in the album below some
+            scenes from this walk which were taken at other times and more
+            adverse weather conditions over the years.
+            <br />
+            <br />
+            It was great to be back here again on this beautiful day,
+            undertaking one of our all time favourite walks.
+          </div>
+            </div>
+            </div>         
+          </div>
+         <br />
+         <br />  
+         <div className="m-1 p-1 font-normal  bg-[#ff9136] border-solid border-black border-2 mb-6">
+          <br />         
+           Join us on our day out on the Croglin and Newbiggin walk by clicking
+            on the album below and f
+         <br />
+         <br /> 
+          <Link
+                href="https://photos.app.goo.gl/V3BASU93ihG4MstZ8"
+                target="_blank"
+              >
+         <Image
+                  src={BernardCroglin}
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[40%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Bernard on the Croglin walk."
+                />
+                </Link>
+                 <br />
+         <br />  
+        </div>
+         </div>
+          </div>
+         </div>
+
 
 
 
