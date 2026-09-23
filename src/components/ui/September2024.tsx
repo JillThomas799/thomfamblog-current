@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import "./September2024.css";
 import SeptemberSheep from "@/components//ui/septembersheep"
 import AbbotsfordCafe from "/public/imagesresized/AbbotsfordCafe.jpg";
 import AbbotsfordGargoyles from "/public/imagesresized/AbbotsfordGargoyles.jpg";
@@ -1264,7 +1265,61 @@ export default function September2024() {
         </div>
          </div>
           </div>
-         </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+          <div
+          className="datenewsDivSeptember"
+          style={{ backgroundColor: "#000000" }}
+        >
+          <section className="dateSeptember">
+            23rd September 2024, Monday
+          </section>
+          <div className="CongratulationsPhD">
+            <div className="pyro">
+              <div className="before"></div>
+              <div className="after"></div>
+              <div className="newsCongratsPhD">
+                <section className="CongratsMessagePhD">
+                  <div className="CongratsMessagePhD-content">
+                    <p className="CongratsMessagePhD-description">
+                      CONGRATULATIONS HARRY{" "}
+                    </p>
+                    <h2 className="CongratsMessagePhD-main">
+                      ON YOUR SUCCESS <br /> IN YOUR PHD VIVA
+                    </h2>
+                  </div>
+                </section>
+                <br />
+              </div>{" "}
+              {/* Closing tag CongratsMessagePhD */}
+            </div>{" "}
+            {/*Closing tag newsCongratsPhD*/}
+          </div>{" "}
+          {/* Closing tag pyro */}
+          <div className="newsheaderSeptember">
+            Today Harry aced his long-awaited PhD viva (as we knew he would). So
+            join us is in congratulating him on all his hard work over the past
+            4 years, and wishing him all the very best for the future. Well done
+            Harry!
+          </div>{" "}
+          {/*Closing tag newsheaderSeptember*/}
+        </div>{" "}
+        {/*Closing tag CongratulationsPhD */}
+     
+
+      </div>
+
 
 
 
