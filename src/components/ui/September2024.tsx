@@ -884,8 +884,6 @@ export default function September2024() {
           </div>
          </div>
 
-
-
           <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#585123]">
          <div className="max-w-full font-semibold text-black text-center dark:text-black justify-center items-center">
@@ -967,20 +965,7 @@ export default function September2024() {
              <br />  
             <ul className="list-none">
               <li className="text-left text-text-black bg-[#ff9136] p-4 border-solid border-black border-2">
-                <div className="text-text-black font-semibold">   Everything was great.:</div>
-             
-              </li>
-               <br />  
-        <br /> 
-         <li className="text-left text-text-black bg-[#ff9136] p-4 border-solid border-black border-2">
-                <div className="text-text-black font-semibold">  Terrains:</div>
-              It is very hard going underfoot. There are some very
-                boggy patches which can be quite treacherous. In one of the You
-                tube videos of walking on Cold Fell, an experienced walker still
-                managed to sink in up to at least his thighs!. We found walking
-                poles really useful in this sense, as the principal reason we
-                use them is to test ground and mud depth!{" "}
-                <br />
+                <div className="text-text-black font-semibold">   Everything was great:</div>   It was a lovely walk.          
               </li>
                <br />  
         <br /> 
@@ -1029,7 +1014,8 @@ export default function September2024() {
          <div className="m-1 p-1 font-normal  bg-[#ff9136] border-solid border-black border-2 mb-6">
           <br />         
            Join us on our day out on the Croglin and Newbiggin walk by clicking
-            on the album below and f
+            on the album below and following our narrative by clicking on the
+            added comments.
          <br />
          <br /> 
           <Link
@@ -1038,7 +1024,7 @@ export default function September2024() {
               >
          <Image
                   src={BernardCroglin}
-                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[40%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[70%]"
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[70%]"
                   alt="Photo of Bernard on the Croglin walk."
                 />
                 </Link>
@@ -1049,6 +1035,236 @@ export default function September2024() {
           </div>
          </div>
 
+ <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#585123]">
+         <div className="max-w-full font-semibold text-black text-center dark:text-black justify-center items-center">
+        <div className="font-semibold py-2 px-12 text-black text-center dark:text-black border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 bg-[#ff9136]"> 17th September 2024, Tuesday</div> {/*End of news date block*/} 
+        <div className="font-semibold text-black border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#ff9136]">Walk Great Ashby Scar and Orton, 10 miles.
+         {" "}</div> {/*End of news header block*/}
+        
+        <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white mr-1 ml-1 mb-2 mt-2 px-2 py-4 bg-[#aba891] border-2 border-black">
+      <div className=" m-4">
+               <div className="bg-[#ff9136] text-black  font-semibold border-solid border-black border-2">DETAILS OF THE WALK </div>
+            <div className="font-semibold text-center  mt-2 mb-2 px-4 py-4 ">            
+        <div className="font-normal pt-2 pb-2  text-black text-center">
+             <ul className="list-none">
+              <li className="text-left texttext-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                <div className="font-semibold text-black">Parking:</div>
+                 We parked on the free parking on a small lay-by with a
+                litter-bin on the B6261, 400m east of Orton (NY 629080). However
+                there is also adequate on road free parking (with care so as not
+                to inconvenience local residents) within Orton village itself.
+              </li>
+             
+              <br />  
+        <br /> 
+         <li className="text-left text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold text-left bg-[#ff9136]">Paths:</div>
+             The route is on bridleways on open limestone moorland and
+                tracks. It includes a 1.5km section on the{" "}
+                <Link
+                  href="https://www.coasttocoast.uk/"
+                  target="_blank"
+                  className="underline decoration-[#4c4cff]  text-[#4c4cff] font-semibold"
+                >
+                  Coast to Coast Path
+                </Link>{" "}
+                . This walk is walk 6 of{" "}
+                <Link
+                  href="https://www.bookscumbria.com/product/cumbrian-books/cumbrian-outdoors/walking/hadrians-wall-the-borders/walking-in-cumbria-s-eden-valley/"
+                  target="_blank"
+                 className="underline decoration-[#4c4cff]  text-[#4c4cff] font-semibold"
+                >
+                  Cicerone's 'Walking in Cumbria's Eden Valley'{" "}
+                </Link>{" "}
+                book, Great Ashby Scar plus an additional segment we added in to
+                go to Orton village for refreshments and to purchase chocolates
+                for presents at the{" "}
+                <Link
+                  href="https://www.kennedyschocolates.co.uk/orton-chocolate-shop/"
+                  target="_blank"
+                  className="underline decoration-[#4c4cff]  text-[#4c4cff] font-semibold"
+                >
+                  chocolate factory
+                </Link>{" "}
+                .{" "}
+              </li>             
+              <br />  
+              <br /> 
+              <li className="text-left text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold text-left bg-[#ff9136]">Distance:</div>
+                    Just under 10 miles in total <strong>, Ascent:
+                </strong>{" "}
+                317 metres, 1040 feet.{" "}
+              </li>
+               <br />  
+        <br /> 
+              <li  className="text-left  text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                <div className="text-black font-semibold">Refreshments:</div>
+                 We obtained refreshments at the Orton Scar Café in Orton
+                village, but there is also a popular café at the chocolate
+                factory in Orton (a very popular place for stocking up with
+                chocolate supplies) and there is the George Hotel in Orton, so
+                plenty of choice.
+              </li>
+            </ul>
+             <br />  
+        <br /> 
+            <div className="bg-[#ff9136]  text-black font-semibold text-decoration-underline border-solid border-black border-2">GOOD</div> 
+        <br /> 
+        
+            <ul className="list-none">
+               
+                <li className="text-left  text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold">Spectacular and far-reaching views : </div>
+                     South towards the impressive Howgills and the Lune Gorge
+                  beyond Tebay. North, the rolling landscape of the Eden Valley.
+                  West, the fells around Shap and the eastern lake District and
+                  East across the Eden Valley to the lNorthern Pennine chain.{" "}
+                </li>
+                 <br />  
+        <br /> 
+        <li className="text-left  text-black  bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold">Peace and tranquillity: </div>
+                   It is the Yorkshire Dales and Malham Cove which attract most
+                  of the visitors for limestone pavements, and Great Ashby and
+                  Orton scars are little visited. However these scars in Cumbria
+                  are some of the most extensive in Britain. Apparently, it is
+                  never busy at all, and is one of the quietest walking areas of
+                  Cumbria. Other than a group of 3 people walking the Coast to
+                  Coast Path when we were on that stretch early on in the day,
+                  we only briefly saw 2 other people all day, until we returned
+                  into Orton village, when all of a sudden it became very busy.
+                </li>
+                 <br />  
+        <br /> 
+             <li className="text-left  text-black  bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold">Weather: </div>
+                  It really was a phenomenal day weather-wise with a clear blue
+                  sky and the low 20s in temperature so warm but not boiling hot
+                  which was good as the latter can be very problematic when on a
+                  limestone pavement as the pavement reflects the light and
+                  heat, as discovered when walking on Malham limestone pavement
+                  in very hot weather many years ago.
+                </li>
+                <br />  
+        <br /> 
+                   <li className="text-left  text-black  bg-[#ff9136] p-4 border-solid border-black border-2">
+                  <div className="text-black font-semibold">Refreshments: </div>
+                   We were ready for refreshments at the Orton Scar café in Orton
+                  village by the time we got there. It was really pleasant with
+                  plenty of indoor and outdoor seating and great drinks, food
+                  and cakes.{" "}
+                </li>  
+            </ul>
+            <br />
+            <br />  
+       
+            <div className="bg-[#ff9136] text-black font-semibold text-decoration-underline border-solid border-black border-2">NOT SO GOOD</div>
+             <br />  
+            <ul className="list-none">
+              <li className="text-left text-text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                <div className="text-text-black font-semibold">Cows:</div>
+              We counted at least 5 fields containing cows which had to be
+                traversed with care. Some had calves with them and there was one
+                field with large numbers of cattle just before we reached Ashby
+                Great Scar SSSI.{" "}
+              </li>
+               <br />  
+        <br /> 
+         <li className="text-left text-text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                <div className="text-text-black font-semibold">Paths:</div>
+               As stated above, the route is on bridleways on open limestone
+                moorland and tracks. However, due to there being cattle in a
+                number of the fields the ground had become a little churned up
+                at points, so care was needed underfoot in these areas. There
+                were also 2 points at which we took the wrong direction.
+                However, use of the maps on the OS app soon alerted us to this
+                fact and we were easily able to correct our errors.{" "}
+                <br />
+              </li>
+               <br />  
+        <br /> 
+            </ul>
+             <div className="bg-[#ff9136] text-black font-semibold text-decoration-underline border-solid border-black border-2">HIKE RATING</div>
+              <br /> 
+          <ul className="list-none">
+              <li className="text-center text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+                <div className="text-black text-center font-semibold">8.5 (out of 10):</div> 
+                  We have deducted 1.5 points for the cattle and the occasional
+                times when the path was not entirely clear.
+              </li>
+            </ul>
+          </div>{" "}
+<br />  
+        <br /> 
+         <div className="bg-[#ff9136] text-black font-normal p-4 text-left border-solid border-black border-2">
+            Great Ashby Scar is an area of high ground lying between the
+            villages of Orton and Great Asby. It contains some of the best
+            examples of Limestone Pavement in Britain. Limestone pavements are
+            rare in this country and have been extensively damaged by removal
+            for garden rockery stone. They are formed by weathering of the
+            limestone since the glaciers of the last ice age melted (about
+            10,000 years ago), which has created deep fissures, or grikes, which
+            divide the pavement into blocks called clints.
+            <br />
+            <br />
+            This has resulted in this area being designated an SSSI - a site of
+            Special Scientific Interest. Woodland plants grow in the limestone
+            fissures. Among them are harts tongue fern, wood anemone, dog’s
+            mercury, rigid buckler fern, and limestone fern. Uncommon herbs such
+            as angular solomon’s seal and bloody cranesbill grow in the
+            pavements. Trees include small hawthorn, hazel, and ash.
+            <br />
+            <br />
+            The highest point of the Scar is called The Knott at 412m (1352
+            feet) with{" "}
+            <Link
+              href="https://en.wikipedia.org/wiki/Castle_Folds"
+              target="_blank"
+              title="Click here to discover more about Castle Folds"
+              className="underline decoration-[#4c4cff]  text-[#4c4cff] font-semibold"
+            >
+              Castle Folds
+            </Link>{" "}
+            , a Romano-British defended stone walled enclosure containing a hut
+            circle settlement and a later medieval shieling which is found high
+            on the limestone fells.
+            <br />
+            <br />
+            We have had one of these scars on the limestone pavements in this
+            area on our walking list for sometime and never got round to
+            undertaking the walk, so it was great today to have the opportunity
+            to go up on to the pavement at last.
+          </div>
+            </div>
+            </div>         
+          </div>
+         <br />
+         <br />  
+         <div className="m-1 p-1 font-normal  bg-[#ff9136] border-solid border-black border-2 mb-6">
+          <br />         
+           Join us on our day out on the Great Ashby Scar and Orton walk by
+            clicking on the album below and following our narrative by clicking
+            on the added comments.
+         <br />
+         <br /> 
+          <Link
+                href="https://photos.app.goo.gl/cMVKJvE9aAwjnmoV9"
+                target="_blank"
+              >
+         <Image
+                  src={GreatAshbyScar}
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[40%] border-solid border-black-400 border-2 mt-1 mb-11 rounded-[70%]"
+                  alt="Jill on the Great Ashby Scar walk."
+                />
+                </Link>
+                 <br />
+         <br />  
+        </div>
+         </div>
+          </div>
+         </div>
 
 
 
