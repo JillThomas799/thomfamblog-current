@@ -252,10 +252,7 @@ export default function September2024() {
           return at some point. If in the area, it is well worth a visit...
           <br />
           <br />
-            </div>{" "}
-      </div>{/*End of individual dated entry photo album block*/} 
-           </div> {/*End of news content block*/}
-           </div>
+                       
 
            <Image
                   src={ AbbotsfordCafe }
@@ -263,7 +260,7 @@ export default function September2024() {
                   alt="Photo of the Apsley pub, Manchester.S"
                 />
                   <figcaption className="novemberFigCaption">
-                <div className="font-normal text-center">
+                <div className="font-normal text-center mt-4">
                     It had been a very impressive but <br /> long(ish) drive so
                     first and foremost on arrival, it was time for a café
                     stop...{" "}
@@ -274,10 +271,10 @@ export default function September2024() {
                 <Image
                   src={ EntranceAbbotsford }
                   className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
-                  alt="Photo of the Apsley pub, Manchester.S"
+                  alt="Photo of the entrance to Abbotsford"
                 />
                   <figcaption className="novemberFigCaption">
-                <div className="font-normal text-center">
+                <div className="font-normal text-center mt-4">
                     Entrance to Abbotsford ... it is easy to see why Sir Walter
                     Scott liked this house so much.
                 </div>
@@ -290,7 +287,7 @@ export default function September2024() {
                   alt="Photo of the Hall at Abbotsford"
                 />
                   <figcaption className="novemberFigCaption">
-                <div className="font-normal text-center">
+                <div className="font-normal text-center mt-4">
                    The shields of Walter Scott's Ancestors are these down the
                     centre <br /> of the ceiling and those of the principal
                     border families are painted around the cornice...{" "}
@@ -304,7 +301,7 @@ export default function September2024() {
                   alt="Photo of Abbotsford's library"
                 />
                   <figcaption className="novemberFigCaption">
-                <div className="font-normal text-center">
+                <div className="font-normal text-center mt-4">
                    Walter Scott's library, Abbotsford...Here are about 7000 of
                     the 9000 books Walter Scott collected, each in the same spot
                     as Walter Scott placed them.
@@ -318,7 +315,7 @@ export default function September2024() {
                   alt="Photo of bust of Sir Walter Scott"
                 />
                   <figcaption className="novemberFigCaption">
-                <div className="font-normal text-center">
+                <div className="font-normal text-center mt-4">
                     ...and here is the bust of Sir Walter Scott which was moved
                     here from the drawing room by Walter Scott the younger.
                 </div>
@@ -331,7 +328,7 @@ export default function September2024() {
                   alt="Photo of the Drawing Room at Abbotsford"
                 />
                   <figcaption className="novemberFigCaption">
-                <div className="font-normal text-center">
+                <div className="font-normal text-center mt-4">
                     Evening leisure pursuits were centred on the the drawing
                     room next door, a room which Scott's wife Charlotte
                     preferred. Their daughter Sophia would play the harp and
@@ -346,7 +343,7 @@ export default function September2024() {
                   alt="Photo of the gargoyles at Abbotsford"
                 />
                   <figcaption className="novemberFigCaption">
-                <div className="font-normal text-center">
+                <div className="font-normal text-center mt-4">
                      Sir Walter Scott's armoury, intended for the display of his
                     collections of fine arms and armoury but often used as his
                     private sitting room. Walter Scott loved gothic architecture
@@ -361,7 +358,7 @@ export default function September2024() {
                   alt=" Photo of Abbotsford, as seen from the rear. "
                 />
                   <figcaption className="novemberFigCaption">
-                <div className="font-normal text-center">
+                <div className="font-normal text-center mt-4">
                     Abbotsford as seen from the rear. <br /> The central section
                     of the house is the original.{" "}
                 </div>
@@ -374,7 +371,7 @@ export default function September2024() {
                   alt="Photo of the gardens at Abbotsford"
                 />
                   <figcaption className="novemberFigCaption">
-                <div className="font-normal text-center">
+                <div className="font-normal text-center mt-4">
                     Sir Walter Scott's gardens at Abbotsford were also an
                     extension <br /> of his creative talent...
                 </div>
@@ -387,7 +384,7 @@ export default function September2024() {
                   alt="Photo of view of Abbotsford from walled garden"
                 />
                   <figcaption className="novemberFigCaption">
-                <div className="font-normal text-center">
+                <div className="font-normal text-center mt-4">
                    View of Abbotsford from a seat in the walled garden.
                 </div>
               </figcaption>
@@ -400,16 +397,19 @@ export default function September2024() {
                   alt="Photo of Sir Walter Scott's cat"
                 />
                   <figcaption className="novemberFigCaption">
-                <div className="font-normal text-center">
+                <div className="font-normal text-center mt-4">
                    Although Walter Scott was a passionate dog-lover, <br /> in
                     later life he also grew to like cats. He said <br /> ' Cats
                     are a very mysterious kind of folk. There is always more
-                    passing in their minds than we are <br /> aware of.' Here is
+                    passing in their minds than we are aware of.' Here is
                     a painting of his cat, Hinse of Hinsefeldt ....
                 </div>
               </figcaption>
               <br />
-      
+               </div>{" "}
+               </div>{/*End of individual dated entry photo album block*/}
+      </div> {/*End of news content block*/}
+      </div>
       
 
      </div>
