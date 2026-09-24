@@ -447,7 +447,7 @@ export default function September2024() {
         <div className="font-semibold text-black border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#ff9136]"> Dodd Summit, Wood and Mirehouse, Bassenthwaite.
          {" "}</div> {/*End of news header block*/}
         
-        <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white mr-1 ml-1 mb-2 mt-2 px-2 py-4 bg-[#aba891] border-2 border-black">
+        <div className="text-center pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-white dark:text-white mr-1 ml-1 mb-2 mt-2 px-2 py-4 bg-[#aba891] border-2 border-black">
       <div className=" m-4">
                <div className="bg-[#ff9136] text-black  font-semibold border-solid border-black border-2">DETAILS OF THE WALK </div>
             <div className="font-semibold text-center  mt-2 mb-2 px-4 py-4 ">            
@@ -646,14 +646,14 @@ export default function September2024() {
 
 
          <div className="mb-20"> 
-      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#585123]">
+      <div className="flex flex-col max-w-full leading-1.5  md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#585123]">
          <div className="max-w-full font-semibold text-black text-center dark:text-black justify-center items-center">
         <div className="font-semibold py-2 px-12 text-black text-center dark:text-black border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 bg-[#ff9136]"> 13th September 2024, Friday</div> {/*End of news date block*/} 
         <div className="font-semibold text-black border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#ff9136]">  Ascent up to the boggy, treacherous summit of Cold Fell, Geltsdale
             and beyond.
          {" "}</div> {/*End of news header block*/}
         
-        <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white mr-1 ml-1 mb-2 mt-2 px-2 py-4 bg-[#aba891] border-2 border-black">
+        <div className="text-center pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-white dark:text-white mr-1 ml-1 mb-2 mt-2 px-2 py-4 bg-[#aba891] border-2 border-black">
       <div className=" m-4">
                <div className="bg-[#ff9136] text-black  font-semibold border-solid border-black border-2">DETAILS OF THE WALK </div>
             <div className="font-semibold text-center  mt-2 mb-2 px-4 py-4 ">            
@@ -886,13 +886,13 @@ export default function September2024() {
          </div>
 
           <div className="mb-20"> 
-      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#585123]">
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-1 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#585123]">
          <div className="max-w-full font-semibold text-black text-center dark:text-black justify-center items-center">
-        <div className="font-semibold py-2 px-12 text-black text-center dark:text-black border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 bg-[#ff9136]"> 16th September 2024, Monday</div> {/*End of news date block*/} 
+        <div className="font-semibold py-2 px-12 text-black text-center dark:text-black border-solid border-black border-2 m-2 bg-[#ff9136]"> 16th September 2024, Monday</div> {/*End of news date block*/} 
         <div className="font-semibold text-black border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#ff9136]">Walk Croglin and Newbiggin, 5 miles.
          {" "}</div> {/*End of news header block*/}
         
-        <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white mr-1 ml-1 mb-2 mt-2 px-2 py-4 bg-[#aba891] border-2 border-black">
+        <div className="text-center pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-white dark:text-white mr-1 ml-1 mb-2 mt-2 px-2 py-4 bg-[#aba891] border-2 border-black">
       <div className=" m-4">
                <div className="bg-[#ff9136] text-black  font-semibold border-solid border-black border-2">DETAILS OF THE WALK </div>
             <div className="font-semibold text-center  mt-2 mb-2 px-4 py-4 ">            
@@ -1039,11 +1039,11 @@ export default function September2024() {
  <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#585123]">
          <div className="max-w-full font-semibold text-black text-center dark:text-black justify-center items-center">
-        <div className="font-semibold py-2 px-12 text-black text-center dark:text-black border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 bg-[#ff9136]"> 17th September 2024, Tuesday</div> {/*End of news date block*/} 
+        <div className="font-semibold py-2 px-12 text-black text-center dark:text-black border-solid border-black border-2 m-2 bg-[#ff9136]"> 17th September 2024, Tuesday</div> {/*End of news date block*/} 
         <div className="font-semibold text-black border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#ff9136]">Walk Great Ashby Scar and Orton, 10 miles.
          {" "}</div> {/*End of news header block*/}
         
-        <div className="text-center pr-3 pl-3 md:pr-1 md:pl-1 font-normal text-white dark:text-white mr-1 ml-1 mb-2 mt-2 px-2 py-4 bg-[#aba891] border-2 border-black">
+        <div className="text-center pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-white dark:text-white mr-1 ml-1 mb-2 mt-2 px-2 py-4 bg-[#aba891] border-2 border-black">
       <div className=" m-4">
                <div className="bg-[#ff9136] text-black  font-semibold border-solid border-black border-2">DETAILS OF THE WALK </div>
             <div className="font-semibold text-center  mt-2 mb-2 px-4 py-4 ">            
@@ -1265,18 +1265,6 @@ export default function September2024() {
         </div>
          </div>
           </div>
-        
-
-
-
-
-
-
-
-
-
-
-
 
           <div
           className="datenewsDivSeptember"

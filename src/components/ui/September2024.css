@@ -11,48 +11,10 @@
   padding-top: 10%;
 }
 
-#backbuttonSeptember {
-  display: block;
-  position: absolute;
-  height: 50px;
-  width: 15%;
-  background-color: #eec170;
-  border: grey 2px solid;
-  text-align: center;
-  font-size: large;
-  font-weight: bold;
-  color: black;
-  top: 10%;
-  text-decoration: underline;
-  margin: 5% 25% 5% 75%;
-  -webkit-border-radius: 15%;
-  -moz-border-radius: 15%;
-  -ms-border-radius: 15%;
-  -o-border-radius: 15%;
-  border-radius: 15%;
-}
-
-.backbuttonLink {
-  color: white;
-}
-
-.LinkSeptember {
-  color: #585123;
-  font-weight: bold;
-  font-size: 1.1rem;
-  text-decoration: underline;
-}
-
 .SeptemberheaderDisplay {
   background-color: "#98964D";
   padding-bottom: 15%;
   border: solid #eec170 8px;
-}
-
-.SeptemberList {
-  padding-left: 10%;
-  list-style-type: disc;
-  list-style-position: inside;
 }
 
 .datenewsDivSeptember {
@@ -96,147 +58,6 @@
     Trebuchet MS,
     sans-serif;
   font-weight: bold;
-}
-
-.newsSeptember {
-  color: black;
-  border: solid 2px #757c88;
-  background-color: #ff9136;
-  text-align: left;
-  padding: 20px 20px 20px 20px;
-  margin-top: 1%;
-  margin-bottom: 0vh;
-  font-size: 1.2rem;
-  font-family:
-    Calibri,
-    Trebuchet MS,
-    sans-serif;
-  /* font-weight:bold; */
-}
-
-.blogPhotoDivSeptember {
-  display: flex;
-  flex-direction: row;
-  border: solid 2px #757c88;
-  background-color: #f2e3d6;
-  padding-bottom: 5%;
-  padding-top: 3%;
-  padding-left: 2%;
-  padding-right: 2%;
-  margin-top: 5vh;
-}
-
-.blogPhotoSeptember img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  height: auto;
-  border: solid #757c88 3px;
-}
-
-.slideshowentrySeptember {
-  display: column;
-  justify-content: center;
-  margin-left: 35%;
-  margin-right: 35%;
-  pointer-events: none;
-  width: 30%;
-  height: auto;
-  border: solid #757c88 3px;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  -webkit-border-radius: 30%;
-  -moz-border-radius: 30%;
-  -ms-border-radius: 30%;
-  -o-border-radius: 30%;
-  border-radius: 30%;
-}
-
-.SlideshowHostPhotoSeptember {
-  display: flex;
-  flex-direction: column;
-  background-color: #f2e3d6;
-  padding-bottom: 5%;
-  padding-top: 5%;
-  margin-top: 0vh;
-  justify-content: center;
-  text-align: center;
-}
-
-.SeptemberDailyNarrative {
-  background-color: #f2e3d6;
-  text-align: left;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-right: 10%;
-  padding-left: 10%;
-  color: black;
-  font-size: 1rem;
-  font-family:
-    Calibri,
-    Trebuchet MS,
-    sans-serif;
-}
-
-.componentWalkDetailsSeptember {
-  background-color: #f2e3d6;
-  /* border:solid 4px grey; */
-  text-align: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-right: 2%;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  font-size: 1rem;
-  font-family:
-    Calibri,
-    Trebuchet MS,
-    sans-serif;
-}
-
-.titlesSeptember {
-  color: black;
-  font-size: 1.2rem;
-}
-
-.headTitlesSeptember {
-  color: black;
-  font-size: 1.2rem;
-  text-decoration: underline;
-}
-
-#swaledaleSheepS1 {
-  -webkit-transform: translate(-150px, -300px);
-  -moz-transform: translate(-150px, -300px);
-  -ms-transform: translate(-150px, -300px);
-  -o-transform: translate(-150px, -300px);
-  transform: translate(-150px, -300px);
-  overflow: visible;
-}
-
-#swaledaleSheepS2 {
-  -webkit-transform: translate(-600px, 0px);
-  -moz-transform: translate(-600px, 0px);
-  -ms-transform: translate(-600px, 0px);
-  -o-transform: translate(-600px, 0px);
-  transform: translate(-600px, 0px);
-  overflow: visible;
-}
-
-#sheepAdultLambS1 {
-  overflow-x: visible;
-  overflow-y: visible;
-}
-
-#sheepAdultLambS2 {
-  overflow-x: visible;
-  overflow-y: visible;
-}
-
-.CowsAndSheep {
-  margin-bottom: 15%;
 }
 
 /*CSS for Harry's PhD congratulations firework display */
@@ -580,28 +401,6 @@
   }
 }
 
-/*@media queries for the sheep and cows*/
-@media screen and (min-width: 480px) and (max-width: 900px) {
-  /*To ensure on ipad screens and larger mobiles (min-width 480px, max-width 900px) that the sheep and lambs are correctly positioned*/
-  #swaledaleSheepS1 {
-    -webkit-transform: translate(-200px, 0px);
-    -moz-transform: translate(-200px, 0px);
-    -ms-transform: translate(-200px, 0px);
-    -o-transform: translate(-200px, 0px);
-    transform: translate(-200px, 0px);
-    overflow: visible;
-  }
-
-  #swaledaleSheepS2 {
-    -webkit-transform: translate(-600px, 0px);
-    -moz-transform: translate(-600px, 0px);
-    -ms-transform: translate(-600px, 0px);
-    -o-transform: translate(-600px, 0px);
-    transform: translate(-600px, 0px);
-    overflow: visible;
-  }
-}
-
 /*To ensure on ipad screens and larger mobiles that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
 @media screen and (min-width: 481px) and (max-width: 900px) {
   .blogPhotoDivSeptember {
@@ -618,42 +417,6 @@
     padding-bottom: 15%;
     border: solid #eec170 8px;
     padding-bottom: 20%;
-  }
-
-  .slideshowentrySeptember {
-    display: column;
-    justify-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    pointer-events: none;
-    width: 80%;
-    height: auto;
-    border: solid #757c88 3px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    -webkit-border-radius: 80%;
-    -moz-border-radius: 80%;
-    -ms-border-radius: 80%;
-    -o-border-radius: 80%;
-    border-radius: 80%;
-  }
-
-  #swaledaleSheepS1 {
-    -webkit-transform: scale(120%) translate(-350px, -300px);
-    -moz-transform: scale(120%) translate(-350px, -300px);
-    -ms-transform: scale(120%) translate(-350px, -300px);
-    -o-transform: scale(120%) translate(-350px, -300px);
-    transform: scale(120%) translate(-350px, -300px);
-    overflow: visible;
-  }
-
-  #swaledaleSheepS2 {
-    -webkit-transform: scale(100%) translate(-600px, -100px);
-    -moz-transform: scale(100%) translate(-600px, -100px);
-    -ms-transform: scale(100%) translate(-600px, -100px);
-    -o-transform: scale(100%) translate(-600px, -100px);
-    transform: scale(100%) translate(-600px, -100px);
-    overflow: visible;
   }
 
   .pyro {
@@ -689,52 +452,6 @@
   .newsheaderSeptember {
     margin-top: 20%;
   }
-
-  .slideshowentrySeptember {
-    display: column;
-    justify-content: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    pointer-events: none;
-    width: 90%;
-    height: auto;
-    border: solid #757c88 3px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    -webkit-border-radius: 80%;
-    -moz-border-radius: 80%;
-    -ms-border-radius: 80%;
-    -o-border-radius: 80%;
-    border-radius: 80%;
-  }
-
-  #swaledaleSheepS1 {
-    -webkit-transform: scale(120%) translate(-580px, -200px);
-    -moz-transform: scale(120%) translate(-580px, -200px);
-    -ms-transform: scale(120%) translate(-580px, -200px);
-    -o-transform: scale(120%) translate(-580px, -200px);
-    transform: scale(120%) translate(-580px, -200px);
-    overflow: visible;
-  }
-
-  #swaledaleSheepS2 {
-    -webkit-transform: scale(100%) translate(-600px, -100px);
-    -moz-transform: scale(100%) translate(-600px, -100px);
-    -ms-transform: scale(100%) translate(-600px, -100px);
-    -o-transform: scale(100%) translate(-600px, -100px);
-    transform: scale(100%) translate(-600px, -100px);
-    overflow: visible;
-  }
-
-  .blogPhotoDivSeptember {
-    display: flex;
-    flex-direction: column;
-    background-color: #f2e3d6;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    margin-top: 2%;
-  }
-
   .dateSeptember {
     font-size: 1rem;
   }
@@ -783,51 +500,6 @@
 
   .newsheaderSeptember {
     margin-top: 20%;
-  }
-
-  .slideshowentrySeptember {
-    display: column;
-    justify-content: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    pointer-events: none;
-    width: 90%;
-    height: auto;
-    border: solid #757c88 3px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    -webkit-border-radius: 80%;
-    -moz-border-radius: 80%;
-    -ms-border-radius: 80%;
-    -o-border-radius: 80%;
-    border-radius: 80%;
-  }
-
-  #swaledaleSheepS1 {
-    -webkit-transform: scale(90%) translate(-900px, -300px);
-    -moz-transform: scale(90%) translate(-900px, -300px);
-    -ms-transform: scale(90%) translate(-900px, -300px);
-    -o-transform: scale(90%) translate(-900px, -300px);
-    transform: scale(90%) translate(-900px, -300px);
-    overflow: visible;
-  }
-
-  #swaledaleSheepS2 {
-    -webkit-transform: scale(100%) translate(-600px, -100px);
-    -moz-transform: scale(100%) translate(-600px, -100px);
-    -ms-transform: scale(100%) translate(-600px, -100px);
-    -o-transform: scale(100%) translate(-600px, -100px);
-    transform: scale(100%) translate(-600px, -100px);
-    overflow: visible;
-  }
-
-  .blogPhotoDivSeptember {
-    display: flex;
-    flex-direction: column;
-    background-color: #f2e3d6;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    margin-top: 2%;
   }
 
   .dateSeptember {
