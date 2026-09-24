@@ -441,7 +441,7 @@ export default function September2024() {
       
       
             <div className="mb-20"> 
-      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#585123]">
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-2 border-gray-800 border-solid border-2 bg-[#585123]">
          <div className="max-w-full font-semibold text-black text-center dark:text-black justify-center items-center">
         <div className="font-semibold py-2 px-12 text-black text-center dark:text-black border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 bg-[#ff9136]"> 7th September 2024, Saturday</div> {/*End of news date block*/} 
         <div className="font-semibold text-black border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#ff9136]"> Dodd Summit, Wood and Mirehouse, Bassenthwaite.
@@ -462,7 +462,7 @@ export default function September2024() {
              
               <br />  
         <br /> 
-         <li className="text-left text-black bg-[#ff9136] p-4 border-solid border-black border-2">
+         <li className="text-left text-black bg-[#ff9136] p-2 border-solid border-black border-2">
                   <div className="text-black font-semibold text-left bg-[#ff9136]">Paths:</div>
              The paths are clear, well-maintained and well-signposted.{" "}         
               </li>
