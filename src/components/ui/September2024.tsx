@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import "./September2024.css";
-import SeptemberSheep from "@/components//ui/septembersheep"
+import SeptemberHeader2024 from "@/components//ui/September2024header"
 import AbbotsfordCafe from "/public/imagesresized/AbbotsfordCafe.jpg";
 import AbbotsfordGargoyles from "/public/imagesresized/AbbotsfordGargoyles.jpg";
 import EntranceAbbotsford from "/public/imagesresized/EntranceAbbotsford.jpg";
@@ -29,7 +29,7 @@ export default function September2024() {
   <div className=" bg-[#b65c00] border-solid border-2 border-[#22311d] mb-28"> {/*September block background*/}
         <div className="text-[#FBE9D0] text-center font-semibold text-2xl p-3 bg-[#743500] border-solid border-2 border-[#22311d] m-2">September 2024
         </div> {/*End of September month block*/}
-        <SeptemberSheep />
+        <SeptemberHeader2024 />
         {/* 
       <div className="mb-20"> */}
       <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#585123]">
