@@ -4,6 +4,7 @@ import BernardWheelchairTitled from '/public/imagesresized/BernardWheelchairTitl
 import CarlisleCathedralEastWindowTitled from '/public/imagesresized/CarlisleCathedralEastWindowTitled.jpg';
 import ChocolatesYorkTitled from '/public/imagesresized/ChocolatesYorkTitled.jpg';
 import CorbridgeRomanMuseumTitled from '/public/imagesresized/CorbridgeRomanMuseumTitled.jpg';
+import MrSpockOwlTitled from '/public/imagesresized/MrSpockOwlTitled.jpg';
 
 
 
@@ -498,6 +499,40 @@ export default function September2026() {
                   src={ ChocolatesYorkTitled }
                   className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[70%] border-solid border-[#436A6b] border-4 mt-1 mb-11 "
                   alt="Photo of Bernard in Monk's Bar Chocolate shop, York."
+                />
+              </Link>
+            </div>
+            </div>
+           </div>       
+           </div>          
+           </div>
+            </div>
+
+            
+           <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-[#436A6b] border-solid border-4 bg-[#afa488]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+        <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 mt-4 px-2 py-2 text-[#E7E1F0]  bg-[#8d6fb0]">26th September 2026.</div> 
+        <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 px-2 py-2 text-[#E7E1F0] bg-[#8d6fb0]"> Our Meet the Birds Experience at Falconry Days, Northumberland and Lennie gets sick....</div> 
+        
+           <div className="pr-1 pl-1 pb-2 md:pr-1 md:pl-1 font-semibold text-left text-white dark:text-white">
+            <div className="text-left">
+            <br/>
+            <br/>
+           
+            <div className="flex flex-col border-solid border-4 border-[#436A6b] bg-[#8d6fb0] pb-2 pt-2 mr-[12%] ml-[12%] mt-5 mb-4  justify-center text-center">
+            <div className="mt-1 mb-1 sm:m-2 text-md font-normal block text-white  bg-[#8d6fb0]">
+              {" "}
+                <div className="m-1 p-1 font-semibold  border-[#436A6b] border-solid border-4 bg-[#c4b5d8]">To open the album of our visit to Falconry Days Northumberland, and to meet the birds and some very cute but smelly ferrets, click on the image below.</div>
+                <br />
+              <br />
+              <Link
+                href="https://photos.app.goo.gl/iKsbXjzaG7tiQpkv7"
+                target="_blank"
+              >
+                <Image
+                  src={ MrSpockOwlTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[70%] border-solid border-[#436A6b] border-4 mt-1 mb-11 "
+                  alt="Photo of the tawny owl, Mr Spock"
                 />
               </Link>
             </div>
