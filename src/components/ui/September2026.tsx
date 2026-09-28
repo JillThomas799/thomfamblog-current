@@ -512,10 +512,22 @@ export default function September2026() {
            <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-[#436A6b] border-solid border-4 bg-[#afa488]">
          <div className="text-md md:text-lg max-w-full font-semibold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
         <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 mt-4 px-2 py-2 text-[#E7E1F0]  bg-[#8d6fb0]">26th September 2026.</div> 
-        <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 px-2 py-2 text-[#E7E1F0] bg-[#8d6fb0]"> Our Meet the Birds Experience at Falconry Days, Northumberland and Lennie gets sick....</div> 
-        
+        <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 px-2 py-2 text-[#E7E1F0] bg-[#8d6fb0]"> Our Meet the Birds Experience at Falconry Days, Northumberland and Lennie gets sick....</div>         
            <div className="pr-1 pl-1 pb-2 md:pr-1 md:pl-1 font-semibold text-left text-white dark:text-white">
             <div className="text-left">
+              We were booked today to have a 'Meet the Birds Experience' at <Link  href="https://www.falconrydays.com/book-online" target="_blank" className="text-decoration-underline text-[#FFC000] font-semibold underline">Falconry Days"</Link> out in the wilds of Northumberland. 
+<br/>
+            <br/>
+            However, disaster had struck as Lennie was unwell. He had had to be taken to the vets yesterday due to vomiting and refusing to eat and having acquired a tick. We wondered whether he might have Lyme disease. He had been given an antibiotic and anti-sickness injection yesterday but he was not better, so he needed to be seen before we made it to the falconry for 11 am.
+<br/>
+            <br/>
+            Forunately, we managed to get an appointment for 8.45 am at the vets and Lennie was checked over and declared to be holding his own, so we were to see how he went, to try and encourage him to eat, and to return on Monday if he were no better.
+<br/>
+            <br/>
+            We set off to the Falconry to meet the birds and our visit can be seen in the album below. The birds were very interesting but so was the drive out there, miles into the wild border countryside of Northumberland. It was a bit like being out on the Eurasian Steppes...  
+<br/>
+            <br/>
+            Talking of the Eurasian Steppes and following on from our trip to the Chinggis/Genghis Khan Exhibition at the Leeds Armouries last month, Jill, who has been undertaking a couple of Future Learn courses 'Myths of the Mongol Empire' and 'Archaeology of Past Nomads on the Mongolian Steppe' came across  <Link  href="https://www.youtube.com/watch?v=h-MRUWbZTIc" target="_blank" className="text-decoration-underline text-[#FFC000] font-semibold underline">The Story of the Weeping Camel"</Link>, a 2003 film based on the traditional ritual of using music to coax a rejected mother camel into bonding with her calf and shedding tears, which is a real nomadic practice in Mongolia. This film had been recommended by another student on one of the courses and is utterly fascinating, together with being very entertaining. It was filmed in 2003 by a German production team out in the Southern Gobi dessert, so don't expect fast-moving high-definition footage! Tom Cruises's 'Mission Impossible' it definitely isn't but it is an unmissable piece of filming.......
             <br/>
             <br/>
            
