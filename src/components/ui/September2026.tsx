@@ -5,6 +5,9 @@ import CarlisleCathedralEastWindowTitled from '/public/imagesresized/CarlisleCat
 import ChocolatesYorkTitled from '/public/imagesresized/ChocolatesYorkTitled.jpg';
 import CorbridgeRomanMuseumTitled from '/public/imagesresized/CorbridgeRomanMuseumTitled.jpg';
 import MrSpockOwlTitled from '/public/imagesresized/MrSpockOwlTitled.jpg';
+import LennieUnwell1 from '/public/imagesresized/LennieUnwell1.jpg';
+import LennieVets1 from '/public/imagesresized/LennieVets1.jpg';
+import LennieVets2 from '/public/imagesresized/LennieVets2.jpg';
 
 
 
@@ -553,6 +556,70 @@ export default function September2026() {
            </div>          
            </div>
             </div>
+
+
+
+            <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-[#436A6b] border-solid border-4 bg-[#afa488]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-[#244845] text-center dark:text-[#244845] justify-center items-center">
+        <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 mt-4 px-2 py-2 text-[#E7E1F0]  bg-[#8d6fb0]">28th September 2026.</div> 
+        <div className="font-bold border-solid border-[#436A6b] border-4 mr-1 ml-1 mb-4 px-2 py-2 text-[#E7E1F0] bg-[#8d6fb0]"> Lennie at the Vets, Day 3: Lennie returns to the vets as he is still unwell and is diagnosed with an overactive thyroid gland...</div>         
+           <div className="pr-1 pl-1 pb-2 md:pr-1 md:pl-1 font-semibold text-left text-white dark:text-white">
+            <div className="text-left">
+              Lennie has been 'holding his own' over the weekend but he still has no appetite for anything apart from cat-treats in the form of Dreamies and he continues to lose weight, although he is managing to drink fluids. 
+                <br/>
+            <br/>                
+              The good news is that he has had a full blood screen done this morning at the vets and his blood count, white cells, kidney function, liver function and blood sugar levels are all normal. He does not appear to be dehydrated so that is all good.  He does not appear to have anything terminal which cannot be treated.             
+              <br/>
+            <br/>    
+              The not so good news is that his thyroid hormone T4 level is very elevated at 170 (normal upper range 60) so he is hyperthyroid (his thyroid gland is overactive). This means that he is going to need some anti-thyroid treatment on an ongoing basis twice a day in liquid form.....
+                <br/>
+            <br/>              
+              He has been given a steroid injection and vitamin B injection to stimulate his appetite and oral metronidazole antibiotic for 5 days to try and clear any residual gut infection. Once his appetite picks up, he is going to commence his anti-thyroid medication. He is due back at the vets for follow up in 1 weeks time....
+            <br/>
+            <br/>
+            <Image
+                  src={ LennieUnwell1 }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of Lennie lying stretched out in his basket."
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal text-center mt-4">
+                   Lennie unwell and not eating, but 'holding his own' nonethless...{" "}
+                </div>
+              </figcaption>
+              <br />
+
+               <Image
+                  src={ LennieVets1 }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of Lennie lying stretched out in his basket."
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal text-center mt-4">
+                   Lennie in his basket at the vets.{" "}
+                </div>
+              </figcaption>
+              <br />
+
+              <Image
+                  src={ LennieVets2 }
+                  className="block ml-auto mr-auto h-auto w-[100%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-2 mt-6 mb-1 rounded-[70%]"
+                  alt="Photo of Lennie lying stretched out in his basket."
+                />
+                  <figcaption className="novemberFigCaption">
+                <div className="font-normal text-center mt-4">
+                   Close up of Lennie in his basket at the vets.{" "}
+                </div>
+              </figcaption>
+              <br />
+           
+           </div>       
+           </div>          
+           </div>
+            </div>
+              
+
+
               
 
 
