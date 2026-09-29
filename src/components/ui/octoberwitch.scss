@@ -1,0 +1,705 @@
+$black: #2c2c2c;
+$white: #fff;
+$skin-tone: #f5dabf;
+$skin-shadow: #edc196;
+$hair: #ff5a27;
+$cheek: #fcaec5;
+$tongue: #eb5454;
+$cauldron: #2d4158;
+$green-goo: #66cc66;
+$red-goo: #e85256;
+$yellow-goo: #ffd267;
+
+.container {
+  height: 40rem;
+  margin: auto;
+  position: relative;
+  width: 60rem;
+}
+
+.witch {
+  bottom: 0;
+  height: inherit;
+  left: 10rem;
+  position: absolute;
+  width: 25rem;
+}
+
+.hair {
+  background: $hair;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  height: 8rem;
+  left: 6rem;
+  position: absolute;
+  top: 11rem;
+  width: 12rem;
+}
+
+.head {
+  height: 6rem;
+  background: $skin-tone;
+  border-bottom-left-radius: 10rem;
+  border-bottom-right-radius: 10rem;
+  left: 8rem;
+  position: absolute;
+  top: 12rem;
+  width: 8rem;
+}
+
+.head-copy {
+  background: $skin-tone;
+  border-bottom-left-radius: 10rem;
+  border-bottom-right-radius: 10rem;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+
+.eye {
+  background: $black;
+  border-radius: 50%;
+  height: 1.5rem;
+  position: absolute;
+  top: 0.5rem;
+  width: 1.5rem;
+  z-index: 3;
+
+  &.-left {
+    left: 1.5rem;
+  }
+
+  &.-right {
+    right: 1.5rem;
+  }
+}
+
+.pupil {
+  background: $white;
+  border-radius: 50%;
+  height: 0.5rem;
+  left: 0.3rem;
+  position: absolute;
+  top: 0.2rem;
+  width: 0.5rem;
+}
+
+.mouth {
+  background: $black;
+  border-bottom-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  height: 1.75rem;
+  left: 2.5rem;
+  position: absolute;
+  top: 3rem;
+  width: 3rem;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.tongue {
+  background: $tongue;
+  border-radius: 50%;
+  height: 1.5rem;
+  position: relative;
+  top: 0.5rem;
+}
+
+.cheek {
+  background: $cheek;
+  border-radius: 50%;
+  height: 0.6rem;
+  position: absolute;
+  top: 2.25rem;
+  width: 1rem;
+  z-index: 3;
+
+  &.-left {
+    left: 1rem;
+  }
+
+  &.-right {
+    right: 1rem;
+  }
+}
+
+.ear {
+  background: $skin-shadow;
+  border-radius: 50%;
+  height: 2rem;
+  position: absolute;
+  top: 0.5rem;
+  width: 2rem;
+
+  &.-left {
+    left: -1rem;
+  }
+
+  &.-right {
+    right: -1rem;
+  }
+}
+
+.neck {
+  background: $skin-shadow;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  height: 1.75rem;
+  left: 11.2rem;
+  position: absolute;
+  top: 17.9rem;
+  width: 1.75rem;
+  z-index: 2;
+}
+
+.hat {
+  background-color: $black;
+  border-top-right-radius: 30%;
+  height: 12rem;
+  left: 7.5rem;
+  position: absolute;
+  top: 4.8rem;
+  transform: rotate(-60deg) skewX(-30deg) scale(1, 0.866);
+  width: 10rem;
+  z-index: -1;
+}
+
+.hat-brim {
+  background: $black;
+  border-radius: 0.5rem;
+  height: 1.1rem;
+  left: 2rem;
+  position: absolute;
+  top: 10rem;
+  width: 20rem;
+}
+
+.arm {
+  background: $black;
+  border-bottom-left-radius: 10rem;
+  border-bottom-right-radius: 10rem;
+  height: 4.5rem;
+  position: absolute;
+  top: 19rem;
+  width: 7rem;
+
+  &.-left {
+    left: 3rem;
+  }
+
+  &.-right {
+    right: 3rem;
+  }
+}
+
+.hand {
+  background: $skin-tone;
+  border-radius: 50%;
+  height: 2.25rem;
+  position: absolute;
+  top: -0.75rem;
+  width: 2.25rem;
+
+  &.-left {
+    left: -1rem;
+  }
+
+  &.-right {
+    right: -1rem;
+  }
+}
+
+.finger {
+  background: $skin-tone;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  height: 1.5rem;
+  position: absolute;
+  top: -1rem;
+  width: 0.75rem;
+
+  &.-left {
+    left: 1.25rem;
+  }
+
+  &.-right {
+    right: 1.25rem;
+  }
+
+  &.-skew-left {
+    transform: rotate(315deg);
+  }
+
+  &.-skew-right {
+    transform: rotate(44deg);
+  }
+}
+
+.body {
+  background: $black;
+  -webkit-clip-path: polygon(26% 34%, 72% 34%, 100% 100%, 0% 100%);
+  clip-path: polygon(26% 34%, 72% 34%, 100% 100%, 0% 100%);
+  height: 18rem;
+  left: 6rem;
+  position: absolute;
+  top: 12.88rem;
+  width: 12.5rem;
+}
+
+.leg {
+  background: $black;
+  height: 2.75rem;
+  left: 10rem;
+  position: absolute;
+  top: 30.9rem;
+  width: 1.5rem;
+}
+
+.foot {
+  background: #000;
+  border-top-left-radius: 0.5rem;
+  height: 0.75rem;
+  left: -1.5rem;
+  position: absolute;
+  top: 2rem;
+  width: 3rem;
+}
+
+.cauldron {
+  height: 10.5rem;
+  left: 19rem;
+  overflow: hidden;
+  position: absolute;
+  top: 23.25rem;
+  width: 14rem;
+}
+
+.cauldron-body {
+  background: $cauldron;
+  border-radius: 50%;
+  bottom: 0.25rem;
+  height: 12rem;
+  position: absolute;
+  width: 14rem;
+  z-index: 4;
+}
+
+.cauldron-brim {
+  background: $cauldron;
+  height: 1.5rem;
+  position: absolute;
+  z-index: 4;
+
+  &.-top {
+    border-radius: 1.5rem;
+    top: 0rem;
+    width: 100%;
+  }
+
+  &.-bottom {
+    border-radius: 50%;
+    height: 2rem;
+    left: 0.65rem;
+    top: 0.5rem;
+    width: 90%;
+  }
+}
+
+.cauldron-leg {
+  background-color: $cauldron;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 80%;
+  bottom: -1.5rem;
+  height: 7rem;
+  position: absolute;
+  width: 2rem;
+
+  &.-left {
+    left: 1rem;
+    transform: rotate(160deg) skewX(-30deg) scale(1, 0.466);
+  }
+
+  &.-right {
+    right: 1rem;
+    transform: rotate(120deg) skewX(-30deg) scale(1, 0.466);
+  }
+
+  &.-small {
+    right: 3rem;
+    transform: rotate(120deg) skewX(-30deg) scale(1, 0.466);
+  }
+}
+
+.goo {
+  animation: goo-bob 1.5s infinite;
+  border-radius: 50%;
+  position: absolute;
+
+  &.-red {
+    background: $red-goo;
+  }
+
+  &.-green {
+    background: $green-goo;
+  }
+
+  &.-r-left {
+    height: 5rem;
+    right: 30rem;
+    top: 21.5rem;
+    width: 5rem;
+  }
+
+  &.-r-right {
+    animation-delay: 0.3s;
+    height: 3.5rem;
+    right: 28rem;
+    top: 22.5rem;
+    width: 3.5rem;
+  }
+
+  &.-g-right {
+    animation-delay: 0.6s;
+    height: 4rem;
+    left: 22rem;
+    top: 22rem;
+    width: 4rem;
+  }
+
+  &.-g-left {
+    animation-delay: 0.4s;
+    height: 2.5rem;
+    left: 20.25rem;
+    top: 22.5rem;
+    width: 2.5rem;
+  }
+
+  &.-bottom-left {
+    bottom: 0;
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+.bottom-goo {
+  position: absolute;
+  border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem;
+  bottom: 0;
+  z-index: 4;
+
+  &.-green {
+    background: $green-goo;
+  }
+
+  &.-red {
+    background: $red-goo;
+  }
+
+  &.-g-right {
+    height: 2rem;
+    left: 2.5rem;
+    width: 4rem;
+  }
+
+  &.-g-left {
+    border-bottom-left-radius: 4rem;
+    height: 0.55rem;
+    bottom: 6.25rem;
+    left: 17rem;
+    width: 7rem;
+  }
+
+  &.-r-middle {
+    height: 1.5rem;
+    left: 5.8rem;
+    width: 3rem;
+  }
+
+  &.-r-line {
+    border-bottom-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    height: 0.55rem;
+    bottom: 6.25rem;
+    left: 24.25rem;
+    width: 5rem;
+  }
+}
+
+.goo-drip {
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  position: absolute;
+  width: 1.25rem;
+  z-index: 4;
+
+  &.-green {
+    animation: drip-green 2s ease-in infinite;
+    background: $green-goo;
+    height: 1.5rem;
+    left: 4.5rem;
+  }
+
+  &.-red {
+    background: $red-goo;
+  }
+
+  &.-right {
+    height: 3.5rem;
+    right: 2.5rem;
+  }
+
+  &.-left {
+    animation: drip-red 2s ease-in infinite;
+    height: 2.5rem;
+    right: 4.5rem;
+  }
+}
+
+.goo-drop {
+  border-radius: 50%;
+  position: absolute;
+
+  &.-green {
+    animation: drop 1.5s ease-in infinite;
+    background: $green-goo;
+    height: 1rem;
+    top: 0rem;
+    width: 1.2rem;
+  }
+
+  &.-red {
+    background: $red-goo;
+    height: 1.75rem;
+    top: 4.5rem;
+    right: 0;
+    width: 1.2rem;
+  }
+
+  &.-left {
+    animation: drop 1.5s ease-in infinite;
+    animation-delay: 2s;
+    top: 0rem;
+  }
+}
+
+.bubble {
+  animation:
+    bubble-float 5s infinite,
+    disappear 5s infinite;
+  border-radius: 50%;
+  position: absolute;
+  top: 25rem;
+  z-index: 3;
+
+  &.-green {
+    background: $green-goo;
+    height: 1.5rem;
+    left: 23rem;
+    width: 1.5rem;
+  }
+
+  &.-green-2 {
+    animation-delay: 3.5s;
+    background: $green-goo;
+    height: 0.75rem;
+    left: 24rem;
+    width: 0.75rem;
+  }
+
+  &.-yellow {
+    animation-delay: 1s;
+    background: $yellow-goo;
+    height: 3rem;
+    left: 24.5rem;
+    width: 3rem;
+  }
+
+  &.-red {
+    animation-delay: 2s;
+    background: $red-goo;
+    height: 1rem;
+    left: 27.5rem;
+    width: 1rem;
+  }
+}
+
+.lone-eye {
+  background: #f6f3e0;
+  border-radius: 50%;
+  bottom: 6rem;
+  height: 2rem;
+  left: 13rem;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 2rem;
+
+  &__color {
+    background: #61ce61;
+    border-radius: 50%;
+    height: 1.25rem;
+    left: 0.4rem;
+    position: absolute;
+    top: 0.35rem;
+    width: 1.25rem;
+  }
+
+  &__pupil {
+    background: #2d4158;
+    border-radius: 50%;
+    height: 0.6rem;
+    position: absolute;
+    top: 0.15rem;
+    right: 0.3rem;
+    width: 0.6rem;
+  }
+}
+
+.cat {
+  bottom: 6.25rem;
+  height: 15rem;
+  position: absolute;
+  left: 29.5rem;
+  width: 15rem;
+}
+
+.cat-body {
+  background: $black;
+  bottom: 0;
+  border-top-left-radius: 8rem;
+  border-top-right-radius: 8rem;
+  height: 5rem;
+  position: absolute;
+  right: 5.5rem;
+  width: 5rem;
+}
+
+.cat-head {
+  background: $black;
+  border-top-left-radius: 4.5rem;
+  border-top-right-radius: 4.5rem;
+  bottom: 3rem;
+  height: 4rem;
+  position: absolute;
+  right: 6rem;
+  width: 4rem;
+}
+
+.cat-pupil {
+  background: $white;
+  border-radius: 50%;
+  height: 0.6rem;
+  position: absolute;
+  top: 1.25rem;
+  width: 0.6rem;
+
+  &.-left {
+    left: 1.2rem;
+  }
+
+  &.-right {
+    right: 1.2rem;
+  }
+}
+
+.cat-ear {
+  background: $black;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  height: 1.5rem;
+  position: absolute;
+  top: -0.75rem;
+  width: 1.5rem;
+
+  &.-left {
+    left: 0.25rem;
+    transform: rotate(340deg);
+  }
+
+  &.-right {
+    right: 0.25rem;
+    transform: rotate(20deg);
+  }
+}
+
+.cat-tail {
+  background: $black;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  bottom: 0;
+  height: 0.5rem;
+  left: 1rem;
+  position: absolute;
+  width: 4rem;
+}
+
+// Animation keyframes
+@keyframes goo-bob {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(0.25rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bubble-float {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(1rem, -7rem);
+  }
+  100% {
+    transform: translate(-0.75rem, -9rem);
+  }
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes drip-green {
+  50% {
+    height: 1.75rem;
+  }
+  100% {
+    height: 2.5rem;
+  }
+}
+
+@keyframes drip-red {
+  50% {
+    height: 3rem;
+  }
+  100% {
+    height: 4rem;
+  }
+}
+
+@keyframes drop {
+  25% {
+    height: 1.75rem;
+    transform: translateY(0.5rem);
+  }
+  75% {
+    height: 1.5rem;
+    transform: translateY(4rem);
+  }
+  100% {
+    height: 1rem;
+    transform: translateY(8rem);
+  }
+}
