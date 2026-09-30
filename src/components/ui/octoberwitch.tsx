@@ -7,88 +7,88 @@ export default function OctoberWitch() {
     
   return (
     <div>  
-<div class="container">
-  <div class="witch">
-    <div class="hair"></div>
-    <div class="head">
-      <div class="head-copy"></div>
-      <div class="eye -left">
-        <div class="pupil"></div>
+<div className="container">
+  <div className="witch">
+    <div className="hair"></div>
+    <div className="head">
+      <div className="head-copy"></div>
+      <div className="eye -left">
+        <div className="pupil"></div>
       </div>
-      <div class="eye -right">
-        <div class="pupil"></div>
+      <div className="eye -right">
+        <div className="pupil"></div>
       </div>
-      <div class="mouth">
-        <div class="tongue"></div>
+      <div className="mouth">
+        <div className="tongue"></div>
       </div>
-      <div class="cheek -left"></div>
-      <div class="cheek -right"></div>
-      <div class="ear -left"></div>
-      <div class="ear -right"></div>
+      <div className="cheek -left"></div>
+      <div className="cheek -right"></div>
+      <div className="ear -left"></div>
+      <div className="ear -right"></div>
     </div>
-    <div class="neck"></div>
-    <div class="hat"></div>
-    <div class="hat-brim"></div>
-    <div class="arm -left">
-      <div class="hand -left">
-        <div class="finger -left"></div>
-        <div class="finger -skew-left -right"></div>
-      </div>
-    </div>
-    <div class="arm -right">
-      <div class="hand -right">
-        <div class="finger -skew-right -left"></div>
-        <div class="finger -right"></div>
+    <div className="neck"></div>
+    <div className="hat"></div>
+    <div className="hat-brim"></div>
+    <div className="arm -left">
+      <div className="hand -left">
+        <div className="finger -left"></div>
+        <div className="finger -skew-left -right"></div>
       </div>
     </div>
-    <div class="body"></div>
-    <div class="leg">
-      <div class="foot"></div>
+    <div className="arm -right">
+      <div className="hand -right">
+        <div className="finger -skew-right -left"></div>
+        <div className="finger -right"></div>
+      </div>
+    </div>
+    <div className="body"></div>
+    <div className="leg">
+      <div className="foot"></div>
     </div>
   </div>
-  <div class="cauldron">
-    <div class="cauldron-body"></div>
-    <div class="cauldron-brim -top"></div>
-    <div class="cauldron-brim -bottom"></div>
-    <div class="cauldron-leg -left"></div>
-    <div class="cauldron-leg -right"></div>
-    <div class="cauldron-leg -small"></div>
-    <div class="bottom-goo -green -g-right"></div>
-    <div class="bottom-goo -red -r-middle"></div>
-    <div class="goo-drip -green">
-      <div class="goo-drop -green"></div>
+  <div className="cauldron">
+    <div className="cauldron-body"></div>
+    <div className="cauldron-brim -top"></div>
+    <div className="cauldron-brim -bottom"></div>
+    <div className="cauldron-leg -left"></div>
+    <div className="cauldron-leg -right"></div>
+    <div className="cauldron-leg -small"></div>
+    <div className="bottom-goo -green -g-right"></div>
+    <div className="bottom-goo -red -r-middle"></div>
+    <div className="goo-drip -green">
+      <div className="goo-drop -green"></div>
     </div>
-    <div class="goo-drip -red -right">
-      <div class="goo-drop -red"></div>
+    <div className="goo-drip -red -right">
+      <div className="goo-drop -red"></div>
     </div>
-    <div class="goo-drip -red -left">
-      <div class="goo-drop -red -left"></div>
-    </div>
-  </div>
-  <div class="goo -green -g-left"></div>
-  <div class="goo -green -g-right"></div>
-  <div class="goo -red -r-left"></div>
-  <div class="goo -red -r-right"></div>
-  <div class="bubble -green"></div>
-  <div class="bubble -yellow"></div>
-  <div class="bubble -red"></div>
-  <div class="bubble -green-2"></div>
-  <div class="bottom-goo -green -g-left"></div>
-  <div class="bottom-goo -red -r-line"></div>
-  <div class="lone-eye">
-    <div class="lone-eye__color">
-      <div class="lone-eye__pupil"></div>
+    <div className="goo-drip -red -left">
+      <div className="goo-drop -red -left"></div>
     </div>
   </div>
-  <div class="cat">
-    <div class="cat-body"></div>
-    <div class="cat-head">
-      <div class="cat-pupil -left"></div>
-      <div class="cat-pupil -right"></div>
-      <div class="cat-ear -left"></div>
-      <div class="cat-ear -right"></div>
+  <div className="goo -green -g-left"></div>
+  <div className="goo -green -g-right"></div>
+  <div className="goo -red -r-left"></div>
+  <div className="goo -red -r-right"></div>
+  <div className="bubble -green"></div>
+  <div className="bubble -yellow"></div>
+  <div className="bubble -red"></div>
+  <div className="bubble -green-2"></div>
+  <div className="bottom-goo -green -g-left"></div>
+  <div className="bottom-goo -red -r-line"></div>
+  <div className="lone-eye">
+    <div className="lone-eye__color">
+      <div className="lone-eye__pupil"></div>
     </div>
-    <div class="cat-tail"></div>
+  </div>
+  <div className="cat">
+    <div className="cat-body"></div>
+    <div className="cat-head">
+      <div className="cat-pupil -left"></div>
+      <div className="cat-pupil -right"></div>
+      <div className="cat-ear -left"></div>
+      <div className="cat-ear -right"></div>
+    </div>
+    <div className="cat-tail"></div>
   </div>
 </div>
 
