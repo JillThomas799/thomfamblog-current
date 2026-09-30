@@ -4,7 +4,7 @@ import Gaia from "/public/imagesresized/Gaia.jpg";
 import GaiaTitled from "/public/imagesresized/GaiaTitled.jpg";
 import ArchimedesScrewTitled from "/public/imagesresized/ArchimedesScrewTitled.jpg";
 import OctoberWitch from "./octoberwitch";  
-import OctoberHalloween from "./octoberhalloween";
+
 
 
 export default function October2026() {
@@ -14,10 +14,9 @@ export default function October2026() {
     <div>
        <div className="text-[#FBE9d0] text-center font-semibold text-2xl p-3 bg-[#2F4D49] border-solid border-2 border-[#22311d] m-2">October 2026
         </div>
-        <div className="size-18 rounded-full bg-radial-[at_50%_75%] from-sky-200 via-blue-400 to-indigo-900 to-90% border-solid border-4 border-white">
-          <OctoberHalloween />
-        </div>
-
+        
+          <OctoberWitch />
+      
         <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-4 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
          <div className="text-md md:text-lg max-w-full font-semibold text-[#D99E49] text-center dark:text-[#D99E49] justify-center items-center">
