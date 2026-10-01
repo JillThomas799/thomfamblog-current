@@ -15,255 +15,7 @@ $yellow-goo: #ffd267;
   margin: auto;
   position: relative;
   width: 60rem;
-}
-
-.witch {
-  bottom: 0;
-  height: inherit;
-  left: 10rem;
-  position: absolute;
-  width: 25rem;
-}
-
-.hair {
-  background: $hair;
-  border-bottom-left-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-  height: 8rem;
-  left: 6rem;
-  position: absolute;
-  top: 11rem;
-  width: 12rem;
-}
-
-.head {
-  height: 6rem;
-  background: $skin-tone;
-  border-bottom-left-radius: 10rem;
-  border-bottom-right-radius: 10rem;
-  left: 8rem;
-  position: absolute;
-  top: 12rem;
-  width: 8rem;
-}
-
-.head-copy {
-  background: $skin-tone;
-  border-bottom-left-radius: 10rem;
-  border-bottom-right-radius: 10rem;
-  height: 100%;
-  position: absolute;
-  width: 100%;
-  z-index: 3;
-}
-
-.eye {
-  background: $black;
-  border-radius: 50%;
-  height: 1.5rem;
-  position: absolute;
-  top: 0.5rem;
-  width: 1.5rem;
-  z-index: 3;
-
-  &.-left {
-    left: 1.5rem;
-  }
-
-  &.-right {
-    right: 1.5rem;
-  }
-}
-
-.pupil {
-  background: $white;
-  border-radius: 50%;
-  height: 0.5rem;
-  left: 0.3rem;
-  position: absolute;
-  top: 0.2rem;
-  width: 0.5rem;
-}
-
-.mouth {
-  background: $black;
-  border-bottom-right-radius: 3rem;
-  border-bottom-left-radius: 3rem;
-  height: 1.75rem;
-  left: 2.5rem;
-  position: absolute;
-  top: 3rem;
-  width: 3rem;
-  overflow: hidden;
-  z-index: 3;
-}
-
-.tongue {
-  background: $tongue;
-  border-radius: 50%;
-  height: 1.5rem;
-  position: relative;
-  top: 0.5rem;
-}
-
-.cheek {
-  background: $cheek;
-  border-radius: 50%;
-  height: 0.6rem;
-  position: absolute;
-  top: 2.25rem;
-  width: 1rem;
-  z-index: 3;
-
-  &.-left {
-    left: 1rem;
-  }
-
-  &.-right {
-    right: 1rem;
-  }
-}
-
-.ear {
-  background: $skin-shadow;
-  border-radius: 50%;
-  height: 2rem;
-  position: absolute;
-  top: 0.5rem;
-  width: 2rem;
-
-  &.-left {
-    left: -1rem;
-  }
-
-  &.-right {
-    right: -1rem;
-  }
-}
-
-.neck {
-  background: $skin-shadow;
-  border-bottom-left-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
-  height: 1.75rem;
-  left: 11.2rem;
-  position: absolute;
-  top: 17.9rem;
-  width: 1.75rem;
-  z-index: 2;
-}
-
-.hat {
-  background-color: $black;
-  border-top-right-radius: 30%;
-  height: 12rem;
-  left: 7.5rem;
-  position: absolute;
-  top: 4.8rem;
-  transform: rotate(-60deg) skewX(-30deg) scale(1, 0.866);
-  width: 10rem;
-  z-index: -1;
-}
-
-.hat-brim {
-  background: $black;
-  border-radius: 0.5rem;
-  height: 1.1rem;
-  left: 2rem;
-  position: absolute;
-  top: 10rem;
-  width: 20rem;
-}
-
-.arm {
-  background: $black;
-  border-bottom-left-radius: 10rem;
-  border-bottom-right-radius: 10rem;
-  height: 4.5rem;
-  position: absolute;
-  top: 19rem;
-  width: 7rem;
-
-  &.-left {
-    left: 3rem;
-  }
-
-  &.-right {
-    right: 3rem;
-  }
-}
-
-.hand {
-  background: $skin-tone;
-  border-radius: 50%;
-  height: 2.25rem;
-  position: absolute;
-  top: -0.75rem;
-  width: 2.25rem;
-
-  &.-left {
-    left: -1rem;
-  }
-
-  &.-right {
-    right: -1rem;
-  }
-}
-
-.finger {
-  background: $skin-tone;
-  border-top-left-radius: 0.75rem;
-  border-top-right-radius: 0.75rem;
-  height: 1.5rem;
-  position: absolute;
-  top: -1rem;
-  width: 0.75rem;
-
-  &.-left {
-    left: 1.25rem;
-  }
-
-  &.-right {
-    right: 1.25rem;
-  }
-
-  &.-skew-left {
-    transform: rotate(315deg);
-  }
-
-  &.-skew-right {
-    transform: rotate(44deg);
-  }
-}
-
-.body {
-  background: $black;
-  -webkit-clip-path: polygon(26% 34%, 72% 34%, 100% 100%, 0% 100%);
-  clip-path: polygon(26% 34%, 72% 34%, 100% 100%, 0% 100%);
-  height: 18rem;
-  left: 6rem;
-  position: absolute;
-  top: 12.88rem;
-  width: 12.5rem;
-}
-
-.leg {
-  background: $black;
-  height: 2.75rem;
-  left: 10rem;
-  position: absolute;
-  top: 30.9rem;
-  width: 1.5rem;
-}
-
-.foot {
-  background: #000;
-  border-top-left-radius: 0.5rem;
-  height: 0.75rem;
-  left: -1.5rem;
-  position: absolute;
-  top: 2rem;
-  width: 3rem;
+  transform: translate(-100px, 0px);
 }
 
 .cauldron {
@@ -525,37 +277,6 @@ $yellow-goo: #ffd267;
   }
 }
 
-.lone-eye {
-  background: #f6f3e0;
-  border-radius: 50%;
-  bottom: 6rem;
-  height: 2rem;
-  left: 13rem;
-  position: absolute;
-  transform: rotate(45deg);
-  width: 2rem;
-
-  &__color {
-    background: #61ce61;
-    border-radius: 50%;
-    height: 1.25rem;
-    left: 0.4rem;
-    position: absolute;
-    top: 0.35rem;
-    width: 1.25rem;
-  }
-
-  &__pupil {
-    background: #2d4158;
-    border-radius: 50%;
-    height: 0.6rem;
-    position: absolute;
-    top: 0.15rem;
-    right: 0.3rem;
-    width: 0.6rem;
-  }
-}
-
 .cat {
   bottom: 6.25rem;
   height: 15rem;
@@ -701,5 +422,182 @@ $yellow-goo: #ffd267;
   100% {
     height: 1rem;
     transform: translateY(8rem);
+  }
+}
+
+//Blinking and moving cats eyes
+
+$color-black: #2c2c2c;
+$color-white: #fff;
+$size: 170px; // (Fully responsive)
+
+// Face
+.face {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: $color-black;
+  border-radius: 50%;
+}
+
+// Eyes
+.eye {
+  position: absolute;
+  top: 25%;
+  height: 15%;
+  width: 20%;
+  background: $color-white;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+  // Eyelids
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    border-radius: 0 0 50% 50% / 0 0 40% 40%;
+    background: $color-black;
+    animation: blink 4s infinite ease-in;
+  }
+
+  @keyframes blink {
+    0% {
+      height: 0;
+    }
+    90% {
+      height: 0;
+    }
+    92.5% {
+      height: 100%;
+    }
+    95% {
+      height: 0;
+    }
+    97.5% {
+      height: 100%;
+    }
+    100% {
+      height: 0;
+    }
+  }
+
+  // Tips of the eyes
+  &::before {
+    content: "";
+    position: absolute;
+    top: 60%;
+    height: 10%;
+    width: 15%;
+    background: $color-white;
+    border-radius: 50%;
+  }
+}
+
+.eye--left {
+  left: 20%;
+
+  &::before {
+    right: -5%;
+  }
+}
+
+.eye--right {
+  right: 20%;
+
+  &::before {
+    left: -5%;
+  }
+}
+
+// Pupils
+.eye-pupil {
+  position: absolute;
+  top: 25%;
+  height: 50%;
+  width: 50%;
+  background: $color-black;
+  border-radius: 50%;
+  animation: look-around 4s infinite;
+
+  @keyframes look-around {
+    0% {
+      transform: translate(0);
+    }
+    5% {
+      transform: translate(50%, -25%);
+    }
+    10% {
+      transform: translate(50%, -25%);
+    }
+    15% {
+      transform: translate(-100%, -25%);
+    }
+    20% {
+      transform: translate(-100%, -25%);
+    }
+    25% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+
+  .eye--left & {
+    right: 30%;
+  }
+
+  .eye--right & {
+    left: 30%;
+  }
+
+  // Glare on the pupil
+  &::after {
+    content: "";
+    position: absolute;
+    top: 30%;
+    right: -5%;
+    height: 20%;
+    width: 35%;
+    border-radius: 50%;
+    background: $color-white;
+  }
+}
+
+// // Muzzle
+// .muzzle {
+//   position: absolute;
+//   top: 60%;
+//   left: 50%;
+//   height: 6%;
+//   width: 10%;
+//   background: $color-white;
+//   transform: translateX(-50%);
+//   border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+// }
+
+@media screen and (min-width: 481px) and (max-width: 960px) {
+  /*To ensure on mobile screens below 900px width (this includes one plus phones) that relevant components of 
+  the site are displayed with the best dimensions for the smaller devices*/
+  container {
+    height: 40rem;
+    margin: auto;
+    position: relative;
+    width: 60rem;
+    transform: scale(0.5);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /*To ensure on mobile screens below 900px width (this includes one plus phones) that relevant components of 
+  the site are displayed with the best dimensions for the smaller devices*/
+  container {
+    height: 40rem;
+    margin: auto;
+    position: relative;
+    width: 60rem;
+    transform: scale(0.5);
   }
 }

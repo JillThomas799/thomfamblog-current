@@ -11,11 +11,13 @@ export default function October2026() {
 
   return (   
  <div className=" bg-[#383f17] border-solid border-2 border-[#22311d] mb-28"> {/*October block background*/}
-    <div>
-       <div className="text-[#FBE9d0] text-center font-semibold text-2xl p-3 bg-[#2F4D49] border-solid border-2 border-[#22311d] m-2">October 2026
+    <div >
+      <div className="bg-black border-solid border-8 border-[#E6871A] m-4">
+       <div className="text-black text-center font-semibold text-2xl p-3 bg-[#E6871A] border-solid border-2 border-[#22311d] m-2">October 2026
         </div>
         
           <OctoberWitch />
+          </div>
       
         <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-4 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
