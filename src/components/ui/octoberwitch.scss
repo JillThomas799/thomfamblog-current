@@ -581,23 +581,23 @@ $size: 170px; // (Fully responsive)
 @media screen and (min-width: 481px) and (max-width: 960px) {
   /*To ensure on mobile screens below 900px width (this includes one plus phones) that relevant components of 
   the site are displayed with the best dimensions for the smaller devices*/
-  container {
+  .container {
     height: 40rem;
     margin: auto;
     position: relative;
     width: 60rem;
-    transform: scale(0.5);
+    transform: scale(0.8) translate(-280px, 0px);
   }
 }
 
 @media screen and (max-width: 480px) {
   /*To ensure on mobile screens below 900px width (this includes one plus phones) that relevant components of 
   the site are displayed with the best dimensions for the smaller devices*/
-  container {
-    height: 40rem;
+  .container {
+    height: 30rem;
     margin: auto;
     position: relative;
     width: 60rem;
-    transform: scale(0.5);
+    transform: scale(0.5) translate(-740px, 0px);
   }
 }
