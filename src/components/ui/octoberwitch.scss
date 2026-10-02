@@ -1,10 +1,5 @@
 $black: #2c2c2c;
 $white: #fff;
-$skin-tone: #f5dabf;
-$skin-shadow: #edc196;
-$hair: #ff5a27;
-$cheek: #fcaec5;
-$tongue: #eb5454;
 $cauldron: #2d4158;
 $green-goo: #66cc66;
 $red-goo: #e85256;
@@ -578,7 +573,7 @@ $size: 170px; // (Fully responsive)
 //   border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
 // }
 
-@media screen and (min-width: 481px) and (max-width: 960px) {
+@media screen and (min-width: 760px) and (max-width: 960px) {
   /*To ensure on mobile screens below 900px width (this includes one plus phones) that relevant components of 
   the site are displayed with the best dimensions for the smaller devices*/
   .container {
@@ -587,6 +582,122 @@ $size: 170px; // (Fully responsive)
     position: relative;
     width: 60rem;
     transform: scale(0.8) translate(-280px, 0px);
+  }
+
+  .goo {
+    animation: goo-bob 1.5s infinite;
+    border-radius: 50%;
+    position: absolute;
+    left: 55%;
+
+    &.-red {
+      background: $red-goo;
+    }
+
+    &.-green {
+      background: $green-goo;
+    }
+
+    &.-r-left {
+      height: 5rem;
+      right: 30rem;
+      top: 21.5rem;
+      width: 5rem;
+    }
+
+    &.-r-right {
+      animation-delay: 0.3s;
+      height: 3.5rem;
+      right: 28rem;
+      top: 22.5rem;
+      width: 3.5rem;
+    }
+
+    &.-g-right {
+      animation-delay: 0.6s;
+      height: 4rem;
+      left: 22rem;
+      top: 22rem;
+      width: 4rem;
+    }
+
+    &.-g-left {
+      animation-delay: 0.4s;
+      height: 2.5rem;
+      left: 20.25rem;
+      top: 22.5rem;
+      width: 2.5rem;
+    }
+
+    &.-bottom-left {
+      bottom: 0;
+      height: 3rem;
+      width: 3rem;
+    }
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 760px) {
+  /*To ensure on mobile screens below 900px width (this includes one plus phones) that relevant components of 
+  the site are displayed with the best dimensions for the smaller devices*/
+  .container {
+    height: 40rem;
+    margin: auto;
+    position: relative;
+    width: 60rem;
+    transform: scale(0.8) translate(-280px, 0px);
+  }
+
+  .goo {
+    animation: goo-bob 1.5s infinite;
+    border-radius: 50%;
+    position: absolute;
+    left: 65%;
+
+    &.-red {
+      background: $red-goo;
+    }
+
+    &.-green {
+      background: $green-goo;
+    }
+
+    &.-r-left {
+      height: 5rem;
+      right: 30rem;
+      top: 21.5rem;
+      width: 5rem;
+    }
+
+    &.-r-right {
+      animation-delay: 0.3s;
+      height: 3.5rem;
+      right: 28rem;
+      top: 22.5rem;
+      width: 3.5rem;
+    }
+
+    &.-g-right {
+      animation-delay: 0.6s;
+      height: 4rem;
+      left: 22rem;
+      top: 22rem;
+      width: 4rem;
+    }
+
+    &.-g-left {
+      animation-delay: 0.4s;
+      height: 2.5rem;
+      left: 20.25rem;
+      top: 22.5rem;
+      width: 2.5rem;
+    }
+
+    &.-bottom-left {
+      bottom: 0;
+      height: 3rem;
+      width: 3rem;
+    }
   }
 }
 
