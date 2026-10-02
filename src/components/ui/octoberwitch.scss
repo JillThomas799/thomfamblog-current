@@ -590,7 +590,7 @@ $size: 170px; // (Fully responsive)
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 380px) and (max-width: 480px) {
   /*To ensure on mobile screens below 900px width (this includes one plus phones) that relevant components of 
   the site are displayed with the best dimensions for the smaller devices*/
   .container {
@@ -598,6 +598,18 @@ $size: 170px; // (Fully responsive)
     margin: auto;
     position: relative;
     width: 60rem;
-    transform: scale(0.5) translate(-740px, 0px);
+    transform: scale(0.5) translate(-720px, -19px);
+  }
+}
+
+@media screen and (max-width: 379px) {
+  /*To ensure on mobile screens below 900px width (this includes one plus phones) that relevant components of 
+  the site are displayed with the best dimensions for the smaller devices*/
+  .container {
+    height: 30rem;
+    margin: auto;
+    position: relative;
+    width: 60rem;
+    transform: scale(0.4) translate(-960px, 0px);
   }
 }
