@@ -281,7 +281,7 @@ $yellow-goo: #ffd267;
 }
 
 .cat-body {
-  background: $black;
+  background: black;
   bottom: 0;
   border-top-left-radius: 8rem;
   border-top-right-radius: 8rem;
@@ -292,7 +292,7 @@ $yellow-goo: #ffd267;
 }
 
 .cat-head {
-  background: $black;
+  background: black;
   border-top-left-radius: 4.5rem;
   border-top-right-radius: 4.5rem;
   bottom: 3rem;
@@ -320,7 +320,7 @@ $yellow-goo: #ffd267;
 }
 
 .cat-ear {
-  background: $black;
+  background: black;
   -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   height: 1.5rem;
@@ -340,7 +340,7 @@ $yellow-goo: #ffd267;
 }
 
 .cat-tail {
-  background: $black;
+  background: black;
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
   bottom: 0;
@@ -431,7 +431,7 @@ $size: 170px; // (Fully responsive)
   position: absolute;
   height: 100%;
   width: 100%;
-  background: $color-black;
+  background: black;
   border-radius: 50%;
 }
 
