@@ -8,6 +8,10 @@ export default function OctoberWitch() {
   return (
     <div>
       <div className="container">
+         <div className="star-1"></div>
+      <div className="star-2"></div> 
+             <div className="moon">
+                 </div>
 
         <div className="cauldron">
           <div className="cauldron-body"></div>
