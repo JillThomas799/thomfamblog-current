@@ -51,25 +51,25 @@ $yellow-goo: #ffd267;
   animation: pulsate 5s ease;
   animation-iteration-count: infinite;
 }
-.star-2 {
-  position: absolute;
-  background-color: #fffdfd;
-  top: 50px;
-  left: -60px;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  box-shadow:
-    0 0 5px 1px #fffdfd,
-    -99px 30px 1px 0.09px #fffdfd,
-    355px 30px 0.5px 1px #fffdfd,
-    400px -30px 1px -1px #9dbeea,
-    400px 90px 1px -1px #fffdfd,
-    -50px -30px 1px -1px #9dbeea,
-    -50px -30px 1px -1px #fffdfd;
-  animation: pulsate 7s ease;
-  animation-iteration-count: infinite;
-}
+// .star-2 {
+//   position: absolute;
+//   background-color: #fffdfd;
+//   top: 50px;
+//   left: -60px;
+//   width: 7px;
+//   height: 7px;
+//   border-radius: 50%;
+//   box-shadow:
+//     0 0 5px 1px #fffdfd,
+//     -99px 30px 1px 0.09px #fffdfd,
+//     355px 30px 0.5px 1px #fffdfd,
+//     400px -30px 1px -1px #9dbeea,
+//     400px 90px 1px -1px #fffdfd,
+//     -50px -30px 1px -1px #9dbeea,
+//     -50px -30px 1px -1px #fffdfd;
+//   animation: pulsate 7s ease;
+//   animation-iteration-count: infinite;
+// }
 
 @keyframes pulsate {
   0% {
@@ -631,18 +631,6 @@ $size: 170px; // (Fully responsive)
   }
 }
 
-// // Muzzle
-// .muzzle {
-//   position: absolute;
-//   top: 60%;
-//   left: 50%;
-//   height: 6%;
-//   width: 10%;
-//   background: $color-white;
-//   transform: translateX(-50%);
-//   border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
-// }
-
 @media screen and (min-width: 760px) and (max-width: 960px) {
   /*To ensure on mobile screens below 900px width (this includes one plus phones) that relevant components of 
   the site are displayed with the best dimensions for the smaller devices*/
@@ -713,6 +701,7 @@ $size: 170px; // (Fully responsive)
   .container {
     height: 40rem;
     margin: auto;
+    left: 20vw;
     position: relative;
     width: 60rem;
     transform: scale(0.8) translate(-280px, 0px);
@@ -782,7 +771,7 @@ $size: 170px; // (Fully responsive)
       0 0 10px 2px rgba(229, 229, 229, 0.3),
       5px 0 10px 3px rgba(229, 229, 229, 0.3),
       0px 0 3px 2px rgba(229, 229, 229, 0.3);
-    top: -10%;
+    top: -30%;
     left: 10vw;
     right: 0;
     bottom: 0;
@@ -820,13 +809,44 @@ $size: 170px; // (Fully responsive)
     margin: auto;
   }
 
-  star-1 {
-    top: -300px;
+  .star-1 {
+    position: relative;
+    background-color: #fffdfd;
+    top: 0;
+    left: 40%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow:
+      0 0 1px 1px #fffdfd,
+      -50px -150px 1px 0 #fffdfd,
+      250px -200px 1px -1px #fffdfd,
+      -90px -100px 1px -1px #9dbeea,
+      150px -220px 1px 0.11px #fffdfd,
+      300px -170px 1px -0.6px #9dbeea;
+    animation: pulsate 5s ease;
+    animation-iteration-count: infinite;
   }
 
-  star-2 {
-    top: -300px;
-  }
+  // .star-2 {
+  //   position: absolute;
+  //   background-color: #fffdfd;
+  //   top: 50px;
+  //   left: -60px;
+  //   width: 7px;
+  //   height: 7px;
+  //   border-radius: 50%;
+  //   box-shadow:
+  //     0 0 5px 1px #fffdfd,
+  //     -99px 30px 1px 0.09px #fffdfd,
+  //     355px 30px 0.5px 1px #fffdfd,
+  //     400px -30px 1px -1px #9dbeea,
+  //     400px 90px 1px -1px #fffdfd,
+  //     -50px -30px 1px -1px #9dbeea,
+  //     -50px -30px 1px -1px #fffdfd;
+  //   animation: pulsate 7s ease;
+  //   animation-iteration-count: infinite;
+  // }
 }
 
 @media screen and (max-width: 379px) {
@@ -857,5 +877,25 @@ $size: 170px; // (Fully responsive)
     right: 0;
     bottom: 0;
     margin: auto;
+  }
+
+  .star-1 {
+    position: relative;
+    background-color: #fffdfd;
+    top: 0;
+    left: 40%;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    box-shadow:
+      -30px -70px 1px 1px #fffdfd,
+      -50px -200px 1px 0 #fffdfd,
+      250px -350px 1px -1px #fffdfd,
+      -90px -300px 1px -1px #9dbeea,
+      150px -250px 1px 0.11px #fffdfd,
+      300px -200px 1px -0.6px #9dbeea,
+      -30px -280px 3px -1px #fffdfd;
+    animation: pulsate 5s ease;
+    animation-iteration-count: infinite;
   }
 }
