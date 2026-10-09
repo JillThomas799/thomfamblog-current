@@ -41,7 +41,7 @@ export default function October2026() {
         <div className="font-semibold py-2 px-12 bg-black m-4 text-white text-center dark: white "> 3rd October 2026, Saturday</div> {/*End of news date block*/} 
         <div className="font-semibold border-solid mr-1 ml-1 mb-4 px-4 py-4 bg-black">Hadrian's Wall Path West to East (abridged): Day 12, Housesteads Roman Fort to Sewingshields farm.</div> {/*End of news header block*/}
         
-        <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-normal text-left text-[#22311d] dark:text-[#22311d]">
+        <div className="pr-1 pl-1 md:pr-1 md:pl-1 semibold text-left text-[#22311d] dark:text-[#22311d]">
           Today we were looking forward to undertaking our next segment of the Hadrian's Wall trail, the section between Housesteads/Vercovinium Fort and Sewingshields. Because we had to be back by 3pm and wanted to keep control of time, we decided to take one car, park at Housesteads and walk out as far as Sewingshields Farm and back, which is a walk of about 6 miles in total. It also gave us chance to visit the Housesteads fort again.
          <br />
          <br /> 
