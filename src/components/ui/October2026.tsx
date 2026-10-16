@@ -130,10 +130,44 @@ export default function October2026() {
             <br />
 
                <div className="bg-[#4d3e2e]  border-white border-solid border-2">
-               <div className="bg-[#4d3e2e] text-white text-center font-semibold p-1 md:p-6">HISTORY OF HEAVENFIELD, HEXHAM.</div>
-           <div className="text-left md:text-left text-white md:font-semibold "> 
+               <div className="bg-[#4d3e2e] text-white text-center font-semibold pt-1 pl-1 pr-1 md:pt-6 md:pl-6">HISTORY OF HEAVENFIELD, HEXHAM.</div>
+           <div className="text-left md:text-left text-white md:font-normal p-4 "> 
+           King Oswald (c. 604 AD – 5 August 641/642 AD) was King of Northumbria from 634 AD until his death on the 5 August 641/642 AD. He was a warrior king and  one of the first Christian kings in England. 
+           <br />
+            <br />
+          Oswald was the son of Æthelfrith of Bernicia and Acha of Deira. He had two brothers, Eanfrid and Oswiu. Oswald was not born a Christian. At the age of 12, Oswald's father, Aethelfrith was killed and was succeeded as King of Northumbria by Edwin, his brother-in-law (wife's brother). When Edwin became king, Oswald and his brothers (Eanfrid and Oswiu) fled to Scotland where they found refuge with the monks of St Columba on Iona. During this time Oswald was converted to the Christian faith and spent time preparing for the day when he would be able to return to Northumbria and reclaim his crown. 
+          <br />
+            <br />
+            To secure the kingdom of Northumbria once again, Oswald had to fight the Welsh pagan king Cadwallon ap Cadfan, who had  invaded and conquered Northumbria in 633 AD with Penda of Mercia, defeating and killing its king, Edwin. Eanfrid, as the eldest son of Aethelfrith, became King of Bernicia. He turned his back on the Christian faith, returning to the pagan beliefs of most of his people. Eanfrid and the King of Deira, Osric, were also killed by Cadwalla. Cadwalla's troops then ravaged Northumbria. Oswald moved south with a small army to regain the kingdom and rescue his people from Cadwalla. 
             <br />
             <br />
+            Eventually Oswald, who was Eanfrith's brother, defeated and killed Cadwallon and united Northumbria once more in a fight which took place in 634 AD at a site which was later named Heavenfield, and the battle, the Battle of Heavenfield. As he prepared for battle, Oswald had a large wooden cross erected and he ordered his soldiers to pray.
+            <br />
+            <br />
+            The battle was won by Oswald and the field where it took place was named Heavenfield. In winning this battle, Oswald brought the two Northumbrian kingdoms of Bernicia and Deira once again under a single ruler and promoted the spread of Christianity in Northumbria. 
+            <br />
+            <br />
+            Oswald was given a strongly positive assessment by the historian Bede, writing a little less than a century after Oswald's death, who regarded Oswald as a saintly king; it is also Bede who is the main source for present-day historical knowledge of Oswald. 
+ <br />
+            <br />
+            Once Oswald had defeated Cadwallon of Gwynedd at Heavenfield and reunited Bercia and Deira to form a united Northumberland over which he ruled, King Oswald sent to Iona for a Christian missionary to convert his people to Christianity. Aidan was sent, setting up a monastery on Lindisfarne.
+ <br />
+            <br />
+            The early monastery at Lindisfarne was a very basic wooden church and very few houses around. The monks had no money, only cattle. If they received any money, they gave it immediately to the poor. The king himself used to come with only five or six thegns, and to depart when he had performed his devotions in church. If by chance they happened to take a meal there, they were content with the simple and daily food of the brothers, and demanded nothing more.
+ <br />
+            <br />
+            After eight years of rule, in which he was the most powerful ruler in Britain, Oswald was killed in the Battle of Maserfield on the 5 August 641 AD or 642 AD (642 according to Ward), while fighting the forces of Penda of Mercia, who then himself was defeated by Oswald's brother Oswiu. Oswald's body was mutilated, his head and hands were mounted on stakes at the site of his defeat. His body was buried at Bardney.
+            <br />
+            <br />
+            Miraculous cures have been said to have been done in the place where King Oswald was killed, including a traveller's horse being restored and a young girl being cured of the palsy. Oswald's hands are at Bamburgh, said to be uncorrupted, amongst others.
+
+            <br />
+            <br />
+Useful Resources:
+<br />
+<Link href="https://www.nationalchurchestrust.org/church/st-oswald-heavenfield" target="_blank" className="underline decoration-[#E6871A] text-[#E6871A] font-semibold" >National Churches Trust: St Oswald</Link>
+
+
             </div>
             </div>
       
