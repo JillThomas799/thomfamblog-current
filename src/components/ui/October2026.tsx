@@ -159,7 +159,7 @@ export default function October2026() {
             After eight years of rule, in which he was the most powerful ruler in Britain, Oswald was killed in the Battle of Maserfield on the 5 August 641 AD or 642 AD (642 according to Ward), while fighting the forces of Penda of Mercia, who then himself was defeated by Oswald's brother Oswiu. Oswald's body was mutilated, his head and hands were mounted on stakes at the site of his defeat. His body was buried at Bardney.
             <br />
             <br />
-            Miraculous cures have been said to have been done in the place where King Oswald was killed, including a traveller's horse being restored and a young girl being cured of the palsy. Oswald's hands are at Bamburgh, said to be uncorrupted, amongst others.
+            Miraculous cures have been said to have been done in the place where King Oswald was killed, including a traveller's horse being restored and a young girl being cured of the palsy. Oswald's hands are at Bamburgh, said to be uncorrupted.
 
             <br />
             <br />
