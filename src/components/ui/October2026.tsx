@@ -8,6 +8,7 @@ import OctoberWitch from "./octoberwitch";
 import BernardTullie07102026 from "/public/imagesresized/BernardTullie07102026.jpg";
 import JillTullie07102026 from "/public/imagesresized/JillTullie07102026.jpg";
 import HeavenfieldChurchTitled from "/public/imagesresized/HeavenfieldChurchTitled.jpg";
+import TheFallsTitled from "/public/imagesresized/TheFallsTitled.jpg";
 
 
 
@@ -160,7 +161,6 @@ export default function October2026() {
             <br />
             <br />
             Miraculous cures have been said to have been done in the place where King Oswald was killed, including a traveller's horse being restored and a young girl being cured of the palsy. Oswald's hands are at Bamburgh, said to be uncorrupted.
-
             <br />
             <br />
 Useful Resources:
@@ -190,9 +190,60 @@ Useful Resources:
       </div>{/*End of individual dated entry photo album block*/} 
            </div> {/*End of news content block*/}
            </div> {/*End of individual dated entry design and color template block*/}
+           </div> {/*End of individual dated entry block*/}   
+
+           <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#E6871A]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
+        <div className="font-semibold py-2 px-12 bg-black border-solid border-2 border-white m-4 text-white text-center dark: white "> 12th October 2026, Monday - 16th October 2026, Friday</div> {/*End of news date block*/} 
+        <div className="font-semibold border-solid border-2 border-white mr-1 ml-1 mb-4 px-4 py-4 bg-black ">A short break in Ambleside for 5 days, courtesy of Robin and Cathy.</div> {/*End of news header block*/}
+ <div className="pr-1 pl-1 md:pr-1 md:pl-1 semibold text- center md:text-left text-[#22311d] dark:text-[#22311d]">
+        Our friends Robin and Cathy had very kindly lent us the use of their holiday home in Ambleside for a few days, so we were heading off for a short break. The accommodation is fairly close to the centre of Ambleside, and certainly within walking distance, so there was plenty to do, even if there was inclement weather.
+        <br />
+            <br />
+            As it turned out, the weather, as usual for the Lake District National Park, was mixed. However, we had come prepared, or almost, as Jill had made the rather unwise decision as it turned out, not to take her walking wellingtons, which would have come in useful (see the photos of the Easedale Valley, Grasmere).
+               <br />
+            <br />
+            On Tuesday 13th October 2026, we headed over to Grasmere to undertake a walk which in actual fact we last did 13 years ago, when Claus and Monika were over to visit the UK in June 2013!
+             <br />
+            <br />
+            On  Wednesday 14th October 2026, we went over to Coniston Water to visit John Ruskin's House, Brantwood, which we last went to visit over thirty years ago, before Elena and Harry were born. In the evening, we treated ourselves to a meal out at Zeffirelli's café in Ambleside.
+             <br />
+            <br />
+            On Thursday 15th October 2026, it was forecast to be <em>very</em> rainy, so we headed over to Keswick for the day. Bernard managed to buy himself a new pair of walking shoes as his others were letting in water. Unfortunately these days, as we wear our walking shoes/boots every day, they get a lot of wear and so only last one year before requiring replacement...
+              <br />
+            <br />
+            On Friday 16th October 2026, it was time to say goodbye to Ambleside and head home once more.
+             <br />
+            <br />
+
+        <div className="pr-1 pl-1 md:pr-1 md:pl-1 semibold text- center md:text-left text-[#22311d] dark:text-[#22311d]">
+          
+      
+           <div className="flex flex-col bg-black border-solid border-2 border-white pb-2 pt-2 mr-[0%] ml-[0%] mt-5 mb-4  justify-center text-center">
+           
+                <div className="m-4 p-2 font-semibold  border-solid border-2 border-white bg-[#E6871A]">Click on the image below to open the album of a selection of photos and information about them from our short break in Ambleside.</div>
+                <br />
+              <br />
+              <Link
+                href="https://photos.app.goo.gl/Tb5iHa9reTE1RXC27"
+                target="_blank"
+              >
+                <Image
+                  src={ TheFallsTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-[#E6871A] border-2 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Loughrigg and rainbow, looking from balcony of accommodation."
+                />
+              </Link>
+            
+      </div>{/*End of individual dated entry photo album block*/} 
+           </div> {/*End of news content block*/}
+           </div> {/*End of individual dated entry design and color template block*/}
            </div> {/*End of individual dated entry block*/}    
 
 
+</div>
+</div>
 </div>
       </div> {/*End of October block*/}
       </div> {/*End of October block background*/}
