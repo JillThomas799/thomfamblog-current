@@ -9,6 +9,7 @@ import BernardTullie07102026 from "/public/imagesresized/BernardTullie07102026.j
 import JillTullie07102026 from "/public/imagesresized/JillTullie07102026.jpg";
 import HeavenfieldChurchTitled from "/public/imagesresized/HeavenfieldChurchTitled.jpg";
 import TheFallsTitled from "/public/imagesresized/TheFallsTitled.jpg";
+import HWP18102026Titled from "/public/imagesresized/HWP18102026Titled.jpg";
 
 
 
@@ -253,7 +254,47 @@ Useful Resources:
            </div> {/*End of individual dated entry design and color template block*/}
            </div> {/*End of individual dated entry block*/}    
 
+           <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#E6871A]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
+        <div className="font-semibold py-2 px-12 bg-black border-solid border-2 border-white m-4 text-white text-center dark: white "> 18th October 2026, Sunday</div> {/*End of news date block*/} 
+        <div className="font-semibold border-solid border-2 border-white mr-1 ml-1 mb-4 px-4 py-4 bg-black ">Hadrian's Wall Path West to East (abridged):  Day 14, Sewingfields Farm to Brocolitia.</div> {/*End of news header block*/}
+        
+        <div className="pr-1 pl-1 md:pr-1 md:pl-1 semibold text- center lg:text-left text-[#22311d] dark:text-[#22311d]">
+          
+      
+           <div className="flex flex-col bg-black border-solid border-2 border-white pb-2 pt-2 mr-[0%] ml-[0%] mt-5 mb-4  justify-center text-center">
+           
+                <div className="m-4 p-2 font-semibold  border-solid border-2 border-white bg-[#E6871A]">Click on the image below to open the album of our Hadrian's Wall Path West to East (abridged) walk: Day 14, Sewingfields Farm to Brocolitia.
+                   <br /> <br />
+                  The individual comments on the photos will take you through
+                  the full story of our experience.
+                </div>
+                <br />
+              <br />
+              <Link
+                href="https://photos.app.goo.gl/LCU7GLWSTQNZ2yfk8"
+                target="_blank"
+              >
+                <Image
+                  src={ HWP18102026Titled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-[#E6871A] border-2 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of Bernard and Jill on the Sewingshields Farm to Brocolitia section of the Hadrian's Wall Path."
+                />
+              </Link>
+            
+      </div>{/*End of individual dated entry photo album block*/} 
+           </div> {/*End of news content block*/}
+           </div> {/*End of individual dated entry design and color template block*/}
+           </div> {/*End of individual dated entry block*/}    
 
+
+
+
+
+
+
+</div>
 </div>
 </div>
 </div>
