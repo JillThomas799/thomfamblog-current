@@ -309,10 +309,57 @@ Useful Resources:
             <br />
 
                <div className="bg-[#4d3e2e]  border-white border-solid border-2">
-               <div className="bg-[#4d3e2e] text-white text-center font-semibold pt-1 pl-1 pr-1 md:pt-6 md:pl-6">A BRIEF SUMMARY OF SOME (ALTHOUGH NOT ALL) IMPORTANT KOREAN HISTORY.</div>
+               <div className="bg-[#4d3e2e] text-white text-center font-semibold pt-1 pl-1 pr-1 md:pt-6 md:pl-6 md:pr-6">A BRIEF SUMMARY OF SOME (ALTHOUGH NOT ALL) IMPORTANT KOREAN HISTORY.</div>
            <div className="text-center lg:text-left text-white md:font-normal p-4 "> 
-           
+           BRONZE AGE	1,000 BCE (Korean Peninsula) and 1,500 BC (Manchuria) - 300 BCE.	
+           The age of Mumun or undecorated or plain pottery.
+           Advent of intensive agriculture with evidence of large-scale, dry-field farming and the cultivation of rice, which had been introduced from China.
+           The smaller/less powerful clans amalgamated  under strong  head clan leaders. This led to:
+           The development of early states.
+           Gojoseon, the first recognizable state of the Korean people was formed.
+           Tribes believed in the King of Heaven and worshipped bears.
+           Bronze Liaoning-type daggers and dagger-culture (1000-400 BCE).
            <br />
+            <br />
+            EARLY IRON AGE	300 - 100 BCE	
+            Served as a transitional period from the Prehistoric Age to the Historic Age.
+            Defined by the Jeomtodae (clay-striped) pottery culture and slender bronze dagger culture.
+            Introduction of iron.
+            Strong Chinese cultural influences, refugees from Chinese Warring States, Gojoseon leaders adopt Chinese title ‘wang’ or king.
+            Capital of Korea moved to modern-day Pyongyang.
+            194 BCE: Wiman, military leader from Chinese state of Yan arrives and is welcomed. Wiman soon amasses own power bases, and leads his forces against the capital and overthrows King Jun, taking the throne for himself and establishing Wiman Joseon. 
+            109 - 108 BCE: Emperor Wu of the Chinese Han dynasty launches a campaign against Wiman Chosŏn.  King Ugeo, Wiman’s grandson is assassinated by a faction of his own ministers, who then surrender the besieged capital Wanggeomseong to the invading Han forces under Emperor Wu. 
+            108 BCE: Gojoseon falls and the establishment of the Four Commanderies of Han in the northern half of the Korean Peninsula. These are Lelang, Xuantu, Zhenfan and Lintun.
+               <br />
+            <br />
+            THREE KINGDOMS (PRECEEDED BY THREE PROTO-KINGDOMS)
+            The 3 Kingdoms were, from North to South:
+             <br />
+            Goguryeo Kogoryu 37 BCE - 668 CE : Vast, militaristic empire  in the rugged mountains of Manchuria and northern Korea.
+             <br />
+            Baekje/ Paekje 18 BCE -  663 CE: Refined maritime power in the fertile southwest.
+             <br />
+            Silla  ca. 57 BCE - 668 CE: A seemingly quiet kingdom, tucked away in the southeastern corner.
+           <br />
+            <br />
+            UNIFIED SILLA	676 CE - 935 CE	
+            A golden age of Korean culture. With the peninsula finally at peace after fighting between the Kingdoms and with the Tang Dynasty, Silla flourished. Its capital, Gyeongju became one of the great metropolises of the world. Modelled on the Tang capital of Chang’ an, its streets were laid out in a neat grid pattern. Historical records claim that at its peak, the city had nearly 180,000 households, suggesting a population which may have approached one million. It was a city of palaces, monasteries and the elegant tiled-roof homes of the aristocracy, earning it the nickname ‘the city of gold’.
+            <br />
+            <br />
+            Unified Silla was a dynamic maritime power, taking over Baekje’s former role as the dominant force in East Sian Trade. The state maintained close ties with Tang China, and a vigorous trade in luxury goods flowed between the two states.
+            Unified Silla exported:
+            gold and silver craftwork.
+            ginseng.
+            high-quality textiles.
+            Unified Silla imported:
+            books, ceramics and silk from China.
+            The southern port of Ulsan, near Gyeongju, bustled with merchants from as far away as the Arabian Peninsula, who brought exotic goods like glassware, spices and peacock tails.
+            <br />
+            <br />
+            The people of Unified Silla established thriving oversea communities on China’s Shandong Peninsula. 
+            This era of peace and prosperity saw an unparalleled flowering of Buddhist art and culture . Lavish state funding was poured into the construction of magnificent temples, such as the Bulguksa Temple and Seokguram Grotto.
+
+ <br />
             <br />
             </div>
             </div>
