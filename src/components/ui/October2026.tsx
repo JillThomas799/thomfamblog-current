@@ -304,14 +304,22 @@ Useful Resources:
         <div className="font-semibold border-solid border-2 border-white mr-1 ml-1 mb-4 px-4 py-4 bg-black">Korea Experience: Visit to London to see the Korea: 2000 Years of Creativity Exhibition at the British Museum.</div> {/*End of news header block*/}
         
         <div className="pr-1 pl-1 md:pr-1 md:pl-1 semibold text- center lg:text-left text-[#22311d] dark:text-[#22311d]">
-          
+          It was our planned trip to London today by Avanti West Coast train service to meet with Bernard's brother and to see the <Link href="https://www.britishmuseum.org/exhibitions/korea" target="_blank" className="underline decoration-[#f5f5f5] text-[#f5f5f5] font-semibold" >Korea Exhibition</Link>, currently showing until the 31st January 2027 at the British Museum. Harry has been enjoying joining us on our trips recently, so Harry was coming along also. 
+            <br />
+            <br />
+           It meant an early 6.01 start from  Penrith station, but at least this meant we were at Euston by 9.15 am. The exhibition was good with, as one might expect, quite a significant number of Korean visitors there. The album below will take you through our day and the exhibition itself. Due to sheer number, not all the exhibits have been included but rather the key ones of the exhibition. 
+              <br />
+            <br />
+            On finishing at the exhibition, it was time to head up Great Russell Street for a short distance to keep with the Korean theme by having lunch at the <Link href="https://seoulbakerysb.restaurants-us.com/menu" target="_blank" className="underline decoration-[#f5f5f5] text-[#f5f5f5] font-semibold" >Seoul Bakery and K-pop shop</Link>
+           <br />
+            <br />
  <br />
             <br />
 
                <div className="bg-[#4d3e2e]  border-white border-solid border-2">
-               <div className="bg-[#4d3e2e] text-white text-center font-semibold pt-1 pl-1 pr-1 md:pt-6 md:pl-6 md:pr-6">A BRIEF SUMMARY OF SOME (ALTHOUGH NOT ALL) IMPORTANT KOREAN HISTORY.</div>
+               <div className="bg-[#4d3e2e] text-white text-center font-semibold pt-1 pl-1 pr-1 md:pt-6 md:pl-6 md:pr-6">A BRIEF (OR NOT SO BRIEF...) SUMMARY OF SOME (ALTHOUGH NOT ALL) IMPORTANT KOREAN HISTORY.</div>
            <div className="text-center lg:text-left text-white md:font-normal p-4 "> 
-           BRONZE AGE	1,000 BCE (Korean Peninsula) and 1,500 BC (Manchuria) - 300 BCE.	
+           BRONZE AGE	1,000 BCE (Korean Peninsula) and 1,500 BC (Manchuria) - 300 BCE:	
            The age of Mumun or undecorated or plain pottery.
            Advent of intensive agriculture with evidence of large-scale, dry-field farming and the cultivation of rice, which had been introduced from China.
            The smaller/less powerful clans amalgamated  under strong  head clan leaders. This led to:
@@ -321,7 +329,7 @@ Useful Resources:
            Bronze Liaoning-type daggers and dagger-culture (1000-400 BCE).
            <br />
             <br />
-            EARLY IRON AGE	300 - 100 BCE	
+            EARLY IRON AGE	300 - 100 BCE:
             Served as a transitional period from the Prehistoric Age to the Historic Age.
             Defined by the Jeomtodae (clay-striped) pottery culture and slender bronze dagger culture.
             Introduction of iron.
@@ -332,7 +340,7 @@ Useful Resources:
             108 BCE: Gojoseon falls and the establishment of the Four Commanderies of Han in the northern half of the Korean Peninsula. These are Lelang, Xuantu, Zhenfan and Lintun.
                <br />
             <br />
-            THREE KINGDOMS (PRECEEDED BY THREE PROTO-KINGDOMS)
+            THREE KINGDOMS (PRECEEDED BY THREE PROTO-KINGDOMS):
             The 3 Kingdoms were, from North to South:
              <br />
             Goguryeo Kogoryu 37 BCE - 668 CE : Vast, militaristic empire  in the rugged mountains of Manchuria and northern Korea.
@@ -342,7 +350,7 @@ Useful Resources:
             Silla  ca. 57 BCE - 668 CE: A seemingly quiet kingdom, tucked away in the southeastern corner.
            <br />
             <br />
-            UNIFIED SILLA	676 CE - 935 CE	
+            UNIFIED SILLA	676 CE - 935 CE:
             A golden age of Korean culture. With the peninsula finally at peace after fighting between the Kingdoms and with the Tang Dynasty, Silla flourished. Its capital, Gyeongju became one of the great metropolises of the world. Modelled on the Tang capital of Chang’ an, its streets were laid out in a neat grid pattern. Historical records claim that at its peak, the city had nearly 180,000 households, suggesting a population which may have approached one million. It was a city of palaces, monasteries and the elegant tiled-roof homes of the aristocracy, earning it the nickname ‘the city of gold’.
             <br />
             <br />
@@ -360,6 +368,85 @@ Useful Resources:
             This era of peace and prosperity saw an unparalleled flowering of Buddhist art and culture . Lavish state funding was poured into the construction of magnificent temples, such as the Bulguksa Temple and Seokguram Grotto.
 
  <br />
+            <br />
+            KINGDOM OF GORYEO	918 AD - 1392 AD:
+            The Kingdom of Goryeo was founded by Wang Geon in 918 AD. Wang Geon understood that true unification required more than just military victory. In 936 AD, Wang Geon conquered Later Baekje, achieving the "Unification of the Three Hans." Having unified the nation, Wang Geon, now known by his posthumous title King Taejo, laid the institutional foundations for a dynasty which would last nearly 500 years, the Joseon Dynasty.
+            <br />
+            <br />
+            He did this by establishing a central government which blended Silla institutions with the administrative systems of the Chinese Tang Dynasty, introducing the civil service examination system system, or gwaego, in 958 AD under his successor, King Gwangjong. This was done to break the power of the old aristocracy and recruit officials based on merit and loyalty to the throne. 
+               <br />
+            <br />
+            Goryeo society was constructed in a hierarchical fashion (from top to bottom): Ruling elites: royal family, powerful civil and military aristocracy, Middle class: Lower-level functionaries and technicians,
+                  Commoners (the majority): Farmers, craftsmen and merchants etc, Cheonmin (the ’despised’): A group        which included butchers, slaves, leather workers and entertainers. This social status was largely      hereditary and escape from it nearly impossible.
+                  <br />
+            <br />
+            The economic lifeblood of the state of Goryeo was land. King Taejo established a new land tenure system called the jeonsigwa, in which all land was considered owned by the state, which then allocated parcels to officials based on their rank and service.
+            <br />
+            <br />
+            Buddhism was the dominant force in Goryeo society and culture. 
+            <br />
+            <br />
+            Between 993 AD - 1018 AD, there were repeated invasions by the nomadic Khitans ( 3 invasions in total) . The third and final invasion in 1018 AD ended in catastrophic defeat for the Khitans at the Battle of Gwiju, where the famed Goryeo general Gang Gam-chan lured their massive army into a trap and annihilated it. 
+            <br />
+            <br />
+            A golden age of cultural and artistic achievement which lasted over a century ensued.
+            <br />
+            <br />
+            During this period of peace and prosperity, Goryeo culture reached its zenith, including the most iconic achievement of the era, Celadon, which is a ceramic with a distinctive green-blue glaze. The color, coupled with intricate inlaid ornamentation, are part of what has made Goryeo celadons desirable and Korean potters adapted and refined celadon technology from China to create distinctively Korean ceramics revered by elites in Korea, China, and Japan alike. 
+              <br />
+            <br />
+            In addition during this period, Sanggam inlay technique was used to create designs which were carved into clay, filled with black and white slip and then covered with translucent glaze, creating intricate and delicate patterns of cranes, clouds and willow trees. Finally, the use of movable metal type, building on the woodblock printing techniques used for the Tripitaka Koreana, Goryean craftsmen now pioneered the use of movable metal type.
+             <br />
+            <br />
+            JOSEON/ CHOSEON DYNASTY	1392 - 1897 CE:
+            <br />
+            Joseon was so-named as a conscious call back to Gojoseon, the first Korean kingdom from the dawn of its history. 
+               <br />
+            <br />
+           The Joseon Dynasty was established in July 1392 by General Yi Seong-gye (King Taejo), who overthrew the Goryeo Dynasty.
+            He Moved the capital from Gaegyeong (now Gaeseong, North Korea) to Hanyang (also known as Hanseong and is modern-day Seoul) in 1394.
+              <br />
+            <br />
+            State Ideology: Adopted Neo-Confucianism, shaping government administration, social structure, and family values around filial piety and a strict class hierarchy (headed by scholar-officials known as the yangban). 
+              <br />
+            <br />            
+            Duration: Lasted 505 years as a kingdom before transitioning into the Korean Empire in 1897 and falling to Japanese annexation in 1910.
+               <br />
+            <br />
+            Major Achievements & Culture:
+            Hangul Invention: King Sejong the Great commissioned and introduced Hangul, the Korean phonetic alphabet, in 1443–1446 to improve literacy among common people. 
+            Science and Technology: Advanced astronomy, detailed star charts, and the creation of early rain gauges.
+            Arts and Identity: Developed distinct Korean styles in landscape painting, portraiture, and pottery, especially after shifting away from heavy Ming Dynasty influences. 
+  <br />
+            <br />
+            KOREAN REPULIC 1897 - 1910:
+              <br />
+              The Korean Empire, officially the Empire of Korea or Imperial Korea in English and commonly called Taehan Cheguk in Korean, was a Korean monarchical state proclaimed in October 1897 by King Gojong of the Joseon dynasty. The empire lasted until the Japanese annexation of Korea in August 1910.
+               <br />
+                <br />
+                During this period, Emperor Gojong oversaw the Gwangmu Reform, a partial modernization and westernization of Korea's military, economy, land system, education system, and various industries. In 1905, the Korean Empire became a protectorate of the Empire of Japan. After the Japanese annexation in 1910, the Korean Empire ceased to exist.
+                <br />
+                <br />
+            JAPANESE OCCUPATION OF KOREA 1910 - 1945:
+               <br />
+               From 1910 to 1945, Korea was ruled by the Empire of Japan as a colony under the name Chōsen, the Japanese reading of "Joseon". This was quite a complicated period of history, so find out more by clicking <Link href="https://en.wikipedia.org/wiki/Korea_under_Japanese_rule" target="_blank" className="underline decoration-[#f5f5f5] text-[#f5f5f5] font-semibold" >this link</Link>.
+              <br />
+                <br />
+            
+            <br />
+            NORTH KOREA UNDER SOVIET OCCUPATION, SOUTH KOREA UNDER AMERICAN OCCUPATION 1945-1948.
+            <br />
+            <br />
+            IN NORTH KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA (DPRK)1948-PRESENT DAY.
+             <br />
+            <br />
+            KOREAN WAR BETWEEN NORTH AND SOUTH KOREA 1950-1953.
+            <br />
+            <br />
+            REPUBLIC OF KOREA (ROK) IN THE SOUTH (SOUTH KOREA0 1953 - PRESENT DAY:
+            Korea divided on the 38th Parallel with the Democratic People's Republic of Korea (DPRK) in the north (North Korea)
+            and the Republic of Korea (ROK) in the south (South Korea).
+             <br />
             <br />
             </div>
             </div>
