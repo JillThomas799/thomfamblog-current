@@ -42,7 +42,7 @@ export default function October2026() {
                 <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#E6871A]">
          <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
-        <div className="font-semibold py-2 px-12 bg-black border-solid border-2 border-white m-4 text-white text-center dark: white "> 3rd October 2026, Saturday</div> {/*End of news date block*/} 
+        <div className="font-semibold py-2 px-2 bg-black border-solid border-2 border-white m-4 text-white text-center dark: white "> 3rd October 2026, Saturday</div> {/*End of news date block*/} 
         <div className="font-semibold border-solid border-2 border-white mr-1 ml-1 mb-4 px-4 py-4 bg-black ">Hadrian's Wall Path West to East (abridged): Day 12, Housesteads Roman Fort to Sewing Shields farm.</div> {/*End of news header block*/}
         
         <div className="pr-1 pl-1 md:pr-1 md:pl-1 semibold text- center lg:text-left text-[#22311d] dark:text-[#22311d]">
@@ -80,7 +80,7 @@ export default function October2026() {
      <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#E6871A]">
          <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
-        <div className="font-semibold py-2 px-12 bg-black border-solid border-2 border-white m-4 text-white text-center dark: white "> 7th October 2026, Wednesday</div> {/*End of news date block*/} 
+        <div className="font-semibold py-2 px-2 bg-black border-solid border-2 border-white m-4 text-white text-center dark: white "> 7th October 2026, Wednesday</div> {/*End of news date block*/} 
         <div className="font-semibold border-solid border-2 border-white mr-1 ml-1 mb-4 px-4 py-4 bg-black">Jill and Bernard start work as Volunteer Gallery Engagers at the Tullie Museum in Carlisle.</div> {/*End of news header block*/}
         
         <div className="pr-1 pl-1 md:pr-1 md:pl-1 font-semibold text- center lg:text-left text-[#22311d] dark:text-[#22311d]">
@@ -125,7 +125,7 @@ export default function October2026() {
             <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#E6871A]">
          <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
-        <div className="font-semibold py-2 px-12 bg-black border-solid border-2 border-white m-4 text-white text-center dark: white "> 11th October 2026, Saturday</div> {/*End of news date block*/} 
+        <div className="font-semibold py-2 px-2 bg-black border-solid border-2 border-white m-4 text-white text-center dark: white "> 11th October 2026, Saturday</div> {/*End of news date block*/} 
         <div className="font-semibold border-solid border-2 border-white mr-1 ml-1 mb-4 px-4 py-4 bg-black">Hadrian's Wall Path West to East (abridged): Day 13, Chollerford to Heavenfield.</div> {/*End of news header block*/}
         
         <div className="pr-1 pl-1 md:pr-1 md:pl-1 semibold text- center lg:text-left text-[#22311d] dark:text-[#22311d]">
@@ -205,7 +205,7 @@ Useful Resources:
            <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#E6871A]">
          <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
-        <div className="font-semibold py-2 px-12 bg-black border-solid border-2 border-white m-4 text-white text-center dark: white "> 12th October 2026, Monday - 16th October 2026, Friday</div> {/*End of news date block*/} 
+        <div className="font-semibold py-2 px-2 bg-black border-solid border-2 border-white m-4 text-white text-center dark: white "> 12th October 2026, Monday - 16th October 2026, Friday</div> {/*End of news date block*/} 
         <div className="font-semibold border-solid border-2 border-white mr-1 ml-1 mb-4 px-4 py-4 bg-black ">A short break in Ambleside for 5 days, courtesy of Robin and Cathy.</div> {/*End of news header block*/}
  <div className="pr-1 pl-1 md:pr-1 md:pl-1 semibold text- center lg:text-left text-[#22311d] dark:text-[#22311d]">
         Our friends Robin and Cathy had very kindly lent us the use of their holiday home in Ambleside for a few days, so we were heading off for a short break. The accommodation is fairly close to the centre of Ambleside, and certainly within walking distance, so there was plenty to do, even if there was inclement weather.
@@ -260,7 +260,7 @@ Useful Resources:
            <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#E6871A]">
          <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
-       <div className="font-semibold py-2 px-12 bg-black border-solid border-2 border-white m-4 text-white text-center dark: white "> 18th October 2026, Sunday</div> {/*End of news date block*/} 
+       <div className="font-semibold py-2 px-2 bg-black border-solid border-2 border-white m-4 text-white text-center dark: white "> 18th October 2026, Sunday</div> {/*End of news date block*/} 
         <div className="font-semibold border-solid border-2 border-white mr-1 ml-1 mb-4 px-4 py-4 bg-black ">Hadrian's Wall Path West to East (abridged):  Day 14, Sewing Shields Farm to Brocolitia.</div> {/*End of news header block*/}
        <div className="pr-1 pl-1 md:pr-1 md:pl-1 semibold text- center lg:text-left text-[#22311d] dark:text-[#22311d]">
           It was time to risk the cattle at Sewingfields farm today. The plan was to park at Brocolitia car park on Hadrian's Wall and walk back as far as just short of Sewing Shields Farm, before returning the same way. According to Google distance, this was going to be just under 8 miles, but it is a fairly flat stretch so this seemed to be quite manageable.
@@ -300,7 +300,7 @@ Useful Resources:
  <div className="mb-20"> 
       <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#E6871A]">
          <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
-        <div className="font-semibold py-2 px-12 bg-black border-solid border-2 border-white m-4 text-white text-center dark: white "> 24th October 2026, Saturday</div> {/*End of news date block*/} 
+        <div className="font-semibold py-2 px-2 bg-black border-solid border-2 border-white m-4 text-white text-center dark: white "> 24th October 2026, Saturday</div> {/*End of news date block*/} 
         <div className="font-semibold border-solid border-2 border-white mr-1 ml-1 mb-4 px-4 py-4 bg-black">Korea Experience: Visit to London to see the Korea: 2000 Years of Creativity Exhibition at the British Museum.</div> {/*End of news header block*/}
         
         <div className="pr-1 pl-1 md:pr-1 md:pl-1 semibold text- center lg:text-left text-[#22311d] dark:text-[#22311d]">
