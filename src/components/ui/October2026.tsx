@@ -310,10 +310,20 @@ Useful Resources:
            It meant an early 6.01 start from  Penrith station, but at least this meant we were at Euston by 9.15 am. The exhibition was good with, as one might expect, quite a significant number of Korean visitors there. The album below will take you through our day and the exhibition itself. Due to sheer number, not all the exhibits have been included but rather the key ones of the exhibition. 
               <br />
             <br />
-            On finishing at the exhibition, it was time to head up Great Russell Street for a short distance to keep with the Korean theme by having lunch at the <Link href="https://seoulbakerysb.restaurants-us.com/menu" target="_blank" className="underline decoration-[#f5f5f5] text-[#f5f5f5] font-semibold" >Seoul Bakery and K-pop shop</Link>
+            On finishing at the exhibition, it was time to head up Great Russell Street for a short distance to keep with the Korean theme by having lunch at the <Link href="https://seoulbakerysb.restaurants-us.com/menu" target="_blank" className="underline decoration-[#f5f5f5] text-[#f5f5f5] font-semibold" >Seoul Bakery and K-pop shop</Link>.
+
+            Just to remind people, here is a link to <Link href="https://www.youtube.com/watch?v=SW_iujvUAzQ&t=12" target="_blank" className="underline decoration-[#f5f5f5] text-[#f5f5f5] font-semibold" >"Gangnam Style" </Link>, a globally popular 2012 K-pop song and satirical music video by South Korean singer and rapper PSY. The Gangnam District is an affluent, high-end district in Seoul, South Korea, often compared to Beverly Hills and the term "Gangnam Style" is a slang neologism mocking the pretentious lifestyles of people who try too hard to act wealthy, fashionable, or status-obsessed in that neighborhood.
+            Released on July 15, 2012, it became the first video in YouTube history to surpass 1 billion views, eventually crossing 5 billion views.
+            The café and food were great and very popular, with a fantastic atmosphere.           
            <br />
             <br />
- <br />
+            We left Euston on time at 16.30, despite Storm Boelo sweeping the country. All was going well until Preston, when an indefinite delay was announced.......
+            It turned out that Avanti had received notification of a possible land-slip between Oxenholme and Preston (the site of a significant near-miss land-slip last year), so it all had to be checked out before we could head north once more. There was a delay of 55 mins, but in the end we made it to Penrith safely. This was just as well, as the following day Storm Boelo worsened and the trains were cancelled.
+              <br />
+            <br />
+            We had a great day and are looking forward to being back at the British Museum for the first of our Bayeux tapestry visits in December.           
+             
+             <br />
             <br />
 
                <div className="bg-[#4d3e2e]  border-white border-solid border-2">
