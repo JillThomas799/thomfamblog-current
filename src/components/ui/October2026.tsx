@@ -12,6 +12,7 @@ import TheFallsTitled from "/public/imagesresized/TheFallsTitled.jpg";
 import HWP18102026Titled from "/public/imagesresized/HWP18102026Titled.jpg";
 import TigerMagpieTitled from "/public/imagesresized/TigerMagpieTitled.jpg";
 import GreenhouseDestroyedTitled from "/public/imagesresized/GreenhouseDestroyedTitled.jpg";
+import TrimontiumMuseumTitled from "/public/imagesresized/TrimontiumMuseumTitled.jpg";
 
 
 
@@ -523,7 +524,47 @@ Useful Resources:
       </div>{/*End of individual dated entry photo album block*/} 
            </div> {/*End of news content block*/}
            </div> {/*End of individual dated entry design and color template block*/}
+           </div> {/*End of individual dated entry block*/}   
+
+
+
+           <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#E6871A]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
+       <div className="font-semibold py-2 px-2 bg-black border-solid border-2 border-white m-4 text-white text-center dark: white "> 30th October 2026, Friday</div> {/*End of news date block*/} 
+        <div className="font-semibold border-solid border-2 border-white mr-1 ml-1 mb-4 px-4 py-4 bg-black ">Border Adventure: Trimontium Museum and Melrose Abbey</div> {/*End of news header block*/}
+       <div className="pr-1 pl-1 md:pr-1 md:pl-1 semibold text- center lg:text-left text-[#22311d] dark:text-[#22311d]">Harry was taking a day's holiday today and Jill was wanting to improve her knowledge of the Roman history in Scotland, so where better to visit that the Trimontium: Face of Roman Scotland Museum in the very pretty Scottish border town of Melrose. The museum tells the story of the Roman Empire’s invasions of Scotland, and of the local peoples’ interactions with the legions. Trimontium fort is one of the largest and most archaeologically important Roman forts north of Hadrian’s Wall, and at times was the uttermost frontier of the Roman Empire in Britain. The museum's  collections include an array of Roman weapons and military equipment, personal treasures like intaglios and dragonesque brooches, fragments of Trimontium fort itself, amongst others. In a drive to make the museum more interactive, there is now a virtual reality experience which places you right inside the reconstructed Roman fort and we were booked on that experience today.        
+              <br />
+              <br />
+               
+               <br />
+              <br />
+           <div className="flex flex-col bg-black border-solid border-2 border-white pb-2 pt-2 mr-[0%] ml-[0%] mt-5 mb-4  justify-center text-center">
+           
+                <div className="m-4 p-2 font-semibold  border-solid border-2 border-white bg-[#E6871A]">Click on the image below to open the album of our border adventure to Trimontium Museum and Melrose Abbey.
+                   <br /> <br />
+                  The individual comments on the photos will take you through
+                  the full story of our experience.
+                </div>
+                <br />
+              <br />
+              <Link
+                href="https://photos.app.goo.gl/PUg5KRSk1cfQrcse9"
+                target="_blank"
+              >
+                <Image
+                  src={ TrimontiumMuseumTitled }
+                  className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-[#E6871A] border-2 mt-1 mb-11 rounded-[70%]"
+                  alt="Photo of destroyed greenhouse."
+                />
+              </Link>
+            </div>
+      </div>{/*End of individual dated entry photo album block*/} 
+           </div> {/*End of news content block*/}
+           </div> {/*End of individual dated entry design and color template block*/}
            </div> {/*End of individual dated entry block*/}    
+
+
 
 
 
