@@ -533,11 +533,24 @@ Useful Resources:
          <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
        <div className="font-semibold py-2 px-2 bg-black border-solid border-2 border-white m-4 text-white text-center dark: white "> 30th October 2026, Friday</div> {/*End of news date block*/} 
         <div className="font-semibold border-solid border-2 border-white mr-1 ml-1 mb-4 px-4 py-4 bg-black ">Border Adventure: Trimontium Museum and Melrose Abbey</div> {/*End of news header block*/}
-       <div className="pr-1 pl-1 md:pr-1 md:pl-1 semibold text- center lg:text-left text-[#22311d] dark:text-[#22311d]">Harry was taking a day's holiday today and Jill was wanting to improve her knowledge of the Roman history in Scotland, so where better to visit that the Trimontium: Face of Roman Scotland Museum in the very pretty Scottish border town of Melrose. The museum tells the story of the Roman Empire’s invasions of Scotland, and of the local peoples’ interactions with the legions. Trimontium fort is one of the largest and most archaeologically important Roman forts north of Hadrian’s Wall, and at times was the uttermost frontier of the Roman Empire in Britain. The museum's  collections include an array of Roman weapons and military equipment, personal treasures like intaglios and dragonesque brooches, fragments of Trimontium fort itself, amongst others. In a drive to make the museum more interactive, there is now a virtual reality experience which places you right inside the reconstructed Roman fort and we were booked on that experience today.        
+       <div className="pr-1 pl-1 md:pr-1 md:pl-1 semibold text- center lg:text-left text-[#22311d] dark:text-[#22311d]">Harry was taking a day's holiday today and Jill was wanting to improve her knowledge of Roman history in Scotland, so where better to visit than the Trimontium, Face of Roman Scotland Museum, in the very pretty Scottish border town of Melrose. 
+         <br />
+              <br />        
+        The museum tells the story of the Roman Empire’s invasions of Scotland, and of the local peoples’ interactions with the legions. Trimontium fort is one of the largest and most archaeologically important Roman forts north of Hadrian’s Wall, and at times was the uttermost frontier of the Roman Empire in Britain. The museum's  collections include an array of Roman weapons and military equipment, personal treasures like intaglios and dragonesque brooches, fragments of Trimontium fort itself, amongst others.
+         <br />
+              <br />        
+         In a drive to make the museum more interactive, there is now a virtual reality experience which places you right inside the reconstructed Roman fort and we were booked on that experience today.        
               <br />
               <br />
-               
+        The drive over to Melrose was beautiful, with all the autumnal colours, through the border  towns of Langholm and Hawick. The museum is only small but very interesting because it does that rare thing of trying to look at the history of the Romans time in Scotland from the archaeological evidence but also from what is known about the existing indigenous settlements and settlers at that time. The VR experience was well worth the extra bit of money it costs and lasted 25 minutes in duration.               
                <br />
+              <br />
+        After lunch, there was a little time before the Melrose Abbey Museum reopened, so we took the opportunity to go on one of the many walks in the area, this one the riverside walk along the bankd of the River Tweed.
+               <br />
+              <br />
+              Melrose Abbey is very interesting, especially since the first abbey was built by St Aidan in AD 635. In actual fact,  Melrose lies to the West on a latitidinal line which runs just south of Holy Island to the East. The abbey whose ruins are visible today though are from 
+
+                <br />
               <br />
            <div className="flex flex-col bg-black border-solid border-2 border-white pb-2 pt-2 mr-[0%] ml-[0%] mt-5 mb-4  justify-center text-center">
            
