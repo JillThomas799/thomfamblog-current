@@ -13,7 +13,7 @@ export default function November2026() {
         </div>
        
          
-        <div className="bg-RiverTweedAutumn bg-cover h-[75vh] sm:h-[55vh] md:h-[75vh] mx-auto mt-0">
+        <div className="bg-RiverTweedAutumn bg-cover h-[75vh] sm:h-[55vh] md:h-[75vh] mx-auto mt-0 border-solid border-8 border-[#773f3f]">
           
         </div>
        
