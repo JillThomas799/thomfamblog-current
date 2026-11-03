@@ -9,12 +9,9 @@ export default function November2026() {
   return (   
  <div className=" bg-black border-solid border-2 border-black mb-28"> {/*November block background*/}
     <div>
-       <div className="text-white text-center font-semibold text-2xl p-3 bg-[#41231c] border-solid border-2 border-[#b55b4b] m-2">November 2026
+            <div className="bg-RiverTweedAutumn bg-cover h-[75vh] sm:h-[55vh] md:h-[75vh] mx-auto mt-0 border-solid border-8 border-[#773f3f]">
+           <div className="text-white text-center font-semibold text-2xl p-3 bg-[#41231c] border-solid border-2 border-[#b55b4b] m-2">November 2026
         </div>
-       
-         
-        <div className="bg-RiverTweedAutumn bg-cover h-[75vh] sm:h-[55vh] md:h-[75vh] mx-auto mt-0 border-solid border-8 border-[#773f3f]">
-          
         </div>
        
         <div className="mb-20"> 
