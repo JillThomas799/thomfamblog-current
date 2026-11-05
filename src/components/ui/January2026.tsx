@@ -139,7 +139,7 @@ export default function January2026() {
             <div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-black">
 
               <div className="font-semibold pt-8 py-2  text-[#D99e49] text-center"> 18th January 2026</div> {/*End of news date block*/}
-              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-black text-center  border-gray-800 border-solid border-2 bg-[#D99e49]"> Stargazing at the Dark Skies ....or rather, indoor stargazing <br /> at the night sky via the planetarium, <br /> as it was too cloudy outside. </div>
+              <div className="font-bold m-4 pt-2 pb-4 py-2 px-2 md:px-4 text-black text-center  border-gray-800 border-solid border-2 bg-[#D99e49]"> Stargazing at the Dark Skies ....or rather, indoor stargazing <br /> at the night sky via the planetarium, <br /> as it was too cloudy outside. </div>
               <div className="text-black text-center md:text-center mb-4 md:*:pr-6 md:*:pl-6 ">
                 <div className="text-[#D99e49] text-left md:text-left mb-4 pr-4 pl-4">One of the items on our 'To Do' list for this year has been to go up to the Kielder Observatory situated in the wilds of the Kielder Water and Forest Park, close to the Scottish Border. <Link href=" https://kielderobservatory.org/" target="_blank" className="text-[#bdbeba] font-semibold underline"></Link>
                   <br />
@@ -184,7 +184,7 @@ export default function January2026() {
             < div className="text-md md:text-lg max-w-full font-normal mt-4 mb-4 p-2 text-white text-center md:text-left justify-center items-center bg-black">
 
               <div className="font-semibold pt-8 py-2  text-[#D99e49] text-center"> 24th January 2026</div> {/*End of news date block*/}
-              <div className="font-bold m-4 pt-2 pb-4 py-2 md:px-4 text-black text-center  border-gray-800 border-solid border-2 bg-[#D99e49]"> Visit to Manchester and to see 'Singin' In the Rain' at the Royal Exchange Theatre.</div>
+              <div className="font-bold m-4 pt-2 pb-4 py-2 px-2 md:px-4 text-black text-center  border-gray-800 border-solid border-2 bg-[#D99e49]"> Visit to Manchester and to see 'Singin' In the Rain' at the Royal Exchange Theatre.</div>
               <div className="text-black text-center md:text-center mb-4 md:*:pr-6 md:*:pl-6 ">
                 <div className="text-[#D99e49] text-left md:text-left mb-4 pr-4 pl-4"> Following our successful, albeit lengthy, journey by car to Manchester last year to see the Rest is Politics Live show at the Apollo Theatre, we decided this year to reinstate our routine of attending the Christmas show at the Royal Exchange Theatre, Manchester. 
                    <br />

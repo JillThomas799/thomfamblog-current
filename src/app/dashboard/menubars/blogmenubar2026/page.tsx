@@ -18,7 +18,7 @@ export default async function Home() {
   else { 
   return (
     <div>
-        <BlogMenuBar/>
+        {/* <BlogMenuBar/> */}
       <BlogMenuBarMonths2026/>
     </div>  
   );

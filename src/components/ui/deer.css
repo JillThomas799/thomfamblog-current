@@ -624,11 +624,11 @@
 
 @media screen and (max-width: 601px) {
   .deer1 {
-    -webkit-transform: translate(0px, 0px) scale(0.7);
-    -moz-transform: translate(0px, 0px) scale(0.7);
-    -ms-transform: translate(0px, 0px) scale(0.7);
-    -o-transform: translate(0px, 0px) scale(0.7);
-    transform: translate(0px, 0px) scale(0.7);
+    -webkit-transform: translate(-50px, 0px) scale(0.7);
+    -moz-transform: translate(-50px, 0px) scale(0.7);
+    -ms-transform: translate(-50px, 0px) scale(0.7);
+    -o-transform: translate(-50px, 0px) scale(0.7);
+    transform: translate(-50px, 0px) scale(0.7);
   }
   .deer2 {
     -webkit-transform: translate(-500px, 100px) scale(0.7);
@@ -644,5 +644,76 @@
     -ms-transform: translate(-250px, 50px) scale(0.7);
     -o-transform: translate(-250px, 50px) scale(0.7);
     transform: translate(-250px, 50px) scale(0.7);
+  }
+
+  @keyframes deer1leap {
+    0% {
+      translate: 50px 0px;
+    }
+    5% {
+      translate: 50px -30px;
+    }
+    10% {
+      translate: 75px 0px;
+    }
+    15% {
+      translate: 75px 30px;
+    }
+    20% {
+      translate: 75px -30px;
+    }
+    25% {
+      translate: 100px 0px;
+    }
+    30% {
+      translate: 100px 30px;
+    }
+
+    35% {
+      translate: 100px -30px;
+    }
+    40% {
+      translate: 125px 0px;
+    }
+    45% {
+      translate: 125px 30px;
+    }
+
+    50% {
+      translate: 125px -30px;
+    }
+    55% {
+      translate: 140px 0px;
+    }
+    60% {
+      translate: 140px 30px;
+    }
+
+    65% {
+      translate: 140px -30px;
+    }
+    70% {
+      translate: 150px 0px;
+    }
+    75% {
+      translate: 150px 30px;
+    }
+
+    80% {
+      translate: 150px -30px;
+    }
+    85% {
+      translate: 160px 0px;
+    }
+    90% {
+      translate: 160px 30px;
+    }
+
+    95% {
+      translate: 160px 0px;
+    }
+    100% {
+      translate: 160px 0px;
+    }
   }
 }
