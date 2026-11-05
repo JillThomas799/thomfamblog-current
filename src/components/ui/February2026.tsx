@@ -68,7 +68,7 @@ export default function February2026() {
                   >
                     <Image
                       src={GawainArrivalTitled}
-                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-black-400 border-4 mt-4 mb-6"
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]  border-gray-800 border-solid border-2 md:border-none mt-4 mb-6"
                       alt="Photo of Gawain day 2."
                     />
                   </Link>
@@ -122,7 +122,7 @@ export default function February2026() {
                   >
                     <Image
                       src={TullieGladiatorsTitled}
-                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-black-400 border-4 mt-4 mb-6"
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]  border-gray-800 border-solid border-2 md:border-none mt-4 mb-6"
                       alt="Photo of Bernard and Harry outside Tullie Museum."
                     />
                   </Link>
@@ -155,7 +155,7 @@ export default function February2026() {
               
                     <Image
                       src={ShroveTuesday}
-                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]"
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]  border-gray-800 border-solid border-2 md:border-none"
                       alt="Photo of Harry eating pancakes."
                     />
 
@@ -190,7 +190,7 @@ export default function February2026() {
                   >
                     <Image
                       src={Ullswater20022026Titled}
-                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-black-400 border-4 mt-4 mb-6"
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]  border-gray-800 border-solid border-2 md:border-none mt-4 mb-6"
                       alt="Photo of Bernard and Harry outside Tullie Museum."
                     />
                   </Link>
@@ -215,7 +215,7 @@ export default function February2026() {
               <br /> 
                <Image
                       src={ StormySteamer }
-                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]"
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]  border-gray-800 border-solid border-2 md:border-none"
                       alt="Photo Ullswater steamer in stormy weather"
                     />
                 </div>
@@ -253,7 +253,7 @@ export default function February2026() {
                   >
                     <Image
                       src={GawainExploreTitled06022026}
-                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-solid border-black-400 border-4 mt-4 mb-6"
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]  border-gray-800 border-solid border-2 md:border-none mt-4 mb-6"
                       alt="Photo of Bernard and Harry outside Tullie Museum."
                     />
                   </Link>
@@ -279,7 +279,7 @@ export default function February2026() {
               
                     <Image
                       src={ Audience }
-                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]"
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]  border-gray-800 border-solid border-2 md:border-none"
                       alt="Photo interval screensaver 'The Audience'"
                     />
 
@@ -301,14 +301,14 @@ export default function February2026() {
               <br /> 
                <Image
                       src={ Lamb1 }
-                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]"
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]  border-gray-800 border-solid border-2 md:border-none"
                       alt="Photo first spring lamb"
                     />
  <br />
               <br /> 
                      <Image
                       src={Lamb2 }
-                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]"
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]  border-gray-800 border-solid border-2 md:border-none"
                       alt="Photo second spring lamb"
                     />
               
@@ -333,7 +333,7 @@ export default function February2026() {
               <br /> 
                     <Image
                       src={ StitchIt }
-                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%]"
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[50%] border-gray-800 border-solid border-2 md:border-none"
                       alt="Photo 'Stitch It, Don't Ditch It' book"
                     />
 
