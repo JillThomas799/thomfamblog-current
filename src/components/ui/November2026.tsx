@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import NovemberBonfire from "./novemberbonfire"; 
 import "./November2025.css"; 
-import MG4Electric from '/public/imagesresized/MG4Electric.jpg'
+import LennieRecovered from '/public/imagesresized/LennieRecovered.jpg'
 
 export default function November2026() {
 
@@ -50,6 +50,11 @@ export default function November2026() {
         He is to stay on the same dose of medication as currently and he is going to be reviewed in 3 to 6 months, depending on how he gets along.
          <br />
          <br />  
+         <Image
+          src={LennieRecovered}
+           className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-11"
+                  alt="Photo of Lennie looking well and relaxed in his basket."/>
+         
            </div>           {/*  End of individual dated entry design and color template block */}
            </div> {/*End of individual dated entry block*/}
            </div>   
