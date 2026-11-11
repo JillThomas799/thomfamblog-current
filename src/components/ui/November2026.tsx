@@ -5,6 +5,8 @@ import "./November2025.css";
 import LennieRecovered from '/public/imagesresized/LennieRecovered.jpg';
 import Keswick10112026 from '/public/imagesresized/Keswick10112026.jpeg';
 import Keswick10112026_2 from '/public/imagesresized/Keswick10112026_2.jpg';
+import Keswick10112026_4 from '/public/images/DoNotDelete/Keswick10112026_4.jpg';
+
 
 export default function November2026() {
 
@@ -86,7 +88,18 @@ export default function November2026() {
                    Cathy, Jill, Robin and Bernard enjoying themselves in Keswick.{" "}
                 </div>
               </figcaption>
- <br />
+              <br />
+              
+         <Image
+          src={Keswick10112026_4}
+           className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-4"
+                  alt="Photo of Jill, Cathy and Robin with the dogs Wilf and Nell by Derwentwater"/>
+                   <figcaption className="novemberFigCaption">
+                <div className="italic text-center block ml-auto mr-auto w-[90%] md:w-[70%] lg:w-[60%]">
+                   Jill, Cathy and Robin with the dogs Wilf and Nell by Derwentwater.{" "}
+                </div>
+              </figcaption>
+  <br /> 
                   <Image
           src={Keswick10112026_2}
            className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-4"
@@ -96,6 +109,8 @@ export default function November2026() {
                    Looking down Derwentwater towards the Jaws of Borrowdale.{" "}
                 </div>
               </figcaption>
+
+              
          
            </div>           {/*  End of individual dated entry design and color template block */}
            </div> {/*End of individual dated entry block*/}
