@@ -2,7 +2,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import NovemberBonfire from "./novemberbonfire"; 
 import "./November2025.css"; 
-import LennieRecovered from '/public/imagesresized/LennieRecovered.jpg'
+import LennieRecovered from '/public/imagesresized/LennieRecovered.jpg';
+import Keswick10112026 from '/public/imagesresized/Keswick10112026.jpeg';
+import Keswick10112026_2 from '/public/imagesresized/Keswick10112026_2.jpg';
 
 export default function November2026() {
 
@@ -58,6 +60,47 @@ export default function November2026() {
            </div>           {/*  End of individual dated entry design and color template block */}
            </div> {/*End of individual dated entry block*/}
            </div>   
+
+
+
+                   <div className="mb-20"> 
+      <div className="flex flex-col max-w-full leading-1.5 sm:p-2 md:p-2 lg:p-2 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
+         <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
+        <div className="font-semibold py-2 px-12 text-white text-center dark:text-white"> 10th November 2026, Monday.</div> {/*End of news date block*/} 
+        <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 p-1 bg-[#773f3f]">Day in Keswick meeting Robin and Cathy and the dogs Nell and Wilf.</div> {/*End of news header block*/}
+        
+        <div className="text-left pr-3 pl-3 md:pr-4 md:pl-4 font-normal text-white dark:text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 px-4 py-4 bg-[#773f3f]">
+        Beautiful but cold weather welcomed us to Keswick in the Northern Lake District National Park today, where we had arranged to meet up with Robin and Cathy for the day. 
+         <br />
+          <br />           
+        We spent a very pleasant and relaxing day catching up on news and admiring the views and of course visiting several cafés for food and drink. The summer crowds seemed to have disappeared now, so Keswick was quieter than it often is, which was great.
+
+         <br />
+         <br />  
+         <Image
+          src={Keswick10112026}
+           className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-4"
+                  alt="Photo of Robin, Cathy, Jill and Bernard in Keswick"/>
+                   <figcaption className="novemberFigCaption">
+                <div className="italic text-center block ml-auto mr-auto w-[90%] md:w-[70%] lg:w-[60%]">
+                   Cathy, Jill, Robin and Bernard enjoying themselves in Keswick.{" "}
+                </div>
+              </figcaption>
+ <br />
+                  <Image
+          src={Keswick10112026_2}
+           className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-black-400 border-4 mt-1 mb-4"
+                  alt="Photo looking down Derwentwater towards the Jaws of Borrowdale"/>
+                   <figcaption className="novemberFigCaption">
+                <div className="italic text-center block ml-auto mr-auto w-[90%] md:w-[70%] lg:w-[60%]">
+                   Looking down Derwentwater towards the Jaws of Borrowdale.{" "}
+                </div>
+              </figcaption>
+         
+           </div>           {/*  End of individual dated entry design and color template block */}
+           </div> {/*End of individual dated entry block*/}
+           </div> 
+            </div>
 
           
 
