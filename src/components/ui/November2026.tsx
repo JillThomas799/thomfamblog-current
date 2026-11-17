@@ -6,6 +6,7 @@ import LennieRecovered from '/public/imagesresized/LennieRecovered.jpg';
 import Keswick10112026 from '/public/imagesresized/Keswick10112026.jpeg';
 import Keswick10112026_2 from '/public/imagesresized/Keswick10112026_2.jpg';
 import Keswick10112026_4 from '/public/images/DoNotDelete/Keswick10112026_4.jpg';
+import LangdaleNeolithicAxeTitled from '/public/imagesresized/LangdaleNeolithicAxeTitled.jpg';
 
 
 export default function November2026() {
@@ -117,12 +118,66 @@ export default function November2026() {
            </div> 
             </div>
 
+            <div className="mb-20">
+          <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
+            <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
+              <div className="font-semibold py-2 px-2 bg-b[#773f3f] m-4 text-white text-center dark: white "> 14th November 2026, Saturday</div> {/*End of news date block*/}
+              <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 p-1 bg-[#773f3f] ">Visit to Tullie House Museum to see the pop-up A66 finds exhibition and the Picturing Place Exhibition.</div> {/*End of news header block*/}
+
+              <div className="pr-1 pl-1 md:p-4 font-normal text- center lg:text-left text-white dark-white border-solid border-black border-2 bg-[#773f3f]">
+                The A66 Pop Up exhibition at the Tullie has been one of a series of events organised by Oxford Cotswold Archeology along the Northern Trans-Pennine route, bringing the story of the A66 excavations directly to local venues. Other locations for the event have included sites in Warcop, Appleby, Kirkby Thore and Penrith, with Carlisle's Tullie House being the final event. To find out more about the A66 Northern Trans-Pennine Project by Oxford Cotswold Archaeology, click  <Link href="https://oxfordcotswoldarchaeology.org.uk/project/a66/" target="_blank" className="underline decoration-[#E6871A] text-[#E6871A] font-semibold" >here</Link>.
+                <br /> 
+                <br />
+                The exhibition showcased remarkable discoveries uncovered during archaeological investigations carried out as part of the A66 Northern Trans-Pennine upgrade with findings which date from paleolithic to medieval times.
+               <br /> 
+                <br />
+                At each event, there was the opportunity to:
+                <ul>
+               <li className="list-disc ml-4"> View and handle archaeological artefacts discovered during the A66 excavations;</li>
+               <li className="list-disc ml-4">Learn about the excavation process and how archaeologists investigate the past;</li>
+               <li className="list-disc ml-4">Explore displays and interpretation panels explaining key discoveries;</li>
+               <li className="list-disc ml-4">Meet members of the archaeological team and ask questions about the findings from the project;</li>
+               <li className="list-disc ml-4">Discover how local communities have shaped and been shaped by this landscape through time;</li>
+               <li className="list-disc ml-4">Get involved in a range of activities.</li>
+               </ul>
+
+              </div> {/*End of news content block*/}
+            </div> {/*End of individual dated entry design and color template block*/}
+            
+            <div className="flex flex-col bg-[#773f3f] border-solid border-2 border-black pb-2 pt-2 mr-[0%] ml-[0%] mt-5 mb-4  justify-center text-center">
+
+                  <div className="m-4 p-2 md:p-4 font-semibold  border-solid border-black border-2 bg-[#b55b4b]">Click on the image below to open the album of our visit to the A66 pop-up exhibition at the Tullie Museum, Carlisle.
+                    <br /> <br />
+                    The individual comments on the photos will take you through
+                    the full story of our experience.
+                  </div>
+                  <br />
+                  <br />
+                  <Link
+                    href="https://photos.app.goo.gl/ummHWdULRKEJmNMp6"
+                    target="_blank"
+                  >
+                    <Image
+                      src={LangdaleNeolithicAxeTitled}
+                      className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-[#E6871A] border-2 mt-1 mb-11 rounded-[70%]"
+                      alt="Photo of Bernard, Jill, and Harry on the Housesteads to Sewing Shields section of the Hadrian's Wall Path."
+                    />
+                  </Link>
+
+                </div>{/*End of individual dated entry photo album block*/}
+
+
+          </div> {/*End of individual dated entry block*/}
+
+          
+
           
 
 
       </div> {/*End of November block*/}
       </div> {/*End of November block background*/}
      </div>
+      </div>
      
      
       
