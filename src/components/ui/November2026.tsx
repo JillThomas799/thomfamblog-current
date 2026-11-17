@@ -125,7 +125,8 @@ export default function November2026() {
               <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 p-1 bg-[#773f3f] ">Visit to Tullie House Museum to see the pop-up A66 finds exhibition and the Picturing Place Exhibition.</div> {/*End of news header block*/}
 
               <div className="pr-1 pl-1 md:p-4 font-normal text- center lg:text-left text-white dark-white border-solid border-black border-2 bg-[#773f3f]">
-                The A66 Pop Up exhibition at the Tullie has been one of a series of events organised by Oxford Cotswold Archeology along the Northern Trans-Pennine route, bringing the story of the A66 excavations directly to local venues. Other locations for the event have included sites in Warcop, Appleby, Kirkby Thore and Penrith, with Carlisle's Tullie House being the final event. To find out more about the A66 Northern Trans-Pennine Project by Oxford Cotswold Archaeology, click  <Link href="https://oxfordcotswoldarchaeology.org.uk/project/a66/" target="_blank" className="underline decoration-[#E6871A] text-[#E6871A] font-semibold" >here</Link>.
+                The A66 Pop Up exhibition at the Tullie has been one of a series of events organised by Oxford Cotswold Archeology along the Northern Trans-Pennine route, bringing the story of the A66 excavations directly to local venues. Other locations for the event have included sites in Warcop, Appleby, Kirkby Thore and Penrith, with Carlisle's Tullie House being the final event, as once the project is complete, the archaeological archive and finds will be deposited here, ensuring they remain accessible for future research, learning, and enjoyment. 
+               To find out more about the A66 Northern Trans-Pennine Project by Oxford Cotswold Archaeology, click  <Link href="https://oxfordcotswoldarchaeology.org.uk/project/a66/" target="_blank" className="underline decoration-[#E6871A] text-[#E6871A] font-semibold" >here</Link>.
                 <br /> 
                 <br />
                 The exhibition showcased remarkable discoveries uncovered during archaeological investigations carried out as part of the A66 Northern Trans-Pennine upgrade with findings which date from paleolithic to medieval times.
@@ -140,7 +141,26 @@ export default function November2026() {
                <li className="list-disc ml-4">Discover how local communities have shaped and been shaped by this landscape through time;</li>
                <li className="list-disc ml-4">Get involved in a range of activities.</li>
                </ul>
-
+                <br /> 
+                <br />
+                In addition to visiting A66 Pop Up exhibition, we also visited the <Link href="https://guides.bloombergconnects.org/en-US/guide/tullieHouseMuseumArtGallery/exhibition/2c557f6a-aeea-472d-bb6e-cebd282b5d70" target="_blank" className="underline decoration-[#E6871A] text-[#E6871A] font-semibold" >Picturing Places</Link> exhibition which is currently running as a special exhibition at the Tullie Museum and Art Gallery until the 10th January 2027.
+                 <br /> 
+                <br />
+                The Picturing Places exhibition focuses on the work of three significant artists in terms of artwork involving Carlisle and its rural surrounds, namely Thomas Bushby, Sam Bough and William Blacklock. Central to the work of all 3 artists is the notion of place and the unique landscapes of Carlisle and Cumberland that inspired them. 
+                <br /> 
+                <br />                
+                Although they were working within a similar timeframe, their approaches to capturing what they saw were quite different. Although different in temperament, all three artists produced paintings and drawings that are both beautifully observed and brilliantly executed. Their works take the visitor on a journey, starting bang in the centre of Carlisle before rippling out to the neighbouring villages and beyond to the Lakes, Fells and wild places further afield.
+               <br /> 
+                <br /> 
+                Thomas Bushby (1861-1918) was  born in Eccleshill, near Bradford, West Yorkshire, a prominent local artist who was an illustrator at Hudson Scott & Sons (Metal Box) and painted watercolours of local scenes around Upperby, Brisco and Wreay. His work captures country life just before the 1st World War brought about so much change. More about Thomas Bushby's life and work can be found <Link href="https://www.notjusthockney.info/bushby-thomas/" target="_blank" className="underline decoration-[#E6871A] text-[#E6871A] font-semibold" >here</Link>. 
+               <br /> 
+                <br />  
+                Sam Bough (1822-1878) was born in Abbey Street, Carlisle. He was largely self taught and was influenced by the work of J.M.W Turner. After an unsuccessful attempt to live as an artist in Carlisle he obtained a job as a theatre scenery painter in Manchester in 1845, later also working in Glasgow in the same role. He moved to Edinburgh in 1855 and spent the remainder of his life there. He was admired by Robert Louis Stevenson and became one of the most influential figures in the development of 19th-century Scottish landscape painting.  Bough enjoyed tremendous popularity as an artist. 
+                <br /> 
+                <br />
+                William Blacklock (1816-1858) was born in Shoreditch, London, but the Blacklock family had roots in Cumberland dating back to the 1730s, and in 1818 they moved from London to the small village of Cumwhitton, about eight miles east of Carlisle, where the family owned property and farmed. As a boy, Blacklock was apprenticed to Charles Thurnam, a publisher and bookseller in Carlisle and a friend of his father. He was, however, keen on drawing and decided to pursue a career as an artist. Carlisle had become an important artistic centre since the Academy of Art had opened in 1823, and Blacklock was taught there by the Carlisle artist Matthew Ellis Nutter.
+               <br /> 
+                <br />
               </div> {/*End of news content block*/}
             </div> {/*End of individual dated entry design and color template block*/}
             
