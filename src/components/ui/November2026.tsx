@@ -198,14 +198,16 @@ export default function November2026() {
                 <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 p-1 bg-[#773f3f] ">Visit to Durham and Durham Cathedral.</div> {/*End of news header block*/}
 
               </div> {/*End of individual dated entry design and color template block*/}
-
-              <div className="flex flex-col bg-[#773f3f] border-solid border-2 border-black pb-2 pt-2 mr-[0%] ml-[0%] mt-5 mb-4  justify-center text-center">
+ <div className="pr-1 pl-1 md:p-4 font-semibold text- center lg:text-left text-white dark-white border-solid border-black border-2 bg-[#773f3f]">
               For those who regularly read the blog, yes we have written about Durham previously but today was important as whilst we have been to the cathedral museum previously, we have on 2 occasions been unable to enter the main body of the cathedral due to it being used for university graduation ceremonies.
               <br />
                 <br />
                 However, today we were in luck, as the main Cathedral was accessible and with Harry to accompany us, who had seen neither the cathedral nor the museum before, we were happy to be able to have a detailed look around.
-               <br />
                 <br />
+                <br />
+                </div>
+                </div>
+ <div className="flex flex-col bg-[#773f3f] border-solid border-2 border-black pb-2 pt-2 mr-[0%] ml-[0%] mt-5 mb-4  justify-center text-center">
                 <div className="m-4 p-2 md:p-4 font-semibold  border-solid border-black border-2 bg-[#b55b4b]">Click on the image below to open the album of our visit to Durham and Durham Cathedral.
                   <br /> <br />
                   The individual comments on the photos will take you through
@@ -223,15 +225,13 @@ export default function November2026() {
                     alt="Photo of Neolithic Langdale Axe "
                   />
                 </Link>
+                </div>
 
               </div>{/*End of individual dated entry photo album block*/}
+           
 
 
-            </div> {/*End of individual dated entry block*/}
-
-
-
-          </div>
+          
           </div> {/*End of November block*/}
         </div> {/*End of November block background*/}
       </div>
