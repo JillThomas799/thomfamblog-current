@@ -206,7 +206,7 @@ export default function November2026() {
                 <br />
                 <br />
                 </div>
-                </div>
+                
  <div className="flex flex-col bg-[#773f3f] border-solid border-2 border-black pb-2 pt-2 mr-[0%] ml-[0%] mt-5 mb-4  justify-center text-center">
                 <div className="m-4 p-2 md:p-4 font-semibold  border-solid border-black border-2 bg-[#b55b4b]">Click on the image below to open the album of our visit to Durham and Durham Cathedral.
                   <br /> <br />
@@ -226,7 +226,7 @@ export default function November2026() {
                   />
                 </Link>
                 </div>
-
+</div>
               </div>{/*End of individual dated entry photo album block*/}
            
 
