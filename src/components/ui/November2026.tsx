@@ -7,6 +7,7 @@ import Keswick10112026 from '/public/imagesresized/Keswick10112026.jpeg';
 import Keswick10112026_2 from '/public/imagesresized/Keswick10112026_2.jpg';
 import Keswick10112026_4 from '/public/images/DoNotDelete/Keswick10112026_4.jpg';
 import LangdaleNeolithicAxeTitled from '/public/imagesresized/LangdaleNeolithicAxeTitled.jpg';
+import Durham21112026Titled from '/public/imagesresized/Durham21112026Titled.jpg';
 
 
 export default function November2026() {
@@ -190,11 +191,44 @@ export default function November2026() {
 
             </div> {/*End of individual dated entry block*/}
 
+ <div className="mb-20">
+            <div className="flex flex-col max-w-full leading-1.5 p-4 md:p-2 lg:p-4 m-4 border-gray-800 border-solid border-2 bg-[#b55b4b]">
+              <div className="text-md md:text-lg max-w-full font-semibold text-white text-center dark:text-white justify-center items-center">
+                <div className="font-semibold py-2 px-2 bg-b[#773f3f] m-4 text-white text-center dark: white "> 21st November 2026, Saturday</div> {/*End of news date block*/}
+                <div className="font-semibold text-white border-solid border-black border-2 mr-1 ml-1 mb-2 mt-2 p-1 bg-[#773f3f] ">Visit to Durham and Durham Cathedral.</div> {/*End of news header block*/}
+
+                <div className="pr-1 pl-1 md:p-4 font-normal text- center lg:text-left text-white dark-white border-solid border-black border-2 bg-[#773f3f]">
+                 </div>
+              </div> {/*End of individual dated entry design and color template block*/}
+
+              <div className="flex flex-col bg-[#773f3f] border-solid border-2 border-black pb-2 pt-2 mr-[0%] ml-[0%] mt-5 mb-4  justify-center text-center">
+
+                <div className="m-4 p-2 md:p-4 font-semibold  border-solid border-black border-2 bg-[#b55b4b]">Click on the image below to open the album of our visit to Durham and Durham Cathedral.
+                  <br /> <br />
+                  The individual comments on the photos will take you through
+                  the full story of our experience.
+                </div>
+                <br />
+                <br />
+                <Link
+                  href="https://photos.app.goo.gl/FJSqRzzWcPjvEdur5"
+                  target="_blank"
+                >
+                  <Image
+                    src={Durham21112026Titled}
+                    className="block ml-auto mr-auto h-auto w-[90%] md:w-[70%] lg:w-[60%] border-solid border-[#E6871A] border-2 mt-1 mb-11 rounded-[70%]"
+                    alt="Photo of Neolithic Langdale Axe "
+                  />
+                </Link>
+
+              </div>{/*End of individual dated entry photo album block*/}
+
+
+            </div> {/*End of individual dated entry block*/}
 
 
 
-
-
+          </div>
           </div> {/*End of November block*/}
         </div> {/*End of November block background*/}
       </div>
